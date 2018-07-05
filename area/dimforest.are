@@ -1,0 +1,1346 @@
+#AREA   Dim Forest~
+
+
+
+#VERSION 53
+#AUTHOR Azathoth~
+
+#RANGES
+0 0 0 0 0 0 0 0 0
+$
+
+#RESETMSG &zA strong wind blows through the forest~
+
+#FLAGS
+0 30
+
+#ECONOMY 0 28514100 0
+
+#MOBILES
+#28150
+A rabid wolf~
+a rabid wolf~
+A large snarling wolf is here, foaming at the mouth.
+~
+This large wolf appears to be foaming at the mouth. What an odd sight. 
+Don't get too close or it might just drool on you, or perhaps just take 
+your arm off. 
+~
+65701 0 0 0 C
+0 0 7 7 8 6
+5d5+115 2d3+3 0 0 0
+0 0
+112 112 0
+21 13 13 19 17 13 13 50
+-5 0 -5 0 -3
+69 0 0 0 1 1 50
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+2 0 65541 0 0 0 0 2 2
+#28151
+rabid wild elf~
+a rabid wild elf~
+A crazed wild elf is here, screaming about death to everyone.
+~
+This elf is crazy. He running around naked attacking everything that moves 
+that he can see. It would be most wise to stay away from this maniac. 
+~
+65701 0 0 0 C
+0 0 8 8 7 6
+10d2+125 4d2+1 0 0 0
+100 0
+112 112 0
+19 20 18 19 15 13 13 30
+-9 -3 -3 -3 -3
+1 0 0 0 1 1 30
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 511 0 0 0 2 16 524290
+#28152
+well trained wild elf~
+A well trained wild elf~
+A well trained wild elf is here, putting on his war paint.
+~
+~
+33 0 544 0 C
+0 0 8 7 7 7
+1d40+115 4d2+2 0 0 0
+1250 0
+112 112 0
+18 19 18 19 13 13 13 35
+0 0 0 0 0
+1 0 0 0 1 1 35
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 2 0 3
+#28153
+elf guardian forest~
+The &GGuardian of the Forest&w~
+A large elf is here, his skin glowing a pale &Ggreen&w
+~
+~
+4194339 0 32 0 C
+0 0 9 9 9 9
+2d60+175 3d4+3 0 0 0
+20000 0
+112 112 1
+21 21 21 21 18 13 13 50
+0 -10 -10 -10 -15
+1 0 0 0 1 1 50
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 1048576 7296 256 2 1073742816 524291
+#28154
+radiant phoenix~
+A radiant &RPhoenix&w~
+A large Fiery &RPhoenix&P is here protecting it's nest and prize.
+~
+This large mythical phoenix looks as if it's protecting what it's wearing. 
+Flames spew from it's body and you can feel the tremendous heat eminating 
+from it. It would be for the best that you do not disturb this creature's 
+nest, for it might be the last thing you ever do. 
+~
+6291491 0 524832 0 C
+0 0 10 9 9 9
+3d20+192 3d4+4 0 0 0
+8000 0
+112 112 0
+23 24 25 20 15 13 13 40
+-7 -7 -7 -7 -12
+31 0 0 0 1 1 40
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 136 7169 2 8 67108864 3
+> death_prog 30~
+mpoload 28150
+mpoload 28151
+drop all
+mpmload 28154
+mpe _ora $I collapses, its feathers burning to embers...
+mpe _ora And in a brilliant flash, is reborn!
+mpe _cya Shaking its wings once, the new Phoenix drops a feather,
+mpe _cya as well as a key.
+~
+|
+#28199
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#28150
+flaming key~
+&wa &Rflaming &wkey~
+Here lies a small key emitting &Rflames.~
+~
+18 268435457 1
+28188 0 0 0
+1.000000 0 0 0 0 0 0
+#28151
+flaming feather~
+a &Rflaming feather&G~
+A strange feather is here, emitting a plumage of &Rfire.~
+~
+1 65 1
+0 0 0 0
+1.000000 15000 0 0 0 0 2
+A
+12 20 0
+A
+5 -2 0
+A
+13 -5 0
+A
+1 1 0
+A
+97 135 0
+A
+96 70 0
+#28199
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#0
+
+
+#ROOMS
+#28150
+Path through the dim forest~
+It's very hard to see anything here with all the trees blocking out the 
+sun. You can hardly make out the path with which you are to walk on. In 
+the darkness, you hear some strange growling. 
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 28151
+0 0
+D2
+~
+~
+134217728 -1 16000
+906 329
+S
+#28151
+Path through the dim forest~
+It's very hard to see anything here with all the trees blocking out the 
+sun. You can hardly make out the path with which you are to walk on. In 
+the darkness, you hear some strange growling. 
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 28173
+0 0
+D1
+~
+~
+0 -1 28152
+0 0
+D2
+~
+~
+0 -1 28150
+0 0
+D3
+~
+~
+0 -1 28197
+0 0
+S
+#28152
+Path through the dim forest~
+It's very hard to see anything here with all the trees blocking out the 
+sun. You can hardly make out the path with which you are to walk on. In 
+the darkness, you hear some strange growling. 
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 28153
+0 0
+D1
+~
+~
+0 -1 28178
+0 0
+D2
+~
+~
+0 -1 28195
+0 0
+D3
+~
+~
+0 -1 28151
+0 0
+S
+#28153
+Base of a tall oak tree~
+Coming out of the forest, you walk to a towering oak. Looking up you can't 
+see much due to the small cloud and fog layering obscuring your vision. 
+This tree is one of the widest you've ever seen. The bark definitely looks 
+old and almost looks like you could pull it off the tree. 
+~
+4&2
+0 3
+0
+0
+D0
+~
+bark tree~
+9 -1 28157
+0 0
+D2
+~
+~
+0 -1 28152
+0 0
+D4
+~
+~
+0 -1 28154
+0 0
+E
+bark tree~
+Looking closely at the bark of the tree, it appears as if it's not really 
+bark at all. Looking closer at it, you can hear the faint sounds of 
+something inside of the tree. You also see a small metal hinge attached to 
+the leftmost piece of bark. 
+~
+S
+#28154
+Up the trunk of the tree~
+This is as far as can be climbed. The fog and cloud cover is just too 
+thick to go any higher. From here you can reach some branches going in all 
+directions from the trees. There are some strange carvings on the trees 
+depicting a large bird with something around it's neck. No sense trying to 
+decipher what it means, it could be nonsense written by a child. 
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 28162
+0 0
+D1
+~
+~
+0 -1 28155
+0 0
+D2
+~
+~
+0 -1 28160
+0 0
+D3
+~
+~
+0 -1 28158
+0 0
+D5
+~
+~
+0 -1 28153
+0 0
+D6
+~
+~
+0 -1 28169
+0 0
+D7
+~
+~
+0 -1 28165
+0 0
+D8
+~
+~
+0 -1 28167
+0 0
+D9
+~
+~
+0 -1 28171
+0 0
+S
+#28155
+Along the branches~
+You make your way down one of the branches of the large tree. There looks 
+to be signs of battle from nicks gorged out of the branches. You ignore 
+the fact the next battle could be with you. 
+~
+0&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 28156
+0 0
+D3
+~
+~
+0 -1 28154
+0 0
+S
+#28156
+Along the branches~
+You make your way down one of the branches of the large tree. There looks 
+to be signs of battle from nicks gorged out of the branches. You ignore 
+the fact the next battle could be with you. 
+~
+0&2
+0 3
+0
+0
+D3
+~
+~
+0 -1 28155
+0 0
+S
+#28157
+Inside the hollow tree~
+From inside the tree, you can hear commotion down somewhere in the 
+darkness. The light of day barely creeps into this place from the outside. 
+It's cold, dark, and damp and for some reason doesn't feel very 
+comfortable. Perhaps it would be better to venture back outside. 
+~
+5
+0 13
+0
+0
+D2
+~
+~
+1 -1 28153
+0 0
+D5
+~
+~
+0 -1 28180
+0 0
+S
+#28158
+Along the branches~
+You make your way down one of the branches of the large tree. There looks 
+to be signs of battle from nicks gorged out of the branches. You ignore 
+the fact the next battle could be with you. 
+~
+0&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 28154
+0 0
+D3
+~
+~
+0 -1 28159
+0 0
+S
+#28159
+Along the branches~
+You make your way down one of the branches of the large tree. There looks 
+to be signs of battle from nicks gorged out of the branches. You ignore 
+the fact the next battle could be with you. 
+~
+0&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 28158
+0 0
+S
+#28160
+Along the branches~
+You make your way down one of the branches of the large tree. There looks 
+to be signs of battle from nicks gorged out of the branches. You ignore 
+the fact the next battle could be with you. 
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 28154
+0 0
+D2
+~
+~
+0 -1 28161
+0 0
+S
+#28161
+Along the branches~
+You make your way down one of the branches of the large tree. There looks 
+to be signs of battle from nicks gorged out of the branches. You ignore 
+the fact the next battle could be with you. 
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 28160
+0 0
+S
+#28162
+Along the branches~
+You make your way down one of the branches of the large tree. There looks 
+to be signs of battle from nicks gorged out of the branches. You ignore 
+the fact the next battle could be with you. 
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 28163
+0 0
+D2
+~
+~
+0 -1 28154
+0 0
+S
+#28163
+Along the branches~
+You make your way down one of the branches of the large tree. There looks 
+to be signs of battle from nicks gorged out of the branches. You ignore 
+the fact the next battle could be with you. 
+~
+0&2
+0 3
+0
+0
+D2
+~
+~
+0 -1 28162
+0 0
+S
+#28164
+&WA Large &YNest &Walong the branches&w~
+This place seems to be a giant bird's nest. This must be the home of the 
+foul creature that little artwork outside depicted. It would probably be 
+wise to get out while you can, before whatever lives here sees you. 
+~
+5&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 28166
+0 0
+S
+#28165
+Along the branches~
+You make your way down one of the branches of the large tree. There looks 
+to be signs of battle from nicks gorged out of the branches. You ignore 
+the fact the next battle could be with you. 
+~
+0&2
+0 3
+0
+0
+D7
+~
+~
+0 -1 28166
+0 0
+D8
+~
+~
+0 -1 28154
+0 0
+S
+#28166
+Along the branches~
+You make your way down one of the branches of the large tree. There looks 
+to be signs of battle from nicks gorged out of the branches. You ignore 
+the fact the next battle could be with you. 
+~
+0&2
+0 3
+0
+0
+D3
+~
+~
+0 -1 28164
+0 0
+D8
+~
+~
+0 -1 28165
+0 0
+S
+#28167
+Along the branches~
+You make your way down one of the branches of the large tree. There looks 
+to be signs of battle from nicks gorged out of the branches. You ignore 
+the fact the next battle could be with you. 
+~
+0&2
+0 3
+0
+0
+D7
+~
+~
+0 -1 28154
+0 0
+D8
+~
+~
+0 -1 28168
+0 0
+S
+#28168
+Along the branches~
+You make your way down one of the branches of the large tree. There looks 
+to be signs of battle from nicks gorged out of the branches. You ignore 
+the fact the next battle could be with you. 
+~
+0&2
+0 3
+0
+0
+D7
+~
+~
+0 -1 28167
+0 0
+S
+#28169
+Along the branches~
+You make your way down one of the branches of the large tree. There looks 
+to be signs of battle from nicks gorged out of the branches. You ignore 
+the fact the next battle could be with you. 
+~
+0&2
+0 3
+0
+0
+D6
+~
+~
+0 -1 28170
+0 0
+D9
+~
+~
+0 -1 28154
+0 0
+S
+#28170
+Along the branches~
+You make your way down one of the branches of the large tree. There looks 
+to be signs of battle from nicks gorged out of the branches. You ignore 
+the fact the next battle could be with you. 
+~
+0&2
+0 3
+0
+0
+D9
+~
+~
+0 -1 28169
+0 0
+S
+#28171
+Along the branches~
+You make your way down one of the branches of the large tree. There looks 
+to be signs of battle from nicks gorged out of the branches. You ignore 
+the fact the next battle could be with you. 
+~
+0&2
+0 3
+0
+0
+D6
+~
+~
+0 -1 28154
+0 0
+D9
+~
+~
+0 -1 28172
+0 0
+S
+#28172
+Along the branches~
+You make your way down one of the branches of the large tree. There looks 
+to be signs of battle from nicks gorged out of the branches. You ignore 
+the fact the next battle could be with you. 
+~
+0&2
+0 3
+0
+0
+D6
+~
+~
+0 -1 28171
+0 0
+S
+#28173
+Path through the dim forest~
+It's very hard to see anything here with all the trees blocking out the 
+sun. You can hardly make out the path with which you are to walk on. In 
+the darkness, you hear some strange growling. 
+~
+1&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 28174
+0 0
+D2
+~
+~
+0 -1 28151
+0 0
+S
+#28174
+Path through the dim forest~
+It's very hard to see anything here with all the trees blocking out the 
+sun. You can hardly make out the path with which you are to walk on. In 
+the darkness, you hear some strange growling. 
+~
+1&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 28175
+0 0
+D2
+~
+~
+0 -1 28173
+0 0
+D3
+~
+~
+0 -1 28176
+0 0
+S
+#28175
+Path through the dim forest~
+It's very hard to see anything here with all the trees blocking out the 
+sun. You can hardly make out the path with which you are to walk on. In 
+the darkness, you hear some strange growling. 
+~
+1&2
+0 3
+0
+0
+D2
+~
+~
+0 -1 28174
+0 0
+S
+#28176
+Path through the dim forest~
+It's very hard to see anything here with all the trees blocking out the 
+sun. You can hardly make out the path with which you are to walk on. In 
+the darkness, you hear some strange growling. 
+~
+1&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 28174
+0 0
+D3
+~
+~
+0 -1 28177
+0 0
+S
+#28177
+Path through the dim forest~
+It's very hard to see anything here with all the trees blocking out the 
+sun. You can hardly make out the path with which you are to walk on. In 
+the darkness, you hear some strange growling. 
+~
+1&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 28176
+0 0
+S
+#28178
+Path through the dim forest~
+It's very hard to see anything here with all the trees blocking out the 
+sun. You can hardly make out the path with which you are to walk on. In 
+the darkness, you hear some strange growling. 
+~
+1&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 28179
+0 0
+D1
+~
+~
+0 -1 28181
+0 0
+D3
+~
+~
+0 -1 28152
+0 0
+S
+#28179
+Path through the dim forest~
+It's very hard to see anything here with all the trees blocking out the 
+sun. You can hardly make out the path with which you are to walk on. In 
+the darkness, you hear some strange growling. 
+~
+1&2
+0 3
+0
+0
+D2
+~
+~
+0 -1 28178
+0 0
+S
+#28180
+Within the Great Tree~
+The hollow roots of the tree branch out everywhere into the darkness. 
+Looking around at what you can see, it's easy to tell that something, or 
+someone lives down here. 
+~
+0
+0 13
+0
+0
+D0
+~
+~
+0 -1 28186
+0 0
+D1
+~
+~
+0 -1 28191
+0 0
+D2
+~
+~
+0 -1 28187
+0 0
+D3
+~
+~
+0 -1 28193
+0 0
+D4
+~
+~
+0 -1 28157
+0 0
+S
+#28181
+Path through the dim forest~
+It's very hard to see anything here with all the trees blocking out the 
+sun. You can hardly make out the path with which you are to walk on. In 
+the darkness, you hear some strange growling. 
+~
+1&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 28182
+0 0
+D2
+~
+~
+0 -1 28183
+0 0
+D3
+~
+~
+0 -1 28178
+0 0
+S
+#28182
+Path through the dim forest~
+It's very hard to see anything here with all the trees blocking out the 
+sun. You can hardly make out the path with which you are to walk on. In 
+the darkness, you hear some strange growling. 
+~
+1&2
+0 3
+0
+0
+D2
+~
+~
+0 -1 28185
+0 0
+D3
+~
+~
+0 -1 28181
+0 0
+S
+#28183
+Path through the dim forest~
+It's very hard to see anything here with all the trees blocking out the 
+sun. You can hardly make out the path with which you are to walk on. In 
+the darkness, you hear some strange growling. 
+~
+1&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 28181
+0 0
+D2
+~
+~
+0 -1 28184
+0 0
+S
+#28184
+Path through the dim forest~
+It's very hard to see anything here with all the trees blocking out the 
+sun. You can hardly make out the path with which you are to walk on. In 
+the darkness, you hear some strange growling. 
+~
+1&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 28183
+0 0
+S
+#28185
+Path through the dim forest~
+It's very hard to see anything here with all the trees blocking out the 
+sun. You can hardly make out the path with which you are to walk on. In 
+the darkness, you hear some strange growling. 
+~
+1&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 28182
+0 0
+S
+#28186
+Within the Great Tree~
+The hollow roots of the tree branch out everywhere into the darkness. 
+Looking around at what you can see, it's easy to tell that something, or 
+someone lives down here. 
+~
+0
+0 13
+0
+0
+D0
+~
+~
+0 -1 28188
+0 0
+D2
+~
+~
+0 -1 28180
+0 0
+S
+#28187
+Within the Great Tree~
+The hollow roots of the tree branch out everywhere into the darkness. 
+Looking around at what you can see, it's easy to tell that something, or 
+someone lives down here. 
+~
+0
+0 13
+0
+0
+D0
+~
+~
+0 -1 28180
+0 0
+D2
+~
+~
+0 -1 28190
+0 0
+S
+#28188
+Lair of the &RPhoenix&w~
+This large room seemed to house some sort of creature. There's a large 
+cage in the center of the room that seems to have been left open. Whatever 
+was in it must have escaped and still might be lurking within the area 
+somewhere. There is a small keyhook on one of the bars of the cage, as if 
+whatever was here was guarding the door to the east. Too bad there's 
+nothing on the hook anymore. 
+~
+0
+0 13
+0
+0
+D1
+~
+~
+7 28150 28189
+0 0
+D2
+~
+~
+0 -1 28186
+0 0
+S
+#28189
+Lair of the &GGuardian of the Forest&w~
+This room is adorned with all sorts of battle souveneirs. Whoever lives 
+here most certainly has seen their share of blood and death and lived to 
+tell about it all. 
+~
+5
+0 13
+0
+0
+D3
+~
+~
+7 28150 28188
+0 0
+S
+#28190
+Within the Great Tree~
+The hollow roots of the tree branch out everywhere into the darkness. 
+Looking around at what you can see, it's easy to tell that something, or 
+someone lives down here. 
+~
+0
+0 13
+0
+0
+D0
+~
+~
+0 -1 28187
+0 0
+S
+#28191
+Within the Great Tree~
+The hollow roots of the tree branch out everywhere into the darkness. 
+Looking around at what you can see, it's easy to tell that something, or 
+someone lives down here. 
+~
+0
+0 13
+0
+0
+D1
+~
+~
+0 -1 28192
+0 0
+D3
+~
+~
+0 -1 28180
+0 0
+S
+#28192
+Within the Great Tree~
+The hollow roots of the tree branch out everywhere into the darkness. 
+Looking around at what you can see, it's easy to tell that something, or 
+someone lives down here. 
+~
+0
+0 13
+0
+0
+D3
+~
+~
+0 -1 28191
+0 0
+S
+#28193
+Within the Great Tree~
+The hollow roots of the tree branch out everywhere into the darkness. 
+Looking around at what you can see, it's easy to tell that something, or 
+someone lives down here. 
+~
+0
+0 13
+0
+0
+D1
+~
+~
+0 -1 28180
+0 0
+D3
+~
+~
+0 -1 28194
+0 0
+S
+#28194
+Within the Great Tree~
+The hollow roots of the tree branch out everywhere into the darkness. 
+Looking around at what you can see, it's easy to tell that something, or 
+someone lives down here. 
+~
+0
+0 13
+0
+0
+D1
+~
+~
+0 -1 28193
+0 0
+S
+#28195
+Path through the dim forest~
+It's very hard to see anything here with all the trees blocking out the 
+sun. You can hardly make out the path with which you are to walk on. In 
+the darkness, you hear some strange growling. 
+~
+1&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 28152
+0 0
+D2
+~
+~
+0 -1 28196
+0 0
+S
+#28196
+Path through the dim forest~
+It's very hard to see anything here with all the trees blocking out the 
+sun. You can hardly make out the path with which you are to walk on. In 
+the darkness, you hear some strange growling. 
+~
+1&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 28195
+0 0
+S
+#28197
+Path through the dim forest~
+It's very hard to see anything here with all the trees blocking out the 
+sun. You can hardly make out the path with which you are to walk on. In 
+the darkness, you hear some strange growling. 
+~
+1&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 28151
+0 0
+D2
+~
+~
+0 -1 28198
+0 0
+S
+#28198
+Path through the dim forest~
+It's very hard to see anything here with all the trees blocking out the 
+sun. You can hardly make out the path with which you are to walk on. In 
+the darkness, you hear something strange growling. 
+~
+1&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 28197
+0 0
+S
+#28199
+Floating in a void~
+~
+4
+0 1
+0
+0
+S
+#0
+
+
+#RESETS
+D 0 28153 0 1
+D 0 28188 1 2
+M 1 28153 1 28189 -1 -1 -1 1111155880 43200
+E 1 21012 1 13 21109 0 0
+E 1 21012 2 14 21109 0 0
+E 1 21053 1 10 21107 0 0
+E 1 21053 2 9 21107 0 0
+E 1 21057 1 7 21107 0 0
+E 1 21057 2 8 21107 0 0
+E 1 21049 1 5 21107 0 0
+E 1 21061 1 3 21107 0 0
+E 1 21066 1 6 21107 0 0
+D 0 28189 3 2
+M 1 28152 1 28190 -1 -1 -1 1111255766 14400
+E 1 21065 1 6 21105 0 0
+E 1 21048 1 5 21105 0 0
+E 1 21004 1 13 21107 0 0
+E 1 21061 1 3 21105 0 0
+M 1 28152 1 28187 -1 -1 -1 1111255853 14400
+E 1 21065 1 6 21105 0 0
+E 1 21048 1 5 21105 0 0
+E 1 21004 1 13 21107 0 0
+E 1 21061 1 3 21105 0 0
+M 1 28152 1 28180 -1 -1 -1 1111255793 14400
+E 1 21065 1 6 21105 0 0
+E 1 21048 1 5 21105 0 0
+E 1 21004 1 13 21107 0 0
+E 1 21061 1 3 21105 0 0
+M 1 28152 1 28186 -1 -1 -1 1111255821 14400
+E 1 21065 1 6 21105 0 0
+E 1 21048 1 5 21105 0 0
+E 1 21004 1 13 21107 0 0
+E 1 21061 1 3 21105 0 0
+M 1 28152 1 28191 -1 -1 -1 1111255798 14400
+E 1 21065 1 6 21105 0 0
+E 1 21048 1 5 21105 0 0
+E 1 21004 1 13 21107 0 0
+E 1 21061 1 3 21105 0 0
+M 1 28152 1 28192 -1 -1 -1 1111255837 14400
+E 1 21065 1 6 21105 0 0
+E 1 21048 1 5 21105 0 0
+E 1 21004 1 13 21107 0 0
+E 1 21061 1 3 21105 0 0
+M 1 28152 1 28193 -1 -1 -1 1111255756 14400
+E 1 21065 1 6 21105 0 0
+E 1 21048 1 5 21105 0 0
+E 1 21004 1 13 21107 0 0
+E 1 21061 1 3 21105 0 0
+M 1 28152 1 28194 -1 -1 -1 1111255767 14400
+E 1 21065 1 6 21105 0 0
+E 1 21048 1 5 21105 0 0
+E 1 21004 1 13 21107 0 0
+E 1 21061 1 3 21105 0 0
+M 0 28151 1 28154 -1 -1 -1 0 0
+M 0 28151 1 28154 -1 -1 -1 0 0
+M 0 28151 1 28154 -1 -1 -1 0 0
+M 0 28151 1 28154 -1 -1 -1 0 0
+M 0 28151 1 28154 -1 -1 -1 0 0
+M 0 28151 1 28154 -1 -1 -1 0 0
+M 0 28151 1 28154 -1 -1 -1 0 0
+M 0 28151 1 28154 -1 -1 -1 0 0
+M 0 28151 1 28154 -1 -1 -1 0 0
+M 0 28151 1 28154 -1 -1 -1 0 0
+M 0 28151 1 28154 -1 -1 -1 0 0
+M 0 28151 1 28154 -1 -1 -1 0 0
+M 0 28151 1 28154 -1 -1 -1 0 0
+M 0 28151 1 28154 -1 -1 -1 0 0
+M 0 28151 1 28154 -1 -1 -1 0 0
+M 0 28151 1 28154 -1 -1 -1 0 0
+M 0 28151 1 28154 -1 -1 -1 0 0
+M 0 28151 1 28154 -1 -1 -1 0 0
+M 0 28151 1 28154 -1 -1 -1 0 0
+M 0 28151 1 28154 -1 -1 -1 0 0
+M 0 28150 1 28197 -1 -1 -1 0 0
+M 0 28150 1 28197 -1 -1 -1 0 0
+M 0 28150 1 28197 -1 -1 -1 0 0
+M 0 28150 1 28197 -1 -1 -1 0 0
+M 0 28150 1 28197 -1 -1 -1 0 0
+M 0 28150 1 28151 -1 -1 -1 0 0
+M 0 28150 1 28151 -1 -1 -1 0 0
+M 0 28150 1 28151 -1 -1 -1 0 0
+M 0 28150 1 28151 -1 -1 -1 0 0
+M 0 28150 1 28151 -1 -1 -1 0 0
+M 0 28150 1 28174 -1 -1 -1 0 0
+M 0 28150 1 28174 -1 -1 -1 0 0
+M 0 28150 1 28174 -1 -1 -1 0 0
+M 0 28150 1 28174 -1 -1 -1 0 0
+M 0 28150 1 28174 -1 -1 -1 0 0
+M 0 28150 1 28152 -1 -1 -1 0 0
+M 0 28150 1 28152 -1 -1 -1 0 0
+M 0 28150 1 28152 -1 -1 -1 0 0
+M 0 28150 1 28152 -1 -1 -1 0 0
+M 0 28150 1 28152 -1 -1 -1 0 0
+M 0 28150 1 28181 -1 -1 -1 0 0
+M 0 28150 1 28181 -1 -1 -1 0 0
+M 0 28150 1 28181 -1 -1 -1 0 0
+M 0 28150 1 28181 -1 -1 -1 0 0
+M 0 28150 1 28181 -1 -1 -1 0 0
+M 1 28154 1 28164 -1 -1 -1 0 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  28150 spec_fido
+M  28152 spec_thief
+S
+
+
+#$

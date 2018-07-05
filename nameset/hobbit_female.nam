@@ -1,0 +1,49 @@
+/*****************************************************/
+/* HOBBIT_FEMALE.NAM                                 */
+/* Namnfil f”r namn med Albion-klang                 */
+/* Johan Danforth                                    */
+/* rader som b”rjar med / „r kommentar-rader         */
+/* varje section b”rjar med [xxx] enlig filen nedan  */
+/*****************************************************/
+/* Female hobbit names.                              */
+/*****************************************************/
+[start]
+A
+Aer
+C
+Crim
+E
+Fir
+M
+Nir
+Sar
+Se
+Si
+Vr
+Ye
+Yi
+[middle]
+/* mittstavelser skall b”rja och sluta med en vokal som a,o,u,i,e,y etc... */
+a
+e
+i
+ia
+o
+oi
+u
+[end]
+/* slutstavelser skall b”rja med en konsonant som b,k,t etc... */
+bi
+ki
+di
+dy
+doe
+froe
+gi
+goi
+grie
+drie
+brie
+nie
+[stop]
+/* Leave comment after stop, it is looking for empty space */

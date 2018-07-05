@@ -1,0 +1,4 @@
+#! /bin/csh -f
+
+gcc -Wall -o insertskill insertskill.c
+echo Done, please read the README and enjoy insertskill

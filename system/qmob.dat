@@ -1,0 +1,801 @@
+#MOB
+Boss         1
+Hidiff       2
+Lowdiff      1
+Name         an orc tribal head~
+Race         53
+Sex          1
+Flags        0&1
+End
+
+#MOB
+Boss         1
+Hidiff       2
+Lowdiff      1
+Name         an evil sprite~
+Race         85
+Sex          0
+Flags        0&0&0&1048577
+End
+
+#MOB
+Boss         1
+Hidiff       2
+Lowdiff      1
+Name         a mutated beast~
+Race         89
+Sex          0
+Flags        1
+End
+
+#MOB
+Boss         1
+Hidiff       2
+Lowdiff      1
+Name         a nasty ghoul~
+Race         36
+Sex          1
+Flags        0&65540
+End
+
+#MOB
+Boss         1
+Hidiff       2
+Lowdiff      1
+Name         a pack leader~
+Race         69
+Sex          1
+Flags        2
+End
+
+#MOB
+Boss         1
+Hidiff       2
+Lowdiff      1
+Name         a very large rat~
+Race         54
+Sex          2
+Flags        0&67108864
+End
+
+#MOB
+Boss         1
+Hidiff       2
+Lowdiff      1
+Name         a goblin ringleader~
+Race         17
+Sex          1
+Flags        0&0&512
+End
+
+#MOB
+Boss         1
+Hidiff       2
+Lowdiff      1
+Name         a young minotaur~
+Race         20
+Sex          1
+Flags        2&1
+End
+
+#MOB
+Boss         1
+Hidiff       2
+Lowdiff      1
+Name         Ravern~
+Race         0
+Sex          1
+Flags        32&16384&0&1048576
+End
+
+#MOB
+Boss         1
+Hidiff       2
+Lowdiff      1
+Name         Rivera~
+Race         1
+Sex          2
+Flags        67108864&16384&0&1048576
+End
+
+#MOB
+Boss         2
+Hidiff       2
+Lowdiff      1
+Name         A rusty golem~
+Race         40
+Sex          1
+Flags        8&0&0&1
+End
+
+#MOB
+Boss         2
+Hidiff       2
+Lowdiff      1
+Name         Ruskar the terrible~
+Race         18
+Sex          1
+Flags        2&603979776
+End
+
+#MOB
+Boss         2
+Hidiff       2
+Lowdiff      1
+Name         An old gargoyle~
+Race         34
+Sex          1
+Flags        0&1&0&16384
+End
+
+#MOB
+Boss         2
+Hidiff       2
+Lowdiff      1
+Name         Nimia~
+Race         21
+Sex          2
+Flags        0&268435457
+End
+
+#MOB
+Boss         2
+Hidiff       2
+Lowdiff      1
+Name         Krunga~
+Race         3
+Sex          1
+Flags        268435524&16384&0&1048576
+End
+
+#MOB
+Boss         2
+Hidiff       2
+Lowdiff      1
+Name         Stera~
+Race         1
+Sex          2
+Flags        268435490&131072&0&1048576
+End
+
+#MOB
+Boss         1
+Hidiff       5
+Lowdiff      3
+Name         a tortured soul~
+Race         67
+Sex          1
+Flags        4194304&0&0&1048576
+End
+
+#MOB
+Boss         1
+Hidiff       5
+Lowdiff      3
+Name         a slimy red ooze~
+Race         52
+Sex          0
+Flags        0&0&0&1048595
+End
+
+#MOB
+Boss         1
+Hidiff       5
+Lowdiff      3
+Name         a fledgling red dragon~
+Race         31
+Sex          2
+Flags        8388608&0&8390660&1048576
+End
+
+#MOB
+Boss         1
+Hidiff       5
+Lowdiff      3
+Name         a large salamander~
+Race         79
+Sex          1
+Flags        8388608&4
+End
+
+#MOB
+Boss         1
+Hidiff       5
+Lowdiff      3
+Name         a ravenous black bear~
+Race         24
+Sex          1
+Flags        9
+End
+
+#MOB
+Boss         1
+Hidiff       5
+Lowdiff      3
+Name         a demented freak of nature~
+Race         89
+Sex          1
+Flags        33554696&2&0&1048576
+End
+
+#MOB
+Boss         1
+Hidiff       5
+Lowdiff      3
+Name         a fleeting spirit~
+Race         84
+Sex          1
+Flags        16777216&65536&1048640&1048577
+End
+
+#MOB
+Boss         1
+Hidiff       5
+Lowdiff      3
+Name         Ukirm the quick~
+Race         4
+Sex          1
+Flags        2&32769
+End
+
+#MOB
+Boss         1
+Hidiff       5
+Lowdiff      3
+Name         Rimire the deadly~
+Race         3
+Sex          2
+Flags        4718729&32768&0&1048576
+End
+
+#MOB
+Boss         1
+Hidiff       5
+Lowdiff      3
+Name         Robert the wise~
+Race         0
+Sex          1
+Flags        4325408&67125248&0&1048576
+End
+
+#MOB
+Boss         2
+Hidiff       5
+Lowdiff      3
+Name         Writher the winged terror~
+Race         34
+Sex          1
+Flags        8388609&738361344
+End
+
+#MOB
+Boss         2
+Hidiff       5
+Lowdiff      3
+Name         Ryina the temptress~
+Race         42
+Sex          2
+Flags        16846866&81920&256&1048576
+End
+
+#MOB
+Boss         2
+Hidiff       5
+Lowdiff      3
+Name         Krin of the undead legions~
+Race         71
+Sex          1
+Flags        4194305&20481
+End
+
+#MOB
+Boss         2
+Hidiff       5
+Lowdiff      3
+Name         Peryia the deadly~
+Race         5
+Sex          2
+Flags        1280&1310720&768&1064960
+End
+
+#MOB
+Boss         2
+Hidiff       5
+Lowdiff      3
+Name         He who brings death~
+Race         0
+Sex          1
+Flags        4194309&147456&384&1048576
+End
+
+#MOB
+Boss         2
+Hidiff       5
+Lowdiff      3
+Name         Ruvera~
+Race         1
+Sex          1
+Flags        131105&336085057&256&1048576
+End
+
+#MOB
+Boss         1
+Hidiff       8
+Lowdiff      6
+Name         a zombie lord~
+Race         71
+Sex          1
+Flags        4194305&536891393&1376&1048576
+End
+
+#MOB
+Boss         1
+Hidiff       8
+Lowdiff      6
+Name         a bloodstenched werewolf~
+Race         47
+Sex          1
+Flags        16777217&282626&0&1048576
+End
+
+#MOB
+Boss         1
+Hidiff       8
+Lowdiff      6
+Name         a flux shapeshifter~
+Race         57
+Sex          1
+Flags        285343786&604258304&0&1048576
+End
+
+#MOB
+Boss         1
+Hidiff       8
+Lowdiff      6
+Name         a stealth shadow~
+Race         56
+Sex          1
+Flags        4194578&67158016&0&1048579
+End
+
+#MOB
+Boss         1
+Hidiff       8
+Lowdiff      6
+Name         a lessor demon~
+Race         67
+Sex          1
+Flags        8388616&282625&8192&1146992
+End
+
+#MOB
+Boss         1
+Hidiff       8
+Lowdiff      6
+Name         Evern the forceful~
+Race         1
+Sex          2
+Flags        4194315&906248192&0&1048576
+End
+
+#MOB
+Boss         1
+Hidiff       8
+Lowdiff      6
+Name         Krinder the bastard~
+Race         4
+Sex          1
+Flags        1073742098&603996194&0&1081344
+End
+
+#MOB
+Boss         1
+Hidiff       8
+Lowdiff      6
+Name         Brenda the vicious~
+Race         0
+Sex          2
+Flags        71368722&637550592&0&1048576
+End
+
+#MOB
+Boss         1
+Hidiff       8
+Lowdiff      6
+Name         Wrinkb the discusting~
+Race         3
+Sex          1
+Flags        4718729&603996162&0&1048577
+End
+
+#MOB
+Boss         1
+Hidiff       8
+Lowdiff      6
+Name         Dwern the unforgiving~
+Race         2
+Sex          1
+Flags        4325412&268615684&0&1081344
+End
+
+#MOB
+Boss         2
+Hidiff       8
+Lowdiff      6
+Name         Iviekeini the zombie lord~
+Race         71
+Sex          1
+Flags        2&872466432&1888&1087488
+End
+
+#MOB
+Boss         2
+Hidiff       8
+Lowdiff      6
+Name         Zimbera the greater demon~
+Race         67
+Sex          1
+Flags        8388633&872433666&384&1087488
+End
+
+#MOB
+Boss         2
+Hidiff       8
+Lowdiff      6
+Name         The Golem~
+Race         40
+Sex          0
+Flags        8388609&17317888&1048576&1087489
+End
+
+#MOB
+Boss         2
+Hidiff       8
+Lowdiff      6
+Name         Opurk the powerful~
+Race         3
+Sex          1
+Flags        75497481&606617666&0&1087489
+End
+
+#MOB
+Boss         2
+Hidiff       8
+Lowdiff      6
+Name         Luki of the magical divine~
+Race         0
+Sex          2
+Flags        -1459616000&-2080882624&964&1095680
+End
+
+#MOB
+Boss         2
+Hidiff       8
+Lowdiff      6
+Name         Eluluis the deceiver~
+Race         1
+Sex          1
+Flags        1078067234&805847105&464&1218560
+End
+
+#MOB
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         Zeinwki the wraith god~
+Race         67
+Sex          1
+Flags        75563035&874039298&768&1087491
+End
+
+#MOB
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         Weriekin the wight god~
+Race         68
+Sex          1
+Flags        71368723&872990721&768&1087488
+End
+
+#MOB
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         a greater god~
+Race         90
+Sex          1
+Flags        1082261515&70795266&64&1087491
+End
+
+#MOB
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         a dark-mithril gargoyle~
+Race         34
+Sex          1
+Flags        8388619&16957441&64&1087489
+End
+
+#MOB
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         a vampire elder~
+Race         67
+Sex          2
+Flags        4259859&1879588865&1840&1103872
+End
+
+#MOB
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         Elien the blessed force~
+Race         1
+Sex          1
+Flags        276889627&1627439170&8192&1087985
+End
+
+#MOB
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         Rin the terrible force~
+Race         0
+Sex          1
+Flags        276889627&1057538114&0&1087489
+End
+
+#MOB
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         Kerinini of the end~
+Race         3
+Sex          2
+Flags        75759691&1012187170&256&1089027
+End
+
+#MOB
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         Eikni the magical elite~
+Race         5
+Sex          1
+Flags        -1442707677&33046600&2&1089027
+End
+
+#MOB
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         Drazin of the beardless might force elite~
+Race         2
+Sex          1
+Flags        1078067243&906149890&2368&1153233
+End
+
+#MOB
+Boss         2
+Hidiff       13
+Lowdiff      11
+Name         Beelzebub~
+Race         89
+Sex          0
+Flags        75632683&133742626&388&1153395
+End
+
+#MOB
+Boss         2
+Hidiff       13
+Lowdiff      11
+Name         Licher the ethereal lich~
+Race         67
+Sex          1
+Flags        75632683&133744674&385&1088755
+End
+
+#MOB
+Boss         2
+Hidiff       13
+Lowdiff      11
+Name         Shiner the Wyvern Lord~
+Race         89
+Sex          1
+Flags        75632683&133744674&400&1154483
+End
+
+#MOB
+Boss         2
+Hidiff       13
+Lowdiff      11
+Name         Suni~
+Race         1
+Sex          1
+Flags        276959275&1643167810&8192&1087985
+End
+
+#MOB
+Boss         2
+Hidiff       13
+Lowdiff      11
+Name         Xermi~
+Race         0
+Sex          1
+Flags        276959275&1073266754&0&1087489
+End
+
+#MOB
+Boss         2
+Hidiff       13
+Lowdiff      11
+Name         Dunidim~
+Race         2
+Sex          1
+Flags        1082261547&939180034&2368&1153233
+End
+
+#MOB
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         a large griffin~
+Race         89
+Sex          1
+Flags        1077936150&604291073&4194304&1087488
+End
+
+#MOB
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         a mutated cyclops~
+Race         88
+Sex          2
+Flags        8388631&335560706&1048576&1087489
+End
+
+#MOB
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         a titan~
+Race         88
+Sex          1
+Flags        4194327&872431618&1048592&1087488
+End
+
+#MOB
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         a green dragon~
+Race         31
+Sex          2
+Flags        8519715&1589316&16&1103873
+End
+
+#MOB
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         a wraith~
+Race         67
+Sex          1
+Flags        4325419&1624066&0&1218560
+End
+
+#MOB
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         Sumner of the ancient clan~
+Race         2
+Sex          2
+Flags        8388631&805879809&0&38912
+End
+
+#MOB
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         Krix the fallen hero~
+Race         0
+Sex          1
+Flags        4194339&1040203778&832&1087488
+End
+
+#MOB
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         Ralph the trapped soul~
+Race         1
+Sex          1
+Flags        272629783&544751616&960&1087489
+End
+
+#MOB
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         Benji the fearful~
+Race         3
+Sex          1
+Flags        8388619&1006649352&1048960&1087489
+End
+
+#MOB
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         Krukimnk the all powerful~
+Race         5
+Sex          1
+Flags        4325666&553172992&960&1087490
+End
+
+#MOB
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         A possessed storm giant~
+Race         88
+Sex          1
+Flags        4194327&905461762&1&1087681
+End
+
+#MOB
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         A flux elemental~
+Race         84
+Sex          0
+Flags        71434279&5816322&524319&1103872
+End
+
+#MOB
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         A radiant unicorn~
+Race         89
+Sex          2
+Flags        1090650151&1589249&1048640&1087489
+End
+
+#MOB
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         Rimna~
+Race         0
+Sex          1
+Flags        8388643&1041776642&832&1087488
+End
+
+#MOB
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         Jorja~
+Race         1
+Sex          2
+Flags        276824087&544751618&960&1087489
+End
+
+#MOB
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         Brin~
+Race         2
+Sex          2
+Flags        8388631&811122690&0&1087488
+End
+
+#END

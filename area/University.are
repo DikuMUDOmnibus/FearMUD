@@ -1,0 +1,1270 @@
+#AREA   University~
+
+
+
+#VERSION 53
+#AUTHOR Xerves~
+
+#RANGES
+0 0 0 0 0 0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 30970500 0
+
+#MOBILES
+#42500
+master sin~
+Master Sin~
+Master Sin is here beating the hell out of students.
+~
+Sin is a large man dressed in only a simple robe. His arms are as thick as 
+tree trunks, but he carries himself with grace and poise. He fights 
+barehanded, but is one of the most respected fighters in all the realm. 
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#42501
+Slash~
+Slash~
+Slash the weaponsmaster will teach you how to fight.
+~
+Slash is a strong looking elf. He wears a glistening set of platemail, and 
+an immense two-handed sword like it were a toothpick. He greets all of his 
+students warmly, and demonstrates the finer points in fighting. 
+~
+67108883&4 0 0 0 C
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+13 13 13 13 13 13 13 15
+0 0 0 0 0
+1 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#42502
+Lawana~
+Lawana~
+Lawana, the sexy guild associate is here playing card games.
+~
+Lawana is a great piece of ass. She's dressed in a tight black leather cat 
+suit, and has some nice curves. She nimbly manipulates a deck of cards, 
+cutting it perfectly without any effort. 
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#42503
+pyro~
+Mr Pyro~
+Mr Pyro T Maniac is here lighting things on fire.
+~
+~
+1140850707&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#42504
+Adib~
+adib~
+Adib the earth wizard is ready to show you something.
+~
+~
+1140850707&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#42505
+Moafb~
+Moafb the stunning~
+Moafb is having a bad hair day.
+~
+Moafb is a curious looking fellow. His hair stands on end, and his eyes 
+are crackling with lightning. He has spent a bit too much time playing 
+with thunder. 
+~
+1140850707&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#42506
+Aqua~
+Aqua~
+The former queen, Aqua is here teaching her craft.
+~
+After ruling the greatest kingdom of old history, Aqua settled down and 
+became a simple teacher. Her magic was unparalleled. 
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 2
+#42507
+Jamain~
+Jamain~
+Jamain the air sorceror is here.
+~
+Jamain is a stout looking human. He is bald with a fierce look in his 
+eyes. A series of complex tattoo's covers his head. 
+~
+1140850707&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#42508
+Austinian~
+Austinian~
+Austinian the cleric is meditating.
+~
+A simple healer, Austinian has long since mastered the benevolant power of 
+the divine to heal mortal wounds. 
+~
+1140850707&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#42509
+Nathanel~
+Nathanel~
+Nathanel is here sharing his craft, spellbooks, with the world.
+~
+A simple looking man a first glance, but just by looking into his eyes you
+can see he possesses knowledge that is most useful.  He is but a simple
+man wearing simple clothes and possesses a large collection of tomes.
+~
+67108867&8192 0 0 0 C
+0 0 0 0 0 0
+5d20+850 0d0+0 0 0 0
+5000 0
+112 112 2
+12 18 17 14 12 13 15 15
+0 0 0 0 0
+0 0 0 0 1 1 15
+1 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#42510
+Rathan~
+Rathan~
+Rathan is here barking out commands to the trainees.
+~
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 1
+#42511
+Rikil~
+Rikil~
+Rikil is here teaching the fine arts of the Agent.
+~
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 1
+#42512
+Simina~
+Simina~
+Simina is here teaching the art of Fire and Water to the Mages of the World!
+~
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 2
+#42513
+Rion~
+Rion~
+Rion is here teaching the art of the Divine to all who will listen.
+~
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 1
+#42514
+Liyra~
+Liyra~
+Liyra is here training all those who will listen.
+~
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 2
+#42515
+Ryan~
+Ryan the Book Clerk~
+Ryan is here selling books to anyone who has the deep enough wallet to afford one.
+~
+~
+67108867&8192 0 0 0 C
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 1
+16 13 13 13 13 13 13 15
+0 0 0 0 0
+0 0 0 0 1 1 15
+2 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#42516
+Jumal~
+Jumal~
+Jumal is here training those interested in the arts.
+~
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 1
+#42517
+bash~
+Bash the Barbarian~
+Bash the Barbarian will teach you to smash!
+~
+The man is gigantic. His monsterous build and scarred face suggest that 
+he's spent many a minute in the heat of battle. 
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#42518
+Janel~
+Janel~
+Janel the shifty is here teaching his art to the masses.
+~
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 1
+#42519
+Rachel~
+Rachel~
+Rachel is here showing that women are a force to be reckened with.
+~
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 2
+#42520
+Dion~
+Dion~
+Dion is here teaching the art of the Divine to everyone else.
+~
+Dion is the brother of Rion. The two grew up together learning the powers 
+of gods in a church somewhere. Neither of them look like they've ever 
+banged a lady before. What wierdos! 
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 1
+#42521
+Master Tren~
+Master Tren~
+Master Tren is here teaching the softer side of the Spiritual arts.
+~
+Dion is the brother of Rion. The two grew up together learning the powers 
+of gods in a church somewhere. Neither of them look like they've ever 
+banged a lady before. What wierdos! 
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 1
+#42522
+Etu~
+Etu~
+Etu is here teaching those who wish to master the element of life.
+~
+After ruling the greatest kingdom of old history, Aqua settled down and 
+became a simple teacher. Her magic was unparalleled. 
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 2
+#42555
+god necrucifer~
+&xThe God, Necrucifer~
+&xA tremendous figure in flowing black robes is here, bringing death and disease upon the world.
+~
+This monstrosity stands over thirty feet tall. His gaunt figure is covered 
+in masses of festering and oozing wounds. Sinewous muscle is visible 
+underneath translucent skin. The figure wears tattered black cloaks that 
+do little to mask the stench. 
+~
+1073741825 0 0 -1000 C
+0 0 0 25 25 25
+0d0+0 10d10+100 0 0 0
+0 0
+112 112 0
+13 13 13 13 13 13 13 15
+-30 -30 -30 -30 -30
+0 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 1048576 0 0 0 2097152 524547
+#42599
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#42500
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#42501
+soljax statue~
+Statue of Soljax~
+A Statue cut to the image of Soljax stands here.~
+~
+8 0 0
+0 0 0 0
+1.000000 1000 0 0 0 0 0
+E
+statue of soljax~
+Soljax, the inspriation for the Academy, had a special statue built
+in his image.  However, I think the long ears might of been a little
+bit overdone, crazy little elf he is!
+~
+#42502
+Statue of xerves~
+Statue of Xerves~
+A Statue cut to the image of Xerves stands here.~
+~
+8 0 1
+0 0 0 0
+50.000000 5000 0 0 0 0 0
+E
+statue of xerves~
+It celebration of the opening of the Grand University, a statue of Xerves
+was made.  It appears those who sculpted the statue were a little confuse
+because the statue has a beard and long ears.  That would be one devilish
+creature if it really existed.  Poor child would be beat down if it stepped
+down an elvish or dwarvish road.  Hrm....
+~
+#42503
+fountain~
+A Fountain~
+A fountain is here pouring out fresh, crisp water.~
+~
+17 0 0
+10000 10000 0 0
+1.000000 11 0 21228 0 0 0
+#42504
+Anti Bitching Shield~
+The Shield of &RA&w&rNTI-&RB&w&ritching&w~
+Some god dropped a newly created Anti Bitching Shield here.~
+~
+9 0 129
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#42599
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#0
+
+
+#ROOMS
+#42500
+Grand Entrance to the Rolen University.~
+A set of enormous steps that stretch fifty feet wide lead up to the gaping 
+entrance of the building. Giant doors are framed by even larger marble 
+pillars that hold up an extended roof. The building has a large stone dome 
+on top, and has the appearance of a temple. 
+~
+4&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 42504
+0 0
+D2
+~
+~
+0 -1 42502
+0 0
+S
+#42501
+Steps to the Rolen University~
+The steps are made of gigantic slabs and mortar. They are kept 
+immaculately clean, and they are bone-white in the sun. The edges of the 
+stone are still sharp 
+~
+1073741824
+0 1
+0
+0
+D0
+~
+~
+0 -1 42500
+0 0
+D1
+~
+~
+0 -1 42502
+0 0
+S
+#42502
+Steps to the Rolen University~
+The steps are made of gigantic slabs and mortar. They are kept 
+immaculately clean, and they are bone-white in the sun. The edges of the 
+stone are still sharp 
+~
+1073741824&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 42500
+0 0
+D2
+~
+~
+134217728 -1 16000
+773 313
+S
+#42503
+Steps to the Rolen University~
+The steps are made of gigantic slabs and mortar. They are kept 
+immaculately clean, and they are bone-white in the sun. The edges of the 
+stone are still sharp 
+~
+1073741824
+0 1
+0
+0
+D0
+~
+~
+0 -1 42500
+0 0
+D3
+~
+~
+0 -1 42502
+0 0
+S
+#42504
+Inside the Lobby.~
+The entrance chamber is enormous. Above, the inside of the domed ceiling 
+soars overhead. The voices of everyone inside are lost in the sheer size 
+of the room. Four gargantuan marble pillars stand at regular intervals 
+like mammoth legs. 
+~
+1073741824&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 42505
+0 0
+D2
+~
+~
+0 -1 42500
+0 0
+S
+#42505
+Center of the Lobby.~
+The entrance chamber is enormous. Above, the inside of the domed ceiling 
+soars overhead. The voices of everyone inside are lost in the sheer size 
+of the room. Four gargantuan marble pillars stand at regular intervals 
+like mammoth legs.  A small &w&Rplaque&w&C is attached to the wall with directions.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 42506
+0 0
+D1
+~
+~
+0 -1 42507
+0 0
+D2
+~
+~
+0 -1 42504
+0 0
+D3
+~
+~
+0 -1 42508
+0 0
+E
+plaque~
+West - Spiritual and Combat
+North - Wizardry and Divine (separated by Elements)
+East - Agent
+~
+S
+#42506
+Inside the Lobby~
+The entrance chamber is enormous. Above, the inside of the domed ceiling 
+soars overhead. The voices of everyone inside are lost in the sheer size 
+of the room. Four gargantuan marble pillars stand at regular intervals 
+like mammoth legs. 
+~
+1073741824&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 42516
+0 0
+D2
+~
+~
+0 -1 42505
+0 0
+S
+#42507
+Inside the Lobby~
+The entrance chamber is enormous. Above, the inside of the domed ceiling 
+soars overhead. The voices of everyone inside are lost in the sheer size 
+of the room. Four gargantuan marble pillars stand at regular intervals 
+like mammoth legs. 
+~
+1073741824&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 42514
+0 0
+D3
+~
+~
+0 -1 42505
+0 0
+S
+#42508
+Inside the Lobby~
+The entrance chamber is enormous. Above, the inside of the domed ceiling 
+soars overhead. The voices of everyone inside are lost in the sheer size 
+of the room. Four gargantuan marble pillars stand at regular intervals 
+like mammoth legs. 
+~
+1073741824&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 42505
+0 0
+D3
+~
+~
+0 -1 42509
+0 0
+S
+#42509
+Checkered Hallway.~
+Alternating tiles of black and white create an interesting pattern on the 
+floor. Along the corridor are classrooms. 
+~
+1073741824&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 42508
+0 0
+D3
+~
+~
+0 -1 42510
+0 0
+S
+#42510
+Checkered Hallway.~
+Alternating tiles of black and white create an interesting pattern on the 
+floor. Along the corridor are classrooms. One such classroom is to the 
+north, where sounds of fighting can be heard. 
+~
+1073741824&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 42511
+0 0
+D1
+~
+~
+0 -1 42509
+0 0
+D3
+~
+~
+0 -1 42512
+0 0
+S
+#42511
+Martial Arts Studio.~
+The floor is covered with cushioned mats. The walls are also cushioned, 
+and there are varous wooden training implements strewn about. 
+~
+1073741824&2
+0 14
+0
+0
+D2
+~
+~
+0 -1 42510
+0 0
+S
+#42512
+Checkered Hallway.~
+Alternating tiles of black and white create an interesting pattern on the 
+floor. Along the corridor are classrooms. One such classroom is to the 
+south, where sounds of fighting can be heard. 
+~
+1073741824&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 42510
+0 0
+D2
+~
+~
+0 -1 42513
+0 0
+S
+#42513
+Combat Classroom~
+Several suits of armor are stuck on posts around the room. Diagrams on the 
+walls detail the different vital points of every races anatomy. Practice 
+weapons with blunted edges are stored neatly on racks on the wall. 
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 42512
+0 0
+S
+#42514
+Unfinished Hallway.~
+The hall has all an assortment of scraps and raw materials used for 
+construction strewn about. Despite the incomplete status of the hall, a 
+single classroom door is at the end of it. 
+~
+1073741824&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 42515
+0 0
+D3
+~
+~
+0 -1 42507
+0 0
+S
+#42515
+Guild Training.~
+The room is obviously temporary, as there is construction equipment and 
+material everywhere. It appears that the financing for this wing has 
+fallen through. 
+~
+1073741824&2
+0 14
+0
+0
+D3
+~
+~
+0 -1 42514
+0 0
+S
+#42516
+Carpetted Hallway.~
+The smell of incense and roses fills this musty hallway. A rich maroon 
+carpet covers the floor. A strange dusty film covers the walls and floor. 
+Classroom doors line the length of the hallway. 
+~
+1073741824&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 42517
+0 0
+D1
+~
+~
+0 -1 42520
+0 0
+D2
+~
+~
+0 -1 42506
+0 0
+D3
+~
+~
+0 -1 42519
+0 0
+S
+#42517
+Carpetted Hallway.~
+The smell of incense and roses fills this musty hallway. A rich maroon 
+carpet covers the floor. A strange dusty film covers the walls and floor. 
+Classroom doors line the lengths of the hallway. 
+~
+1073741824&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 42522
+0 0
+D1
+~
+~
+0 -1 42518
+0 0
+D2
+~
+~
+0 -1 42516
+0 0
+D3
+~
+~
+0 -1 42521
+0 0
+S
+#42518
+Classroom of &RFIRE&w~
+The walls of the room are covered in protective (fireproof) ceramics. 
+Everything is covered in a film of scorched black char. 
+~
+1073741824&2
+0 14
+0
+0
+D3
+~
+~
+0 -1 42517
+0 0
+S
+#42519
+Classroom of &YEarth&w~
+A great deal of sand forms the floor of this simple room. Modest brick 
+forms all four walls. 
+~
+1073741824&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 42516
+0 0
+S
+#42520
+Classroom of &GEnergy&w~
+The walls of this room are formed of glass. All hair stands on end, and 
+every contact is met with little zaps of static. 
+~
+1073741824&2
+0 14
+0
+0
+D3
+~
+~
+0 -1 42516
+0 0
+S
+#42521
+Classroom of &BWATER&x~
+A thin raised walkway leads out to a central island over a pool of dark 
+water. The walls are made of a cool blue ice. 
+~
+1073741824&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 42517
+0 0
+S
+#42522
+Carpetted Hallway.~
+The smell of incense and roses fills this musty hallway. A rich maroon 
+carpet covers the floor. A strange dusty film covers the walls and floor. 
+Classroom doors line hte lengths of the hallway. 
+~
+1073741824&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 42523
+0 0
+D2
+~
+~
+0 -1 42517
+0 0
+D3
+~
+~
+0 -1 42524
+0 0
+S
+#42523
+Chamber of &CWINDS&w.~
+A platform over a depthless chasm is the only solid ground in this room. 
+Wind whistles and shrieks around you. 
+~
+1073741824&2
+0 14
+0
+0
+D3
+~
+~
+0 -1 42522
+0 0
+S
+#42524
+Altar of Supplication.~
+An extravagant series of gold leaf carvings and statues are arranged about 
+the room. An altar is presented for worship. 
+~
+1073741824&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 42522
+0 0
+S
+#42541
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#42542
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#42550
+Entrance into the Grand University.~
+The Grand University simply does not betray its name.  A staircase
+stretches 40 feet into the air and has a width of 60 feet.  All sorts
+of traffic can be seen passing up and down the stairs leading into the
+inner-works of the University.  Back to the south, the exit back into
+world is also heavily used, hopefully with people leaving with more
+knowledge than what they came in with.
+~
+1073741824&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 42551
+0 0
+D2
+~
+~
+134217728 -1 16000
+1021 306
+S
+#42551
+Stairs between the Lobby and Entrance~
+To the north, the massive stairs continue to crawl up toward the massive
+Lobby.  All guests are encouraged to visit the Lobby before seeking the
+advice of the trainers.  To the south, the stairs creep down toward the
+exit.
+~
+1073741824&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 42552
+0 0
+D2
+~
+~
+0 -1 42550
+0 0
+S
+#42552
+The Grand Lobby~
+&CThe stairway ends here and branches off into many rooms in all directions.
+In the center of all the mess, a small booth exists with information
+over where to go if you are looking for certain information.  Just look
+at the &Gsign&C to get an idea on where you want to go from here.
+~
+1073741824&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 42553
+0 0
+D1
+~
+~
+0 -1 42558
+0 0
+D2
+~
+~
+0 -1 42551
+0 0
+D3
+~
+~
+0 -1 42556
+0 0
+D6
+~
+~
+0 -1 42555
+0 0
+D7
+~
+~
+0 -1 42554
+0 0
+D8
+~
+~
+0 -1 42559
+0 0
+D9
+~
+~
+0 -1 42557
+0 0
+E
+sign~
+&w&CAgent      &w&RCombat    &w&BWizardry (Fire+Water)
+    &w&c\        |        /
+     \       |       /
+      \      |      /
+       \     |     /
+        \    |    /
+&w&WDivine --- &c&wLobby --- &w&BWizardry (Earth+Air+Energy)
+        &w&c/    |    \|
+       /     |     \|
+      /      |      \|
+     /       |       \|
+    /        |        \|
+&w&zSpirtual   &c&wExit      &w&GTier 3 Spell Books
+~
+S
+#42553
+Chamber of Combat~
+The room is just a massive training room.  It extends 40 feet by 40 feet
+with multiple targets to practice techniques on.  Standing in the center
+of the room is a massive man who seems to be barking out the orders to
+all the students.  It would be a good guess he is the Trainer.
+~
+1073741824&2
+0 1
+0
+0
+D2
+~
+~
+0 -1 42552
+0 0
+S
+#42554
+Chamber of the Agent's Trade~
+This training room looks much like a 10 year old's room, a big giant
+mess.  All sorts of obsticles are placed everywhere and shady looking
+people are pertaking in things you probably should not be watching.  On
+the other hand, you can see people learning how to do useful things like
+climb walls.
+~
+1073741824&2
+0 1
+0
+0
+D8
+~
+~
+0 -1 42552
+0 0
+S
+#42555
+Chamber of Wizardry~
+A rather large room, a good 50 ft by 50 ft is just enough to house all
+these mages and their quest to conquer just about anything in this world.
+Multiple targets are setup so the trainers can teach the lucky the arts
+of Fire and Water.  It would probably be a good idea to stay out of the
+way.
+~
+1073741824&2
+0 1
+0
+0
+D9
+~
+~
+0 -1 42552
+0 0
+S
+#42556
+Chamber of the Divine~
+From the inside, this place almost looks like a chapel.  The only diffence
+there is a lot of open space instead of tightly packed in pews.  People
+from all over Rafermand gather here to learn about the arts of the Divine.
+It might be a good idea to recruit a few of those people if you need a good
+healing or potion.
+~
+0&2
+0 1
+0
+0
+D1
+~
+~
+0 -1 42552
+0 0
+S
+#42557
+Chamber of Spiritual Arts~
+This room looks almost identical to that of the Warrior Chamber.  The
+people in this room are slightly different though.  The people in and
+around the Warrior chamber typically are wearing massive amounts of
+armor and using big nasty weapons.  Those training here appear to be
+in simple street clothes or special training uniforms.  By the looks of
+some of the moves by the students here, it might take a big weapon to
+strike some of them down.
+~
+1073741824&2
+0 1
+0
+0
+D6
+~
+~
+0 -1 42552
+0 0
+S
+#42558
+Chamber of Wizardry~
+A very large room, slightly larger than the other Wizardry room.  This
+room is used to learn the Air, Earth, and Energy Elements.  Because of
+the influx of people looking to learn these 3 groups, this room is by
+far the largest reaching an insane 100 ft by 100 ft in size.  It sounds
+like a lot of room at first glance, but seeing all the people packed in
+here working on their spells make it feel a lot more like 10x10.
+~
+1073741824&2
+0 1
+0
+0
+D3
+~
+~
+0 -1 42552
+0 0
+S
+#42559
+Book Clerk~
+The library of the Grand Academy is simply Grand.  Books line rows upon
+rows going deep into the Academy.  The majority of the Academy actually
+consists as a storage vault for those who wish to read the tomes of
+Rafermand.  A clerk at the center of the library actually sells books
+to those who are in need of the advance training presented here for those
+who take interest in the Divine and Arcane.
+~
+1073741824&2
+0 1
+0
+0
+D7
+~
+~
+0 -1 42552
+0 0
+S
+#42598
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#42599
+Floating in a void~
+~
+4
+0 1
+0
+0
+S
+#0
+
+
+#RESETS
+M 1 42503 1 42518 -1 -1 -1 0 0
+M 1 42507 1 42523 -1 -1 -1 0 0
+M 1 42508 1 42524 -1 -1 -1 0 0
+M 1 42505 1 42520 -1 -1 -1 0 0
+M 1 42504 1 42519 -1 -1 -1 0 0
+M 1 42511 1 42554 -1 -1 -1 0 0
+M 1 42512 1 42555 -1 -1 -1 0 0
+M 1 42514 1 42558 -1 -1 -1 0 0
+M 1 42515 1 42559 -1 -1 -1 0 0
+O 1 42501 1 42550 -1 -1 -1 -1 0 0
+O 1 42502 1 42550 -1 -1 -1 -1 0 0
+O 1 42503 1 42550 -1 -1 -1 -1 0 0
+M 1 42516 1 42557 -1 -1 -1 0 0
+M 1 42501 1 42513 -1 -1 -1 0 0
+M 1 42517 1 42513 -1 -1 -1 0 0
+M 1 42502 1 42515 -1 -1 -1 0 0
+M 1 42518 1 42515 -1 -1 -1 0 0
+M 1 42510 1 42553 -1 -1 -1 0 0
+M 1 42519 1 42553 -1 -1 -1 0 0
+M 1 42513 1 42556 -1 -1 -1 0 0
+M 1 42520 1 42556 -1 -1 -1 0 0
+M 1 42500 1 42511 -1 -1 -1 0 0
+M 1 42521 1 42511 -1 -1 -1 0 0
+M 1 42506 1 42521 -1 -1 -1 0 0
+M 1 42522 1 42521 -1 -1 -1 0 0
+M 1 42509 1 42505 -1 -1 -1 0 0
+M 1 21013 1 42505 -1 -1 -1 0 0
+M 1 21013 1 42552 -1 -1 -1 0 0
+O 1 42503 1 42552 -1 -1 -1 -1 0 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  42555 spec_thief
+S
+
+
+#$

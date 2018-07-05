@@ -1,0 +1,61 @@
+Name        Fairy~
+Race        5
+Str_Plus    -3
+Dex_Plus    3
+Wis_Plus    2
+Int_Plus    3
+Con_Plus    -3
+Cha_Plus    3
+Lck_Plus    2
+Agi_Plus    140
+Agi_Start   55
+Range_Agi   40
+Range_Str   1
+Range_Dex   3
+Range_Con   1
+Range_Wis   3
+Range_Int   5
+Hit         -5
+Mana        25
+Affected    524288
+Language    8
+Align       0
+Min_Align  -1000
+Max_Align	1000
+AC_Plus    0
+Exp_Mult   110
+Attacks    0
+Defenses   0
+Height     24
+Weight     40
+Weaponmin  1
+Weaponmax  7
+RemortRace 0
+Hunger_Mod  0
+Thirst_mod  0
+Mana_Regen  27664
+HP_Regen    2137
+Race_Recall 0
+DodgeBonus  10
+WhereName  <used as light>      ~
+WhereName  <worn on finger>     ~
+WhereName  <worn on finger>     ~
+WhereName  <worn on neck>       ~
+WhereName  <worn around neck>   ~
+WhereName  <worn on body>       ~
+WhereName  <worn on head>       ~
+WhereName  <worn on left leg>   ~
+WhereName  <worn on right leg>  ~
+WhereName  <worn on left arm>   ~
+WhereName  <worn on right arm>  ~
+WhereName  <worn as shield>     ~
+WhereName  <worn about waist>   ~
+WhereName  <wielded>            ~
+WhereName  <dual wielded>       ~
+WhereName  <missile wielded>    ~
+WhereName  <lodged in ribs>     ~
+WhereName  <lodged in arm>      ~
+WhereName  <lodged in leg>      ~
+WhereName  <nocked>             ~
+WhereName  (null)~
+End

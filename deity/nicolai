@@ -1,0 +1,51 @@
+#DEITY
+Filename		../deity/nicolai~
+Name		Nicolai~
+Description	Nicolai represents all that which is evil and unkind in the realms.  He
+is a wizard of darkness, yet does not hesitate to bloody his dagger as
+well.  All who wish to spread the word of evil and destruction are as
+welcomed as Nicolai will allow, for he is so evil, tolerance is all he
+will practice.  His heart is cold, and so are his followers' hearts.
+Due to the general goodness of elves, Nicolai despises them with fervor,
+preferring their dark brethren, the Drow.
+~
+Alignment		-666
+Worshippers	9
+Flee		5
+Flee_npcrace	5
+Flee_npcfoe	-20
+Kill		8
+Kill_npcrace	-10
+Kill_npcfoe	15
+Kill_magic	8
+Sac		5
+Bury_corpse	-10
+Aid_spell		3
+Aid		-5
+Steal		8
+Backstab		10
+Die		-25
+Die_npcrace	10
+Die_npcfoe	-100
+Spell_aid		3
+Dig_corpse	10
+Scorpse		350
+Savatar		350
+Sdeityobj		350
+Srecall		250
+Race		-1
+Class		-1
+Element		2
+Sex		-1
+Affected		270565376
+Npcrace		11
+Npcfoe		1
+Suscept		128
+Race2		-1
+Susceptnum	750
+Elementnum	750
+Affectednum	1750
+Objstat		0
+End
+
+#END

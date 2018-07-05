@@ -1,0 +1,41 @@
+/*****************************************************/
+/* DWARF_FEMALE.nam                                  */
+/* Namnfil f”r namn fr†n Deverry (kvinnor)           */
+/* av Johan Danforth                                 */
+/* rader som b”rjar med / „r kommentar-rader         */
+/* varje section b”rjar med [xxx] enlig filen nedan  */
+/*****************************************************/
+[start]
+C
+E
+El
+I
+Ie
+Or
+Pr
+U
+Ue
+Sem
+Vier
+[middle]
+a
+e
+i
+o
+oi
+u
+[end]
+bue
+fue
+ga
+gnu
+li
+lie
+liea
+na
+ne
+risa
+rasua
+suea
+[stop]
+/* The end, comment needed for file to work*/

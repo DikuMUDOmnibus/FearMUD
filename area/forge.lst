@@ -1,0 +1,445 @@
+#FORGE
+name            hand axe~
+vnum            21000
+slabs           3
+type            1
+End
+#FORGE
+name            axe~
+vnum            21001
+slabs           4
+type            1
+End
+#FORGE
+name            waraxe~
+vnum            21002
+slabs           5
+type            1
+End
+#FORGE
+name            double-sided axe~
+vnum            21003
+slabs           7
+type            1
+End
+#FORGE
+name            mattock~
+vnum            21004
+slabs           8
+type            1
+End
+#FORGE
+name            great axe~
+vnum            21005
+slabs           10
+type            1
+End
+#FORGE
+name            battle axe~
+vnum            21006
+slabs           12
+type            1
+End
+#FORGE
+name            short sword~
+vnum            21007
+slabs           3
+type            0
+End
+#FORGE
+name            cutlass~
+vnum            21008
+slabs           4
+type            0
+End
+#FORGE
+name            rapier~
+vnum            21009
+slabs           3
+type            0
+End
+#FORGE
+name            katana~
+vnum            21010
+slabs           5
+type            0
+End
+#FORGE
+name            broad sword~
+vnum            21011
+slabs           7
+type            0
+End
+#FORGE
+name            long sword~
+vnum            21012
+slabs           8
+type            0
+End
+#FORGE
+name            bastard sword~
+vnum            21013
+slabs           9
+type            0
+End
+#FORGE
+name            claymore~
+vnum            21014
+slabs           11
+type            0
+End
+#FORGE
+name            flamberge~
+vnum            21015
+slabs           12
+type            0
+End
+#FORGE
+name            knife~
+vnum            21016
+slabs           2
+type            5
+End
+#FORGE
+name            dagger~
+vnum            21017
+slabs           3
+type            5
+End
+#FORGE
+name            dirk~
+vnum            21018
+slabs           4
+type            5
+End
+#FORGE
+name            kris~
+vnum            21019
+slabs           4
+type            5
+End
+#FORGE
+name            cleaver~
+vnum            21020
+slabs           5
+type            5
+End
+#FORGE
+name            main gauche~
+vnum            21021
+slabs           6
+type            5
+End
+#FORGE
+name            stiletto~
+vnum            21022
+slabs           6
+type            5
+End
+#FORGE
+name            pilum~
+vnum            21023
+slabs           3
+type            2
+End
+#FORGE
+name            lance~
+vnum            21024
+slabs           4
+type            2
+End
+#FORGE
+name            spear~
+vnum            21025
+slabs           5
+type            2
+End
+#FORGE
+name            halberd~
+vnum            21026
+slabs           6
+type            2
+End
+#FORGE
+name            glaive~
+vnum            21027
+slabs           7
+type            2
+End
+#FORGE
+name            guisarme~
+vnum            21028
+slabs           8
+type            2
+End
+#FORGE
+name            trident~
+vnum            21029
+slabs           10
+type            2
+End
+#FORGE
+name            club~
+vnum            21030
+slabs           4
+type            3
+End
+#FORGE
+name            hammer~
+vnum            21031
+slabs           6
+type            3
+End
+#FORGE
+name            mace~
+vnum            21032
+slabs           6
+type            3
+End
+#FORGE
+name            war hammer~
+vnum            21033
+slabs           8
+type            3
+End
+#FORGE
+name            flail~
+vnum            21034
+slabs           10
+type            3
+End
+#FORGE
+name            great flail~
+vnum            21035
+slabs           12
+type            3
+End
+#FORGE
+name            morning star~
+vnum            21036
+slabs           13
+type            3
+End
+#FORGE
+name            maul~
+vnum            21037
+slabs           15
+type            3
+End
+#FORGE
+name            sceptre~
+vnum            21038
+slabs           3
+type            4
+End
+#FORGE
+name            rod~
+vnum            21039
+slabs           5
+type            4
+End
+#FORGE
+name            weighted-rod~
+vnum            21040
+slabs           6
+type            4
+End
+#FORGE
+name            staff~
+vnum            21041
+slabs           7
+type            4
+End
+#FORGE
+name            quarter-staff~
+vnum            21042
+slabs           9
+type            4
+End
+#FORGE
+name            battle staff~
+vnum            21043
+slabs           11
+type            4
+End
+#FORGE
+name            bladed staff~
+vnum            21044
+slabs           13
+type            4
+End
+#FORGE
+name            chain mail~
+vnum            21045
+slabs           5
+type            6
+End
+#FORGE
+name            chain hauberk~
+vnum            21046
+slabs           6
+type            6
+End
+#FORGE
+name            ring mail~
+vnum            21047
+slabs           8
+type            6
+End
+#FORGE
+name            double-ring mail~
+vnum            21048
+slabs           9
+type            6
+End
+#FORGE
+name            breastplate~
+vnum            21049
+slabs           15
+type            6
+End
+#FORGE
+name            cuirass~
+vnum            21050
+slabs           25
+type            6
+End
+#FORGE
+name            chain gauntlet~
+vnum            21051
+slabs           3
+type            7
+End
+#FORGE
+name            ring gauntlet~
+vnum            21052
+slabs           4
+type            7
+End
+#FORGE
+name            gauntlet~
+vnum            21053
+slabs           7
+type            7
+End
+#FORGE
+name            vambrace~
+vnum            21054
+slabs           8
+type            7
+End
+#FORGE
+name            chain greave~
+vnum            21055
+slabs           4
+type            8
+End
+#FORGE
+name            ring greave~
+vnum            21056
+slabs           5
+type            8
+End
+#FORGE
+name            greave~
+vnum            21057
+slabs           8
+type            8
+End
+#FORGE
+name            cuiss~
+vnum            21058
+slabs           9
+type            8
+End
+#FORGE
+name            aventail~
+vnum            21059
+slabs           2
+type            10
+End
+#FORGE
+name            coif~
+vnum            21060
+slabs           3
+type            10
+End
+#FORGE
+name            double-coif~
+vnum            21061
+slabs           5
+type            10
+End
+#FORGE
+name            gorget~
+vnum            21062
+slabs           7
+type            10
+End
+#FORGE
+name            cabasset~
+vnum            21063
+slabs           3
+type            9
+End
+#FORGE
+name            casque~
+vnum            21064
+slabs           5
+type            9
+End
+#FORGE
+name            armet~
+vnum            21065
+slabs           8
+type            9
+End
+#FORGE
+name            heaume~
+vnum            21066
+slabs           10
+type            9
+End
+#FORGE
+name            buckler~
+vnum            21067
+slabs           2
+type            11
+End
+#FORGE
+name            round shield~
+vnum            21068
+slabs           3
+type            11
+End
+#FORGE
+name            heater~
+vnum            21069
+slabs           5
+type            11
+End
+#FORGE
+name            kite shield~
+vnum            21070
+slabs           8
+type            11
+End
+#FORGE
+name            tower shield~
+vnum            21071
+slabs           12
+type            11
+End
+#FORGE
+name            pavis~
+vnum            21072
+slabs           18
+type            11
+End
+#FORGE
+name            arrow~
+vnum            21073
+slabs           1
+type            12
+End
+#END

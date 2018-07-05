@@ -1,0 +1,291 @@
+#SLAY
+Type		demon~
+Owner		Any~
+Color		12
+Cmessage	You gesture, and a slavering demon appears.
+
+With a horrible grin, the foul creature turns on
+
+$N, who screams in panic before being eaten alive!
+
+~
+Vmessage	$n gestures, and a slavering demon appears.
+
+The foul creature turns on you with a horrible grin.
+
+You scream in panic before being eaten alive!
+
+~
+Rmessage	$n gestures, and a slavering demon appears.
+
+With a horrible grin, the foul creature turns on
+
+$N, who screams in panic before being eaten alive!
+
+~
+End
+
+#SLAY
+Type		Xerves~
+Owner		Any~
+Color		12
+Cmessage	You gently raise your hand and remove the life energy out of $N.
+~
+Vmessage	$n raises hand with gentle ease and erases your body from Rafermand.
+~
+Rmessage	$n brutally slays $N!$n just removed $N from this world, just with a lift of $m
+hand.
+~
+End
+
+#SLAY
+Type		dain~
+Owner		Varl~
+Color		12
+Cmessage	You howl loudly to call upon Dain to slay $N.
+~
+Vmessage	You hear $n howl loudly.  You look around in confusion and see something
+in the distance running towards you.  With blinding speed, it comes closer
+and closer, and you suddenly realize it is Dain the Great Wolf, coming to
+kill you!  From an incredible distance, Dain jumps at you and tears out
+your throat!
+~
+Rmessage	You hear $n howl loudly, calling on Dain the Great Wolf to do $n's bidding.
+You see the victim, $N, gaping in horror as Dain closes in.  Dain jumps and
+rips out $N's throat!
+~
+End
+
+#SLAY
+Type		flower~
+Owner		Stakk~
+Color		12
+Cmessage	You lift a finger, and the soft breeze blows a single cherry blossom
+onto $N.  $N appears confused, until $E is jolted around horribly.
+You laugh as the lifeless body of $N falls to the ground, well past
+death.
+~
+Vmessage	$n lifts a finger, and a quiet melody begins to play.  So soft, it
+can only be carried in by the breeze, which also deposits a lone
+cherry blossom in your hair.  Plucking it out, you look at the flower
+in confusion, until you feel the horrible pain.  You are jolted in
+every direction, nearly simultaneously, as some unseen force beats
+the life out of you.  You never even survive to hit the ground...
+~
+Rmessage	$n lifts a finger, and a soft breeze blows a single cherry blossom
+onto $N.  $N looks at it in confusion, until $E beings to thrash
+violently.  Jumping back, you realize that $N is being beaten by some
+unseen force, and you keep your distance until $N falls to the ground,
+already dead.
+~
+End
+
+#SLAY
+Type		shell~
+Owner		Any~
+Color		25
+Cmessage	You calmly dance around $N in a magical, soothing, yet
+hypnotic way.  You start singing softly to $M as you insribe
+glowling red runes in the air above $M.  You envelop a magical
+protection shell over yourself.  $N struggles to escape, but
+slowly dies from the life energy being sucked out of $M
+Oh, and by the way, stop changing the owner for this slay, it's Sartan's.
+~
+Vmessage	$n dances in a magical, soothing, yet hypnotic way around 
+you in circles.  $e starts singing softly, and glowing red
+runes envelop your vision. Your soul is calmly wrapped in a 
+magical shell.  You struggle to escape, but your life is
+slowly sucked out of you. 
+~
+Rmessage	$n dances calmly around $N in a beautiful, magically,
+soothing, yet hypnotic way.  $n starts singing softly to $N,
+while insribing magical red runes in the air above $N.  You
+notice $n enveloped a magical protective shell of runes.  $N
+slowly tries to escape, but dies a slow death because all
+$S energy was burned away.
+~
+End
+
+#SLAY
+Type		Immolate~
+Owner		Any~
+Color		12
+Cmessage	Your fireball turns $N into a blazing inferno.
+~
+Vmessage	$n releases a searing fireball in your direction.
+~
+Rmessage	$n points at $N, who bursts into a flaming inferno.
+~
+End
+
+#SLAY
+Type		shatter~
+Owner		Any~
+Color		12
+Cmessage	You freeze $N with a glance and shatter the frozen corpse into tiny shards.
+~
+Vmessage	n freezes you with a glance and shatters your frozen body into tiny shards.
+~
+Rmessage	$n freezes $N with a glance and shatters the frozen body into tiny shards.
+~
+End
+
+#SLAY
+Type		pounce~
+Owner		Any~
+Color		3
+Cmessage	Leaping upon $N with bared fangs, you tear open $S throat and toss the corpse to the ground...
+~
+Vmessage	In a heartbeat, $n rips $s fangs through your throat!  Your blood sprays and pours to the ground as your life ends...
+~
+Rmessage	$n brutally slays $N!
+Leaping suddenly, $n sinks $s fangs into $N's throat.  As blood sprays and gushes to the ground, $n tosses $N's dying body away.
+~
+End
+
+#SLAY
+Type		slit~
+Owner		Any~
+Color		5
+Cmessage	You calmly slit $N's throat.
+~
+Vmessage	$n reaches out with a clawed finger and calmly slits your throat.
+~
+Rmessage	$n calmly slits $N's throat.
+~
+End
+
+#SLAY
+Type		roar~
+Owner		Any~
+Color		6
+Cmessage	You roar so loudly that it shatters $N's skull causing immediate death.
+~
+Vmessage	$n roars so loudly that your skull shatters causing you a immediate yet painful death.
+~
+Rmessage	$n roars so loudly that it shatter's $N's skull causing $N's skull to collapse making death instant
+~
+End
+
+#SLAY
+Type		dogs~
+Owner		Any~
+Color		25
+Cmessage	You order your dogs to rip $N to shreds.
+~
+Vmessage	$n orders $s dogs to rip you apart.
+~
+Rmessage	$n brutally slays $N!
+$n orders $s dogs to rip $N to shreds.
+~
+End
+
+#SLAY
+Type		snuff~
+Owner		Copenhaygen~
+Color		3
+Cmessage	&O
+
+You gather up a mouthful of snuff spit, launch it into $N's eyes, and &O
+laugh mercilessly as they writhe in agony and die. 
+~
+Vmessage	$n spits a copious amount of snuff spit in your eyes. The spit burns your 
+eyes, and eats away at them slowly, like acid, making you writhe and 
+scream in agony as you slowly die. 
+~
+Rmessage	$n spits a huge mouthful of dark brown snuff spit into $N's eyes, causing 
+them to writhe in agony as they die slowly and painfully from the acidic 
+snuff of the Gods. 
+~
+End
+
+#SLAY
+Type		hydriss~
+Owner		Nevon~
+Color		9
+Cmessage	You close your eyes and start to chant in an ancient tongue. With a few 
+quick gestures of your hands, you form a portal and the Hydriss steps out. 
+With a quick glane the Hydriss slays $N with a single deadly slash of its 
+might claw! 
+~
+Vmessage	&zNevon closes his eyes and starts to chant in an ancient tongue.
+Suddenly his eyes open and with a few quick gestures of his hands, Nevon
+forms a massive portal and from that portal The Hydriss emerges. A quick
+nod from Nevon sends The Hydriss toward you! The Hydriss charges you and
+slays you with a single deadly slash of its mighty claw!
+~
+Rmessage	&WNevon closes his eyes and starts to chant in an ancient tongue.
+Suddenly his eyes open and with a few quick gestures of his hands, Nevon
+forms a massive portal and from that portal The Hydriss emerges. A quick
+nod from Nevon sends The Hydriss toward $N! The Hydriss charges $N and
+slays $N with a single deadly slash of its mighty claw!
+~
+End
+
+#SLAY
+Type		lightsaber~
+Owner		Nevon~
+Color		25
+Cmessage	&RYou reach down and activate your lightsaber. Calling on the power
+of lightning to give this weapon some extra kick. You give $N a quick
+wink and slice through $N's body with one quick slash! As you put
+your lightsaber back you scatter the clouds and the sun comes back out.
+~
+Vmessage	&cWith a quick snap-hiss of his lightsaber, Nevon raises the
+perfect blade even with his chest. Thunder clouds form above Nevon's
+head and without warning a lightning bolt strikes the lightsaber!
+Nevon's right eye does a quick wink at you then strikes you down
+with his mighty lightsaber!
+~
+Rmessage	&cWith a quick snap-hiss of his lightsaber, Nevon raises the perfect
+blade even with chest. Thunder clouds form above Nevon's head and
+without warning a lightning bolt strikes the lightsaber! Nevon's
+right eye does a quick wink at $N then strikes $N down with his
+mighty lightsaber! A quick twitch with his finger and the lightsaber
+retracks into its handle as the clouds fade away.
+~
+End
+
+#SLAY
+Type		tear~
+Owner		Paidos~
+Color		19
+Cmessage	You wipe a single, solitary tear from your eye, and press it upon $N's 
+forehead, keeping your face calm and impassive, despite the sorrow 
+welled up inside you. As $E is devoured by your infinite sorrow, you 
+feel no sense of gratification, no pangs of guilt, only a jealous anger 
+that $N shall gain absolute oblivion, and your own tortures will 
+continue on... 
+~
+Vmessage	$n wipes a small, crystalline tear from $s eye, and presses the gleaming 
+object on your forehead. Your body collapses limply as your mind is 
+overloaded with grief...irrational sorrow...sadness for things you 
+cannot even begin to comprehend...And you realize that you are 
+understanding that which consumes $n, the sorrow and sadness that
+defines $s being...But, that is your last thought... As your life is at 
+an end. 
+~
+Rmessage	$n wipes a small, crystalline tear from $s eye, and presses the gleaming 
+object on $N's forehead. $N collapses limply, and $S body fades from 
+existance... and memories of $M fade from your mind...as $N ceases to 
+exist. 
+~
+End
+
+#SLAY
+Type		poke~
+Owner		Paidos~
+Color		5
+Cmessage	You poke $N in the ribs, attempting to gain their attention, but instead you
+find that you have collapsed their chest and destroyed them......
+...Oh darn, do you really care?!
+~
+Vmessage	$n pokes you in your ribs, trying to gain your attention, but $e only manages
+to crush youur chest cavity, bringing your life to a swift end.
+~
+Rmessage	$n pokes $N in the ribs.  $N's chest collapses, and $e hits the ground dead...
+...All you can do is laugh.
+~
+End
+
+#END

@@ -1,0 +1,105 @@
+#SYSTEM
+MudName	     Rafermand~
+CodeVersion   Fear 2.1.3~
+MudVersion    Fear 2.1.3~
+TopPin	  14433
+TopKPin        99
+TopTPin        128
+Highplayers    21
+Highplayertime Sat May 20 21:29:46 2000~
+CheckImmHost   1
+Nameresolving  0
+Waitforauth    1
+Readallmail    4
+FirstRun       1
+AccountEmail   2
+ResetGame      1
+Readmailfree   2
+Writemailfree  2
+Takeothersmail 4
+IMCMailVnum    0
+Muse           5
+MaxAccounts    150
+MaxAccountChanges 15
+GemVnum        21266
+TimeoutLogin   720
+TimeoutNotes   2400
+TimeoutIdle    4800
+StartCalender  1130105549
+LastResCheck   1130105549
+LastPopCheck   1130105549
+LastTaxCheck   1130105549
+Think          6
+Build          3
+Log            5
+Protoflag      4
+Overridepriv   6
+Msetplayer     6
+Stunplrvsplr   35
+Stunregular    15
+Gougepvp       -15
+Gougenontank   -10
+Bashpvp        40
+Bashnontank    80
+Dodgemod       100
+Parrymod       100
+Tumblemod      100
+Damplrvsplr    100
+Damplrvsmob    120
+Dammobvsplr    80
+Dammobvsmob    100
+Forcepc        6
+Guildoverseer  ~
+Guildadvisor   ~
+Saveflags      1957
+Savefreq       5
+Bestowdif      2
+BanSiteLevel   2
+BanRaceLevel   2
+BanClassLevel  2
+MorphOpt       1
+MaxKingdom     2
+LastPortal     14
+LastTrap       2
+LastInvTrap    10000002
+PetSave	     1
+IdentTries     0
+Newbie_purge	45
+Regular_purge	90
+Autopurge		0
+Purgetime		2086756148
+Exp_Percent     300
+Stat_Gain       5
+Top_Gem_Num     837
+Quest_item1     9132
+Quest_value1    500
+Quest_item2     9133
+Quest_value2    1000
+Quest_item3     9134
+Quest_value3    5000
+Quest_item4     20
+Quest_value4    5000
+Quest_item5     20
+Quest_value5    5000
+Quest_item6     20
+Quest_value6    4000
+Quest_item7     20
+Quest_value7    4000
+Quest_item8     20
+Quest_value8    4000
+Quest_item9     20
+Quest_value9    3000
+Quest_item10     20
+Quest_value10    3000
+Quest_item11     20
+Quest_value11    0
+Quest_item12     0
+Quest_value12    -2932
+Toadvance1       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 5 5 0 1 1 1 0 2 4 5 0 2 2 2 0 0 0 0 0
+Toadvance2       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 2 0 2 4 4 0 2 4 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Toadvance3       2 4 3 0 2 3 3 0 2 3 4 0 2 4 4 0 2 4 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Toadvance4       1 1 3 0 1 1 3 0 1 2 2 0 1 2 3 0 2 2 2 0 1 3 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Toadvance5       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 3 0 1 3 1 0 1 3 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0
+End
+
+#END

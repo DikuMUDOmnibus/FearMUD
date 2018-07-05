@@ -1,0 +1,54 @@
+#DEITY
+Filename		../deity/rook~
+Name		Rook~
+Description	A lover of strategy, Rook prefers those mortals who can think quickly
+on their feet and react intelligently to situations as they arise.  He
+has a neutral outlook on life, and as a result welcomes all classes from
+thief to paladin.  He prefers anyone willing to go out of their way to
+rid Rafermand of the monsters of the realm, and is not afraid to die in
+the process.  Due to his neutral alignment, thieves will find Rook to be
+one of the more forgiving deities.  His worshippers, when they are
+sufficently ingragiated with him, receive the ability to breath underwater,
+the ability to fly with nary a though, and their sense increase so that
+they can see the magical aura about objects.
+~
+Alignment		0
+Worshippers	50
+Flee		-25
+Flee_npcrace	-15
+Flee_npcfoe	-5
+Kill		10
+Kill_npcrace	10
+Kill_npcfoe	15
+Kill_magic	0
+Sac		10
+Bury_corpse	1
+Aid_spell		5
+Aid		5
+Steal		10
+Backstab		5
+Die		-15
+Die_npcrace	-10
+Die_npcfoe	-15
+Spell_aid		5
+Dig_corpse	0
+Scorpse		600
+Savatar		500
+Sdeityobj		500
+Srecall		500
+Race		-1
+Class		-1
+Element		514
+Sex		-1
+Affected		-1878523904
+Npcrace		0
+Npcfoe		89
+Suscept		513
+Race2		-1
+Susceptnum	1500
+Elementnum	2300
+Affectednum	2300
+Objstat		6
+End
+
+#END

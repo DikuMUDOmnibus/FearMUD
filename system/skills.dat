@@ -1,0 +1,5717 @@
+#SKILL
+Name         reserved~
+Type         Spell
+Info         0
+Flags        0
+Minpos       112
+Slot         95
+Code         spell_null
+Dammsg       ~
+Wearoff      ???~
+End
+
+#SKILL
+Name         acid blast~
+Type         Spell
+Info         6539
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         25
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Acid Blast~
+Dice         (b/2+2)}3~
+Difficulty   2
+End
+
+#SKILL
+Name         acid breath~
+Type         Spell
+Info         3
+Flags        0
+Target       1
+Minpos       110
+Slot         200
+Mana         65
+Rounds       4
+Code         spell_acid_breath
+Dammsg       blast of acid~
+Wearoff      !Acid Breath!~
+End
+
+#SKILL
+Name         acidic ball~
+Type         Spell
+Info         7051
+MadeBy       Xerves~
+Prototype    1
+Flags        2097152
+Target       1
+Minpos       110
+Saves        5
+Mana         30
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Acidic Ball~
+Dice         (b/2)}3~
+Difficulty   2
+End
+
+#SKILL
+Name         acidic blast~
+Type         Spell
+Info         7563
+MadeBy       Xerves~
+Prototype    1
+Flags        2097152
+Target       1
+Minpos       110
+Saves        5
+Mana         50
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Acidic Blast~
+Dice         (b)}8~
+Difficulty   4
+End
+
+#SKILL
+Name         acidic oblivion~
+Type         Spell
+Info         6539
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         90
+Rounds       6
+Guild        0
+Code         spell_smaug
+Dammsg       Acidic Oblivion~
+Dice         100+2d10+b*15/10~
+Difficulty   6
+End
+
+#SKILL
+Name         alertness~
+Type         Spell
+Info         2
+Flags        0
+Target       3
+Minpos       111
+Slot         102
+Mana         30
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      You are suddenly less alert.~
+Hitvict      You suddenly feel alert.~
+Hitroom      $N's eyes dart about the room in an alert manner.~
+Difficulty   2
+Affect       'b*15+1500' 27 '1024' -1
+End
+
+#SKILL
+Name         animate dead~
+Type         Spell
+Info         1
+Flags        0
+Minpos       110
+Slot         231
+Mana         65
+Rounds       4
+Code         spell_animate_dead
+Dammsg       ~
+Wearoff      !Animate Dead!~
+Difficulty   3
+End
+
+#SKILL
+Name         antimagic shell~
+Type         Spell
+Info         3
+Flags        0
+Target       2
+Minpos       111
+Slot         224
+Mana         100
+Rounds       8
+Code         spell_smaug
+Dammsg       ~
+Wearoff      The shimmering shell and its protection from magic fade away...~
+Hitvict      A shimmering translucent shell forms about you.~
+Hitroom      A shimmering translucent shell forms about $N.~
+Difficulty   9
+Affect       'b*10+1000' 101 '60-b/6' -1
+End
+
+#SKILL
+Name         aqua breath~
+Type         Spell
+Info         2
+Flags        1024
+Target       2
+Minpos       112
+Slot         236
+Mana         60
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      Your lungs revert to their original state.~
+Hitchar      $N's lungs take on the ability to breathe water...~
+Hitvict      Your lungs take on the ability to breathe water...~
+Hitroom      $N's lungs take on the ability to breathe water...~
+Difficulty   2
+Affect       'b*15+1500' 26 'aqua_breath' 31
+End
+
+#SKILL
+Name         armor~
+Type         Spell
+Info         3
+Flags        0
+Target       2
+Minpos       111
+Slot         1
+Mana         15
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      Your armor returns to its mundane value.~
+Hitchar      $N's armor begins to glow softly as it is enhanced by a cantrip.~
+Hitvict      Your armor begins to glow softly as it is enhanced by a cantrip.~
+Hitroom      $N's armor begins to glow softly as it is enhanced by a cantrip.~
+Difficulty   6
+Affect       'b*15+1500' 78 '1+b/30' -1
+End
+
+#SKILL
+Name         astral walk~
+Type         Spell
+Info         1
+Flags        0
+Minpos       112
+Slot         90
+Mana         75
+Rounds       8
+Code         spell_astral_walk
+Dammsg       ~
+Wearoff      !Astral Walk!~
+Difficulty   5
+End
+
+#SKILL
+Name         aura of the gods~
+Type         Spell
+Info         6
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       2
+Minpos       110
+Mana         250
+Rounds       20
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Wearoff      You feel the aura of the gods flow out of your body.~
+Hitchar      You chant for the aura of the gods to protect $N.~
+Hitvict      $n chants for the aura of the gods to protect you.~
+Hitroom      $n chants for the aura of the gods to protect $N.~
+Affect       '' 13 'b*2+10' -1
+Affect       'b*10+1000' 13 'b*2+10' -1
+End
+
+#SKILL
+Name         aurori~
+Type         Spell
+Info         3469
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         50
+Rounds       4
+Code         spell_smaug
+Dammsg       Aurori~
+Dice         (b*11/10)}6~
+Difficulty   6
+End
+
+#SKILL
+Name         auroro~
+Type         Spell
+Info         3469
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         90
+Rounds       4
+Code         spell_smaug
+Dammsg       Auroro~
+Dice         45+1d15+b*15/10~
+Difficulty   7
+End
+
+#SKILL
+Name         blazing burst~
+Type         Spell
+Info         9609
+MadeBy       Xerves~
+Prototype    1
+Flags        2097152
+Target       1
+Minpos       110
+Saves        5
+Mana         50
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Blazing Burst~
+Dice         (b)}8~
+Difficulty   4
+End
+
+#SKILL
+Name         bless~
+Type         Spell
+Info         6
+Flags        0
+Target       2
+Minpos       109
+Slot         3
+Mana         15
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      The blessing fades away.~
+Hitchar      You lay the blessing of your god upon $N.~
+Hitvict      A powerful blessing is laid upon you.~
+Hitroom      $N beams as a powerful blessing is laid upon $M.~
+Difficulty   5
+Affect       'b*15+1500' 82 '1+b/30' -1
+End
+
+#SKILL
+Name         bless weapon~
+Type         Spell
+Info         0
+MadeBy       Skan~
+Prototype    1
+Flags        0
+Target       4
+Minpos       112
+Mana         20
+Rounds       4
+Code         spell_bless_weapon
+Dammsg       ~
+Wearoff      !BlessWeapon!~
+Difficulty   2
+End
+
+#SKILL
+Name         blindness~
+Type         Spell
+Info         3
+Flags        0
+Target       1
+Minpos       105
+Slot         4
+Mana         5
+Rounds       4
+Code         spell_blindness
+Dammsg       ~
+Wearoff      You can see again.~
+Difficulty   1
+End
+
+#SKILL
+Name         blitzing wave~
+Type         Spell
+Info         2445
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         50
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Blitzing Wave~
+Dice         (b*14/10)}11~
+Difficulty   4
+End
+
+#SKILL
+Name         cause critical~
+Type         Spell
+Info         4
+Flags        0
+Target       1
+Minpos       109
+Slot         63
+Mana         35
+Rounds       4
+Code         spell_cause_critical
+Dammsg       spell~
+Wearoff      !Cause Critical!~
+Difficulty   5
+End
+
+#SKILL
+Name         cause light~
+Type         Spell
+Info         4
+Flags        0
+Target       1
+Minpos       110
+Slot         62
+Mana         8
+Rounds       4
+Code         spell_cause_light
+Dammsg       spell~
+Wearoff      !Cause Light!~
+Difficulty   1
+End
+
+#SKILL
+Name         cause serious~
+Type         Spell
+Info         4
+Flags        0
+Target       1
+Minpos       107
+Slot         64
+Mana         20
+Rounds       4
+Code         spell_cause_serious
+Dammsg       spell~
+Wearoff      !Cause Serious!~
+Difficulty   3
+End
+
+#SKILL
+Name         charm person~
+Type         Spell
+Info         1
+Flags        0
+Target       1
+Minpos       111
+Slot         7
+Mana         35
+Rounds       4
+Code         spell_charm_person
+Dammsg       ~
+Wearoff      You feel more self-confident.~
+Difficulty   6
+End
+
+#SKILL
+Name         cold ball~
+Type         Spell
+Info         8586
+MadeBy       Xerves~
+Prototype    1
+Flags        16
+Minpos       110
+Saves        5
+Mana         15
+Rounds       5
+Guild        0
+Code         spell_smaug
+Dammsg       Cold Ball~
+Dice         p~
+End
+
+#SKILL
+Name         continual light~
+Type         Spell
+Info         649
+Flags        16384
+Minpos       111
+Slot         57
+Mana         40
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      !Continual Light!~
+Hitchar      Shards of iridescent light collide to form a dazzling ball...~
+Hitroom      Shards of iridescent light collide to form a dazzling ball...~
+Dice         0~
+Value        21
+Difficulty   4
+End
+
+#SKILL
+Name         create fire~
+Type         Spell
+Info         521
+Flags        16384
+Minpos       111
+Slot         85
+Mana         10
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      !Create Fire!~
+Hitchar      A small cloud of vaporous flame bursts forth before you.~
+Hitroom      A small cloud of vaporous flame bursts forth before $n.~
+Dice         B~
+Value        30
+End
+
+#SKILL
+Name         create food~
+Type         Spell
+Info         521
+Flags        16384
+Minpos       111
+Slot         12
+Mana         10
+Rounds       2
+Code         spell_create_food
+Dammsg       ~
+Wearoff      !Create Food!~
+Hitchar      A magic mushroom appears in your hands.~
+Hitroom      A magic mushroom appears in $n's hands.~
+Dice         0~
+Value        20
+Difficulty   5
+End
+
+#SKILL
+Name         create spring~
+Type         Spell
+Info         522
+Flags        16384
+Minpos       109
+Slot         80
+Mana         15
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      !Create Spring!~
+Hitchar      Tracing a ring before you, the graceful flow of a mystical spring emerges.~
+Hitroom      As $n traces a ring through the air, the flow of a mystical spring emerges.~
+Dice         B~
+Value        22
+Difficulty   5
+End
+
+#SKILL
+Name         create water~
+Type         Spell
+Info         2
+Flags        0
+Target       4
+Minpos       111
+Slot         13
+Mana         10
+Rounds       4
+Code         spell_create_water
+Dammsg       ~
+Wearoff      !Create Water!~
+End
+
+#SKILL
+Name         cure blindness~
+Type         Spell
+Info         3
+Flags        0
+Target       2
+Minpos       109
+Slot         14
+Mana         55
+Rounds       4
+Code         spell_cure_blindness
+Dammsg       ~
+Wearoff      !Cure Blindness!~
+Difficulty   2
+End
+
+#SKILL
+Name         cure critical~
+Type         Spell
+Info         2
+Flags        0
+Target       2
+Minpos       109
+Slot         15
+Mana         35
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      !Cure Critical!~
+Hitchar      You cure $N's critical wounds.~
+Hitvict      Your critical wounds close and your pain ebbs away.~
+Difficulty   5
+Affect       '' 13 '6d3+p' -1
+End
+
+#SKILL
+Name         cure light~
+Type         Spell
+Info         2
+Flags        0
+Target       2
+Minpos       110
+Slot         16
+Mana         10
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      Your ability to see in the dark fades away.~
+Hitchar      You cure $N's light wounds.~
+Hitvict      Your light wounds mend and your pain ebbs slightly.~
+Difficulty   1
+Affect       '' 13 '1d2+p' -1
+End
+
+#SKILL
+Name         cure poison~
+Type         Spell
+Info         3
+Flags        0
+Target       2
+Minpos       110
+Slot         43
+Mana         35
+Rounds       4
+Code         spell_cure_poison
+Dammsg       ~
+Wearoff      !Cure Poison!~
+Difficulty   3
+End
+
+#SKILL
+Name         cure serious~
+Type         Spell
+Info         2
+Flags        0
+Target       2
+Minpos       110
+Slot         61
+Mana         20
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      !Cure Serious!~
+Hitchar      You cure $N's serious wounds.~
+Hitvict      Your serious wounds mend and your pain ebbs away.~
+Difficulty   3
+Affect       '' 13 '4d2+p' -1
+End
+
+#SKILL
+Name         curse~
+Type         Spell
+Info         5
+Flags        0
+Target       1
+Minpos       107
+Slot         17
+Mana         40
+Rounds       4
+Code         spell_curse
+Dammsg       curse~
+Wearoff      The curse wears off.~
+Difficulty   4
+End
+
+#SKILL
+Name         dancing fire~
+Type         Spell
+Info         8585
+MadeBy       Xerves~
+Prototype    1
+Flags        16
+Minpos       110
+Saves        5
+Mana         105
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       Dancing Fire~
+Dice         75+2d10+b*15/10~
+Difficulty   6
+End
+
+#SKILL
+Name         deanimation~
+Type         Spell
+Info         10636
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         60
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Deanimation~
+Dice         (b*3/4)}8~
+Difficulty   6
+Affect       '' 1013 'b*2/5' -1
+End
+
+#SKILL
+Name         demolic blast ~
+Type         Spell
+Info         8075
+MadeBy       Xerves~
+Prototype    1
+Flags        2097152
+Target       1
+Minpos       110
+Saves        5
+Mana         90
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       Demolic Blast~
+Dice         75+3d8+b*15/10~
+Difficulty   6
+End
+
+#SKILL
+Name         detect hidden~
+Type         Spell
+Info         5
+Flags        0
+Target       3
+Minpos       112
+Slot         44
+Mana         30
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      You feel less aware of your surroundings.~
+Hitvict      Your senses are heightened to those of an animal.~
+Hitroom      $N's senses are heightened to those of an animal.~
+Difficulty   3
+Affect       'b*15+1500' 26 'detect_hidden' 5
+End
+
+#SKILL
+Name         detect invis~
+Type         Spell
+Info         2
+Flags        0
+Target       3
+Minpos       105
+Slot         19
+Mana         30
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      You no longer see invisible objects.~
+Hitvict      Your eyes fixate as they gain the ability to see the unseen.~
+Hitroom      $N's eyes fixate as they gain the ability to see the unseen.~
+Difficulty   4
+Affect       'b*15+1500' 26 'detect_invis' 3
+End
+
+#SKILL
+Name         detect magic~
+Type         Spell
+Info         5
+Flags        0
+Target       3
+Minpos       111
+Slot         20
+Mana         15
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      The blue outlines disappear from your vision.~
+Hitvict      Traces of blue outline the magical objects in your field of vision.~
+Hitroom      A tint of blue in $N's eyes mirrors $S own perception.~
+Difficulty   3
+Affect       'b*15+1500' 26 'detect_magic' 4
+End
+
+#SKILL
+Name         detect poison~
+Type         Spell
+Info         4
+Flags        0
+Target       4
+Minpos       112
+Slot         21
+Mana         30
+Rounds       4
+Code         spell_detect_poison
+Dammsg       ~
+Wearoff      !Detect Poison!~
+Difficulty   3
+End
+
+#SKILL
+Name         detect traps~
+Type         Spell
+Info         5
+Flags        0
+Target       3
+Minpos       112
+Slot         86
+Mana         30
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      You feel less aware of the dangers about you.~
+Hitvict      You suddenly grow aware of the dangers about you.~
+Hitroom      $N peers about the room, intent on finding all manner of danger.~
+Difficulty   3
+Affect       'b*15+1500' 26 'detect_traps' 23
+End
+
+#SKILL
+Name         dispel magic~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       112
+Rounds       4
+Guild        0
+Code         spell_dispel_magic
+Dammsg       ~
+End
+
+#SKILL
+Name         divine hpgen~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        4194304
+Target       2
+Minpos       112
+Mana         120
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitchar      $N's blood pumps faster as it is filled with divine hpgen.~
+Hitvict      Your blood pumps faster as it is filled with divine hpgen.~
+Hitroom      $N's blood pumps faster as it is filled with divine hpgen.~
+Affect       'b*15+1500' 84 '400+(b*2)' -1
+End
+
+#SKILL
+Name         divine managen~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        4194304
+Target       2
+Mana         120
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitchar      $N's spirit almost begins to glow as it is filled with divine managen.~
+Hitvict      Your spirit almost begins to glow as it is filled with divine managen.~
+Hitroom      $N's spirit almost begins to glow as it is filled with divine managen.~
+Affect       'b*15+1500' 83 '400+(b*2)' -1
+End
+
+#SKILL
+Name         divine protection~
+Type         Spell
+Info         3
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       2
+Minpos       109
+Mana         60
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      Your divine protection disappates into the air.~
+Hitchar      A divine force forms a shield around $N~
+Hitvict      A divine force forms a shield around you.~
+Hitroom      A divine force forms a shield around $N.~
+Difficulty   5
+Affect       'b*10+1000' 31 '2' -1
+Affect       'b*10+1000' 78 '1+b/30' -1
+End
+
+#SKILL
+Name         divine rain~
+Type         Spell
+Info         2
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       2
+Minpos       107
+Mana         100
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Hitchar      You call upon a divine rain to heal $N.~
+Hitvict      A small patch of rain hovers over you and heals your wounds.~
+Difficulty   6
+Affect       '12+(r*4)' 68 'hrain4' -1
+End
+
+#SKILL
+Name         divinity~
+Type         Spell
+Info         6
+Flags        6144
+Target       2
+Minpos       110
+Slot         112
+Mana         75
+Rounds       8
+Code         spell_smaug
+Dammsg       ~
+Hitchar      You allow a divine presence to flow through $N.~
+Hitvict      You are filled with a divine presence.~
+Difficulty   6
+Affect       '' 13 '65+b' -1
+End
+
+#SKILL
+Name         dragon wit~
+Type         Spell
+Info         2
+Flags        0
+Target       2
+Minpos       111
+Slot         227
+Mana         45
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      The wit of the dragon withdraws from your mind.~
+Hitchar      $N's eyes glimmer with the wit of the dragon.~
+Hitvict      Your mind awakens in reception to the dragon's wit.~
+Hitroom      $N's eyes glimmer with the wit of the dragon.~
+Difficulty   4
+Affect       'b*15+1500' 3 '1+(b/30)' -1
+End
+
+#SKILL
+Name         earth clamp~
+Type         Spell
+Info         6539
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         50
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Earth Clamp~
+Dice         (b*12/10)}10~
+Difficulty   4
+End
+
+#SKILL
+Name         earthquake~
+Type         Spell
+Info         3
+Flags        0
+Minpos       109
+Slot         23
+Mana         10
+Rounds       4
+Code         spell_earthquake
+Dammsg       earthquake~
+Wearoff      !Earthquake!~
+Difficulty   2
+End
+
+#SKILL
+Name         electric blast~
+Type         Spell
+Info         10636
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         30
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Electric Blast~
+Dice         (b/2)}3~
+Difficulty   2
+End
+
+#SKILL
+Name         enchant weapon~
+Type         Spell
+Info         4
+Flags        0
+Target       4
+Minpos       112
+Slot         24
+Mana         80
+Rounds       6
+Code         spell_enchant_weapon
+Dammsg       ~
+Wearoff      !Enchant Weapon!~
+Difficulty   6
+End
+
+#SKILL
+Name         energy blast~
+Type         Spell
+Info         10636
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         10
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Energy Blast~
+Dice         1+p~
+End
+
+#SKILL
+Name         energy drain~
+Type         Spell
+Info         10636
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         40
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Energy Drain~
+Dice         (b/2-1)}2~
+Difficulty   4
+Affect       '' 1013 'p+3' -1
+End
+
+#SKILL
+Name         eradication~
+Type         Spell
+Info         10121
+MadeBy       Xerves~
+Prototype    1
+Flags        2097152
+Target       1
+Minpos       110
+Saves        5
+Mana         90
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       Eradication~
+Dice         75+2d8+b*15/10~
+Difficulty   6
+End
+
+#SKILL
+Name         eurori~
+Type         Spell
+Info         11660
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         50
+Rounds       4
+Code         spell_smaug
+Dammsg       Eurori~
+Dice         (b*7/10)}6~
+Difficulty   6
+End
+
+#SKILL
+Name         euroro~
+Type         Spell
+Info         11660
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         90
+Rounds       4
+Code         spell_smaug
+Dammsg       Euroro~
+Dice         28+1d15+b*15/10~
+Difficulty   7
+End
+
+#SKILL
+Name         extradimensional portal~
+Type         Spell
+Info         1548
+Flags        16384
+Minpos       111
+Slot         95
+Mana         90
+Rounds       6
+Code         spell_extradimensional_portal
+Dammsg       !EXTRADIMENSIONAL_PORTAL!~
+Wearoff      !EXTRADIMENSIONAL_PORTAL!~
+Value        63
+Difficulty   6
+End
+
+#SKILL
+Name         eye of god~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       111
+Mana         110
+Rounds       8
+Guild        0
+Code         spell_eye_of_god
+Dammsg       ~
+End
+
+#SKILL
+Name         faerie fire~
+Type         Spell
+Info         1
+Flags        0
+Target       1
+Minpos       109
+Slot         72
+Mana         10
+Rounds       4
+Code         spell_faerie_fire
+Dammsg       faerie fire~
+Wearoff      The pink aura around you fades away.~
+Difficulty   1
+End
+
+#SKILL
+Name         faerie fog~
+Type         Spell
+Info         1
+Flags        0
+Minpos       112
+Slot         73
+Mana         30
+Rounds       4
+Code         spell_faerie_fog
+Dammsg       faerie fog~
+Wearoff      !Faerie Fog!~
+Difficulty   3
+End
+
+#SKILL
+Name         farsight~
+Type         Spell
+Info         2
+Flags        0
+Minpos       112
+Slot         222
+Mana         65
+Rounds       4
+Code         spell_farsight
+Dammsg       ~
+Wearoff      !Farsight!~
+Difficulty   3
+End
+
+#SKILL
+Name         fire arrow~
+Type         Spell
+Info         8585
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         8
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Fire Arrow~
+Dice         1+p~
+End
+
+#SKILL
+Name         fire blast~
+Type         Spell
+Info         8585
+MadeBy       Xerves~
+Prototype    1
+Flags        2097152
+Target       1
+Minpos       110
+Saves        5
+Mana         12
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Fire Blast~
+Dice         1+p~
+End
+
+#SKILL
+Name         fire bolt~
+Type         Spell
+Info         8585
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         25
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Fire Bolt~
+Dice         (b/2+2)}3~
+Difficulty   2
+End
+
+#SKILL
+Name         fire breath~
+Type         Spell
+Info         1
+Flags        0
+Target       1
+Minpos       109
+Slot         201
+Mana         75
+Rounds       4
+Code         spell_fire_breath
+Dammsg       blast of flame~
+Wearoff      !Fire Breath!~
+End
+
+#SKILL
+Name         fireball~
+Type         Spell
+Info         8585
+MadeBy       Xerves~
+Prototype    1
+Flags        16
+Minpos       110
+Saves        5
+Mana         60
+Rounds       5
+Guild        0
+Code         spell_smaug
+Dammsg       Fireball~
+Dice         (b*9/10)}8~
+Difficulty   4
+End
+
+#SKILL
+Name         fireshield~
+Type         Spell
+Info         1
+Flags        0
+Target       2
+Minpos       111
+Slot         88
+Mana         85
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      The mystical flames are quelled by a sudden rush of air.~
+Hitchar      Mystical flames rise to enshroud $N.~
+Hitvict      Mystical flames rise to enshroud you.~
+Hitroom      Mystical flames rise to enshroud $N.~
+Difficulty   5
+Affect       'b*6+600' 26 'fireshield' 25
+End
+
+#SKILL
+Name         flare~
+Type         Spell
+Info         8585
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Saves        5
+Guild        0
+Code         spell_smaug
+Dammsg       shield of flame~
+Dice         (1+b/7)}1~
+End
+
+#SKILL
+Name         fleetarms~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       2
+Minpos       111
+Mana         85
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Hitchar      $N suddenly appears quicker..~
+Hitvict      You suddenly feel your agility increase..~
+Hitroom      $N suddenly appears quicker..~
+Difficulty   6
+Affect       'b*15+1500' 77 '5+(b/5)' -1
+End
+
+#SKILL
+Name         fletch~
+Type         Spell
+Info         8
+Flags        16384
+Minpos       109
+Slot         95
+Mana         30
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Hitchar      You fashion an arrow from a crude piece of flint.~
+Hitroom      $n creates an arrow from a piece of flint.~
+Misschar     You attempt to make an arrow, but fail miserably.~
+Value        21085
+Difficulty   5
+Components   v21086~
+End
+
+#SKILL
+Name         float~
+Type         Spell
+Info         0
+Flags        0
+Target       2
+Minpos       109
+Slot         292
+Mana         8
+Rounds       5
+Code         spell_smaug
+Dammsg       ~
+Wearoff      Your feet float slowly to the surface.~
+Hitchar      $N begins to float in mid-air...~
+Hitvict      You begin to float in mid-air...~
+Hitroom      $N begins to float in mid-air...~
+Affect       '150+b' 26 'float' 21
+End
+
+#SKILL
+Name         fly~
+Type         Spell
+Info         0
+Flags        0
+Target       2
+Minpos       109
+Slot         56
+Mana         40
+Rounds       5
+Code         spell_smaug
+Dammsg       ~
+Wearoff      You slowly float to the ground.~
+Hitchar      $N rises into the currents of air...~
+Hitvict      You rise into the currents of air...~
+Hitroom      $N rises into the currents of air...~
+Affect       '150+b' 26 'fly' 19
+End
+
+#SKILL
+Name         fortify~
+Type         Spell
+Info         841
+Flags        14336
+Target       2
+Minpos       109
+Slot         95
+Mana         55
+Rounds       5
+Code         spell_smaug
+Dammsg       ~
+Wearoff      !FORTIFY!~
+Hitvict      Your group's wounds close and mend.~
+Difficulty   6
+Affect       '' 13 '6d3-2+p' -1
+End
+
+#SKILL
+Name         frigid ball~
+Type         Spell
+Info         8586
+MadeBy       Xerves~
+Prototype    1
+Flags        16
+Minpos       110
+Saves        5
+Mana         60
+Rounds       5
+Guild        0
+Code         spell_smaug
+Dammsg       Frigid Ball~
+Dice         (b*85/100)}7~
+Difficulty   4
+End
+
+#SKILL
+Name         frigid death~
+Type         Spell
+Info         8586
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         90
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       Frigid Death~
+Dice         75+1d25+b*15/10~
+Difficulty   6
+End
+
+#SKILL
+Name         frost breath~
+Type         Spell
+Info         2
+Flags        0
+Target       1
+Minpos       110
+Slot         202
+Mana         75
+Rounds       4
+Code         spell_frost_breath
+Dammsg       blast of frost~
+Wearoff      !Frost Breath!~
+End
+
+#SKILL
+Name         frozen ball~
+Type         Spell
+Info         8586
+MadeBy       Xerves~
+Prototype    1
+Flags        16
+Minpos       110
+Saves        5
+Mana         30
+Rounds       5
+Guild        0
+Code         spell_smaug
+Dammsg       Frozen Ball~
+Dice         (b/2-1)}2~
+Difficulty   2
+End
+
+#SKILL
+Name         frozen blast~
+Type         Spell
+Info         8586
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         50
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Frozen Blast~
+Dice         (b)}8~
+Difficulty   4
+End
+
+#SKILL
+Name         frozen dart~
+Type         Spell
+Info         8586
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         10
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Frozen Dart~
+Dice         1+p~
+End
+
+#SKILL
+Name         frozen spike~
+Type         Spell
+Info         8586
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         25
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Frozen Spike~
+Dice         (b)}3~
+Difficulty   2
+End
+
+#SKILL
+Name         funnel~
+Type         Spell
+Info         2445
+MadeBy       Xerves~
+Prototype    1
+Flags        16
+Minpos       110
+Saves        5
+Mana         30
+Rounds       5
+Guild        0
+Code         spell_smaug
+Dammsg       Funnel~
+Dice         (b*60/100)}3~
+Difficulty   2
+End
+
+#SKILL
+Name         furori~
+Type         Spell
+Info         9609
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         50
+Rounds       4
+Code         spell_smaug
+Dammsg       furori~
+Dice         (b*9/10)}6~
+Difficulty   6
+End
+
+#SKILL
+Name         furoro~
+Type         Spell
+Info         9609
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         90
+Rounds       4
+Code         spell_smaug
+Dammsg       Furoro~
+Dice         35+1d15+b*15/10~
+Difficulty   7
+End
+
+#SKILL
+Name         gas breath~
+Type         Spell
+Info         5
+Flags        0
+Minpos       109
+Slot         203
+Mana         85
+Rounds       4
+Code         spell_gas_breath
+Dammsg       blast of gas~
+Wearoff      !Gas Breath!~
+End
+
+#SKILL
+Name         greater hpgen~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        4194304
+Target       2
+Minpos       112
+Mana         90
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitchar      $N's blood pumps faster as it is filled with greater hpgen.~
+Hitvict      Your blood pumps faster as it is filled with greater hpgen.~
+Hitroom      $N's blood pumps faster as it is filled with greater hpgen.~
+Affect       'b*15+1500' 84 '250+(b*2)' -1
+End
+
+#SKILL
+Name         greater managen~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        4194304
+Target       2
+Minpos       112
+Mana         90
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitchar      $N's spirit almost begins to glow as it is filled with greater managen.~
+Hitvict      Your spirit almost begins to glow as it is filled with greater managen.~
+Hitroom      $N's spirit almost begins to glow as it is filled with greater managen.~
+Affect       'b*15+1500' 83 '250+(b*2)' -1
+End
+
+#SKILL
+Name         greater resurrection~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       5
+Minpos       112
+Mana         220
+Rounds       10
+Guild        0
+Code         spell_greater_resurrection
+Dammsg       ~
+End
+
+#SKILL
+Name         gurori~
+Type         Spell
+Info         7563
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         50
+Rounds       4
+Code         spell_smaug
+Dammsg       Gurori~
+Dice         (b*9/10)}6~
+Difficulty   6
+End
+
+#SKILL
+Name         guroro~
+Type         Spell
+Info         7563
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         90
+Rounds       4
+Code         spell_smaug
+Dammsg       Guroro~
+Dice         35+1d15+b*15/10~
+Difficulty   7
+End
+
+#SKILL
+Name         harm~
+Type         Spell
+Info         7
+Flags        0
+Target       1
+Minpos       107
+Slot         27
+Mana         35
+Rounds       4
+Code         spell_harm
+Dammsg       harm spell~
+Wearoff      !Harm!~
+Difficulty   8
+End
+
+#SKILL
+Name         heal~
+Type         Spell
+Info         6
+Flags        0
+Target       2
+Minpos       110
+Slot         28
+Mana         50
+Rounds       6
+Code         spell_smaug
+Dammsg       ~
+Wearoff      !Heal!~
+Hitchar      You lay a hand of healing upon $N.~
+Hitvict      A warm feeling fills your body.~
+Difficulty   8
+Affect       '' 13 '25+(b*7/10)' -1
+End
+
+#SKILL
+Name         healing light~
+Type         Spell
+Info         328
+MadeBy       Xerves~
+Prototype    1
+Flags        14336
+Target       2
+Minpos       107
+Mana         35
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Wearoff      none~
+Hitchar      .~
+Hitvict      A soothing healing light heals your wounds.~
+Difficulty   6
+Affect       '' 13 '4d2-2+p' -1
+End
+
+#SKILL
+Name         healing rain~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       2
+Minpos       112
+Mana         40
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Wearoff      A healing rain dries up.~
+Hitchar      You cast a healing rain to repair $N's wounds.~
+Hitvict      A warm healing rain starts to restore your wounds.~
+Affect       '12+(r*4)' 68 'hrain2' -1
+End
+
+#SKILL
+Name         heavenly blast~
+Type         Spell
+Info         2445
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         90
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       Heavenly Blast~
+Dice         100+6d8+b*15/10~
+Difficulty   6
+End
+
+#SKILL
+Name         holy cleansing~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       2
+Minpos       112
+Mana         65
+Rounds       4
+Guild        0
+Code         spell_holy_cleansing
+Dammsg       ~
+End
+
+#SKILL
+Name         holy food~
+Type         Spell
+Info         1
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       107
+Mana         150
+Rounds       6
+Code         spell_holy_food
+Dammsg       ~
+Hitchar      A few magical apples appear right before you.~
+Hitroom      A few magical apples appear right before $n.~
+Difficulty   8
+End
+
+#SKILL
+Name         hpgen~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        4194304
+Target       2
+Minpos       112
+Mana         60
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitchar      $N's blood pumps faster as it is filled with hpgen.~
+Hitvict      Your blood pumps faster as it is filled with hpgen.~
+Hitroom      $N's blood pumps faster as it is filled with hpgen.~
+Difficulty   1
+Affect       'b*15+1500' 84 '120+(b*2)' -1
+End
+
+#SKILL
+Name         hrain1~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       2
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitchar      The refreshment of minor healing rain heals a small amount of your wounds.~
+Hitvict      The refreshment of minor healing rain heals a small amount of your wounds.~
+Affect       '' 13 '7' -1
+End
+
+#SKILL
+Name         hrain2~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       2
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitchar      The refreshment of healing rain heals some of your wounds.~
+Hitvict      The refreshment of healing rain heals some of your wounds.~
+Affect       '' 13 '14' -1
+End
+
+#SKILL
+Name         hrain3~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       2
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitchar      The refreshment of major healing rain heals a good amount of your wounds.~
+Hitvict      The refreshment of major healing rain heals a good amount of your wounds.~
+Affect       '' 13 '30' -1
+End
+
+#SKILL
+Name         hrain4~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       2
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitchar      The refreshment of divine rain heals a large amount of your wounds.~
+Hitvict      The refreshment of divine rain heals a large amount of your wounds.~
+Affect       '' 13 '60' -1
+End
+
+#SKILL
+Name         iceshard~
+Type         Spell
+Info         8586
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Saves        5
+Guild        0
+Code         spell_smaug
+Dammsg       shield of ice~
+Dice         (1+b/7)}1~
+End
+
+#SKILL
+Name         iceshield~
+Type         Spell
+Info         2
+Flags        0
+Target       2
+Minpos       112
+Slot         221
+Mana         85
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      The hail of ice rapidly melts and evaporates into nothingness.~
+Hitchar      A glistening hail of ice encompasses $N.~
+Hitvict      A glistening hail of ice encompasses you.~
+Hitroom      A glistening hail of ice encompasses $N.~
+Difficulty   5
+Affect       'b*6+600' 26 'iceshield' 28
+End
+
+#SKILL
+Name         identify~
+Type         Spell
+Info         1
+Flags        0
+Minpos       111
+Slot         53
+Mana         25
+Rounds       5
+Code         spell_identify
+Dammsg       ~
+Wearoff      !Identify!~
+Dice         -1~
+Difficulty   2
+End
+
+#SKILL
+Name         indignation~
+Type         Spell
+Info         846
+Flags        14336
+Target       2
+Minpos       111
+Slot         95
+Mana         85
+Rounds       6
+Code         spell_smaug
+Dammsg       ~
+Wearoff      The Fury of The High Gods seeps from your veins, leaving you drained.~
+Hitchar      You lay The Fury of The High Gods upon $N.~
+Hitvict      The Fury of The High Gods is temporarily given to you.~
+Hitroom      The Fury of The High Gods is temporarily given to $N.~
+Difficulty   5
+Affect       'b*15+1500' 82 '1+b/60' -1
+End
+
+#SKILL
+Name         infravision~
+Type         Spell
+Info         0
+Flags        0
+Target       2
+Minpos       109
+Slot         77
+Mana         5
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      You no longer see in the dark.~
+Hitchar      $N's eyes dart about as they grow accustomed to infravision.~
+Hitvict      Heat appears red through your eyes.~
+Hitroom      $N's eyes dart about as they grow accustomed to infravision.~
+Affect       'b*150+3500' 26 'infravision' 9
+End
+
+#SKILL
+Name         invis~
+Type         Spell
+Info         0
+Flags        0
+Target       2
+Minpos       112
+Slot         29
+Mana         85
+Rounds       4
+Code         spell_invis
+Dammsg       ~
+Wearoff      You are no longer invisible.~
+Hitchar      $N fades from existence.~
+Hitvict      You fade from existence.~
+Hitroom      $N fades from existence.~
+Difficulty   9
+Affect       'b*15+1500' 26 'invis' 1
+End
+
+#SKILL
+Name         jagged spike~
+Type         Spell
+Info         6539
+MadeBy       Xerves~
+Prototype    1
+Flags        2097152
+Target       1
+Minpos       110
+Saves        5
+Mana         12
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Jagged Spike~
+Dice         1+p~
+End
+
+#SKILL
+Name         jagged stone~
+Type         Spell
+Info         6539
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         10
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Jagged Stone~
+Dice         2+p~
+End
+
+#SKILL
+Name         jolting burst~
+Type         Spell
+Info         10636
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         50
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Jolting Burst~
+Dice         (b*9/10)}8~
+Difficulty   4
+End
+
+#SKILL
+Name         kindred strength~
+Type         Spell
+Info         1
+Flags        0
+Target       2
+Minpos       109
+Slot         39
+Mana         45
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      Your vampiric potence slowly withers away...~
+Hitchar      $N's muscles ripple as vampiric powers flow through $M...~
+Hitvict      The strength of the Kindred flows through your veins...~
+Hitroom      $N's muscles ripple as vampiric powers flow through $M...~
+Difficulty   4
+Affect       'b*15+1500' 1 '1+(b/30)' -1
+End
+
+#SKILL
+Name         knock~
+Type         Spell
+Info         4
+Flags        0
+Minpos       112
+Slot         234
+Mana         40
+Rounds       4
+Code         spell_knock
+Dammsg       ~
+Wearoff      !Knock!~
+Difficulty   4
+End
+
+#SKILL
+Name         know enemy~
+Type         Spell
+Info         5
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       111
+Mana         85
+Rounds       6
+Code         spell_knowenemy
+Dammsg       ~
+Difficulty   6
+End
+
+#SKILL
+Name         lesser resurrection~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       112
+Mana         75
+Rounds       20
+Guild        0
+Code         spell_lesser_resurrection
+Dammsg       ~
+End
+
+#SKILL
+Name         lightning breath~
+Type         Spell
+Info         4
+Flags        0
+Target       1
+Minpos       110
+Slot         204
+Mana         75
+Rounds       4
+Code         spell_lightning_breath
+Dammsg       blast of lightning~
+Wearoff      !Lightning Breath!~
+End
+
+#SKILL
+Name         locate object~
+Type         Spell
+Info         2
+Flags        0
+Minpos       111
+Slot         31
+Mana         40
+Rounds       4
+Code         spell_locate_object
+Dammsg       ~
+Wearoff      !Locate Object!~
+Difficulty   5
+End
+
+#SKILL
+Name         magic bane~
+Type         Spell
+Info         5
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       109
+Mana         70
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Wearoff      You feel your defense to the arcane returning to normal!!!~
+Hitchar      $N's eyes expand as $S defense to the arcane decrease.~
+Hitvict      Your defenses to the arcane has decreased!!!!~
+Hitroom      $N's eyes expand as $S defense to the arcane decrease.~
+Immchar      Your spell has no effect upon $N.~
+Difficulty   4
+Teachers     0~
+Affect       'b*2+10' 20 '1+b/10' -1
+Affect       'b*2+10' 23 '1+b/10' -1
+Affect       'b*2+10' 22 '1+b/10' -1
+Affect       'b*2+10' 21 '1+b/10' -1
+Affect       'b*2+10' 24 '1+b/10' -1
+End
+
+#SKILL
+Name         major healing rain~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       2
+Minpos       112
+Mana         70
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Wearoff      A major healing rain dries up.~
+Hitchar      You cast a major healing rain to repair $N's wounds.~
+Hitvict      A warm major healing rain starts to restore your wounds.~
+Affect       '12+(r*4)' 68 'hrain3' -1
+End
+
+#SKILL
+Name         major invocation~
+Type         Spell
+Info         845
+Flags        14336
+Target       2
+Minpos       112
+Slot         95
+Mana         45
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      Your time in The Sanctuary of The High Gods is over.~
+Hitchar      You lay The Sanctuary of The High Gods upon $N.~
+Hitvict      The Sanctuary of The High Gods is temporarily given to you.~
+Hitroom      The Sanctuary of The High Gods is temporarily given to $N.~
+Difficulty   6
+Affect       'b*15+1500' 24 '-(1+b/10)' -1
+End
+
+#SKILL
+Name         managen~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        4194304
+Target       2
+Minpos       112
+Mana         60
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitchar      $N's spirit almost begins to glow as it is filled with managen.~
+Hitvict      Your spirit almost begins to glow as it is filled with managen.~
+Hitroom      $N's spirit almost begins to glow as it is filled with managen.~
+Affect       'b*15+1500' 83 '120+(b*2)' -1
+End
+
+#SKILL
+Name         manatorrent~
+Type         Spell
+Info         392
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Guild        0
+Code         spell_smaug
+Dammsg       spiritual energy~
+Dice         (1+b/5)}1~
+End
+
+#SKILL
+Name         mass invis~
+Type         Spell
+Info         0
+Flags        8192
+Target       2
+Minpos       112
+Slot         69
+Mana         175
+Rounds       6
+Code         spell_smaug
+Dammsg       ~
+Wearoff      You are no longer invisible.~
+Hitvict      You fade from existence.~
+Hitroom      $N fades from existence.~
+Affect       'b*15+1500' 26 'mass invis' 1
+End
+
+#SKILL
+Name         meteor~
+Type         Spell
+Info         2445
+MadeBy       Xerves~
+Prototype    1
+Flags        16
+Minpos       110
+Saves        5
+Mana         105
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       Meteor~
+Dice         75+2d8+b*15/10~
+Difficulty   6
+End
+
+#SKILL
+Name         minor healing rain~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       2
+Minpos       112
+Mana         20
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Wearoff      A minor healing rain dries up.~
+Hitchar      You cast a minor healing rain to repair $N's wounds.~
+Hitvict      A warm minor healing rain starts to restore your wounds.~
+Affect       '12+(r*4)' 68 'hrain1' -1
+End
+
+#SKILL
+Name         minor invocation~
+Type         Spell
+Info         845
+Flags        14336
+Target       2
+Minpos       111
+Slot         95
+Mana         15
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      The minor invocation fades away.~
+Hitchar      You lay a minor invocation of your god  upon $N.~
+Hitvict      A minor invocation is laid upon you.~
+Hitroom      $N beams as a minor invocation is laid upon $M.~
+Difficulty   3
+Affect       'b*15+1500' 24 '-(1+b/15)' -1
+Affect       'b*15+1500' 21 '-(1+b/15)' -1
+Affect       'b*15+1500' 22 '-(1+b/15)' -1
+Affect       'b*15+1500' 23 '-(1+b/15)' -1
+Affect       'b*15+1500' 20 '-(1+b/15)' -1
+End
+
+#SKILL
+Name         molecular degeneration~
+Type         Spell
+Info         10636
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         110
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       Molecular Degeneration~
+Dice         50+2d10+b*15/10~
+Difficulty   8
+Affect       '' 1013 '25+1d10+b' -1
+End
+
+#SKILL
+Name         necromantic touch~
+Type         Spell
+Info         8591
+Flags        6144
+Target       1
+Minpos       109
+Saves        5
+Slot         114
+Mana         60
+Rounds       4
+Code         spell_smaug
+Dammsg       necromantic touch~
+Hitchar      You drain $N's life essence.~
+Hitvict      Your life energies are stolen by $n!~
+Hitroom      $n drains the life essence from $N!~
+Dice         (b*65/100)}5~
+Affect       '' 1013 '1+(b*3/10)' -1
+End
+
+#SKILL
+Name         nohunger~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       2
+Minpos       112
+Mana         45
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Wearoff      You feel hungry once again.~
+Hitchar      $N no longer feels hungry.~
+Hitvict      You no longer feel hungry.~
+Hitroom      $N no longer feels hungry.~
+Difficulty   2
+Affect       'b*25+2500' 26 'nohunger' 38
+End
+
+#SKILL
+Name         nothirst~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       2
+Minpos       112
+Mana         45
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Wearoff      You feel thirsty once again.~
+Hitchar      $N no longer feels thirsty.~
+Hitvict      You no longer feel thirsty.~
+Hitroom      $N no longer feels thirsty.~
+Difficulty   2
+Affect       'b*25+2500' 26 'nothirst' 39
+End
+
+#SKILL
+Name         pass door~
+Type         Spell
+Info         4
+Flags        0
+Target       3
+Minpos       111
+Slot         74
+Mana         80
+Rounds       4
+Code         spell_pass_door
+Dammsg       ~
+Wearoff      You feel solid again.~
+Difficulty   5
+End
+
+#SKILL
+Name         poison~
+Type         Spell
+Info         3
+Flags        131072
+Target       1
+Minpos       111
+Slot         33
+Mana         35
+Rounds       4
+Code         spell_poison
+Dammsg       poison~
+Wearoff      You feel less sick.~
+Difficulty   2
+End
+
+#SKILL
+Name         polymorph~
+Type         Spell
+Info         0
+Flags        0
+Minpos       111
+Slot         294
+Mana         60
+Rounds       4
+Code         spell_null
+Dammsg       ~
+Wearoff      !Polymorph!~
+End
+
+#SKILL
+Name         portal~
+Type         Spell
+Info         5
+Flags        0
+Minpos       111
+Slot         220
+Mana         80
+Rounds       6
+Dammsg       ~
+Wearoff      !Portal!~
+Difficulty   4
+End
+
+#SKILL
+Name         possess~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       107
+Mana         15
+Rounds       4
+Guild        0
+Code         spell_possess
+Dammsg       ~
+End
+
+#SKILL
+Name         power drain~
+Type         Spell
+Info         10636
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         20
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Power Drain~
+Dice         1+p~
+Difficulty   2
+Affect       '' 1013 'p' -1
+End
+
+#SKILL
+Name         power heal~
+Type         Spell
+Info         6
+MadeBy       Xerves~
+Prototype    1
+Flags        6144
+Target       2
+Minpos       110
+Mana         120
+Rounds       16
+Code         spell_smaug
+Dammsg       ~
+Hitchar      You call upon a healing of great power to restore $N.~
+Hitvict      A powerful blessing covers your body and tends to your wounds!~
+Difficulty   7
+Affect       '' 13 '200+b' -1
+End
+
+#SKILL
+Name         quantum spike~
+Type         Spell
+Info         10636
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         90
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       Quantum Spike~
+Dice         63+1d25+b*15/10~
+Difficulty   6
+End
+
+#SKILL
+Name         recharge~
+Type         Spell
+Info         4
+Flags        0
+Target       4
+Minpos       111
+Slot         229
+Mana         80
+Rounds       6
+Code         spell_recharge
+Dammsg       ~
+Wearoff      !Recharge!~
+Difficulty   7
+End
+
+#SKILL
+Name         refresh~
+Type         Spell
+Info         4
+Flags        0
+Target       2
+Minpos       109
+Slot         81
+Mana         10
+Rounds       4
+Code         spell_smaug
+Dammsg       refresh~
+Wearoff      !Refresh!~
+Hitchar      You allow blooming vitality to flow from you to $N.~
+Hitvict      Blooming vitality flows through you.~
+Dice         0~
+Affect       '' 14 '50+b*2' -1
+End
+
+#SKILL
+Name         remove curse~
+Type         Spell
+Info         5
+Flags        0
+Target       2
+Minpos       111
+Slot         35
+Mana         55
+Rounds       4
+Code         spell_remove_curse
+Dammsg       ~
+Wearoff      !Remove Curse!~
+Difficulty   3
+End
+
+#SKILL
+Name         remove invis~
+Type         Spell
+Info         5
+Flags        0
+Minpos       112
+Slot         230
+Mana         35
+Rounds       4
+Code         spell_remove_invis
+Dammsg       ~
+Wearoff      !Remove Invis!~
+Difficulty   3
+End
+
+#SKILL
+Name         remove trap~
+Type         Spell
+Info         3
+Flags        0
+Minpos       112
+Slot         87
+Mana         35
+Rounds       4
+Code         spell_remove_trap
+Dammsg       ~
+Wearoff      !Remove trap!~
+Difficulty   5
+End
+
+#SKILL
+Name         restore limb~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       2
+Mana         85
+Rounds       4
+Guild        0
+Code         spell_restore_limb
+Dammsg       ~
+End
+
+#SKILL
+Name         restore mana~
+Type         Spell
+Info         0
+Flags        0
+Target       2
+Minpos       110
+Slot         84
+Mana         20
+Rounds       6
+Code         spell_smaug
+Dammsg       ~
+Wearoff      !Restore Mana!~
+Hitvict      A surge of mana spreads throughout your being.~
+Affect       '' 12 'b+2d10' -1
+End
+
+#SKILL
+Name         resurrection~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       5
+Minpos       112
+Mana         150
+Rounds       20
+Guild        0
+Code         spell_resurrection
+Dammsg       ~
+End
+
+#SKILL
+Name         revitalize limb~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       2
+Mana         45
+Rounds       4
+Guild        0
+Code         spell_revitalize_limb
+Dammsg       ~
+End
+
+#SKILL
+Name         revitalize spirit~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       2
+Minpos       112
+Mana         35
+Rounds       4
+Guild        0
+Code         spell_revitalize_spirit
+Dammsg       ~
+End
+
+#SKILL
+Name         sacred blast~
+Type         Spell
+Info         395
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Mana         120
+Rounds       8
+Code         spell_smaug
+Dammsg       Sacred Blast~
+Dice         56+2d5+b*9/10~
+Difficulty   7
+End
+
+#SKILL
+Name         sagacity~
+Type         Spell
+Info         3
+Flags        0
+Target       2
+Minpos       111
+Slot         228
+Mana         45
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      Furrowing your brow, you sense the weight of wisdom leave you.~
+Hitchar      $N grows serious as wisdom takes root within $M.~
+Hitvict      The wisdom of your elders blossoms within you.~
+Hitroom      $N grows serious as wisdom takes root within $M.~
+Difficulty   4
+Affect       'b*15+1500' 4 '1+(b/30)' -1
+End
+
+#SKILL
+Name         sanctify~
+Type         Spell
+Info         4
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       2
+Minpos       107
+Mana         85
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      Your sanctified body returns to normal~
+Hitchar      You pray for sanctity to further $N in $s quest.~
+Hitvict      You are emcompassed by a powerful protection.~
+Hitroom      $N is encompassed by a powerful protection.~
+Difficulty   7
+Affect       'b*10+1000' 81 '1+b/8' -1
+End
+
+#SKILL
+Name         sanctuary~
+Type         Spell
+Info         337
+Flags        0
+Target       2
+Minpos       112
+Slot         36
+Mana         85
+Rounds       6
+Code         spell_smaug
+Dammsg       ~
+Wearoff      The luminous aura about your body fades away.~
+Hitchar      A luminous aura spreads slowly over $N's body.~
+Hitvict      A luminous aura spreads slowly over your body.~
+Hitroom      A luminous aura spreads slowly over $N's body.~
+Difficulty   6
+Affect       'b*10+1000' 101 '85-b/4' 7
+Affect       'b*10+1000' 102 '85-b/4' -1
+End
+
+#SKILL
+Name         scolding blast~
+Type         Spell
+Info         9097
+MadeBy       Xerves~
+Prototype    1
+Flags        2097152
+Target       1
+Minpos       110
+Saves        5
+Mana         30
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Scolding Blast~
+Dice         (b/2)}2~
+Difficulty   2
+End
+
+#SKILL
+Name         scry~
+Type         Spell
+Info         3
+Flags        0
+Target       2
+Minpos       109
+Slot         91
+Mana         85
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      Your clairvoyance slowly disintegrates...~
+Hitchar      $N's eyes glaze over as $E endures a vision...~
+Hitvict      You receive a revelatory vision...~
+Hitroom      $N's eyes glaze over as $E endures a vision...~
+Difficulty   6
+Affect       'b*15+1500' 26 'scry' 24
+End
+
+#SKILL
+Name         shield~
+Type         Spell
+Info         3
+Flags        0
+Target       2
+Minpos       109
+Slot         67
+Mana         45
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      Your force shield shimmers then fades away.~
+Hitchar      A force shield of shimmering blue surrounds $N.~
+Hitvict      A force shield of shimmering blue surrounds you.~
+Hitroom      A force shield of shimmering blue surrounds $N.~
+Difficulty   6
+Affect       'b*15+1500' 79 '1+(b/4)' -1
+End
+
+#SKILL
+Name         shield of the gods~
+Type         Spell
+Info         6
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       2
+Minpos       110
+Mana         125
+Rounds       12
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Wearoff      You feel the shield of the gods flow out of your body.~
+Hitchar      You chant for the shield of the gods to protect $N.~
+Hitvict      $n chants for the shield of the gods to protect you.~
+Hitroom      $n chants for the shield of the gods to protect $N.~
+Affect       'b*10+1000' 13 'b+5' -1
+Affect       '' 13 'b+5' -1
+End
+
+#SKILL
+Name         shockshield~
+Type         Spell
+Info         4
+Flags        0
+Target       3
+Minpos       111
+Slot         89
+Mana         85
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      The torrents of cascading energy suddenly fade away.~
+Hitvict      Torrents of cascading energy form around you.~
+Hitroom      Torrents of cascading energy form around $N.~
+Difficulty   5
+Affect       'b*6+600' 26 'shockshield' 26
+End
+
+#SKILL
+Name         sleep~
+Type         Spell
+Info         4
+Flags        131072
+Minpos       112
+Slot         38
+Mana         25
+Rounds       4
+Code         spell_sleep
+Dammsg       ~
+Wearoff      You feel less tired.~
+Difficulty   1
+End
+
+#SKILL
+Name         slink~
+Type         Spell
+Info         5
+Flags        0
+Target       2
+Minpos       111
+Slot         205
+Mana         45
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      You suddenly feel less coordinated...~
+Hitchar      $N suddenly appears more agile...~
+Hitvict      You suddenly feel more nimble...~
+Hitroom      $N suddenly appears more agile...~
+Difficulty   4
+Affect       'b*15+1500' 2 '1+(b/30)' -1
+End
+
+#SKILL
+Name         snare~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Mana         45
+Rounds       4
+Guild        0
+Code         spell_snare
+Dammsg       ~
+Wearoff      The magical snare breaks and you are free to move again!~
+Difficulty   6
+End
+
+#SKILL
+Name         stone skin~
+Type         Spell
+Info         3
+Flags        0
+Target       2
+Minpos       109
+Slot         66
+Mana         75
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      Your skin feels soft again.~
+Hitvict      Your skin hardens to a malleable stone.~
+Hitroom      $N's skin hardens to a malleable stone.~
+Difficulty   7
+Affect       'b*15+1500' 80 '1+b/20' -1
+End
+
+#SKILL
+Name         summon~
+Type         Spell
+Info         5
+Flags        0
+Minpos       111
+Slot         40
+Mana         85
+Rounds       10
+Code         spell_summon
+Dammsg       ~
+Wearoff      !Summon!~
+Difficulty   6
+End
+
+#SKILL
+Name         summon corpse~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Mana         250
+Rounds       14
+Guild        0
+Code         spell_summon_corpse
+Dammsg       ~
+Difficulty   5
+End
+
+#SKILL
+Name         tidal wave~
+Type         Spell
+Info         8586
+MadeBy       Xerves~
+Prototype    1
+Flags        16
+Minpos       110
+Saves        5
+Mana         105
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       Tidal Wave~
+Dice         65+2d10+b*15/10~
+Difficulty   6
+End
+
+#SKILL
+Name         tornado~
+Type         Spell
+Info         2445
+MadeBy       Xerves~
+Prototype    1
+Flags        16
+Minpos       110
+Saves        5
+Mana         60
+Rounds       5
+Guild        0
+Code         spell_smaug
+Dammsg       Tornado~
+Dice         (b)}8~
+Difficulty   4
+End
+
+#SKILL
+Name         torrent~
+Type         Spell
+Info         8588
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Saves        5
+Guild        0
+Code         spell_smaug
+Dammsg       tendril of lightning~
+Dice         (1+b/5)}1~
+End
+
+#SKILL
+Name         trollish vigor~
+Type         Spell
+Info         4
+Flags        0
+Target       2
+Minpos       111
+Slot         206
+Mana         45
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      Your vigor subsides, leaving you more charismatic.~
+Hitchar      $N's face contorts with a bestial vigor...~
+Hitvict      You sense a bestial vigor consume you...~
+Hitroom      $N's face contorts with a bestial vigor...~
+Difficulty   4
+Affect       'b*15+1500' 5 '1+(b/30)' -1
+End
+
+#SKILL
+Name         true sight~
+Type         Spell
+Info         2
+Flags        0
+Target       3
+Minpos       112
+Slot         235
+Mana         60
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      Your vision descends to the material plane.~
+Hitvict      Your vision is elevated to the highest plane.~
+Hitroom      $N's eyes begin to glow a soft white.~
+Difficulty   5
+Affect       'b*15+1500' 26 'truesight' 22
+End
+
+#SKILL
+Name         unknown~
+Type         Spell
+Info         0
+Flags        0
+Minpos       105
+Slot         95
+Code         spell_smaug
+Dammsg       ~
+End
+
+#SKILL
+Name         unravel defense~
+Type         Spell
+Info         2
+Flags        6144
+Target       1
+Minpos       109
+Slot         110
+Mana         70
+Rounds       6
+Code         spell_smaug
+Dammsg       ~
+Wearoff      Your intricate defenses are restored to their original quality.~
+Hitchar      $N's eyes widen in fear as $S defenses are unravelled.~
+Hitvict      Your defenses are unravelled before your very eyes.~
+Hitroom      $N's eyes widen in fear as $S defenses are unravelled.~
+Immchar      Your spell has no effect upon $N.~
+Difficulty   6
+Affect       'b*2+10' 82 '-1-b/30' -1
+Affect       'b*2+10' 78 '-1-b/30' -1
+End
+
+#SKILL
+Name         uplift~
+Type         Spell
+Info         5
+Flags        32800
+Minpos       112
+Slot         95
+Mana         75
+Rounds       5
+Code         spell_smaug
+Dammsg       ~
+Hitchar      You reach across the planes and aid $N...~
+Hitvict      The mystical hand of $n appears from nowhere and aids you...~
+Hitroom      A mystical hand appears from nowhere and aids $N...~
+Misschar     A barrier in the planes prevents you from reaching them.~
+Difficulty   5
+Affect       '' 13 '3d2+p' -1
+End
+
+#SKILL
+Name         vampric touch~
+Type         Spell
+Info         8591
+Flags        6144
+Target       1
+Minpos       109
+Saves        5
+Mana         25
+Rounds       4
+Code         spell_smaug
+Dammsg       vampric touch~
+Wearoff      none~
+Hitchar      Your drain $N's life essence~
+Hitvict      Your life energy is stolen by $n!~
+Hitroom      $n drains the life essence from $N!~
+Dice         2d8+13+(b/4)~
+Difficulty   5
+Affect       '' 1013 '1d6+6+(b/2)' -1
+End
+
+#SKILL
+Name         weaken~
+Type         Spell
+Info         4
+Flags        0
+Target       1
+Minpos       107
+Slot         68
+Mana         15
+Rounds       4
+Code         spell_weaken
+Dammsg       spell~
+Wearoff      You feel stronger.~
+Difficulty   2
+End
+
+#SKILL
+Name         web~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Mana         30
+Rounds       4
+Guild        0
+Code         spell_web
+Dammsg       ~
+Wearoff      The webs suddenly fall off and you are free to move again!~
+Difficulty   6
+End
+
+#SKILL
+Name         wind chill~
+Type         Spell
+Info         2445
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         10
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Wind Chill~
+Dice         1d2+p~
+End
+
+#SKILL
+Name         wind gust~
+Type         Spell
+Info         2445
+MadeBy       Xerves~
+Prototype    1
+Flags        16
+Minpos       110
+Saves        5
+Mana         15
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Wind Gust~
+Dice         1+p~
+End
+
+#SKILL
+Name         wind spike~
+Type         Spell
+Info         2445
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         25
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       Wind Spike~
+Dice         (b/2+3)}4~
+Difficulty   2
+End
+
+#SKILL
+Name         wizardeye~
+Type         Spell
+Info         5
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       112
+Mana         40
+Rounds       4
+Code         spell_wizard_eye
+Dammsg       ~
+Wearoff      Your eyes close to the world around you.~
+Difficulty   5
+End
+
+#SKILL
+Name         word of nyiji~
+Type         Spell
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       2
+Minpos       112
+Mana         75
+Rounds       4
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitchar      You chant for the projection of nyiji for $N.~
+Hitvict      You are blessed with the word of nyiji.~
+Hitroom      $n bestows $N with the word of nyiji.~
+Affect       '3600+b*540' 26 'nyiji' 45
+End
+
+#SKILL
+Name         word of recall~
+Type         Spell
+Info         5
+Flags        0
+Minpos       106
+Slot         42
+Mana         25
+Rounds       4
+Code         spell_word_of_recall
+Dammsg       ~
+Wearoff      !Word of Recall!~
+End
+
+#SKILL
+Name         wurori~
+Type         Spell
+Info         9610
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         50
+Rounds       4
+Code         spell_smaug
+Dammsg       Wurori~
+Dice         (b*8/10)}6~
+Difficulty   6
+End
+
+#SKILL
+Name         wuroro~
+Type         Spell
+Info         9610
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       110
+Saves        5
+Mana         90
+Rounds       4
+Code         spell_smaug
+Dammsg       Wuroro~
+Dice         35+1d15+b*15/10~
+Difficulty   7
+End
+
+#SKILL
+Name         aggressive style~
+Type         Skill
+Info         0
+Flags        0
+Minpos       112
+Rounds       4
+Code         spell_null
+Dammsg       ~
+Wearoff      !aggressive style!~
+Difficulty   7
+End
+
+#SKILL
+Name         aid~
+Type         Skill
+Info         0
+Flags        0
+Minpos       107
+Rounds       2
+Code         do_aid
+Dammsg       ~
+Wearoff      !Aid!~
+End
+
+#SKILL
+Name         amberio~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       2
+Targetlimb   1
+Guild        0
+Code         do_amberio
+Dammsg       amberio~
+Difficulty   12
+End
+
+#SKILL
+Name         arrowcatch~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       3
+Minpos       112
+Rounds       6
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitvict      You quickly move your fingers around and prepare your body to catch arrows.~
+Hitroom      $n seems to be preparing to catch arrows, how nice.~
+Missvict     You try to prepare yourself to catch some arrows, but today is just a bad day :-(.~
+Missroom     $n wants to be able to catch arrows, but %s body has other ideas.~
+Difficulty   4
+Affect       '1200+(b*10)' 93 'b' -1
+End
+
+#SKILL
+Name         assassinate~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       112
+Rounds       4
+Guild        0
+Code         do_assassinate
+Dammsg       ~
+Difficulty   6
+End
+
+#SKILL
+Name         attack frenzy~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       105
+Code         spell_null
+Dammsg       ~
+Difficulty   7
+End
+
+#SKILL
+Name         axes~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         backstab~
+Type         Skill
+Info         0
+Flags        0
+Minpos       112
+Code         do_backstab
+Dammsg       backstab~
+Wearoff      !Backstab!~
+Difficulty   4
+End
+
+#SKILL
+Name         balance~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+End
+
+#SKILL
+Name         bash~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       105
+Rounds       4
+Guild        0
+Code         do_bash
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         battle knowledge~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+End
+
+#SKILL
+Name         begging~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       112
+Rounds       4
+Guild        0
+Code         do_begging
+Dammsg       ~
+Difficulty   7
+End
+
+#SKILL
+Name         berserk~
+Type         Skill
+Info         0
+Flags        0
+Target       1
+Minpos       105
+Rounds       4
+Code         do_berserk
+Dammsg       ~
+Wearoff      You regain your composure...~
+Difficulty   7
+End
+
+#SKILL
+Name         berserk style~
+Type         Skill
+Info         0
+Flags        0
+Minpos       110
+Rounds       4
+Code         spell_null
+Dammsg       ~
+Wearoff      !berserk style!~
+Difficulty   7
+End
+
+#SKILL
+Name         blitz~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       2
+Targetlimb   4
+Guild        0
+Code         do_blitz
+Dammsg       blitz~
+Difficulty   11
+End
+
+#SKILL
+Name         blunt~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         bracing~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       3
+Minpos       112
+Rounds       6
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitvict      You adjust your stance to attempt to cover any chance of a critical strikes.~
+Hitroom      $n adjusts his stance in an attempt to stop critical strikes.~
+Missvict     You try to adjust yourself to prepare for critical strikes, but cannot seem to figure out how.~
+Missroom     $n tries to adjust $mself to prepare for critical strikes, but somehow fails.  Loser!~
+Difficulty   11
+Affect       '1200+(b*10)' 94 'b' -1
+End
+
+#SKILL
+Name         brew~
+Type         Skill
+Info         0
+Flags        0
+Target       4
+Minpos       112
+Mana         95
+Rounds       8
+Code         do_brew
+Dammsg       ~
+Wearoff      !Brew!~
+Difficulty   3
+End
+
+#SKILL
+Name         circle~
+Type         Skill
+Info         0
+Flags        0
+Minpos       107
+Code         do_circle
+Dammsg       circle~
+Wearoff      !Circle!~
+Difficulty   7
+End
+
+#SKILL
+Name         cleansing~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       3
+Minpos       112
+Rounds       8
+Guild        0
+Code         do_cleansing
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         climb~
+Type         Skill
+Info         0
+Flags        0
+Target       1
+Minpos       112
+Rounds       10
+Code         do_climb
+Dammsg       climb~
+Wearoff      !climb!~
+End
+
+#SKILL
+Name         climbwall~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         do_climbwall
+Dammsg       ~
+Difficulty   6
+End
+
+#SKILL
+Name         combat art~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         concentration~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         cook~
+Type         Skill
+Info         0
+Flags        0
+Minpos       110
+Slot         100
+Rounds       3
+Code         do_cook
+Dammsg       ~
+Misschar     You aren't a very good cook yet.~
+Difficulty   6
+End
+
+#SKILL
+Name         counter attack~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       105
+Code         spell_null
+Dammsg       ~
+Difficulty   5
+End
+
+#SKILL
+Name         critical strike~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       105
+Code         spell_null
+Dammsg       ~
+Difficulty   6
+End
+
+#SKILL
+Name         cutpurse~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       112
+Rounds       4
+Guild        0
+Code         do_cutpurse
+Dammsg       ~
+Difficulty   4
+End
+
+#SKILL
+Name         daggers~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         daggerstrike~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+End
+
+#SKILL
+Name         daggerstudy~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+End
+
+#SKILL
+Name         daze~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       3
+Guild        0
+Code         do_daze
+Dammsg       daze~
+Wearoff      You regain consciousness~
+Difficulty   10
+End
+
+#SKILL
+Name         deadly accuracy~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       105
+Code         spell_null
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         defensive style~
+Type         Skill
+Info         0
+Flags        0
+Minpos       195
+Rounds       4
+Code         spell_null
+Dammsg       ~
+Wearoff      !defensive style!~
+Difficulty   7
+End
+
+#SKILL
+Name         deshield~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       105
+Rounds       4
+Guild        0
+Code         do_deshield
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         detrap~
+Type         Skill
+Info         0
+Flags        0
+Minpos       108
+Rounds       2
+Code         do_detrap
+Dammsg       ~
+Wearoff      !Detrap!~
+Difficulty   6
+End
+
+#SKILL
+Name         dig~
+Type         Skill
+Info         0
+Flags        0
+Minpos       112
+Rounds       1
+Code         do_dig
+Dammsg       ~
+End
+
+#SKILL
+Name         disarm~
+Type         Skill
+Info         0
+Flags        0
+Minpos       107
+Rounds       3
+Code         do_disarm
+Dammsg       ~
+Wearoff      !Disarm!~
+Difficulty   8
+End
+
+#SKILL
+Name         divine style~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       105
+Rounds       4
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   7
+End
+
+#SKILL
+Name         dodge~
+Type         Skill
+Info         0
+Flags        0
+Minpos       107
+Code         spell_null
+Dammsg       ~
+Wearoff      !Dodge!~
+Difficulty   10
+End
+
+#SKILL
+Name         doorbash~
+Type         Skill
+Info         0
+Flags        0
+Minpos       112
+Rounds       3
+Code         do_bashdoor
+Dammsg       bashdoor~
+Wearoff      !Bash Door!~
+End
+
+#SKILL
+Name         draw aggression~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+End
+
+#SKILL
+Name         drive~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       105
+Guild        0
+Code         do_drive
+Dammsg       Drive~
+Difficulty   10
+End
+
+#SKILL
+Name         dual wield~
+Type         Skill
+Info         0
+Flags        0
+Minpos       107
+Code         spell_null
+Dammsg       ~
+Wearoff      !Dual Wield!~
+Difficulty   10
+End
+
+#SKILL
+Name         elbowbreak~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       2
+Targetlimb   1
+Guild        0
+Code         do_elbowbreak
+Dammsg       elbowbreak~
+Difficulty   12
+End
+
+#SKILL
+Name         elbowjab~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       2
+Targetlimb   1
+Guild        0
+Code         do_elbowjab
+Dammsg       elbowjab~
+Difficulty   11
+End
+
+#SKILL
+Name         elbowstab~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       2
+Targetlimb   1
+Guild        0
+Code         do_elbowstab
+Dammsg       elbowstab~
+Difficulty   11
+End
+
+#SKILL
+Name         emeru~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       2
+Targetlimb   3
+Guild        0
+Code         do_emeru
+Dammsg       emeru~
+Difficulty   12
+End
+
+#SKILL
+Name         enhanced damage~
+Type         Skill
+Info         0
+Flags        0
+Minpos       105
+Code         spell_null
+Dammsg       ~
+Wearoff      !Enhanced Damage!~
+Difficulty   9
+End
+
+#SKILL
+Name         escapism~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   4
+End
+
+#SKILL
+Name         evasive style~
+Type         Skill
+Info         0
+Flags        0
+Minpos       195
+Rounds       4
+Code         spell_null
+Dammsg       ~
+Wearoff      !evasive style!~
+Difficulty   7
+End
+
+#SKILL
+Name         fasting~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       3
+Minpos       112
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitvict      You channel your energy into slowing down your hunger and thirst.~
+Hitroom      $n channels $s energy into slowing down $s hunger and thirst.~
+Missvict     You try to channel your energy into slowing down your hunger and thirst, but you fail.~
+Missroom     $n tries to channel $s energy into slowing down $s hunger and thirst, but fails.~
+Difficulty   10
+Affect       '1200+(b*15)' 87 'b' -1
+End
+
+#SKILL
+Name         featherback~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         featherfoot~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         focus aggression~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+End
+
+#SKILL
+Name         forage~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         do_forage
+Dammsg       ~
+End
+
+#SKILL
+Name         gag~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         do_gag
+Dammsg       ~
+Difficulty   3
+End
+
+#SKILL
+Name         gouge~
+Type         Skill
+Info         0
+Flags        0
+Minpos       105
+Rounds       2
+Code         do_gouge
+Dammsg       gouge~
+Wearoff      !Gouge!~
+Difficulty   3
+End
+
+#SKILL
+Name         grab~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       112
+Rounds       4
+Guild        0
+Code         do_grab
+Dammsg       ~
+Difficulty   4
+End
+
+#SKILL
+Name         greater draw aggression~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+End
+
+#SKILL
+Name         greater focus aggression~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+End
+
+#SKILL
+Name         grip~
+Type         Skill
+Info         0
+Flags        0
+Minpos       105
+Code         spell_null
+Dammsg       ~
+Wearoff      !Grip!~
+Difficulty   5
+End
+
+#SKILL
+Name         haggling~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   2
+End
+
+#SKILL
+Name         hardening~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       3
+Minpos       112
+Rounds       6
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitvict      You let out a roar and a very strong energy starts to protect you.~
+Hitroom      $n lets out a loud roar and some energy pours out and starts to protect $m.~
+Missvict     You let out a roar, but no energy comes out.  Try doing it louder!~
+Missroom     $n lets out a raor, but no energy comes out.  What a hoser!~
+Difficulty   11
+Affect       '1200+(b*10)' 95 'b' -1
+End
+
+#SKILL
+Name         hide~
+Type         Skill
+Info         0
+Flags        0
+Target       3
+Minpos       112
+Rounds       2
+Code         do_hide
+Dammsg       ~
+Wearoff      You are no longer hidden.~
+Hitvict      You attempt to hide.~
+Misschar     You attempt to hide.~
+Difficulty   7
+Affect       'l*23' 26 'hide' 16
+End
+
+#SKILL
+Name         hitall~
+Type         Skill
+Info         0
+Flags        65536
+Minpos       105
+Code         do_hitall
+Dammsg       hit~
+Difficulty   9
+End
+
+#SKILL
+Name         inhuman strength~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   12
+End
+
+#SKILL
+Name         kickback~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Code         do_kick_back
+Dammsg       RIPPING slice~
+Difficulty   11
+End
+
+#SKILL
+Name         kickdirt~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       1
+Guild        0
+Code         do_kickdirt
+Dammsg       ~
+End
+
+#SKILL
+Name         kneecrusher~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       2
+Targetlimb   2
+Guild        0
+Code         do_kneecrusher
+Dammsg       kneecrusher~
+Difficulty   12
+End
+
+#SKILL
+Name         kneestrike~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       2
+Targetlimb   2
+Guild        0
+Code         do_kneestrike
+Dammsg       kneestrike~
+Difficulty   11
+End
+
+#SKILL
+Name         krundi style~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   12
+End
+
+#SKILL
+Name         krundo style~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         lembecu~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       2
+Targetlimb   2
+Guild        0
+Code         do_lembecu
+Dammsg       lembecu~
+Difficulty   12
+End
+
+#SKILL
+Name         lightprawl~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   9
+End
+
+#SKILL
+Name         limber~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       3
+Minpos       112
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitvict      You start to stretch out your limbs in an attempt to make yourself more limber.~
+Hitroom      $n starts to stretch out $s limbs in an attempt to make $mself more limber.~
+Missvict     You start to stretch out your limbs in an attempt to make yourself more limber, but it fails to help.~
+Missroom     $n starts to stretch out $s limbs in an attempt to make $mself more limber, but it fails to help.~
+Difficulty   2
+Affect       '600+(b*5)' 2 '1+(b/60)' -1
+End
+
+#SKILL
+Name         lore~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        6144
+Target       4
+Minpos       111
+Rounds       2
+Code         do_lore
+Dammsg       ~
+Difficulty   11
+End
+
+#SKILL
+Name         manaburn~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       3
+Minpos       112
+Rounds       6
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitvict      You release a ton of energy in a fury to give yourself a manaburn!~
+Hitroom      $n screams and a fury of energy comes out to create a manaburn.~
+Missvict     You try to release energy to form a manaburn, but you fail.~
+Missroom     $n tries to release energy to form a manaburn, but fails.~
+Difficulty   11
+Affect       '1200+(b*10)' 91 'b' -1
+End
+
+#SKILL
+Name         manaburst~
+Type         Skill
+Info         4
+MadeBy       Xerves~
+Prototype    1
+Flags        16
+Target       1
+Minpos       107
+Mana         125
+Rounds       6
+Guild        0
+Code         do_manaburst
+Dammsg       manaburst~
+Difficulty   6
+End
+
+#SKILL
+Name         manafuse~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       3
+Minpos       112
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitvict      You let out a loud scream and channel that energy into a manafuse.~
+Hitroom      $n lets out a loud scream and channels that energy into a manafuse.~
+Missvict     You let out a loud scream, but you cannot channel that energy for a manafuse.~
+Missroom     $n lets out a loud scream, but $e cannot channel that energy for a manafuse.~
+Difficulty   10
+Affect       '1200+(b*10)' 86 'b/2' -1
+End
+
+#SKILL
+Name         managuard~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       3
+Minpos       112
+Rounds       6
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitvict      You focus your energy into a managuard to protect you against physical attacks.~
+Hitroom      $n focuses $s energy into a managuard to protect $mself against physical attacks.~
+Missvict     You try to focus your energy into a managuard, but you fail.~
+Missroom     $n tries to focus $s energy into a managuard, but fails. ~
+Difficulty   9
+Affect       '1200+(b*10)' 90 'b' -1
+End
+
+#SKILL
+Name         manashell~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       3
+Minpos       112
+Rounds       6
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitvict      You focus your energy into a manashell to protect you against magic.~
+Hitroom      $n focuses $s energy into a manashell to protect $mself against magic.~
+Missvict     You try to focus your energy into a manashell, but you fail.~
+Missroom     $n tries to focus $s energy into a manashell, but fails. ~
+Difficulty   6
+Affect       '1200+(b*10)' 88 'b' -1
+Affect       '1200+(b*10)' 88 'b' -1
+End
+
+#SKILL
+Name         manashield~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       3
+Minpos       112
+Rounds       6
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitvict      A powerful energy leaves your body and now rotates around you to form a manashield.~
+Hitroom      $n releases a powerful energy in the form of a manashield to protect $m.~
+Missvict     You try to release some energy to form a manashield, but you fail.~
+Missroom     $n tries to release some energy to form a manashield, but fails.~
+Difficulty   12
+Affect       '1200+(b*10)' 89 'b' -1
+End
+
+#SKILL
+Name         manashot~
+Type         Skill
+Info         4
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Mana         65
+Rounds       4
+Guild        0
+Code         do_manashot
+Dammsg       manashot~
+Difficulty   5
+End
+
+#SKILL
+Name         manatap~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       112
+Rounds       8
+Guild        0
+Code         do_manatap
+Dammsg       ~
+End
+
+#SKILL
+Name         meditate~
+Type         Skill
+Info         0
+Flags        530432
+Target       3
+Minpos       106
+Rounds       1
+Code         spell_smaug
+Dammsg       ~
+Hitvict      You meditate peacefully, collecting mana from the cosmos.~
+Missvict     You spend several minutes in deep concentration, but fail to collect any mana.~
+Difficulty   8
+Affect       '' 12 '(b/4)}2' -1
+End
+
+#SKILL
+Name         mountain climbing~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       105
+Code         spell_null
+Dammsg       ~
+Difficulty   6
+End
+
+#SKILL
+Name         neckchop~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       2
+Targetlimb   3
+Guild        0
+Code         do_neckchop
+Dammsg       neckchop~
+Difficulty   11
+End
+
+#SKILL
+Name         neckpinch~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       2
+Targetlimb   3
+Guild        0
+Code         do_neckpinch
+Dammsg       neckpinch~
+Difficulty   11
+End
+
+#SKILL
+Name         neckrupture~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       2
+Targetlimb   3
+Guild        0
+Code         do_neckrupture
+Dammsg       neckrupture~
+Difficulty   12
+End
+
+#SKILL
+Name         nervepinch~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       106
+Rounds       1
+Guild        0
+Code         do_nervepinch
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         nervestrike~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       1
+Guild        0
+Code         do_nervestrike
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         niburo~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       2
+Targetlimb   5
+Guild        0
+Code         do_niburo
+Dammsg       niburo~
+Difficulty   12
+End
+
+#SKILL
+Name         nightprawl~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   8
+End
+
+#SKILL
+Name         parry~
+Type         Skill
+Info         0
+Flags        0
+Minpos       107
+Code         spell_null
+Dammsg       ~
+Wearoff      !Parry!~
+Difficulty   12
+End
+
+#SKILL
+Name         peek~
+Type         Skill
+Info         0
+Flags        0
+Minpos       112
+Code         spell_null
+Dammsg       ~
+Wearoff      !Peek!~
+Difficulty   5
+End
+
+#SKILL
+Name         perfect shot~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       105
+Guild        0
+Code         do_perfectshot
+Dammsg       Perfect Shot~
+Difficulty   10
+End
+
+#SKILL
+Name         pick lock~
+Type         Skill
+Info         0
+Flags        0
+Minpos       112
+Rounds       2
+Code         do_pick
+Dammsg       ~
+Wearoff      !Pick!~
+Difficulty   6
+End
+
+#SKILL
+Name         pincer~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       105
+Rounds       4
+Guild        0
+Code         do_pincer
+Dammsg       pincer strike~
+Difficulty   10
+End
+
+#SKILL
+Name         poison weapon~
+Type         Skill
+Info         0
+Flags        0
+Target       4
+Minpos       112
+Rounds       3
+Code         do_poison_weapon
+Dammsg       poisonous concoction~
+Wearoff      !Poison Weapon!~
+Difficulty   4
+End
+
+#SKILL
+Name         polearms~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         powerslice~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       105
+Guild        0
+Code         do_powerslice
+Dammsg       Power Slice~
+Difficulty   10
+End
+
+#SKILL
+Name         pranayama~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       3
+Minpos       112
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitvict      You slow down your breathing in an attempt to restore your endurance.~
+Hitroom      $n slows down $s breathing to help restore some lost endurance.~
+Missvict     You attempt to slow down your breathing to restore some endurance, but you fail.~
+Missroom     $n attempts to slow down $s breathing to help restore some lost endurance, but fails.~
+Difficulty   10
+Affect       '' 13 '1d3+r' -1
+Affect       '' 14 '30+(b*3)' -1
+End
+
+#SKILL
+Name         prawl~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   7
+End
+
+#SKILL
+Name         projectiles~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   6
+End
+
+#SKILL
+Name         pumpup~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       3
+Minpos       112
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitvict      You start to channel extra energy into your body to increase your strength.~
+Hitroom      $n starts to channel extra energy into $s body to increase $s strength.~
+Missvict     You attempt to channel extra energy into your body to increase you strength, but you fail.~
+Missroom     $n attempts to channel extra energy into $s body to increase $s strength, but fails.~
+Difficulty   2
+Affect       '600+(b*5)' 1 '1+(b/60)' -1
+End
+
+#SKILL
+Name         quickcombo~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Guild        0
+Code         do_quickcombo
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         recall~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       3
+Minpos       106
+Rounds       2
+Code         do_recall
+Dammsg       ~
+End
+
+#SKILL
+Name         relaxation~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       3
+Minpos       112
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitvict      You slow down all movement in your body in an attempt to relax and restore your body and soul.~
+Hitroom      $n slows down all movement in $s body in an attempt to relax and restore $s body and soul.~
+Missvict     You attempt to slow down all movement in your body, but something is preventing you from doing so.~
+Missroom     $n attempts to slow down all movmeent in $s body, but something prevents $m from doing so.~
+Difficulty   10
+Affect       '' 12 '1+(b/5)' -1
+Affect       '' 13 '1d4+(b/6)' -1
+Affect       '' 14 '50+(b*3)' -1
+End
+
+#SKILL
+Name         renewal~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        530432
+Target       3
+Minpos       112
+Rounds       10
+Code         spell_smaug
+Dammsg       ~
+Hitvict      You slow your body down and restore some lost health.~
+Missvict     You attempt to slow your body down, but you fail.~
+Difficulty   10
+Affect       '' 13 '2d2+b/4' -1
+Affect       '' 14 '1d60+b*3' -1
+End
+
+#SKILL
+Name         repair~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       107
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   5
+End
+
+#SKILL
+Name         rescue~
+Type         Skill
+Info         0
+Flags        0
+Minpos       105
+Rounds       3
+Code         do_rescue
+Dammsg       ~
+Wearoff      !Rescue!~
+End
+
+#SKILL
+Name         retreat~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   5
+End
+
+#SKILL
+Name         ribpuncture~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       2
+Targetlimb   4
+Guild        0
+Code         do_ribpuncture
+Dammsg       ribpucture~
+Difficulty   12
+End
+
+#SKILL
+Name         roar~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       105
+Rounds       4
+Guild        0
+Code         do_roar
+Dammsg       ~
+Difficulty   6
+End
+
+#SKILL
+Name         roundhouse~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       2
+Targetlimb   5
+Guild        0
+Code         do_roundhouse
+Dammsg       roundhouse~
+Difficulty   11
+End
+
+#SKILL
+Name         rwundi style~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   12
+End
+
+#SKILL
+Name         rwundo style~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         scan~
+Type         Skill
+Info         0
+Flags        0
+Minpos       112
+Rounds       3
+Code         do_scan
+Dammsg       ~
+Wearoff      !Scan!~
+Difficulty   5
+End
+
+#SKILL
+Name         scribe~
+Type         Skill
+Info         0
+Flags        0
+Target       4
+Minpos       112
+Rounds       6
+Code         do_scribe
+Dammsg       ~
+Difficulty   3
+End
+
+#SKILL
+Name         search~
+Type         Skill
+Info         0
+Flags        0
+Minpos       112
+Rounds       4
+Code         do_search
+Dammsg       ~
+End
+
+#SKILL
+Name         shadowfoot~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         shieldblock~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       107
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         sidekick~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       2
+Guild        0
+Code         do_sidekick
+Dammsg       sidekick~
+Difficulty   11
+End
+
+#SKILL
+Name         slice~
+Type         Skill
+Info         392
+Flags        0
+Target       1
+Minpos       112
+Rounds       3
+Code         do_slice
+Dammsg       ~
+Difficulty   4
+End
+
+#SKILL
+Name         sneak~
+Type         Skill
+Info         0
+Flags        0
+Target       3
+Minpos       112
+Rounds       2
+Code         spell_smaug
+Dammsg       ~
+Hitvict      You attempt to move silently.~
+Misschar     You attempt to move silently.~
+Difficulty   7
+Affect       'b*23' 26 'sneak' 15
+End
+
+#SKILL
+Name         spear~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       2
+Targetlimb   4
+Guild        0
+Code         do_spear
+Dammsg       spear~
+Difficulty   11
+End
+
+#SKILL
+Name         speedup~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       3
+Minpos       112
+Rounds       8
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitvict      You start to breath in rapid breaths to hopefully increase your agility.~
+Hitroom      $n starts to breath in rapid breaths to hopefully increase $s agility.~
+Missvict     You attempt to breath in rapid breaths to hopefully increase you agility, but you fail.~
+Missroom     $n attemps to breath in rapid breaths to hopefully increase $s agility, but $e fails.~
+Difficulty   2
+Affect       '600+(b*5)' 77 '1+(b/15)' -1
+End
+
+#SKILL
+Name         spinkick~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       2
+Targetlimb   2
+Guild        0
+Code         do_spinkick
+Dammsg       spinkick~
+Difficulty   11
+End
+
+#SKILL
+Name         stalk~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       112
+Guild        0
+Code         do_stalk
+Dammsg       ~
+Wearoff      You are no longer hidden from view.~
+Difficulty   10
+End
+
+#SKILL
+Name         standard style~
+Type         Skill
+Info         0
+Flags        0
+Minpos       195
+Rounds       4
+Code         spell_null
+Dammsg       ~
+Difficulty   7
+End
+
+#SKILL
+Name         startfire~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       112
+Guild        0
+Code         do_startfire
+Dammsg       ~
+End
+
+#SKILL
+Name         staves~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         steal~
+Type         Skill
+Info         0
+Flags        0
+Minpos       112
+Rounds       1
+Code         do_steal
+Dammsg       ~
+Difficulty   6
+End
+
+#SKILL
+Name         strongfoot~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   11
+End
+
+#SKILL
+Name         study~
+Type         Skill
+Info         0
+Flags        0
+Target       95
+Minpos       112
+Rounds       2
+Code         do_study
+Dammsg       ~
+End
+
+#SKILL
+Name         stun~
+Type         Skill
+Info         0
+Flags        0
+Target       1
+Minpos       107
+Rounds       2
+Code         do_stun
+Dammsg       stun~
+Wearoff      You regain consciousness.~
+Difficulty   10
+End
+
+#SKILL
+Name         swimming~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         swindling~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   2
+End
+
+#SKILL
+Name         swords~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         taunt~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Guild        0
+Code         do_insult
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         tend~
+Type         Skill
+Info         0
+Flags        0
+Target       2
+Minpos       108
+Mana         15
+Rounds       2
+Code         spell_smaug
+Dammsg       ~
+Hitchar      You kneel down and tend to $N's wounds.~
+Hitvict      Your wounds are soothed and lessened.~
+Components   none~
+Affect       '' 13 'l*(b/20)' -1
+End
+
+#SKILL
+Name         thiefeye~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   11
+End
+
+#SKILL
+Name         timmuru~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       2
+Targetlimb   4
+Guild        0
+Code         do_timmuru
+Dammsg       timmuru~
+Difficulty   12
+End
+
+#SKILL
+Name         tornadokick~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       1
+Minpos       107
+Rounds       2
+Targetlimb   5
+Guild        0
+Code         do_tornadokick
+Dammsg       tornadokick~
+Difficulty   12
+End
+
+#SKILL
+Name         track~
+Type         Skill
+Info         0
+Flags        0
+Minpos       112
+Rounds       4
+Code         do_track
+Dammsg       ~
+Difficulty   5
+End
+
+#SKILL
+Name         trance~
+Type         Skill
+Info         0
+Flags        530432
+Target       3
+Minpos       106
+Rounds       1
+Code         spell_smaug
+Dammsg       ~
+Hitvict      You enter a peaceful trance, collecting mana from the cosmos.~
+Missvict     You spend several minutes in a deep trance, but fail to collect any mana.~
+Difficulty   10
+Affect       '' 12 '(b/2)}2' -1
+End
+
+#SKILL
+Name         trueeye~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       3
+Minpos       112
+Rounds       6
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitvict      You eyes start go glow as they open up to the world.~
+Hitroom      $n's eyes start to glow as they open up to the world.~
+Missvict     You try to focus your energy into elevated eye sight, but you fail.~
+Missroom     $n tries to focus $s energy into eleevated eye sight, but fails.~
+Difficulty   2
+Affect       '1200+(b*10)' 26 'truesight' 22
+End
+
+#SKILL
+Name         tumble~
+Type         Skill
+Info         0
+Flags        0
+Target       2
+Minpos       107
+Code         spell_null
+Dammsg       ~
+Wearoff      !Tumble!~
+Difficulty   11
+End
+
+#SKILL
+Name         twohanded~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+End
+
+#SKILL
+Name         unsheath~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       105
+Code         spell_null
+Dammsg       ~
+End
+
+#SKILL
+Name         vanish~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   5
+End
+
+#SKILL
+Name         weaponbreak~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       105
+Rounds       6
+Guild        0
+Code         do_weaponbreak
+Dammsg       ~
+Difficulty   10
+End
+
+#SKILL
+Name         weaponclamp~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Target       3
+Minpos       112
+Rounds       6
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitvict      You focus your eyes and hands to prepare yourself for battle.~
+Hitroom      $n seems to be focusing on ways to disarm $s opponent, how nice!~
+Missvict     You try to focus on new ways to disarm your opponents, but somehow you fail.~
+Missroom     $n tries to focus on new ways to disarm $s opponents, but somehow fails.~
+Difficulty   5
+Affect       '1200+(b*10)' 92 'b' -1
+End
+
+#SKILL
+Name         wizardry style~
+Type         Skill
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Minpos       105
+Rounds       4
+Guild        0
+Code         spell_null
+Dammsg       ~
+Difficulty   7
+End
+
+#SKILL
+Name         hit~
+Type         Weapon
+Info         0
+Flags        0
+Minpos       195
+Code         spell_null
+Dammsg       ~
+End
+
+#SKILL
+Name         common~
+Type         Tongue
+Info         0
+Flags        0
+Minpos       195
+Code         spell_null
+Dammsg       ~
+End
+
+#SKILL
+Name         dwarven~
+Type         Tongue
+Info         0
+Flags        0
+Minpos       195
+Code         spell_null
+Dammsg       ~
+End
+
+#SKILL
+Name         elven~
+Type         Tongue
+Info         0
+MadeBy       Xerves~
+Prototype    1
+Flags        0
+Code         spell_null
+Dammsg       ~
+End
+
+#SKILL
+Name         elvish~
+Type         Tongue
+Info         0
+Flags        0
+Minpos       195
+Code         spell_null
+Dammsg       ~
+End
+
+#SKILL
+Name         gith~
+Type         Tongue
+Info         0
+Flags        0
+Minpos       195
+Code         spell_null
+Dammsg       ~
+End
+
+#SKILL
+Name         goblin~
+Type         Tongue
+Info         0
+Flags        0
+Minpos       195
+Code         spell_null
+Dammsg       ~
+End
+
+#SKILL
+Name         halfling~
+Type         Tongue
+Info         0
+Flags        0
+Minpos       195
+Code         spell_null
+Dammsg       ~
+End
+
+#SKILL
+Name         ogre~
+Type         Tongue
+Info         0
+Flags        0
+Minpos       195
+Code         spell_null
+Dammsg       ~
+End
+
+#SKILL
+Name         orcish~
+Type         Tongue
+Info         0
+Flags        0
+Minpos       195
+Code         spell_null
+Dammsg       ~
+End
+
+#SKILL
+Name         pixie~
+Type         Tongue
+Info         0
+Flags        0
+Minpos       195
+Code         spell_null
+Dammsg       ~
+End
+
+#SKILL
+Name         trollese~
+Type         Tongue
+Info         0
+Flags        0
+Minpos       105
+Code         spell_null
+Dammsg       ~
+End
+
+#END

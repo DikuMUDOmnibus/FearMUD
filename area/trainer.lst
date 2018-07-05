@@ -1,0 +1,461 @@
+#TRAINER
+Version    2
+Vnum       21001
+Sn         'enhanced damage' 'combat art' 'defensive style' 'evasive style' 'standard style'
+Sn2        'aid' 'doorbash' 'taunt' 'shieldblock' 'rescue'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    1 1 1 1 1 1 1 1 1 1
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       21002
+Sn         'peek' 'reserved' 'steal' 'hide' 'climb'
+Sn2        'sneak' 'escapism' 'begging' 'daggers' 'forage'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    1 0 1 1 1 1 1 1 1 1
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       21003
+Sn         'elbowjab' 'blitz' 'neckpinch' 'sidekick' 'roundhouse'
+Sn2        'cleansing' 'pranayama' 'featherfoot' 'limber' 'reserved'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    1 1 1 1 1 1 1 1 1 0
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       21004
+Sn         'armor' 'jagged spike' 'jagged stone' 'faerie fire' 'fire arrow'
+Sn2        'fire blast' 'detect magic' 'wind gust' 'wind chill' 'cold ball'
+Sn3        'create water' 'frozen dart' 'energy blast' 'power drain' 'weaken'
+Sn4        'wizardry style' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    1 1 1 1 1 1 1 1 1 1
+Mastery2   1 1 1 1 1 1 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       21005
+Sn         'blindness' 'earthquake' 'cause light' 'refresh' 'bless'
+Sn2        'create spring' 'cure light' 'create fire' 'create food' 'minor invocation'
+Sn3        'word of recall' 'divine style' 'infravision' 'minor healing rain' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    1 1 1 1 1 1 1 1 1 1
+Mastery2   1 1 1 1 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       21300
+Sn         'standard style' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn2        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    1 0 0 0 0 0 0 0 0 0
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       21301
+Sn         'create food' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn2        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    1 0 0 0 0 0 0 0 0 0
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42110
+Sn         'detect magic' 'wind chill' 'wind gust' 'acid blast' 'acidic ball'
+Sn2        'armor' 'jagged spike' 'jagged stone' 'energy blast' 'power drain'
+Sn3        'weaken' 'faerie fire' 'fire arrow' 'fire blast' 'cold ball'
+Sn4        'frozen dart' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    1 1 1 1 1 1 1 1 1 1
+Mastery2   1 1 1 1 1 1 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42111
+Sn         'word of recall' 'create fire' 'create spring' 'create water' 'bless'
+Sn2        'cure light' 'minor invocation' 'blindness' 'earthquake' 'cause light'
+Sn3        'refresh' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    1 1 1 1 1 1 1 1 1 1
+Mastery2   1 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42114
+Sn         'dodge' 'hide' 'pick lock' 'steal' 'reserved'
+Sn2        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    1 1 1 1 0 0 0 0 0 0
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42115
+Sn         'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn2        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    0 0 0 0 0 0 0 0 0 0
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42116
+Sn         'elbowjab' 'blitz' 'roundhouse' 'sidekick' 'neckpinch'
+Sn2        'elbowstab' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    1 1 1 1 1 1 0 0 0 0
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42500
+Sn         'elbowjab' 'elbowstab' 'blitz' 'spear' 'neckpinch'
+Sn2        'neckchop' 'sidekick' 'kneestrike' 'roundhouse' 'spinkick'
+Sn3        'elbowjab' 'elbowjab' 'elbowjab' 'elbowjab' 'elbowjab'
+Sn4        'elbowjab' 'elbowjab' 'elbowjab' 'elbowjab' 'elbowjab'
+Mastery    4 4 4 4 4 4 4 4 4 4
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42501
+Sn         'combat art' 'enhanced damage' 'rescue' 'axes' 'blunt'
+Sn2        'hitall' 'polearms' 'projectiles' 'staves' 'swords'
+Sn3        'repair' 'scan' 'dual wield' 'roar' 'berserk'
+Sn4        'krundo style' 'rwundo style' 'repair' 'roar' 'deshield'
+Mastery    4 4 4 4 4 4 4 4 4 4
+Mastery2   4 4 4 4 4 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42502
+Sn         'steal' 'pick lock' 'detrap' 'gouge' 'reserved'
+Sn2        'hide' 'peek' 'sneak' 'dodge' 'parry'
+Sn3        'climb' 'escapism' 'retreat' 'swimming' 'shadowfoot'
+Sn4        'prawl' 'mountain climbing' 'daggerstudy' 'locate object' 'locate object'
+Mastery    4 4 4 4 4 4 4 4 4 4
+Mastery2   4 4 4 4 4 4 4 4 0 0
+End
+#TRAINER
+Version    2
+Vnum       42503
+Sn         'create fire' 'create food' 'reserved' 'nohunger' 'charm person'
+Sn2        'fire blast' 'faerie fire' 'fire arrow' 'fire bolt' 'kindred strength'
+Sn3        'reserved' 'faerie fog' 'identify' 'scolding blast' 'continual light'
+Sn4        'healing light' 'healing light' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 0 4 4 4 4 4 4 4
+Mastery2   4 4 4 4 4 4 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42504
+Sn         'blindness' 'earthquake' 'cure poison' 'poison' 'armor'
+Sn2        'jagged spike' 'jagged stone' 'acid blast' 'remove trap' 'acidic ball'
+Sn3        'sagacity' 'shield' 'revitalize spirit' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 4 4 4 4 4 4 4
+Mastery2   4 4 4 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42505
+Sn         'refresh' 'cause light' 'sleep' 'cause serious' 'detect poison'
+Sn2        'power drain' 'weaken' 'energy blast' 'energy drain' 'trollish vigor'
+Sn3        'electric blast' 'knock' 'infravision' 'lesser resurrection' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 4 4 4 4 4 4 4
+Mastery2   4 4 4 4 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42506
+Sn         'create spring' 'cure light' 'alertness' 'cure serious' 'nothirst'
+Sn2        'cold ball' 'create water' 'frozen dart' 'detect invis' 'frozen spike'
+Sn3        'locate object' 'dragon wit' 'frozen ball' 'trance' 'divine style'
+Sn4        'wizardry style' 'managen' 'web' 'unravel defense' 'reserved'
+Mastery    4 4 4 4 4 4 4 4 4 4
+Mastery2   4 4 4 4 4 4 4 4 4 0
+End
+#TRAINER
+Version    2
+Vnum       42507
+Sn         'minor invocation' 'word of recall' 'detect magic' 'wind gust' 'wind chill'
+Sn2        'major invocation' 'curse' 'funnel' 'slink' 'wizardeye'
+Sn3        'detect traps' 'remove invis' 'wind spike' 'detect hidden' 'hpgen'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 4 4 4 4 4 4 4
+Mastery2   4 4 4 4 4 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42508
+Sn         'bless' 'harm' 'heal' 'revitalize limb' 'meditate'
+Sn2        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 4 4 0 0 0 0 0
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       21510
+Sn         'track' 'counter attack' 'critical strike' 'renewal' 'stun'
+Sn2        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 4 4 0 0 0 0 0
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42510
+Sn         'track' 'counter attack' 'critical strike' 'renewal' 'stun'
+Sn2        'reserved' 'krundo style' 'rwundo style' 'berserk' 'disarm'
+Sn3        'drive' 'counter attack' 'deshield' 'renewal' 'deadly accuracy'
+Sn4        'perfect shot' 'bash' 'pincer' 'powerslice' 'weaponbreak'
+Mastery    4 4 4 4 4 4 4 4 4 4
+Mastery2   4 4 4 4 4 4 4 4 4 4
+End
+#TRAINER
+Version    2
+Vnum       42511
+Sn         'backstab' 'disarm' 'tumble' 'climbwall' 'gag'
+Sn2        'nightprawl' 'strongfoot' 'swindling' 'cutpurse' 'grab'
+Sn3        'thiefeye' 'circle' 'tumble' 'daggerstrike' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 4 4 4 4 4 4 4
+Mastery2   4 4 4 4 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42512
+Sn         'astral walk' 'blazing burst' 'fireball' 'fireshield' 'farsight'
+Sn2        'frigid ball' 'frozen blast' 'iceshield' 'manatap' 'wizardry style'
+Sn3        'trance' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 4 4 4 4 4 4 4
+Mastery2   4 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42513
+Sn         'fortify' 'sanctuary' 'cure blindness' 'divine protection' 'remove curse'
+Sn2        'uplift' 'cause critical' 'true sight' 'aqua breath' 'cure critical'
+Sn3        'divinity' 'indignation' 'necromantic touch' 'restore limb' 'brew'
+Sn4        'greater managen' 'greater hpgen' 'resurrection' 'fleetarms' 'reserved'
+Mastery    4 4 4 4 4 4 4 4 4 4
+Mastery2   4 4 4 4 4 4 4 4 4 0
+End
+#TRAINER
+Version    2
+Vnum       41514
+Sn         'elbowbreak' 'kneecrusher' 'ribpuncture' 'tornadokick' 'neckrupture'
+Sn2        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 4 4 0 0 0 0 0
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42514
+Sn         'acidic blast' 'earth clamp' 'scry' 'stone skin' 'blitzing wave'
+Sn2        'magic bane' 'portal' 'summon' 'tornado' 'deanimation'
+Sn3        'enchant weapon' 'jolting burst' 'pass door' 'recharge' 'shockshield'
+Sn4        'scribe' 'word of nyiji' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 4 4 4 4 4 4 4
+Mastery2   4 4 4 4 4 4 4 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42516
+Sn         'elbowbreak' 'ribpuncture' 'kneecrusher' 'tornadokick' 'neckrupture'
+Sn2        'arrowcatch' 'bracing' 'hardening' 'weaponclamp' 'manashell'
+Sn3        'manashield' 'manashot' 'trueeye' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 4 4 4 4 4 4 4
+Mastery2   4 4 4 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42517
+Sn         'evasive style' 'standard style' 'defensive style' 'aggressive style' 'berserk style'
+Sn2        'aid' 'shieldblock' 'doorbash' 'grip' 'parry'
+Sn3        'taunt' 'draw aggression' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 4 4 4 4 4 4 4
+Mastery2   4 4 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42518
+Sn         'backstab' 'track' 'begging' 'haggling' 'daggers'
+Sn2        'lore' 'forage' 'reserved' 'startfire' 'kickdirt'
+Sn3        'stalk' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 4 4 4 4 4 4 4
+Mastery2   4 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       43018
+Sn         'rwundi style' 'krundi style' 'attack frenzy' 'critical strike' 'inhuman strength'
+Sn2        'focus aggression' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 4 4 4 0 0 0 0
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       43019
+Sn         'kickback' 'stun' 'reserved' 'reserved' 'reserved'
+Sn2        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 0 0 0 0 0 0 0 0
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       43020
+Sn         'assassinate' 'vanish' 'lightprawl' 'reserved' 'reserved'
+Sn2        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 0 0 0 0 0 0 0
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       43021
+Sn         'amberio' 'timmuru' 'emeru' 'lembecu' 'niburo'
+Sn2        'nervestrike' 'quickcombo' 'manaburn' 'manaburst' 'managuard'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 4 4 4 4 4 4 4
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       43028
+Sn         'dancing fire' 'eradication' 'holy food' 'furoro' 'auroro'
+Sn2        'divine hpgen' 'know enemy' 'meteor' 'heavenly blast' 'bless weapon'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 4 4 4 4 4 4 4
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       43029
+Sn         'antimagic shell' 'acidic oblivion' 'demolic blast ' 'eye of god' 'guroro'
+Sn2        'divine rain' 'divine managen' 'wuroro' 'tidal wave' 'frigid death'
+Sn3        'snare' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 4 4 4 4 4 4 4
+Mastery2   4 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       43030
+Sn         'greater resurrection' 'euroro' 'sanctify' 'extradimensional portal' 'molecular degeneration'
+Sn2        'quantum spike' 'power heal' 'sacred blast' 'summon corpse' 'reserved'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 4 4 4 4 4 4 0
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       43519
+Sn         'daze' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn2        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 0 0 0 0 0 0 0 0 0
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42519
+Sn         'daze' 'greater draw aggression' 'battle knowledge' 'twohanded' 'reserved'
+Sn2        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 4 0 0 0 0 0 0
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42520
+Sn         'furori' 'gurori' 'animate dead' 'wurori' 'aurori'
+Sn2        'eurori' 'holy cleansing' 'major healing rain' 'reserved' 'reserved'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 4 4 4 4 4 0 0
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       52521
+Sn         'cleansing' 'pranayama' 'featherfoot' 'limber' 'concentration'
+Sn2        'fasting' 'manafuse' 'relaxation' 'featherback' 'nervepinch'
+Sn3        'pumpup' 'speedup' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 4 4 4 4 4 4 4
+Mastery2   4 4 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42521
+Sn         'featherback' 'nervepinch' 'pumpup' 'speedup' 'concentration'
+Sn2        'fasting' 'manafuse' 'relaxation' 'featherfoot' 'limber'
+Sn3        'cleansing' 'pranayama' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 4 4 4 4 4 4 4 4
+Mastery2   4 4 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42555
+Sn         'grab' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn2        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    6 0 0 0 0 0 0 0 0 0
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       42522
+Sn         'minor healing rain' 'healing rain' 'reserved' 'reserved' 'reserved'
+Sn2        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    4 4 0 0 0 0 0 0 0 0
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#TRAINER
+Version    2
+Vnum       300
+Sn         'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn2        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn3        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Sn4        'reserved' 'reserved' 'reserved' 'reserved' 'reserved'
+Mastery    0 0 0 0 0 0 0 0 0 0
+Mastery2   0 0 0 0 0 0 0 0 0 0
+End
+#END

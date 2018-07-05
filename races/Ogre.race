@@ -1,0 +1,73 @@
+Name        Ogre~
+Race        3
+Str_Plus    4
+Dex_Plus    -2
+Wis_Plus    -3
+Int_Plus    -3
+Con_Plus    3
+Cha_Plus    -4
+Lck_Plus    0
+Agi_Plus    70
+Agi_Start   30
+Range_Agi   25
+Range_Str   4
+Range_Dex   2
+Range_Con   4
+Range_Wis   2
+Range_Int   1
+Hit         10
+Mana        -30
+Affected    0
+Resist      0
+Suscept     0
+Language    16
+Align       0
+Min_Align  -1000
+Max_Align	1000
+AC_Plus    0
+Exp_Mult   75
+Attacks    0
+Defenses   0
+Height     111
+Weight     304
+Weaponmin  6
+Weaponstd  0
+Weaponmax  12
+RemortRace 0
+Hunger_Mod  0
+Thirst_mod  0
+Mana_Regen  146159512
+HP_Regen    2137
+DodgeBonus  -5
+Race_Recall 0
+WhereName  <used as light>      ~
+WhereName  <worn on finger>     ~
+WhereName  <worn on finger>     ~
+WhereName  <worn on neck>       ~
+WhereName  <worn around neck>   ~
+WhereName  <worn on body>       ~
+WhereName  <worn on head>       ~
+WhereName  <worn on left leg>   ~
+WhereName  <worn on right leg>  ~
+WhereName  <worn on left arm>   ~
+WhereName  <worn on right arm>  ~
+WhereName  <worn as shield>     ~
+WhereName  <worn about waist>   ~
+WhereName  <wielded>            ~
+WhereName  <dual wielded>       ~
+WhereName  <missile wielded>    ~
+WhereName  <lodged in ribs>     ~
+WhereName  <lodged in arm>      ~
+WhereName  <lodged in leg>      ~
+WhereName  <nocked>             ~
+WhereName  (null)~
+WhereName  (null)~
+WhereName  (null)~
+WhereName  (null)~
+WhereName  (null)~
+WhereName  (null)~
+WhereName  (null)~
+WhereName  (null)~
+WhereName  (null)~
+WhereName  ~
+End

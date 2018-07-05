@@ -1,0 +1,123 @@
+1056283677  Grantlicense     Gron Mahtok awared Gron Mahtok the Mayor's License
+1058238109  Castevalues      King Granuk Dungbreath - castevalues ruler
+1058238109  Castevalues      King Granuk Dungbreath - castevalues help
+1058238111  Castevalues      King Granuk Dungbreath - castevalues ruler granuk
+1058238111  Castevalues      King Granuk Dungbreath - castevalues help
+1058238119  Castevalues      King Granuk Dungbreath - castevalues number1 granuk
+1058238119  Castevalues      King Granuk Dungbreath - castevalues help
+1058238140  Declare          King Granuk Dungbreath is declaring WAR toward Feii
+1058238146  Declare          King Granuk Dungbreath is declaring WAR toward Woodland
+1058238149  Declare          King Granuk Dungbreath is declaring WAR toward Myanmar
+1058238152  Declare          King Granuk Dungbreath is declaring WAR toward Alterra
+1058238155  Declare          King Granuk Dungbreath is declaring WAR toward Dal Riata
+1058644210  Declare          Marton Dene is declaring Peace toward you
+1076598336  Declare          King Draco Setan is declaring Peace toward you
+1081428834  Declare          Thray Setan is declaring WAR toward Argoth
+1082356682  Declare          King Draco Setar is declaring Peace toward you
+1083117266  Declare          King Draco Setar is declaring Neutral toward you
+1083664826  MilVictim        Champion has been dealt a decise death blow by 
+1084521094  Declare          King Kaizoku Olbaid is declaring Peace toward you
+1090987542  Trainertax       Prince Biff Gruk paid 25000 to use Trainer Greg to learn combat art
+1090987551  Trainertax       Prince Biff Gruk paid 25000 to use Trainer Greg to learn combat art
+1090987598  Trainertax       Prince Biff Gruk paid 25000 to use Trainer Greg to learn enhanced damage
+1090987608  Trainertax       Prince Biff Gruk paid 25000 to use Trainer Greg to learn enhanced damage
+1090989776  Trainertax       Prince Biff Gruk paid 25000 to use Trainer Floyd to learn standard style
+1090989787  Trainertax       Prince Biff Gruk paid 25000 to use Trainer Floyd to learn evasive style
+1090989790  Trainertax       Prince Biff Gruk paid 25000 to use Trainer Floyd to learn evasive style
+1090989795  Trainertax       Prince Biff Gruk paid 25000 to use Trainer Floyd to learn defensive style
+1090989824  Trainertax       Prince Biff Gruk paid 25000 to use Trainer Floyd to learn defensive style
+1091071440  Trainertax       Prince Ramah Equimule paid 75000 to use Trainer Floyd to learn evasive style
+1091071445  Trainertax       Prince Ramah Equimule paid 75000 to use Trainer Floyd to learn evasive style
+1091071468  Trainertax       Prince Ramah Equimule paid 75000 to use Trainer Greg to learn combat art
+1091071471  Trainertax       Prince Ramah Equimule paid 75000 to use Trainer Greg to learn combat art
+1091071483  Trainertax       Prince Ramah Equimule paid 75000 to use Trainer Greg to learn enhanced damage
+1091071489  Trainertax       Prince Ramah Equimule paid 75000 to use Trainer Greg to learn enhanced damage
+1091109076  Trainertax       Master Atreyu Pazuzu paid 75000 to use Trainer Greg to learn combat art
+1091109081  Trainertax       Master Atreyu Pazuzu paid 75000 to use Trainer Greg to learn combat art
+1091114663  Trainertax       Master Atreyu Pazuzu paid 25000 to use Trainer Floyd to learn evasive style
+1091114744  Trainertax       Master Atreyu Pazuzu paid 25000 to use Trainer Floyd to learn evasive style
+1091115092  Trainertax       Master Atreyu Pazuzu paid 25000 to use Trainer Greg to learn enhanced damage
+1091115095  Trainertax       Master Atreyu Pazuzu paid 25000 to use Trainer Greg to learn enhanced damage
+1091698021  Trainertax       Prince Biff Gruk paid 25000 to use Trainer Floyd to learn standard style
+1091934793  Trainertax       Master Atreyu Pazuzu paid 400000 to use Trainer Ardden to learn holy food
+1092192409  Trainertax       King Draco Setar paid 375000 to use Trainer Greg to learn enhanced damage
+1092192415  Trainertax       King Draco Setar paid 375000 to use Trainer Greg to learn enhanced damage
+1092192451  Trainertax       King Draco Setar paid 375000 to use Trainer Greg to learn combat art
+1092192456  Trainertax       King Draco Setar paid 375000 to use Trainer Greg to learn combat art
+1093252071  Declare          King Draco Setar is declaring Peace toward you
+1094622328  Trainertax       Prince Biff Gruk paid 25000 to use Trainer Floyd to learn aid
+1095255755  Trainertax       Master Atreyu Pazuzu paid 125000 to use Trainer Xentha to learn dual wield
+1095255775  Trainertax       Master Atreyu Pazuzu paid 125000 to use Trainer Xentha to learn parry
+1095256010  Trainertax       Master Atreyu Pazuzu paid 750000 to use Trainer Birus to learn rwundo style
+1095256037  Trainertax       Master Atreyu Pazuzu paid 125000 to use Trainer Xentha to learn berserk style
+1095256158  Trainertax       Master Atreyu Pazuzu paid 125000 to use Trainer Horace to learn axes
+1095961029  Trainertax       Master Atreyu Pazuzu paid 750000 to use Trainer Birus to learn krundo style
+1096207166  Trainertax       Master Atreyu Pazuzu paid 125000 to use Trainer Horace to learn axes
+1096385334  Trainertax       Volo Bolger paid 25000 to use Trainer Holly to learn daggers
+1096568269  Trainertax       Master Atreyu Pazuzu paid 125000 to use Trainer Xentha to learn berserk style
+1096568294  Trainertax       Master Atreyu Pazuzu paid 125000 to use Trainer Horace to learn axes
+1096715012  Trainertax       Master Volo Bolger paid 25000 to use Trainer Holly to learn escapism
+1096784641  Trainertax       Master Volo Bolger paid 25000 to use Trainer Holly to learn sneak
+1096787479  Trainertax       Master Volo Bolger paid 25000 to use Trainer Holly to learn hide
+1096790148  Trainertax       Master Volo Bolger paid 25000 to use Trainer Holly to learn hide
+1096859495  Trainertax       Master Volo Bolger paid 25000 to use Trainer Grien to learn peek
+1096861576  Trainertax       Master Volo Bolger paid 25000 to use Trainer Holly to learn sneak
+1096885833  Trainertax       Master Volo Bolger paid 25000 to use Trainer Grien to learn peek
+1096893843  Trainertax       Master Volo Bolger paid 25000 to use Trainer Holly to learn sneak
+1096899483  Trainertax       Master Volo Bolger paid 25000 to use Trainer Holly to learn sneak
+1096988527  Trainertax       Master Atreyu Pazuzu paid 125000 to use Trainer Horace to learn swords
+1097168598  Trainertax       Master Volo Bolger paid 25000 to use Trainer Floyd to learn evasive style
+1097326979  Trainertax       Master Atreyu Pazuzu paid 25000 to use Trainer Criya to learn divine style
+1097574810  Trainertax       Master Atreyu Pazuzu paid 400000 to use Trainer Ardden to learn holy food
+1097574834  Trainertax       Master Atreyu Pazuzu paid 125000 to use Trainer Xentha to learn aggressive style
+1097574888  Trainertax       Master Atreyu Pazuzu paid 25000 to use Trainer Floyd to learn standard style
+1097576220  Trainertax       Master Atreyu Pazuzu paid 125000 to use Trainer Xentha to learn repair
+1097608009  Trainertax       Master Atreyu Pazuzu paid 125000 to use Trainer Horace to learn blunt
+1097933176  Trainertax       Master Atreyu Pazuzu paid 125000 to use Trainer Xentha to learn aggressive style
+1098038675  Declare          King Draco Setar is declaring Neutral toward you
+1098184206  Trainertax       Master Atreyu Pazuzu paid 125000 to use Trainer Horace to learn blunt
+1098203629  Trainertax       Master Atreyu Pazuzu paid 25000 to use Trainer Floyd to learn standard style
+1098792778  Declare          King Kaizoku Olbaid is declaring Neutral toward you
+1098793669  Trainertax       Master Atreyu Pazuzu paid 25000 to use Trainer Criya to learn divine style
+1098846409  Declare          King Kaizoku Olbaid is declaring WAR toward you
+1098846414  Declare          King Kaizoku Olbaid is declaring Neutral toward you
+1098867911  Trainertax       Master Atreyu Pazuzu paid 750000 to use Trainer Kaseb to learn deadly accuracy
+1098869981  Trainertax       Master Atreyu Pazuzu paid 750000 to use Trainer Kaseb to learn deadly accuracy
+1098876587  Trainertax       Master Atreyu Pazuzu paid 750000 to use Trainer Kaseb to learn deadly accuracy
+1099325808  Trainertax       Minister Atreyu Pazuzu paid 750000 to use Trainer Kaseb to learn deadly accuracy
+1099755619  Trainertax       Minister Atreyu Pazuzu paid 400000 to use Trainer Nalkel to learn know enemy
+1099755677  Trainertax       Minister Atreyu Pazuzu paid 400000 to use Trainer Nalkel to learn know enemy
+1099755863  Trainertax       Minister Atreyu Pazuzu paid 750000 to use Trainer Birus to learn counter attack
+1099755887  Trainertax       Minister Atreyu Pazuzu paid 750000 to use Trainer Birus to learn counter attack
+1099755954  Trainertax       Minister Atreyu Pazuzu paid 400000 to use Trainer Nalkel to learn know enemy
+1099755971  Trainertax       Minister Atreyu Pazuzu paid 400000 to use Trainer Nalkel to learn know enemy
+1100184445  Trainertax       Minister Atreyu Pazuzu paid 750000 to use Trainer Birus to learn greater draw aggression
+1100284617  Trainertax       Minister Atreyu Pazuzu paid 750000 to use Trainer Birus to learn greater draw aggression
+1100284620  Trainertax       Minister Atreyu Pazuzu paid 750000 to use Trainer Birus to learn greater draw aggression
+1100284638  Trainertax       Minister Atreyu Pazuzu paid 125000 to use Trainer Xentha to learn parry
+1100284655  Trainertax       Minister Atreyu Pazuzu paid 125000 to use Trainer Xentha to learn repair
+1100284682  Trainertax       Minister Atreyu Pazuzu paid 750000 to use Trainer Kaseb to learn deadly accuracy
+1100284723  Trainertax       Minister Atreyu Pazuzu paid 125000 to use Trainer Xentha to learn draw aggression
+1100284726  Trainertax       Minister Atreyu Pazuzu paid 125000 to use Trainer Xentha to learn draw aggression
+1100704369  Trainertax       Minister Atreyu Pazuzu paid 750000 to use Trainer Birus to learn counter attack
+1100802844  Trainertax       Minister Atreyu Pazuzu paid 750000 to use Trainer Birus to learn greater draw aggression
+1101308435  Trainertax       Minister Atreyu Pazuzu paid 750000 to use Trainer Birus to learn greater draw aggression
+1101313376  Trainertax       Minister Atreyu Pazuzu paid 750000 to use Trainer Sidag to learn true sight
+1102780866  Trainertax       Minister Atreyu Pazuzu paid 400000 to use Trainer Broikmor to learn power heal
+1102780875  Trainertax       Minister Atreyu Pazuzu paid 400000 to use Trainer Broikmor to learn summon corpse
+1102780995  Trainertax       Minister Atreyu Pazuzu paid 750000 to use Trainer Birus to learn greater draw aggression
+1102781021  Trainertax       Minister Atreyu Pazuzu paid 750000 to use Trainer Kaseb to learn deadly accuracy
+1108350504  Declare          Malthros Zenobia is declaring Trading toward you
+1108358548  Declare          Malthros Zenobia is declaring Neutral toward you
+1108364621  Trainertax       King Draco Setar paid 12500 to use Trainer Greg to learn rescue
+1108494445  Trainertax       Dragos Xenobia paid 375000 to use Trainer Greg to learn combat art
+1108494450  Trainertax       Dragos Xenobia paid 375000 to use Trainer Greg to learn rescue
+1108494454  Trainertax       Dragos Xenobia paid 375000 to use Trainer Greg to learn enhanced damage
+1108497002  Trainertax       Dragos Xenobia paid 375000 to use Trainer Floyd to learn defensive style
+1108497007  Trainertax       Dragos Xenobia paid 375000 to use Trainer Floyd to learn evasive style
+1108497011  Trainertax       Dragos Xenobia paid 375000 to use Trainer Floyd to learn standard style
+1108497016  Trainertax       Dragos Xenobia paid 375000 to use Trainer Floyd to learn aid
+1108497023  Trainertax       Dragos Xenobia paid 375000 to use Trainer Floyd to learn doorbash
+1108601500  Trainertax       Dragos Xenobia paid 375000 to use Trainer Greg to learn taunt
+1108601504  Trainertax       Dragos Xenobia paid 375000 to use Trainer Greg to learn shieldblock
+1117071682  SetJob           Job change: Dalvin Torel set Dalvin Torel to a job of surveyor

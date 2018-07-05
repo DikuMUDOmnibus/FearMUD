@@ -1,0 +1,49 @@
+/*****************************************************/
+/* HOBBIT_MALE.NAM                                   */
+/* Namnfil f”r namn med Albion-klang                 */
+/* Johan Danforth                                    */
+/* rader som b”rjar med / „r kommentar-rader         */
+/* varje section b”rjar med [xxx] enlig filen nedan  */
+/*****************************************************/
+/* Hobbits.  Tried to take out any Tolkien names     */
+/*****************************************************/
+[start]
+Br
+C
+D
+De
+Dr
+Fir
+M
+Merid
+Nir
+P
+Perd
+Sar
+[middle]
+/* mittstavelser skall b”rja och sluta med en vokal som a,o,u,i,e,y etc... */
+a
+e
+i
+ia
+o
+oi
+u
+[end]
+/* slutstavelser skall b”rja med en konsonant som b,k,t etc... */
+bo
+brin
+de
+do
+doc
+drin
+froc
+go
+gom
+grin
+ko
+m
+n
+p
+[stop]
+/* Leave comment after stop, it is looking for empty space */

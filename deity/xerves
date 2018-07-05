@@ -1,0 +1,48 @@
+#DEITY
+Filename		../deity/xerves~
+Name		Xerves~
+Description	Just like his immortal couterpart, Xerves tends to support the way of
+the Neutral, and those who partake in the magical arts.  However, due
+to his neutral stand on things, he will allow anyone who wished to
+join.  According to practice, Xerves followers have increase ability
+to see both sides by seeing both sides.
+~
+Alignment		0
+Worshippers	68
+Flee		-3
+Flee_npcrace	-2
+Flee_npcfoe	0
+Kill		4
+Kill_npcrace	3
+Kill_npcfoe	8
+Kill_magic	6
+Sac		2
+Bury_corpse	2
+Aid_spell		1
+Aid		1
+Steal		-3
+Backstab		-1
+Die		-10
+Die_npcrace	-15
+Die_npcfoe	0
+Spell_aid		2
+Dig_corpse	-4
+Scorpse		250
+Savatar		300
+Sdeityobj		450
+Srecall		200
+Race		-1
+Element		0
+Sex		-1
+Affected		20971520
+Npcrace		0
+Npcfoe		89
+Suscept		1
+Race2		-1
+Susceptnum	600
+Elementnum	0
+Affectednum	1200
+Objstat		1
+End
+
+#END

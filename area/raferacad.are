@@ -1,0 +1,1995 @@
+#AREA   Rafermand Acad~
+
+
+
+#VERSION 46
+#AUTHOR Rafermand Imms~
+
+#RANGES
+1 5 1 75 1 253 260 0 1
+$
+
+#RESETMSG &OYou hear the sounds of movement, and things appear to be not as they seemed.~
+
+#FLAGS
+13 4
+
+#ECONOMY 0 5234603 0
+
+#MOBILES
+#5400
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0
+0 0
+112 112 0
+#5404
+bambi~
+&OBambi~
+&OBambi frollics happily and smiles at you with big brown eyes.
+~
+Bambi is the same young deer whose name has passed through the 
+ages eternally. This is, of course, just another fawn, but the 
+name of Bambi still seems to fit. 
+~
+1&256 0 0 0 C
+0 0 4 0 0 0
+5d3+115 1d4+4 0
+400 0
+112 112 0
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+87 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+1 0 0 0 0 0 0 16 0
+#5405
+flower~
+&zFl&Wow&zer~
+&zFl&Wow&zer &gsniffs through some flowers growing here.
+~
+Here is the typical young skunk, dark all over except for the 
+white stripe running down his back. Though they tend to smell 
+bad, this particular skunk is just too cute. 
+~
+1&256 0 0 0 C
+0 0 9 0 0 0
+4d3+83 1d3+2 0
+350 0
+112 112 2
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+87 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+1 0 0 0 0 0 0 0 0
+#5406
+Thumper~
+&zThumper~
+&zThumper &gpounds the ground with his furry foot.
+~
+This is a small, grey colored, long eared, rabbit with a fluffly 
+little cotton-like tail. 
+~
+1&256 0 0 0 C
+0 0 24 0 0 0
+3d3+55 1d1+1 0
+250 0
+112 112 0
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+87 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+1 0 0 0 0 0 0 16 0
+#5407
+tree gnome~
+&OA Tree &gGnome~
+&OA Tree &gGnome mischieviously ruffles through a pouch.
+~
+This squat, odd little creature is just like all gnomes, very 
+small, very peculiar, and loves his secrecy. 
+~
+1&256 0 0 0 C
+0 0 -1 0 0 0
+5d3+101 1d5+3 0
+212 0
+112 112 1
+13 13 13 13 13 13 13 1
+0 0 0 0 0
+14 0 0 0 1 1 1
+0 0 0 0 0 0 0 0 0 0 0 0 0
+1 0 0 0 0 0 0 16 0
+> rand_prog 20~
+if rand(20)
+emote thinks that he's glad he's not his cousin, the yard gnome.
+else
+if rand(20)
+ emote would be happy to put the yard gnome out of its lifelong misery.
+else
+if rand(20)
+emote plays like Xerves and chews on the yard gnome's head.
+else
+if rand(20)
+emote picks its nose, digs in its butt, smells its finger, and gags.
+else
+if rand(20)
+emote gouges itself in the eye and exclaims, "Dammit! That hurt!" Then proceeds to do it again.
+endif
+endif
+endif
+endif
+endif
+~
+|
+#5408
+Yard Gnome~
+&gA &GYard &gGnome~
+&gA frightened &Gyard&g gnome is here running away from Xerves.
+~
+A strange looking gnome that was first created in the land Xerves first
+owned when he was immortal.  This evil little creature seems to be very
+rare because Xerves likes to chew on their heads.  A very cute looking
+creature, such a shame, such a shame.
+~
+16777217&256 0 0 -400 C
+0 0 14 0 0 0
+4d3+73 1d1+0 0
+174 0
+112 112 1
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+14 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+1 0 0 0 0 0 0 0 0
+> rand_prog 5~
+emote looks around for Xerves
+~
+> rand_prog 5~
+emote shivers in fright when he thinks about what would happen if ...
+~
+> rand_prog 5~
+emote swears he is going to kill himself very soon...
+~
+> all_greet_prog 100~
+if name($n)==Xerves
+emote sees Xerves and almost dies instantly in FEAR!!!
+endif
+~
+|
+#5409
+Noven the Gnome~
+&wNo&CV&weN t&Ch&we Gn&Co&wme~
+&wNo&CV&weN t&Ch&we Gn&Co&wme stands tall here. Well tall for a gnome.
+~
+&wThis little bugger is Noven. He is a bit taller than your average
+yard gnomes and is a lot more aggressive than most of his fellow
+gnomes. He also claims that he is not scared of Xerves but that
+claim has yet to be found true. Noven enjoys flaunting his dagger which
+he uses to not only find food but to defend his little body from people
+that wish to do him harm.
+~
+16777281&256 0 4194304 0 C
+0 0 -11 0 0 0
+6d4+152 1d6+3 0
+237 0
+112 112 1
+13 13 13 13 13 13 13 2
+0 0 0 0 0
+14 0 0 0 1 1 2
+0 0 0 0 0 0 0 0 0 0 0 0 0
+1 0 0 0 0 0 0 544 1
+> rand_prog 3~
+emote gives you a haughty grin.
+~
+> rand_prog 3~
+emote shines his nice dagger and waves it in front of your eyes.
+~
+> rand_prog 3~
+emote picks his teeth with his dagger.
+~
+> greet_prog 100~
+if name($n)==Xerves
+emote bites his thumb at Xerves then flees in terror!
+emote does a neat little dance then disappears! *poof*
+mpgoto 5422
+else
+mpgoto 5427
+endif
+~
+|
+#5410
+Wild Dog~
+A Wild Dog~
+A Wild looking dog is here looking for scraps.
+~
+A dog that has been released by its owners or born on the streets.  Just
+a simple looking mutt that looks really hungry.
+~
+16777217&256 0 0 0 C
+0 0 19 0 0 0
+4d2+64 1d2+0 0
+161 0
+112 112 1
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+30 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+1 0 0 0 0 0 0 0 0
+#5411
+Flying Bird~
+A Flying bird~
+A bird is flying around the top of the trees.
+~
+A simple looking bird that is about average size.  These kinds of birds
+have been known to get nasty when they attack, but are not a major threat
+by themselves.
+~
+16777217&256 0 0 0 C
+0 0 -6 0 0 0
+5d4+127 1d5+3 0
+225 0
+112 112 0
+13 13 13 13 13 13 13 1
+0 0 0 0 0
+0 0 0 0 1 1 1
+0 0 0 0 0 0 0 0 0 0 0 0 0
+1 0 0 0 0 0 0 1 0
+#5412
+crazy ferret~
+A crazy ferret~
+A crazy looking ferret is here moving about the forest.
+~
+Your typically looking ferret, but just looking at it makes it almost
+look like it is smiling right back at you in a demonic, but funny
+way.  Just what the world needs, more crazy ferrets.
+~
+16777217&256 0 0 0 C
+0 0 14 0 0 0
+4d3+73 1d1+1 0
+174 0
+112 112 1
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+32 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+1 0 0 0 0 0 0 1 0
+#5549
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#5400
+rafermand help book~
+The Rafermand Help Book~
+A book with "READ ME IF YOU ARE NEW" written on the cover lies here.~
+~
+9 524288 16385
+5 5 0 0
+1 120 0 0 0
+E
+rafermand help book guide~
+This book is to help you quickly get into Rafermand by providing quick
+answers to what is new and how to use it.  If you are looking for the
+basic mud stuff, you will need to hunt through the helpfiles.  A good
+place to start is help start.
+
+ 1.  Weapons            2.  Global Boards        3.  Portals
+ 4.  Kingdoms           5.  Wilderness           6.  Skill/Magic System
+ 7.  Remort             8.  Questing             9.  Mounts
+10.  Caste             11.  Other Stuff         12.  Newbie Town (Niemria)
+13.  Mist Forest       14.  Newbie Equipment    15.  Newbie Trainers
+
+To view the field, look book<number>.  So to view weapons info, you need
+to look book1.
+~
+E
+book15~
+Newbie Trainers
+
+In the east part of Niemria is a location with a bunch of Newbie Trainers.
+Most of the skills and groups in the game are located there at Beginner
+mastery only.  Also, out of the 6 trainers there, all the skills and
+groups are in alphabetical order and there is a sign in the first room
+that tells you what letters each trainer covers.  If you go there and
+do not find your skill/group in there, please don't tell the immortals
+there is a bug because some are not there such as mountain climbing and
+some skills that are remort skills.
+~
+E
+book14~
+Newbie Equipment
+
+Rafermand is a newbie friendly mud, but we are not a newbie oriented mud.
+We are looking for fairly experienced players who know how to play a mud,
+but there are a lot of helpfiles and helpful players for those who are
+new to Rafermand.  If you are new to muds, Rafermand might not be your
+best choice for a first mud, but if you are persistant, you can ask
+players and some immortals for help.  Now, on to equipment.  If you have
+not noticed, you start out with very little in your inventory, you will
+have to buy your gear in Niemria.  There are also 3 armor shops with 60
+items combined and a weapon shop with 20 items so there is a lot of
+choices, so here is what you need to know.
+
+                                                 (For Locations see book12)
+lights
+   torch   perched raven                                        Location - 4
+fingers
+   crimson ring  clouded ring  teal ring  iron ring             Location - 4
+neck
+   azure beads  aqua pendant  sapphire pendant  glass beads     Location - 2
+body
+   bronze breastplate  crimson breastplate  leather jacket      Location - 3
+legs
+   blessed legguards  silver legguards  leather legguards       Location - 2
+feet
+   lightweight sandals  leather shoes  walking shoes            Location - 4
+hands
+   leather gloves  spiked gloves  mess gloves                   Location - 3
+arms
+   silver vambraces  crimson vambraces  iron vambraces          Location - 2
+    
+Continued at book14.1 (look book14.1)
+~
+E
+book14.1~
+Newbie Equipment Cont
+
+shield
+   star covered shield  bronze shield  silver shield            Location - 3
+about body
+   leather cape  teal colored cape  crimson colored cape        Location - 4  
+waist
+   warrior belt  snake belt  gyspy sash  black belt  steel belt Location - 3
+wrist
+   aqua wristlet  bronze wristlet  silver wristlet              Location - 3
+hold
+   aqua sphere  crimson sphere  wilderness compass              Location - 4
+ears
+   azure earrings  crimson earrings glass earrings              Location - 2
+eyes
+   azure visor  crimson visor  leightweight visor  JC shades    Location - 2
+face
+   warrior's mask  crimson mask  iron mask                      Location - 4
+ankle
+  aqua anklet  silver anklet  stone anklet                      Location - 3
+
+
+Now for weapons.  They are pretty straight forward, and the more expensive
+one is, the better it typically is (also the slower in the case of a
+bastard sword compared to a short sword).  It is important to get the
+right type of weapon and one your class can wear.  If you are a pixie, you
+have only one choise a knife.  Most classes can use either a dagger or a
+sword, so those are your best choices starting out.  Help <class name> for
+what weapons you are best with for your class.
+~
+E
+book13~
+Mist Forest
+
+Mist Forest is a small area to the south of Niemria that offers mobs for
+a new adventurer to do battle with.  If you are reading this, very good
+of you and here are a few hints.
+
+1.  DO NOT GO UP till you are atleast level 4 or 5 or you are buffed up
+    with sactuary and sanctify.  The mobs hit harder and some of them will
+    group up on you.
+2.  The lower level mobs are pretty safe at all levels, they do not group
+    up on you.
+3.  It is important to go here and build gold at first to buy equipment for
+    your journeys.  You will probably need 6000 or more gold to get fully
+    equiped and if you are lucky you will start with about 2000.
+
+Mainly it, make sure to check out 12 and 14 for more info over equipment and
+Niemria.
+~
+E
+book12~
+Niemria
+
+As soon as you get into Rafermand, you will start at the south gate of a
+small town called Niemria.  It is located just a small distance from the
+major city of Rafermand city.  Niemria offers you a few things that are
+very important to take advantage of.  First, all newbie equipment is
+located here, you will need to buy your own weapons, armor, food, or any
+magical items you want to take on your journey.  You will only start out
+with a few gold coins, so you are best buying your weapon first and maybe
+pick up more pieces of armor as you go on.  Also, there will soon be a
+group of trainers on the east side that will teach the Beginner ONLY
+mastery of all 1st tier skills, so check that out if you need a skill.
+Lastly, here is a map of the small town.
+
+    *12 *13 *14          *9
+     |   |   |           |            1.  Weapon Shop
+     * - * - * - * - * - * - *        2.  Armor Shop Num 1
+ 1   |           |           |        3.  Armor Shop Num 2
+ * - *           *           *        4.  Armor Shop Num 3
+     |           |           |   11   5.  Food Shop
+ * - *           * - *8      * - *    6.  Exit to Wilderness
+ 10  |           |   |       |        7.  Bank
+     * - * - * - * - * - * - *        8.  Magical Item Shop
+     |   |   |   |           |        9.  Practice/Stat Train Mob
+     * - *2  *5- *           *        10. Projectile/Sheath Shop
+     |   |       |           |        11. Newbie Trainers
+     *   *3      *           *        12. SpellBooks
+     |   |       |           |        13. Niemria Portal
+     * - * - * - * - * - * - *        14. Healing service (beds)
+         |       |       |            *       A room
+         *4      *6      *7           - or |  Direction (Exit)
+~
+E
+book1~
+Weapons
+                        
+In Rafermand, there has been a change in how weapons work in relation to
+classes and races.  First of all, a new field called weapon size has been
+added to the Weapons.  When you identify one, you will see something like
+this.
+
+      Weapon size is 5
+      
+This tells you the weapon size of the weapon.  The size ranges from 1 to
+10 where 5 is equivalant to that of a standard sword.  It is important to
+know the weapon sizes because each race has a max and a min on the size
+(such as 4 to 8).  So, you have to stay in this limit, also, if you have
+a weapon of size 4 and one of size 5, you will hit more often (as in
+number of attacks) with a size 4 than a size 5.  Typically, a size 5 of
+equal level and stats will hit a little harder than a 4, so it is up to
+you to pick which is better.
+
+Continued at 1-1 (look book1-1)
+~
+E
+book1-1~
+Weapons pt 2
+                       
+Not only is it important to know the weapon size, it is also important to
+understand how races and classes come into affect.  When it comes to races
+there are two important things to know about, agility range and weapon size
+range.  Agility is a stat you can see on score, it affects how often you
+can swing your weapon.  Each race has a set range of how much agility it
+can gain each level.  Races like elf or halfling (hobbit) will gain more
+agility than the stronger/slower classes like a dwarf or ogre.  So, it
+is important to figure what you want, speed or strength.  Also, remember
+that dexterity and agility are TWO different things and do not affect
+eachother.  Last, each race has a weapon size limit as mentioned above,
+and the slower the class and the stronger the class, the more heavier of
+a weapon they can wield (such as ogres).
+
+When it comes to classes, they only affect agility.  Thieves get the most
+bonus per level on agility and it is possible for them to strike much
+more often than other classes.  Other fighting classes like monks and
+warriors also get a bonus.  On the other hand, magical classes such as
+mages and clerics will get a subtraction on their agility per level.
+~
+E
+book2~
+Global Board System
+                     
+Rafermand features a Global Board System (refered to as gboards) that allow
+you to post a note from anywhere in the world.  A rather common feature in
+some muds, but if you have not used one before, it is important to know how
+to use it because reading and posting notes is essential.  The following
+are the commands used.
+
+gboard                                   Displays the gboards
+gboard [number|name]                     Change to a new board.
+gnote                                    Reads next note.
+gnote read [number]                      Reads a certain note.
+gnote remove <number>                    Removes a note written by you.
+gnote list [number]                      Shows up to number notes.
+gnote write                              Posts a note.
+gnote catchup                            Marks all notes in this board read.
+
+Most of them are pretty down and straight to the point, just type gboard to
+get a list of boards and the notes on them and use gboard [number] to change
+to that board to get a list and read the notes.  If you need to know more
+about how to use the board system, just read the helpfile gboards.
+~
+E
+book3~
+Portal System
+                        
+Rafermand offers a very different form of using spells like portal and 
+astral in the game.  We have a system of portals that are in the main city 
+(Rafermand city, look at help map for number 21) and located all about the 
+Wilderness near areas.  What you need to do is find these portals and mark 
+them to transport back and forth between them.  To find portals, you must 
+first go to that portal listed in the city above and use the command 
+huntportal to be able to see and mark new portals.  Then, you can go out 
+into the field and look for portals and use the command markportal once you 
+found one.  However, once  you hunting for portals, you cannot use 
+transportation spells/commands nor can you be targeted by one, nor can you 
+enter a portal.  This makes it so you have to really hunt for them not chain 
+through them.
+
+Once you are done, you need to go back to the city and type huntportal once
+again to stop hunting portals.  Now you can use your transportation spells
+again.  There are a few more rules (main ones are can only use portal at
+portal points and can only use other spells like summon/astral on people in
+the same area) located in the help portals helpfile, so read that if you 
+need to know more.  Lastly, to get a list of portals you have found, 
+type listportals.
+~
+E
+book4~
+Kingdoms
+                        
+Kingdoms are pretty much the backbone of the caste system.  Kingdoms allow 
+the players to take command of the mud and control a lot of the aspects of 
+the game by running kingdoms that allow for building, placing of mobs and
+objects, declaring war, trading, etc.  The Kingdom system as of Late August
+of 2000 is still under heavy development, but there are some parts in for
+testing for those who are willing to do so.
+
+In order to get into a kingdom, first you have to reach level 10 in the
+mud.  After that, you can use listkingdoms to get a list of kingdoms to
+join.  After you find one that is accepting new people, you might first
+want to ask the ruler if you can join or anything else you want to know
+about.  After that, use joinkingdom <num> to join that kingdom.  Once
+you are in, there are a lot of things that can be done, and you can either
+read the helpfiles listed in help kingdom commands or ask the king or
+higher ups in the Kingdom for more help.
+
+As mentioned above, this system is in development and we are always taking
+advice for ways to make it better or things to add to it.  We might not
+get to it right away, but if it is a good idea, it will get in eventually.
+~
+E
+book5~
+Wilderness
+                      
+Rafermand offers a Wilderness or sometimes refered to as an ASCII MAP.  If
+you do not know what it looks like, type help wilderness.  Wilderness is
+a 250,000 room world that is used to connect all the other areas in the
+mud and provide some walking distance and a way to use the new portal
+system.  It also features a few things that you must know about before
+going into it.
+
+1.  Two views, box view (10 by 10 square, etc) or a Point of View look
+    (you can see straight forward but not to the sides or behind you, looks
+    like a flashlight view).  Standard is box view and you can switch using
+    the config command.
+2.  Movement cost is much more than in cities, so you will need a mount.  To
+    get one, type help map to find the provider for mounts.
+3.  Mobs show up in random encounters.  You are taken to a new small map 
+    where you can do battle.  To flee, you need to get to the outer edge, or 
+    you can recall.  Normal experience reductions happen if you flee while 
+    in combat or recall while in combat.
+4.  Can use the command lookaround to get a larger view of the map.  Also, 
+    there is a spell called wizardeye available that provides a larger view.
+    
+Lastly, because the Wilderness is of decent size, I put together a rather 
+cheap looking color map of the Wilderness at
+   --> www.rafermand.com/colormap.jpg
+~
+E
+book6~
+Our Unique Learning System
+
+As it is essential to thrive in life by learning new skills, it is important
+in any mud to know how to learn the best skills and spells.  Rafermand offers
+a very unique learning system which is a bit more complicated, but offers
+a lot more freedom and power than typical level systems.
+
+If you have played Might and Magic games, you will find our system rather
+similar to how theirs is because it is based off of it, but there are
+a few odds and ends you should know about first, but for now, here is
+the system in a nutshell.
+
+Instead of having 85 percent or so on, there are two values associated with
+skills/spells.  Those two values are (Mastery) and (Skill Points).  In order
+to advance your power in a skill or spell, you need to have the highest value
+possible for both.  In addition, in order to gain higher mastery, you need
+more skill points.  Below is a chart of what is needed to advance.
+   
+   Master   (Value 4) (10 Points, 100000 Gold) <-- Highest mastery value
+   Expert   (Value 3) ( 7 Points, 20000 Gold)
+   Novice   (Value 2) ( 4 Points, 3000 Gold)
+   Beginner (Value 1) ( 0 Points, 500 Gold)   <-- Lowest mastery value
+   
+
+Now that this is explained, next on to the most confusing part, groups.
+
+Continued at 6-1 (look book6-1)
+~
+E
+book6-1~
+Learning System - Groups
+             
+In the skill system there are two kinds of classifications.
+
+  Groups
+  Solo Skills
+  
+Groups can be either skills or spells and are a set that is learned together.
+This means if kick and punch is in the same group, you will learn both of
+them and increase both of them by improving on the group.
+
+It is VERY important to remember that you learn skills/spells in a group
+by practing/increasing mastery in the group, not the skills/spells in the
+group.  However, solo skills work as a solo skill, you increase it by
+practicing/increasing its mastery alone.
+
+Next, you are probably asking, how can I tell the difference.  It is rather
+easy, you use the commands
+
+    listgroups   and    skills
+    
+listgroups allgroups (a command) will provide you a complete listing of
+solo skills (skills/weapons) and groups that you can obtain.  You might
+notice colors, those are explained in the helpfile SKILLCOLORS.  With
+listgroups, you can also type in the name of a group you see in the listing
+and get the name of the skills/spells in it, or type in a name of a skill
+and see if it belongs to a group (such as summon).  With skills, you can
+use it to view the skills/spells that you already have.  It splits things
+up into groups, skills, spells, and weapons.
+
+Next, learning and increasing mastery..Continued at 6-2 (look book6-2)
+~
+E
+book6-2~
+&gLearning System - Increasing Mastery, Points, and Books
+                      
+This part has confused a lot of people in the beginning, but it has been
+improved.  As mentioned in the first section, there are two values for
+improving your skills, (Skill Points and Mastery).  Each is improved
+differently.
+
+Mastery is improved by mobs that have &G&W[TRAINER]&g before their name.
+Each trainer teaches a limited amount of skills/groups, and you can get that
+list by typing learn <name of trainer>.  It will tell you want solo skills
+and groups are available to learn.  In section 1 there was a list of what
+you needed to advance, so you might want to check that out again if you
+need to (look book6).  Once you have found the appropriate trainer, you
+can then use learn to increase mastery.  Say have have Fire at Beginner 4
+and you are ready to learn Novice from Robert, you would type.
+   learn Robert Fire Novice
+Pretty much it.  The trainers are scattered throughout the land, and you
+can get a listing of trainers by typing help SKILLCHART
+
+Skill points are improved by mobs that have &G&W[PRACTICE]&g before their name.
+All you do is goto the mob and use the practice command to improve a solo
+skill or group (again you can get a list of what you can learn with
+listgroups allgroups).  In order to increase the points, you must first have
+learned Beginner Mastery though.  In addition, in order to go up to the next
+point you must have the same amount of practices (which you can get from
+leveling or visiting the questor).  So to go from 5 to 6 would cost 6
+practices.  Pretty much it for practicing.
+
+Finally, spellbooks.  Once you learn a spellgroup, you are still not done.
+You must find or purchase the appropriate book for the spell you want to
+use.  Most books can be found at one location, and the map on how to get
+to the spellbooks, type help CITYCHART (please note this is Rafermand city
+not Niemria which you start out at).  Once you get the right book, just use
+the learn command to learn your new spell, and have fun.
+
+That is all, I hope you can figure it out, and if you cannot, go ahead and
+ask players/imms.  Also, there are shorter versions of this available at
+HELP SKILLS.
+~
+E
+book7~
+Remort
+
+Remort is a piece of code I worked into Smaug code that I have made
+available to the public, it can be found at the Rafermand webpage if
+you want to try it out.  Remort allows a player once they have reached
+avatar to remort into a second tier class that is MUCH more stronger
+than the first tier class.  When you remort, it is VERY IMPORTANT to
+remembers these things.
+
+1.  All equipment on you is GONE.  Give it away or have someone hold it
+    for you.
+2.  Very few things are kept.  You will keep your rank and caste.  You
+    will most likely lose your gold and a lot of other things.  A few
+    things are being fixed so you stay in clans, keep mounts, stay in
+    kingdoms, and a few other things, but some of these hopefully will
+    be fixed soon.  If you can pass something off that you have, do it.
+    
+Once you remort, you will start at level 1 and back in the beginning.
+You will have no skills/spells from the last character, but you will
+keep your name/password, etc.  Remorts require quite a bit more
+experience to level, but are much stronger than first tier, so it can
+make it easier at times depending on the class.
+~
+E
+book8~
+Questing
+                         
+We sometimes offer Immortal ran quests, but most of the questing is handled
+by a Questing mob.  This mobs location can be found by looking at help
+map.  Once you are on a quest, you will have a certain amount of time to
+finish it.  Once you complete a quest, you will get quest points, and
+sometimes gold, and the best part of questing, sometimes practices.  You
+can use your quest points to buy practices or get lucky and get some
+while doing the practices.  Since you cannot Master every skill there is,
+you will find yourself questing later to get more and more points if you
+wish to get better at what you do.
+
+Next, there are stat questions.  Every 5 levels you will get a stat quest
+point that you can use at a questor to get a stat quest.  You will have
+till you level to complete this quest, and once you do, you will get
+a stat point you can use at a trainer to increase a stat.
+
+Last, just a note.  Some quests are for a token located in some area.  If
+you get one of these quests, you might want to finish it quickly.  The
+tokens are dropped, but are not saved, so if a reboot happens or a crash,
+the token will be gone.  Ask an immortal to place the token if this does
+happen.
+~
+E
+book9~
+Mounts
+                         
+Mounts are typically part of just about every mud, but in Rafermand, they
+can be essential.  Out in the Wilderness, movement is a lot more than
+in a city (some sectors take 30+ movement points) and players get very
+little movement when you start looking at that much movement being used
+per move.  However, mounts start out with more movement than a player can
+get and certain mounts can level.  There is a mount shop in Rafermand city
+(help map) that sells levelable mounts (not the pet store).  These mounts
+work like pets, they save with you and everything nice like that.  They
+level when you move them around enough, and they gain a little bit of HP
+and some movement.  Mounts can go to level 100 and can get anywhere around
+5000 or so movement points.  It is possible to wear the mount out by moving
+it around (as in no or little movement left), but you can replenish it
+with mount food.  Mount food can be located in Rafermand city at the
+butcher.
+
+Also, unlike pets, a mount cannot actually die.  Once it dies, it will
+return back to Rafermand city recall with a slight movement max loss.  If
+you lose your mount somewhere, you can always recall to get it back.  If
+you ever find out that does not work, ask an immortal to see if it can
+be fixed, not every bug is fixed in this system yet.  Lastly, you can
+use viewmount to see your mounts stats.
+~
+E
+book10~
+Caste
+                         
+Caste is pretty much goes into the kingdom.  Kings can appoint others to
+higher positions if they feel like sharing some of the power.  However,
+right now there are a few things that caste is good for that does not
+deal with the whole kingdom scene.
+
+While being a player, you can advance your caste in Rafermand city.  For
+that location type help map.  Once there, you can pay a small amount of
+money to increase it (type setcaste for a list).  After you reach a certain
+caste, you will get a small bonus to your hp/mana/agi, etc.  So it is a
+good idea to max your caste out before remorting if you plan on remorting.
+Also, in order to qualify for a Knight quest, you need to obtain the
+highest rank possible for a normal player (Page).  Once you do that, you
+can ask for a Knight quest to complete.  Read the helpfile knight for
+more info over knights.
+~
+E
+book11~
+Other Stuff
+                      
+Here are a few tips for those beginning in Rafermand, and thanks for taking
+the time to read this book.
+
+* There are healing beds in Rafermand they are from recall s nw w w n w.
+  They heal much faster than sleeping and can also heal mounts.
+* You can buy spells from a healer just 2e from the bed location.  Typically
+  cheaper than potions, but you cannot carry it.
+* It is a good idea to stick to Niemria and the Forest to the south if you
+  are below level 7
+* Help mrafermand for the location of the Wilderness map
+* Help map for a Map of the City of Rafermand, very useful
+* Once out of the academy and the city, you might try some of these areas
+  for equipment and leveling
+    - Blood Marsh (in Tree Village, good equipment)
+    - Wolf Forest (lv 10-13, aggressive mobs, make sure to be ready)
+    - Shattered Refuge (Good exp up till 9-10)
+    - Tullfuhrzky Manor in Pixie Forest has some equipment
+    - Dwarven Village and Dwarven Daycare has some equipment
+    - Nature's Retreat has a lot of good leveling mobs( 5 - 50 )
+* Dula'Van and Anirandi have some potions not available in Rafermand City
+* Might help to buy wizardeye scrolls in the beginning if you want to 
+  explore the map
+* Stay on the roads on the map, you will fight less mobs
+* Read the laws (type laws)
+
+Some important web locations....
+
+  www.rafermand.com - Rafermand webpage
+  www.rafermand.com/players - Players Page, have anything to add?
+  www.rafermand.com/players/skillchart.txt - Skill Chart
+  www.rafermand.com/players/skillloc.txt - Trainers in City
+  www.rafermand.com/skillsys.htm - Online skill help
+  www.rafermand.com/infocenter/ - Smaug Info Center by Xerves
+  www.rafermand.com/colormap.jpg - Rafermand Map
+  rafermand@home.net - Xerves email address
+~
+A
+3 1
+A
+5 1
+A
+4 1
+#5401
+Noven dagger~
+&wNo&CV&weN's Da&Cgg&wer~
+&wNo&CV&weN's Da&Cgg&wer is stuck in the ground here.~
+~
+5 0 8193
+12 3 4 2 3 -1 0 0 0 0 0 0 0 0
+1 800 0 0 0
+'acid breath'
+E
+dagger~
+&wThis is Noven's dagger. This dagger is the source of pride for Noven
+and he always has it with by his side. It is a nice dagger with some
+nicks and cuts on the blade from some use. A few jewels line the hilt
+as well as what appears to be some sort of food particles on the tip of
+the dagger.
+~
+A
+2 1
+A
+19 1
+#5549
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 1
+0 0 0 0
+1 0 0 0 0
+#0
+
+
+#ROOMS
+#5400
+&gA Misty Forest~
+&OThe dark brown and black tree trunks surround everyone that enters
+this forest. These massive trunks measure at least ten feet wide and
+the mist blocks the true height of this forest. Although very dense and
+mystic, this strange light purple mist does not alert the senses of any
+danger. A sense of calm and a feel of excitement seem to be a hidden
+bonus of this strange phenomenon.
+~
+12
+0 3
+0
+0
+D0
+~
+~
+0 -1 5401
+0 0
+D1
+~
+~
+0 -1 5411
+0 0
+D4
+~
+~
+0 -1 5419
+0 0
+S
+#5401
+&gA Misty Forest~
+&OThe dark trees continue to allow little light in and the mist floats
+freely here and there. These woods appear to carry on for a great
+distance to the north. Strange little bugs fly around doing whatever
+jobs they are required by nature to do.
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5402
+0 0
+D1
+~
+~
+0 -1 5412
+0 0
+D2
+~
+~
+0 -1 5400
+0 0
+D4
+~
+~
+0 -1 5418
+0 0
+S
+#5402
+&gA Misty Forest~
+&OThe dark trees continue to allow little light in and the mist floatsr
+freely here and there. These woods appear to carry on for a great
+distance in every direction. Strange little bugs fly around doing whatever
+jobs they are required by nature to do. The sounds of a small battle can
+also be heard, its source is not known.
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5403
+0 0
+D1
+~
+~
+0 -1 5413
+0 0
+D2
+~
+~
+0 -1 5401
+0 0
+D4
+~
+~
+0 -1 5417
+0 0
+S
+#5403
+&gA Misty Forest~
+&OThe dark trees continue to allow little light in and the mist floats
+freely here and there. These woods appear to carry on for a great
+distance in every direction. Strange little bugs fly around doing whatever
+jobs they are required by nature to do. The sounds of a small battle can
+also be heard, its source is not known.
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5404
+0 0
+D1
+~
+~
+0 -1 5414
+0 0
+D2
+~
+~
+0 -1 5402
+0 0
+D4
+~
+~
+0 -1 5416
+0 0
+S
+#5404
+&gA Misty Forest~
+&OThe dark trees continue to allow little light in and the mist floats
+freely here and there. These woods appear to carry on for a great
+distance in every direction. Strange little bugs fly around doing whatever
+jobs they are required by nature to do. The sounds of a small battle can
+also be heard, its source is not known.
+~
+1073741832
+0 3
+0
+0
+D1
+~
+~
+0 -1 5405
+0 0
+D2
+~
+~
+0 -1 5403
+0 0
+D4
+~
+~
+0 -1 5415
+0 0
+S
+#5405
+&gA Misty Forest~
+&OThe dark trees continue to allow little light in and the mist floats
+freely here and there. These woods appear to carry on for a great
+distance in every direction. Strange little bugs fly around doing whatever
+jobs they are required by nature to do. The sounds of a small battle can
+also be heard, its source is not known. Strange and calls of birds and
+other creatures seem to shout out from above. Interesting. . .
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5482
+0 0
+D1
+~
+~
+0 -1 5406
+0 0
+D2
+~
+~
+0 -1 5414
+0 0
+D3
+~
+~
+0 -1 5404
+0 0
+D4
+~
+~
+0 -1 5420
+0 0
+S
+#5406
+&gA Misty Forest~
+&OThe dark trees continue to allow little light in and the mist floats
+freely here and there. These woods appear to carry on for a great
+distance in every direction. Strange little bugs fly around doing whatever
+jobs they are required by nature to do. The sounds of a small battle can
+also be heard, its source is not known. Strange and calls of birds and
+other creatures seem to shout out from above. Interesting. . .
+~
+1073741832
+0 3
+0
+0
+D2
+~
+~
+0 -1 5407
+0 0
+D3
+~
+~
+0 -1 5405
+0 0
+D4
+~
+~
+0 -1 5425
+0 0
+S
+#5407
+&gA Misty Forest~
+&OThe dark trees continue to allow little light in and the mist floats
+freely here and there. These woods appear to carry on for a great
+distance in every direction. Strange little bugs fly around doing whatever
+jobs they are required by nature to do. The sounds of a small battle can
+also be heard, its source is not known. Strange and calls of birds and
+other creatures seem to shout out from above. Then suddenly, all is quiet
+once more.
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5406
+0 0
+D2
+~
+~
+0 -1 5408
+0 0
+D3
+~
+~
+0 -1 5414
+0 0
+D4
+~
+~
+0 -1 5426
+0 0
+S
+#5408
+&gA Misty Forest~
+&OThe dark trees continue to allow little light in and the mist floats
+freely here and there. These woods appear to carry on for a great
+distance in every direction. Strange little bugs fly around doing whatever
+jobs they are required by nature to do. The sounds of a small battle can
+also be heard, its source is not known. Strange and calls of birds and
+other creatures seem to shout out from above.
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5407
+0 0
+D2
+~
+~
+0 -1 5409
+0 0
+D3
+~
+~
+0 -1 5413
+0 0
+D4
+~
+~
+0 -1 5427
+0 0
+S
+#5409
+&gA Misty Forest~
+&OThe dark trees continue to allow little light in and the mist floats
+freely here and there. These woods appear to carry on for a great
+distance in every direction. Strange little bugs fly around doing whatever
+jobs they are required by nature to do. The sounds of a small battle can
+also be heard, its source is not known. Strange and calls of birds and
+other creatures seem to shout out from above. Then suddenly, all is quiet
+once more.
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5408
+0 0
+D2
+~
+~
+0 -1 5410
+0 0
+D3
+~
+~
+0 -1 5412
+0 0
+D4
+~
+~
+0 -1 5428
+0 0
+S
+#5410
+&gA Misty Forest~
+&OThe dark trees continue to allow little light in and the mist floats
+freely here and there. These woods appear to carry on for a great
+distance in every direction. Strange little bugs fly around doing whatever
+jobs they are required by nature to do. The sounds of a small battle can
+also be heard, its source is not known. Strange and calls of birds and
+other creatures seem to shout out from above, almost as if they are calling
+to the the beings down here.
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5409
+0 0
+D3
+~
+~
+0 -1 5411
+0 0
+D4
+~
+~
+0 -1 5429
+0 0
+S
+#5411
+&gA Misty Forest~
+&OThe dark trees continue to allow little light in and the mist floats
+freely here and there. These woods appear to carry on for a great
+distance in every direction. Strange little bugs fly around doing whatever
+jobs they are required by nature to do. The sounds of a small battle can
+also be heard, its source is not known. Strange and calls of birds and
+other creatures seem to shout out from above.
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5412
+0 0
+D1
+~
+~
+0 -1 5410
+0 0
+D3
+~
+~
+0 -1 5400
+0 0
+D4
+~
+~
+0 -1 5424
+0 0
+S
+#5412
+&gA Misty Forest~
+&OThe dark trees continue to allow little light in and the mist floats
+freely here and there. These woods appear to carry on for a great
+distance in every direction. Strange little bugs fly around doing whatever
+jobs they are required by nature to do. The sounds of a small battle can
+also be heard, its source is not known. Strange and calls of birds and
+other creatures seem to shout out from above, almost as if they are calling
+to the the beings down here.
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5413
+0 0
+D1
+~
+~
+0 -1 5409
+0 0
+D2
+~
+~
+0 -1 5411
+0 0
+D3
+~
+~
+0 -1 5401
+0 0
+D4
+~
+~
+0 -1 5423
+0 0
+S
+#5413
+&gA Misty Forest~
+&OThe dark trees continue to allow little light in and the mist floats
+freely here and there. These woods appear to carry on for a great
+distance in every direction. Strange little bugs fly around doing whatever
+jobs they are required by nature to do. The sounds of a small battle can
+also be heard, its source is not known. Strange and calls of birds and
+other creatures seem to shout out from above. Could there be something else
+up in the mists?
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5414
+0 0
+D1
+~
+~
+0 -1 5408
+0 0
+D2
+~
+~
+0 -1 5412
+0 0
+D3
+~
+~
+0 -1 5402
+0 0
+D4
+~
+~
+0 -1 5422
+0 0
+S
+#5414
+&gA Misty Forest~
+&OThe dark trees continue to allow little light in and the mist floats
+freely here and there. These woods appear to carry on for a great
+distance in every direction. Strange little bugs fly around doing whatever
+jobs they are required by nature to do. The sounds of a small battle can
+also be heard, its source is not known. Strange and calls of birds and
+other creatures seem to shout out from above.
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5405
+0 0
+D1
+~
+~
+0 -1 5407
+0 0
+D2
+~
+~
+0 -1 5413
+0 0
+D3
+~
+~
+0 -1 5403
+0 0
+D4
+~
+~
+0 -1 5421
+0 0
+S
+#5415
+&GThe Tree Tops~
+&OThe tree tops are magnificent...large boughs spreading this 
+way and that. A multitude of small insects and woodland 
+creatures scurry around the many branches and limbs. The sun's 
+light somehow manages to filter through to this layer very 
+vaguely, but enough to light even the forest floor below. 
+~
+1073741832
+0 3
+0
+0
+D1
+~
+~
+0 -1 5420
+0 0
+D2
+~
+~
+0 -1 5416
+0 0
+D5
+~
+~
+0 -1 5404
+0 0
+S
+#5416
+&GThe Tree Tops~
+&OThe tree tops are magnificent...large boughs spreading this 
+way and that. A multitude of small insects and woodland 
+creatures scurry around the many branches and limbs. The sun's 
+light somehow manages to filter through to this layer very
+vaguely, but enough to light even the forest floor below. 
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5415
+0 0
+D1
+~
+~
+0 -1 5421
+0 0
+D2
+~
+~
+0 -1 5417
+0 0
+D5
+~
+~
+0 -1 5403
+0 0
+S
+#5417
+&GThe Tree Tops~
+&OThe tree tops are magnificent...large boughs spreading this 
+way and that. A multitude of small insects and woodland 
+creatures scurry around the many branches and limbs. The sun's 
+light somehow manages to filter through to this layer very
+vaguely, but enough to light even the forest floor below. 
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5416
+0 0
+D1
+~
+~
+0 -1 5422
+0 0
+D2
+~
+~
+0 -1 5418
+0 0
+D5
+~
+~
+0 -1 5402
+0 0
+S
+#5418
+&GThe Tree Tops~
+&OThe tree tops are magnificent...large boughs spreading this 
+way and that. A multitude of small insects and woodland 
+creatures scurry around the many branches and limbs. The sun's 
+light somehow manages to filter through to this layer very
+vaguely, but enough to light even the forest floor below. 
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5417
+0 0
+D1
+~
+~
+0 -1 5423
+0 0
+D2
+~
+~
+0 -1 5419
+0 0
+D5
+~
+~
+0 -1 5401
+0 0
+S
+#5419
+&GThe Tree Tops~
+&OThe tree tops are magnificent...large boughs spreading this 
+way and that. A multitude of small insects and woodland 
+creatures scurry around the many branches and limbs. The sun's 
+light somehow manages to filter through to this layer very
+vaguely, but enough to light even the forest floor below. 
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5418
+0 0
+D1
+~
+~
+0 -1 5424
+0 0
+D5
+~
+~
+0 -1 5400
+0 0
+S
+#5420
+&GThe Tree Tops~
+&OThe tree tops are magnificent...large boughs spreading this 
+way and that. A multitude of small insects and woodland 
+creatures scurry around the many branches and limbs. The sun's 
+light somehow manages to filter through to this layer very
+vaguely, but enough to light even the forest floor below. 
+~
+1073741832
+0 3
+0
+0
+D1
+~
+~
+0 -1 5425
+0 0
+D2
+~
+~
+0 -1 5421
+0 0
+D3
+~
+~
+0 -1 5415
+0 0
+D5
+~
+~
+0 -1 5405
+0 0
+S
+#5421
+&GThe Middle of the Tree Tops~
+&OThis area nears the very center of the forest tree tops. Still 
+the light filters down steadily, and the number of insects and 
+arachnids crawling through the living timber seems to grow more 
+thick every step closer to the middle. The woods echo with the 
+multitudinous cacauphony of sounds made between these smaller 
+creatures and the larger. 
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5420
+0 0
+D1
+~
+~
+0 -1 5426
+0 0
+D2
+~
+~
+0 -1 5422
+0 0
+D3
+~
+~
+0 -1 5416
+0 0
+D5
+~
+~
+0 -1 5414
+0 0
+S
+#5422
+&GThe Center of the Tree Tops~
+&OThis is the center of the tree tops, and here, surely, lies 
+the largest collection of the different species of the forest 
+life, all busily going about their daily and lifely labors. Even 
+the usually avoided bees seem to be too busy to notice any 
+newcomers, as long as they do not wander too near to the hive. 
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5421
+0 0
+D1
+~
+~
+0 -1 5427
+0 0
+D2
+~
+~
+0 -1 5423
+0 0
+D3
+~
+~
+0 -1 5417
+0 0
+D5
+~
+~
+0 -1 5413
+0 0
+S
+#5423
+&GThe Middle of the Tree Tops~
+&OThis area nears the very center of the forest tree tops. Still 
+the light filters down steadily, and the number of insects and 
+arachnids crawling through the living timber seems to grow more 
+thick every step closer to the middle. The woods echo with the 
+multitudinous cacauphony of sounds made between these smaller 
+creatures and the larger. 
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5422
+0 0
+D1
+~
+~
+0 -1 5428
+0 0
+D2
+~
+~
+0 -1 5424
+0 0
+D3
+~
+~
+0 -1 5418
+0 0
+D5
+~
+~
+0 -1 5412
+0 0
+S
+#5424
+&GThe Tree Tops~
+&OThe tree tops are magnificent...large boughs spreading this 
+way and that. A multitude of small insects and woodland 
+creatures scurry around the many branches and limbs. The sun's 
+light somehow manages to filter through to this layer very
+vaguely, but enough to light even the forest floor below. 
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5423
+0 0
+D1
+~
+~
+0 -1 5429
+0 0
+D3
+~
+~
+0 -1 5419
+0 0
+D5
+~
+~
+0 -1 5411
+0 0
+S
+#5425
+&GThe Tree Tops~
+&OThe tree tops are magnificent...large boughs spreading this 
+way and that. A multitude of small insects and woodland 
+creatures scurry around the many branches and limbs. The sun's 
+light somehow manages to filter through to this layer very
+vaguely, but enough to light even the forest floor below. 
+~
+1073741832
+0 3
+0
+0
+D2
+~
+~
+0 -1 5426
+0 0
+D3
+~
+~
+0 -1 5420
+0 0
+D5
+~
+~
+0 -1 5406
+0 0
+S
+#5426
+&GThe Tree Tops~
+&OThe tree tops are magnificent...large boughs spreading this 
+way and that. A multitude of small insects and woodland 
+creatures scurry around the many branches and limbs. The sun's 
+light somehow manages to filter through to this layer very
+vaguely, but enough to light even the forest floor below. 
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5425
+0 0
+D2
+~
+~
+0 -1 5427
+0 0
+D3
+~
+~
+0 -1 5421
+0 0
+D5
+~
+~
+0 -1 5407
+0 0
+S
+#5427
+&GThe Tree Tops~
+&OThe tree tops are magnificent...large boughs spreading this 
+way and that. A multitude of small insects and woodland 
+creatures scurry around the many branches and limbs. The sun's 
+light somehow manages to filter through to this layer very
+vaguely, but enough to light even the forest floor below. 
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5426
+0 0
+D2
+~
+~
+0 -1 5428
+0 0
+D3
+~
+~
+0 -1 5422
+0 0
+D5
+~
+~
+0 -1 5408
+0 0
+S
+#5428
+&GThe Tree Tops~
+&OThe tree tops are magnificent...large boughs spreading this 
+way and that. A multitude of small insects and woodland 
+creatures scurry around the many branches and limbs. The sun's 
+light somehow manages to filter through to this layer very
+vaguely, but enough to light even the forest floor below. 
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5427
+0 0
+D2
+~
+~
+0 -1 5429
+0 0
+D3
+~
+~
+0 -1 5423
+0 0
+D5
+~
+~
+0 -1 5409
+0 0
+S
+#5429
+&GThe Tree Tops~
+&OThe tree tops are magnificent...large boughs spreading this 
+way and that. A multitude of small insects and woodland 
+creatures scurry around the many branches and limbs. The sun's 
+light somehow manages to filter through to this layer very
+vaguely, but enough to light even the forest floor below. 
+~
+1073741832
+0 3
+0
+0
+D0
+~
+~
+0 -1 5428
+0 0
+D3
+~
+~
+0 -1 5424
+0 0
+D5
+~
+~
+0 -1 5410
+0 0
+S
+#5482
+&gAn entrance to a Misty Forest~
+&OA strange, dark, misty forest lies to the south.  A lot of the light
+that once blasted the open Wilderness is slowly being cut off as the
+trees form a thick Canopy over the sky.  The sounds of forest creatures
+can be heard in all directions, and even the famous sounds of the
+infamous Yard Gnome can be heard.
+~
+1073741836
+0 1
+0
+0
+D0
+~
+~
+134217728 -1 16000
+253 261
+D2
+~
+~
+0 -1 5405
+0 0
+S
+#5500
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#5525
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#5540
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#5542
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#5543
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#5546
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#5549
+Floating in a void~
+~
+3145732
+0 1
+0
+0
+S
+#0
+
+
+#RESETS
+M 1 5407 1 5416 -1 -1 -1 0 0
+M 1 5407 1 5420 -1 -1 -1 0 0
+M 1 5407 1 5425 -1 -1 -1 0 0
+M 1 5407 1 5426 -1 -1 -1 0 0
+M 1 5407 1 5423 -1 -1 -1 0 0
+M 1 5408 1 5413 -1 -1 -1 0 0
+M 1 5408 1 5404 -1 -1 -1 0 0
+M 1 5410 1 5402 -1 -1 -1 0 0
+M 1 5408 1 5414 -1 -1 -1 0 0
+M 1 5410 1 5414 -1 -1 -1 0 0
+M 1 5408 1 5407 -1 -1 -1 0 0
+M 1 5410 1 5407 -1 -1 -1 0 0
+M 1 5408 1 5409 -1 -1 -1 0 0
+M 1 5410 1 5409 -1 -1 -1 0 0
+M 1 5404 1 5422 -1 -1 -1 0 0
+M 1 5411 1 5422 -1 -1 -1 0 0
+M 1 5405 1 5418 -1 -1 -1 0 0
+M 1 5411 1 5418 -1 -1 -1 0 0
+M 1 5411 1 5421 -1 -1 -1 0 0
+M 1 5411 1 5415 -1 -1 -1 0 0
+M 1 5411 1 5417 -1 -1 -1 0 0
+M 1 5407 1 5419 -1 -1 -1 0 0
+M 1 5411 1 5419 -1 -1 -1 0 0
+M 1 5406 1 5403 -1 -1 -1 0 0
+M 1 5412 1 5403 -1 -1 -1 0 0
+M 1 5412 1 5408 -1 -1 -1 0 0
+M 1 5408 1 5410 -1 -1 -1 0 0
+M 1 5412 1 5410 -1 -1 -1 0 0
+M 1 5410 1 5412 -1 -1 -1 0 0
+M 1 5412 1 5412 -1 -1 -1 0 0
+M 1 5408 1 5401 -1 -1 -1 0 0
+M 1 5412 1 5401 -1 -1 -1 0 0
+M 1 5412 1 5400 -1 -1 -1 0 0
+M 1 5410 1 5406 -1 -1 -1 0 0
+M 1 5412 1 5406 -1 -1 -1 0 0
+M 1 5408 1 5405 -1 -1 -1 0 0
+M 1 5409 1 5405 -1 -1 -1 0 0
+E 1 5401 1 16 -1 0 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

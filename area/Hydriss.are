@@ -1,0 +1,2699 @@
+#AREA   Castle Hydriss~
+
+
+
+#VERSION 53
+#AUTHOR Nevon~
+
+#RANGES
+20 50 1 65 0 0 0 0 0
+$
+
+#RESETMSG A low rumble then a shockwave of magic rejuventes the castle~
+
+#FLAGS
+12 20
+
+#ECONOMY 0 159627 0
+
+#MOBILES
+#2851
+water element~
+A water phantasm~
+An evil water element stands before you.
+~
+A magical being made of water stands here. You can see your reflection
+in its body, and you notice how warm and pale you look. This gelatin form
+wiggles back and forth and emits a slight hum.
+~
+16777219 0 0 -1000 C
+0 0 9 10 8 10
+9d22+128 1d5+6 0 0 0
+0 0
+112 112 0
+14 15 16 16 13 10 14 51
+0 0 0 0 0
+35 0 0 0 1 1 51
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+16 0 1096 0 0 0 0 4304 5
+#2852
+Aquies Spier~
+Aquies Spier~
+Aquies looks surprised to see a human visitor.
+~
+Aquies is a tattered old man or is that because he has been living in the
+water for many many years.  Better question, why is this man living in the
+water?
+~
+67112979&4 0 4194304 0 S
+0 0 0 0 0 0
+10000d0+0 0d0+0 0 0 0
+100 0
+112 112 1
+> speech_prog p What skills do you teach Aquies~
+tell $n I teach
+tell $n ----------------------------------
+tell $n 111.  Expert Water
+tell $n 112.  Novice Freeze
+tell $n 113.  Expert Mind
+tell $n ----------------------------------
+~
+> speech_prog p learn 3 111~
+mpteach $n 3 Water
+~
+> speech_prog p learn 2 112~
+mpteach $n 2 Freeze
+~
+> speech_prog p learn 3 113~
+mpteach $n 3 Mind
+~
+> speech_prog p learn 1 111~
+mpteach $n 1 Water
+~
+> speech_prog p learn 1 112~
+mpteach $n 1 freeze
+~
+> speech_prog p learn 1 113~
+mpteach $n 1 Mind
+~
+|
+#2855
+queen delama~
+&WQ&Yueen &WD&Yelama~
+The ghost of Queen Delama is here.
+~
+Queen Delama help rule this area with her husband King Teslon before
+the Great Curse killed this castle. The King gave her millions of
+dollars in different types of magical items. From her head to her
+toe she loved to her jewels whenever she roamed her castle.
+~
+99 0 67109016 -1000 C
+0 0 21 20 22 21
+12d51+2280 1d18+26 0 0 0
+70000 0
+112 112 2
+25 21 21 25 13 13 21 85
+0 0 0 0 0
+0 0 0 0 1 1 85
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 1544 0 0 0 0 1476657216 524291
+> fight_prog 15~
+mpe _whi The queen begins to chant.....
+c 'quantum' $n
+c 'sanctify' guard
+mprestore guard 200
+mprestore self 200
+~
+> death_prog 100~
+if rand(60)
+mpjunk ring
+endif
+if rand(60)
+mpjunk eyes
+endif
+if rand(60)
+mpjunk bracelet
+endif
+if rand(60)
+mpjunk wristband
+endif
+~
+|
+#2857
+hidden water golem~
+A hidden water golem~
+A huge water golem is here trying to hide against the wall.
+~
+~
+35 0 0 -1000 C
+0 0 15 14 16 16
+9d37+778 1d12+16 0 0 0
+0 0
+112 112 0
+18 22 19 18 13 13 22 69
+0 0 0 0 0
+40 0 0 0 1 1 69
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 16 8193
+#2858
+night demon~
+A Night Demon~
+A Night Demon has wandered into the castle to reap its rewards.
+~
+~
+65633 0 56 -1000 C
+0 0 13 13 13 12
+11d49+330 1d9+11 0 0 0
+0 0
+112 112 0
+18 18 17 20 13 13 20 61
+0 0 0 0 0
+89 0 0 0 1 1 61
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+20 0 8 0 0 0 0 64 2
+#2859
+Nightmare~
+Nightmare~
+A concrete form of a nightmare stalks through the halls.
+~
+&zThis Nightmare is the tortured souls of visitors that could not escape
+this castle alive. How sad...
+~
+65633&32768 0 4292608 -1000 C
+0 0 15 16 15 15
+11d45+894 1d12+16 0 0 0
+0 0
+112 112 0
+18 21 20 21 13 13 18 69
+0 0 0 0 0
+89 0 0 0 1 1 69
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+6 0 0 0 0 1048577 0 1073741826 2
+#2860
+black spider~
+a black spider~
+An evil black spider is here weaving her web.
+~
+~
+33 0 0 0 C
+0 0 9 10 8 8
+6d25+225 1d6+7 0 0 0
+0 0
+112 112 0
+16 16 15 14 13 13 15 53
+0 0 0 0 0
+63 0 0 0 1 1 53
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 262145 2
+#2861
+the thriller~
+&rTh&Rri&wll&rer~
+&rThe Th&Rri&wll&rer!!!!
+~
+&RDarkness falls across the land. The midnight hour is close at hand.
+Creatures crawl in search of blood.'To terrorize yall's neighborhood.
+And whosoever shall be found, without the soul for getting down. Must
+stand and face the hounds of hell, and rot inside a corpse's shell.The
+foulest stinches in the air. The funk of fourthty thousand years. And
+grizzly gools from every tomb are closing in to seal your doom. And
+though you fight to stay alive, your body starts to shiver. For no
+mortal can resist - &rTHE EVIL OF THE &RTHRILLER!
+
+
+
+                                          -Vincent Price, the true Thriller
+~
+65539 0 71336576 -1000 C
+0 0 24 22 22 22
+12d50+6500 1d19+33 0 0 0
+9236 0
+112 112 1
+24 25 22 25 13 13 24 101
+-7 -4 -7 -8 -5
+0 0 0 0 1 1 101
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+40 40 9 1056768 2104576 0 0 1342603520 524294
+> death_prog 100~
+mpe &rThe Th&Rri&wll&rer splashes blood everywhere and the water turns a nasty blood red!
+mpoload 4268
+if rand(10)
+mpoload 2866 46
+endif
+~
+> fight_prog 25~
+if rand(55)
+mpe _whi The Thriller laughs and pulls out a big potion and drinks it!
+mprestore self 400
+else
+if rand(35)
+mpe _red The Thriller jumps in the error and throws darts at everything!
+mpdamage $r 150
+mpdamage $r 150
+c 'tidal wave' $n
+else
+if rand(85)
+mpe _red The Thriller cuts himself and throws his acidic blood!
+mpdamage $n 350
+else
+cackle
+say Time to die!
+mpslay $r
+endif
+endif
+endif
+~
+> act_prog p flees~
+if rand(35)
+mpat $n say I am terror extreme, prepare to DIE!
+mptransfer $n 2893
+mpkill $n
+mpdamage $n 150
+endif
+~
+> greet_prog 100~
+say I am the terror in your sleep, if you seek our goddess you must finish me first!
+mpkill $n
+mpdamage $n 75
+~
+|
+#2873
+severed hand~
+A severed hand~
+A rotted hand creeps along the walls.
+~
+A rotten hand that once belonged to a living person which now floats 
+along the dungeon and is forever trying to search for the rest of its
+body.
+~
+37 0 -2143190912 -1000 C
+0 0 17 16 18 18
+13d52+968 1d13+18 0 0 0
+5510 0
+112 112 0
+22 21 21 22 13 13 18 73
+0 0 0 0 0
+0 0 0 0 1 1 73
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+26 0 0 0 0 0 0 1107558720 524306
+#2874
+water demon~
+A water demon~
+The outline of a water demon floats here and attacks!
+~
+An evil water demon haunts the cells of this castle. The Great Curse
+has created this being with an aggressive nature, and with that 
+aggressive nature, it will try to add another dead warrior to the 
+castle's already massive collection.
+~
+131111&32768 0 -2147483136 -1000 C
+0 0 17 18 17 18
+12d49+943 1d13+17 0 0 0
+0 0
+112 112 0
+22 20 19 20 16 13 19 72
+0 0 0 0 0
+89 0 0 0 1 1 72
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+30 0 0 0 0 0 0 258 3
+#2877
+fish skeleton~
+Skeleton fish~
+The skeleton of a fish swims around the room.
+~
+The dead remains of a huge fish swim throughout the cells. The bones
+are sharp and some have been stained in blood from it's past enemies.
+~
+35 0 -2147450724 -1000 C
+0 0 16 17 17 17
+12d49+948 1d13+17 0 0 0
+0 0
+112 112 0
+20 22 18 18 13 13 21 71
+0 0 0 0 0
+21 0 0 0 1 1 71
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+15 0 0 0 0 0 0 530691 1
+#2878
+germs mist~
+Germs~
+A fine mist of particles tingle your nose.
+~
+From all the dead bodies and other dead lifeforms bacteria and germs
+have literally become alive and are eating anything that comes across
+their path, dead or alive. The tiny animals nip and claw at your skin
+and try to infect your open wounds.
+~
+65569 0 -2146336740 0 C
+0 0 9 8 10 9
+5d23+223 1d6+7 0 0 0
+0 0
+112 112 0
+14 14 18 17 13 13 18 53
+0 0 0 0 0
+89 0 0 0 1 1 53
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+30 0 0 0 0 0 0 2 3
+#2879
+glowing algae~
+Algae~
+Some algae creeps along the wall.
+~
+A mutated lifeform creeps itself along the walls and attracts small
+fish that feed off its back. It looks like one big pile of algae but
+this algae is alive. . .
+~
+35 0 -2143190372 -1000 C
+0 0 17 16 17 16
+14d57+1044 1d14+20 0 0 0
+0 0
+112 112 0
+20 21 23 23 13 13 20 74
+0 0 0 0 0
+89 0 0 0 1 1 74
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+24 0 0 0 0 0 0 1107558416 18
+#2880
+rusted guard~
+A rusted guard~
+A rusted guard stands motionless here.
+~
+The guard's armor's rust has made movement almost impossible. Now
+his job is to warn the small band of people that dare venture into
+the inner depths of this cursed castle.
+~
+131075 0 4202552 -1000 C
+0 0 11 11 11 11
+8d34+281 1d7+9 0 0 0
+2439 0
+112 112 1
+16 16 17 15 13 13 16 57
+0 0 0 0 0
+0 0 0 0 1 1 57
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+40 0 15 0 0 0 0 0 8195
+> greet_prog 100~
+say The dungeon below is full of submerged demons. You have been warned $n.
+~
+|
+#2881
+gardener~
+&rT&zh&we &rG&zho&wstly &rG&zar&wdener~
+&rT&zh&we &rG&zho&wstly &rG&zar&wdener is here tending to the already dead garden.
+~
+The King's personal gardener once grew prize foods for the castle
+to eat and enjoy. Now with the coming of The Great Curse, this
+ghostly gardener will forever tend to this dead garden, which grows
+strange and exotic plants that can effect a person's mind. The gardener
+wields a rotten hoe and is wearing a torn and battered uniform that has
+a dead and pungent smell.
+~
+16777283 0 272629888 -1000 C
+0 0 25 25 25 25
+12d48+15000 1d18+85 0 0 0
+20000 0
+112 112 1
+22 23 22 25 18 18 21 100
+0 0 0 0 0
+0 0 0 0 1 1 100
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+45 0 0 0 2112768 0 0 1107562560 524294
+> greet_prog 100~
+if ispc($n)
+say Hey $N watch your step! You are messing up my garden so bugger off!
+endif
+~
+> fight_prog 5~
+say I have had enough playing for one day, time to DIE for disturbing me!
+c 'tidal wave' $n
+c 'tidal wave' $n
+c 'tidal wave' $n
+c 'tidal wave' $n
+c 'tidal wave' $n
+c 'tidal wave' $n
+mpslay $r
+~
+> act_prog p gets tobacco~
+say Time to DIE HIPPIE BASTARD!
+mpkill $n
+~
+> act_prog p gets marijuana~
+say NO DRUGS FOR YOU HIPPIE BASTARD!
+mpkill $n
+mpdamage $n 200
+~
+|
+#2882
+Swamp Frog~
+Swamp Frog~
+The Swamp Frog is sitting here, croaking loudly.
+~
+A giant mutated frog stands here. He looks pale and his coloration
+has faded, and it appears it has some sort of disease. The Great
+Curse has effected every form of life in this once great castle.
+~
+1 0 0 -223 C
+0 0 9 9 9 10
+6d27+244 1d6+7 0 0 0
+0 0
+112 112 0
+14 18 15 15 13 13 17 53
+0 0 0 0 0
+80 0 0 0 1 1 53
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+10 0 0 0 0 0 0 33 2
+#2883
+Royal Guard~
+&w&YT&w&Reslons &w&YR&w&Royal &w&YG&w&Ruard~
+The ghost of one of the King's Royal Guard is here.
+~
+When this ancient guard was alive he served and protected his King.
+Now, even with his death, he still guards and protects his King and will
+not stop until Teslon gives him a different order.
+~
+99 0 33554456 -1000 C
+0 0 20 20 19 20
+10d40+1835 1d17+23 0 0 0
+10000 0
+112 112 1
+22 23 23 24 13 13 22 91
+0 0 0 0 0
+0 0 0 0 1 1 91
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+34 0 3 0 0 0 0 320 524293
+> fight_prog 10~
+yell For the Royalty!!
+~
+|
+#2884
+king teslon~
+&WK&Ying &WT&Yeslon~
+The ghost of King Teslon is here.
+~
+King Teslon ruled this area before the Great Curse killed this castle.
+This once mighty King tried to take on the Curse but with his noble
+effort the Curse turned the King into an evil incarnation of his
+former self. Now he will kill any invaders that try to take his mighty
+and beautiful treasures.
+~
+99 0 268435608 -1000 C
+0 0 22 21 21 22
+11d44+3200 1d19+27 0 0 0
+100000 0
+112 112 1
+21 24 25 21 13 13 23 95
+0 0 0 0 0
+0 0 0 0 1 1 95
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 521 0 2104576 0 0 1074004224 524295
+> act_prog p flees~
+if rand(20)
+mpat $n say Come back here and feel MY PAIN!!!
+mptransfer $n
+mpkill $n
+~
+> fight_prog 20~
+if rand(20)
+say The WATERS will crush you all!
+c 'tidal wave' $n
+else
+if rand(35)
+say Time for PAIN!!!!
+mpdamage $n 220
+else
+say I AM IMMORTAL!!!
+cackle
+mprestore self 300
+endif
+endif
+~
+> death_prog 100~
+if rand(60)
+mpjunk ring
+endif
+if rand(60)
+mpjunk crown
+endif
+if rand(60)
+mpjunk gloves
+endif
+if rand(60)
+mpjunk robe
+endif
+if rand(60)
+mpjunk sceptre
+endif
+~
+|
+#2885
+reflective puddle~
+A reflective puddle~
+A mirrored image of yourself can be seen in this strange puddle.
+~
+A small puddle that appears to be warped by the curse.  Every time you
+look into the puddle, you can see a very convincing image of yourself.
+~
+1 0 60 -1000 C
+0 0 9 8 9 8
+6d25+225 1d6+7 0 0 0
+0 0
+112 112 0
+18 16 14 15 13 13 16 53
+0 0 0 0 0
+52 0 0 0 1 1 53
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+25 0 0 1025 0 0 0 192 524290
+#2886
+liquefied knight~
+A liquefied knight~
+A watery form of a mystical knight is here.
+~
+The liquid form of a mystical knight stands at guard here. His armor
+is a silvery stream of magical water. Evil eyes that glow yellow
+peer out of its helmet at you. Your reflection can be seen from his
+breastplate, as well as other objects in this room.
+~
+67 0 0 -1000 C
+0 0 9 8 10 8
+5d24+238 1d6+7 0 0 0
+1710 0
+112 112 0
+18 15 14 18 13 13 17 53
+0 0 0 0 0
+0 0 0 0 1 1 53
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+30 0 0 0 0 0 0 64 1
+#2887
+painting~
+A smeared painting~
+A smeared painting hangs menacingly on the wall.
+~
+The images on this painting have been partly washed away but you can
+barely make out the image of King Teslon on a mighty war horse. The
+painting somehow looks alive. . .
+~
+131139 0 0 -1000 C
+0 0 9 8 8 10
+6d26+240 1d6+7 0 0 0
+0 0
+112 112 0
+17 16 16 15 13 13 17 53
+0 0 0 0 0
+36 0 0 0 1 1 53
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+10 0 0 0 0 0 0 536875264 2
+#2888
+dead servant~
+A dead servant~
+A dead servant wanders aimlessly around the castle
+~
+A poor innocent boy that was just a servant to his proud King, but he
+is now just a wandering zombie with an eyeball hanging out of its skull.
+Its brain's are exposed and they appear to be rotten. Gross!
+~
+33 0 0 0 C
+0 0 9 10 9 10
+5d23+229 1d6+7 0 0 0
+0 0
+112 112 0
+14 16 15 16 13 13 15 53
+0 0 0 0 0
+36 0 0 0 1 1 53
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+20 0 1049 0 0 0 0 64 1
+#2891
+water sprites~
+A water sprite~
+A strange but beautiful water sprite floats here.
+~
+A mysterious looking create is right before you.  The sprite
+appears to be made purely out of water and moves through the area
+with elegance and grace.  However, just because of that fact that
+the area is full of other horrid creates, it might not be a good
+idea to assume that the sprite is nice and kind.
+~
+65569 0 -2143255936 -1000 C
+0 0 16 17 17 17
+10d42+859 1d12+16 0 0 0
+0 0
+112 112 0
+18 21 20 19 13 13 18 69
+0 0 0 0 0
+84 0 0 0 1 1 69
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+40 0 0 0 0 0 0 135272704 6
+#2892
+strange mist~
+strange mist~
+A cloud of strange mist floats in front of you.
+~
+Some strange purple and blue mist floats here in front of you. A
+closer examination reveals that the mist is actually a group of
+corpses of fairies that are under the spell of The Great Curse.
+~
+163 0 0 -1000 C
+0 0 16 16 16 17
+9d38+782 1d12+17 0 0 0
+0 0
+112 112 0
+21 20 19 19 13 13 18 70
+0 0 0 0 0
+83 0 0 0 1 1 70
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+20 0 0 0 0 0 0 524296 2
+#2893
+cursed suit of armor~
+floating armor~
+Some rusted armor floats off the ground.
+~
+The haunted suit of armor stands ready to fight. Different shades of
+red and brown rust cover this once fantastic suit of armor. A hole
+in the helm shows that the owner of this armor died with a massive
+blow to the head. How awful.
+~
+65569 0 3670044 -1000 C
+0 0 9 9 9 9
+8d21+132 1d5+6 0 0 0
+0 0
+112 112 0
+15 15 18 15 13 13 18 51
+0 0 0 0 0
+84 0 0 0 1 1 51
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+20 0 0 0 0 0 0 240 2
+#2895
+cursed slug~
+A slug~
+A slime covered slug creeps along the halls.
+~
+A slimy, nasty slug oozes along the hallways of this castle. It also
+finds equipment left by the fallen warriors and devours them with 
+its ferocious hunger.
+~
+65701 0 0 -1000 C
+0 0 9 10 10 9
+5d22+217 1d6+7 0 0 0
+0 0
+112 112 0
+14 15 18 16 13 13 15 53
+0 0 0 0 0
+87 0 0 0 1 1 53
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+20 0 0 0 0 0 0 264192 2
+#2896
+tentacles~
+A long tentacle~
+Long wavering tentacles try to trip you up.
+~
+A horrid creature depicted in many great horror stories.  The tentacle
+appears to have separated from its former body, and it seems to be
+quite animated as it lunges around.
+~
+35 0 4194332 -1000 C
+0 0 9 9 9 9
+6d27+248 1d6+7 0 0 0
+0 0
+112 112 0
+17 17 17 14 13 13 15 53
+0 0 0 0 0
+89 0 0 0 1 1 53
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+35 0 0 0 0 0 0 6465 2
+#2899
+Hydriss~
+The Hydriss~
+A spindly, snake-like creature moves from side to side ready to strike.
+~
+The Hydriss is an ancient being that was formed by The Great Curse
+to watch over the castle and deter all who venture into this castle
+and try to steal its treasures. She is a tall slime covered monster
+with a massive set of fangs and huge claws. She turns the water blood
+red as she attacks an unsupecting meal.
+~
+4199&1179648 0 -1795161412 -1000 C
+0 0 33 31 31 31
+80d30+20000 6d5+130 0 0 0
+250000 0
+112 112 2
+22 25 25 21 23 13 23 100
+-15 -15 -15 -15 -15
+80 0 0 0 1 1 100
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 20 35 100 100 100 100 100 100 100 100
+64 65 207929 0 2100480 0 0 295175 327
+> greet_prog 100~
+if name($n)==Nevon
+bow $n
+say &YI am honored to have you visit me Nevon.
+say What is thy bidding my Master?
+else
+if isimmort($n)
+burp $n
+say Greetings.
+else
+if ispc($n)
+say &RNow poor mortal you will know the POWER of the HYDRISS!!!
+mpe_cya The spindly creature puffs up and slaps you in the face!
+mpkill $n
+mpdamage $n 350
+endif
+endif
+endif
+~
+> fight_prog 25~
+if rand(15)
+say You will never defeat me!
+mprestore self 10000
+else
+if rand(35)
+say It ends here for you today!
+c 'quantum spike' $n
+c 'molecular degeneration' $n
+c 'sacred blast' $n
+c 'unravel defense' $n
+c 'faerie fire' $n
+else
+if rand(15)
+say No more life for you!
+mpslay $n
+else
+burp
+mprestore self 2000
+endif
+endif
+endif
+~
+> act_prog prog p flees~
+if rand(35)
+mptransfer $n self
+violate $
+say How dare you try to leave before the battle is over!
+say Now you shall be in even more pain!!! MUHAHAHAHA!!!
+kill $n
+mpdamage $n 500
+endif
+~
+|
+#0
+
+
+#OBJECTS
+#2851
+marijuana pot~
+marijuana plant~
+A strange looking plant grows here ready to be picked.~
+~
+8 0 16384
+0 0 0 0
+1.000000 0 0 9141 0 0 0
+A
+4 -3 0
+A
+14 -100 0
+A
+3 -3 0
+A
+5 -3 0
+A
+1 -3 0
+#2852
+tobacco plant~
+tobacco plant~
+A tobacco plant grows here ready to be picked.~
+~
+8 0 16384
+0 0 0 0
+1.000000 0 0 9142 0 0 0
+A
+14 -100 0
+A
+4 -2 0
+A
+4 -1 0
+A
+5 -3 0
+A
+31 -2 0
+#2853
+pocket chain purple~
+A tiny &ppurple pocket&C on a chain~
+A small &ppurple&C pocket has been left here.~
+~
+15 321 1025
+1000 0 0 24
+1.000000 1000000 0 5297 0 0 0
+A
+1 4 0
+A
+26 16 0
+A
+26 4 0
+#2854
+crystal dragon eyes~
+&WCrystal Eyes~
+The eyes of a &WCrystal Dragon&G rest here.~
+~
+9 -2146959357&0&16 17
+18 18 18 1000 18 2 0 0 0 0 0 0 0 0
+2.000000 210000 0 5298 0 0 2
+A
+26 4194304 0
+A
+13 4 0
+A
+12 10 0
+A
+4 1 0
+#2855
+delamas bracelet~
+&YDelama's Bracelet~
+&YDelama's Bracelet&C is here resting on the ground.~
+~
+9 -2147483581&0&16 65 1
+19 19 19 1000 19 2 0 0 0 0 0 0 0 0
+3.000000 200000 0 0 0 0 2
+A
+13 10 0
+A
+12 12 0
+A
+24 -3 0
+A
+20 -3 0
+A
+21 -3 0
+A
+23 -3 0
+A
+22 -3 0
+A
+82 1 0
+#2856
+water ring~
+&BWatery Ring~
+&BWatery Ring&C is here waiting for a new owner.~
+~
+8 -2146959291&0&16 3
+0 0 0 0
+0.100000 200000 0 0 0 0 5
+A
+70 31 0
+A
+12 15 0
+A
+13 5 0
+A
+24 -3 0
+#2857
+Avatar's Blessing~
+&RA&cvatar's &RB&clessing~
+&RN&cevon's &RB&clessing &Rt&co &Rt&che &RA&cvatars~
+~
+9 524673&256 524545
+23 23 0 0
+1.000000 0 0 0 0 0 0
+E
+blessing~
+This is Nevon's blessing to the Avatars of Rafermand. Only Avatars
+can wear this item. The blessing is beautiful necklace that appears
+to have been formed from a mixture of the Hydriss' scales and a
+lock of Nevon's silvery hair.
+~
+A
+13 10 0
+A
+12 10 0
+> wear_prog 100~
+mea $n _cya Congradulations on your accomplishment. Nevon rewards you.
+~
+|
+#2859
+rope hammock~
+&Wa comfy rope hammock~
+&WA comfy rope hammock hangs from a corner of the gazebo.~
+~
+12 65 0
+0 0 1154 700 700 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+hammock~
+&WThis comfy white hammock was made by Nevon. He made this hammock so
+that a mighty fighter could rest his or her tired bones from the terrors
+that roam this cursed castle. The rope is made from an unbreakable
+material that is only used by the Immortals of Rafermand to tether
+their equipment to their body.
+~
+#2860
+jewel encrusted gloves~
+&WJ&Yewel &WE&Yncrusted &WG&Yloves~
+Some &WJ&Yewel &WE&Yncrusted &WG&Yloves&C rest here on the ground.~
+~
+9 524355&0&16 65
+19 19 19 1000 22 2 0 0 0 0 0 0 0 0
+2.000000 350000 0 0 0 0 2
+E
+gloves~
+&YThese are royal gloves have perfectly carved jewels set into the
+pure gold that is layered over the elven steel that these gloves
+are made from.
+~
+A
+18 4 0
+A
+2 1 0
+A
+77 5 0
+A
+79 5 0
+A
+13 15 0
+A
+12 10 0
+A
+81 1 0
+#2862
+sign~
+&OA wooden sign~
+&OA wooden sign is here with a few words written on it.~
+~
+12 67 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+sign~
+&OOkay until I make the Hydriss a bit easier to hurt and even kill.
+Thats right to kill I will make her soloable with enough attempts.
+Until then the Lair of Hydriss is closed and her equipment is also
+closed meaning that I should not see any of the Hydriss' equipment
+on anyone except a few people and you know who you are. The rest
+of the zone is open and I might even put some other kinds of mobs
+and such in here. Who knows. Anyway I am sorry for the delay to all
+of you who like to get a smacked around by the Hydriss.
+
+--Nevon
+&OBelow is the Hydriss. I warn you NOT to disturb her. She is VERY
+hard and will do nasty things to your body. You will loose a lot of
+equipment and if a male possible loss of testicles may occur. The
+Hydriss has even been known to eat the bodies of the dead that have
+been left in her lair so if you loose your equipment by fighting this
+mob that is YOUR fault and NOT the IMMORTALS. You WILL NOT get a
+reimbursment from fighting this mob. I don't care if you didn't mean
+to walk into her lair, you die and loose all your stuff too bad.
+You have been warned! 
+-NeVoN
+~
+#2864
+bloody wristband~
+&zB&rloody &zW&rrist&zb&rand~
+A &zB&rloody &zW&rrist&zb&rand lies in the dirt here.~
+~
+9 -2146955133&2 65
+19 19 19 1000 19 2 0 0 0 0 0 0 0 0
+1.000000 200000 0 0 0 0 2
+A
+13 -10 0
+A
+12 -10 0
+A
+1 3 0
+A
+81 3 0
+A
+24 1 0
+A
+23 1 0
+#2866
+the image of a God~
+&zI&Wma&wge o&zf a &WGo&wd~
+&zAn I&Wma&wge o&zf a &WGo&wd looks up at the world from here.~
+~
+8 -2146959263&0&16 32769
+0 0 0 0
+1.000000 1000000 0 0 0 0 5
+A
+85 75 0
+A
+13 65 0
+A
+12 100 0
+A
+56 15 0
+A
+24 -7 0
+A
+21 -7 0
+A
+23 -7 0
+A
+20 -7 0
+A
+22 -7 0
+#2873
+the hitchhikers guide to the galaxy~
+&GThe Hitchhiker's Guide to the Galaxy~
+&GThe Hitchhiker's Guide to the Galaxy glows magically above the ground here.~
+~
+35 0 1
+0 0 0 0
+1.000000 250 0 0 0 0 0
+E
+guide~
+&GThis is the ultimate book for anyone trying to survive in the world.
+By even holding this book, you will feel stronger, faster, and smarter.
+There will never be a more powerful book than this book, for this book
+has the answer to the ultimate question.
+
+
+Douglas Adams will always live on...
+~
+#2889
+hoe~
+A garden hoe~
+The ghostly gardener's hoe rests here.~
+~
+59 524289 131073
+0 0 0 1 5 -1 0 0 0 0 0 0 0 0
+6.000000 150000 0 0 0 0 2
+E
+hoe~
+A simple gardening instrument.  However, if used right, the hoe can be
+used to cause some really nasty wounds.
+~
+A
+13 35 0
+A
+12 35 0
+A
+31 -5 0
+A
+2 -2 0
+#2890
+rusted ring~
+&ra r&zus&rte&zd ri&rng~
+&rSome small rusted ring is on the ground here.~
+~
+9 -2147483215&256 3
+0 0 0 0
+0.100000 40000 0 0 0 0 0
+E
+ring~
+A ring that glows between the small cracks in the rust.
+~
+A
+13 80 0
+A
+12 70 0
+A
+2 2 0
+A
+4 1 0
+A
+66 200 0
+A
+1 2 0
+A
+18 14 0
+A
+19 14 0
+#2891
+emperial ring~
+Emperial &Yring~
+King Teslon's emperial ring.~
+~
+8 67&0&16 3
+0 0 0 0
+0.100000 350000 0 0 0 0 5
+E
+ring~
+King Teslon's Emperial ring that is made of pure gold.
+~
+A
+12 20 0
+A
+13 10 0
+A
+1 1 0
+A
+84 250 0
+#2892
+Royal robe~
+Teslon's &Yrobe~
+King Teslon's royal robe rests here.~
+~
+8 67&0&16 131073
+0 0 0 0
+3.000000 350000 0 0 0 0 2
+E
+robe~
+King Teslon's royal robe that is a patchwork of colors.
+~
+A
+13 20 0
+A
+12 5 0
+A
+79 5 0
+A
+26 33554432 0
+#2893
+teslons crown~
+Teslon's &Ycrown~
+King Teslon's jewel encrusted crown is here.~
+~
+9 67&0&16 17
+19 19 19 1000 22 2 0 0 0 0 0 0 0 0
+2.000000 350000 0 0 0 0 2
+E
+crown~
+King Teslon's jewel encrusted royal crown.
+~
+A
+13 10 0
+A
+12 15 0
+A
+24 -3 0
+A
+23 -3 0
+A
+20 -3 0
+A
+22 -3 0
+A
+21 -3 0
+A
+3 1 0
+#2894
+sceptre king kings~
+King's &Ysceptre~
+The King's royal &Ysceptre &grests here.~
+~
+5 67&0&16 513
+1000 28 31 4 49 1006 0 14 12 11 15 0 3 2
+4.000000 350000 0 0 0 0 3
+'divinity'
+E
+sceptre~
+King Teslon's royal sceptre with the story of Rafermand engraved on it.
+~
+A
+12 35 0
+A
+13 5 0
+A
+83 350 0
+#2895
+fountain~
+A small golden fountain untouched by the Curse~
+A beautiful golden fountain fills the room with a fine mist.~
+~
+25 65 0
+5000000 5000000 0 0
+1000.000000 0 0 0 0 0 0
+E
+fountain~
+A simple fountain that appears to be untouched by the Curse.
+~
+#2897
+mask onyx~
+&cAn o&Cny&cx m&ca&Csk~
+A smooth polished onyx mask is here.~
+~
+9 -2146959295&0&16 1048577
+27 27 27 1000 19 0 0 0 0 0 0 0 0 0
+1.000000 20000 0 0 0 0 0
+E
+mask~
+A strange mask that has small ancient writings on one side.
+~
+A
+56 81 0
+A
+13 85 0
+A
+12 75 0
+A
+81 5 0
+A
+80 4 0
+A
+26 128 0
+A
+102 80 0
+A
+101 80 0
+#2898
+skin sash~
+A strip of &pdead &pskin~
+A long strip of dead skin torn from the Hydriss lies here.~
+~
+9 -2146959087 2049 2
+0 0 0 0
+2.000000 4823 0 0 0 0 0
+E
+skin~
+A piece of skin ripped from the Hydriss
+~
+A
+20 -2 0
+A
+17 -45 0
+A
+27 256 0
+A
+13 300 0
+A
+19 9 0
+A
+18 8 0
+A
+66 90 0
+#2899
+dagger claw~
+&rT&zh&re &rC&zla&rw &zo&rf &rH&zydris&rs~
+&rT&zh&re &rC&zla&rw &zo&rf &rH&zydris&rs&z hovers with a dark aura above the gound here.~
+~
+5 -2128917507&282 8193
+12 5 20 1 4 -1 0 0 0 0 0 0 0 0
+2.000000 25000 0 0 0 0 0
+'acidic blast'
+E
+hydriss claw~
+&rThis is the powerful &rC&zla&rw &zo&rf &rH&zydris&rs. It is about
+as long as a human child and is as deadly as the Hydriss herself.
+This claw was ripped from the Hydriss apon her death by some brave
+soul. Holding this item in ones hands feels like holding a swan's feather.
+It is odd how such a deadly weapon could weigh so little. This must be how
+the Hydriss could attack so fast and be so deadly.
+The "blade" of this claw is the external part, mainly bone, that the Hydriss
+uses to strike at her prey. While the "hilt" is covered in dried blood and
+flesh from where it was ripped from the corpse of the Hydriss. This claw
+seems to never dull and will never need repair.
+
+
+~
+A
+13 175 0
+A
+19 17 0
+A
+18 16 0
+A
+1 2 0
+A
+5 2 0
+A
+2 2 0
+A
+31 2 0
+A
+17 -35 0
+A
+27 2 0
+A
+22 -7 0
+A
+21 -7 0
+A
+20 -7 0
+A
+23 -7 0
+A
+24 -7 0
+A
+12 150 0
+A
+40 3 0
+A
+48 3 0
+A
+53 3 0
+A
+66 175 0
+#0
+
+
+#ROOMS
+#2850
+Behind the waterfall~
+Flowing water douses your armor as you enter this room.  The water on
+the ground comes up to your knees as small fish swim past.  The walls
+are mysteriously made of an endless flow of water.  In every direction
+you can barely make out the sounds of other beings trudging through
+the fast-moving current. This is clearly no place for a successful bat
+tle. On the wall is a &Ygolden plaque&C that attracts your attention.
+~
+3145732&2
+0 14
+0
+0
+D0
+~
+boulder~
+134217730 -1 16000
+1271 755
+D2
+Castle Entrance~
+~
+0 0 2851
+0 0
+E
+plaque~
+&cCastle Hydriss is made for most players that are level 22+. Yet I
+would not recommend you going after the harder mobs until level 40.
+And always beware of the Hydriss!
+--&RN&cevon of Raferman&Rd&c.
+~
+> entry_prog 100~
+close north
+~
+|
+S
+#2851
+Castle Entrance~
+After passing through the castle gate, you notice that there are a
+few rusted pieces of another soldier's armor lying on the ground.
+Over on the right side of the wall, a skeleton floats by with a
+rather large gash in its skull. From here on many rooms are like a
+mirror of the last.  Beyond this point you might get lost. A carving
+in the wall reads: The Great Curse.
+~
+3145728&2
+0 14
+0
+0
+D1
+Eastern Tower~
+~
+0 0 2853
+0 0
+D2
+Dining Hall~
+~
+35 0 2855
+0 0
+D3
+Northern Tower~
+~
+0 0 2852
+0 0
+S
+#2852
+Northern Tower~
+Entering the room this massive tower's ceiling is not visible from 
+ground level. There are tiny fishes swimming upstream throughout the 
+tower's walls. A chair by the wall appears to be made out of coral
+and would be to uncomfortable to sit on.
+~
+3145728&2
+0 14
+0
+0
+D1
+Castle Entrance.~
+~
+0 0 2851
+0 0
+D2
+~
+~
+3 -1 2854
+0 0
+D4
+Top of the Northern Tower~
+~
+0 0 2863
+0 0
+S
+#2853
+Eastern Tower~
+After entering this room, this massive tower's ceiling becomes
+invisible from ground level. There are tiny fish swimming upstream
+throughout the tower's walls. There is a suit of armor suspended in 
+this watery grave that has rusted holes all through its armor.
+~
+3145728&2
+0 14
+0
+0
+D2
+Eastern Hallway~
+~
+3 0 2856
+0 0
+D3
+Castle Entrance~
+~
+0 0 2851
+0 0
+D4
+Top of the Eastern Tower~
+~
+0 0 2865
+0 0
+S
+#2854
+Western Hallway~
+This long room is lined with smeared paintings on the wall, and 
+soaked flags of a once mighty kingdom. The ceiling is a patchwork
+of different colors that could have been mosaic paintings. A rusted
+plaque on the wall reads: The hallways of this castle mirror each
+other so stay alert.
+~
+3145728&2
+0 14
+0
+0
+D0
+~
+~
+3 -1 2852
+0 0
+D1
+Dining Hall~
+~
+3 0 2855
+0 0
+D2
+Western Hallway~
+~
+0 0 2857
+0 0
+> rand_prog 3~
+mpe &cSomeone burps loudly.
+~
+|
+S
+#2855
+Dining Hall~
+This once glorious room is now just another watery grave, as is
+the rest of the castle. The dining table is rotted and water damage
+is clearly visible. A few forks and spoons still rest from the last
+great supper before the Great Curse.
+~
+3145728&2
+0 14
+0
+0
+D0
+Castle Entrance~
+~
+35 0 2851
+0 0
+D1
+Eastern Hallway~
+~
+3 0 2856
+0 0
+D2
+The Grand Ballroom~
+2858~
+0 0 2858
+0 0
+D3
+Western Hallway~
+~
+3 0 2854
+0 0
+S
+#2856
+Eastern Hallway~
+This long room is lined with smeared paintings on the wall, and
+soaked flags of a once mighty kingdom. The ceiling is a patchwork
+of different colors that could have been mosaic paintings. A rusted
+plaque on the wall reads: The hallways of this castle mirror each
+other so stay alert.
+~
+3145728&2
+0 14
+0
+0
+D0
+~
+~
+3 -1 2853
+0 0
+D2
+Eastern Hallway~
+~
+0 0 2859
+0 0
+D3
+Dining Hall~
+~
+3 0 2855
+0 0
+S
+#2857
+Western Hallway~
+This long room is lined with smeared paintings on the wall, and
+soaked flags of a once mighty kingdom. The ceiling is a patchwork
+of different colors that could have been mosaic paintings.
+~
+3145728&2
+0 14
+0
+0
+D0
+Western Hallway~
+~
+0 0 2854
+0 0
+D2
+Western Tower~
+~
+0 0 2860
+0 0
+S
+#2858
+The Grand Ballroom~
+Upon entering this room you are almost drowned as a funnel of water
+passes over you. Strange mist dances all over this room and your are
+not sure, but it sounds like there is the faint sound of a piano
+erupting from all directions. The water glistens from the small amount
+of sunlight that peaks through a stained glass window in the ceiling.
+~
+3145728&2
+0 14
+0
+0
+D0
+Dining Hall~
+~
+0 0 2855
+0 0
+D2
+Kitchen~
+~
+0 0 2861
+0 0
+S
+#2859
+Eastern Hallway~
+This long room is lined with smeared paintings on the wall, and
+soaked flags of a once mighty kingdom. The ceiling is a patchwork
+of different colors that could have been mosaic paintings.
+~
+3145728&2
+0 14
+0
+0
+D0
+Eastern Hallway~
+~
+0 0 2856
+0 0
+D2
+Southern Tower~
+~
+0 0 2862
+0 0
+S
+#2860
+Western Tower~
+A long, circular staircase made out of flowing water leads to the
+upper depths of the castle. A slight breeze forms and stirs the flow
+of water around your feet.
+~
+3145728&2
+0 14
+0
+0
+D0
+Western Hallway~
+~
+0 0 2857
+0 0
+D1
+Kitchen~
+~
+3 0 2861
+0 0
+D4
+Top of the Western Tower~
+~
+0 0 2870
+0 0
+S
+#2861
+Kitchen~
+This once sterile kitchen is now a rusted, shell of its former self.
+Pots and pans are now covered in rust and dead fish and other aquatic
+life forms float lifelessly around the floor. The stench in this room
+is almost to much to bare; your lungs might start aching if you stay
+here too long.
+~
+3145728&2
+0 14
+0
+0
+D0
+The Grand Ballroom~
+~
+0 0 2858
+0 0
+D1
+Southern Tower~
+~
+3 0 2862
+0 0
+D3
+Western Tower~
+~
+3 0 2860
+0 0
+S
+#2862
+Southern Tower~
+At one time there were two sets of elegant stair cases in this once
+glorious tower. Yet, with the constant flow of damaging water, time
+has rusted one of these stair cases away, leaving the other as the
+only means of upwards travel.
+~
+3145728&2
+0 14
+0
+0
+D0
+Eastern Hallway~
+~
+0 0 2859
+0 0
+D3
+Kitchen~
+~
+3 0 2861
+0 0
+D4
+Top of the Southern Tower~
+~
+0 0 2874
+0 0
+D5
+Inner Depths of the Tower~
+~
+0 0 2875
+0 0
+S
+#2863
+Top of the Northern Tower~
+At the top of this tower there are some rotted corpses stuck in the
+corner. The blood has mixed with the water and pieces of battle gear
+have been shattered from a mighty battle.
+~
+3145728&2
+0 14
+0
+0
+D1
+The Gatehouse~
+~
+0 0 2864
+0 0
+D2
+Western Battlement~
+~
+0 0 2866
+0 0
+D5
+Northern Tower~
+~
+0 0 2852
+0 0
+S
+#2864
+The Gatehouse~
+A top this once sturdy gatehouse, you can survey some of the 
+surrounding areas of this castle. You can even see where the land
+morphs to the watery curse that this castle has been put under. The
+draw bridge lever has been rotted away to make it impossible to ever
+raise the bridge again.
+~
+3145728&2
+0 1
+0
+0
+D1
+Top of the Eastern Tower~
+~
+0 0 2865
+0 0
+D2
+The Great Library~
+~
+1 0 2867
+0 0
+D3
+Top of the Northern Tower~
+~
+0 0 2863
+0 0
+S
+#2865
+Top of the Eastern Tower~
+Torn tapestries line the watery walls of this tower. A cool breeze
+rustles your hair and chills your bones.  The bodies of dead fish
+and other remains float down the stairs and some stick to your armor.
+~
+3145728&2
+0 14
+0
+0
+D2
+Eastern Battlement~
+~
+0 0 2894
+0 0
+D3
+The Gatehouse~
+~
+0 0 2864
+0 0
+D5
+Eastern Tower~
+~
+0 0 2853
+0 0
+S
+#2866
+Western Battlement~
+Both sides of the wall tower over you.  A few moldy bodies of archers
+line this part of the battlement.  Some green slime is seeping out
+from the cracks in the walls and ceiling.
+~
+3145728&2
+0 14
+0
+0
+D0
+Top of the Northern Tower~
+~
+0 0 2863
+0 0
+D2
+Western Battlement~
+~
+0 0 2869
+0 0
+S
+#2867
+The Great Library~
+The Great Curse has drowned this room of vast knowledge. A massive
+bookcase tower over you and disappear into the misty ceiling. Great
+novels, encyclopedias, and millions of stories of times long past
+have now been destroyed; washed away from the gallons of water that
+constantly flow throughout the castle. The soft, plush rugs are now
+soaked and torn from the animals that feed off them.
+~
+3145728&2
+0 1
+0
+0
+D0
+The Gatehouse~
+~
+1 0 2864
+0 0
+D1
+The Study~
+~
+1 0 2868
+0 0
+D2
+A path through the garden~
+~
+1 0 2872
+0 0
+S
+#2868
+The Study~
+The king of this castle constructed this elegant room for him to relax
+and ponder on his duties for the next day. Now the precision, crafted,
+,wooden furniture, hand made rugs and curtains, and even the fireplace
+is now a huge fish aquarium. Mold and lichen have grown over all the
+furniture, and the desk in the corner seems locked but it could be
+forced open if needed.
+~
+3145728&2
+0 14
+0
+0
+D3
+The Great Library~
+~
+1 0 2867
+0 0
+S
+#2869
+Western Battlement~
+Both sides of the wall tower over you.  A few moldy bodies of archers
+line this part of the battlement.  Some green slime is seeping out
+from the cracks in the walls and ceiling. A few aquatic animals
+scurry along the floor and walls of this battlement.
+~
+3145728&2
+0 14
+0
+0
+D0
+Western Battlement~
+~
+0 0 2866
+0 0
+D2
+Top of the Western Tower~
+~
+0 0 2870
+0 0
+S
+#2870
+Top of the Western Tower~
+More rusted armor and weapons float on the floor, as fish and other
+aquatic animals swim through them. The rusted brass on the flag 
+poles, and rotten hallway chairs remind you of how miserable this 
+place is.
+~
+3145728&2
+0 14
+0
+0
+D0
+Western Battlement~
+~
+0 0 2869
+0 0
+D5
+~
+~
+0 -1 2860
+0 0
+S
+#2871
+Eastern Battlement~
+The eastern battlement's cobblestones are cracked from the lichen and
+vines that grow on and between each rock. The constantly flowing water
+makes the edge of the battlement slippery.
+~
+3145728&2
+0 14
+0
+0
+D0
+Eastern Battlement~
+~
+0 0 2894
+0 0
+D2
+Top of the Southern Tower~
+~
+0 0 2874
+0 0
+S
+#2872
+A path through the garden~
+This room is more of a swamp than a garden. Great trees tower above
+you, and ferns line the floors. The cobblestone walkway leads you along
+many twists and turns, which twists past several different types of 
+water plants.  A few dead roses and other cared for flowers are lifeless
+on the path to the garden.
+~
+3145728&2
+0 14
+0
+0
+D0
+The Great Library~
+~
+1 0 2867
+0 0
+D1
+The Garden~
+~
+0 0 2897
+0 0
+S
+#2873
+Royal Chambers~
+The King's royal chambers have decayed and rotted with the continuation
+of the Great Curse. The royal bedroom furniture has multi-colored
+coral that grows over the once elegant bedroom suite.  Moss hangs from
+the chandelier and the huge royal bed has many frogs and water animals
+crawling all over it. Once a family portrait, a smeared painting on
+the wall changes the color of the water around it to a rainbow of
+colors.
+~
+3145728&2
+0 14
+0
+0
+D0
+The Garden~
+~
+7 0 2897
+0 0
+D1
+The Royal Bathroom~
+~
+0 0 2896
+0 0
+> rand_prog 3~
+mpe &cSomeone burps loudly.
+~
+|
+S
+#2874
+Top of the Southern Tower~
+A few lifeless skeletons are scattered around this room. In the back
+corner, a vile stench emerges from a crack in the floor. Vines and
+moss stretch over the bricks that construct this tower.
+~
+3145728&2
+0 14
+0
+0
+D0
+Eastern Battlement~
+~
+0 0 2871
+0 0
+D5
+Southern Tower~
+~
+0 0 2862
+0 0
+S
+#2875
+Inner Depths of the Tower~
+The steps become even more treacherous as you descend the wet
+staircase. Several stones from the walls have been replaced by
+human-like skulls and other remains. The flowing of the water
+increases in speed by every step you take. A cool breeze churns
+the water at the base of the staircase and a low howl emerges from
+the north tunnel.
+~
+3145732&2
+0 8
+0
+0
+D0
+The Castle Dungeon~
+~
+0 0 2876
+0 0
+D4
+Southern Tower~
+~
+0 0 2862
+0 0
+S
+#2876
+The Castle Dungeon~
+The tunnel seems endless and the barely lit torches give off just
+enough light that they hardly make a reflection on the watery floor.
+The stench of dead animals and toxic water irritates your nostrils.
+To the right is a small cell with the door rusted off and rotting on
+the floor.
+~
+3145728&2
+0 8
+0
+0
+D0
+A Castle Dungeon~
+~
+0 0 2878
+0 0
+D1
+A Dungeon Cell~
+~
+0 0 2877
+0 0
+D2
+Inner Depths of the Tower~
+~
+0 0 2875
+0 0
+S
+#2877
+A Dungeon Cell~
+The cless is cramped and damp. Rotted animal flesh floats atop the
+watery surface and clings to the edges of the wall. Markings on the
+walls indicate that a lonely prisoner attempted to pass the time of
+his sentence. This place seems different from the others though, as
+if special magical powers inhabit this room.
+~
+3145732&2
+0 8
+0
+0
+D3
+A Castle Dungeon~
+~
+0 0 2876
+0 0
+S
+#2878
+The Castle Dungeon~
+The tunnel seems endless and the barely lit torches give off just
+enough light that they hardly make a reflection on the watery floor.
+The stench of dead animals and toxic water irritates your nostrils.
+To the right is a small cell with the door rusted off and rotting
+on the floor.
+~
+3145728&2
+0 8
+0
+0
+D0
+A Castle Dungeon~
+~
+0 0 2879
+0 0
+D1
+A Dungeon Cell~
+~
+0 0 2880
+0 0
+D2
+A Castle Dungeon~
+~
+0 0 2876
+0 0
+S
+#2879
+The Castle Dungeon~
+The tunnel seems endless and the barely lit torches give off just
+enough light that they hardly make a reflection on the watery floor.
+The stench of dead animals and toxic water irritates your nostrils.
+To the right is a small cell with the door rusted off and rotting on
+the floor.
+~
+3145728&2
+0 8
+0
+0
+D0
+A Castle Dungeon~
+~
+0 0 2882
+0 0
+D1
+A Dungeon Cell~
+~
+0 0 2881
+0 0
+D2
+A Castle Dungeon~
+~
+0 0 2878
+0 0
+S
+#2880
+A Dungeon Cell~
+The cell is cramped and damp. Rotted animal flesh floats atop the
+watery surface and clings to the edges of the wall. Markings on the
+walls indicate that a lonely prisoner attempted to pass the time of
+his sentence. A chained skeleton is here and a eel swims between the
+bones.
+~
+3145728&2
+0 8
+0
+0
+D3
+A Castle Dungeon~
+~
+0 0 2878
+0 0
+S
+#2881
+A Dungeon Cell~
+The cell is cramped and damp. Rotted animal flesh floats atop the
+watery surface and clings to the edges of the wall. Markings on the
+walls indicate that a lonely prisoner attempted to pass the time of
+his sentence. A chained skeleton is here and a eel swims between the
+bones.
+~
+3145728&2
+0 8
+0
+0
+D3
+~
+~
+0 0 2879
+0 0
+S
+#2882
+The Castle Dungeon~
+The tunnel seems endless and the barely lit torches give off just
+enough light that they hardly make a reflection on the watery floor.
+The stench of dead animals and toxic water irritates your nostrils.
+To the right is a small cell with the door rusted off and rotting on
+the floor.
+~
+3145728&2
+0 8
+0
+0
+D0
+A Castle Dungeon~
+~
+0 0 2884
+0 0
+D1
+A Dungeon Cell~
+~
+0 0 2883
+0 0
+D2
+~
+~
+0 0 2879
+0 0
+S
+#2883
+A Dungeon Cell~
+The cell is cramped and damp. Rotted animal flesh floats atop the
+watery surface and clings to the edges of the wall. Markings on the
+walls indicate that a lonely prisoner attempted to pass the time of
+his sentence. A chained skeleton is here and a eel swims between the
+bones.
+~
+3145728&2
+0 8
+0
+0
+D3
+~
+~
+0 -1 2882
+0 0
+> rand_prog 3~
+mpe &cSomeone burps loudly.
+~
+|
+S
+#2884
+A Castle Dungeon~
+The tunnel seems endless and the barely lit torches give off just
+enough light that they hardly make a reflection on the watery floor.
+The stench of dead animals and toxic water irritates your nostrils.
+To the right is a small cell with the door rusted off and rotting on
+the floor.
+~
+3145728&2
+0 8
+0
+0
+D1
+A Dungeon Cell~
+~
+0 0 2885
+0 0
+D2
+A Castle Dungeon~
+~
+0 0 2882
+0 0
+S
+#2885
+A Dungeon Cell~
+The cell is cramped and damp.  Rotted animal flesh floats atop the
+watery surface and clings to the edges of the wall.  Markings on the
+walls indicate that a lonely prisoner attempted to pass the time of
+his sentence.  The current and amount of water seem to flow faster
+from behind a large rock on the far wall.  Maybe this rock can be
+opened.
+~
+3145728&2
+0 8
+0
+0
+D1
+Submerged Dungeon~
+~
+0 0 2886
+0 0
+D3
+~
+~
+0 0 2884
+0 0
+S
+#2886
+Submerged Dungeon~
+This part of the Dungeon has been completely submerged by the Great
+Curse. The water has been soiled with the dead remains of the original
+residents of this castle and the new occupants float past your face.
+~
+3146244&2
+0 8
+0
+0
+D1
+An Underwater Cell~
+~
+0 0 2887
+0 0
+D2
+Submerged Dungeon~
+~
+0 0 2888
+0 0
+D3
+A Dungeon Cell~
+~
+0 0 2885
+0 0
+S
+#2887
+An Underwater Cell~
+The water is cloudy and small particles of dead flesh, algae, and
+moss. Rusted shackles bobble around as the small current moves them
+about randomly. Decaying armor and other weapons rest on the ground
+with rust and dents from the torture of the Great Curse.
+~
+3145728&2
+0 8
+0
+0
+D3
+Submerged Dungeon~
+~
+0 0 2886
+0 0
+S
+#2888
+Submerged Dungeon~
+This part of the Dungeon has been completely submerged by the Great
+Curse. The water has been soiled with the dead remains of the
+original residents of this castle and the new occupants float past
+your face.
+~
+3145728&2
+0 8
+0
+0
+D0
+Submerged Dungeon~
+~
+0 0 2886
+0 0
+D1
+An Underwater Cell~
+~
+0 0 2889
+0 0
+D2
+~
+~
+0 0 2890
+0 0
+S
+#2889
+An Underwater Cell~
+The water is cloudy and small particles of dead flesh, algae, and moss.
+Rusted shackles bobble around as the small current moves them about
+randomly. Decaying armor and other weapons rest on the ground with
+rust and dents from the torture of the Great Curse.
+~
+3145728&2
+0 8
+0
+0
+D3
+Submerged Dungeon~
+~
+0 0 2888
+0 0
+S
+#2890
+Submerged Dungeon~
+This part of the Dungeon has been completely submerged by the Great
+Curse. The water has been soiled with the dead remains of the original
+residents of this castle and the new occupants float past your face.
+~
+3145728&2
+0 8
+0
+0
+D0
+Submerged Dungeon~
+~
+0 0 2888
+0 0
+D1
+An Underwater Cell~
+~
+0 0 2891
+0 0
+D2
+Submerged Dungeon~
+~
+0 0 2892
+0 0
+S
+#2891
+An Underwater Cell~
+The water is cloudy and small particles of dead flesh, algae, and moss.
+Rusted shackles bobble around as the small current moves them about
+randomly. Decaying armor and other weapons rest on the ground with
+rust and dents from the torture of the Great Curse.
+~
+3145732&2
+0 8
+0
+0
+D3
+Submerged Dungeon~
+~
+0 0 2890
+0 0
+S
+#2892
+Submerged Dungeon~
+This part of the Dungeon has been completely submerged by the Great
+Curse. The water has been soiled with the dead remains of the
+original residents of this castle and the new occupants float past
+your face.
+~
+3145728&2
+0 8
+0
+0
+D0
+Submerged Dungeon~
+~
+0 0 2890
+0 0
+D1
+~
+~
+0 -1 2893
+0 0
+S
+#2893
+An Underwater Cell~
+The water is cloudy and small particles of dead flesh, algae, and moss.
+Rusted shackles bobble around as the small current moves them about
+randomly. Decaying armor and other weapons rest on the ground with
+rust and dents from the torture of the Great Curse. A strange aura
+emerges from a sinkhole in the ground, and a low moan can barely be
+heard erupting from the inner depths of the cavern.
+~
+3145732&2
+0 8
+0
+0
+D3
+Submerged Dungeon~
+~
+0 0 2892
+0 0
+D5
+A Murky Cave Entrance~
+sinkhole~
+1031 0 2898
+0 0
+S
+#2894
+Eastern Battlement~
+The eastern battlement's cobblestones are cracked from the lichen and
+vines that grow on and between each rock. Broken blades from a battle
+have also been assimilated by the random growth of aquatic plants.
+~
+3145728&2
+0 14
+0
+0
+D0
+Top of the Eastern Tower~
+~
+0 0 2865
+0 0
+D2
+Eastern Battlement~
+~
+0 0 2871
+0 0
+S
+#2895
+The Gazebo~
+Lustrous oak with a red hue forms this elegant gazebo. For some
+strange reason, this gazebo has not been effected by the Great Curse.
+Beautiful handcrafted carvings of the story of Rafermand are told on
+the sturdy support beams and solid benches. In the center is a small
+golden fountain that releases some sparkling mist which hovers all
+around you. Small pixies flutter in and out of the mist darting through
+the small holes in the hammock. They laugh in their high pitched voice
+at new visitors and rest on the shoulders of the Immortals that visit
+here.
+~
+3178500&2
+0 14
+0
+0
+D3
+The Garden~
+~
+0 0 2897
+0 0
+> rand_prog 3~
+mpe &cSomeone burps loudly.
+~
+|
+S
+#2896
+The Royal Bedroom~
+Once upon a time this room was a beautiful love palace devoted to the King's
+beautiful wife, Queen Delama, but now it is simply a destroyed haven of misery
+and corruption.  The once beautiful room is now littered with small zombie creatures
+that once perhaps were children, maybe children of the Queen, but now they are simply
+dead and rotting.  The most horrifying sound of this room is the past sounds of pleasure
+and happiness between the king and queen, that simply turns into sounds of pain and
+death.
+~
+3145728&2
+0 14
+0
+0
+D3
+Royal Chambers~
+~
+0 0 2873
+0 0
+S
+#2897
+The Garden~
+Thousands of exotic plants inhabit this massive room. Insects and
+other swamp animals nip at your feet and sting the exposed flesh. A
+few dead plants wash away in the ever-present current. The air is
+humid and sweat beads off your skin. A few rays of sunshine sparkle
+through the leaves and the aquatic life encircles the base of each
+type of plant life here.
+~
+3145728&2
+0 14
+0
+0
+D1
+The Gazebo~
+~
+0 0 2895
+0 0
+D2
+Royal Chambers~
+~
+7 0 2873
+0 0
+D3
+A path through the garden~
+~
+0 0 2872
+0 0
+S
+#2898
+A Murky Cave Entrance~
+The massive entrance is literally dead. The walls are made of coral,
+but there is not any other life growing on them. The barren walls have
+been partially eroded away by time and current, and there is a slow
+moan erupting from a rather large hole in the ground.
+~
+3145732&2
+0 8
+0
+0
+D4
+~
+~
+0 -1 2893
+0 0
+E
+sign~
+&OBelow is the Hydriss. I warn you NOT to disturb her. She is VERY
+tough and will do nasty things to your body. You will loose a lot of
+equipment and if a male possible loss of testicles may occur. The
+Hydriss has even been known to eat the bodies of the dead that have
+been left in her lair so if you loose your equipment by fighting this
+mob that is YOUR fault and NOT the IMMORTALS. You WILL NOT get a
+reimbursment from fighting this mob. I don't care if you didn't mean
+to walk into her lair, you die and loose all your stuff too bad.
+And do not go asking other Immortals to give your equipment back
+because they won't. Although if for some chance you and your party
+kill The Hydriss then you will be very strong and praised by everyone
+in Rafermand.
+&RYou have been warned!
+&W-NeVoN
+~
+S
+#2899
+Lair of Hydriss~
+Whirlwinds form all around you! They twist and churn the water
+particles and dead plant life that make the water murky. Equipment of
+many failed battles are scattered all over the room and become just
+another part of the coral.
+~
+1089536
+0 8
+0
+0
+D4
+A Murky Cave Entrance~
+sinkhole~
+1027 0 2898
+0 0
+S
+#0
+
+
+#RESETS
+M 1 2878 1 2881 -1 -1 -1 0 0
+M 1 2879 1 2884 -1 -1 -1 0 0
+M 1 9130 1 9130 -1 -1 -1 0 0
+O 1 9130 1 9130 -1 -1 -1 -1 0 0
+M 1 2891 1 2879 -1 -1 -1 0 0
+M 1 2877 1 2878 -1 -1 -1 0 0
+M 1 2877 1 2878 -1 -1 -1 0 0
+O 1 2862 1 2898 -1 -1 -1 -1 0 0
+M 1 2857 1 2852 -1 -1 -1 0 0
+M 1 2860 1 2852 -1 -1 -1 0 0
+D 0 2852 2 1
+M 1 2893 1 2851 -1 -1 -1 0 0
+D 0 2851 2 1
+M 1 2895 1 2853 -1 -1 -1 0 0
+D 0 2853 2 1
+M 1 2880 1 2862 -1 -1 -1 0 0
+E 1 21066 1 6 21115 0 0
+E 1 21062 1 3 21115 0 0
+D 0 2862 3 1
+M 1 2859 1 2860 -1 -1 -1 0 0
+D 0 2860 1 1
+M 1 2858 1 2854 -1 -1 -1 0 0
+D 0 2854 0 1
+D 0 2854 1 1
+M 1 2888 1 2857 -1 -1 -1 0 0
+M 1 2896 1 2855 -1 -1 -1 0 0
+D 0 2855 0 1
+D 0 2855 1 1
+D 0 2855 3 1
+M 1 2858 1 2858 -1 -1 -1 0 0
+M 1 2851 1 2861 -1 -1 -1 0 0
+D 0 2861 1 1
+D 0 2861 3 1
+M 1 2878 1 2856 -1 -1 -1 0 0
+D 0 2856 0 1
+D 0 2856 3 1
+M 1 2860 1 2859 -1 -1 -1 0 0
+M 1 2858 1 2874 -1 -1 -1 0 0
+M 1 2882 1 2865 -1 -1 -1 0 0
+M 1 2895 1 2863 -1 -1 -1 0 0
+M 1 2859 1 2863 -1 -1 -1 0 0
+M 1 2885 1 2866 -1 -1 -1 0 0
+M 1 2888 1 2869 -1 -1 -1 0 0
+M 1 2896 1 2870 -1 -1 -1 0 0
+M 1 2883 1 2872 -1 -1 -1 0 0
+D 0 2872 0 0
+M 1 2882 1 2867 -1 -1 -1 0 0
+M 1 2882 1 2867 -1 -1 -1 0 0
+D 0 2867 0 1
+D 0 2867 1 0
+D 0 2867 2 0
+M 1 2887 1 2864 -1 -1 -1 0 0
+M 1 2858 1 2864 -1 -1 -1 0 0
+D 0 2864 2 1
+M 1 2859 1 2868 -1 -1 -1 0 0
+D 0 2868 3 0
+M 1 2886 1 2871 -1 -1 -1 0 0
+M 1 2886 1 2871 -1 -1 -1 0 0
+M 1 2860 1 2894 -1 -1 -1 0 0
+M 1 2858 1 2894 -1 -1 -1 0 0
+M 1 2874 1 2892 -1 -1 -1 0 0
+M 1 2858 1 2892 -1 -1 -1 0 0
+M 1 2873 1 2883 -1 -1 -1 0 0
+M 1 2874 1 2882 -1 -1 -1 0 0
+M 1 2874 1 2885 -1 -1 -1 0 0
+M 1 2879 1 2877 -1 -1 -1 0 0
+M 1 2874 1 2887 -1 -1 -1 0 0
+M 1 2891 1 2891 -1 -1 -1 0 0
+M 1 2891 1 2891 -1 -1 -1 0 0
+M 1 2891 1 2890 -1 -1 -1 0 0
+M 1 2873 1 2890 -1 -1 -1 0 0
+M 1 2899 1 2899 -1 -1 -1 0 300000000
+G 1 2890 1 0 -1 0 0
+G 1 2899 1 0 -1 0 0
+G 1 2898 1 0 -1 0 0
+G 1 2853 1 0 -1 0 0
+G 1 2897 1 0 -1 0 0
+D 0 2899 4 1
+M 1 2884 1 2896 -1 -1 -1 1113111629 86400
+E 1 2891 1 1 -1 0 0
+E 1 2892 1 20 -1 0 0
+G 1 2894 1 0 -1 0 0
+E 1 2860 1 9 -1 0 0
+E 1 2893 1 6 -1 0 0
+M 1 2883 1 2873 -1 -1 -1 0 0
+M 1 2855 1 2873 -1 -1 -1 1113111595 86400
+E 1 2855 1 9 -1 0 0
+E 1 2854 1 6 -1 0 0
+E 1 2856 1 1 -1 0 0
+E 1 2864 1 10 -1 0 0
+D 0 2873 0 2
+O 1 2895 1 2895 -1 -1 -1 -1 0 0
+O 1 2859 1 2895 -1 -1 -1 -1 0 0
+O 1 2873 1 2895 -1 -1 -1 -1 0 0
+M 1 2881 1 2897 -1 -1 -1 0 0
+G 1 2889 1 0 -1 0 0
+M 1 2859 1 2897 -1 -1 -1 0 0
+O 1 2852 1 2897 -1 -1 -1 -1 0 0
+O 1 2851 1 2897 -1 -1 -1 -1 0 0
+D 0 2897 2 2
+M 1 2861 1 2893 -1 -1 -1 1113350673 86400
+D 0 2893 5 2
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  2878 spec_poison
+M  2887 spec_thief
+M  2888 spec_thief
+M  2891 spec_breath_any
+M  2892 spec_breath_acid
+M  2896 spec_thief
+S
+
+
+#$

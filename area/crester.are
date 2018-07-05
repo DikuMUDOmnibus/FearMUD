@@ -1,0 +1,4131 @@
+#AREA   dungeon of crester~
+
+
+
+#VERSION 51
+#AUTHOR Xerves~
+
+#RANGES
+0 7 0 7 0 0 0 0 0
+$
+
+#FLAGS
+0 240
+
+#ECONOMY 0 714608 0
+
+#MOBILES
+#200550
+a battle hardened gnoll~
+a battle hardened gnoll~
+A battle hardened gnoll is here looking for trouble.
+~
+~
+131105 0 512 0 C
+0 0 13 13 13 13
+14d20+595 1d8+11 0
+0 0
+112 112 0
+17 16 19 16 13 13 20 69
+0 0 0 0 0
+15 0 0 0 1 1 69
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 256 2
+#200551
+a crazed minotaur~
+a crazed minotaur~
+A crazed minotaur is here looking for a fight.
+~
+~
+131105 0 512 0 C
+0 0 12 12 15 12
+11d19+456 1d8+11 0
+0 0
+112 112 0
+24 16 17 17 13 13 20 59
+0 0 0 0 0
+20 0 0 0 1 1 59
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 10
+#200552
+a massive green brute of an ogre~
+a massive green brute of an ogre~
+A massive green brute of an ogre appears to be hungry for BLOOD!
+~
+~
+131105 0 512 0 C
+0 0 14 11 13 13
+14d19+587 1d8+11 0
+6770 0
+112 112 0
+25 14 14 17 25 13 16 59
+0 0 0 0 0
+3 0 0 0 1 1 59
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 8192 0 1048576 0 576 524290
+#200553
+a large violent skeleton~
+a large violent skeleton~
+A large violent skeleton is here looking for souls to STEAL!
+~
+~
+131105 0 512 0 C
+0 0 13 12 13 11
+12d20+512 1d8+11 0
+0 0
+112 112 0
+19 18 17 19 13 13 16 49
+0 0 0 0 0
+21 0 0 0 1 1 49
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 1 0 1073741888 18
+#200570
+a stealth shadow~
+a stealth shadow~
+A stealth shadow is here to make you FEEL PAIN!
+~
+~
+131105 0 4194816 0 C
+0 0 14 14 14 14
+14d19+584 1d10+13 0
+20616 0
+112 112 0
+20 22 20 17 13 13 18 73
+0 0 0 0 0
+56 0 0 0 1 1 73
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 1056768 0 0 0 64 3
+#200571
+Eaeradrieny~
+Eaeradrieny~
+Eaeradrieny is looking for another victim!
+~
+~
+131105 0 4194816 0 C
+0 0 14 16 14 14
+18d19+749 1d10+13 0
+20616 0
+112 112 0
+17 22 22 20 13 13 18 73
+0 0 0 0 0
+0 0 0 0 1 1 73
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 576 524290
+#200576
+Vrirt~
+Vrirt~
+Vrirt has a taste for DEATH today
+~
+~
+131105 0 4194816 0 C
+0 0 17 18 16 16
+35d19+1432 1d11+15 0
+159150 0
+112 112 0
+23 18 17 17 13 13 19 67
+0 0 0 0 0
+3 0 0 0 1 1 67
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 8192 2100224 0 0 576 518
+#0
+
+
+#OBJECTS
+#200550
+Cobalt Ogre BreastPlate~
+A Cobalt Ogre BreastPlate~
+Someone has left their Cobalt Ogre BreastPlate here!~
+~
+9 0&8192 9
+12 12 12 1000 13 4 0 0 0 0 0 0 0 0
+63.000000 150000 0 0 0 0 0
+#200551
+Cobalt Ogre Greave~
+A Cobalt Ogre Greave~
+Someone has left their Cobalt Ogre Greave here!~
+~
+9 0&8192 33
+13 13 13 1000 13 3 0 0 0 0 0 0 0 0
+26.250000 36000 0 0 0 0 0
+#200552
+Cobalt Ogre Greave~
+A Cobalt Ogre Greave~
+Someone has left their Cobalt Ogre Greave here!~
+~
+9 0&8192 33
+13 13 13 1000 13 3 0 0 0 0 0 0 0 0
+26.250000 36000 0 0 0 0 0
+#200553
+Cobalt Ogre Katana~
+A Cobalt Ogre Katana~
+Someone has left their Cobalt Ogre Katana here~
+~
+5 0&8192 513
+1000 15 20 8 -1 -1 0 6 8 8 11 0 20 8
+13.125000 30000 0 0 0 0 0
+'NONE'
+#200554
+Cobalt Ogre Flail~
+A Cobalt Ogre Flail~
+Someone has left their Cobalt Ogre Flail here~
+~
+5 0&8192 513
+1000 23 24 10 -1 -1 0 10 8 6 10 0 10 20
+26.250000 21000 0 0 0 0 0
+'NONE'
+#200555
+Brass Ogre Ring Greave~
+A Brass Ogre Ring Greave~
+Someone has left their Brass Ogre Ring Greave here!~
+~
+9 0&8192 33
+10 10 10 1000 10 3 0 0 0 0 0 0 0 0
+19.950001 20000 0 0 0 0 0
+#200556
+Cobalt Ogre Ring Greave~
+A Cobalt Ogre Ring Greave~
+Someone has left their Cobalt Ogre Ring Greave here!~
+~
+9 0&8192 33
+11 11 11 1000 11 3 0 0 0 0 0 0 0 0
+18.375000 24000 0 0 0 0 0
+#200557
+Cobalt Ogre Chain Hauberk~
+Some Cobalt Ogre Chain Hauberk~
+Someone has left their Cobalt Ogre Chain Hauberk here!~
+~
+9 0&8192 9
+10 9 9 1000 9 2 0 0 0 0 0 0 0 0
+21.000000 45000 0 0 0 0 0
+#200558
+Brass Ogre Ring Mail~
+Some Brass Ogre Ring Mail~
+Someone has left their Brass Ogre Ring Mail here!~
+~
+9 0&8192 9
+9 9 9 1000 9 3 0 0 0 0 0 0 0 0
+34.199997 55000 0 0 0 0 0
+#200559
+Cobalt Ogre Gauntlet~
+A Cobalt Ogre Gauntlet~
+Someone has left their Cobalt Ogre Gauntlet here!~
+~
+9 0&8192 65
+13 13 13 1000 13 3 0 0 0 0 0 0 0 0
+23.625000 30000 0 0 0 0 0
+#200560
+Cobalt Ogre Gauntlet~
+A Cobalt Ogre Gauntlet~
+Someone has left their Cobalt Ogre Gauntlet here!~
+~
+9 0&8192 65
+13 13 13 1000 13 3 0 0 0 0 0 0 0 0
+23.625000 30000 0 0 0 0 0
+#200561
+Cobalt Ogre Greave~
+A Cobalt Ogre Greave~
+Someone has left their Cobalt Ogre Greave here!~
+~
+9 0&8192 33
+13 13 13 1000 13 3 0 0 0 0 0 0 0 0
+26.250000 36000 0 0 0 0 0
+#200562
+Cobalt Ogre Greave~
+A Cobalt Ogre Greave~
+Someone has left their Cobalt Ogre Greave here!~
+~
+9 0&8192 33
+13 13 13 1000 13 3 0 0 0 0 0 0 0 0
+26.250000 36000 0 0 0 0 0
+#200563
+Cobalt Ogre Gauntlet~
+A Cobalt Ogre Gauntlet~
+Someone has left their Cobalt Ogre Gauntlet here!~
+~
+9 0&8192 65
+13 13 13 1000 13 3 0 0 0 0 0 0 0 0
+23.625000 30000 0 0 0 0 0
+#200564
+Cobalt Ogre Gauntlet~
+A Cobalt Ogre Gauntlet~
+Someone has left their Cobalt Ogre Gauntlet here!~
+~
+9 0&8192 65
+13 13 13 1000 13 3 0 0 0 0 0 0 0 0
+23.625000 30000 0 0 0 0 0
+#200565
+Cobalt Ogre Double-Coif~
+Some Cobalt Ogre Double-Coif~
+Someone has left their Cobalt Ogre Double-Coif here!~
+~
+9 0&8192 5
+14 14 14 1000 13 3 0 0 0 0 0 0 0 0
+13.125000 15000 0 0 0 0 0
+#200566
+an enchanted leather backpack~
+an enchanted leather backpack~
+An enchanted leather backpack is here for anyone to take~
+~
+15 0 131073
+80 0 90 0
+4.000000 15000 0 0 0 0 0
+#200567
+Cobalt Human Armet~
+A Cobalt Human Armet~
+Someone has left their Cobalt Human Armet here!~
+~
+9 0&8192 17
+14 14 14 1000 13 4 0 0 0 0 0 0 0 0
+14.000000 45000 0 0 0 0 0
+#200568
+Titanium Human Claymore~
+A Titanium Human Claymore~
+Someone has left their Titanium Human Claymore here~
+~
+5 0&139264 513
+1000 19 23 8 -1 -1 0 11 12 9 13 0 30 18
+16.500000 77000 0 0 0 0 0
+'NONE'
+#200569
+a deluxe backstrap quiver~
+a deluxe backstrap quiver~
+A deluxe backstrap quiver is here for anyone to take~
+~
+58 0 131073
+45 0 0 12
+5.000000 35000 0 0 0 0 0
+#200570
+Titanium Ogre Gauntlet~
+A Titanium Ogre Gauntlet~
+Someone has left their Titanium Ogre Gauntlet here!~
+~
+9 0&8192 65
+14 14 14 1000 14 3 0 0 0 0 0 0 0 0
+20.250000 35000 0 0 0 0 0
+#200571
+Tungsten Ogre Gauntlet~
+A Tungsten Ogre Gauntlet~
+Someone has left their Tungsten Ogre Gauntlet here!~
+~
+9 0&8192 65
+15 15 15 1000 15 3 0 0 0 0 0 0 0 0
+16.200001 40000 0 0 0 0 0
+#200572
+Titanium Ogre Double-Ring Mail~
+Some Titanium Ogre Double-Ring Mail~
+Someone has left their Titanium Ogre Double-Ring Mail here!~
+~
+9 0&8192 9
+12 12 12 1000 12 3 0 0 0 0 0 0 0 0
+36.000000 112000 0 0 0 0 0
+#200573
+Titanium Ogre Double-Coif~
+Some Titanium Ogre Double-Coif~
+Someone has left their Titanium Ogre Double-Coif here!~
+~
+9 0&8192 5
+15 15 15 1000 14 3 0 0 0 0 0 0 0 0
+11.250000 17500 0 0 0 0 0
+#200574
+Cobalt Ogre Guisarme~
+&w&CA Cobalt Ogre Guisarme&w~
+Someone has left their Cobalt Ogre Guisarme here~
+~
+5 0&139264&32 513
+1000 24 27 10 -1 -1 0 6 10 10 9 0 20 10
+31.500000 45000 0 0 0 0 0
+'NONE'
+A
+5 1
+A
+5 2
+A
+84 135
+#200575
+coins gold~
+6497 gold coins~
+A pile of gold coins.~
+~
+20 0 1
+6497 0 0 0
+1.000000 6497 0 3 0 0 0
+#200576
+coins gold~
+6737 gold coins~
+A pile of gold coins.~
+~
+20 0 1
+6737 0 0 0
+1.000000 6737 0 3 0 0 0
+#200577
+coins gold~
+8903 gold coins~
+A pile of gold coins.~
+~
+20 0 1
+8903 0 0 0
+1.000000 8903 0 3 0 0 0
+#0
+
+
+#ROOMS
+#200550
+A bloodstained field.~
+The once green grass now has a lovely shade of red
+instead of the alive green color it use to have.
+If you stick around here for to long you just might
+add more red to the grass.
+~
+1073741828&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 200551
+0 0
+D3
+~
+~
+134217728 -1 16000
+964 411
+S
+#200551
+A large grass field.~
+In this evil cave this simple field of grass is about
+s tranquil as it can get.  However, in such peace
+is when you need to be the most careful.
+~
+1076895745&2
+0 2
+0
+0
+D3
+~
+~
+0 -1 200550
+0 0
+D6
+~
+~
+0 -1 200552
+0 0
+S
+#200552
+A field of grass.~
+Some green grass still grows here making this perhaps
+one of the only few spots unsoiled in this cave.
+It is nice to look down and see life, but a lot of death
+is still waiting you ahead.
+~
+1076895745&2
+0 2
+0
+0
+D6
+~
+~
+0 -1 200553
+0 0
+D9
+~
+~
+0 -1 200551
+0 0
+S
+#200553
+A bloodstained field.~
+The once green grass now has a lovely shade of red
+instead of the alive green color it use to have.
+If you stick around here for to long you just might
+add more red to the grass.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200566
+0 0
+D6
+~
+~
+0 -1 200554
+0 0
+D9
+~
+~
+0 -1 200552
+0 0
+S
+#200554
+A little grass.~
+A little bit of grass mixes in here with the flattened
+red grass that seems to mark the death and pain in this
+horrid place.  Unless you want to turn some more
+green grass red it might be a good idea to get moving.
+~
+1076895745&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 200555
+0 0
+D3
+~
+~
+0 -1 200566
+0 0
+D6
+~
+~
+0 -1 200571
+0 0
+D7
+~
+~
+0 -1 200567
+0 0
+D8
+~
+~
+0 -1 200563
+0 0
+D9
+~
+~
+0 -1 200553
+0 0
+S
+#200555
+A field of grass.~
+Some green grass still grows here making this perhaps
+one of the only few spots unsoiled in this cave.
+It is nice to look down and see life, but a lot of death
+is still waiting you ahead.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200571
+0 0
+D1
+~
+~
+0 -1 200580
+0 0
+D2
+~
+~
+0 -1 200563
+0 0
+D3
+~
+~
+0 -1 200554
+0 0
+D6
+~
+~
+0 -1 200556
+0 0
+D8
+~
+~
+0 -1 200565
+0 0
+S
+#200556
+A trampled field.~
+Looking closely at the grass it is easy to see some
+hidious beast has been through here recently and
+it did not look too be prancing through either by the
+markings in the grass.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200577
+0 0
+D2
+~
+~
+0 -1 200580
+0 0
+D3
+~
+~
+0 -1 200571
+0 0
+D6
+~
+~
+0 -1 200557
+0 0
+D9
+~
+~
+0 -1 200555
+0 0
+S
+#200557
+A large grass field.~
+In this evil cave this simple field of grass is about
+s tranquil as it can get.  However, in such peace
+is when you need to be the most careful.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200578
+0 0
+D1
+~
+~
+0 -1 200559
+0 0
+D3
+~
+~
+0 -1 200577
+0 0
+D6
+~
+~
+0 -1 200558
+0 0
+D8
+~
+~
+0 -1 200579
+0 0
+D9
+~
+~
+0 -1 200556
+0 0
+S
+#200558
+A flat clearing of grass.~
+A few strains of grass still grow here.  It is kind of
+funny how a little bit of grass can grow in a cave
+like this, but it still managed to live on.  Perhaps
+some light is creeping through somwhere.
+~
+1076895745&2
+0 2
+0
+0
+D2
+~
+~
+0 -1 200559
+0 0
+D3
+~
+~
+0 -1 200578
+0 0
+D8
+~
+~
+0 -1 200560
+0 0
+D9
+~
+~
+0 -1 200557
+0 0
+S
+#200559
+A large grass field.~
+In this evil cave this simple field of grass is about
+s tranquil as it can get.  However, in such peace
+is when you need to be the most careful.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200558
+0 0
+D1
+~
+~
+0 -1 200560
+0 0
+D2
+~
+~
+0 -1 200579
+0 0
+D3
+~
+~
+0 -1 200557
+0 0
+D7
+~
+~
+0 -1 200578
+0 0
+D8
+~
+~
+0 -1 200572
+0 0
+S
+#200560
+A flat clearing of grass.~
+A few strains of grass still grow here.  It is kind of
+funny how a little bit of grass can grow in a cave
+like this, but it still managed to live on.  Perhaps
+some light is creeping through somwhere.
+~
+1076895745&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 200561
+0 0
+D2
+~
+~
+0 -1 200572
+0 0
+D3
+~
+~
+0 -1 200559
+0 0
+D7
+~
+~
+0 -1 200558
+0 0
+D9
+~
+~
+0 -1 200579
+0 0
+S
+#200561
+A bloodstained field.~
+The once green grass now has a lovely shade of red
+instead of the alive green color it use to have.
+If you stick around here for to long you just might
+add more red to the grass.
+~
+1076895745&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 200562
+0 0
+D3
+~
+~
+0 -1 200560
+0 0
+D9
+~
+~
+0 -1 200572
+0 0
+S
+#200562
+A flat clearing of grass.~
+A few strains of grass still grow here.  It is kind of
+funny how a little bit of grass can grow in a cave
+like this, but it still managed to live on.  Perhaps
+some light is creeping through somwhere.
+~
+1076895745&2
+0 2
+0
+0
+D3
+~
+~
+0 -1 200561
+0 0
+D8
+~
+~
+0 -1 200611
+0 0
+S
+#200563
+A field of grass.~
+Some green grass still grows here making this perhaps
+one of the only few spots unsoiled in this cave.
+It is nice to look down and see life, but a lot of death
+is still waiting you ahead.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200555
+0 0
+D1
+~
+~
+0 -1 200565
+0 0
+D6
+~
+~
+0 -1 200580
+0 0
+D7
+~
+~
+0 -1 200554
+0 0
+D8
+~
+~
+0 -1 200564
+0 0
+S
+#200564
+A flat clearing of grass.~
+A few strains of grass still grow here.  It is kind of
+funny how a little bit of grass can grow in a cave
+like this, but it still managed to live on.  Perhaps
+some light is creeping through somwhere.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200565
+0 0
+D1
+~
+~
+0 -1 200594
+0 0
+D2
+~
+~
+0 -1 200595
+0 0
+D6
+~
+~
+0 -1 200581
+0 0
+D7
+~
+~
+0 -1 200563
+0 0
+D8
+~
+~
+0 -1 200596
+0 0
+S
+#200565
+A field of grass.~
+Some green grass still grows here making this perhaps
+one of the only few spots unsoiled in this cave.
+It is nice to look down and see life, but a lot of death
+is still waiting you ahead.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200580
+0 0
+D1
+~
+~
+0 -1 200581
+0 0
+D2
+~
+~
+0 -1 200564
+0 0
+D3
+~
+~
+0 -1 200563
+0 0
+D7
+~
+~
+0 -1 200555
+0 0
+D8
+~
+~
+0 -1 200594
+0 0
+S
+#200566
+A large grass field.~
+In this evil cave this simple field of grass is about
+s tranquil as it can get.  However, in such peace
+is when you need to be the most careful.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200567
+0 0
+D1
+~
+~
+0 -1 200554
+0 0
+D2
+~
+~
+0 -1 200553
+0 0
+S
+#200567
+A field of grass.~
+Some green grass still grows here making this perhaps
+one of the only few spots unsoiled in this cave.
+It is nice to look down and see life, but a lot of death
+is still waiting you ahead.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200568
+0 0
+D2
+~
+~
+0 -1 200566
+0 0
+D6
+~
+~
+0 -1 200570
+0 0
+D8
+~
+~
+0 -1 200554
+0 0
+S
+#200568
+A trampled field.~
+Looking closely at the grass it is easy to see some
+hidious beast has been through here recently and
+it did not look too be prancing through either by the
+markings in the grass.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200569
+0 0
+D1
+~
+~
+0 -1 200570
+0 0
+D2
+~
+~
+0 -1 200567
+0 0
+S
+#200569
+A bloodstained field.~
+The once green grass now has a lovely shade of red
+instead of the alive green color it use to have.
+If you stick around here for to long you just might
+add more red to the grass.
+~
+1076895745&2
+0 2
+0
+0
+D2
+~
+~
+0 -1 200568
+0 0
+D8
+~
+~
+0 -1 200570
+0 0
+S
+#200570
+A trampled field.~
+Looking closely at the grass it is easy to see some
+hidious beast has been through here recently and
+it did not look too be prancing through either by the
+markings in the grass.
+~
+1076895745&2
+0 2
+0
+0
+D3
+~
+~
+0 -1 200568
+0 0
+D7
+~
+~
+0 -1 200569
+0 0
+D8
+~
+~
+0 -1 200571
+0 0
+D9
+~
+~
+0 -1 200567
+0 0
+S
+#200571
+A flat clearing of grass.~
+A few strains of grass still grow here.  It is kind of
+funny how a little bit of grass can grow in a cave
+like this, but it still managed to live on.  Perhaps
+some light is creeping through somwhere.
+~
+1076895745&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 200556
+0 0
+D2
+~
+~
+0 -1 200555
+0 0
+D6
+~
+~
+0 -1 200577
+0 0
+D7
+~
+~
+0 -1 200570
+0 0
+D8
+~
+~
+0 -1 200580
+0 0
+D9
+~
+~
+0 -1 200554
+0 0
+S
+#200572
+A little grass.~
+A little bit of grass mixes in here with the flattened
+red grass that seems to mark the death and pain in this
+horrid place.  Unless you want to turn some more
+green grass red it might be a good idea to get moving.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200560
+0 0
+D3
+~
+~
+0 -1 200579
+0 0
+D6
+~
+~
+0 -1 200561
+0 0
+D7
+~
+~
+0 -1 200559
+0 0
+D8
+~
+~
+0 -1 200573
+0 0
+S
+#200573
+A bloodstained field.~
+The once green grass now has a lovely shade of red
+instead of the alive green color it use to have.
+If you stick around here for to long you just might
+add more red to the grass.
+~
+1076895745&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 200610
+0 0
+D2
+~
+~
+0 -1 200609
+0 0
+D7
+~
+~
+0 -1 200572
+0 0
+D8
+~
+~
+0 -1 200574
+0 0
+S
+#200574
+A little grass.~
+A little bit of grass mixes in here with the flattened
+red grass that seems to mark the death and pain in this
+horrid place.  Unless you want to turn some more
+green grass red it might be a good idea to get moving.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200610
+0 0
+D2
+~
+~
+0 -1 200614
+0 0
+D3
+~
+~
+0 -1 200609
+0 0
+D6
+~
+~
+0 -1 200616
+0 0
+D7
+~
+~
+0 -1 200573
+0 0
+D8
+~
+~
+0 -1 200575
+0 0
+D9
+~
+~
+0 -1 200613
+0 0
+S
+#200575
+A field of grass.~
+Some green grass still grows here making this perhaps
+one of the only few spots unsoiled in this cave.
+It is nice to look down and see life, but a lot of death
+is still waiting you ahead.
+~
+1076895745&2
+0 2
+0
+0
+D2
+~
+~
+0 -1 200589
+0 0
+D3
+~
+~
+0 -1 200614
+0 0
+D6
+~
+~
+0 -1 200576
+0 0
+D7
+~
+~
+0 -1 200574
+0 0
+S
+#200576
+A bloodstained field.~
+The once green grass now has a lovely shade of red
+instead of the alive green color it use to have.
+If you stick around here for to long you just might
+add more red to the grass.
+~
+1076895745&2
+0 2
+0
+0
+D6
+~
+~
+0 -1 200621
+0 0
+D7
+~
+~
+0 -1 200616
+0 0
+D9
+~
+~
+0 -1 200575
+0 0
+S
+#200577
+A flat clearing of grass.~
+A few strains of grass still grow here.  It is kind of
+funny how a little bit of grass can grow in a cave
+like this, but it still managed to live on.  Perhaps
+some light is creeping through somwhere.
+~
+1076895745&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 200557
+0 0
+D2
+~
+~
+0 -1 200556
+0 0
+D6
+~
+~
+0 -1 200578
+0 0
+D9
+~
+~
+0 -1 200571
+0 0
+S
+#200578
+A little grass.~
+A little bit of grass mixes in here with the flattened
+red grass that seems to mark the death and pain in this
+horrid place.  Unless you want to turn some more
+green grass red it might be a good idea to get moving.
+~
+1076895745&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 200558
+0 0
+D2
+~
+~
+0 -1 200557
+0 0
+D8
+~
+~
+0 -1 200559
+0 0
+D9
+~
+~
+0 -1 200577
+0 0
+S
+#200579
+A large grass field.~
+In this evil cave this simple field of grass is about
+s tranquil as it can get.  However, in such peace
+is when you need to be the most careful.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200559
+0 0
+D1
+~
+~
+0 -1 200572
+0 0
+D6
+~
+~
+0 -1 200560
+0 0
+D7
+~
+~
+0 -1 200557
+0 0
+S
+#200580
+A little grass.~
+A little bit of grass mixes in here with the flattened
+red grass that seems to mark the death and pain in this
+horrid place.  Unless you want to turn some more
+green grass red it might be a good idea to get moving.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200556
+0 0
+D2
+~
+~
+0 -1 200565
+0 0
+D3
+~
+~
+0 -1 200555
+0 0
+D7
+~
+~
+0 -1 200571
+0 0
+D8
+~
+~
+0 -1 200581
+0 0
+D9
+~
+~
+0 -1 200563
+0 0
+S
+#200581
+A little grass.~
+A little bit of grass mixes in here with the flattened
+red grass that seems to mark the death and pain in this
+horrid place.  Unless you want to turn some more
+green grass red it might be a good idea to get moving.
+~
+1076895745&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 200593
+0 0
+D2
+~
+~
+0 -1 200594
+0 0
+D3
+~
+~
+0 -1 200565
+0 0
+D7
+~
+~
+0 -1 200580
+0 0
+D8
+~
+~
+0 -1 200582
+0 0
+D9
+~
+~
+0 -1 200564
+0 0
+S
+#200582
+A large grass field.~
+In this evil cave this simple field of grass is about
+s tranquil as it can get.  However, in such peace
+is when you need to be the most careful.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200593
+0 0
+D1
+~
+~
+0 -1 200608
+0 0
+D2
+~
+~
+0 -1 200607
+0 0
+D3
+~
+~
+0 -1 200594
+0 0
+D7
+~
+~
+0 -1 200581
+0 0
+D8
+~
+~
+0 -1 200583
+0 0
+D9
+~
+~
+0 -1 200596
+0 0
+S
+#200583
+A bloodstained field.~
+The once green grass now has a lovely shade of red
+instead of the alive green color it use to have.
+If you stick around here for to long you just might
+add more red to the grass.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200608
+0 0
+D1
+~
+~
+0 -1 200615
+0 0
+D2
+~
+~
+0 -1 200620
+0 0
+D3
+~
+~
+0 -1 200607
+0 0
+D6
+~
+~
+0 -1 200613
+0 0
+D7
+~
+~
+0 -1 200582
+0 0
+D8
+~
+~
+0 -1 200584
+0 0
+D9
+~
+~
+0 -1 200606
+0 0
+S
+#200584
+A trampled field.~
+Looking closely at the grass it is easy to see some
+hidious beast has been through here recently and
+it did not look too be prancing through either by the
+markings in the grass.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200615
+0 0
+D1
+~
+~
+0 -1 200590
+0 0
+D2
+~
+~
+0 -1 200591
+0 0
+D3
+~
+~
+0 -1 200620
+0 0
+D7
+~
+~
+0 -1 200583
+0 0
+D8
+~
+~
+0 -1 200585
+0 0
+D9
+~
+~
+0 -1 200604
+0 0
+S
+#200585
+A little grass.~
+A little bit of grass mixes in here with the flattened
+red grass that seems to mark the death and pain in this
+horrid place.  Unless you want to turn some more
+green grass red it might be a good idea to get moving.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200590
+0 0
+D1
+~
+~
+0 -1 200587
+0 0
+D2
+~
+~
+0 -1 200625
+0 0
+D3
+~
+~
+0 -1 200591
+0 0
+D6
+~
+~
+0 -1 200588
+0 0
+D7
+~
+~
+0 -1 200584
+0 0
+D8
+~
+~
+0 -1 200586
+0 0
+D9
+~
+~
+0 -1 200622
+0 0
+S
+#200586
+A little grass.~
+A little bit of grass mixes in here with the flattened
+red grass that seems to mark the death and pain in this
+horrid place.  Unless you want to turn some more
+green grass red it might be a good idea to get moving.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200587
+0 0
+D2
+~
+~
+0 -1 200602
+0 0
+D3
+~
+~
+0 -1 200625
+0 0
+D7
+~
+~
+0 -1 200585
+0 0
+D9
+~
+~
+0 -1 200623
+0 0
+S
+#200587
+A trampled field.~
+Looking closely at the grass it is easy to see some
+hidious beast has been through here recently and
+it did not look too be prancing through either by the
+markings in the grass.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200588
+0 0
+D2
+~
+~
+0 -1 200586
+0 0
+D3
+~
+~
+0 -1 200585
+0 0
+D7
+~
+~
+0 -1 200590
+0 0
+D9
+~
+~
+0 -1 200625
+0 0
+S
+#200588
+A large grass field.~
+In this evil cave this simple field of grass is about
+s tranquil as it can get.  However, in such peace
+is when you need to be the most careful.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200589
+0 0
+D2
+~
+~
+0 -1 200587
+0 0
+D3
+~
+~
+0 -1 200590
+0 0
+D9
+~
+~
+0 -1 200585
+0 0
+S
+#200589
+A bloodstained field.~
+The once green grass now has a lovely shade of red
+instead of the alive green color it use to have.
+If you stick around here for to long you just might
+add more red to the grass.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200575
+0 0
+D2
+~
+~
+0 -1 200588
+0 0
+D7
+~
+~
+0 -1 200614
+0 0
+D9
+~
+~
+0 -1 200590
+0 0
+S
+#200590
+A field of grass.~
+Some green grass still grows here making this perhaps
+one of the only few spots unsoiled in this cave.
+It is nice to look down and see life, but a lot of death
+is still waiting you ahead.
+~
+1076895745&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 200588
+0 0
+D2
+~
+~
+0 -1 200585
+0 0
+D3
+~
+~
+0 -1 200584
+0 0
+D6
+~
+~
+0 -1 200589
+0 0
+D7
+~
+~
+0 -1 200615
+0 0
+D8
+~
+~
+0 -1 200587
+0 0
+D9
+~
+~
+0 -1 200591
+0 0
+S
+#200591
+A large grass field.~
+In this evil cave this simple field of grass is about
+s tranquil as it can get.  However, in such peace
+is when you need to be the most careful.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200584
+0 0
+D1
+~
+~
+0 -1 200585
+0 0
+D2
+~
+~
+0 -1 200622
+0 0
+D3
+~
+~
+0 -1 200604
+0 0
+D6
+~
+~
+0 -1 200590
+0 0
+D7
+~
+~
+0 -1 200620
+0 0
+D8
+~
+~
+0 -1 200625
+0 0
+D9
+~
+~
+0 -1 200592
+0 0
+S
+#200592
+A trampled field.~
+Looking closely at the grass it is easy to see some
+hidious beast has been through here recently and
+it did not look too be prancing through either by the
+markings in the grass.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200604
+0 0
+D1
+~
+~
+0 -1 200622
+0 0
+D3
+~
+~
+0 -1 200617
+0 0
+D6
+~
+~
+0 -1 200591
+0 0
+D7
+~
+~
+0 -1 200605
+0 0
+D8
+~
+~
+0 -1 200626
+0 0
+D9
+~
+~
+0 -1 200618
+0 0
+S
+#200593
+A flat clearing of grass.~
+A few strains of grass still grow here.  It is kind of
+funny how a little bit of grass can grow in a cave
+like this, but it still managed to live on.  Perhaps
+some light is creeping through somwhere.
+~
+1076895745&2
+0 2
+0
+0
+D2
+~
+~
+0 -1 200582
+0 0
+D3
+~
+~
+0 -1 200581
+0 0
+D8
+~
+~
+0 -1 200608
+0 0
+D9
+~
+~
+0 -1 200594
+0 0
+S
+#200594
+A large grass field.~
+In this evil cave this simple field of grass is about
+s tranquil as it can get.  However, in such peace
+is when you need to be the most careful.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200581
+0 0
+D1
+~
+~
+0 -1 200582
+0 0
+D2
+~
+~
+0 -1 200596
+0 0
+D3
+~
+~
+0 -1 200564
+0 0
+D6
+~
+~
+0 -1 200593
+0 0
+D7
+~
+~
+0 -1 200565
+0 0
+D8
+~
+~
+0 -1 200607
+0 0
+D9
+~
+~
+0 -1 200595
+0 0
+S
+#200595
+A little grass.~
+A little bit of grass mixes in here with the flattened
+red grass that seems to mark the death and pain in this
+horrid place.  Unless you want to turn some more
+green grass red it might be a good idea to get moving.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200564
+0 0
+D1
+~
+~
+0 -1 200596
+0 0
+D6
+~
+~
+0 -1 200594
+0 0
+D8
+~
+~
+0 -1 200597
+0 0
+S
+#200596
+A flat clearing of grass.~
+A few strains of grass still grow here.  It is kind of
+funny how a little bit of grass can grow in a cave
+like this, but it still managed to live on.  Perhaps
+some light is creeping through somwhere.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200594
+0 0
+D1
+~
+~
+0 -1 200607
+0 0
+D2
+~
+~
+0 -1 200597
+0 0
+D3
+~
+~
+0 -1 200595
+0 0
+D6
+~
+~
+0 -1 200582
+0 0
+D7
+~
+~
+0 -1 200564
+0 0
+D8
+~
+~
+0 -1 200606
+0 0
+S
+#200597
+A trampled field.~
+Looking closely at the grass it is easy to see some
+hidious beast has been through here recently and
+it did not look too be prancing through either by the
+markings in the grass.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200596
+0 0
+D1
+~
+~
+0 -1 200606
+0 0
+D2
+~
+~
+0 -1 200598
+0 0
+D6
+~
+~
+0 -1 200607
+0 0
+D7
+~
+~
+0 -1 200595
+0 0
+D8
+~
+~
+0 -1 200605
+0 0
+S
+#200598
+A little grass.~
+A little bit of grass mixes in here with the flattened
+red grass that seems to mark the death and pain in this
+horrid place.  Unless you want to turn some more
+green grass red it might be a good idea to get moving.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200597
+0 0
+D1
+~
+~
+0 -1 200605
+0 0
+D2
+~
+~
+0 -1 200599
+0 0
+D6
+~
+~
+0 -1 200606
+0 0
+D8
+~
+~
+0 -1 200617
+0 0
+S
+#200599
+A bloodstained field.~
+The once green grass now has a lovely shade of red
+instead of the alive green color it use to have.
+If you stick around here for to long you just might
+add more red to the grass.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200598
+0 0
+D1
+~
+~
+0 -1 200617
+0 0
+D2
+~
+~
+0 -1 200600
+0 0
+D6
+~
+~
+0 -1 200605
+0 0
+D8
+~
+~
+0 -1 200618
+0 0
+S
+#200600
+A bloodstained field.~
+The once green grass now has a lovely shade of red
+instead of the alive green color it use to have.
+If you stick around here for to long you just might
+add more red to the grass.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200599
+0 0
+D1
+~
+~
+0 -1 200618
+0 0
+D2
+~
+~
+0 -1 200601
+0 0
+D6
+~
+~
+0 -1 200617
+0 0
+S
+#200601
+A field of grass.~
+Some green grass still grows here making this perhaps
+one of the only few spots unsoiled in this cave.
+It is nice to look down and see life, but a lot of death
+is still waiting you ahead.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200600
+0 0
+D6
+~
+~
+0 -1 200618
+0 0
+D8
+~
+~
+0 -1 200628
+0 0
+S
+#200602
+A field of grass.~
+Some green grass still grows here making this perhaps
+one of the only few spots unsoiled in this cave.
+It is nice to look down and see life, but a lot of death
+is still waiting you ahead.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200586
+0 0
+D2
+~
+~
+0 -1 200603
+0 0
+D3
+~
+~
+0 -1 200623
+0 0
+D7
+~
+~
+0 -1 200625
+0 0
+D8
+~
+~
+0 -1 200640
+0 0
+D9
+~
+~
+0 -1 200636
+0 0
+S
+#200603
+A trampled field.~
+Looking closely at the grass it is easy to see some
+hidious beast has been through here recently and
+it did not look too be prancing through either by the
+markings in the grass.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200602
+0 0
+D1
+~
+~
+0 -1 200640
+0 0
+D2
+~
+~
+0 -1 200639
+0 0
+D3
+~
+~
+0 -1 200636
+0 0
+D7
+~
+~
+0 -1 200623
+0 0
+D9
+~
+~
+0 -1 200637
+0 0
+S
+#200604
+A field of grass.~
+Some green grass still grows here making this perhaps
+one of the only few spots unsoiled in this cave.
+It is nice to look down and see life, but a lot of death
+is still waiting you ahead.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200620
+0 0
+D1
+~
+~
+0 -1 200591
+0 0
+D2
+~
+~
+0 -1 200592
+0 0
+D3
+~
+~
+0 -1 200605
+0 0
+D6
+~
+~
+0 -1 200584
+0 0
+D7
+~
+~
+0 -1 200606
+0 0
+D8
+~
+~
+0 -1 200622
+0 0
+D9
+~
+~
+0 -1 200617
+0 0
+S
+#200605
+A large grass field.~
+In this evil cave this simple field of grass is about
+s tranquil as it can get.  However, in such peace
+is when you need to be the most careful.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200606
+0 0
+D1
+~
+~
+0 -1 200604
+0 0
+D2
+~
+~
+0 -1 200617
+0 0
+D3
+~
+~
+0 -1 200598
+0 0
+D6
+~
+~
+0 -1 200620
+0 0
+D7
+~
+~
+0 -1 200597
+0 0
+D8
+~
+~
+0 -1 200592
+0 0
+D9
+~
+~
+0 -1 200599
+0 0
+S
+#200606
+A little grass.~
+A little bit of grass mixes in here with the flattened
+red grass that seems to mark the death and pain in this
+horrid place.  Unless you want to turn some more
+green grass red it might be a good idea to get moving.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200607
+0 0
+D1
+~
+~
+0 -1 200620
+0 0
+D2
+~
+~
+0 -1 200605
+0 0
+D3
+~
+~
+0 -1 200597
+0 0
+D6
+~
+~
+0 -1 200583
+0 0
+D7
+~
+~
+0 -1 200596
+0 0
+D8
+~
+~
+0 -1 200604
+0 0
+D9
+~
+~
+0 -1 200598
+0 0
+S
+#200607
+A trampled field.~
+Looking closely at the grass it is easy to see some
+hidious beast has been through here recently and
+it did not look too be prancing through either by the
+markings in the grass.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200582
+0 0
+D1
+~
+~
+0 -1 200583
+0 0
+D2
+~
+~
+0 -1 200606
+0 0
+D3
+~
+~
+0 -1 200596
+0 0
+D6
+~
+~
+0 -1 200608
+0 0
+D7
+~
+~
+0 -1 200594
+0 0
+D8
+~
+~
+0 -1 200620
+0 0
+D9
+~
+~
+0 -1 200597
+0 0
+S
+#200608
+A trampled field.~
+Looking closely at the grass it is easy to see some
+hidious beast has been through here recently and
+it did not look too be prancing through either by the
+markings in the grass.
+~
+1076895745&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 200613
+0 0
+D2
+~
+~
+0 -1 200583
+0 0
+D3
+~
+~
+0 -1 200582
+0 0
+D6
+~
+~
+0 -1 200609
+0 0
+D7
+~
+~
+0 -1 200593
+0 0
+D8
+~
+~
+0 -1 200615
+0 0
+D9
+~
+~
+0 -1 200607
+0 0
+S
+#200609
+A little grass.~
+A little bit of grass mixes in here with the flattened
+red grass that seems to mark the death and pain in this
+horrid place.  Unless you want to turn some more
+green grass red it might be a good idea to get moving.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200573
+0 0
+D1
+~
+~
+0 -1 200574
+0 0
+D2
+~
+~
+0 -1 200613
+0 0
+D6
+~
+~
+0 -1 200610
+0 0
+D8
+~
+~
+0 -1 200614
+0 0
+D9
+~
+~
+0 -1 200608
+0 0
+S
+#200610
+A field of grass.~
+Some green grass still grows here making this perhaps
+one of the only few spots unsoiled in this cave.
+It is nice to look down and see life, but a lot of death
+is still waiting you ahead.
+~
+1076895745&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 200616
+0 0
+D2
+~
+~
+0 -1 200574
+0 0
+D3
+~
+~
+0 -1 200573
+0 0
+D6
+~
+~
+0 -1 200611
+0 0
+D9
+~
+~
+0 -1 200609
+0 0
+S
+#200611
+A field of grass.~
+Some green grass still grows here making this perhaps
+one of the only few spots unsoiled in this cave.
+It is nice to look down and see life, but a lot of death
+is still waiting you ahead.
+~
+1076895745&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 200612
+0 0
+D2
+~
+~
+0 -1 200616
+0 0
+D7
+~
+~
+0 -1 200562
+0 0
+D9
+~
+~
+0 -1 200610
+0 0
+S
+#200612
+A little grass.~
+A little bit of grass mixes in here with the flattened
+red grass that seems to mark the death and pain in this
+horrid place.  Unless you want to turn some more
+green grass red it might be a good idea to get moving.
+~
+1076895745&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 200619
+0 0
+D3
+~
+~
+0 -1 200611
+0 0
+D8
+~
+~
+0 -1 200621
+0 0
+D9
+~
+~
+0 -1 200616
+0 0
+S
+#200613
+A bloodstained field.~
+The once green grass now has a lovely shade of red
+instead of the alive green color it use to have.
+If you stick around here for to long you just might
+add more red to the grass.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200609
+0 0
+D1
+~
+~
+0 -1 200614
+0 0
+D2
+~
+~
+0 -1 200615
+0 0
+D3
+~
+~
+0 -1 200608
+0 0
+D6
+~
+~
+0 -1 200574
+0 0
+D9
+~
+~
+0 -1 200583
+0 0
+S
+#200614
+A bloodstained field.~
+The once green grass now has a lovely shade of red
+instead of the alive green color it use to have.
+If you stick around here for to long you just might
+add more red to the grass.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200574
+0 0
+D1
+~
+~
+0 -1 200575
+0 0
+D3
+~
+~
+0 -1 200613
+0 0
+D7
+~
+~
+0 -1 200609
+0 0
+D8
+~
+~
+0 -1 200589
+0 0
+D9
+~
+~
+0 -1 200615
+0 0
+S
+#200615
+A flat clearing of grass.~
+A few strains of grass still grow here.  It is kind of
+funny how a little bit of grass can grow in a cave
+like this, but it still managed to live on.  Perhaps
+some light is creeping through somwhere.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200613
+0 0
+D2
+~
+~
+0 -1 200584
+0 0
+D3
+~
+~
+0 -1 200583
+0 0
+D6
+~
+~
+0 -1 200614
+0 0
+D7
+~
+~
+0 -1 200608
+0 0
+D8
+~
+~
+0 -1 200590
+0 0
+D9
+~
+~
+0 -1 200620
+0 0
+S
+#200616
+A trampled field.~
+Looking closely at the grass it is easy to see some
+hidious beast has been through here recently and
+it did not look too be prancing through either by the
+markings in the grass.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200611
+0 0
+D3
+~
+~
+0 -1 200610
+0 0
+D6
+~
+~
+0 -1 200612
+0 0
+D8
+~
+~
+0 -1 200576
+0 0
+D9
+~
+~
+0 -1 200574
+0 0
+S
+#200617
+A large grass field.~
+In this evil cave this simple field of grass is about
+s tranquil as it can get.  However, in such peace
+is when you need to be the most careful.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200605
+0 0
+D1
+~
+~
+0 -1 200592
+0 0
+D2
+~
+~
+0 -1 200618
+0 0
+D3
+~
+~
+0 -1 200599
+0 0
+D6
+~
+~
+0 -1 200604
+0 0
+D7
+~
+~
+0 -1 200598
+0 0
+D9
+~
+~
+0 -1 200600
+0 0
+S
+#200618
+A bloodstained field.~
+The once green grass now has a lovely shade of red
+instead of the alive green color it use to have.
+If you stick around here for to long you just might
+add more red to the grass.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200617
+0 0
+D3
+~
+~
+0 -1 200600
+0 0
+D6
+~
+~
+0 -1 200592
+0 0
+D7
+~
+~
+0 -1 200599
+0 0
+D8
+~
+~
+0 -1 200627
+0 0
+D9
+~
+~
+0 -1 200601
+0 0
+S
+#200619
+A field of grass.~
+Some green grass still grows here making this perhaps
+one of the only few spots unsoiled in this cave.
+It is nice to look down and see life, but a lot of death
+is still waiting you ahead.
+~
+1076895745&2
+0 2
+0
+0
+D2
+~
+~
+0 -1 200621
+0 0
+D3
+~
+~
+0 -1 200612
+0 0
+S
+#200620
+A flat clearing of grass.~
+A few strains of grass still grow here.  It is kind of
+funny how a little bit of grass can grow in a cave
+like this, but it still managed to live on.  Perhaps
+some light is creeping through somwhere.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200583
+0 0
+D1
+~
+~
+0 -1 200584
+0 0
+D2
+~
+~
+0 -1 200604
+0 0
+D3
+~
+~
+0 -1 200606
+0 0
+D6
+~
+~
+0 -1 200615
+0 0
+D7
+~
+~
+0 -1 200607
+0 0
+D8
+~
+~
+0 -1 200591
+0 0
+D9
+~
+~
+0 -1 200605
+0 0
+S
+#200621
+A little grass.~
+A little bit of grass mixes in here with the flattened
+red grass that seems to mark the death and pain in this
+horrid place.  Unless you want to turn some more
+green grass red it might be a good idea to get moving.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200619
+0 0
+D7
+~
+~
+0 -1 200612
+0 0
+D9
+~
+~
+0 -1 200576
+0 0
+S
+#200622
+A little grass.~
+A little bit of grass mixes in here with the flattened
+red grass that seems to mark the death and pain in this
+horrid place.  Unless you want to turn some more
+green grass red it might be a good idea to get moving.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200591
+0 0
+D1
+~
+~
+0 -1 200625
+0 0
+D2
+~
+~
+0 -1 200626
+0 0
+D3
+~
+~
+0 -1 200592
+0 0
+D6
+~
+~
+0 -1 200585
+0 0
+D7
+~
+~
+0 -1 200604
+0 0
+D8
+~
+~
+0 -1 200623
+0 0
+S
+#200623
+A little grass.~
+A little bit of grass mixes in here with the flattened
+red grass that seems to mark the death and pain in this
+horrid place.  Unless you want to turn some more
+green grass red it might be a good idea to get moving.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200625
+0 0
+D1
+~
+~
+0 -1 200602
+0 0
+D2
+~
+~
+0 -1 200636
+0 0
+D3
+~
+~
+0 -1 200626
+0 0
+D6
+~
+~
+0 -1 200586
+0 0
+D7
+~
+~
+0 -1 200622
+0 0
+D8
+~
+~
+0 -1 200603
+0 0
+D9
+~
+~
+0 -1 200624
+0 0
+S
+#200624
+A little grass.~
+A little bit of grass mixes in here with the flattened
+red grass that seems to mark the death and pain in this
+horrid place.  Unless you want to turn some more
+green grass red it might be a good idea to get moving.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200626
+0 0
+D1
+~
+~
+0 -1 200636
+0 0
+D3
+~
+~
+0 -1 200627
+0 0
+D6
+~
+~
+0 -1 200623
+0 0
+D8
+~
+~
+0 -1 200637
+0 0
+S
+#200625
+A flat clearing of grass.~
+A few strains of grass still grow here.  It is kind of
+funny how a little bit of grass can grow in a cave
+like this, but it still managed to live on.  Perhaps
+some light is creeping through somwhere.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200585
+0 0
+D1
+~
+~
+0 -1 200586
+0 0
+D2
+~
+~
+0 -1 200623
+0 0
+D3
+~
+~
+0 -1 200622
+0 0
+D6
+~
+~
+0 -1 200587
+0 0
+D7
+~
+~
+0 -1 200591
+0 0
+D8
+~
+~
+0 -1 200602
+0 0
+D9
+~
+~
+0 -1 200626
+0 0
+S
+#200626
+A flat clearing of grass.~
+A few strains of grass still grow here.  It is kind of
+funny how a little bit of grass can grow in a cave
+like this, but it still managed to live on.  Perhaps
+some light is creeping through somwhere.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200622
+0 0
+D1
+~
+~
+0 -1 200623
+0 0
+D2
+~
+~
+0 -1 200624
+0 0
+D6
+~
+~
+0 -1 200625
+0 0
+D7
+~
+~
+0 -1 200592
+0 0
+D8
+~
+~
+0 -1 200636
+0 0
+D9
+~
+~
+0 -1 200627
+0 0
+S
+#200627
+A field of grass.~
+Some green grass still grows here making this perhaps
+one of the only few spots unsoiled in this cave.
+It is nice to look down and see life, but a lot of death
+is still waiting you ahead.
+~
+1076895745&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 200624
+0 0
+D6
+~
+~
+0 -1 200626
+0 0
+D7
+~
+~
+0 -1 200618
+0 0
+D9
+~
+~
+0 -1 200628
+0 0
+S
+#200628
+A trampled field.~
+Looking closely at the grass it is easy to see some
+hidious beast has been through here recently and
+it did not look too be prancing through either by the
+markings in the grass.
+~
+1076895745&2
+0 2
+0
+0
+D6
+~
+~
+0 -1 200627
+0 0
+D7
+~
+~
+0 -1 200601
+0 0
+D9
+~
+~
+0 -1 200629
+0 0
+S
+#200629
+A large grass field.~
+In this evil cave this simple field of grass is about
+s tranquil as it can get.  However, in such peace
+is when you need to be the most careful.
+~
+1076895745&2
+0 2
+0
+0
+D2
+~
+~
+0 -1 200630
+0 0
+D6
+~
+~
+0 -1 200628
+0 0
+S
+#200630
+A trampled field.~
+Looking closely at the grass it is easy to see some
+hidious beast has been through here recently and
+it did not look too be prancing through either by the
+markings in the grass.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200629
+0 0
+D2
+~
+~
+0 -1 200631
+0 0
+S
+#200631
+A flat clearing of grass.~
+A few strains of grass still grow here.  It is kind of
+funny how a little bit of grass can grow in a cave
+like this, but it still managed to live on.  Perhaps
+some light is creeping through somwhere.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200630
+0 0
+D2
+~
+~
+0 -1 200632
+0 0
+D8
+~
+~
+0 -1 200649
+0 0
+S
+#200632
+A large grass field.~
+In this evil cave this simple field of grass is about
+s tranquil as it can get.  However, in such peace
+is when you need to be the most careful.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200631
+0 0
+D1
+~
+~
+0 -1 200649
+0 0
+D2
+~
+~
+0 -1 200633
+0 0
+D8
+~
+~
+0 -1 200643
+0 0
+S
+#200633
+A field of grass.~
+Some green grass still grows here making this perhaps
+one of the only few spots unsoiled in this cave.
+It is nice to look down and see life, but a lot of death
+is still waiting you ahead.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200632
+0 0
+D1
+~
+~
+0 -1 200643
+0 0
+D2
+~
+~
+0 -1 200634
+0 0
+D6
+~
+~
+0 -1 200649
+0 0
+D8
+~
+~
+0 -1 200644
+0 0
+S
+#200634
+A flat clearing of grass.~
+A few strains of grass still grow here.  It is kind of
+funny how a little bit of grass can grow in a cave
+like this, but it still managed to live on.  Perhaps
+some light is creeping through somwhere.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200633
+0 0
+D1
+~
+~
+0 -1 200644
+0 0
+D6
+~
+~
+0 -1 200643
+0 0
+D8
+~
+~
+0 -1 200635
+0 0
+S
+#200635
+A trampled field.~
+Looking closely at the grass it is easy to see some
+hidious beast has been through here recently and
+it did not look too be prancing through either by the
+markings in the grass.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200644
+0 0
+D6
+~
+~
+0 -1 200645
+0 0
+D7
+~
+~
+0 -1 200634
+0 0
+S
+#200636
+A flat clearing of grass.~
+A few strains of grass still grow here.  It is kind of
+funny how a little bit of grass can grow in a cave
+like this, but it still managed to live on.  Perhaps
+some light is creeping through somwhere.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200623
+0 0
+D1
+~
+~
+0 -1 200603
+0 0
+D2
+~
+~
+0 -1 200637
+0 0
+D3
+~
+~
+0 -1 200624
+0 0
+D6
+~
+~
+0 -1 200602
+0 0
+D7
+~
+~
+0 -1 200626
+0 0
+D8
+~
+~
+0 -1 200639
+0 0
+S
+#200637
+A bloodstained field.~
+The once green grass now has a lovely shade of red
+instead of the alive green color it use to have.
+If you stick around here for to long you just might
+add more red to the grass.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200636
+0 0
+D1
+~
+~
+0 -1 200639
+0 0
+D2
+~
+~
+0 -1 200638
+0 0
+D6
+~
+~
+0 -1 200603
+0 0
+D7
+~
+~
+0 -1 200624
+0 0
+S
+#200638
+A bloodstained field.~
+The once green grass now has a lovely shade of red
+instead of the alive green color it use to have.
+If you stick around here for to long you just might
+add more red to the grass.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200637
+0 0
+D6
+~
+~
+0 -1 200639
+0 0
+S
+#200639
+A field of grass.~
+Some green grass still grows here making this perhaps
+one of the only few spots unsoiled in this cave.
+It is nice to look down and see life, but a lot of death
+is still waiting you ahead.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200603
+0 0
+D3
+~
+~
+0 -1 200637
+0 0
+D6
+~
+~
+0 -1 200640
+0 0
+D7
+~
+~
+0 -1 200636
+0 0
+D9
+~
+~
+0 -1 200638
+0 0
+S
+#200640
+A trampled field.~
+Looking closely at the grass it is easy to see some
+hidious beast has been through here recently and
+it did not look too be prancing through either by the
+markings in the grass.
+~
+1076895745&2
+0 2
+0
+0
+D3
+~
+~
+0 -1 200603
+0 0
+D6
+~
+~
+0 -1 200641
+0 0
+D7
+~
+~
+0 -1 200602
+0 0
+D9
+~
+~
+0 -1 200639
+0 0
+S
+#200641
+A trampled field.~
+Looking closely at the grass it is easy to see some
+hidious beast has been through here recently and
+it did not look too be prancing through either by the
+markings in the grass.
+~
+1076895745&2
+0 2
+0
+0
+D6
+~
+~
+0 -1 200642
+0 0
+D9
+~
+~
+0 -1 200640
+0 0
+S
+#200642
+A bloodstained field.~
+The once green grass now has a lovely shade of red
+instead of the alive green color it use to have.
+If you stick around here for to long you just might
+add more red to the grass.
+~
+1076895745&2
+0 2
+0
+0
+D9
+~
+~
+0 -1 200641
+0 0
+S
+#200643
+A flat clearing of grass.~
+A few strains of grass still grow here.  It is kind of
+funny how a little bit of grass can grow in a cave
+like this, but it still managed to live on.  Perhaps
+some light is creeping through somwhere.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200649
+0 0
+D2
+~
+~
+0 -1 200644
+0 0
+D3
+~
+~
+0 -1 200633
+0 0
+D7
+~
+~
+0 -1 200632
+0 0
+D8
+~
+~
+0 -1 200645
+0 0
+D9
+~
+~
+0 -1 200634
+0 0
+S
+#200644
+A flat clearing of grass.~
+A few strains of grass still grow here.  It is kind of
+funny how a little bit of grass can grow in a cave
+like this, but it still managed to live on.  Perhaps
+some light is creeping through somwhere.
+~
+1076895745&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 200643
+0 0
+D1
+~
+~
+0 -1 200645
+0 0
+D2
+~
+~
+0 -1 200635
+0 0
+D3
+~
+~
+0 -1 200634
+0 0
+D7
+~
+~
+0 -1 200633
+0 0
+S
+#200645
+A bloodstained field.~
+The once green grass now has a lovely shade of red
+instead of the alive green color it use to have.
+If you stick around here for to long you just might
+add more red to the grass.
+~
+1076895745&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 200646
+0 0
+D3
+~
+~
+0 -1 200644
+0 0
+D7
+~
+~
+0 -1 200643
+0 0
+D9
+~
+~
+0 -1 200635
+0 0
+S
+#200646
+A little grass.~
+A little bit of grass mixes in here with the flattened
+red grass that seems to mark the death and pain in this
+horrid place.  Unless you want to turn some more
+green grass red it might be a good idea to get moving.
+~
+1076895745&2
+0 2
+0
+0
+D3
+~
+~
+0 -1 200645
+0 0
+D8
+~
+~
+0 -1 200647
+0 0
+S
+#200647
+A flat clearing of grass.~
+A few strains of grass still grow here.  It is kind of
+funny how a little bit of grass can grow in a cave
+like this, but it still managed to live on.  Perhaps
+some light is creeping through somwhere.
+~
+1076895745&2
+0 2
+0
+0
+D7
+~
+~
+0 -1 200646
+0 0
+D8
+~
+~
+0 -1 200648
+0 0
+S
+#200648
+A bloodstained field.~
+The once green grass now has a lovely shade of red
+instead of the alive green color it use to have.
+If you stick around here for to long you just might
+add more red to the grass.
+~
+1076895745&2
+0 2
+0
+0
+D7
+~
+~
+0 -1 200647
+0 0
+S
+#200649
+A bloodstained field.~
+The once green grass now has a lovely shade of red
+instead of the alive green color it use to have.
+If you stick around here for to long you just might
+add more red to the grass.
+~
+1076895745&2
+0 2
+0
+0
+D2
+~
+~
+0 -1 200643
+0 0
+D3
+~
+~
+0 -1 200632
+0 0
+D7
+~
+~
+0 -1 200631
+0 0
+D9
+~
+~
+0 -1 200633
+0 0
+S
+#0
+
+
+#RESETS
+M 1 200552 1 200552 -1 -1 -1 0 0
+M 1 200550 1 200554 -1 -1 -1 0 0
+M 1 200550 1 200555 -1 -1 -1 0 0
+M 1 200552 1 200557 -1 -1 -1 0 0
+E 1 200550 1 5 -1 0 0
+M 1 200552 1 200558 -1 -1 -1 0 0
+E 1 200551 1 7 -1 0 0
+E 1 200552 1 8 -1 0 0
+E 1 200553 1 13 -1 0 0
+E 1 200554 1 14 -1 0 0
+M 1 200551 1 200560 -1 -1 -1 0 0
+M 1 200552 1 200561 -1 -1 -1 0 0
+E 1 200555 1 7 -1 0 0
+E 1 200556 1 8 -1 0 0
+E 1 200557 1 5 -1 0 0
+M 1 200550 1 200563 -1 -1 -1 0 0
+M 1 200552 1 200564 -1 -1 -1 0 0
+M 1 200553 1 200566 -1 -1 -1 0 0
+M 1 200553 1 200567 -1 -1 -1 0 0
+M 1 200550 1 200569 -1 -1 -1 0 0
+M 1 200551 1 200570 -1 -1 -1 0 0
+M 1 200550 1 200572 -1 -1 -1 0 0
+M 1 200552 1 200573 -1 -1 -1 0 0
+M 1 200551 1 200575 -1 -1 -1 0 0
+M 1 200550 1 200576 -1 -1 -1 0 0
+M 1 200552 1 200578 -1 -1 -1 0 0
+M 1 200550 1 200579 -1 -1 -1 0 0
+M 1 200550 1 200581 -1 -1 -1 0 0
+M 1 200551 1 200582 -1 -1 -1 0 0
+M 1 200551 1 200584 -1 -1 -1 0 0
+M 1 200553 1 200585 -1 -1 -1 0 0
+M 1 200553 1 200587 -1 -1 -1 0 0
+M 1 200552 1 200588 -1 -1 -1 0 0
+M 1 200552 1 200590 -1 -1 -1 0 0
+M 1 200550 1 200591 -1 -1 -1 0 0
+M 1 200553 1 200593 -1 -1 -1 0 0
+M 1 200550 1 200594 -1 -1 -1 0 0
+M 1 200550 1 200596 -1 -1 -1 0 0
+M 1 200550 1 200597 -1 -1 -1 0 0
+O 1 200575 1 200597 -1 -1 -1 -1 0 0
+O 1 66 1 200597 -1 -1 -1 -1 0 0
+M 1 200552 1 200599 -1 -1 -1 0 0
+E 1 200558 1 5 -1 0 0
+M 1 200553 1 200600 -1 -1 -1 0 0
+M 1 200552 1 200602 -1 -1 -1 0 0
+M 1 200551 1 200603 -1 -1 -1 0 0
+O 1 200577 1 200604 -1 -1 -1 -1 0 0
+O 1 66 2 200604 -1 -1 -1 -1 0 0
+O 1 66 2 200604 -1 -1 -1 -1 0 0
+M 1 200553 1 200605 -1 -1 -1 0 0
+M 1 200550 1 200606 -1 -1 -1 0 0
+M 1 200553 1 200608 -1 -1 -1 0 0
+M 1 200550 1 200609 -1 -1 -1 0 0
+M 1 200552 1 200611 -1 -1 -1 0 0
+E 1 200559 1 9 -1 0 0
+E 1 200560 1 10 -1 0 0
+M 1 200551 1 200612 -1 -1 -1 0 0
+M 1 200550 1 200614 -1 -1 -1 0 0
+M 1 200553 1 200615 -1 -1 -1 0 0
+M 1 200551 1 200617 -1 -1 -1 0 0
+M 1 200552 1 200618 -1 -1 -1 0 0
+E 1 200561 1 7 -1 0 0
+E 1 200562 1 8 -1 0 0
+E 1 200563 1 9 -1 0 0
+E 1 200564 1 10 -1 0 0
+M 1 200551 1 200620 -1 -1 -1 0 0
+M 1 200552 1 200621 -1 -1 -1 0 0
+E 1 200565 1 3 -1 0 0
+M 1 200551 1 200623 -1 -1 -1 0 0
+M 1 200550 1 200624 -1 -1 -1 0 0
+M 1 200550 1 200626 -1 -1 -1 0 0
+M 1 200550 1 200627 -1 -1 -1 0 0
+M 1 200571 1 200627 -1 -1 -1 0 0
+E 1 200567 1 6 -1 0 0
+E 1 200568 1 13 -1 0 0
+E 1 200569 1 20 -1 0 0
+O 1 200576 1 200628 -1 -1 -1 -1 0 0
+O 1 66 1 200628 -1 -1 -1 -1 0 0
+M 1 200551 1 200629 -1 -1 -1 0 0
+M 1 200550 1 200630 -1 -1 -1 0 0
+M 1 200553 1 200632 -1 -1 -1 0 0
+M 1 200550 1 200633 -1 -1 -1 0 0
+M 1 200553 1 200635 -1 -1 -1 0 0
+M 1 200551 1 200636 -1 -1 -1 0 0
+M 1 200551 1 200638 -1 -1 -1 0 0
+M 1 200553 1 200639 -1 -1 -1 0 0
+M 1 200550 1 200641 -1 -1 -1 0 0
+M 1 200550 1 200642 -1 -1 -1 0 0
+M 1 200551 1 200644 -1 -1 -1 0 0
+M 1 200550 1 200645 -1 -1 -1 0 0
+M 1 200550 1 200647 -1 -1 -1 0 0
+M 1 200550 1 200648 -1 -1 -1 0 0
+M 1 200550 1 200649 -1 -1 -1 0 0
+M 1 200570 1 200649 -1 -1 -1 0 0
+E 1 200566 1 20 -1 0 0
+M 1 200576 1 200649 -1 -1 -1 0 0
+E 1 200570 1 9 -1 0 0
+E 1 200571 1 10 -1 0 0
+E 1 200572 1 5 -1 0 0
+E 1 200573 1 3 -1 0 0
+E 1 200574 1 13 -1 0 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

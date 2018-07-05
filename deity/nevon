@@ -1,0 +1,54 @@
+#DEITY
+Filename		../deity/nevon~
+Name		Nevon~
+Description	&WThe eternal spirit of Nevon is the deity of magic and the healing
+power of magic. Since healing magic is more for the kind and peaceful
+character, he favors more good align people but will also accept
+neutral players too. The followers of Nevon are renowned for their
+great abilities to conjure up great powers that heal and will harm
+if needed. Nevon does not shun any race for eveyone is equal in
+the eyes of Nevon. The most devoted followers of Nevon are blessed
+with the innate ability to fly, breathe water and are even encased
+in a powerful electric shield.
+
+~
+Alignment		0
+Worshippers	147
+Flee		-1
+Flee_npcrace	-1
+Flee_npcfoe	0
+Kill		7
+Kill_npcrace	6
+Kill_npcfoe	7
+Kill_magic	10
+Sac		10
+Bury_corpse	2
+Aid_spell		5
+Aid		10
+Steal		-1
+Backstab		-1
+Die		-8
+Die_npcrace	-13
+Die_npcfoe	0
+Spell_aid		20
+Dig_corpse	-3
+Scorpse		250
+Savatar		300
+Sdeityobj		450
+Srecall		200
+Race		-1
+Class		-1
+Element		4
+Sex		-1
+Affected		-2079850496
+Npcrace		0
+Npcfoe		89
+Suscept		2
+Race2		-1
+Susceptnum	500
+Elementnum	2000
+Affectednum	1500
+Objstat		0
+End
+
+#END

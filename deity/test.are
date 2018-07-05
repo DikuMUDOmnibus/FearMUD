@@ -1,0 +1,35 @@
+#DEITY
+Filename		test.are~
+Name		Test~
+Description	~
+Alignment		0
+Worshippers	0
+Flee		0
+Flee_dragon	0
+Kill		0
+Kill_dragon	0
+Kill_magic	0
+Sac		0
+Bury_corpse	0
+Aid_spell		0
+Aid		0
+Steal		0
+Backstab		0
+Die		0
+Die_dragon	0
+Die_magic		0
+Dig_corpse	0
+Scorpse		0
+Savatar		0
+Sdeityobj		0
+Srecall		0
+Race		-1
+Class		-1
+Element		0
+Sex		-1
+Avatar		0
+Deityobj		0
+Affected		0
+End
+
+#END

@@ -1,0 +1,47 @@
+/* Taken from http://www.mythosa.net/Utils.html.  Was originally */
+/* used for a palm utility.  Separated for male/female sounds    */
+[start]
+Aer
+Ael
+Al
+El
+Kie
+Lyn
+Mel
+Ral
+Rel
+Syl
+[middle]
+aen
+al
+ar
+as
+eir
+in
+ir
+len
+li
+or
+[end]
+ael
+al
+ar
+ari
+en
+i
+ial
+ian
+ion
+lan
+leos
+lir
+lith
+na
+nal
+nar
+ni
+nil
+nor
+rel
+[stop]
+/* The end, comment needed for file to work*/

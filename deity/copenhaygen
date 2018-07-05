@@ -1,0 +1,54 @@
+#DEITY
+Filename		../deity/copenhaygen~
+Name		Copenhaygen~
+Description	Copenhaygen is a more fun loving deity, and one that loves the finer sides 
+of tobacco use...at least in the arena of smokeless tobacco. Copenhaygen 
+loves a good fight, and he loves the sport of hunting, as long as the hunt 
+is done with some morals and values. He does not believe in the needless 
+or wasteful killing of animals. If one is to be killed, it should be made 
+use of, and he loves the taste of wild game. Being a more laid back and 
+easy going deity, he enjoys his beer, which goes hand in hand with 
+'taking-it-easy'. Lastly, he hates a thief. Not the overrall trade of the 
+thieves, but actual theft. Assassination and the like do not bother him, 
+it's just the taking of what is not yours that bugs Cope. 
+~
+Alignment		0
+Worshippers	23
+Flee		-5
+Flee_npcrace	-2
+Flee_npcfoe	0
+Kill		25
+Kill_npcrace	5
+Kill_npcfoe	20
+Kill_magic	5
+Sac		10
+Bury_corpse	1
+Aid_spell		12
+Aid		37
+Steal		-10
+Backstab		10
+Die		-12
+Die_npcrace	-5
+Die_npcfoe	0
+Spell_aid		5
+Dig_corpse	5
+Scorpse		150
+Savatar		200
+Sdeityobj		350
+Srecall		225
+Race		-1
+Class		-1
+Element		1
+Sex		-1
+Affected		2162824
+Npcrace		2
+Npcfoe		84
+Suscept		0
+Race2		-1
+Susceptnum	1000
+Elementnum	1500
+Affectednum	2000
+Objstat		4
+End
+
+#END

@@ -1,0 +1,1585 @@
+#AREA   Mountain of Despair~
+
+
+
+#VERSION 53
+#AUTHOR Azathoth~
+
+#RANGES
+0 0 0 0 0 0 0 0 0
+$
+
+#RESETMSG &ySome pebbles roll down the mountainside.&w~
+
+#FLAGS
+0 30
+
+#ECONOMY 0 32636540 0
+
+#MOBILES
+#28300
+caustus master vampire~
+The master vampire, Caustus~
+A large shadowy figure is here, sucking life from an innocent victim.
+~
+~
+33&131072 0 3145728 0 C
+0 0 12 11 12 11
+4d10+400 2d10+3 0 0 0
+8000 0
+112 112 0
+23 24 25 21 22 13 20 50
+-6 -6 -6 -6 -6
+0 0 0 0 1 1 50
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 1048578 7168 129 64 67113474 524291
+> death_prog 100~
+say My death is near, but my soul shall live forever! HAHAHAHA!
+mpecho _red with a burst of light, the shadowy form of Caustus disappears into nothingness.
+~
+|
+#28301
+giant~
+the mountain giant~
+A HUGE giant sits here twiddling his thumbs and sulking.
+~
+This large giant looks quite sad. He has a necklace of acorns that the 
+color on them looks quite faded. He sits here twiddling his thumbs and 
+staring at the necklace as if it will suddenly be colorful again. 
+~
+69206019 0 4194304 0 C
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+0 0
+112 112 1
+25 13 13 13 25 13 13 15
+0 0 0 0 0
+3 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Hey der $N! I big sad! Me purty necklace not so purty no more! You help?
+~
+> speech_prog p yes~
+say Dese here acurns not so shiny and purty not more! Find me new and bring to me! I be so happy I might toss dis rock around in happy time!
+~
+> speech_prog prog p yes~
+say Just come back and give dem to me and tell me when you done.
+~
+> speech_prog p done~
+say Tanks! is dat dem all?
+mpecho _cya The giant looks through his belongings....
+if ovnuminv(28302) > 0
+ if ovnuminv(28303) > 0
+  if ovnuminv(28304) > 0
+   if ovnuminv(28305) > 0
+    say WOOOOT! You gotted dem all! Yous muh bestest pal now!
+    mpecho _cya The giant stands up, gives the boulder a heave over the horizon, and skips away humming a happy tune.
+    mpecho _red It seems with the boulder gone, there's a passage into the mountain to the south.
+    open asdf
+    mppurge boulder
+    mpgoto 28199
+   else
+    say I need just da red one now!
+   endif
+  else
+   say Dat's not all of dem! I need dem all!
+  endif
+ else
+  say Dat's not all of dem! I need dem all!
+ endif
+else
+ say Dat's not all of dem! I need dem all!
+endif
+~
+> speech_prog p die~
+say goodbye cruel world
+mppurge giant
+~
+> speech_prog no~
+say Den you can go to hell den for all I care! Argh!
+~
+|
+#28302
+squirrel~
+the giant squirrel~
+A squirrel if unimaginable size is here, nibbling on something.
+~
+~
+3 0 0 0 C
+0 0 9 8 9 7
+1d75+136 1d10+3 0 0 0
+0 0
+112 112 0
+18 10 8 13 13 13 13 45
+0 0 0 0 0
+77 0 0 0 1 1 45
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 515 2
+#28303
+mountain lizard~
+a large mountain lizard~
+Some lizard is here that looks like a giant iguana.
+~
+~
+33 0 0 0 C
+0 0 7 7 8 8
+2d40+100 3d3+2 0 0 0
+0 0
+112 112 0
+13 13 13 13 13 13 13 30
+-10 -7 -7 -7 -7
+79 0 0 0 1 1 30
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 65536 129 256 2 0 262151 2
+#28304
+grumft ogre~
+Grumft, the lazy ogre~
+Some ogre stands here, staring off into space.
+~
+~
+268435523&131072 0 4194304 0 C
+0 0 12 10 10 10
+50d2+200 3d2+6 0 0 0
+10000 0
+112 112 1
+24 13 13 25 25 13 13 100
+0 0 0 0 0
+3 0 0 0 1 1 100
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 544 3
+> greet_prog 100~
+if ovnumroom(28307) > 0
+ say Hi hi hi! Gimme foods! I like slabs beef! Yum yum! Beatin' magic mens tough work!
+endif
+~
+> act_prog p gives you~
+if ovnuminv(21218) > 0
+  eat slab
+  drop all
+  say Yummy yum! Grumft full and come wit yous now! Smash'em magic mens good we do!
+  follow $n
+ else
+  say You not try trick Grumft! I smart! I like slabs of beef!
+  drop all
+ endif
+~
+> greet_prog 100~
+if inroom($i) == 28337
+ mpecho _cya sniffs incessantly around the southern wall.
+ say I smell magic mans through this here crack!
+endif
+~
+> death_prog 100~
+say Argh! I have failed ya mommy!
+mpecho _red With his last breath, Grumft burps up a foul stench of beef.
+~
+> greet_prog 100~
+if mobinroom(28300) > 0
+ growl
+ say There you are you bad magic man! Now you die!
+ kill caustus
+endif
+~
+> speech_prog p soul~
+if mobinroom(28300) > 0
+ say Yay! We kill dat bad magic mans! Now I can go home to muh village!
+ say Here, take dis shield! It helps heaps lot! I not needed it no more!
+ remo shield
+ drop shield
+ mpecho _cya Waving goodbye to you, Grumft leaves the mountain in search of his village.
+ mpgoto 28199
+ fol self
+ mppurge
+endif
+~
+|
+#28305
+vampire bat~
+a vampire bat~
+A fairly large vampire bat flutters around the room.
+~
+~
+65569 0 524288 0 C
+0 0 7 5 6 6
+3d10+100 3d2+3 0 0 0
+0 0
+112 112 0
+13 13 13 23 13 13 13 50
+-5 -5 -5 -5 -5
+23 0 0 0 1 1 50
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 266241 2
+#28306
+vampire thrawl~
+a vampire thrawl~
+A strange pale looking creature stands here snarling.
+~
+~
+33&32768 0 0 0 C
+0 0 7 5 7 6
+2d60+75 4d2+1 0 0 0
+500 0
+112 112 0
+20 18 21 23 21 13 19 45
+-15 -8 -8 -8 -15
+67 0 0 0 1 1 45
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 1048578 7168 1 64 4096 3
+> death_prog 100~
+mpecho _red In a cloud of smoke, the thrawl changes shape into a bat!
+mpmload 28305
+~
+|
+#28349
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#28300
+hollow tree~
+a hollowed out &gpine tree&w~
+&wA large hollowed out &gpine tree&w sheds all it's needles here.~
+~
+13 0&4 1
+0 0 0 0
+10000.000000 0 0 0 0 0 0
+E
+pine tree~
+This is a large hollow tree. There is a gaping hold in the center that 
+looks like you could enter it somehow. You hear some chattering from 
+within so it might be best to stay outside. 
+~
+#28301
+boulder rock~
+A enormous &zboulder~
+&wAn enourmous &zboulder&w is lying next to the mountaintop.~
+~
+13 0 1
+120 0 0 0
+10000.000000 0 0 0 0 0 0
+E
+boulder~
+This large boulder sits on the mountaintop. You can feel a small breeze 
+coming from underneath it. 
+~
+#28302
+yellow acorn~
+&wa &Yyellow&w acorn~
+Someone dropped a funny looking &Yacorn.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#28303
+green acorn~
+&wa &Ggreen&w acorn~
+Someone dropped a funny looking &Gacorn.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#28304
+blue acorn~
+&wa &Bblue&w acorn~
+Someone dropped a funny looking &Bacorn.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#28305
+red acorn~
+&wa &Rred&w acorn~
+Someone dropped a funny looking &Racorn.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#28306
+magic shield mirrors~
+Shield of &wMirrors&w~
+A strange looking shield is here &wreflecting light.~
+~
+9 67 129
+900 900 45 4
+25.000000 100000 0 0 0 0 4
+A
+23 -3 0
+A
+22 -2 0
+A
+101 80 0
+> wear_prog 100~
+say &RGreetings $n, I hope I can protect you the best I can.&w
+~
+|
+#28307
+slabs beef pile~
+A pile of beef slabs~
+A large stinking pile of beef slabs sits here rotting away.~
+~
+13 0 0
+0 0 0 0
+50.000000 0 0 0 0 0 0
+#28308
+carpathian ring~
+&PRing of the &rCarpathian&w~
+A strange rings lies forgotten, an aura of death surrounding it.~
+~
+8 -2147483578&1 3
+0 0 0 0
+0.100000 50000 0 0 0 0 0
+A
+3 2 0
+A
+5 -3 0
+A
+2 1 0
+A
+29 32 0
+A
+29 1 0
+A
+27 2 0
+A
+13 15 0
+A
+31 -2 0
+A
+12 7 0
+#28309
+Magic Mans Slayer~
+&wGrumft's Magic Mans Slayer~
+Some god dropped a newly created grumft sword here.~
+~
+5 268439552&128 513
+1000 15 18 11 -1 -1 0 9 10 8 11 0 30 12
+1.000000 0 0 0 0 0 0
+'NONE'
+#28349
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#0
+
+
+#ROOMS
+#28300
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D0
+~
+~
+134217728 -1 16000
+965 349
+D2
+~
+~
+0 -1 28301
+0 0
+S
+#28301
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D0
+~
+~
+0 -1 28300
+0 0
+D2
+~
+~
+0 -1 28302
+0 0
+S
+#28302
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D0
+~
+~
+0 -1 28301
+0 0
+D1
+~
+~
+0 -1 28305
+0 0
+D2
+~
+~
+0 -1 28303
+0 0
+D3
+~
+~
+0 -1 28304
+0 0
+S
+#28303
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D0
+~
+~
+0 -1 28302
+0 0
+D1
+~
+~
+0 -1 28318
+0 0
+D2
+~
+~
+0 -1 28322
+0 0
+D3
+~
+~
+0 -1 28314
+0 0
+S
+#28304
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D1
+~
+~
+0 -1 28302
+0 0
+D3
+~
+~
+0 -1 28306
+0 0
+S
+#28305
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D1
+~
+~
+0 -1 28310
+0 0
+D3
+~
+~
+0 -1 28302
+0 0
+S
+#28306
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D0
+~
+~
+0 -1 28309
+0 0
+D1
+~
+~
+0 -1 28304
+0 0
+D3
+~
+~
+0 -1 28307
+0 0
+S
+#28307
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D0
+~
+~
+0 -1 28308
+0 0
+D1
+~
+~
+0 -1 28306
+0 0
+S
+#28308
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D1
+~
+~
+0 -1 28309
+0 0
+D2
+~
+~
+0 -1 28307
+0 0
+D10
+~
+pine tree~
+133128 -1 28327
+0 0
+E
+pine tree~
+The hole in the tree looks big enough for even an ogre to enter it.
+~
+S
+#28309
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D2
+~
+~
+0 -1 28306
+0 0
+D3
+~
+~
+0 -1 28308
+0 0
+S
+#28310
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D0
+~
+~
+0 -1 28313
+0 0
+D1
+~
+~
+0 -1 28311
+0 0
+D3
+~
+~
+0 -1 28305
+0 0
+S
+#28311
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D0
+~
+~
+0 -1 28312
+0 0
+D3
+~
+~
+0 -1 28310
+0 0
+S
+#28312
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D2
+~
+~
+0 -1 28311
+0 0
+D3
+~
+~
+0 -1 28313
+0 0
+D10
+~
+pine tree~
+133128 -1 28324
+0 0
+E
+pine tree~
+The hole in the tree looks big enough for even an ogre to enter it.
+~
+S
+#28313
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D1
+~
+~
+0 -1 28312
+0 0
+D2
+~
+~
+0 -1 28310
+0 0
+S
+#28314
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D1
+~
+~
+0 -1 28303
+0 0
+D2
+~
+~
+0 -1 28317
+0 0
+D3
+~
+~
+0 -1 28315
+0 0
+S
+#28315
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D1
+~
+~
+0 -1 28314
+0 0
+D2
+~
+~
+0 -1 28316
+0 0
+S
+#28316
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D0
+~
+~
+8 -1 28315
+0 0
+D1
+~
+~
+0 -1 28317
+0 0
+D10
+~
+pine tree~
+133128 -1 28326
+0 0
+E
+pine tree~
+The hole in the tree looks big enough for even an ogre to enter it.
+~
+S
+#28317
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D0
+~
+~
+0 -1 28314
+0 0
+D3
+~
+~
+0 -1 28316
+0 0
+S
+#28318
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D1
+~
+~
+0 -1 28319
+0 0
+D2
+~
+~
+0 -1 28321
+0 0
+D3
+~
+~
+0 -1 28303
+0 0
+S
+#28319
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D2
+~
+~
+0 -1 28320
+0 0
+D3
+~
+~
+0 -1 28318
+0 0
+S
+#28320
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D0
+~
+~
+0 -1 28319
+0 0
+D3
+~
+~
+0 -1 28321
+0 0
+D10
+~
+pine tree~
+133128 -1 28325
+0 0
+E
+somewhere~
+The hole in the tree is big enough for even an ogre to enter it.
+~
+E
+pine tree~
+The hole in the tree is big enough for even an ogre to enter it.
+~
+S
+#28321
+The Steep Mountainside~
+The mountainside is covered with debris. From stones, to cacti, to some 
+creatures' skeletons, it all can be found here. Would be best to turn back 
+before your skeleton joins the collection. 
+~
+0&2
+0 4
+0
+0
+D0
+~
+~
+0 -1 28318
+0 0
+D1
+~
+~
+0 -1 28320
+0 0
+S
+#28322
+Approaching the Summit~
+Approaching the top of the mountain, you can feel your ears pop as the air 
+starts to get thin. You look back down the mountain and wonder how you 
+ever made it this far. Small stones roll past you. You wonder what could 
+possibly be at the top. 
+~
+1&2
+0 4
+0
+0
+D0
+~
+~
+0 -1 28303
+0 0
+D2
+~
+~
+0 -1 28323
+0 0
+S
+#28323
+Mountain Summit~
+This is the top of the mountain. From here you have a panoramic view of 
+the trail coming up to the mountain. You'd feel comfortable looking at the 
+view, if you didn't feel some sort of evil presence coming from somewhere. 
+~
+4&2
+0 4
+0
+0
+D0
+~
+~
+0 -1 28322
+0 0
+D2
+~
+asdf~
+8389675 -1 28328
+0 0
+S
+#28324
+Inside the hollowed out &gpine tree&w~
+Inside the tree, you can see all sorts of half eaten bodies. Whatever 
+lives here must not like to finish it's meals. It's possible to exit this 
+place if you were to climb up out of the tree. 
+~
+5
+0 13
+0
+0
+D4
+~
+~
+0 -1 28312
+0 0
+S
+#28325
+Inside the hollowed out &gpine tree&w~
+Inside the tree, you can see all sorts of half eaten bodies. Whatever 
+lives here must not like to finish it's meals. It's possible to exit this 
+place if you were to climb up out of the tree. 
+~
+5
+0 13
+0
+0
+D4
+~
+~
+0 -1 28320
+0 0
+S
+#28326
+Inside the hollowed out &gpine tree&w~
+Inside the tree, you can see all sorts of half eaten bodies. Whatever 
+lives here must not like to finish it's meals. It's possible to exit this 
+place if you were to climb up out of the tree. 
+~
+5
+0 13
+0
+0
+D4
+~
+~
+0 -1 28316
+0 0
+S
+#28327
+Inside the hollowed out &gpine tree&w~
+Inside the tree, you can see all sorts of half eaten bodies. Whatever 
+lives here must not like to finish it's meals. It's possible to exit this 
+place if you were to climb up out of the tree. 
+~
+5
+0 13
+0
+0
+D4
+~
+~
+0 -1 28308
+0 0
+S
+#28328
+Inside the Mountain~
+The interior of the mountain just seems to be a small crevice compared to 
+the size of the mountain. It is extremely dark in here as no light from 
+the outside can get through the winding tunnels. 
+~
+1&2
+0 13
+0
+0
+D0
+~
+asdf~
+11 -1 28323
+0 0
+D8
+~
+~
+0 -1 28329
+0 0
+D9
+~
+~
+0 -1 28330
+0 0
+S
+#28329
+Inside the Mountain~
+The interior of the mountain just seems to be a small crevice compared to 
+the size of the mountain. It is extremely dark in here as no light from 
+the outside can get through the winding tunnels. 
+~
+1&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 28331
+0 0
+D7
+~
+~
+0 -1 28328
+0 0
+S
+#28330
+Inside the Mountain~
+The interior of the mountain just seems to be a small crevice compared to 
+the size of the mountain. It is extremely dark in here as no light from 
+the outside can get through the winding tunnels. 
+~
+1&2
+0 13
+0
+0
+D3
+~
+~
+0 -1 28336
+0 0
+D6
+~
+~
+0 -1 28328
+0 0
+S
+#28331
+Inside the Mountain~
+The interior of the mountain just seems to be a small crevice compared to 
+the size of the mountain. It is extremely dark in here as no light from 
+the outside can get through the winding tunnels. 
+~
+1&2
+0 13
+0
+0
+D3
+~
+~
+0 -1 28329
+0 0
+D8
+~
+~
+0 -1 28332
+0 0
+S
+#28332
+Inside the Mountain~
+The interior of the mountain just seems to be a small crevice compared to 
+the size of the mountain. It is extremely dark in here as no light from 
+the outside can get through the winding tunnels. 
+~
+1&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 28333
+0 0
+D7
+~
+~
+0 -1 28331
+0 0
+S
+#28333
+Inside the Mountain~
+The interior of the mountain just seems to be a small crevice compared to 
+the size of the mountain. It is extremely dark in here as no light from 
+the outside can get through the winding tunnels. 
+~
+1&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 28335
+0 0
+D3
+~
+~
+0 -1 28332
+0 0
+D6
+~
+~
+0 -1 28334
+0 0
+S
+#28334
+Inside the Mountain~
+The interior of the mountain just seems to be a small crevice compared to 
+the size of the mountain. It is extremely dark in here as no light from 
+the outside can get through the winding tunnels. 
+~
+1&2
+0 13
+0
+0
+D9
+~
+~
+0 -1 28333
+0 0
+S
+#28335
+Lowered Alcove~
+This small area is quite compact. There are great quantities of slabs of 
+beef strewn around. They all seem to be half eaten and now rotten. You 
+hold your nose to avoid smelling the putrid stench as you walk in. 
+~
+4&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 28333
+0 0
+S
+#28336
+Inside the Mountain~
+The interior of the mountain just seems to be a small crevice compared to 
+the size of the mountain. It is extremely dark in here as no light from 
+the outside can get through the winding tunnels. 
+~
+1&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 28330
+0 0
+D9
+~
+~
+0 -1 28337
+0 0
+S
+#28337
+Inside the Mountain~
+The interior of the mountain just seems to be a small crevice compared to 
+the size of the mountain. It is extremely dark in here as no light from 
+the outside can get through the winding tunnels. You can feel a slight 
+draft coming through a crack in the cavern wall. 
+~
+1&2
+0 13
+0
+0
+D2
+~
+crack~
+11 -1 28339
+0 0
+D6
+~
+~
+0 -1 28336
+0 0
+D7
+~
+~
+0 -1 28338
+0 0
+S
+#28338
+Inside the Mountain~
+The interior of the mountain just seems to be a small crevice compared to 
+the size of the mountain. It is extremely dark in here as no light from 
+the outside can get through the winding tunnels. 
+~
+1&2
+0 13
+0
+0
+D8
+~
+~
+0 -1 28337
+0 0
+S
+#28339
+A narrow tunnel~
+You carefully crawl through the tunnel. The floor in here is unusually 
+smooth, as if many bodies have been dragged through here over the years. 
+~
+5&2
+0 13
+0
+0
+D0
+~
+crack~
+11 -1 28337
+0 0
+D2
+~
+~
+0 -1 28340
+0 0
+S
+#28340
+A narrow tunnel~
+You carefully crawl through the tunnel. The floor in here is unusually 
+smooth, as if many bodies have been dragged through here over the years. 
+You can start to see some light coming from the south. 
+~
+5&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 28339
+0 0
+D2
+~
+~
+0 -1 28341
+0 0
+S
+#28341
+A well lit cavern~
+This cavern stinks of death. Adorned on the high walls are paintings drawn 
+in blood. The floor is covered with skeletons of the last adventurers to 
+come here. 
+~
+0&2
+0 1
+0
+0
+D0
+~
+~
+0 -1 28340
+0 0
+D1
+~
+~
+0 -1 28345
+0 0
+D2
+~
+~
+0 -1 28342
+0 0
+D3
+~
+~
+0 -1 28346
+0 0
+S
+#28342
+A well lit cavern~
+This cavern stinks of death. Adorned on the high walls are paintings drawn 
+in blood. The floor is covered with skeletons of the last adventurers to 
+come here. 
+~
+0&2
+0 1
+0
+0
+D0
+~
+~
+0 -1 28341
+0 0
+D1
+~
+~
+0 -1 28344
+0 0
+D3
+~
+~
+0 -1 28343
+0 0
+S
+#28343
+A well lit cavern~
+This cavern stinks of death. Adorned on the high walls are paintings drawn 
+in blood. The floor is covered with skeletons of the last adventurers to 
+come here. 
+~
+0&2
+0 1
+0
+0
+D0
+~
+~
+0 -1 28346
+0 0
+D1
+~
+~
+0 -1 28342
+0 0
+S
+#28344
+A well lit cavern~
+This cavern stinks of death. Adorned on the high walls are paintings drawn 
+in blood. The floor is covered with skeletons of the last adventurers to 
+come here. 
+~
+0&2
+0 1
+0
+0
+D0
+~
+~
+0 -1 28345
+0 0
+D3
+~
+~
+0 -1 28342
+0 0
+S
+#28345
+A well lit cavern~
+This cavern stinks of death. Adorned on the high walls are paintings drawn 
+in blood. The floor is covered with skeletons of the last adventurers to 
+come here. 
+~
+0&2
+0 1
+0
+0
+D0
+~
+~
+0 -1 28348
+0 0
+D2
+~
+~
+0 -1 28344
+0 0
+D3
+~
+~
+0 -1 28341
+0 0
+S
+#28346
+A well lit cavern~
+This cavern stinks of death. Adorned on the high walls are paintings drawn 
+in blood. The floor is covered with skeletons of the last adventurers to 
+come here. 
+~
+0&2
+0 1
+0
+0
+D0
+~
+~
+0 -1 28347
+0 0
+D1
+~
+~
+0 -1 28341
+0 0
+D2
+~
+~
+0 -1 28343
+0 0
+S
+#28347
+A well lit cavern~
+This cavern stinks of death. Adorned on the high walls are paintings drawn 
+in blood. The floor is covered with skeletons of the last adventurers to 
+come here. 
+~
+0&2
+0 1
+0
+0
+D2
+~
+~
+0 -1 28346
+0 0
+S
+#28348
+A well lit cavern~
+This cavern stinks of death. Adorned on the high walls are paintings drawn 
+in blood. The floor is covered with skeletons of the last adventurers to 
+come here. 
+~
+0&2
+0 1
+0
+0
+D2
+~
+~
+0 -1 28345
+0 0
+S
+#28349
+Floating in a void~
+~
+4
+0 1
+0
+0
+S
+#0
+
+
+#RESETS
+O 1 28300 1 28316 -1 -1 -1 -1 0 0
+O 1 28300 1 28320 -1 -1 -1 -1 0 0
+O 1 28300 1 28308 -1 -1 -1 -1 0 0
+O 1 28300 1 28312 -1 -1 -1 -1 0 0
+D 0 28328 0 1
+M 1 28301 1 28323 -1 -1 -1 0 0
+O 1 28301 1 28323 -1 -1 -1 -1 0 0
+D 0 28323 2 1
+M 0 28303 1 28315 -1 -1 -1 0 0
+M 0 28303 1 28315 -1 -1 -1 0 0
+M 0 28303 1 28315 -1 -1 -1 0 0
+M 0 28303 1 28319 -1 -1 -1 0 0
+M 0 28303 1 28319 -1 -1 -1 0 0
+M 0 28303 1 28319 -1 -1 -1 0 0
+M 0 28303 1 28312 -1 -1 -1 0 0
+M 0 28303 1 28312 -1 -1 -1 0 0
+M 0 28303 1 28312 -1 -1 -1 0 0
+M 0 28303 1 28312 -1 -1 -1 0 0
+M 0 28303 1 28318 -1 -1 -1 0 0
+M 0 28303 1 28318 -1 -1 -1 0 0
+M 0 28303 1 28318 -1 -1 -1 0 0
+M 0 28303 1 28312 -1 -1 -1 0 0
+M 0 28303 1 28312 -1 -1 -1 0 0
+M 0 28303 1 28312 -1 -1 -1 0 0
+M 1 28302 1 28324 -1 -1 -1 0 0
+G 1 28302 1 0 -1 0 0
+M 1 28302 1 28325 -1 -1 -1 0 0
+G 1 28303 1 0 -1 0 0
+M 1 28302 1 28326 -1 -1 -1 0 0
+G 1 28304 1 0 -1 0 0
+M 1 28302 1 28327 -1 -1 -1 0 0
+G 1 28305 1 0 -1 0 0
+M 0 28305 1 28328 -1 -1 -1 0 0
+M 0 28305 1 28329 -1 -1 -1 0 0
+M 0 28305 1 28330 -1 -1 -1 0 0
+M 0 28305 1 28331 -1 -1 -1 0 0
+M 0 28305 1 28332 -1 -1 -1 0 0
+M 0 28305 1 28333 -1 -1 -1 0 0
+M 0 28305 1 28334 -1 -1 -1 0 0
+M 0 28305 1 28338 -1 -1 -1 0 0
+M 0 28305 1 28336 -1 -1 -1 0 0
+M 1 28305 1 28337 -1 -1 -1 0 0
+D 0 28337 2 1
+D 0 28339 0 1
+M 0 28306 1 28341 -1 -1 -1 0 0
+M 0 28306 1 28343 -1 -1 -1 0 0
+M 0 28306 1 28344 -1 -1 -1 0 0
+M 0 28306 1 28345 -1 -1 -1 0 0
+M 0 28306 1 28346 -1 -1 -1 0 0
+M 0 28306 1 28347 -1 -1 -1 0 0
+M 0 28306 1 28348 -1 -1 -1 0 0
+M 1 28304 1 28335 -1 -1 -1 1118450460 14400
+E 1 21066 1 6 21107 0 0
+E 1 21062 1 3 21107 0 0
+E 1 28306 1 11 -1 0 0
+E 1 28309 1 13 -1 0 0
+E 1 21050 1 5 21109 0 0
+O 1 28307 1 28335 -1 -1 -1 -1 0 0
+M 1 28300 1 28342 -1 -1 -1 1118617996 43200
+E 1 21050 1 5 21109 0 0
+E 1 21066 1 6 21109 0 0
+E 1 21062 1 3 21109 0 0
+E 1 28308 1 1 -1 0 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  28300 spec_cast_undead
+M  28305 spec_fido
+S
+
+
+#$

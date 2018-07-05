@@ -1,0 +1,2823 @@
+#AREA   Arena~
+
+
+
+#VERSION 51
+#AUTHOR Xerves~
+
+#RANGES
+0 0 0 0 0 0 0 0 0
+$
+
+#FLAGS
+0 720
+
+#ECONOMY 0 31250000 0
+
+#MOBILES
+#60000
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0
+0 0
+112 112 0
+#60099
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#60000
+arena key~
+arena key~
+Someone has left the arena key here.~
+~
+18 0 1
+0 0 0 0
+0.050000 1 0 0 0 0 0
+#60099
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#0
+
+
+#ROOMS
+#60000
+Staging Room~
+This is the staging room for the arena battles. This is the only room that 
+is safe from violence, but that will soon change. Once the battle is ready 
+to begin everyone will be transported to the arena where it will be 
+everyone for him/herself. Make sure not to leave anything behind here for 
+you will not get it back. 
+~
+4&514
+0 1
+0
+0
+S
+#60001
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60005
+0 0
+D1
+~
+~
+0 -1 60002
+0 0
+S
+#60002
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60006
+0 0
+D1
+~
+~
+0 -1 60003
+0 0
+D3
+~
+~
+0 -1 60001
+0 0
+S
+#60003
+Floating in a void~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60007
+0 0
+D3
+~
+~
+0 -1 60002
+0 0
+S
+#60004
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60010
+0 0
+D1
+~
+~
+0 -1 60005
+0 0
+S
+#60005
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60011
+0 0
+D1
+~
+~
+0 -1 60006
+0 0
+D2
+~
+~
+0 -1 60001
+0 0
+D3
+~
+~
+0 -1 60004
+0 0
+S
+#60006
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60012
+0 0
+D1
+~
+~
+0 -1 60007
+0 0
+D2
+~
+~
+0 -1 60002
+0 0
+D3
+~
+~
+0 -1 60005
+0 0
+S
+#60007
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60013
+0 0
+D1
+~
+~
+0 -1 60008
+0 0
+D2
+~
+~
+0 -1 60003
+0 0
+D3
+~
+~
+0 -1 60006
+0 0
+S
+#60008
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60014
+0 0
+D3
+~
+~
+0 -1 60007
+0 0
+S
+#60009
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60016
+0 0
+D1
+~
+~
+0 -1 60010
+0 0
+S
+#60010
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60017
+0 0
+D1
+~
+~
+0 -1 60011
+0 0
+D2
+~
+~
+0 -1 60004
+0 0
+D3
+~
+~
+0 -1 60009
+0 0
+S
+#60011
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60018
+0 0
+D1
+~
+~
+0 -1 60012
+0 0
+D2
+~
+~
+0 -1 60005
+0 0
+D3
+~
+~
+0 -1 60010
+0 0
+S
+#60012
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60019
+0 0
+D1
+~
+~
+0 -1 60013
+0 0
+D2
+~
+~
+0 -1 60006
+0 0
+D3
+~
+~
+0 -1 60011
+0 0
+S
+#60013
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60020
+0 0
+D1
+~
+~
+0 -1 60014
+0 0
+D2
+~
+~
+0 -1 60007
+0 0
+D3
+~
+~
+0 -1 60012
+0 0
+S
+#60014
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60021
+0 0
+D1
+~
+~
+0 -1 60015
+0 0
+D2
+~
+~
+0 -1 60008
+0 0
+D3
+~
+~
+0 -1 60013
+0 0
+S
+#60015
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60022
+0 0
+D3
+~
+~
+0 -1 60014
+0 0
+S
+#60016
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60024
+0 0
+D1
+~
+~
+0 -1 60017
+0 0
+D2
+~
+~
+0 -1 60009
+0 0
+S
+#60017
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60025
+0 0
+D1
+~
+~
+0 -1 60018
+0 0
+D2
+~
+~
+0 -1 60010
+0 0
+D3
+~
+~
+0 -1 60016
+0 0
+S
+#60018
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60026
+0 0
+D1
+~
+~
+0 -1 60019
+0 0
+D2
+~
+~
+0 -1 60011
+0 0
+D3
+~
+~
+0 -1 60017
+0 0
+S
+#60019
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60027
+0 0
+D1
+~
+~
+0 -1 60020
+0 0
+D2
+~
+~
+0 -1 60012
+0 0
+D3
+~
+~
+0 -1 60018
+0 0
+S
+#60020
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60028
+0 0
+D1
+~
+~
+0 -1 60021
+0 0
+D2
+~
+~
+0 -1 60013
+0 0
+D3
+~
+~
+0 -1 60019
+0 0
+S
+#60021
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60029
+0 0
+D1
+~
+~
+0 -1 60022
+0 0
+D2
+~
+~
+0 -1 60014
+0 0
+D3
+~
+~
+0 -1 60020
+0 0
+S
+#60022
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60030
+0 0
+D2
+~
+~
+0 -1 60015
+0 0
+D3
+~
+~
+0 -1 60021
+0 0
+S
+#60023
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1073741824&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60032
+0 0
+D1
+~
+~
+0 -1 60024
+0 0
+S
+#60024
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60033
+0 0
+D1
+~
+~
+0 -1 60025
+0 0
+D2
+~
+~
+0 -1 60016
+0 0
+D3
+~
+~
+0 -1 60023
+0 0
+S
+#60025
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60034
+0 0
+D1
+~
+~
+0 -1 60026
+0 0
+D2
+~
+~
+0 -1 60017
+0 0
+D3
+~
+~
+0 -1 60024
+0 0
+S
+#60026
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60035
+0 0
+D1
+~
+~
+0 -1 60027
+0 0
+D2
+~
+~
+0 -1 60018
+0 0
+D3
+~
+~
+0 -1 60025
+0 0
+S
+#60027
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60036
+0 0
+D1
+~
+~
+0 -1 60028
+0 0
+D2
+~
+~
+0 -1 60019
+0 0
+D3
+~
+~
+0 -1 60026
+0 0
+S
+#60028
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60037
+0 0
+D1
+~
+~
+0 -1 60029
+0 0
+D2
+~
+~
+0 -1 60020
+0 0
+D3
+~
+~
+0 -1 60027
+0 0
+S
+#60029
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60038
+0 0
+D1
+~
+~
+0 -1 60030
+0 0
+D2
+~
+~
+0 -1 60021
+0 0
+D3
+~
+~
+0 -1 60028
+0 0
+S
+#60030
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60039
+0 0
+D1
+~
+~
+0 -1 60031
+0 0
+D2
+~
+~
+0 -1 60022
+0 0
+D3
+~
+~
+0 -1 60029
+0 0
+S
+#60031
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60040
+0 0
+D3
+~
+~
+0 -1 60030
+0 0
+S
+#60032
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 60033
+0 0
+D2
+~
+~
+0 -1 60023
+0 0
+S
+#60033
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60041
+0 0
+D1
+~
+~
+0 -1 60034
+0 0
+D2
+~
+~
+0 -1 60024
+0 0
+D3
+~
+~
+0 -1 60032
+0 0
+S
+#60034
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60042
+0 0
+D1
+~
+~
+0 -1 60035
+0 0
+D2
+~
+~
+0 -1 60025
+0 0
+D3
+~
+~
+0 -1 60033
+0 0
+S
+#60035
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60043
+0 0
+D1
+~
+~
+0 -1 60036
+0 0
+D2
+~
+~
+0 -1 60026
+0 0
+D3
+~
+~
+0 -1 60034
+0 0
+S
+#60036
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60044
+0 0
+D1
+~
+~
+0 -1 60037
+0 0
+D2
+~
+~
+0 -1 60027
+0 0
+D3
+~
+~
+0 -1 60035
+0 0
+S
+#60037
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60045
+0 0
+D1
+~
+~
+0 -1 60038
+0 0
+D2
+~
+~
+0 -1 60028
+0 0
+D3
+~
+~
+0 -1 60036
+0 0
+S
+#60038
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60046
+0 0
+D1
+~
+~
+0 -1 60039
+0 0
+D2
+~
+~
+0 -1 60029
+0 0
+D3
+~
+~
+0 -1 60037
+0 0
+S
+#60039
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60047
+0 0
+D1
+~
+~
+0 -1 60040
+0 0
+D2
+~
+~
+0 -1 60030
+0 0
+D3
+~
+~
+0 -1 60038
+0 0
+S
+#60040
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D2
+~
+~
+0 -1 60031
+0 0
+D3
+~
+~
+0 -1 60039
+0 0
+S
+#60041
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 60042
+0 0
+D2
+~
+~
+0 -1 60033
+0 0
+S
+#60042
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60048
+0 0
+D1
+~
+~
+0 -1 60043
+0 0
+D2
+~
+~
+0 -1 60034
+0 0
+D3
+~
+~
+0 -1 60041
+0 0
+S
+#60043
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60049
+0 0
+D1
+~
+~
+0 -1 60044
+0 0
+D2
+~
+~
+0 -1 60035
+0 0
+D3
+~
+~
+0 -1 60042
+0 0
+S
+#60044
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60050
+0 0
+D1
+~
+~
+0 -1 60045
+0 0
+D2
+~
+~
+0 -1 60036
+0 0
+D3
+~
+~
+0 -1 60043
+0 0
+S
+#60045
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60051
+0 0
+D1
+~
+~
+0 -1 60046
+0 0
+D2
+~
+~
+0 -1 60037
+0 0
+D3
+~
+~
+0 -1 60044
+0 0
+S
+#60046
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60052
+0 0
+D1
+~
+~
+0 -1 60047
+0 0
+D2
+~
+~
+0 -1 60038
+0 0
+D3
+~
+~
+0 -1 60045
+0 0
+S
+#60047
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D2
+~
+~
+0 -1 60039
+0 0
+D3
+~
+~
+0 -1 60046
+0 0
+S
+#60048
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 60049
+0 0
+D2
+~
+~
+0 -1 60042
+0 0
+S
+#60049
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60053
+0 0
+D1
+~
+~
+0 -1 60050
+0 0
+D2
+~
+~
+0 -1 60043
+0 0
+D3
+~
+~
+0 -1 60048
+0 0
+S
+#60050
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60054
+0 0
+D1
+~
+~
+0 -1 60051
+0 0
+D2
+~
+~
+0 -1 60044
+0 0
+D3
+~
+~
+0 -1 60049
+0 0
+S
+#60051
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60055
+0 0
+D1
+~
+~
+0 -1 60052
+0 0
+D2
+~
+~
+0 -1 60045
+0 0
+D3
+~
+~
+0 -1 60050
+0 0
+S
+#60052
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D2
+~
+~
+0 -1 60046
+0 0
+D3
+~
+~
+0 -1 60051
+0 0
+S
+#60053
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60056
+0 0
+D1
+~
+~
+0 -1 60054
+0 0
+D2
+~
+~
+0 -1 60049
+0 0
+S
+#60054
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60057
+0 0
+D1
+~
+~
+0 -1 60055
+0 0
+D2
+~
+~
+0 -1 60050
+0 0
+D3
+~
+~
+0 -1 60053
+0 0
+S
+#60055
+Floating in a void~
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60058
+0 0
+D2
+~
+~
+0 -1 60051
+0 0
+D3
+~
+~
+0 -1 60054
+0 0
+S
+#60056
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60059
+0 0
+D1
+~
+~
+0 -1 60057
+0 0
+D2
+~
+~
+0 -1 60053
+0 0
+S
+#60057
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60060
+0 0
+D1
+~
+~
+0 -1 60058
+0 0
+D2
+~
+~
+0 -1 60054
+0 0
+D3
+~
+~
+0 -1 60056
+0 0
+S
+#60058
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60061
+0 0
+D2
+~
+~
+0 -1 60055
+0 0
+D3
+~
+~
+0 -1 60057
+0 0
+S
+#60059
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 60060
+0 0
+D2
+~
+~
+0 -1 60056
+0 0
+S
+#60060
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+
+Of special note in this room, there is a door to the north.  It is locked and
+requires a key.
+~
+1076895744&2
+0 14
+0
+0
+D0
+~
+~
+8389671 60000 60062
+0 0
+D1
+~
+~
+0 -1 60061
+0 0
+D2
+~
+~
+0 -1 60057
+0 0
+D3
+~
+~
+0 -1 60059
+0 0
+S
+#60061
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895744&2
+0 14
+0
+0
+D2
+~
+~
+0 -1 60058
+0 0
+D3
+~
+~
+0 -1 60060
+0 0
+S
+#60062
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895872&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60063
+0 0
+D2
+~
+~
+8389671 60000 60060
+0 0
+S
+#60063
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895872&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 60064
+0 0
+D2
+~
+~
+0 -1 60062
+0 0
+S
+#60064
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895872&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 60065
+0 0
+D2
+~
+~
+0 -1 60063
+0 0
+S
+#60065
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895872&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 60066
+0 0
+D3
+~
+~
+0 -1 60064
+0 0
+S
+#60066
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895872&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 60067
+0 0
+D3
+~
+~
+0 -1 60065
+0 0
+S
+#60067
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895872&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 60068
+0 0
+D3
+~
+~
+0 -1 60066
+0 0
+S
+#60068
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895872&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 60069
+0 0
+D3
+~
+~
+0 -1 60067
+0 0
+S
+#60069
+Arena floor~
+From all corners of the arena, the sounds of battle erupt as the combatants
+fight and try to win for the prize or simply their lives.  The only way
+out of the arena is through death or victory.
+~
+1076895872&2
+0 14
+0
+0
+D3
+~
+~
+0 -1 60068
+0 0
+S
+#60070
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60076
+0 0
+D1
+~
+~
+0 -1 60071
+0 0
+S
+#60071
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60075
+0 0
+D1
+~
+~
+0 -1 60072
+0 0
+D3
+~
+~
+0 -1 60070
+0 0
+S
+#60072
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60074
+0 0
+D1
+~
+~
+0 -1 60073
+0 0
+D3
+~
+~
+0 -1 60071
+0 0
+S
+#60073
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60077
+0 0
+D3
+~
+~
+0 -1 60072
+0 0
+S
+#60074
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60079
+0 0
+D1
+~
+~
+0 -1 60077
+0 0
+D2
+~
+~
+0 -1 60072
+0 0
+D3
+~
+~
+0 -1 60075
+0 0
+S
+#60075
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60080
+0 0
+D1
+~
+~
+0 -1 60074
+0 0
+D2
+~
+~
+0 -1 60071
+0 0
+D3
+~
+~
+0 -1 60076
+0 0
+S
+#60076
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60081
+0 0
+D1
+~
+~
+0 -1 60075
+0 0
+D2
+~
+~
+0 -1 60070
+0 0
+S
+#60077
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60078
+0 0
+D2
+~
+~
+0 -1 60073
+0 0
+D3
+~
+~
+0 -1 60074
+0 0
+S
+#60078
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60085
+0 0
+D2
+~
+~
+0 -1 60077
+0 0
+D3
+~
+~
+0 -1 60079
+0 0
+S
+#60079
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60084
+0 0
+D1
+~
+~
+0 -1 60078
+0 0
+D2
+~
+~
+0 -1 60074
+0 0
+D3
+~
+~
+0 -1 60080
+0 0
+S
+#60080
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60083
+0 0
+D1
+~
+~
+0 -1 60079
+0 0
+D2
+~
+~
+0 -1 60075
+0 0
+D3
+~
+~
+0 -1 60081
+0 0
+S
+#60081
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60082
+0 0
+D1
+~
+~
+0 -1 60080
+0 0
+D2
+~
+~
+0 -1 60076
+0 0
+S
+#60082
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60089
+0 0
+D1
+~
+~
+0 -1 60083
+0 0
+D2
+~
+~
+0 -1 60081
+0 0
+D3
+~
+~
+0 -1 60098
+0 0
+S
+#60083
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60088
+0 0
+D1
+~
+~
+0 -1 60084
+0 0
+D2
+~
+~
+0 -1 60080
+0 0
+D3
+~
+~
+0 -1 60082
+0 0
+S
+#60084
+Dueling Aren~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1073741824&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60087
+0 0
+D1
+~
+~
+0 -1 60085
+0 0
+D2
+~
+~
+0 -1 60079
+0 0
+D3
+~
+~
+0 -1 60083
+0 0
+S
+#60085
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60086
+0 0
+D1
+~
+~
+0 -1 60099
+0 0
+D2
+~
+~
+0 -1 60078
+0 0
+D3
+~
+~
+0 -1 60084
+0 0
+S
+#60086
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60093
+0 0
+D2
+~
+~
+0 -1 60085
+0 0
+D3
+~
+~
+0 -1 60087
+0 0
+S
+#60087
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60092
+0 0
+D1
+~
+~
+0 -1 60086
+0 0
+D2
+~
+~
+0 -1 60084
+0 0
+D3
+~
+~
+0 -1 60088
+0 0
+S
+#60088
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60091
+0 0
+D1
+~
+~
+0 -1 60087
+0 0
+D2
+~
+~
+0 -1 60083
+0 0
+D3
+~
+~
+0 -1 60089
+0 0
+S
+#60089
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60090
+0 0
+D1
+~
+~
+0 -1 60088
+0 0
+D2
+~
+~
+0 -1 60082
+0 0
+S
+#60090
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60097
+0 0
+D1
+~
+~
+0 -1 60091
+0 0
+D2
+~
+~
+0 -1 60089
+0 0
+S
+#60091
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60096
+0 0
+D1
+~
+~
+0 -1 60092
+0 0
+D2
+~
+~
+0 -1 60088
+0 0
+D3
+~
+~
+0 -1 60090
+0 0
+S
+#60092
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60095
+0 0
+D1
+~
+~
+0 -1 60093
+0 0
+D2
+~
+~
+0 -1 60087
+0 0
+D3
+~
+~
+0 -1 60091
+0 0
+S
+#60093
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D0
+~
+~
+0 -1 60094
+0 0
+D2
+~
+~
+0 -1 60086
+0 0
+D3
+~
+~
+0 -1 60092
+0 0
+S
+#60094
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D2
+~
+~
+0 -1 60093
+0 0
+D3
+~
+~
+0 -1 60095
+0 0
+S
+#60095
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D1
+~
+~
+0 -1 60094
+0 0
+D2
+~
+~
+0 -1 60092
+0 0
+D3
+~
+~
+0 -1 60096
+0 0
+S
+#60096
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D1
+~
+~
+0 -1 60095
+0 0
+D2
+~
+~
+0 -1 60091
+0 0
+D3
+~
+~
+0 -1 60097
+0 0
+S
+#60097
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D1
+~
+~
+0 -1 60096
+0 0
+D2
+~
+~
+0 -1 60090
+0 0
+S
+#60098
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+1076895744&32770
+0 14
+0
+0
+D1
+~
+~
+0 -1 60082
+0 0
+S
+#60099
+Dueling Arena~
+The gods were kind enough to provide grounds for players to kill each
+other and end all conflicts with a very FINAL battle.  The arena is
+a no escape winner takes all battle ground where you either kill your
+opponent and survive or die and lose everything.  There is no way out
+and there is no way in.
+~
+3153924&32770
+0 14
+0
+0
+D3
+~
+~
+0 -1 60085
+0 0
+S
+#0
+
+
+#RESETS
+O 1 60000 1 60052 -1 -1 -1 -1 0 0
+O 1 60000 1 60033 -1 -1 -1 -1 0 0
+O 1 60000 1 60048 -1 -1 -1 -1 0 0
+D 0 60062 2 2
+D 0 60060 0 2
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

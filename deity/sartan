@@ -1,0 +1,46 @@
+#DEITY
+Filename		../deity/sartan~
+Name		Zeekor~
+Description	This deity has been struck down by Xerves.  All who devote to him will
+be under the curse of Xerves, until cleanup occurs and he is no more.
+~
+Alignment		0
+Worshippers	6
+Flee		-10
+Flee_npcrace	-10
+Flee_npcfoe	-10
+Kill		-5
+Kill_npcrace	-5
+Kill_npcfoe	0
+Kill_magic	-5
+Sac		-5
+Bury_corpse	0
+Aid_spell		-5
+Aid		-5
+Steal		-5
+Backstab		0
+Die		0
+Die_npcrace	-10
+Die_npcfoe	-10
+Spell_aid		-5
+Dig_corpse	0
+Scorpse		500
+Savatar		500
+Sdeityobj		300
+Srecall		300
+Race		-1
+Class		-1
+Element		0
+Sex		-1
+Affected		256
+Npcrace		10
+Npcfoe		4
+Suscept		655
+Race2		-1
+Susceptnum	2500
+Elementnum	400
+Affectednum	-500
+Objstat		6
+End
+
+#END

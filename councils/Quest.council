@@ -1,0 +1,12 @@
+#COUNCIL
+Name         Quest Council~
+Filename     Quest.council~
+Description  Quest Council~
+Head         Wildfire~
+Members      0
+Board        0
+Meeting      0
+Powers       goto transfer slay clones minvoke oinvoke mset oset qpset qpstat~
+End
+
+#END

@@ -1,0 +1,8593 @@
+#AREA   Lost Valley~
+
+
+
+#VERSION 51
+#AUTHOR Duke Boys~
+
+#RANGES
+1 75 1 75 0 0 0 0 0
+$
+
+#RESETMSG Wild and strange animal noises can be heard echoing throughout the area.~
+
+#FLAGS
+0
+
+#ECONOMY 0 699431 0
+
+#MOBILES
+#8000
+animal pairiezard~
+&OA P&zairie&Oz&zard~
+A small fur and scale covered animal with sharp teeth is here grinning evilly.
+~
+This small furry and scaled animal uses its teeth to tear the meat
+off its food and also uses its sharp teeth to attack and defend
+itself in battle.
+~
+1 0 33554432 -350 C
+0 0 -100 0 0 0
+5d12+937 4d5+5 0
+200 0
+112 112 0
+15 13 13 14 13 13 14 2
+0 0 0 0 0
+87 0 0 0 1 1 2
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 37 0 0 0 0 7 1
+> all_greet_prog 100~
+if ispc($n)
+if class($n)==augurer
+say Ah! The ever respected augurers!
+else
+if class($n)==warrior
+bow $n
+say Copenhaygen's favorite class!
+else
+if class($n)==thief
+smile $n
+say Ah hello you sneaky person.
+else
+if class($n)==mage
+say Greetings master of magic.
+else
+if class($n)==cleric
+bow $n
+say Ah great healer I welcome you.
+if class($n)==druid
+bow $n
+say Hello there oh mystic one.
+else
+if class($n)==vampire
+say Greetings night demon.
+else
+if class($n)==ranger
+say Greetings to you oh swift ranger.
+else
+if class($n)==paladin
+bow $n
+say I bow to you oh might paladin.
+else
+if class($n)==monk
+say Hello there calm and wise monk.
+else
+if class($n)==swordsman
+say Greetings mighty sword wielder.
+else
+if class($n)==chaplain
+bow $n
+say Greetings oh great chaplain.
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+q
+~
+> all_greet_prog 100~
+~
+|
+#8005
+insect dragecitiod~
+&OA D&zragecitiod~
+A small scaled Dragecitiod erupts smoke from its nostrils as it flies toward you!
+~
+The Dragecitiod is a fist sized insect that breathes fire. Its thin
+wings make its movements very swift.
+~
+33 0 34078720 0 C
+0 0 0 0 0 0
+5d13+1031 4d5+6 0
+210 0
+112 112 0
+14 13 14 13 15 13 13 4
+0 0 0 0 0
+83 0 0 0 1 1 4
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 98304 0 0 0 0 8197 17
+#8008
+Wolun Crad~
+&OA W&zolun &OC&zrad~
+A hairy Wolun Crad is here moving silently through the tall grass.
+~
+A large furry beast with a nasty smell blends perfectly with the
+tall grass and mud.
+~
+1 0 33554432 0 C
+0 0 -117 0 0 0
+9d16+1125 4d5+6 0
+200 0
+112 112 0
+14 13 13 13 13 13 13 2
+0 0 0 0 0
+87 0 0 0 1 1 2
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 32 0 0 0 0 524295 34
+#8011
+spidella~
+&OS&zpidella~
+A spidella is here crawling along its web.
+~
+~
+33 0 33554432 0 C
+0 0 -124 0 0 0
+9d14+896 4d5+5 0
+201 0
+112 112 0
+13 13 13 13 13 13 13 3
+0 0 0 0 0
+83 0 0 0 1 1 3
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 8 0 0 0 0 524289 34
+#8013
+whipworm worm whip~
+&OA W&zhip&Ow&zorm~
+A giant &OW&zhip&Ow&zorm&P lashes out at its enemies!
+~
+A tall, skinny, quick worm with red eyes and a spiked tip on its
+tail.
+~
+65697 0 33554432 -350 C
+0 0 -113 0 0 0
+5d13+960 4d5+6 0
+220 0
+112 112 0
+13 13 13 13 13 13 13 3
+0 0 0 0 0
+0 0 0 0 1 1 3
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 32 0 0 0 0 264257 34
+#8020
+Layda Poe~
+&OL&zayda &OP&zoe~
+A &OL&zayda &OP&zoe hunts tiny insects here in the bush.
+~
+A Layda Poe is a beautiful grass fairy. Her hair is black as night
+and her body is the same color as the land. However she is very
+aggressive and uses her beauty to lure her victoms to their doom.
+~
+65569 0 33554474 0 C
+0 0 -120 0 0 0
+9d18+1265 5d5+6 0
+200 0
+112 112 2
+13 13 13 13 13 13 13 3
+0 0 0 0 0
+87 0 0 0 1 1 3
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 32 0 0 0 0 33816579 67
+#8216
+deadly golden chandelier~
+&YA Golden Chandelier~
+&YA mutated chandelier hangs on the ceiling here.
+~
+This rather large chandelier seems to be moving slightly yet there
+isn't any wind in the room. Is that an eye? 
+~
+1 0 0 -1000 C
+0 0 -30 0 0 0
+9d5+345 4d3+3 0
+250 0
+112 112 1
+11 13 13 10 13 13 13 2
+0 0 0 0 0
+7 0 0 0 1 1 2
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 8 0 0 0 0 2359296 526336
+#8217
+old wise man~
+A wise old man~
+A wise old man is here studying the carvings on the wall.
+~
+This elder cleric has decided to study the interesting art and
+many writings of the Immortals on Rafermand. Once a powerful cleric
+this old man is has lost most of his knowledge of spell casting
+but can still stand his own in a fight.
+~
+1 0 0 0 C
+0 0 -95 0 0 0
+8d15+910 4d3+5 0
+255 0
+112 112 1
+13 13 18 13 18 14 13 2
+0 0 0 0 0
+0 0 0 0 1 1 2
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 1032 0 0 0 0 805306368 65
+> rand_prog 5~
+ponder
+say Ah ha! That makes perfect sense now! Wait...no, nevermind.
+~
+|
+#8218
+statue graves chaplain~
+&zThe statue of Graves~
+&zA mystical statue of Graves the ancient chaplain is displayed here.
+~
+This is a statue of the greatest Chaplain in the History of Rafermand.
+The story of Graves is long and mighty and his legend will carry on
+for years to come. His weapons are encased within the statue and the
+spirit of Graves protects them. Only the purest of clerics can 
+wield these mighty weapons. Yet in order obtain these weapons the
+attacker will have to risk his or her life.
+~
+67 0 128 1000 C
+0 0 -289 0 0 0
+8d34+2071 7d8+10 0
+2050 0
+112 112 1
+20 17 18 18 17 14 18 7
+0 0 0 0 0
+0 0 0 0 1 1 7
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 1 0 0 0 0 2129395978 568391
+> death_prog 100~
+say &YYou have won this battle mighty $n! Next time you might not be so lucky.
+if rand(2)
+mpoload 8258 45
+else
+if rand(2)
+mpoload 8260 45
+else
+if rand(2)
+mpoload 8261 45
+else
+if rand(2)
+mpoload 8262 45
+endif
+endif
+endif
+endif
+~
+|
+#8219
+langolier~
+&zA Langolier~
+&zA langolier is here hovering toward you!
+~
+&zThe Langolier is a large evil being that is nothing but a huge
+mouth with long sharp teeth that can eat anything they choose.
+With an unlimited hunger the langolier will hunt down its prey with
+the speed of the wind itself. The only sound that they make is the
+sound of millions of razor-sharp teeth rotating in its massive mouth.
+~
+97 0 0 0 C
+0 0 0 0 0 0
+8d54+3281 9d9+11 0
+4050 0
+112 112 0
+14 13 13 14 13 13 13 3
+0 0 0 0 0
+0 0 0 0 1 1 3
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1107296257 1
+#8324
+bengal tiger~
+&OA &OB&ze&On&zg&Oa&zl &OT&zi&Og&ze&Or&G~
+&OA &OB&ze&On&zg&Oa&zl &OT&zi&Og&ze&Or&G is hunting here.
+~
+~
+1 0 128 0 C
+0 0 -300 0 0 0
+10d12+10000 10d5+10 0
+250000 0
+112 112 2
+18 18 18 18 18 18 18 8
+0 0 0 0 0
+29 0 0 0 1 1 8
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+60 60 0 0 0 0 0 625 526439
+> fight_prog 50~
+if ispc($n)
+mea $n The tiger roars, bares it's teeth, and lunges, tearing at your throat!!!
+mea $n A Bengal Tiger's tearing bite DIS-GULLETS you!!!
+mpdamage $n 500
+endif
+~
+> fight_prog 30~
+if ispc($n)
+mea $n A Bengal Tiger prays for Guran's help, and is suddenly much healthier.
+mprestore self 2000
+endif
+~
+> death_prog 66~
+if ispc($n)
+if name($n) == Corellon
+say Well done $n, you fight well, so I give you this.
+mpoload 645 50
+give gulwyle $n
+endif
+endif
+~
+|
+#8325
+artemis~
+&OA&zrtemis~
+&OA g&zoddessly &Of&zigure &Os&ztands &Oi&zdly &Ob&zy
+~
+This is the Goddess Artemis. She is the Goddess of the hunt, and nature, 
+and mother of Guran. She is a lovely figure, with long, dark hair, and 
+skin the color of fresh milk. The look of toned muscle can be seen in her 
+bare arms and shoulders, though the rest of her body is concealed in her 
+gown. 
+~
+16777283 0 0 1000 C
+0 0 -105 0 0 0
+1d50+1300 5d5+6 0
+2500 0
+112 112 2
+16 16 16 16 16 16 16 3
+0 0 0 0 0
+85 0 0 0 1 1 3
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+10 0 0 0 0 0 0 0 524320
+> speech_prog p Artemis, quest~
+if ispc($n)
+if name($n) == Corellon
+say Very well $n, you may have your quest. May you now live to survive it.
+mpmload 8324
+endif
+endif
+~
+|
+#8326
+deranged chef~
+&OD&zeranged &OC&zhef~
+&OA &Ol&zunatic &Ow&zearing &Oa c&zhef's &Oo&zutfit &Or&zuns &Oa&zround &Ot&zhe &Ok&zitchen
+~
+This man wears the clothing of a chef, the white cloak, tall white hat, 
+grey pants, everything...but he looks in no real way like a chef. His eyes 
+are wild and are never looking in the same direction, nor are they ever 
+crossed like a normal cross-eyed person. This person should obviously be 
+in a different kind of jacket. 
+~
+16777283 0 0 -200 C
+0 0 -40 0 0 0
+1d25+725 3d5+5 0
+400 0
+112 112 1
+15 15 15 15 15 15 15 2
+0 0 0 0 0
+0 0 0 0 1 1 2
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+5 0 65 0 0 1048576 0 1 524288
+> fight_prog 1~
+if rand(1)
+circle $n
+circle $n
+endif
+~
+> fight_prog 25~
+if rand (50)
+if timeskilled($n) > 50
+say &CYou sure do die a lot, maybe I'll take it easy on you.
+mprestore $n 50
+else
+if timeskilled($n) < 50
+say &CYou must be a decent fighter, you don't die much.
+cast 'spiral blast' $n
+cackle
+endif
+endif
+endif
+~
+|
+#8327
+grendelite~
+&OG&zrendelite~
+&OA G&zrendelite wags &Oi&zts &Oh&zead&W
+~
+The grendelite is the child of Grendel, the notorious beast tha Beowulf 
+defeated many ages ago. It is a beastly monster, with huge arms and a 
+ghastly face containing large, bulbous eyes. 
+~
+16777281 0 0 -500 C
+0 0 25 15 15 15
+1d25+2000 4d3+100 0
+500 0
+112 112 1
+13 13 13 19 13 13 13 100
+0 0 0 0 0
+89 0 0 0 1 1 100
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+3 0 1 0 0 0 0 2 524289
+> rand_prog 5~
+mpe _cya The Grendelite chuckles and roars a throaty grumble to itself.
+~
+> death_prog 99~
+if ispc($n)
+mea $n As the grendelite dies it hurriedly eats the gothic blade.
+mpjunk gothic
+endif
+~
+|
+#8328
+siberian tiger~
+&OS&ziberian &OT&ziger~
+&OA s&ziberian &Ot&ziger &Op&zurrs &Oq&zuietly
+~
+The siberian tiger is much like a bengal tiger, except it's markings are 
+white, with greyish stripes, with ice blue eyes. The size and build are 
+roughly the same though, and it is equally as dangerous in a fight. 
+~
+16777281 0 0 0 C
+0 0 -105 0 0 0
+1d50+1450 5d5+6 0
+1500 0
+112 112 1
+13 13 13 13 13 13 13 3
+0 0 0 0 0
+74 0 0 0 1 1 3
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+8 0 5 0 0 0 0 3 2
+> death_prog 99~
+if ispc($n)
+mea $n The tiger gnashes and grits it's teath in it's death throws, thus ruining them for any future use.
+mpjunk fangs
+endif
+~
+|
+#8329
+wolverine~
+&OA W&zolverine~
+&OA w&zolverine &Og&zlares &Om&zenacingly
+~
+The wolverine is one of the most ferocious fighting beasts in the known 
+world. Somehow Copenhaygen managed to tame one enough that it will obey 
+his will, but for the most part it remains violent except that it has lost 
+its aggressive nature. 
+~
+16777281 0 0 1000 C
+0 0 -300 0 0 0
+1d100+2700 6d7+7 0
+10000 0
+112 112 0
+13 13 13 13 13 13 13 4
+0 0 0 0 0
+76 0 0 0 1 1 4
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+20 10 65537 0 0 0 0 2115 524290
+> fight_prog 10~
+bite $n
+blitz $n
+claw $n
+circle $n
+circle $n
+circle $n
+nervepinch $n
+~
+> death_prog 99~
+if ispc($n)
+mea $n The wolverine growls and snarls in a death rage, scraping madly at the ground, thus ruining it's claws for any future purpose.
+mpjunk claws
+endif
+~
+|
+#8330
+manu dere~
+&OM&zanu &OD&zere~
+&OM&zanu &OD&zere &Os&ztands &Oh&zere, &Og&zreeting &Ot&zhose &Ow&zho &Oc&zome &Oa&znd &Og&zo
+~
+Manu Dere is a half human-half deer. Much like the half horse-half man 
+beasts of mythology, Manu Dere is closely kin to them, except his 
+non-human half is, of course, that of a white-tail deer. His torso ripples 
+with bulging muscles, his head that of a normal human except for the set 
+of record breaking antlers set atop his head. His lower body is covered 
+with the tan hide of a deer, and built the same, but on a larger scale, 
+being the same size as that of a bull's body. 
+~
+16777283 0 0 1000 C
+0 0 25 25 25 25
+100d25+10000 100d7+150 0
+20000 0
+112 112 1
+25 25 25 25 25 25 25 100
+0 0 0 0 0
+0 0 0 0 1 1 100
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+13 0 131 8192 0 1048576 0 1075314688 538657
+> all_greet_prog 100~
+say &CHello $n, good luck on your journeys, whether they be into this house, or out into the wild world.
+~
+> fight_prog 50~
+mpe _cya Manu Dere snorts in anger!
+ mpe Manu Dere yells,"Prepare to die puny mortal!"
+if rand(25)
+stun $n
+cast 'harm' $n
+else
+if rand (25)
+mprestore self 3050
+cackle
+else
+if rand (25)
+cast 'spiral blast' $n
+cast 'caustic fount' $n
+else
+if rand (10)
+impressive $n
+else
+if rand (10)
+trynot $n
+else
+if rand (4)
+cast 'vomica pravus' $n
+cast 'curse' $n
+cast 'faerie fire' $n
+else
+if rand (1)
+disarm $n
+sac blade
+sac sword
+sac dagger
+sac axe
+sac trident
+sac spear
+sac curverd
+sac althena
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+~
+> death_prog 99~
+if ispc($n)
+nod $n
+salute $n
+say You have beaten me $n, for that I salute you, but my belongings are mine to keep.
+mpjunk celtic
+mpjunk celtic
+endif
+~
+> fight_prog 20~
+if rand (20)
+powerslice $n
+else
+if rand (20)
+kickback $n
+else
+if rand (20)
+weaponbreak $n
+else
+if rand (20)
+powerslice $n
+kickback $n
+weaponbreak $n
+stun $n
+else
+if rand (20)
+mea $n Manu Dere impales his sword into your gut and twists the blade before jerking it free.
+mpdamage $n 400
+endif
+endif
+endif
+endif
+endif
+~
+|
+#8331
+bear cub~
+&OC&zope's &Op&zet &OB&zear &OC&zub~
+&W&OC&zope's &Op&zet &Ob&zear &Oc&zub &Oi&zs &Oh&zere
+~
+This bear cub is simple a small, black bear cub. Bear cubs tend to be 
+curious, and not nearly as fearful of humans as the adults, nor as 
+aggressive. 
+~
+16777217 0 0 1000 C
+0 0 -12 0 0 0
+1d10+250 2d4+3 0
+300 0
+112 112 1
+13 13 13 13 13 13 13 2
+0 0 0 0 0
+24 0 0 0 1 1 2
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+3 0 0 0 0 0 0 2 0
+#8332
+labrador ~
+&OC&zopenhaygen's &OL&zabrador &OR&zetreiver &OP&zup~
+&OC&zopenhaygen's &Ol&zabrador &Or&zetreiver &Op&zup &Oi&zs &Oh&zere &Ow&zhimpering.
+~
+This is Copenhaygen's pet puppy. It is a labrador retreiver, renowned for 
+their good nature and intelligence. This particular pup has black fur, 
+which is the most typical of this specie. 
+~
+1 0 0 1000 C
+0 0 -5 0 0 0
+1d10+240 2d4+3 0
+250 0
+112 112 0
+13 13 13 13 13 13 13 2
+0 0 0 0 0
+30 0 0 0 1 1 2
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+3 0 0 0 0 0 0 0 2
+#8333
+coyote~
+&OC&zoyote~
+&OA &Oc&zoyote &Oh&zowls &Ow&zildly.
+~
+The coyote, pretty much just a wild dog, though it is its own specie. It 
+is also closely related to the wolf, but the coyote however is mare of a 
+scavenger, killing and eating wounded animals predominantly. 
+~
+1 0 0 0 C
+0 0 -40 0 0 0
+1d20+380 4d3+4 0
+400 0
+112 112 0
+13 13 13 13 13 13 13 2
+0 0 0 0 0
+30 0 0 0 1 1 2
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+3 0 0 0 0 0 0 0 0
+> rand_prog 5~
+mpe _cya The coyote cocks back its head and howls wildly.
+~
+|
+#8334
+copperhead~
+&OC&zopperhead~
+&OA &Oc&zopperhead &Os&zlitheres &Ob&zy.
+~
+The copperhead snake has a very coppery colored hide, covered with a sort 
+of triangular pattern. The snake is poisonous, though not exceptionally 
+lethal if the wound is tended to quickly. 
+~
+1 0 0 0 C
+0 0 -10 0 0 0
+1d15+275 2d4+3 0
+315 0
+112 112 0
+13 13 13 13 13 13 13 2
+0 0 0 0 0
+62 0 0 0 1 1 2
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+3 0 0 0 0 0 0 0 0
+> rand_prog 10~
+mpe _cya The copperhead hisses as it flicks its tongue.
+~
+|
+#8335
+bobcat~
+&OB&zobcat~
+&OA &Ob&zobcat &Os&zquals &Om&zeancingly.
+~
+The bobcat is a cat larger than the domestic kind, but smaller than most 
+others. It has a naturally short tail, and very pointed ears. It's max 
+weight is normally about 50 pounds. 
+~
+1 0 0 0 C
+0 0 -10 0 0 0
+1d30+255 2d4+3 0
+310 0
+112 112 1
+13 13 13 13 13 13 13 2
+0 0 0 0 0
+74 0 0 0 1 1 2
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+3 0 0 0 0 0 0 0 0
+> rand_prog 15~
+mpe _cya The bobcat squals loudly.
+~
+|
+#8336
+mountain lion~
+&OM&zountain &OL&zion~
+&OA &Om&zountain &Ol&zion &Os&ztrolls &Ob&zy.
+~
+The female lion, a typical feline species with quite a few different names 
+and coloquialisms, such as Puma, or Panther. 
+~
+1 0 0 0 C
+0 0 -10 0 0 0
+1d30+250 4d2+3 0
+300 0
+112 112 2
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+74 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+3 0 0 0 0 0 0 0 0
+> fight_prog 10~
+mpe &C The mountain lion roars ferociously!
+~
+|
+#8337
+javelina~
+&OJ&zavelina~
+&OA &Oj&zavelina &Or&zoots &Oh&zere
+~
+The javelina is a ferrel hog basically, or a hog that has gone wild. The 
+javelina is also known as a razor-back. It is a tough critter, and a 
+scrappy one. 
+~
+1 0 0 0 C
+0 0 -10 0 0 0
+1d20+210 2d4+3 0
+274 0
+112 112 0
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+27 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+3 0 0 0 0 0 0 0 0
+> fight_prog 10~
+mea $n The javelina rushes you, tearing at you with his tusks.
+if rand(50)
+mea $n The javelina barely misses you!
+else
+if rand(50)
+mea $n The javelina's tusks thrash you!
+mpdamage $n 15
+endif
+endif
+~
+|
+#8338
+mule deer~
+&OM&zule &OD&zeer~
+&OA &Om&zule &Od&zeer &Og&zrazes here.
+~
+A regular, run-of-the-mill mule deer, large ears, tan neck, forking front 
+and rear tines on his antlers, dark tan coat, the full deal. 
+~
+1 0 0 0 C
+0 0 -10 0 0 0
+1d25+200 2d4+3 0
+250 0
+112 112 0
+13 13 13 13 13 13 13 2
+0 0 0 0 0
+76 0 0 0 1 1 2
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+3 0 0 0 0 0 0 0 0
+> fight_prog 10~
+mea $n The mule deer rushes you and stabs you with his antlers!
+mea $n The mule deer's antlers gash you.
+mpdamage $n 10
+~
+|
+#8339
+kevin nash~
+&OK&zevin &ON&zash~
+&OA&zn &Oo&zdd &Ol&zooking &Oc&zreature &Oc&zalled &Oa &OK&zevin &ON&zash
+~
+The "Kevin Nash" is about 6 feet and 7 inches tall, and weighs about 365 
+pounds. He has long brown hair, and is very muscular. He carries the look 
+of a wrestler. 
+~
+1 0 0 303 C
+0 0 25 25 25 25
+25d25+10000 4d3+100 0
+2000 0
+112 112 0
+25 13 13 18 13 13 13 80
+0 0 0 0 0
+0 0 0 0 1 1 80
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+4 0 7 0 0 0 0 48 524290
+> fight_prog 15~
+emote 's Power Bomb &R_ANNIHILATES_ &Cyou!!!!!!!!!!
+mpdamage $n 300
+~
+> fight_prog 15~
+emote 's &CBig Boot &Y_STAGGERS_ &Cyou!
+mpdamage $n 100
+~
+> fight_prog 15~
+emote 's &CSide Drop &P_DROPS_ &Cyou!!!
+mpdamage $n 200
+~
+> death_prog 99~
+if ispc($n)
+mea $n _cya As you defeat Kevin Nash, he disappears through a trap door in the ground.
+mpjunk top
+mpjunk bottom
+mpjunk boots
+mpjunk boots
+mpjunk sleeve
+mpjunk corpse
+endif
+~
+> fight_prog 25~
+emote 's&C Drop Suplex &G_TRAUMATIZES_ &Cyou!!!
+mpdamage $n 250
+~
+|
+#8340
+crickhopper~
+&OC&zrickhopper~
+&OT&zhe &OC&zrickhopper &Oj&zumps &Oa&zround
+~
+The crickhopper is exactly what the name says, a small insect, meaning six 
+legs, that appears to be crossed between a grasshopper and a cricket. It 
+is as large as a big grasshopper, but instead of green or yellowish, the 
+crickhopper is jet black. 
+~
+16777221 0 0 0 C
+0 0 25 20 20 20
+2d25+5000 10d5+100 0
+100 0
+112 112 0
+15 13 13 25 16 13 25 100
+0 0 0 0 0
+83 0 0 0 1 1 100
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+4 0 4 0 0 0 0 64 524328
+> all_greet_prog 100~
+say Long live the reign of the insects!
+knock $n
+thwap $n
+slap $n
+emote flies around your head, buzzing you ears.
+~
+> death_prog 99~
+if ispc($n)
+mea $n _RED The crickhopper's body explodes in a violent torrent of blood and guts.
+mea $n _RED The explosion is so violent all of its exoskeleton and weapons are destroyed.
+mea $n _RED You are damaged by the explosion.
+mpjunk thorax
+mpjunk abdomen
+mpjunk legs
+mpjunk legs
+mpjunk sting
+mpdamage $n 50
+endif
+~
+|
+#8341
+Hol Bol~
+&OH&zol &OB&zol~
+&OT&zhe &OH&zol &OB&zol &Ob&zeats &Oh&zis &Oc&zhest &Oa&zngrily
+~
+The Hol Bol is a very ape looking creature, but much less human. It has 
+sunken eyes, a more pronounced forehead than apes, and longer arms. It 
+does, however, have a very good skill of weapon wielding. 
+~
+5 0 0 200 C
+0 0 -65 0 0 0
+30d30+2500 10d10+40 0
+200 0
+112 112 0
+22 16 16 16 22 13 25 70
+0 0 0 0 0
+6 0 0 0 1 1 70
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+5 0 1025 0 0 0 0 16 524288
+> death_prog 100~
+if ispc($n)
+mea $n _red With the Hol Bol's last effort, it sacrifices it's lead glove to the gods
+mpjunk glove
+endif
+~
+|
+#8342
+Jabberwocky~
+&PJ&zabberwocky~
+&PT&zhe &PJ&zabberwocky &Pw&zhiffles &Pt&zhrough &Pt&zhe &Pt&zulgy &Pc&zliff
+~
+The Jabberwocky is a villainous creature, akin to the dreaded Hydriss by 
+the look of things. The Jebberwocky has long, purple wings, fringed with 
+many long spikes of bone. It has a long neck that raises about three feet 
+from the shoulders, and an odd, overly large head. It's mouth is filled 
+with 12 inch long teeth that shine with a razor's sharpness. It's body is 
+rather bulbous, but appears to be riddled with muscles that strain against 
+the skin of the creature. 
+~
+16781313 0 4194872 -1000 C
+0 0 -300 0 0 0
+20d10+28000 12d15+20 0
+1000000 0
+112 112 0
+25 25 25 25 25 25 25 10
+0 0 0 0 0
+31 0 0 0 1 1 10
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+40 40 32963 9 0 6 0 114 524323
+> fight_prog 50~
+if ispc($n)
+if rand(50)
+cast 'quantum spike' $n
+cast 'quantum spike' $n
+cast 'quantum spike' $n
+cast 'vomica pravus' $n
+cast 'vomica pravus' $n
+cast 'vomica pravus' $n
+cast 'flamestrike' $n
+cast 'flamestrike' $n
+cast 'flamestrike' $n
+else
+if rand(50)
+war Gyaaaahhhh!!!! DIE!!!!!
+emote throws back his head and breaths out an acidic fire!!!
+mpdamage $n 1000
+endif
+endif
+endif
+~
+> fight_prog 50~
+mpe _blu A mystical aura surrounds Jabberwocky.
+say By the power of the Gods, I feel better!
+mprestore self 9000
+~
+> fight_prog 25~
+if ispc($n)
+mpoload 25 1
+give bag $n
+mpforce $n remove all
+mpforce $n put all bag
+mpforce $n drop bag
+mpforce $n sac bag
+cackle $n
+mea $n Thank you for the donation, but you will still die a horrible death!
+mer $n Jabberwocky has just insideously forced $n to give him a most generous donation!
+endif
+~
+> death_prog 100~
+if ispc($n);
+roar $n;
+mea $n In it's death throes the jabberwocky hits you with it's tail, hurting you severely and knocking you into it's ball of light, thus destroying it.;
+mpdamage $n 200;
+mpjunk ball;
+endif
+~
+|
+#8343
+jub jub bird~
+&OJ&zub &OJ&zub &OB&zird~
+&OA &OJ&zub &OJ&zub &OB&zird squawks mercilessly
+~
+The Jub Jub Bird is a very aggressive specie of bird. It has long, thick 
+feathers, which serve as a good form of armor, which is accompanied by 
+long sharp claws and a razor tipped beak. 
+~
+1 0 0 -103 C
+0 0 -70 0 0 0
+5d15+625 4d4+4 0
+250 0
+112 112 0
+13 13 13 13 13 13 13 3
+0 0 0 0 0
+78 0 0 0 1 1 3
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 3 2
+#8344
+mome rath~
+&OA M&zome &OR&zath~
+&OA M&zome &OR&zath &Oi&zs &Ob&zaring &Oi&zts &Ol&zack &Oo&zf &Ot&zeeth
+~
+The mome rath is an exceptionally ugly, very old, semi-human built 
+creature. Unfortunately, his mental ability is not even near that of a 
+turnip, which leaves his mind filled with thoughts of procreation and 
+drinking. 
+~
+16777217 0 0 0 C
+0 0 30 0 0 0
+100d10+3000 5d6+20 0
+300 0
+112 112 1
+18 13 13 22 13 13 16 100
+0 0 0 0 0
+0 0 0 0 1 1 100
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+2 0 0 0 0 0 0 0 524288
+> death_prog 99~
+if ispc($n)
+mea $n As the mome rath dies its acidic blood dissolves all of its equipment.
+mpjunk vorpal
+mpjunk turloquin
+mpjunk blar
+mpjunk blar
+endif
+~
+> fight_prog 80~
+if ispc ($n)
+disarm $n
+disarm $n
+disarm $n
+if rand (25)
+nervepinch $n
+stun $n
+kickback $n
+else
+if rand (25)
+mea $n The Mome Rath glares at you and the penetrating gaze seers your retina
+gouge $n
+mpdamage $n 150
+else
+if rand (25)
+c 'caustic fount' $n
+c 'fireblast' $n
+mea $n The Mome Rath utters some strange and incoherent words and suddenly you are wracked with extreme pain.
+mpdamage $n 200
+else
+if rand (25)
+mea $n The Mome Rath pounces on your chest causing you to fall to the ground.
+mpforce $n sit
+mpdamage $n 100
+endif
+endif
+endif
+endif
+endif
+~
+|
+#8345
+slithy tothe~
+&OS&zlithy &OT&zothe~
+&OA &OS&zlithy &OT&zothe &Os&zlurps &Ou&zp &Os&zome &Ob&zones
+~
+The slithy tothe has a long snout, filled with short, pointed teeth that 
+teem together in rows upon rows. It is a small, rodent sized creature, but 
+fights tougher than a wolverine. Her skin is thick, and her longevity has 
+gained an extremely high ability to with stand many many wounds. 
+~
+3 0 0 -153 C
+0 0 -40 0 0 0
+5d100+2500 3d3+3 0
+500 0
+112 112 2
+13 13 13 13 13 13 13 2
+0 0 0 0 0
+87 0 0 0 1 1 2
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+4 0 0 0 0 0 0 0 2
+#8346
+chijuajua little~
+&OA cute little chijuajua~
+&OA cute little chijuajua is sitting here thinking of Taco Bell.
+~
+You see the cute little spokesman for Taco Bell.
+~
+65539&8 0 0 23 C
+0 0 28 0 0 0
+1d5+75 1d1+2 0
+100 0
+112 112 0
+13 13 13 14 13 13 14 1
+0 0 0 0 0
+30 0 0 0 1 1 1
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+1 0 0 0 0 0 0 0 0
+> rand_prog 25~
+say I think I need a bigger box.
+~
+> rand_prog 25~
+say Viva Gorditas!
+~
+> rand_prog 25~
+say Drop the Chalupa!
+~
+> rand_prog 25~
+say Here lizard lizard lizard...
+~
+> rand_prog 25~
+say Yo Quiro Taco Bell!
+~
+> rand_prog 25~
+say heh...for you...39 cents.
+~
+> death_prog 100~
+if ispc($n)
+mpoload 8396 1
+mpe _cya $n You beat me...here...take my chalupa.
+give chalupa $n
+endif
+~
+> death_prog 100~
+mpecho $n won the Quest.
+~
+> hitprcnt_prog 99~
+if hp < 100% tell nevon "Help I am being attacked!"
+endif
+~
+|
+#8347
+jackgiant~
+&OJ&zackgiant~
+&OA &OJ&zackgiant &On&zibbles &Oo&zn &Os&zome &Os&ztones
+~
+The Jackgiant is apparently some strange mutation of a rabbit and some 
+other 'thing'. It's other half is undiscernable though. Presently, it 
+loves to eat stones, of any kind, shape, or size. It has a common fur and 
+a very distinct rabbit shape, though it is quite larger, standing at some 
+5 feet tall at the back, it's ears reaching a height of about 8 feet. 
+~
+1 0 0 250 C
+0 0 50 0 0 0
+2d25+550 2d4+3 0
+250 0
+112 112 0
+13 13 13 13 13 13 13 2
+0 0 0 0 0
+87 0 0 0 1 1 2
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+3 0 0 0 0 0 0 0 2
+#8348
+brown furry~
+&OA brown, furry creature~
+&OA brown, furry creature emerges from its hole
+~
+&O This furry brown creature is known is this kingdom as a monmole. It is 
+a close cousin to a normal mole, except that this particular specie has an 
+overly large set of hind claws and larger eyes. 
+~
+65 0 0 0 C
+0 0 28 0 0 0
+1d5+65 1d1+1 0
+35 0
+112 112 0
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+77 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#8349
+colorful bird~
+&YA &Rc&Yo&Rl&Yo&Rr&Yf&Ru&Yl &Rb&Yi&Rr&Yd~
+&YA &Rc&Yo&Rl&Yo&Rr&Yf&Ru&Yl &Rb&Yi&Rr&Yd flies by.
+~
+&G This very colorful bird is known in this realm as a Fire Flit because 
+of its bright red and yellow markings. It is native to this realm and is, 
+as of yet, only found in this realm. 
+~
+65 0 524288 0 C
+0 0 30 0 0 0
+1d5+55 1d1+1 0
+25 0
+112 112 0
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+78 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 32768 0 0 0 0 0 0
+#8350
+rayne~
+&bR&za&by&zn&be&W~
+&bR&za&by&zn&be&z, &bt&zhe &be&zlite &bw&zoodswoman,&b i&zs &bs&ztanding &bh&zere.
+~
+&bR&za&by&zn&be is a short, somewhat more stocky looking 
+elf. Her skin is covered with a mazelike network of 
+swirling and jagged tattoos. She is extremely beautiful, 
+and has a wild attraction about her. Her hair is long, 
+reaching down to the point where the back of her legs just 
+meets her posterior. Her eyes are an icy blue, and her skin 
+is a dark nut brown. Her tattoos are black, and frame her 
+curves well. Her muscles are rather prominent, but still 
+have an elegant and definitely feminine air. Though she is 
+only four feet and six inches tall, she carries herself as 
+through she were a giant among men, but with all the grace 
+of the daintiest house cat. 
+~
+1 0 0 0 C
+0 0 25 25 25 25
+100d50+20000 15d15+200 0
+100 0
+112 112 2
+25 25 25 25 25 13 25 100
+0 0 0 0 0
+1 0 0 0 1 1 100
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 65 0 0 0 0 0 555746112 569123
+> fight_prog 75~
+if rand (33)
+mea $n &bR&za&by&zn&be performs a series of dazzling swirls highlighted by glints of steel.
+mea $n &bAfter she finishes the awe inspiring maneuver you realize you have been severely injured.
+mpdamage $n 400
+else
+if rand (33)
+powerslice $n right
+powerslice $n right
+powerslice $n right
+powerslice $n right
+powerslice $n left
+powerslice $n left
+powerslice $n left
+powerslice $n left
+else
+if rand (33)
+mea $n &bR&za&by&zn&be winks at you coyly and her eyes sparkle as her wounds close.
+mprestore self 200
+endif
+endif
+endif
+~
+|
+#8399
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#8249
+cope chair~
+&G&OCopenhaygen's Chair~
+&G&OCopenhaygen's Chair is positioned here~
+~
+12 0 0
+0 3000 1154 1000
+1.000000 0 0 9159 0 0 0
+E
+copenhaygen's chair~
+This chair is a finely crafted, oak office chair, upholstered in black 
+leather and padded with feather down. 
+~
+#8250
+beanbag chair~
+&RB&ceanba&Rg C&chai&Rr~
+&RA B&ceanba&Rg C&chai&Rr~
+~
+12 64 0
+0 0 1024 350 350 0 0 0 0 0 0 0 0 0
+80.000000 0 0 0 0 0 0
+E
+chair~
+One of Nevon's chairs.
+~
+#8251
+chopping block~
+&OA C&zhopping &OB&zlock~
+&OA B&zloody C&zhopping &OB&zlock is here.~
+~
+12 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#8252
+spice rack~
+&OA S&zpice &OR&zack.~
+&OA S&zpice &OR&zack hangs on the wall here.~
+~
+15 0 0
+250 0 0 0
+1.000000 0 0 0 0 0 0
+E
+rack~
+This neat little spice rack holds many different spices and other
+powereded herbs that a chef would use to make a wonderful meal.
+~
+#8253
+golden compass~
+&YA Golden Compass~
+&YA Golden Compass rests here.~
+~
+9 1 33
+5 5 5 1000 50 2 0 0 0 0 0 0 0 0
+1.000000 1000 0 0 0 0 0
+E
+compass~
+&YThis small golden compass is engraved with silver letters that
+read N, S, E, W.
+~
+#8254
+candle~
+&OA S&zmall &OS&zcented &OC&zandle.~
+&OA S&zmall &OS&zcented &OC&zandle rests calmly on the hearth.~
+~
+1 64 0
+0 0 1000 0
+1.000000 20 0 0 0 0 0
+E
+candle~
+This is just a simple scented candle with some slightly melted wax
+on the sides.
+~
+#8255
+golden toilet~
+&YGolden Toilet~
+&YA Golden Toilet.~
+~
+12 64 0
+0 0 1 200 300 0 0 0 0 0 0 0 0 0
+1.000000 5000 0 0 0 0 0
+#8256
+hydran tooth~
+&RH&cydran'&Rs T&coot&Rh~
+&cA long object that looks like a giant tooth is lying on the ground here.~
+~
+5 -2147483391&0&256 513
+1000 48 53 4 -1 -1 0 10 19 29 20 0 20 5
+1.000000 550 0 0 0 0 0
+'NONE'
+E
+tooth~
+&cThis object is the bloody tooth from the corpse of the Hydren.
+~
+#8257
+reptile boots~
+&GR&geptile &GB&goots~
+&GA pair of &GR&geptile &GB&goots&G lay on the floor here.~
+~
+9 532738 65
+10 10 10 1000 10 3 0 0 0 0 0 0 0 0
+1.000000 300 0 0 0 0 0
+E
+boots~
+These boots have been made from the tough skin of several different
+reptiles from Rafermand.
+~
+#8258
+majestic mace~
+&YT&Whe &YM&Wajestic &YM&Wace~
+&YT&Whe &YM&Wajestic &YM&Wace floats here above the ground.~
+~
+5 -2147483384&2097152&2064 513
+1000 60 80 6 -1 -1 0 50 10 10 30 0 10 20
+15.000000 7500 0 0 0 0 0
+'NONE'
+E
+mace~
+&YT&Whis is the most perfect clerical weapon in all of Rafermand.
+&YT&Whis mace was forged by Graves many years ago. &YA&Wt the time
+of his death, Graves casted a magical spell on his statue that
+will protect this weapon from unworthy mortals. &YO&Wnly the
+cleric with a pure heart can wield this mace.
+~
+A
+13 20
+A
+4 1
+> get_prog 100~
+mea $n _cya The holy force of this mace is so bright
+mea $n _cya that it knocks you off your feet.
+mpforce $n sit
+~
+> wear_prog 100~
+mer $n _cya A holy aura surrounds $n as they radiates with power and speed.
+~
+|
+#8259
+notebook~
+&OA small notebook~
+&OA small notebook rests here in the dirt.~
+~
+35 0 1
+5 5 0 0
+1.000000 250 0 0 0 0 0
+E
+notebook~
+&OThis small worn notebook has some of the bindings torn off and the
+brown leather cover is dirty and scratched. The text on the front
+cover reads "Private Property!"
+~
+#8260
+tower shield~
+&YT&Wower &YS&Whield~
+&WA massive &Yt&Wower &Ys&Whield is stuck in the ground here.~
+~
+9 -2147483648 129
+5000 5000 75 4 10 5 0 0 0 0 0 0 0 0
+10.000000 7600 0 0 0 0 0
+E
+shield~
+&YT&Whis is shield is so massive that it can only be carried on a
+person's back. &YT&Whis shield was given to Graves by the Immortal
+Nevon and created it so that only Graves could hold it. &YA&Wfter much
+consideration Nevon let the shield be used by other mortals but
+it had to keep its incredible weight.
+~
+#8261
+Mythical Leggings~
+&YM&Wythical &YL&Weggings~
+&YG&Wraves' &YM&Wythical &YL&Weggings rest calmly here on the ground.~
+~
+9 -2147483392 33
+25 30 10 1500 25 4 0 0 0 0 0 0 0 0
+5.000000 700 0 0 0 0 0
+E
+leggings~
+&YT&Whese awsome leggings are another piece of equipment off the
+statue of Graves. &YT&Whe leggings are powerful and will make a
+fine collection to any cleric.
+~
+A
+82 1
+#8262
+helm of knowledge~
+&YT&Whe &YH&Welm &Yo&Wf &YK&Wnowledge~
+&YT&Whe &YH&Welm &Yo&Wf &YK&Wnowledge rests here on the ground.~
+~
+9 256&2097152&16 17
+4 4 0 0 25 4 0 0 0 0 0 0 0 0
+2.000000 560 0 0 0 0 0
+E
+helm~
+&YT&Whis helm will give the owner great knowledge. &YW&When this
+helmet is joined with the other pieces of Graves' equipment then
+legend says a great God will bless the owner with....
+~
+A
+3 1
+A
+82 1
+#8263
+singing sword~
+&WT&Bh&We &WS&Bingin&Wg &WS&Bwor&Wd~
+&W&WT&Bh&We S&Bingin&Wg S&Bwor&Wd lies here.~
+~
+5 323&0&64 513
+1000 30 40 5 -1 -1 0 10 19 19 0 0 15 8
+5.000000 7500 0 0 0 0 0
+'NONE'
+E
+sword~
+&WThe famous singing sword was crafted by Nevon to keep the Elder
+Gods company while they helped create the world of Rafermand.
+Yet along time ago this sword was stolen from their Immortal house
+and now resides in the mortal realm. This sword has beautiful
+carvings etched on its blade and hilt. There are rare jewels
+encrusted onto the hilt and the blade has been dipped into a fire
+of liquid diamonds.
+~
+E
+singing~
+&WThe famous singing sword was crafted by Nevon to keep the Elder
+Gods company while they helped create the world of Rafermand.
+Yet along time ago this sword was stolen from their Immortal house
+and now resides in the mortal realm. This sword has beautiful
+carvings etched on its blade and hilt. There are rare jewels
+encrusted onto the hilt and the blade has been dipped into a fire
+of liquid diamonds.
+~
+A
+56 -1
+> get_prog 100~
+mea $n _cya "Praise to you my King! I will now sing praises with my perfect voice."
+~
+> wear_prog 100~
+mea $n _cya "I shall do my best to defeat your enemies my King."
+~
+> rand_prog 5~
+mpecho "La, la, la laaa!"
+~
+> rand_prog 5~
+mpecho "doobie doobie doo."
+~
+> rand_prog 5~
+mpecho "So darling, darling, stand by me. Oooh darling stand by me."
+~
+> rand_prog 5~
+mpecho "Choices always were a problem for you."
+~
+> rand_prog 5~
+mpecho "Why don't you come with my little girl, on a magic carpet ride."
+~
+> rand_prog 5~
+mpecho "Come on turn. Turn this thing around. Right now! Its everything."
+~
+> rand_prog 5~
+mpecho "But trust me on the sunscreen."
+~
+> rand_prog 5~
+mpecho "Sometimes I feel I've got to, runaway. I've got to get away."
+~
+> rand_prog 5~
+mpecho "And another one bites the dust."
+~
+> rand_prog 5~
+mpecho "I am immortal! I have inside me blood of kings!"
+~
+> rand_prog 5~
+mpedit "Letting the days go by, water flowing underground."
+~
+> rand_prog 5~
+mpecho "Cause I miss you baby and I dont want to miss a thing."
+~
+> rand_prog 5~
+mpecho "It's all about the pentiums baby."
+~
+> rand_prog 5~
+mpecho "Now I'm free. Free falling."
+~
+> rand_prog 5~
+mpecho "You got the kind of loving that can be so smooth."
+~
+> rand_prog 5~
+mpecho "Falling away from me."
+~
+> rand_prog 5~
+mpecho "I dont like the drugs but the drugs like me."
+~
+> rand_prog 5~
+mpecho "Do it doggie style so we can both watch X-Files."
+~
+> rand_prog 5~
+mpecho "We are NOTORIOUS. No- No- NOTORIOUS."
+~
+> rand_prog 5~
+mpecho "Down on the Corner. Out here in the street..."
+~
+> rand_prog 5~
+mpecho "Stop. Drop. Shut'em down open up shop. Oh Yo Thats our Ruff Ryders roll."
+~
+> rand_prog 5~
+mpecho "California Dreamin on a cold winters day."
+~
+> rand_prog 5~
+mpecho "I like traffic lights. I like traffic lights. No matter were they be."
+~
+> rand_prog 5~
+mpecho "Dontcha want somebody love. Dontcha need somebody to love."
+~
+> rand_prog 5~
+mpecho "Jane says. Have ya seen my wig around. She knows. They all want her to go..."
+~
+|
+#8264
+hydran sheath~
+&RH&cydra&Rn S&cheat&Rh~
+&cA very large sheath made of the skin and bones of the Hydran lies here.~
+~
+68 -2147483327 2305 4
+25 0 8256 12 -1 7 0 0 0 0 0 0 0 0
+1.000000 4832 0 0 0 0 0
+'NONE'
+#8265
+hampster~
+&Oa tiny hampster~
+&OA tiny rubber hampster rests here on the ground.~
+~
+13 320 1
+8 8 0 0
+1.000000 0 0 0 0 0 0
+> rand_prog 5~
+mpecho *Squeak*
+~
+|
+#8266
+fortuna silver tyche~
+&zF&Wortuna's &zS&Wilver &zT&Wyche~
+&zF&Wortuna's &zS&Wilver &zT&Wyche hovers calmly above the ground.~
+~
+1 321&256 1
+13 13 -1 0
+8.000000 25000 0 0 0 0 0
+A
+56 89
+#8277
+thorns~
+&gthorns~
+&gA tangle mess of thorns is beside the path~
+~
+39 0 0
+0 0 0 0
+100.000000 0 0 0 0 0 0
+> use_prog 100~
+mea $n &CAs you push the thorns out of the way, you are pulled
+mea $n &Cdown the opened path, causing the thorns to tear
+mea $n &Cat your skin!!!
+mea $n &RThe thorn's thorns _shred_ you!!!
+mpdamage $n 50
+mptransfer $n 8262
+
+mpat 8262 mpforce $n look
+~
+|
+#8339
+card~
+&gAn ID Card&G~
+&gAn ID Card lies here.&G~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#8340
+celtic shield~
+&YCeltic &zShield~
+&YA celtic &zshield is lying here.~
+~
+9 0&256 513
+3000 3000 1000 2 0 2 0 0 0 0 0 0 0 0
+7.000000 10000 0 0 0 0 0
+E
+celtic shield~
+This beautiful and excellent shield was provided to the mortal 
+realm by Copenhaygen as quest for Adamantain. It has a 
+beautiful, golden, celtic knot in the center, and a strong 
+magical aura. 
+~
+A
+82 2
+A
+13 20
+A
+56 -1
+> wear_prog 100~
+if name($n) != Adamantain
+mpforce $n remove shield
+mpe $n This shield is for Adamantain, and no one else may wear it! The Gods demand it so.
+mpforce $n drop shield
+endif
+~
+> get_prog 100~
+if name($n) != Adamantain
+mpe $n This shield is for Adamantain, and no one else may wear it! The Gods demand it so.
+mpforce $n drop shield
+endif
+~
+|
+#8341
+broken shield half~
+&YHalf of a &zbroken shield~
+&YHalf of a &zbroken shield is lying here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+broken shield half~
+This is half of an old shield that saw one too many battles. The 
+only part that remains here is a broken and mangled chunk of 
+metal. 
+~
+#8342
+celtic knot~
+&YA Celtic &zKnot~
+&YA Celtic &zKnot is lying here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+celtic knot celt celti kno~
+This knot is made of golden strands of wire. If you trace the 
+path of the line, it goes around itself, inside itself, through 
+itself, many many times, and in the end meets up with where it 
+starts. It looks as though it used to be part of a rather nice 
+shield. 
+~
+#8343
+nash elbow sleeve~
+&ON&zash &OE&zlbow &OS&zleeve~
+&ON&zash's &Oe&zlbow &Os&zleeve &Oi&zs &Ol&zying &Oh&zere~
+~
+9 256 257 4
+15 15 6 1000 5 1 0 0 0 0 0 0 0 0
+1.000000 150 0 0 0 0 0
+E
+nash elbow sleeve~
+A small, short 'sleeve' which slides up the arm and around the elbow to 
+provide support for the joint. 
+~
+#8344
+Bow of Neutrality~
+&OB&zow of &ON&zeutrality~
+&OThe B&zow of &ON&zeutrality stands here.~
+~
+56 0 513
+1000 6 10 5 5 0 0 1 0 2 10 0 0 0
+1.000000 3895 0 0 0 0 0
+#8345
+opaque bear claw~
+&CO&zpaque &Cb&zear &Cc&zlaw~
+A strange claw lies on the ground here.~
+~
+5 257&0&260 513
+1000 20 40 2 -1 -1 0 0 17 19 3 0 13 1
+2.000000 683 0 0 0 0 0
+'NONE'
+A
+82 5
+A
+77 1
+#8346
+strange twig~
+&zS&Otrang&ce &zT&Owi&cg~
+&OA small twig lies on the ground here.~
+~
+13 257 1
+13 13 0 0 0 35 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+#8361
+rayne blade~
+&bR&za&by&zn&be&z B&bl&za&bd&ze&W~
+The sword of the elite woodswoman has been left here.~
+~
+5 128&384 513
+1000 200 230 5 -1 -1 0 6 53 63 100 0 100 100
+1.000000 0 0 0 0 0 0
+'NONE'
+E
+rayne blade sword~
+&zT&bhe &zR&bayne &zB&blade was designed for superior blade 
+control in close quarters. The blade is rather short, 
+measure about eighteen inches long. The unique thing about 
+the design of this sword is that the handle is the same 
+length at the blade. This allows for ease of balancing 
+during creation, but more importantly it provides better 
+leverage for the weapon wielder during a fight while 
+mainting the short blade for close quarters. 
+~
+> get_prog 100~
+This blade was not meant for normal mortals.
+mpforce $n drop rayne
+mpforce $n sac rayne
+~
+|
+#8362
+skinning knife~
+&bA C&Bop&ben&Bha&byg&Ben&b Kn&Bif&be&W~
+&BA C&bop&Ben&bha&Byg&ben&B st&byl&Be k&bni&Bfe&b wa&Bs l&bef&Bt h&ber&Be.&W~
+~
+5 12&2097408&276 513
+1000 200 220 5 -1 -1 0 19 40 40 40 0 100 100
+8.000000 0 0 0 0 0 0
+'NONE'
+E
+copenhaygen knife~
+&BA&Bs you look at this &Bk&bnife you might wonder to 
+&By&bourself what a &BC&bopenhaygen Knife is. Well, it is a 
+knife &Bt&bhat was designed by &BC&bopenhaygen and 
+originated a style of &Bb&blade shape, much akin to the 
+&BB&bowie Knife. Now, more specifically about &Bt&bhis 
+knife, it is not overly large, &Bh&baving a blade a mere 
+four to &Bs&bix inches in length. The &Bm&betal structure 
+is continuous &Bt&bhroughout the design, making the 
+&Bk&bnife fully functional without a &Bh&bandle, which is 
+normally &Bf&bashioned from two piece of &Bw&bood which are 
+fixed to both &Bs&bides of the handle. The blade itself 
+&Ba&blways has a single edge and a flat &Bb&back that 
+tapers gradually to the &Bp&boint, but only starting that 
+taper an &Bi&bnch or two from the point. The blade always 
+has a &Bs&bpine that runs down the center line of the 
+blade, for &Bs&btability of the point, and the back of 
+&Bt&bhe blade has small notches, for decoration &Bo&bnly. 
+~
+A
+82 100
+A
+77 70
+A
+2 5
+#8364
+bandana~
+&gA green bandana&W~
+&gA green square of cloth has been left here&W~
+~
+9 0&256 5 2
+1000 1000 1000 1000 1000 1 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+A
+82 50
+#8365
+leather gloves~
+&OSturdy rawhide gloves&W~
+&OSome rawhide gloves were left here.&W~
+~
+9 0&256 65
+1000 1000 1000 1000 1000 1 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+#8366
+green shirt~
+&gA plain cut green shirt&W~
+&gA plain cut green shirt was left here.&W~
+~
+9 0&256 9 1
+1000 1000 1000 1000 1000 1 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+#8369
+jeans and boots~
+&bBlue jeans and &OCowboy boots&W~
+&bSome jeans and &Oboots are lying in lump here.&W~
+~
+9 0&256 33
+1000 1000 1000 1000 1000 1 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+#8370
+cowboy hat~
+&YA cowboy hat&W~
+&YA straw cowboy has been left here.&W~
+~
+13 0&256 17 1
+1000 1000 1000 1000 1000 1 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+#8371
+cope desk~
+&OC&zopenhagen's &OD&zesk~
+&OC&zopenhagen's &Od&zesk is in the center of the room~
+~
+12 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+copenhaygen's desk~
+The desk is not much more than a desk really, though it is crafted exactly 
+like the rest of the house, being made of roots and vines than have come 
+up and wound around each other to form in the shape of a desk. 
+~
+#8372
+scewer~
+&OA S&zcewer~
+&OA s&zcewer &Oi&zs &Ol&zying &Oh&zere~
+~
+5 0&0&256 513 2
+1000 10 15 3 -1 -1 0 2 9 10 4 0 9 4
+2.000000 50 0 0 0 0 0
+'NONE'
+E
+scewer~
+This is a simple meat scewer.
+~
+A
+82 3
+#8373
+gothic blade~
+&OG&zothic &OB&zlade~
+&OA g&zothic &Ol&zooking &Ob&zlade &Oi&zs &Oh&zere~
+~
+5 256&128&64 513
+1000 21 32 7 -1 -1 0 8 17 15 10 0 14 8
+7.000000 500 0 0 0 0 0
+'NONE'
+E
+gothic blade goth ~
+The gothic blade is a short sword to the race it's designed for, those 
+being ogres or trolls. For them, it is an easy to wield, lightweight 
+weapon. 
+~
+A
+2 1
+#8374
+tiger fangs~
+&OT&ziger &OF&zangs~
+&OA &Os&zet &Oo&zf &Ot&ziger &Of&zangs &Oa&zre &Ol&zying &Oh&zere~
+~
+5 256&0&260 513
+1000 13 43 2 -1 -1 0 0 9 10 3 0 10 3
+3.000000 1000 0 0 0 0 0
+'NONE'
+E
+siberian tiger fangs fang~
+The fangs of the siberian tiger.
+~
+#8375
+wolverine claws~
+&OW&zolverine &OC&zlaws~
+&OS&zome &OW&zolverine &OC&zlaws~
+~
+5 256&0&260 513 2
+1000 18 38 2 -1 -1 0 0 12 8 3 0 13 2
+3.000000 12000 0 0 0 0 0
+'NONE'
+E
+wolverine claws wolv claw~
+These are the claws of a wolverine, the second most dangerous natural 
+beast in the known world. 
+~
+A
+82 1
+#8376
+celtic breastplate~
+&YCeltic &zBreastplate~
+&OA c&zeltic &Os&ztyle &Ob&zreastplate &Ow&zas &Od&zropped~
+~
+9 392&2 9
+30 30 30 1000 15 4 0 0 0 0 0 0 0 0
+10.000000 35000 0 0 0 0 0
+E
+celtic breastplate breast plate~
+This is a breastplate in typical fashion of what existing Celtic 
+breastplates are made in. The chest is covered with celtic knots bordering 
+a coat of arms, which, on this particular breastplate is the coat of 
+Copenhaygen's house. 
+~
+A
+82 10
+A
+77 2
+#8377
+celtic sword~
+&YCeltic &zSword~
+&OA c&zeltic &Os&ztyle &Os&zword &Oi&zs &Ol&zying &Oh&zere~
+~
+5 264&131200&64 513
+1000 51 73 9 -1 -1 0 10 23 18 20 0 5 30
+6.000000 30000 0 0 0 0 0
+'NONE'
+E
+celtic sword~
+This sword is made in typcial celtic style. It's not too large, but has an 
+ample sized hilt. Along the handle and blade and inscribed some Gaelic 
+runes, surrounded by Celtic knots. 
+~
+A
+82 10
+A
+13 100
+A
+77 3
+> get_prog 99~
+mea $n Your soul is not ready to bear the burden of this blade.
+mpforce $n drop sword
+mpforce $n sac celtic
+~
+> wear_prog 99~
+mea $n You do not feel spiritually worthy of the blade and so it rejects you.
+mpforce $n remove sword
+mpforce $n remove sword
+~
+|
+#8378
+briars~
+&gA tangled mess of briars~
+&gA tangled mess of briars stands in the path~
+~
+39 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+> use_prog 100~
+mea $n &CAs you push the briars out of the way and open the path
+mea $n &Cthe stickers pull and tear your skin as you are pulled
+mea $n &Cdown through the opening!!!
+mea $n &RThe briars' thorn _rends_ you!!!
+mpdamage $n 50
+mptransfer $n 8263
+mpat 8263 mpforce $n look
+~
+|
+#8379
+limb~
+&glimb~
+&gA limb hangs out precariously from a tree~
+~
+37 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+limb~
+A simple, treelimb.
+~
+> use_prog 100~
+mea $n &CAs you shove the limb aside you are suddenly pulled
+mea $n &Cdown the path it revealed.
+mptransfer $n 8255
+mpat 8255 mpforce $n look
+~
+|
+#8380
+branch~
+&gbranch~
+&gA large branch stands out against the treeline~
+~
+37 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+branch~
+A simble branch hangs out here
+~
+> use_prog 100~
+mea $n &CAs you shove the branch aside you are suddenly pulled
+mea $n &Cdown the path it opened up.
+mptransfer $n 8253
+mpat 8253 mpforce $n look
+~
+|
+#8381
+shrub~
+&gshrub~
+&gA shrub seems to be covering up a small opening in trees south of here~
+~
+37 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+shrub~
+A simple, woodland shrub.
+~
+> use_prog 100~
+mea $n &CAs you move the shrub you fall through the opening it revealed.
+mptransfer $n 8252
+at $n mpforce $n look
+~
+|
+#8382
+bush~
+&gbush~
+&gA bush blocks what appears to be a slight opening to the north~
+~
+36 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+bush~
+A bush, small, and thick, covered with small leaves and made up of small, 
+twisted branches and twigs. 
+~
+> use_prog 100~
+mea $n &C As you push the bush to the side you fall through
+mea $n &C the opening that it made it visible.
+mptransfer $n 8253
+at 8253 mpforce $n look
+~
+|
+#8384
+nash boots~
+&ON&zash &OB&zoots~
+&ON&zash's &Ob&zoots &Oa&zre &Ol&zying &Oh&zere~
+~
+9 256 33
+20 20 20 1000 10 1 0 0 0 0 0 0 0 0
+3.000000 200 0 0 0 0 0
+E
+nash boots~
+The Nash boots are simply boots, made of shiny black leather.
+~
+#8385
+nash bottom~
+&ON&zash &OB&zottom~
+&ON&zash's &Op&zants &Oa&zre &Ol&zying &Oh&zere~
+~
+9 256 257 4
+8 8 8 1000 3 1 0 0 0 0 0 0 0 0
+2.000000 250 0 0 0 0 0
+E
+nash bottom pants~
+The Nash bottom, or pants are all black, and tight fitting, made of a 
+thick, shiny leather. 
+~
+A
+10 10
+#8386
+nash top~
+&ON&zash &OT&zop~
+&ON&zash's &Ot&zop is lying here~
+~
+9 0 9 4
+8 8 8 1000 3 1 0 0 0 0 0 0 0 0
+1.000000 200 0 0 0 0 0
+E
+nash top~
+The Nash Top is black with vertically pointing black triangle that start 
+at the tail of the shirt, and reach up to the area covering the pectoral 
+muscles. The shirt is sleeves, and tight fitting. 
+~
+A
+11 100
+#8387
+omega sting~
+&OO&zmega &OS&zting~
+&OA&zn &Oo&zdd &Ol&zooking &Os&ztick &Ol&zies &Oi&zn &Ot&zhe &Os&zand~
+~
+5 0&128&260 513
+1000 20 24 1 -1 -1 0 0 15 21 20 0 25 1
+1.000000 235 0 0 0 0 0
+'NONE'
+E
+omega sting~
+The powerful blade of the insect race, the name meaning "last sting", 
+which is roughly translated to them as "Last Laugh". The little dagger 
+itself is made of black steel and lined with inset strands of gold. 
+~
+A
+77 1
+A
+82 2
+> wear_prog 100~
+mea $n &CYou hear the laughter of the ages of the insects
+mea $n &Cas they rejoice in the joy of a race outside their
+mea $n &Cown bowing to the will of Omega Sting.
+~
+|
+#8388
+crickhopper legs~
+&OC&zrickhopper &OL&zegs~
+&OT&zhe &Oc&zrickhopper &Oh&zas &Oc&zome &Oo&zut &Oo&zf &Oh&zis &OL&zegs~
+~
+9 0 33 8
+10 10 10 1000 10 1 0 0 0 0 0 0 0 0
+3.000000 206 0 0 0 0 0
+E
+crickhopper legs~
+The legs of the crickhopper are made of the insectoid armor plating of all 
+insects, and make a nice set of armor. 
+~
+#8389
+crickhopper abdomen~
+&OC&zrickhopper &OA&zbdomen~
+&OT&zhe &Oc&zrickhopper &Oh&zas &Ol&zost &Oh&zis &Oa&zbdomen~
+~
+9 0 257 8
+30 30 30 1000 30 2 0 0 0 0 0 0 0 0
+3.000000 250 0 0 0 0 0
+E
+crickhopper abdomen~
+The abdomen of the crickhopper, made of the insect material, makes a good 
+set of armor. 
+~
+#8390
+crickhopper thorax~
+&OC&zrickhopper &OT&zhorax~
+&OT&zhe &Oc&zrickhopper &Oh&zas &Oc&zome &Oo&zut &Oo&zf &Oh&zis &Ot&zhorax~
+~
+9 256 9 8
+30 30 30 1000 40 1 0 0 0 0 0 0 0 0
+2.000000 400 0 0 0 0 0
+E
+crickhopper thorax~
+The thorax of the crickhopper, being hard and thick, makes a perfect plate 
+of armor. 
+~
+#8391
+Lead Glove~
+&OL&zead &OG&zlove~
+&OA &OL&zead &OG&zlove &Oi&zs &Ol&zying &Oh&zere~
+~
+5 0&128&2048 513
+1000 20 33 6 -1 -1 0 20 10 0 20 0 30 10
+25.000000 150 0 0 0 0 0
+'NONE'
+E
+lead glove~
+Simply, a glove made of lead.
+~
+> get_prog 100~
+mea $n _cya The sheer weight of the lead glove exhausts you.
+mea $n &C and makes you tired.
+mpforce $n sleep
+~
+|
+#8392
+ball of light~
+&OB&zall &Oo&zf &OL&zight~
+&OA &OB&zall &Oo&zf &OL&zight &Og&zlows &Oe&zerily~
+~
+5 256&128&2048 513 1
+1000 130 200 10 -1 -1 0 50 50 50 100 0 100 100
+9.000000 50000 0 0 0 0 0
+'NONE'
+E
+ball of light~
+A bright, shining ball of light.
+~
+A
+2 5
+A
+4 5
+A
+3 5
+A
+5 5
+A
+25 5
+A
+1 5
+A
+31 5
+A
+13 300
+A
+12 500
+A
+14 1000
+A
+11 -10
+A
+82 10
+> get_prog 100~
+mea $n This weapon was not meant for mortal hands.
+mpforce $n drop ball
+mpforce $n sac ball
+~
+> wear_prog 100~
+mea $n This weapon was not meant for mortal hands.
+mpfroce $n rem ball
+mpfroce $n rem ball
+mpforce $n drop ball
+mpforce $n drop ball
+mpfroce $n sac ball
+mpforce $n sac ball
+~
+|
+#8393
+blar varkon~
+&zBl&par&O Va&prk&zon~
+&zBl&par&O Va&prk&zon was lost~
+~
+9 264 33
+35 35 35 1000 35 5 0 0 0 0 0 0 0 0
+13.000000 500 0 0 0 0 0
+E
+blar varkon~
+An odd piece of equipment, obviously meant to be worn on the legs though.
+~
+A
+13 20
+#8394
+fur turloquin~
+&G&zA F&pur T&Ourl&poqu&zin~
+&G&zA F&pur T&Ourl&poqu&zin &Og&zot &Ol&zost~
+~
+9 264 9 2
+12 12 12 1000 12 1 0 0 0 0 0 0 0 0
+5.000000 5000 0 0 0 0 0
+E
+fur turloquin~
+A stiff, very sturdy shirt made of fur.
+~
+#8395
+vorpal blade~
+&zVo&prp&Oal &pBl&zade~
+&G&WThe &zVo&prp&Oal &pBl&zade &Wwas lost~
+~
+5 264&131200&512 513
+1000 59 64 12 -1 -1 0 29 29 32 23 0 28 30
+20.000000 5000 0 0 0 0 0
+'NONE'
+E
+vorpal blade~
+The massive blade fabled to have killed the jabberwocky.
+~
+A
+82 4
+> wear_prog 100~
+mea $n _cya The massive weight and beauty of the
+mea $n _cya Vorpal Blade stuns you, staggers you
+mea $n _cya and makes you stumble, lose your
+mea $n _cya balance, and have a seat.
+mpforce $n sit
+~
+|
+#8396
+chalupa~
+&PChalupa~
+&PA tasty Chalupa looks good enough to eat!~
+~
+19 0 1
+10 0 0 0
+1.000000 0 0 0 0 0 0
+E
+chalupa~
+A tasty little parself of food.
+~
+#8397
+grass~
+&OA G&zreen &Ot&zussok &Oo&zf &Og&zrass~
+&OA G&zreen &Ot&zussok &Oo&zf &Og&zrass &Og&zrows &Oh&zere~
+~
+19 0 1
+3 0 0 0
+1.000000 10 0 0 0 0 0
+E
+green grass herb~
+A small green tussock of green grass, rumored to have healing powers.
+~
+#8398
+DIRECTIONS~
+DIRECTIONS sign~
+&OA sign labeled "DIRECTIONS" is set beside the road here~
+~
+12 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+directions~
+There is a large hole in the ground here where workers have been opening a 
+passage to a recently found "Lost Valley". There are hundreds of animals 
+down there that have been locked away in a geographical time capsule for 
+centuries. 
+
+Enter at your own risk.
+~
+#8399
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#0
+
+
+#ROOMS
+#8000
+&gA Grass Field~
+&GSmall insects fly throughout these grassy fields. The ground is moist
+and soft and the mud sticks to everything it touches. Different species
+of amphibious animals roam these fields and hunt for their next meal.
+The grass is tall and it moves in command from the mighty winds that flow
+throughout Rafermand. A small &Owooden sign&G has been placed here.
+~
+0
+0 2
+0
+0
+D1
+~
+~
+0 -1 8004
+0 0
+D2
+~
+~
+0 -1 8001
+0 0
+D3
+~
+~
+0 -1 8002
+0 0
+E
+sign~
+&OBe warned fare traveler that many people
+have gotten lost in this massive grass field.
+~
+S
+#8001
+&gA Grass Field~
+&GSmall insects fly throughout these grassy fields. The ground is moist
+and soft and the mud sticks to everything it touches. Different species
+of amphibious animals roam these fields and hunt for their next meal.
+The grass is tall and it moves in command from the mighty winds that flow
+throughout Rafermand.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8000
+0 0
+D1
+~
+~
+0 -1 8005
+0 0
+D2
+~
+~
+0 -1 8006
+0 0
+D3
+~
+~
+0 -1 8003
+0 0
+D6
+~
+~
+0 -1 8001
+0 0
+D9
+~
+~
+0 -1 8001
+0 0
+S
+#8002
+&gA Grass Field~
+&GSmall insects fly throughout these grassy fields. The ground is moist
+and soft and the mud sticks to everything it touches. Different species
+of amphibious animals roam these fields and hunt for their next meal.
+The grass is tall and it moves in command from the mighty winds that flow
+throughout Rafermand.
+~
+0
+0 2
+0
+0
+D1
+~
+~
+0 -1 8000
+0 0
+D2
+~
+~
+0 -1 8003
+0 0
+S
+#8003
+&gA Grass Field~
+&GSmall insects fly throughout these grassy fields. The ground is moist
+and soft and the mud sticks to everything it touches. Different species
+of amphibious animals roam these fields and hunt for their next meal.
+The grass is tall and it moves in command from the mighty winds that flow
+throughout Rafermand.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8002
+0 0
+D1
+~
+~
+0 -1 8001
+0 0
+D2
+~
+~
+0 -1 8007
+0 0
+D6
+~
+~
+0 -1 8003
+0 0
+D9
+~
+~
+0 -1 8003
+0 0
+S
+#8004
+&gA Grass Field~
+&GSmall insects fly throughout these grassy fields. The ground is moist
+and soft and the mud sticks to everything it touches. Different species
+of amphibious animals roam these fields and hunt for their next meal.
+The grass is tall and it moves in command from the mighty winds that flow
+throughout Rafermand.
+~
+0
+0 2
+0
+0
+D2
+~
+~
+0 -1 8005
+0 0
+D3
+~
+~
+0 -1 8000
+0 0
+D6
+~
+~
+0 -1 8004
+0 0
+D9
+~
+~
+0 -1 8004
+0 0
+S
+#8005
+&gA Grass Field~
+&GSmall insects fly throughout these grassy fields. The ground is moist
+and soft and the mud sticks to everything it touches. Different species
+of amphibious animals roam these fields and hunt for their next meal.
+The grass is tall and it moves in command from the mighty winds that flow
+throughout Rafermand.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8004
+0 0
+D2
+~
+~
+0 -1 8008
+0 0
+D3
+~
+~
+0 -1 8001
+0 0
+S
+#8006
+&gA Grass Field~
+&GSmall insects fly throughout these grassy fields. The ground is moist
+and soft and the mud sticks to everything it touches. Different species
+of amphibious animals roam these fields and hunt for their next meal.
+The grass is tall and it moves in command from the mighty winds that flow
+throughout Rafermand.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8001
+0 0
+D1
+~
+~
+0 -1 8008
+0 0
+D2
+~
+~
+0 -1 8010
+0 0
+D3
+~
+~
+0 -1 8007
+0 0
+D6
+~
+~
+0 -1 8006
+0 0
+D9
+~
+~
+0 -1 8006
+0 0
+S
+#8007
+&gA Grass Field~
+&GSmall insects fly throughout these grassy fields. The ground is moist
+and soft and the mud sticks to everything it touches. Different species
+of amphibious animals roam these fields and hunt for their next meal.
+The grass is tall and it moves in command from the mighty winds that flow
+throughout Rafermand.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8003
+0 0
+D1
+~
+~
+0 -1 8006
+0 0
+D2
+~
+~
+0 -1 8009
+0 0
+S
+#8008
+&gA Grass Field~
+&GSmall insects fly throughout these grassy fields. The ground is moist
+and soft and the mud sticks to everything it touches. Different species
+of amphibious animals roam these fields and hunt for their next meal.
+The grass is tall and it moves in command from the mighty winds that flow
+throughout Rafermand.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8005
+0 0
+D2
+~
+~
+0 -1 8011
+0 0
+D3
+~
+~
+0 -1 8006
+0 0
+D7
+~
+~
+0 -1 8008
+0 0
+D8
+~
+~
+0 -1 8008
+0 0
+S
+#8009
+&gA Grass Field~
+&GSmall insects fly throughout these grassy fields. The ground is moist
+and soft and the mud sticks to everything it touches. Different species
+of amphibious animals roam these fields and hunt for their next meal.
+The grass is tall and it moves in command from the mighty winds that flow
+throughout Rafermand.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8007
+0 0
+D1
+~
+~
+0 -1 8010
+0 0
+D2
+~
+~
+0 -1 8012
+0 0
+D7
+~
+~
+0 -1 8009
+0 0
+D8
+~
+~
+0 -1 8009
+0 0
+S
+#8010
+&gA Grass Field~
+&GSmall insects fly throughout these grassy fields. The ground is moist
+and soft and the mud sticks to everything it touches. Different species
+of amphibious animals roam these fields and hunt for their next meal.
+The grass is tall and it moves in command from the mighty winds that flow
+throughout Rafermand.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8006
+0 0
+D1
+~
+~
+0 -1 8011
+0 0
+D2
+~
+~
+0 -1 8013
+0 0
+D3
+~
+~
+0 -1 8009
+0 0
+S
+#8011
+&gA Grass Field~
+&GSmall insects fly throughout these grassy fields. The ground is moist
+and soft and the mud sticks to everything it touches. Different species
+of amphibious animals roam these fields and hunt for their next meal.
+The grass is tall and it moves in command from the mighty winds that flow
+throughout Rafermand.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8008
+0 0
+D2
+~
+~
+0 -1 8014
+0 0
+D3
+~
+~
+0 -1 8010
+0 0
+S
+#8012
+&gA Grass Field~
+&GSmall insects fly throughout these grassy fields. The ground is moist
+and soft and the mud sticks to everything it touches. Different species
+of amphibious animals roam these fields and hunt for their next meal.
+The grass is tall and it moves in command from the mighty winds that flow
+throughout Rafermand.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8009
+0 0
+D1
+~
+~
+0 -1 8013
+0 0
+D2
+~
+~
+0 -1 8015
+0 0
+S
+#8013
+&gA Grass Field~
+&GSmall insects fly throughout these grassy fields. The ground is moist
+and soft and the mud sticks to everything it touches. Different species
+of amphibious animals roam these fields and hunt for their next meal.
+The grass is tall and it moves in command from the mighty winds that flow
+throughout Rafermand.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8010
+0 0
+D1
+~
+~
+0 -1 8014
+0 0
+D2
+~
+~
+0 -1 8016
+0 0
+D3
+~
+~
+0 -1 8012
+0 0
+S
+#8014
+&gA Grass Field~
+&GSmall insects fly throughout these grassy fields. The ground is moist
+and soft and the mud sticks to everything it touches. Different species
+of amphibious animals roam these fields and hunt for their next meal.
+The grass is tall and it moves in command from the mighty winds that flow
+throughout Rafermand.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8011
+0 0
+D2
+~
+~
+0 -1 8017
+0 0
+D3
+~
+~
+0 -1 8013
+0 0
+D6
+~
+~
+0 -1 8014
+0 0
+D9
+~
+~
+0 -1 8014
+0 0
+S
+#8015
+&gA Grass Field~
+&GSmall insects fly throughout these grassy fields. The ground is moist
+and soft and the mud sticks to everything it touches. Different species
+of amphibious animals roam these fields and hunt for their next meal.
+The grass is tall and it moves in command from the mighty winds that flow
+throughout Rafermand.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8012
+0 0
+D1
+~
+~
+0 -1 8016
+0 0
+D2
+~
+~
+0 -1 8018
+0 0
+S
+#8016
+&gA Grass Field~
+&GSmall insects fly throughout these grassy fields. The ground is moist
+and soft and the mud sticks to everything it touches. Different species
+of amphibious animals roam these fields and hunt for their next meal.
+The grass is tall and it moves in command from the mighty winds that flow
+throughout Rafermand.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8013
+0 0
+D1
+~
+~
+0 -1 8017
+0 0
+D2
+~
+~
+0 -1 8019
+0 0
+D3
+~
+~
+0 -1 8015
+0 0
+D7
+~
+~
+0 -1 8016
+0 0
+D8
+~
+~
+0 -1 8016
+0 0
+S
+#8017
+&gA Grass Field~
+&GSmall insects fly throughout these grassy fields. The ground is moist
+and soft and the mud sticks to everything it touches. Different species
+of amphibious animals roam these fields and hunt for their next meal.
+The grass is tall and it moves in command from the mighty winds that flow
+throughout Rafermand.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8014
+0 0
+D2
+~
+~
+0 -1 8020
+0 0
+D3
+~
+~
+0 -1 8016
+0 0
+S
+#8018
+&gA Grass Field~
+&GSmall insects fly throughout these grassy fields. The ground is moist
+and soft and the mud sticks to everything it touches. Different species
+of amphibious animals roam these fields and hunt for their next meal.
+The grass is tall and it moves in command from the mighty winds that flow
+throughout Rafermand.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8015
+0 0
+D1
+~
+~
+0 -1 8019
+0 0
+S
+#8019
+&gA Grass Field~
+&GSmall insects fly throughout these grassy fields. The ground is moist
+and soft and the mud sticks to everything it touches. Different species
+of amphibious animals roam these fields and hunt for their next meal.
+The grass is tall and it moves in command from the mighty winds that flow
+throughout Rafermand.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8016
+0 0
+D1
+~
+~
+0 -1 8020
+0 0
+D3
+~
+~
+0 -1 8018
+0 0
+S
+#8020
+&gA Grass Field~
+&GSmall insects fly throughout these grassy fields. The ground is moist
+and soft and the mud sticks to everything it touches. Different species
+of amphibious animals roam these fields and hunt for their next meal.
+The grass is tall and it moves in command from the mighty winds that flow
+throughout Rafermand.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8017
+0 0
+D2
+~
+~
+0 -1 8299
+0 0
+D3
+~
+~
+0 -1 8019
+0 0
+D6
+~
+~
+0 -1 8020
+0 0
+D9
+~
+~
+0 -1 8020
+0 0
+S
+#8026
+Floating in a void~
+~
+4
+0 1
+0
+0
+S
+#8027
+Floating in a void~
+~
+4
+0 1
+0
+0
+S
+#8033
+Floating in a void~
+~
+4
+0 1
+0
+0
+S
+#8200
+&OW&gooded &OT&ghicket~
+&G The large house, made of an immense mass of twisted roots, vines, sod, 
+and moss is very near to the east from here. The woods are dense with 
+large, deciduous leaves creating an almost impenetrable wall all around 
+the path. The house itself seems to be roughly three stories tall, the 
+third floor being little more than a few small rooms. 
+~
+0
+0 3
+0
+0
+D1
+~
+~
+0 -1 8201
+0 0
+D3
+~
+~
+0 -1 8276
+0 0
+S
+#8201
+&OW&gooded &OT&ghicket~
+&G The large house, made of an immense mass of twisted roots, vines, sod, 
+and moss is very near to the east from here. The woods are dense with 
+large, deciduous leaves creating an almost impenetrable wall all around 
+the path. The house itself seems to be roughly three stories tall, the 
+third floor being little more than a few small rooms. 
+~
+0
+0 3
+0
+0
+D1
+~
+~
+0 -1 8202
+0 0
+D3
+~
+~
+0 -1 8200
+0 0
+S
+#8202
+&OF&gront &OD&goor &Oo&gf &Ot&ghe &OR&goot &OH&gouse~
+&G The front door of the house is here to the east. The door is in 
+actuality nothing more than a doorway, but no door exists. Either the 
+owner of the house doesn't care if anything or anyone comes and goes at 
+will, or the owner is long since gone and the door has decayed and utterly 
+disappeared. Above the doorframe some of the smaller roots have formed the 
+words,"Nevon and Copenhaygen". 
+~
+0
+0 3
+0
+0
+D1
+~
+~
+16777216 -1 8203
+0 0
+D3
+~
+~
+0 -1 8201
+0 0
+S
+#8203
+&OHouse of the Rafermand Duke Brothers~
+&G This is the main room of this house, which belongs to Nevon and 
+Copenhaygen, the 'Duke Brothers' of Rafermand. This front room is 
+apparently the den, and is quite large and nice. There are some chairs and 
+couches available for resting on, and different copies of parchments 
+containing news and the like are lying about the room. From the look of 
+available entertainment in the room it would seem that the two immortals 
+like to simply sit and relax in quiet and peace, with the occasional game 
+of chess. 
+~
+0
+0 0
+0
+0
+D0
+~
+~
+0 -1 8204
+0 0
+D1
+~
+~
+0 -1 8208
+0 0
+D2
+~
+~
+0 -1 8205
+0 0
+D3
+~
+~
+16777216 -1 8202
+0 0
+S
+#8204
+&ON&gevon's &Oa&gnd &OC&gopenhaygen's &OH&gouse~
+&G This is the main room of this house, which belongs to Nevon and 
+Copenhaygen, the 'Duke Brothers' of Rafermand. This front room is 
+apparently the den, and is quite large and nice. There are some chairs and 
+couches available for resting on, and different copies of parchments 
+containing news and the like are lying about the room. From the look of 
+available entertainment in the room it would seem that the two immortals 
+like to simply sit and relax in quiet and peace, with the occasional game 
+of chess. 
+~
+0
+0 0
+0
+0
+D1
+~
+~
+0 -1 8207
+0 0
+D2
+~
+~
+0 -1 8203
+0 0
+S
+#8205
+&ON&gevon's &Oa&gnd &OC&gopenhaygen's &OH&gouse~
+&G This is the main room of this house, which belongs to Nevon and 
+Copenhaygen, the 'Duke Brothers' of Rafermand. This front room is 
+apparently the den, and is quite large and nice. There are some chairs and 
+couches available for resting on, and different copies of parchments 
+containing news and the like are lying about the room. From the look of 
+available entertainment in the room it would seem that the two immortals 
+like to simply sit and relax in quiet and peace, with the occasional game 
+of chess. 
+~
+0
+0 0
+0
+0
+D0
+~
+~
+0 -1 8203
+0 0
+D1
+~
+~
+0 -1 8209
+0 0
+S
+#8206
+&RN&cevon's &RO&cffice~
+&RT&chis is Nevon's Office for mortals. &RT&chis office is not as nice
+and comfortable as his Immortal office, but this is a good hang
+out place for people to gather and just take a break from their
+busy lives. &RN&cevon has provided serveral of his personal beanbag
+chairs for your relaxation needs&R.
+&RT&co see a list of what Nevon has in the making &rlook todo.
+&RT&co see the information on how you can make a clan &rlook clanmaking.
+&RT&co see a list of the zones I have currently made &rlook zones.
+&RT&co see information on how to join The Elders' Clan &rlook join elders.
+&RT&co see information on how to change your alignment &rlook change align.
+~
+3145732
+0 0
+0
+0
+D2
+~
+~
+0 -1 8207
+0 0
+E
+look listpage1~
+~
+E
+look todo~
+&R _-==Nevon's list of things he is going to do==-_
+&R-------------------------------------------------
+
+&Y1. &cNote this list has been moved to my bio page
+   http://www.rafermand.com/nevonbio.html
+~
+E
+list~
+~
+E
+clanmaking~
+&RHow you can have a clan.
+***From Rook's bio***
+&Y1. &cAny clan leader MUST be an Avatar.  No exceptions.
+&Y2. &cNobody may be inducted into a clan without their
+   permission.  Breaking this rule will result in the
+   clan being deleted.  So be careful who you give induction
+   privelages.
+&Y3. &cAbuse of clan privelages such as the clan channel,
+   clan recall, etc. will result in those privelages not
+   being such.
+&Y4. &cJoining a clan for the purpose of PKing one person and
+   then quitting the clan will not be permitted.  Such
+   'clanhopping' will be dealt with harshly.
+   If you want a Clan, have at least four people who want to
+   start the clan with you and send the following information
+   to rafermand@home.com
+
+          --Clan Name
+          --Type of Clan Requested (Order/Clan)
+          --PK or Non-PK or Discretionary
+          --Clan Motto (no profanity or suggestive mottos)
+          --Clan Leader/Second/Third
+          --Approximate Location of Clan Hall
+          --Description of Four Rooms in Clan Hall
+          --Five Objects Name/Short/Long/Wear (clan eq)
+          --Clan Class Restriction (if any)
+          --Clan Align Restriction (if any)
+~
+E
+zones~
+&R-8-8-8-Zones Nevon has Made-8-8-8-
+&cAlrighty. Just in case you wanted to know what zones I have made here
+is a current list, well as current as the date at the bottom.
+
+&Y1. &cCastle Hydriss
+&Y2. &cDula'Van
+&Y3. &cGrass Field (In Lost Valley)
+&Y4. &cChaos (In Lost Valley)
+&Y5. &cFallen Sanctuary
+&Y6. &cCopenhaygen and Nevon's House (In Lost Valley)
+&Y7. &cRune Quest ( Beta )
+&Y8. &cParts of the New Rafermand Academy
+&Y9. &cCove of Fire (Current project as of this update)
+
+
+&CLast Updated August 30th 2000
+
+~
+E
+look clanmaking~
+~
+E
+join elders~
+&zSo you want to join The Elders Clan? HAH!
+Here are the basic requirements before you even ask Nevon if you think
+you are worthy enough to even be considered. 
+&Y1. &WYou must have at least 1000 hours logged.
+&Y2. &WYou must be either be a Knight or King
+&Y3. &WYou must have killed the Sky Dragon, Drusus, and Thriller by doing
+     so when Nevon is on and can watch you do so.
+&Y4. &WYou must be a frequent player in the arena battles and decent at
+     PKing.
+&Y5. &WYou must be helpful to newbies.(Being in newbie council is a plus)
+
+&zThose are the basic requirements. If you have any questions then ask only Nevon.
+More information about this clan will be posted in this room and a gnote will be
+posted when it is updated.
+-&RN&ce&RV&co&RN
+~
+E
+change align~
+&wSo you want to change your alignment? Well Nevon can make this
+possible but it is costly. It will cost you 15 million in gold and
+you must remain that alignment for at least one month. You can only
+ask Nevon to do this. Do NOT bother Xerves or any other Immortal to do
+this because they won't. Anyway those are the rules as of this writing.
+-&RN&ce&RV&co&RN
+~
+S
+#8207
+&ON&gevon's &Oa&gnd &OC&gopenhaygen's &OH&gouse~
+&G North of here is Nevon's office, or, at least, it is the one availalbe 
+to the general mortal public. East is a hallway which leads to the two 
+immortals' kitchen and dining room. It also appears that the hallway 
+circles around behind the hearth which heats this house in the colder 
+winter months. South of here, mirroring the position of Nevon's office, is 
+where Copenhaygen's office lies. 
+~
+0
+0 0
+0
+0
+D0
+~
+~
+0 -1 8206
+0 0
+D1
+~
+~
+0 -1 8212
+0 0
+D2
+~
+~
+0 -1 8208
+0 0
+D3
+~
+~
+0 -1 8204
+0 0
+S
+#8208
+&ON&gev &Oa&gnd &OC&gope's &OS&gtaircase~
+&G This is the den of Nevon and Copenhaygen's house. A staircase leads 
+upstairs here, where the bathroom, bedrooms, and other personal areas of 
+the two immortals' are located. North of here is Nevon's 'mortal- 
+accessible' office, and mirroring it on the south side of the den is 
+Copenhaygen's 'mortal- accessible' office. West is the doorway to their 
+house. 
+~
+0
+0 0
+0
+0
+D0
+~
+~
+0 -1 8207
+0 0
+D2
+~
+~
+0 -1 8209
+0 0
+D3
+~
+~
+0 -1 8203
+0 0
+D4
+~
+~
+0 -1 8221
+0 0
+S
+#8209
+&ON&gevon's &Oa&gnd &OC&gopenhaygen's &OH&gouse~
+&G This is the den of Nevon and Copenhaygen's house. East there is a 
+hallway which appears to lead to the two immortals' kitchen and dining 
+room as well as circle around their hearth. South of here appears to be 
+Copenhaygen's office, at least, it is the one available to mortals. Anyone 
+and everyone is, of course, welcome there. 
+~
+0
+0 0
+0
+0
+D0
+~
+~
+0 -1 8208
+0 0
+D1
+~
+~
+0 -1 8213
+0 0
+D2
+~
+~
+0 -1 8210
+0 0
+D3
+~
+~
+0 -1 8205
+0 0
+S
+#8210
+&OC&gopenhaygen's &OP&gublic &OO&gffice~
+&G This is Copenhaygen's office. There is a huge desk in front of the 
+south wall, behind which is a massive office chair. That table and chair 
+are both made of roots, and appear to be part of the house. One odd thing, 
+since the chair is mounted firm in one position, how would Copenhaygen 
+slide the chair closer to his desk so that he could reach everything he 
+needed? Other than the desk and chair, bookshelves line the walls except 
+for one small area of the west wall where there stands a fireplace. 
+~
+0
+0 0
+0
+0
+D0
+~
+~
+0 -1 8209
+0 0
+D1
+~
+~
+0 -1 8214
+0 0
+S
+#8211
+&RN&cevon's &RR&coom &Ro&cf &RP&cortals~
+&RT&chis massive room is nothing but a room of doors. &RE&cach door leads
+to a different zone in Rafermand. &RB&ce careful for Nevon has been
+known to link the doors to places mortals cannot escape from.
+~
+3407876
+0 1
+0
+0
+D0
+~
+~
+7 -1 21000
+0 0
+D4
+~
+~
+7 -1 2850
+0 0
+S
+#8212
+&OH&gallway &OA&ground &ON&gev &Oa&gnd &OC&gope's &OH&gearth~
+&G This is a short hallway which leads around behind the hearth of this 
+house, beside the kitchen, and then back to the den. The hearth is just to 
+the south here, the fire emanating its radiance and heat. The fire itself 
+is quite beautiful, the flames performing their quiet ballet. The kitchen 
+is not much further to the east, and from what you can tell from here, 
+there appears to be a large meal on the stove at this very moment. 
+~
+0
+0 0
+0
+0
+D1
+~
+~
+0 -1 8215
+0 0
+D3
+~
+~
+0 -1 8207
+0 0
+> rand_prog 5~
+mpe The fire crackles and pops as it burns eternally.
+~
+|
+S
+#8213
+&OH&gallway &OA&ground &ON&gev &Oa&gnd &OC&gope's &OH&gearth~
+&G This is a short hallway which leads around behind the hearth of this 
+house, beside the kitchen, and then back to the den. The hearth is just to 
+the north here, the fire emanating its radiance and heat. The fire itself 
+is quite beautiful, the flames performing their quiet ballet. The kitchen 
+is not much further to the east, but what you see of that from here 
+appears to be the dining room. 
+~
+0
+0 0
+0
+0
+D1
+~
+~
+0 -1 8217
+0 0
+D3
+~
+~
+0 -1 8209
+0 0
+> rand_prog 5~
+mpe The fire crackles and pops as it burns eternally.
+~
+|
+S
+#8214
+&OC&gopenhaygen's &OP&gublic &OO&gffice~
+&G This room serves as Copenhaygen's Trophy Room. All about this room are 
+hung the mounts of thousands of different creatures, not a single one the 
+same as any other. All of these animals were killed by Copenhaygen with a 
+longbow, impressive. A stained glass window is set in the east wall, 
+allowing a multicolored light to filter into the room. 
+~
+0
+0 0
+0
+0
+D3
+~
+~
+0 -1 8210
+0 0
+S
+#8215
+&OH&gallway &OA&ground &ON&gev &Oa&gnd &OC&gope's &OH&gearth~
+&G Nevon and Copenhaygen's kitchen is just east of here, and the smell of 
+a freshly cooked meal slowly drifts throughout the house, smelling very 
+vibrant from this proximity to the source. The hearth, ever alive with 
+flames, is southwest of here, and the hallway around it goes west and 
+south from here. The hall itself is very plain, except that the entire 
+internal and external structure of the house is made of above-ground tree 
+roots and vines. 
+~
+0
+0 0
+0
+0
+D1
+~
+~
+0 -1 8218
+0 0
+D2
+~
+~
+0 -1 8216
+0 0
+D3
+~
+~
+0 -1 8212
+0 0
+> rand_prog 5~
+mpe The fire crackles and pops as it burns eternally.
+~
+|
+S
+#8216
+&OH&gallway &OA&ground &ON&gev &Oa&gnd &OC&gope's &OH&gearth~
+&G This is the hallway that goes around the hearth of Nev and Cope's 
+house, also leading to their kitchen and dining room. The hearth is here 
+just to the west. The walls of the hall are made of above-ground tree 
+roots, looking very much like a log house with it's layered and stacked 
+logs, except in this case it is actually roots. The main light in this 
+area comes from the fire, though some is filtering in from the nearby 
+rooms. 
+~
+0
+0 0
+0
+0
+D0
+~
+~
+0 -1 8215
+0 0
+D2
+~
+~
+0 -1 8217
+0 0
+> rand_prog 5~
+mpe The fire crackles and pops as it burns eternally.
+~
+|
+S
+#8217
+&OH&gallway &OA&ground &ON&gev &Oa&gnd &OC&gope's &OH&gearth~
+&G Nev and Cope's dining room is just east of here, where the table is set 
+with a large centerpiece that holds about ten candles. There is a bay of 
+windows in the east wall of the dining room, and the two places that are 
+set are at the north and south sides of the table, which sets neither 
+place as the head of the table. This hall goes north and west from here, 
+circling the hearth.
+~
+0
+0 0
+0
+0
+D0
+~
+~
+0 -1 8216
+0 0
+D1
+~
+~
+0 -1 8220
+0 0
+D3
+~
+~
+0 -1 8213
+0 0
+> rand_prog 5~
+mpe The fire crackles and pops as it burns eternally.
+~
+|
+S
+#8218
+&ON&gev &Oa&gnd &OC&gope's &OK&gitchen~
+&GThis kitchen is a work of art. The wooden cabinets have been hand
+crafted from the finest trees in Rafermand and the polished brass
+handles were made with the greatest care. The counter is made from
+pure ivory, and the have been fashioned out of sturdy red oak.
+~
+0
+0 0
+0
+0
+D2
+~
+~
+0 -1 8219
+0 0
+D3
+~
+~
+0 -1 8215
+0 0
+S
+#8219
+&ON&gev &Oa&gnd &OC&gope's &OK&gitchen~
+This kitchen is a work of art. The wooden cabinets have been hand
+crafted from the finest trees in Rafermand and the polished brass
+handles were made with the greatest care. The table is made from
+pure ivory, and the have been fashioned out of sturdy red oak.
+~
+0
+0 0
+0
+0
+D0
+~
+~
+0 -1 8218
+0 0
+D2
+~
+~
+0 -1 8220
+0 0
+S
+#8220
+&ON&gev &Oa&gnd &OC&gope's &OK&gitchen~
+&GThis kitchen is a work of art. The wooden cabinets have been hand
+crafted from the finest trees in Rafermand and the polished brass
+handles were made with the greatest care. The counter is made from
+pure ivory, and the have been fashioned out of sturdy red oak.
+~
+0
+0 0
+0
+0
+D0
+~
+~
+0 -1 8219
+0 0
+D3
+~
+~
+0 -1 8217
+0 0
+S
+#8221
+&OU&gpstairs &OB&galcony~
+&G This is the upstairs balcony of Nev and Cope's house. South lies the 
+sleeping quarters, and related rooms, of Copenhaygen. North lies the same, 
+except those rooms belong to Nevon. East of here is the upstairs bathroom. 
+West, looking down from the balcony, the interesting, and almost eerie, 
+den of Nev and Cope is visible. There is a hazy sort of dusk that fills 
+the house, though the house itself is not exactly spooky, quite the 
+opposite actually. 
+~
+0
+0 0
+0
+0
+D0
+~
+~
+0 -1 8222
+0 0
+D1
+~
+~
+0 -1 8226
+0 0
+D2
+~
+~
+0 -1 8223
+0 0
+D5
+~
+~
+0 -1 8208
+0 0
+S
+#8222
+&OU&gpstairs &OB&galcony~
+&G This is the upstairs balcony of Nev and Cope's house. South lies the 
+sleeping quarters, and related rooms, of Copenhaygen. North lies the same, 
+except those rooms belong to Nevon. East of here is the upstairs bathroom. 
+West, looking down from the balcony, the interesting, and almost eerie, 
+den of Nev and Cope is visible. There is a hazy sort of dusk that fills 
+the house, though the house itself is not exactly spooky, quite the 
+opposite actually. 
+~
+0
+0 0
+0
+0
+D0
+~
+~
+0 -1 8239
+0 0
+D2
+~
+~
+0 -1 8221
+0 0
+D7
+~
+~
+0 -1 8225
+0 0
+S
+#8223
+&OU&gpstairs &OB&galcony~
+&G This is the upstairs balcony of Nev and Cope's house. South lies the 
+sleeping quarters, and related rooms, of Copenhaygen. North lies the same, 
+except those rooms belong to Nevon. East of here is the upstairs bathroom. 
+West, looking down from the balcony, the interesting, and almost eerie, 
+den of Nev and Cope is visible. There is a hazy sort of dusk that fills 
+the house, though the house itself is not exactly spooky, quite the 
+opposite actually. 
+~
+0
+0 0
+0
+0
+D0
+~
+~
+0 -1 8221
+0 0
+D9
+~
+~
+0 -1 8224
+0 0
+S
+#8224
+&OU&gpstairs &OB&galcony~
+&G This is the end of the southern end of the balcony. Northeast lies the 
+rest of the balcony, and west and east are Cope's private rooms. There are 
+no doors, so the rooms are plainly visible. West appears to be Cope's 
+bedroom, which is very large and rather plainly decorated, except for a 
+large, very plush looking bed accompanied by an equally comfortable 
+looking chair. East appears to be a simple closet. 
+~
+0
+0 0
+0
+0
+D1
+~
+~
+0 -1 8233
+0 0
+D3
+~
+~
+0 -1 8234
+0 0
+D6
+~
+~
+0 -1 8223
+0 0
+S
+#8225
+&OU&gpstairs &OB&galcony~
+&GThis is the upstairs balcony of Nev and Cope's house. This perfect
+balcony was designed to hold an incredible amount of weight. Blessed
+with holy magic, this balcony can take on the harshest weather and
+will still keep its original beauty. A few birds and smaller animals
+have made the edge of this balcony their pirch and even their home.
+~
+0
+0 0
+0
+0
+D8
+~
+~
+0 -1 8222
+0 0
+S
+#8226
+&ON&gev &Oa&gnd &OC&gope's &OB&gathroom~
+&G This is Nev and Cope's bathroom. The bathroom itself is huge. South is 
+a huge bathtub, and north is an equally large shower. There is a stained 
+glass window in the east wall, which fills the room with an incandescent 
+light with ruge overtones. A hazy air fills the room, giving a sense of 
+limited visiblity, though it's simply some illusion of the stained glass. 
+~
+0
+0 0
+0
+0
+D0
+~
+~
+0 -1 8228
+0 0
+D2
+~
+~
+0 -1 8229
+0 0
+D3
+~
+~
+0 -1 8221
+0 0
+S
+#8227
+&OC&gope's &OB&gedroom~
+&G This is where Copenhaygen's bed is. The large, brown, stained glass 
+window is in the west wall here, and fills up most of that wall. South and 
+north are walls, and southeast is Cope's easy chair. East of the chair, 
+there is another room visible which appears to be a room with a small wash 
+basin and a mirror. No doubt where Cope can take a quick face and hand 
+wash before bed. 
+~
+0
+0 0
+0
+0
+D1
+~
+~
+0 -1 8234
+0 0
+S
+#8228
+&ON&gev &Oa&gnd &OC&gope's &OB&gathroom~
+&G This is the shower in Nev and Cope's bathroom. The shower itself 
+appears to work through a root which is severed and hangs down from the 
+ceiling overhead. Since no knob is present, the water must poor on verbal 
+command. The shower, like the tub to the south, is made of roots, and is 
+water sealed by an oil that is secreted by the roots. 
+~
+0
+0 0
+0
+0
+D2
+~
+~
+0 -1 8226
+0 0
+S
+#8229
+&ON&gev &Oa&gnd &OC&gope's &OB&gathroom~
+&G This is the large bathtub. The tub itself is made of roots, the same as 
+the house, but the inside is smooth as glass, and it is polished and 
+finished so that no splinters would inflict any pain. The outside of the 
+tub is covered in an odd oil emitted by the roots which makes the tub 
+waterproof. 
+~
+0
+0 0
+0
+0
+D0
+~
+~
+0 -1 8226
+0 0
+S
+#8230
+&OC&gope's &OP&gets' &OR&goom~
+&G This is the large 'play-pen' where Copenhaygen keeps his many pets. The 
+set of rooms are rather plain, one small window set in the ceiling so that 
+the pets can have light. In the center of the four rooms is positioned a 
+food bowl, beside which lies a water bowl. Both of the bowls are large, 
+very large. Obviously, he must have quite a few pets. 
+~
+0
+0 0
+0
+0
+D0
+~
+~
+0 -1 8232
+0 0
+D1
+~
+~
+0 -1 8237
+0 0
+D5
+~
+~
+16777216 -1 8234
+0 0
+S
+#8231
+&OC&gope's &OB&gedroom~
+&G This is where Copenhaygen's easy chair is. There is a large, brown, 
+stained glass window in the south wall, above the chair, which fills up 
+most of the wall. This chair is, no doubt, here so that Cope can relax and 
+read in peace without the constant comings and goings in his den since 
+Nevon's and his house is open to the public at free will. 
+~
+0
+0 0
+0
+0
+D0
+~
+~
+0 -1 8234
+0 0
+D1
+~
+~
+0 -1 8235
+0 0
+S
+#8232
+&OC&gope's &OP&gets' &OR&goom~
+&G This is the large 'play-pen' where Copenhaygen keeps his many pets. The 
+set of rooms are rather plain, one small window set in the ceiling so that 
+the pets can have light. In the center of the four rooms is positioned a 
+food bowl, beside which lies a water bowl. Both of the bowls are large, 
+very large. Obviously, he must have quite a few pets.
+~
+0
+0 0
+0
+0
+D1
+~
+~
+0 -1 8236
+0 0
+D2
+~
+~
+0 -1 8230
+0 0
+S
+#8233
+&OC&gope's &OU&gpstairs &OC&gloset~
+&G This is a very large walk-in closet. Clothes, armor, weapons, shields, 
+boots, and shoes line the walls and floors. Light filters into the closet 
+from a stained glass window to the south, giving the room a brown hued 
+light. The closet itself is clean, and well kept. Everything apparently 
+has a place, and is in its place. 
+~
+0
+0 0
+0
+0
+D2
+~
+~
+0 -1 8238
+0 0
+D3
+~
+~
+0 -1 8224
+0 0
+S
+#8234
+&OC&gope's &OB&gedroom~
+&G This is Copenhaygen's bedroom. West of here is a large bed with a thick 
+down mattress. Above the bed in the west wall is a brown stained glass 
+window that allows light with brown overtones to flow into the room during 
+the daylight hours. South is a large chair, also apparently cushioned with 
+down. Above the chair is a window exactly like the one above the bed. 
+~
+0
+0 0
+0
+0
+D1
+~
+~
+0 -1 8224
+0 0
+D2
+~
+~
+0 -1 8231
+0 0
+D3
+~
+~
+0 -1 8227
+0 0
+D4
+~
+~
+16777216 -1 8230
+0 0
+S
+#8235
+&OC&gope's &OB&gedroom~
+&G This is Copenhaygen's private washroom. There is a simple, small, 
+washbasin against the north wall with a small mirror hung over it. Along 
+the rim of the washbasin are positioned a small glass filled with white 
+creme, beside which lies a shaving razor. This is where Cope can take a 
+quick face and hand wash in the morning or evening, and shave before the 
+new day. 
+~
+0
+0 0
+0
+0
+D3
+~
+~
+0 -1 8231
+0 0
+S
+#8236
+&OC&gope's &OP&gets' &OR&goom~
+&G This is the large 'play-pen' where Copenhaygen keeps his many pets. The 
+set of rooms are rather plain, one small window set in the ceiling so that 
+the pets can have light. In the center of the four rooms is positioned a 
+food bowl, beside which lies a water bowl. Both of the bowls are large, 
+very large. Obviously, he must have quite a few pets.
+~
+0
+0 3
+0
+0
+D2
+~
+~
+0 -1 8237
+0 0
+D3
+~
+~
+0 -1 8232
+0 0
+S
+#8237
+&OC&gope's &OP&gets' &OR&goom~
+&G This is the large 'play-pen' where Copenhaygen keeps his many pets. The 
+set of rooms are rather plain, one small window set in the ceiling so that 
+the pets can have light. In the center of the four rooms is positioned a 
+food bowl, beside which lies a water bowl. Both of the bowls are large, 
+very large. Obviously, he must have quite a few pets.
+~
+0
+0 3
+0
+0
+D0
+~
+~
+0 -1 8236
+0 0
+D3
+~
+~
+0 -1 8230
+0 0
+S
+#8238
+&OC&gope's &OU&gpstairs &OC&gloset~
+&G This is a very large walk-in closet. Clothes, armor, weapons, shields, 
+boots, and shoes line the walls and floors. Light filters into the closet 
+from a stained glass window to the south, giving the room a brown hued 
+light. The closet itself is clean, and well kept. Everything apparently 
+has a place, and is in its place. 
+~
+0
+0 0
+0
+0
+D0
+~
+~
+0 -1 8233
+0 0
+S
+#8239
+&cChaos~
+&cOrder does not exist here. There is no way to tell which way a
+person has come from or which way they are going. The fine mist forms
+tiny droplets of water on any solid object that dares to enter this
+zone. A small path can be seen on the ground, but it is just barely
+visible among the dark greys and blues that hover all around.
+~
+0
+0 1
+0
+0
+D1
+~
+~
+0 -1 8240
+0 0
+D2
+~
+~
+0 -1 8242
+0 0
+D3
+~
+~
+0 -1 8222
+0 0
+S
+#8240
+&cChaos~
+&cOrder does not exist here. There is no way to tell which way a
+person has come from or which way they are going. The fine mist forms
+tiny droplets of water on any solid object that dares to enter this
+zone. A small path can be seen on the ground, but it is just barely
+visible among the dark greys and blues that hover all around.
+~
+0
+0 1
+0
+0
+D1
+~
+~
+0 -1 8241
+0 0
+D2
+~
+~
+0 -1 8243
+0 0
+D3
+~
+~
+0 -1 8239
+0 0
+S
+#8241
+&cChaos~
+&cOrder does not exist here. There is no way to tell which way a
+person has come from or which way they are going. The fine mist forms
+tiny droplets of water on any solid object that dares to enter this
+zone. A small path can be seen on the ground, but it is just barely
+visible among the dark greys and blues that hover all around.
+~
+0
+0 1
+0
+0
+D2
+~
+~
+0 -1 8244
+0 0
+D3
+~
+~
+0 -1 8240
+0 0
+S
+#8242
+&cChaos~
+&cOrder does not exist here. There is no way to tell which way a
+person has come from or which way they are going. The fine mist forms
+tiny droplets of water on any solid object that dares to enter this
+zone. A small path can be seen on the ground, but it is just barely
+visible among the dark greys and blues that hover all around.
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 8239
+0 0
+D1
+~
+~
+0 -1 8243
+0 0
+D2
+~
+~
+0 -1 8245
+0 0
+S
+#8243
+&cChaos~
+&cOrder does not exist here. There is no way to tell which way a
+person has come from or which way they are going. The fine mist forms
+tiny droplets of water on any solid object that dares to enter this
+zone. A small path can be seen on the ground, but it is just barely
+visible among the dark greys and blues that hover all around.
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 8240
+0 0
+D1
+~
+~
+0 -1 8244
+0 0
+D2
+~
+~
+0 -1 8246
+0 0
+D3
+~
+~
+0 -1 8242
+0 0
+S
+#8244
+&cChaos~
+&cOrder does not exist here. There is no way to tell which way a
+person has come from or which way they are going. The fine mist forms
+tiny droplets of water on any solid object that dares to enter this
+zone. A small path can be seen on the ground, but it is just barely
+visible among the dark greys and blues that hover all around.
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 8241
+0 0
+D2
+~
+~
+0 -1 8247
+0 0
+D3
+~
+~
+0 -1 8243
+0 0
+S
+#8245
+&cChaos~
+&cOrder does not exist here. There is no way to tell which way a
+person has come from or which way they are going. The fine mist forms
+tiny droplets of water on any solid object that dares to enter this
+zone. A small path can be seen on the ground, but it is just barely
+visible among the dark greys and blues that hover all around.
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 8242
+0 0
+D1
+~
+~
+0 -1 8246
+0 0
+D2
+~
+~
+0 -1 8248
+0 0
+S
+#8246
+&cChaos~
+&cOrder does not exist here. There is no way to tell which way a
+person has come from or which way they are going. The fine mist forms
+tiny droplets of water on any solid object that dares to enter this
+zone. A small path can be seen on the ground, but it is just barely
+visible among the dark greys and blues that hover all around.
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 8243
+0 0
+D1
+~
+~
+0 -1 8247
+0 0
+D2
+~
+~
+0 -1 8249
+0 0
+D3
+~
+~
+0 -1 8245
+0 0
+S
+#8247
+&cChaos~
+&cOrder does not exist here. There is no way to tell which way a
+person has come from or which way they are going. The fine mist forms
+tiny droplets of water on any solid object that dares to enter this
+zone. A small path can be seen on the ground, but it is just barely
+visible among the dark greys and blues that hover all around.
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 8244
+0 0
+D3
+~
+~
+0 -1 8246
+0 0
+S
+#8248
+&cChaos~
+&cOrder does not exist here. There is no way to tell which way a
+person has come from or which way they are going. The fine mist forms
+tiny droplets of water on any solid object that dares to enter this
+zone. A small path can be seen on the ground, but it is just barely
+visible among the dark greys and blues that hover all around.
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 8245
+0 0
+D1
+~
+~
+0 -1 8249
+0 0
+S
+#8249
+&cChaos~
+&cOrder does not exist here. There is no way to tell which way a
+person has come from or which way they are going. The fine mist forms
+tiny droplets of water on any solid object that dares to enter this
+zone. A small path can be seen on the ground, but it is just barely
+visible among the dark greys and blues that hover all around.
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 8246
+0 0
+D3
+~
+~
+0 -1 8248
+0 0
+S
+#8250
+&OW&gooded &OT&ghicket~
+&G Here, at the base of the West Cliff Path, starts a thick and green 
+section of forest land. Thickets, briars, underbrush, and trees make a 
+dense, unkempt foliage that is nearly impassable. However, a small, barely 
+detectable sort of path does exist, and it leads through the dense 
+undergrowth, providing at least some way of getting through. 
+~
+0
+0 3
+0
+0
+D2
+~
+~
+16777216 -1 8341
+0 0
+D7
+~
+~
+0 -1 8251
+0 0
+S
+#8251
+&OW&gooded &OT&ghicket~
+&G Here, at the base of the West Cliff Path, starts a thick and green 
+section of forest land. Thickets, briars, underbrush, and trees make a 
+dense, unkempt foliage that is nearly impassable. However, a small, barely 
+detectable sort of path does exist, and it leads through the dense 
+undergrowth, providing at least some way of getting through. 
+~
+0
+0 3
+0
+0
+D7
+~
+~
+0 -1 8252
+0 0
+D8
+~
+~
+0 -1 8250
+0 0
+S
+#8252
+&OW&gooded &OT&ghicket~
+&G Here, at the base of the West Cliff Path, starts a thick and green 
+section of forest land. Thickets, briars, underbrush, and trees make a 
+dense, unkempt foliage that is nearly impassable. However, a small, barely 
+detectable sort of path does exist, and it leads through the dense 
+undergrowth, providing at least some way of getting through. 
+~
+0
+0 3
+0
+0
+D8
+~
+~
+0 -1 8251
+0 0
+S
+#8253
+&OW&gooded &OT&ghicket~
+&G Here, at the base of the West Cliff Path, starts a thick and green 
+section of forest land. Thickets, briars, underbrush, and trees make a 
+dense, unkempt foliage that is nearly impassable. However, a small, barely 
+detectable sort of path does exist, and it leads through the dense 
+undergrowth, providing at least some way of getting through. 
+~
+4
+0 3
+0
+0
+D7
+~
+~
+0 -1 8254
+0 0
+S
+#8254
+&OW&gooded &OT&ghicket~
+&G Here, at the base of the West Cliff Path, starts a thick and green 
+section of forest land. Thickets, briars, underbrush, and trees make a 
+dense, unkempt foliage that is nearly impassable. However, a small, barely 
+detectable sort of path does exist, and it leads through the dense 
+undergrowth, providing at least some way of getting through.
+~
+0
+0 3
+0
+0
+D2
+~
+~
+16777216 -1 8254
+0 0
+S
+#8255
+&OW&gooded &OT&ghicket~
+&G Here, at the base of the West Cliff Path, starts a thick and green 
+section of forest land. Thickets, briars, underbrush, and trees make a 
+dense, unkempt foliage that is nearly impassable. However, a small, barely 
+detectable sort of path does exist, and it leads through the dense 
+undergrowth, providing at least some way of getting through.
+~
+0
+0 3
+0
+0
+D1
+~
+~
+0 -1 8256
+0 0
+D8
+~
+~
+16777216 -1 8255
+0 0
+S
+#8256
+&OW&gooded &OT&ghicket~
+&G Here, at the base of the West Cliff Path, starts a thick and green 
+section of forest land. Thickets, briars, underbrush, and trees make a 
+dense, unkempt foliage that is nearly impassable. However, a small, barely 
+detectable sort of path does exist, and it leads through the dense 
+undergrowth, providing at least some way of getting through.
+~
+0
+0 3
+0
+0
+D0
+~
+~
+0 -1 8261
+0 0
+D1
+~
+~
+0 -1 8257
+0 0
+D3
+~
+~
+0 -1 8255
+0 0
+S
+#8257
+&OW&gooded &OT&ghicket~
+&G Here, at the base of the West Cliff Path, starts a thick and green 
+section of forest land. Thickets, briars, underbrush, and trees make a 
+dense, unkempt foliage that is nearly impassable. However, a small, barely 
+detectable sort of path does exist, and it leads through the dense 
+undergrowth, providing at least some way of getting through.
+~
+0
+0 3
+0
+0
+D0
+~
+~
+0 -1 8260
+0 0
+D1
+~
+~
+0 -1 8258
+0 0
+D2
+~
+~
+0 -1 8259
+0 0
+D3
+~
+~
+0 -1 8256
+0 0
+S
+#8258
+&OW&gooded &OT&ghicket~
+&G Here, at the base of the West Cliff Path, starts a thick and green 
+section of forest land. Thickets, briars, underbrush, and trees make a 
+dense, unkempt foliage that is nearly impassable. However, a small, barely 
+detectable sort of path does exist, and it leads through the dense 
+undergrowth, providing at least some way of getting through.
+~
+0
+0 3
+0
+0
+D3
+~
+~
+0 -1 8257
+0 0
+S
+#8259
+&OW&gooded &OT&ghicket~
+&G Here, at the base of the West Cliff Path, starts a thick and green 
+section of forest land. Thickets, briars, underbrush, and trees make a 
+dense, unkempt foliage that is nearly impassable. However, a small, barely 
+detectable sort of path does exist, and it leads through the dense 
+undergrowth, providing at least some way of getting through.
+~
+0
+0 3
+0
+0
+D0
+~
+~
+0 -1 8257
+0 0
+S
+#8260
+&OW&gooded &OT&ghicket~
+&G Here, at the base of the West Cliff Path, starts a thick and green 
+section of forest land. Thickets, briars, underbrush, and trees make a 
+dense, unkempt foliage that is nearly impassable. However, a small, barely 
+detectable sort of path does exist, and it leads through the dense 
+undergrowth, providing at least some way of getting through.
+~
+0
+0 3
+0
+0
+D0
+~
+~
+0 -1 8262
+0 0
+D2
+~
+~
+0 -1 8257
+0 0
+D3
+~
+~
+0 -1 8261
+0 0
+S
+#8261
+&OW&gooded &OT&ghicket~
+&G Here, at the base of the West Cliff Path, starts a thick and green 
+section of forest land. Thickets, briars, underbrush, and trees make a 
+dense, unkempt foliage that is nearly impassable. However, a small, barely 
+detectable sort of path does exist, and it leads through the dense 
+undergrowth, providing at least some way of getting through.
+~
+0
+0 3
+0
+0
+D1
+~
+~
+0 -1 8260
+0 0
+D2
+~
+~
+0 -1 8256
+0 0
+S
+#8262
+&OW&gooded &OT&ghicket~
+&G Here, at the base of the West Cliff Path, starts a thick and green 
+section of forest land. Thickets, briars, underbrush, and trees make a 
+dense, unkempt foliage that is nearly impassable. However, a small, barely 
+detectable sort of path does exist, and it leads through the dense 
+undergrowth, providing at least some way of getting through.
+~
+0
+0 3
+0
+0
+D2
+~
+~
+0 -1 8260
+0 0
+S
+#8263
+&OW&gooded &OT&ghicket~
+&G This smaller section of forrest is made up of a very dense undergrowth 
+which covers almost the entire section of wood. The leaves on the trees 
+are just as dense as the undergrowth, which makes for a rather dim area 
+since little light passes through the trees. This wood does not, however, 
+carry an exceptionally uneasy aura, quite the contrary in fact, for this 
+place seems rather calm and peaceful. 
+~
+0
+0 3
+0
+0
+D0
+~
+~
+0 -1 8265
+0 0
+D1
+~
+~
+0 -1 8264
+0 0
+S
+#8264
+&OW&gooded &OT&ghicket~
+&G This smaller section of forrest is made up of a very dense undergrowth 
+which covers almost the entire section of wood. The leaves on the trees 
+are just as dense as the undergrowth, which makes for a rather dim area 
+since little light passes through the trees. This wood does not, however, 
+carry an exceptionally uneasy aura, quite the contrary in fact, for this 
+place seems rather calm and peaceful. 
+~
+0
+0 3
+0
+0
+D0
+~
+~
+0 -1 8265
+0 0
+D3
+~
+~
+0 -1 8263
+0 0
+S
+#8265
+&OW&gooded &OT&ghicket~
+&G This smaller section of forrest is made up of a very dense undergrowth 
+which covers almost the entire section of wood. The leaves on the trees 
+are just as dense as the undergrowth, which makes for a rather dim area 
+since little light passes through the trees. This wood does not, however, 
+carry an exceptionally uneasy aura, quite the contrary in fact, for this 
+place seems rather calm and peaceful. 
+~
+0
+0 3
+0
+0
+D1
+~
+~
+0 -1 8266
+0 0
+D2
+~
+~
+0 -1 8264
+0 0
+S
+#8266
+&OW&gooded &OT&ghicket~
+&G This smaller section of forrest is made up of a very dense undergrowth 
+which covers almost the entire section of wood. The leaves on the trees 
+are just as dense as the undergrowth, which makes for a rather dim area 
+since little light passes through the trees. This wood does not, however, 
+carry an exceptionally uneasy aura, quite the contrary in fact, for this 
+place seems rather calm and peaceful. 
+~
+0
+0 3
+0
+0
+D0
+~
+~
+0 -1 8267
+0 0
+D2
+~
+~
+0 -1 8263
+0 0
+D3
+~
+~
+0 -1 8265
+0 0
+S
+#8267
+&OW&gooded &OT&ghicket~
+&G This smaller section of forrest is made up of a very dense undergrowth 
+which covers almost the entire section of wood. The leaves on the trees 
+are just as dense as the undergrowth, which makes for a rather dim area 
+since little light passes through the trees. This wood does not, however, 
+carry an exceptionally uneasy aura, quite the contrary in fact, for this 
+place seems rather calm and peaceful. 
+~
+0
+0 3
+0
+0
+D0
+~
+~
+0 -1 8268
+0 0
+D2
+~
+~
+0 -1 8266
+0 0
+S
+#8268
+&OW&gooded &OT&ghicket~
+&G This smaller section of forrest is made up of a very dense undergrowth 
+which covers almost the entire section of wood. The leaves on the trees 
+are just as dense as the undergrowth, which makes for a rather dim area 
+since little light passes through the trees. This wood does not, however, 
+carry an exceptionally uneasy aura, quite the contrary in fact, for this 
+place seems rather calm and peaceful. 
+~
+0
+0 3
+0
+0
+D0
+~
+~
+0 -1 8269
+0 0
+D1
+~
+~
+0 -1 8270
+0 0
+D2
+~
+~
+0 -1 8267
+0 0
+S
+#8269
+&OW&gooded &OT&ghicket~
+&G This smaller section of forrest is made up of a very dense undergrowth 
+which covers almost the entire section of wood. The leaves on the trees 
+are just as dense as the undergrowth, which makes for a rather dim area 
+since little light passes through the trees. This wood does not, however, 
+carry an exceptionally uneasy aura, quite the contrary in fact, for this 
+place seems rather calm and peaceful. 
+~
+0
+0 3
+0
+0
+D2
+~
+~
+0 -1 8268
+0 0
+D3
+~
+~
+0 -1 8277
+0 0
+S
+#8270
+&OW&gooded &OT&ghicket~
+&G The forrest thins slightly here, allowing for at least a little more 
+visibility. Further east and north it appears there stands a house, though 
+rather old it still seems to be in excellent condition. Unfortunately, 
+that is all that can be said about the house from this distance. It is 
+quite pleasant here though, what with the break in the foliage allowing 
+for more light and sky to be visible. 
+~
+0
+0 3
+0
+0
+D1
+~
+~
+0 -1 8271
+0 0
+D3
+~
+~
+0 -1 8268
+0 0
+S
+#8271
+&OW&gooded &OT&ghicket~
+&G The forrest thins slightly here, allowing for at least a little more 
+visibility. Further east and north it appears there stands a house, though 
+rather old it still seems to be in excellent condition. Unfortunately, 
+that is all that can be said about the house from this distance. It is 
+quite pleasant here though, what with the break in the foliage allowing 
+for more light and sky to be visible.
+~
+0
+0 3
+0
+0
+D1
+~
+~
+0 -1 8272
+0 0
+D3
+~
+~
+0 -1 8270
+0 0
+S
+#8272
+&OW&gooded &OT&ghicket~
+&G The forrest thins slightly here, allowing for at least a little more 
+visibility. Further east and north it appears there stands a house, though 
+rather old it still seems to be in excellent condition. Unfortunately, 
+that is all that can be said about the house from this distance. It is 
+quite pleasant here though, what with the break in the foliage allowing 
+for more light and sky to be visible.
+~
+0
+0 3
+0
+0
+D3
+~
+~
+0 -1 8271
+0 0
+D6
+~
+~
+0 -1 8273
+0 0
+S
+#8273
+&OW&gooded &OT&ghicket~
+&G The dense foliage breaks a little more, and almost becomes a clearing, 
+except for all the briars and thorns which still cover the ground and rise 
+in shrub-like form to roughly head-height. The house is quite visible now, 
+made of logs, but tall and fine. It has stained glass windows, and vines 
+grow up all sides, giving the house the appearance of sprouting straight 
+up from the earth. Wait, that's exactly what has happened...the house is 
+not made of logs, but of tree roots that have made impenetrable walls. All 
+of this gives the house a strangely welcoming feeling, though not 
+altogether peaceful.
+~
+0
+0 3
+0
+0
+D7
+~
+~
+0 -1 8274
+0 0
+D9
+~
+~
+0 -1 8272
+0 0
+S
+#8274
+&OW&gooded &OT&ghicket~
+&G The dense foliage breaks a little more, and almost becomes a clearing, 
+except for all the briars and thorns which still cover the ground and rise 
+in shrub-like form to roughly head-height. The house is quite visible now, 
+made of logs, but tall and fine. It has stained glass windows, and vines 
+grow up all sides, giving the house the appearance of sprouting straight 
+up from the earth. Wait, that's exactly what has happened...the house is 
+not made of logs, but of tree roots that have made impenetrable walls. All 
+of this gives the house a strangely welcoming feeling, though not 
+altogether peaceful.
+~
+0
+0 3
+0
+0
+D3
+~
+~
+0 -1 8275
+0 0
+D8
+~
+~
+0 -1 8273
+0 0
+S
+#8275
+&OW&gooded &OT&ghicket~
+&G The dense foliage breaks a little more, and almost becomes a clearing, 
+except for all the briars and thorns which still cover the ground and rise 
+in shrub-like form to roughly head-height. The house is quite visible now, 
+made of logs, but tall and fine. It has stained glass windows, and vines 
+grow up all sides, giving the house the appearance of sprouting straight 
+up from the earth. Wait, that's exactly what has happened...the house is 
+not made of logs, but of tree roots that have made impenetrable walls. All 
+of this gives the house a strangely welcoming feeling, though not 
+altogether peaceful.
+~
+0
+0 3
+0
+0
+D0
+~
+~
+0 -1 8276
+0 0
+D1
+~
+~
+0 -1 8274
+0 0
+S
+#8276
+&OW&gooded &OT&ghicket~
+&G The dense foliage breaks a little more, and almost becomes a clearing, 
+except for all the briars and thorns which still cover the ground and rise 
+in shrub-like form to roughly head-height. The house is quite visible now, 
+made of logs, but tall and fine. It has stained glass windows, and vines 
+grow up all sides, giving the house the appearance of sprouting straight 
+up from the earth. Wait, that's exactly what has happened...the house is 
+not made of logs, but of tree roots that have made impenetrable walls. All 
+of this gives the house a strangely welcoming feeling, though not 
+altogether peaceful.
+~
+0
+0 3
+0
+0
+D1
+~
+~
+0 -1 8200
+0 0
+D2
+~
+~
+0 -1 8275
+0 0
+S
+#8277
+&OW&gooded &OT&ghicket~
+&G This smaller section of forrest is made up of a very dense undergrowth 
+which covers almost the entire section of wood. The leaves on the trees 
+are just as dense as the undergrowth, which makes for a rather dim area 
+since little light passes through the trees. This wood does not, however, 
+carry an exceptionally uneasy aura, quite the contrary in fact, for this 
+place seems rather calm and peaceful. 
+~
+0
+0 3
+0
+0
+D1
+~
+~
+0 -1 8269
+0 0
+D3
+~
+~
+0 -1 8278
+0 0
+S
+#8278
+&OW&gooded &OT&ghicket~
+&G This smaller section of forrest is made up of a very dense undergrowth 
+which covers almost the entire section of wood. The leaves on the trees 
+are just as dense as the undergrowth, which makes for a rather dim area 
+since little light passes through the trees. This wood does not, however, 
+carry an exceptionally uneasy aura, quite the contrary in fact, for this 
+place seems rather calm and peaceful. 
+~
+0
+0 3
+0
+0
+D0
+~
+~
+0 -1 8282
+0 0
+D1
+~
+~
+0 -1 8277
+0 0
+S
+#8279
+&OW&gooded &OT&ghicket~
+&G This smaller section of forrest is made up of a very dense undergrowth 
+which covers almost the entire section of wood. The leaves on the trees 
+are just as dense as the undergrowth, which makes for a rather dim area 
+since little light passes through the trees. This wood does not, however, 
+carry an exceptionally uneasy aura, quite the contrary in fact, for this 
+place seems rather calm and peaceful. 
+~
+0
+0 3
+0
+0
+D0
+~
+~
+0 -1 8283
+0 0
+D3
+~
+~
+0 -1 8280
+0 0
+S
+#8280
+&OW&gooded &OT&ghicket~
+&G The dense foliage persists on in this direction, appearing to never 
+break as the faintly visible trail winds around through the brush and 
+brambles. The sky is barely visible through the canopy of leaves, but the 
+animals in the wood make quite a cheerful racket, helping to make the 
+woods seem a bit brighter and filled with gaiety. 
+~
+0
+0 3
+0
+0
+D0
+~
+~
+0 -1 8284
+0 0
+D1
+~
+~
+0 -1 8279
+0 0
+S
+#8281
+&OW&gooded &OT&ghicket~
+&G The dense foliage persists on in this direction, appearing to never 
+break as the faintly visible trail winds around through the brush and 
+brambles. The sky is barely visible through the canopy of leaves, but the 
+animals in the wood make quite a cheerful racket, helping to make the 
+woods seem a bit brighter and filled with gaiety.
+~
+0
+0 3
+0
+0
+D6
+~
+~
+0 -1 8284
+0 0
+D7
+~
+~
+0 -1 8285
+0 0
+S
+#8282
+&OW&gooded &OT&ghicket~
+&G This smaller section of forrest is made up of a very dense undergrowth 
+which covers almost the entire section of wood. The leaves on the trees 
+are just as dense as the undergrowth, which makes for a rather dim area 
+since little light passes through the trees. This wood does not, however, 
+carry an exceptionally uneasy aura, quite the contrary in fact, for this 
+place seems rather calm and peaceful. 
+~
+0
+0 3
+0
+0
+D2
+~
+~
+0 -1 8278
+0 0
+D3
+~
+~
+0 -1 8283
+0 0
+S
+#8283
+&OW&gooded &OT&ghicket~
+&G This smaller section of forrest is made up of a very dense undergrowth 
+which covers almost the entire section of wood. The leaves on the trees 
+are just as dense as the undergrowth, which makes for a rather dim area 
+since little light passes through the trees. This wood does not, however, 
+carry an exceptionally uneasy aura, quite the contrary in fact, for this 
+place seems rather calm and peaceful. 
+~
+0
+0 3
+0
+0
+D1
+~
+~
+0 -1 8282
+0 0
+D2
+~
+~
+0 -1 8279
+0 0
+S
+#8284
+&OW&gooded &OT&ghicket~
+&G The dense foliage persists on in this direction, appearing to never 
+break as the faintly visible trail winds around through the brush and 
+brambles. The sky is barely visible through the canopy of leaves, but the 
+animals in the wood make quite a cheerful racket, helping to make the 
+woods seem a bit brighter and filled with gaiety.
+~
+0
+0 3
+0
+0
+D2
+~
+~
+0 -1 8280
+0 0
+D9
+~
+~
+0 -1 8281
+0 0
+S
+#8285
+&OW&gooded &OT&ghicket~
+&G The dense foliage persists on in this direction, appearing to never 
+break as the faintly visible trail winds around through the brush and 
+brambles. The sky is barely visible through the canopy of leaves, but the 
+animals in the wood make quite a cheerful racket, helping to make the 
+woods seem a bit brighter and filled with gaiety.
+~
+0
+0 3
+0
+0
+D6
+~
+~
+0 -1 8286
+0 0
+D8
+~
+~
+0 -1 8281
+0 0
+S
+#8286
+&OW&gooded &OT&ghicket~
+&G The dense foliage persists on in this direction, appearing to never 
+break as the faintly visible trail winds around through the brush and 
+brambles. The sky is barely visible through the canopy of leaves, but the 
+animals in the wood make quite a cheerful racket, helping to make the 
+woods seem a bit brighter and filled with gaiety.
+~
+0
+0 3
+0
+0
+D1
+~
+~
+0 -1 8287
+0 0
+D9
+~
+~
+0 -1 8285
+0 0
+S
+#8287
+&OW&gooded &OT&ghicket~
+&G The dense foliage persists on in this direction, appearing to never 
+break as the faintly visible trail winds around through the brush and 
+brambles. The sky is barely visible through the canopy of leaves, but the 
+animals in the wood make quite a cheerful racket, helping to make the 
+woods seem a bit brighter and filled with gaiety.
+~
+0
+0 3
+0
+0
+D1
+~
+~
+0 -1 8288
+0 0
+D3
+~
+~
+0 -1 8286
+0 0
+S
+#8288
+&OW&gooded &OT&ghicket~
+&G The dense foliage persists on in this direction, appearing to never 
+break as the faintly visible trail winds around through the brush and 
+brambles. The sky is barely visible through the canopy of leaves, but the 
+animals in the wood make quite a cheerful racket, helping to make the 
+woods seem a bit brighter and filled with gaiety.
+~
+0
+0 3
+0
+0
+D1
+~
+~
+0 -1 8289
+0 0
+D3
+~
+~
+0 -1 8287
+0 0
+S
+#8289
+&OW&gooded &OT&ghicket~
+&G The dense foliage persists on in this direction, appearing to never 
+break as the faintly visible trail winds around through the brush and 
+brambles. The sky is barely visible through the canopy of leaves, but the 
+animals in the wood make quite a cheerful racket, helping to make the 
+woods seem a bit brighter and filled with gaiety.
+~
+0
+0 3
+0
+0
+D3
+~
+~
+0 -1 8288
+0 0
+D6
+~
+~
+0 -1 8290
+0 0
+S
+#8290
+&OW&gooded &OT&ghicket~
+&G The dense foliage persists on in this direction, appearing to never 
+break as the faintly visible trail winds around through the brush and 
+brambles. The sky is barely visible through the canopy of leaves, but the 
+animals in the wood make quite a cheerful racket, helping to make the 
+woods seem a bit brighter and filled with gaiety.
+~
+0
+0 3
+0
+0
+D6
+~
+~
+0 -1 8291
+0 0
+D9
+~
+~
+0 -1 8289
+0 0
+S
+#8291
+&OW&gooded &OT&ghicket~
+&G The dense foliage persists on in this direction, appearing to never 
+break as the faintly visible trail winds around through the brush and 
+brambles. The sky is barely visible through the canopy of leaves, but the 
+animals in the wood make quite a cheerful racket, helping to make the 
+woods seem a bit brighter and filled with gaiety.
+~
+0
+0 3
+0
+0
+D1
+~
+~
+0 -1 8292
+0 0
+D9
+~
+~
+0 -1 8290
+0 0
+S
+#8292
+&OW&gooded &OT&ghicket~
+&G The path winds about a bit more, but the trees seem to be growing less 
+dense, and the shrubs and bushes of briars and thorns seem to be following 
+suit. It seems that the end of the path is drawing near, and maybe the 
+path past this thick wood lies a more easily travelled path, and one that 
+is not down the face of a cliff at the same time. 
+~
+0
+0 3
+0
+0
+D1
+~
+~
+0 -1 8293
+0 0
+D3
+~
+~
+0 -1 8291
+0 0
+S
+#8293
+&OW&gooded &OT&ghicket~
+&G The path winds about a bit more, but the trees seem to be growing less 
+dense, and the shrubs and bushes of briars and thorns seem to be following 
+suit. It seems that the end of the path is drawing near, and maybe the 
+path past this thick wood lies a more easily travelled path, and one that 
+is not down the face of a cliff at the same time.
+~
+0
+0 3
+0
+0
+D3
+~
+~
+0 -1 8292
+0 0
+D6
+~
+~
+0 -1 8294
+0 0
+S
+#8294
+&OW&gooded &OT&ghicket~
+&G The path winds about a bit more, but the trees seem to be growing less 
+dense, and the shrubs and bushes of briars and thorns seem to be following 
+suit. It seems that the end of the path is drawing near, and maybe the 
+path past this thick wood lies a more easily travelled path, and one that 
+is not down the face of a cliff at the same time.
+~
+0
+0 3
+0
+0
+D0
+~
+~
+0 -1 8295
+0 0
+D9
+~
+~
+0 -1 8293
+0 0
+S
+#8295
+&OW&gooded &OT&ghicket~
+&G The path winds about a bit more, but the trees seem to be growing less 
+dense, and the shrubs and bushes of briars and thorns seem to be following 
+suit. It seems that the end of the path is drawing near, and maybe the 
+path past this thick wood lies a more easily travelled path, and one that 
+is not down the face of a cliff at the same time.
+~
+0
+0 3
+0
+0
+D2
+~
+~
+0 -1 8294
+0 0
+D3
+~
+~
+0 -1 8296
+0 0
+S
+#8296
+&OW&gooded &OT&ghicket~
+&G The path winds about a bit more, but the trees seem to be growing less 
+dense, and the shrubs and bushes of briars and thorns seem to be following 
+suit. It seems that the end of the path is drawing near, and maybe the 
+path past this thick wood lies a more easily travelled path, and one that 
+is not down the face of a cliff at the same time.
+~
+0
+0 3
+0
+0
+D1
+~
+~
+0 -1 8295
+0 0
+D3
+~
+~
+0 -1 8297
+0 0
+S
+#8297
+&OW&gooded &OT&ghicket~
+&G The path winds about a bit more, but the trees seem to be growing less 
+dense, and the shrubs and bushes of briars and thorns seem to be following 
+suit. It seems that the end of the path is drawing near, and maybe the 
+path past this thick wood lies a more easily travelled path, and one that 
+is not down the face of a cliff at the same time.
+~
+0
+0 3
+0
+0
+D1
+~
+~
+0 -1 8296
+0 0
+D7
+~
+~
+0 -1 8298
+0 0
+S
+#8298
+&OW&gooded &OT&ghicket~
+&G The path winds about a bit more, but the trees seem to be growing less 
+dense, and the shrubs and bushes of briars and thorns seem to be following 
+suit. It seems that the end of the path is drawing near, and maybe the 
+path past this thick wood lies a more easily travelled path, and one that 
+is not down the face of a cliff at the same time.
+~
+0
+0 3
+0
+0
+D0
+~
+~
+0 -1 8299
+0 0
+D8
+~
+~
+0 -1 8297
+0 0
+S
+#8299
+&OW&gooded &OT&ghicket~
+&G The path winds about a bit more, but the trees seem to be growing less 
+dense, and the shrubs and bushes of briars and thorns seem to be following 
+suit. It seems that the end of the path is drawing near, and maybe the 
+path past this thick wood lies a more easily travelled path, and one that 
+is not down the face of a cliff at the same time.
+~
+0
+0 3
+0
+0
+D0
+~
+~
+0 -1 8020
+0 0
+D2
+~
+~
+0 -1 8298
+0 0
+S
+#8300
+&zA Cliffside Path~
+&G Light pours into this room from above. At this point, at the top of the 
+path into the "Lost Valley", it seems that the path down will be nothing 
+more than a cave, however untrue it may be. North, East, and West, small 
+amounts of light can be seen coming from those directions, albeit a minute 
+amount. The ground here is rocky, and covered with small pebbles, 
+threating to twist your ankle and send you stumbling. Now to choose, down 
+into the "Lost Valley", or up to the safety of the tamed world. 
+~
+0
+0 4
+0
+0
+D0
+~
+~
+0 -1 8304
+0 0
+D1
+~
+~
+0 -1 8301
+0 0
+D3
+~
+~
+0 -1 8302
+0 0
+D4
+~
+~
+16777216 -1 8389
+0 0
+S
+#8301
+&zA Cliffside Path~
+&G This is the path down the east cliff. Light begins to fill this room 
+now as the cave ends and opens up onto the cliff. Northeast, the path 
+continues to slope gently down the cliff, slowly arriving at the Lost 
+Valley. On the walls of the cliff, there are some small furry creatures 
+scuttling about, as well as some odd looking little lizards. It seems that 
+all the creatures in this area are indeed, previously, unknown. 
+~
+0
+0 4
+0
+0
+D3
+~
+~
+0 -1 8300
+0 0
+D6
+~
+~
+0 -1 8303
+0 0
+S
+#8302
+&zA Cliffside Path~
+&G This is the path down the west cliff. Here, the elevation is high 
+enough above the floor of the Lost Valley that not much vegetation 
+grows....if any at all. The path itself is fairly sandy, with small 
+pebbles strewn about. So little vegetation is present that moss doesn't 
+even grow in the damp shade in the rocks, however, there are many species 
+of insects and a few animals scurrying about within view. 
+~
+0
+0 4
+0
+0
+D1
+~
+~
+0 -1 8300
+0 0
+D7
+~
+~
+0 -1 8305
+0 0
+S
+#8303
+&zA Cliffside Path~
+&G Further down this path can be seen the convergence of two paths, this 
+one, and one coming from further west, though that meeting is still a good 
+ways down the cliff. In the sand on the path are many small footprints, 
+footprints that don't look quite like any footprint in the rest of the 
+realm of Rafermand, but are still similar. For instance, one print looks 
+to be that of a rabbit, except it is as large as a human footprint, and 
+appears to have an extra toe that juts off the backside of the foot. How 
+nice it would be to have that creature's hide!
+~
+0
+0 4
+0
+0
+D0
+~
+~
+0 -1 8306
+0 0
+D9
+~
+~
+0 -1 8301
+0 0
+S
+#8304
+&zA Path Down the Cliff~
+&G Light begins to flood the room from the north as the cave entrance to 
+the "Lost Valley" opens out onto a wide cliff. This path was cut into the 
+cliff and goes straight north from here, sloping steeply. The "Lost 
+Valley" itself can be seen in the distance to the north, stretching out 
+for vast miles, and many new and strange species can seen either circling 
+in the air, or running on the ground. This sight can not help but bring 
+out the hunter in everyone. 
+~
+0
+0 4
+0
+0
+D0
+~
+~
+0 -1 8307
+0 0
+D2
+~
+~
+0 -1 8300
+0 0
+S
+#8305
+&zA Cliffside Path~
+&G This is the path down the west cliff. Here, the elevation is high 
+enough above the floor of the Lost Valley that not much vegetation 
+grows....if any at all. The path itself is fairly sandy, with small 
+pebbles strewn about. So little vegetation is present that moss doesn't 
+even grow in the damp shade in the rocks, however, there are many species 
+of insects and a few animals scurrying about within view. 
+~
+0
+0 4
+0
+0
+D0
+~
+~
+0 -1 8308
+0 0
+D8
+~
+~
+0 -1 8302
+0 0
+S
+#8306
+&zPath Down the East Cliff~
+&G There is a combining of two paths not far down this path. It looks like 
+the North Path, meets East Cliff Path, which is the path here. The 
+entrance to "Lost Valley" is also not far south of here. The blue sky 
+stretches out to the horizon, cut off directly overhead by the edge of the 
+cliff beside the path here. Small green tussocks of grass jut up from the 
+sand in sporatic consitancy, and those two words aptly describe "Lost 
+Valley". 
+~
+0
+0 4
+0
+0
+D2
+~
+~
+0 -1 8303
+0 0
+D6
+~
+~
+0 -1 8309
+0 0
+S
+#8307
+&zA Path Down the Cliff~
+&G Light begins to flood the room from the north as the cave entrance to 
+the "Lost Valley" opens out onto a wide cliff. This path was cut into the 
+cliff and goes straight north from here, sloping steeply. The "Lost
+Valley" itself can be seen in the distance to the north, stretching out 
+for vast miles, and many new and strange species can seen either circling 
+in the air, or running on the ground. This sight can not help but bring 
+out the hunter in everyone. 
+~
+0
+0 4
+0
+0
+D0
+~
+~
+0 -1 8310
+0 0
+D2
+~
+~
+0 -1 8304
+0 0
+S
+#8308
+&zPath Down the West Cliff~
+&G This is the path down the west cliff. Here, the elevation is high 
+enough above the floor of the Lost Valley that not much vegetation 
+grows....if any at all. The path itself is fairly sandy, with small 
+pebbles strewn about. So little vegetation is present that moss doesn't 
+even grow in the damp shade in the rocks, however, there are many species 
+of insects and a few animals scurrying about within view. 
+~
+0
+0 4
+0
+0
+D2
+~
+~
+0 -1 8305
+0 0
+D7
+~
+~
+0 -1 8311
+0 0
+S
+#8309
+&zPath Down the East Cliff~
+&G Beside the path here, there is a small, glistening brook, trickling 
+softly down into a larger stream further down the cliff, which in turn 
+runs into the valley, and then into a pool at the very center of the 
+valley. Around the pool stands a small wooded area, and more woods line 
+different streams and creeks. The grass is ever so green, and a hazy, 
+twilight like mist rests over the scenery. All of this leaves the scenery 
+with the appearance of an untouched utopia. 
+~
+0
+0 4
+0
+0
+D7
+~
+~
+0 -1 8312
+0 0
+D9
+~
+~
+0 -1 8306
+0 0
+S
+#8310
+&zPath Down the Cliff~
+&G The path splits here, one branch to the northeast, the other to the 
+northwest. From here it appears that both branches converge with other 
+paths heading down the cliffs. The sounds of wild, new creatures, echo off 
+the cliff faces, and fill the air with noise. Even the cliffs here are 
+filled with new and interesting life. The furs and hides of these 
+creatures just might be worth a pretty penny! 
+~
+0
+0 4
+0
+0
+D2
+~
+~
+0 -1 8307
+0 0
+D6
+~
+~
+0 -1 8313
+0 0
+D7
+~
+~
+0 -1 8314
+0 0
+S
+#8311
+&zPath Down the West Cliff~
+&G There is a small, narrow, very rocky and barely detectable path that 
+runs west of here, and into a cave in the distance. Northeast, it appears 
+the North Path meets West Cliff Path and then continues on down the bowl. 
+A small stream crosses the path there, and meanders on down the more 
+gently sloping cliff to meet with a large stream, which then flows down 
+into the valley to meet with a creek. 
+~
+0
+0 4
+0
+0
+D3
+~
+~
+0 -1 8342
+0 0
+D6
+~
+~
+0 -1 8315
+0 0
+D8
+~
+~
+0 -1 8308
+0 0
+S
+#8312
+&zConvergence of Paths on the East Cliff~
+&G Here, the North Path meets the East Cliff Path. The two merge and run 
+on further down the east cliff, meandering about, slowly making its way 
+down the steep face of the rocky earth. The West Cliff Path is also 
+visible from here, acting much the same way as this path does, until it 
+too reaches the level ground of the valley floor. 
+~
+0
+0 4
+0
+0
+D0
+~
+~
+0 -1 8316
+0 0
+D3
+~
+~
+0 -1 8313
+0 0
+D8
+~
+~
+0 -1 8309
+0 0
+S
+#8313
+&zNearing East Cliff Convergence~
+&G This northeastern branch of the North Path meets the East Cliff Path 
+just to the east of here. Both paths look the pretty much the same, a 
+slightly sandy bottom covered with pebbles, a steep rise on one side, and 
+a steep drop on the other. The sand on the path is filled with small, 
+strange footprints of creatures never before seen by the above world. 
+~
+0
+0 4
+0
+0
+D1
+~
+~
+0 -1 8312
+0 0
+D9
+~
+~
+0 -1 8310
+0 0
+S
+#8314
+&zNearing West Cliff Convergence~
+&G This northwestern branch of the North Path meets the West Cliff Path 
+just to the west of here. Both paths look the pretty much the same, a 
+slightly sandy bottom covered with pebbles, a steep rise on one side, and 
+a steep drop on the other. The sand on the path is filled with small, 
+strange footprints of creatures never before seen by the above world. 
+~
+0
+0 4
+0
+0
+D3
+~
+~
+0 -1 8315
+0 0
+D8
+~
+~
+0 -1 8310
+0 0
+S
+#8315
+&zConvergence of Paths on the West Cliff~
+&G The North Path meets West Cliff Path here. To the north the path 
+continues, leading its way down the cliff to the valley, or, from the 
+other side of the coin, it leads up the cliff and out of the Lost Valley. 
+Slightly south and a good distance west there is a dark cave, and a 
+faintly detectable path which leads into it. 
+~
+0
+0 4
+0
+0
+D0
+~
+~
+0 -1 8317
+0 0
+D1
+~
+~
+0 -1 8314
+0 0
+D9
+~
+~
+0 -1 8311
+0 0
+S
+#8316
+&zEast Path, Halfway Down the Cliff~
+&G Small mounds of grass stand here and there about the path, miraculously 
+making a life in the rocky ground, with little sustinance, but still they 
+appear strong, and are vibrant green. On the face of the cliff above the 
+path, grey and brown moss grows in the cracks, in the cool moist shade. 
+Small bugs can be seen crawling between the moss in different places, 
+feeding off of the fungus. The stone face even reflects a little light 
+here and there between the moss where the sun hits the cliffside. 
+~
+0
+0 4
+0
+0
+D2
+~
+~
+0 -1 8312
+0 0
+D6
+~
+~
+0 -1 8318
+0 0
+S
+#8317
+&zHalfway Down the West Cliff~
+&G The path down the west cliff travels on down the cliff, leading the way 
+to and from the valley in this geographical bowl. In the distance to the 
+east, the path down the east cliff is visible, acting much like this one, 
+wandering about like a drunken mule. The path itself is predominantly 
+sandy, and small pebbles line the way. Brown and gray algae even manage to 
+grow on the rocks here, a sign that abundant life is not too far off. 
+~
+0
+0 4
+0
+0
+D0
+~
+~
+0 -1 8319
+0 0
+D2
+~
+~
+0 -1 8315
+0 0
+S
+#8318
+&zPath Down the East Cliff~
+&G The valley seems much closer now, being roughly halfway down the cliff. 
+The path appears to continue on in the same state, a bit sandy for the 
+most part, but still many small rocks and pebbles lying about. All in all, 
+the path is in good condition, and quite easy to walk upon, and the 
+beautiful view of the Lost Valley only makes the journey more enjoyable, 
+and seem even shorter. 
+~
+0
+0 4
+0
+0
+D6
+~
+~
+0 -1 8320
+0 0
+D9
+~
+~
+0 -1 8316
+0 0
+S
+#8319
+&zPath Down the West Cliff~
+&G The path down the west cliff travels on down the cliff, leading the way 
+to and from the valley in this geographical bowl. In the distance to the 
+east, the path down the east cliff is visible, acting much like this one, 
+wandering about like a drunken mule. The path itself is predominantly 
+sandy, and small pebbles line the way. Brown and gray algea even manage to 
+grow on the rocks here, a sign that abundant life is not too far off. 
+~
+0
+0 4
+0
+0
+D0
+~
+~
+0 -1 8321
+0 0
+D2
+~
+~
+0 -1 8317
+0 0
+S
+#8320
+&zPath Down the East Cliff~
+&G Not far ahead is a gentle turn north, followed by a sharp turn east in 
+a meander down the cliff. The noises of all the new and strange creatures 
+can be heard rising through the air and echoing off of the sides of this 
+geographical bowl. The bowl itself is very visible, and from here all the 
+sides can be seen clearly, curving around and making the horizon. 
+~
+0
+0 4
+0
+0
+D6
+~
+~
+0 -1 8322
+0 0
+D9
+~
+~
+0 -1 8318
+0 0
+S
+#8321
+&zPath Down the West Cliff~
+&G The path down the west cliff travels on down the cliff, leading the way 
+to and from the valley in this geographical bowl. In the distance to the 
+east, the path down the east cliff is visible, acting much like this one, 
+wandering about like a drunken mule. The path itself is predominantly 
+sandy, and small pebbles line the way. Brown and gray algea even manage to 
+grow on the rocks here, a sign that abundant life is not too far off. 
+~
+0
+0 4
+0
+0
+D0
+~
+~
+0 -1 8323
+0 0
+D2
+~
+~
+0 -1 8319
+0 0
+S
+#8322
+&zPath Down the East Cliff~
+&G The path bends gently north of here, and from there it turns sharply 
+east. The path also goes back up the cliff to the southwest. Looking up 
+that direction one can see the cliffs towering above, and looming down. 
+Along the cliff rim are a few large nests, apparently belonging to some 
+kind of large bird, maybe some new specie of eagle. 
+~
+0
+0 4
+0
+0
+D0
+~
+~
+0 -1 8324
+0 0
+D9
+~
+~
+0 -1 8320
+0 0
+S
+#8323
+&zPath Down the West Cliff~
+&G The path down the west cliff travels on down the cliff, leading the way 
+to and from the valley in this geographical bowl. In the distance to the 
+east, the path down the east cliff is visible, acting much like this one, 
+wandering about like a drunken mule. The path itself is predominantly 
+sandy, and small pebbles line the way. Brown and gray algea even manage to 
+grow on the rocks here, a sign that abundant life is not too far off. 
+~
+0
+0 4
+0
+0
+D2
+~
+~
+0 -1 8321
+0 0
+D7
+~
+~
+0 -1 8325
+0 0
+S
+#8324
+&zNear the Bottom of the East Cliff~
+&G The cliffs around the path are not nearly as rough now. Grass covers 
+many spots of the rock where soil and sediment has settled into different 
+flat places. Life begins to teem and rise up this close to the valley 
+floor. The air seems cleaner, and the noises of nature are more abundant. 
+The valley itself still pushes its aura this far up, leaving the present 
+feeling of newness. 
+~
+0
+0 4
+0
+0
+D1
+~
+~
+0 -1 8326
+0 0
+D2
+~
+~
+0 -1 8322
+0 0
+S
+#8325
+&zWest Turn in the Path~
+&G West Cliff Path meanders down the cliff, winding its way back and forth 
+from side to side, making a pass between the top and bottom of the 
+geographical bowl in which the Lost Valley rests. From here, thousands of 
+different kinds of life can be seen roaming about the land, in a perfect 
+geosphere of protection. 
+~
+0
+0 4
+0
+0
+D3
+~
+~
+0 -1 8327
+0 0
+D8
+~
+~
+0 -1 8323
+0 0
+S
+#8326
+&zNear the Bottom of the East Cliff~
+&G The cliffs around the path are not nearly as rough now. Grass covers 
+many spots of the rock where soil and sediment has settled into different 
+flat places. Life begins to teem and rise up this close to the valley 
+floor. The air seems cleaner, and the noises of nature are more abundant. 
+The valley itself still pushes its aura this far up, leaving the present 
+feeling of newness. 
+~
+0
+0 4
+0
+0
+D1
+~
+~
+0 -1 8328
+0 0
+D3
+~
+~
+0 -1 8324
+0 0
+S
+#8327
+&zWest Stretch of the Path~
+&G West Cliff Path meanders down the cliff, winding its way back and forth 
+from side to side, making a pass between the top and bottom of the 
+geographical bowl in which the Lost Valley rests. From here, thousands of 
+different kinds of life can be seen roaming about the land, in a perfect 
+geosphere of protection. 
+~
+0
+0 4
+0
+0
+D1
+~
+~
+0 -1 8325
+0 0
+D3
+~
+~
+0 -1 8329
+0 0
+S
+#8328
+&zNear the Bottom of the East Cliff~
+&G The cliffs around the path are not nearly as rough now. Grass covers 
+many spots of the rock where soil and sediment has settled into different 
+flat places. Life begins to teem and rise up this close to the valley 
+floor. The air seems cleaner, and the noises of nature are more abundant. 
+The valley itself still pushes its aura this far up, leaving the present 
+feeling of newness. 
+~
+0
+0 4
+0
+0
+D0
+~
+~
+0 -1 8330
+0 0
+D3
+~
+~
+0 -1 8326
+0 0
+S
+#8329
+&zWest Stretch of the Path~
+&G West Cliff Path meanders down the cliff, winding its way back and forth 
+from side to side, making a pass between the top and bottom of the 
+geographical bowl in which the Lost Valley rests. From here, thousands of 
+different kinds of life can be seen roaming about the land, in a perfect 
+geosphere of protection. 
+~
+0
+0 4
+0
+0
+D1
+~
+~
+0 -1 8327
+0 0
+D9
+~
+~
+0 -1 8331
+0 0
+S
+#8330
+&zNear the Bottom of the East Cliff~
+&G The cliffs around the path are not nearly as rough now. Grass covers 
+many spots of the rock where soil and sediment has settled into different 
+flat places. Life begins to teem and rise up this close to the valley 
+floor. The air seems cleaner, and the noises of nature are more abundant. 
+The valley itself still pushes its aura this far up, leaving the present 
+feeling of newness. 
+~
+0
+0 4
+0
+0
+D0
+~
+~
+0 -1 8332
+0 0
+D2
+~
+~
+0 -1 8328
+0 0
+S
+#8331
+&zA Wide Curve in the Path~
+&G West Cliff Path meanders down the cliff, winding its way back and forth 
+from side to side, making a pass between the top and bottom of the 
+geographical bowl in which the Lost Valley rests. From here, thousands of 
+different kinds of life can be seen roaming about the land, in a perfect 
+geosphere of protection. 
+~
+0
+0 4
+0
+0
+D6
+~
+~
+0 -1 8329
+0 0
+D7
+~
+~
+0 -1 8333
+0 0
+S
+#8332
+&zWithin Sight of Level Ground~
+&G The cliffs around the path are not nearly as rough now. Grass covers 
+many spots of the rock where soil and sediment has settled into different 
+flat places. Life begins to teem and rise up this close to the valley 
+floor. The air seems cleaner, and the noises of nature are more abundant. 
+The valley itself still pushes its aura this far up, leaving the present 
+feeling of newness. 
+~
+0
+0 4
+0
+0
+D2
+~
+~
+0 -1 8330
+0 0
+D7
+~
+~
+0 -1 8334
+0 0
+S
+#8333
+&zWide Bend in the Path~
+&G West Cliff Path meanders down the cliff, winding its way back and forth 
+from side to side, making a pass between the top and bottom of the 
+geographical bowl in which the Lost Valley rests. From here, thousands of 
+different kinds of life can be seen roaming about the land, in a perfect 
+geosphere of protection. 
+~
+0
+0 4
+0
+0
+D0
+~
+~
+0 -1 8335
+0 0
+D8
+~
+~
+0 -1 8331
+0 0
+S
+#8334
+&zEnd of the Path Down the East Cliff~
+&G This is the meeting of level ground and East Cliff Path, which is one 
+of the ways to enter or leave the Lost Valley, which lies now to the 
+north. The footprints, and other signs, of life are now present in 
+abundance. What appears to be thousands of different kinds of footprints 
+are pressed into the dirt, and leaves and berries are missing from the 
+trees in overwhelming numbers. 
+~
+0
+0 4
+0
+0
+D8
+~
+~
+0 -1 8332
+0 0
+> entry_prog 100~
+~
+|
+S
+#8335
+&zNearing Level Ground~
+&G West Cliff Path meanders down the cliff, winding its way back and forth 
+from side to side, making a pass between the top and bottom of the 
+geographical bowl in which the Lost Valley rests. From here, thousands of 
+different kinds of life can be seen roaming about the land, in a perfect 
+geosphere of protection. 
+~
+0
+0 4
+0
+0
+D2
+~
+~
+0 -1 8333
+0 0
+D7
+~
+~
+0 -1 8337
+0 0
+S
+#8337
+&zNearing Level Ground~
+&G West Cliff Path meanders down the cliff, winding its way back and forth 
+from side to side, making a pass between the top and bottom of the 
+geographical bowl in which the Lost Valley rests. From here, thousands of 
+different kinds of life can be seen roaming about the land, in a perfect 
+geosphere of protection. 
+~
+0
+0 4
+0
+0
+D1
+~
+~
+0 -1 8339
+0 0
+D8
+~
+~
+0 -1 8335
+0 0
+S
+#8338
+&zAn Easterly Stretch of the Path~
+&G This is the last stretch of the path coming down the cliff. The end of 
+West Cliff Path is now visible to the west. If travel leads upward, the 
+top of the path is currently at the edge of vision, many hundreds of feet 
+up where it meets its opening on Halugra Planari. This place is a true 
+wonder of the world, a perfect lost ecology beneath the surface of the 
+earth, and somehow still lit in daylight or darkness, depending on the 
+time of day. 
+~
+0
+0 4
+0
+0
+D1
+~
+~
+0 -1 8340
+0 0
+D3
+~
+~
+0 -1 8339
+0 0
+S
+#8339
+&zAn Easterly Stretch of the Path~
+&G This is the last stretch of the path coming down the cliff. The end of 
+West Cliff Path is now visible to the west. If travel leads upward, the 
+top of the path is currently at the edge of vision, many hundreds of feet 
+up where it meets its opening on Halugra Planari. This place is a true 
+wonder of the world, a perfect lost ecology beneath the surface of the 
+earth, and somehow still lit in daylight or darkness, depending on the 
+time of day. 
+~
+0
+0 4
+0
+0
+D1
+~
+~
+0 -1 8338
+0 0
+D3
+~
+~
+0 -1 8337
+0 0
+S
+#8340
+&zIn Sight of Level Ground~
+&G This is the last stretch of the path coming down the cliff. The end of 
+West Cliff Path is now visible to the west. If travel leads upward, the 
+top of the path is currently at the edge of vision, many hundreds of feet 
+up where it meets its opening on Halugra Planari. This place is a true 
+wonder of the world, a perfect lost ecology beneath the surface of the 
+earth, and somehow still lit in daylight or darkness, depending on the 
+time of day. 
+~
+0
+0 4
+0
+0
+D1
+~
+~
+0 -1 8341
+0 0
+D3
+~
+~
+0 -1 8338
+0 0
+S
+#8341
+&zBottom of the Path Down the West Cliff~
+&G This is the last stretch of the path coming down the cliff. The end of 
+West Cliff Path is now visible to the west. If travel leads upward, the 
+top of the path is currently at the edge of vision, many hundreds of feet 
+up where it meets its opening on Halugra Planari. This place is a true 
+wonder of the world, a perfect lost ecology beneath the surface of the 
+earth, and somehow still lit in daylight or darkness, depending on the 
+time of day. 
+~
+0
+0 4
+0
+0
+D0
+~
+~
+16777216 -1 8250
+0 0
+D3
+~
+~
+0 -1 8340
+0 0
+S
+#8342
+&zA Dark Cave~
+&G The cave is ever so dark, and the smell of mildew and rotten algea lay 
+heavy in the air. The sounds of breathing grow louder further inside the 
+cave, and the sound of a hard material crunching as it's shattered now 
+rings loud and clear. That sound, ever so threatening, can be no other 
+sound than bones being eaten and chewed whole. 
+~
+256
+0 0
+0
+0
+D1
+~
+~
+0 -1 8311
+0 0
+D3
+~
+~
+0 -1 8343
+0 0
+S
+#8343
+&zA Dark Cave~
+&G The cave is ever so dark, and the smell of mildew and rotten algea lay 
+heavy in the air. The sounds of breathing grow louder further inside the 
+cave, and the sound of a hard material crunching as it's shattered now 
+rings loud and clear. That sound, ever so threatening, can be no other 
+sound than bones being eaten and chewed whole. 
+~
+256
+0 0
+0
+0
+D1
+~
+~
+0 -1 8342
+0 0
+D3
+~
+~
+0 -1 8344
+0 0
+S
+#8344
+&zA Dark Cave~
+&G The cave is ever so dark, and the smell of mildew and rotten algea lay 
+heavy in the air. The sounds of breathing grow louder further inside the 
+cave, and the sound of a hard material crunching as it's shattered now 
+rings loud and clear. That sound, ever so threatening, can be no other 
+sound than bones being eaten and chewed whole.
+~
+256
+0 0
+0
+0
+D1
+~
+~
+0 -1 8343
+0 0
+D7
+~
+~
+0 -1 8346
+0 0
+D9
+~
+~
+0 -1 8345
+0 0
+S
+#8345
+&zA Branch of a Dark Cave~
+&G The cave is ever so dark, and the smell of mildew and rotten algea lay 
+heavy in the air. The sounds of breathing grow louder further inside the 
+cave, and the sound of a hard material crunching as it's shattered now 
+rings loud and clear. That sound, ever so threatening, can be no other 
+sound than bones being eaten and chewed whole.
+~
+256
+0 0
+0
+0
+D3
+~
+~
+0 -1 8347
+0 0
+D6
+~
+~
+0 -1 8344
+0 0
+S
+#8346
+&zA Branch of a Dark Cave~
+&G The cave is ever so dark, and the smell of mildew and rotten algea lay 
+heavy in the air. The sounds of breathing grow louder further inside the 
+cave, and the sound of a hard material crunching as it's shattered now 
+rings loud and clear. That sound, ever so threatening, can be no other 
+sound than bones being eaten and chewed whole.
+~
+256
+0 0
+0
+0
+D3
+~
+~
+0 -1 8348
+0 0
+D8
+~
+~
+0 -1 8344
+0 0
+S
+#8347
+&zA Branch of a Dark Cave~
+&G The cave is ever so dark, and the smell of mildew and rotten algea lay 
+heavy in the air. The sounds of breathing grow louder further inside the 
+cave, and the sound of a hard material crunching as it's shattered now 
+rings loud and clear. That sound, ever so threatening, can be no other 
+sound than bones being eaten and chewed whole.
+~
+256
+0 0
+0
+0
+D1
+~
+~
+0 -1 8345
+0 0
+D7
+~
+~
+0 -1 8349
+0 0
+S
+#8348
+&zA Branch of a Dark Cave~
+&G The cave is ever so dark, and the smell of mildew and rotten algea lay 
+heavy in the air. The sounds of breathing grow louder further inside the 
+cave, and the sound of a hard material crunching as it's shattered now 
+rings loud and clear. That sound, ever so threatening, can be no other 
+sound than bones being eaten and chewed whole.
+~
+256
+0 0
+0
+0
+D1
+~
+~
+0 -1 8346
+0 0
+D9
+~
+~
+0 -1 8349
+0 0
+S
+#8349
+&zConvergence of the Cave Branches~
+&G The cave is ever so dark, and the smell of mildew and rotten algea lay 
+heavy in the air. The sounds of breathing grow louder further inside the 
+cave, and the sound of a hard material crunching as it's shattered now 
+rings loud and clear. That sound, ever so threatening, can be no other 
+sound than bones being eaten and chewed whole.
+~
+256
+0 0
+0
+0
+D6
+~
+~
+0 -1 8348
+0 0
+D8
+~
+~
+0 -1 8347
+0 0
+S
+#8350
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D1
+~
+~
+0 -1 8351
+0 0
+D2
+~
+~
+0 -1 8357
+0 0
+S
+#8351
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D1
+~
+~
+0 -1 8352
+0 0
+D2
+~
+~
+0 -1 8358
+0 0
+D3
+~
+~
+0 -1 8350
+0 0
+S
+#8352
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D1
+~
+~
+0 -1 8353
+0 0
+D2
+~
+~
+0 -1 8359
+0 0
+D3
+~
+~
+0 -1 8351
+0 0
+S
+#8353
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D1
+~
+~
+0 -1 8354
+0 0
+D2
+~
+~
+0 -1 8360
+0 0
+D3
+~
+~
+0 -1 8352
+0 0
+S
+#8354
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D1
+~
+~
+0 -1 8355
+0 0
+D2
+~
+~
+0 -1 8361
+0 0
+D3
+~
+~
+0 -1 8353
+0 0
+S
+#8355
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D1
+~
+~
+0 -1 8356
+0 0
+D2
+~
+~
+0 -1 8362
+0 0
+D3
+~
+~
+0 -1 8354
+0 0
+S
+#8356
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D2
+~
+~
+0 -1 8363
+0 0
+D3
+~
+~
+0 -1 8355
+0 0
+S
+#8357
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8350
+0 0
+D1
+~
+~
+0 -1 8358
+0 0
+D2
+~
+~
+0 -1 8364
+0 0
+S
+#8358
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8351
+0 0
+D1
+~
+~
+0 -1 8359
+0 0
+D2
+~
+~
+0 -1 8365
+0 0
+D3
+~
+~
+0 -1 8357
+0 0
+S
+#8359
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8352
+0 0
+D1
+~
+~
+0 -1 8360
+0 0
+D2
+~
+~
+0 -1 8366
+0 0
+D3
+~
+~
+0 -1 8358
+0 0
+S
+#8360
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8353
+0 0
+D1
+~
+~
+0 -1 8361
+0 0
+D2
+~
+~
+0 -1 8367
+0 0
+D3
+~
+~
+0 -1 8359
+0 0
+S
+#8361
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8354
+0 0
+D1
+~
+~
+0 -1 8362
+0 0
+D2
+~
+~
+0 -1 8368
+0 0
+D3
+~
+~
+0 -1 8360
+0 0
+S
+#8362
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8355
+0 0
+D1
+~
+~
+0 -1 8363
+0 0
+D2
+~
+~
+0 -1 8369
+0 0
+D3
+~
+~
+0 -1 8361
+0 0
+S
+#8363
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8356
+0 0
+D2
+~
+~
+0 -1 8370
+0 0
+D3
+~
+~
+0 -1 8362
+0 0
+S
+#8364
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8357
+0 0
+D1
+~
+~
+0 -1 8365
+0 0
+D2
+~
+~
+0 -1 8371
+0 0
+S
+#8365
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8358
+0 0
+D1
+~
+~
+0 -1 8366
+0 0
+D2
+~
+~
+0 -1 8372
+0 0
+D3
+~
+~
+0 -1 8364
+0 0
+S
+#8366
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8359
+0 0
+D1
+~
+~
+0 -1 8367
+0 0
+D2
+~
+~
+0 -1 8373
+0 0
+D3
+~
+~
+0 -1 8365
+0 0
+S
+#8367
+&G&BRunning Branch~
+&G Here, one of the many creeks which branch from the two rivers of the 
+Halugrath Kingdom flows gently by. The water, like Lake Gulwyle, is 
+crystal clear and shallow, the bed being made of millions of small, round, 
+perfectly smoothe stones. Each stone is perfectly shaped in an ellipse, 
+and the creek appears to be a finely paved road with water flowing freely 
+down it. 
+~
+0
+0 7
+0
+0
+D0
+~
+~
+0 -1 8360
+0 0
+D1
+~
+~
+0 -1 8368
+0 0
+D2
+~
+~
+0 -1 8374
+0 0
+D3
+~
+~
+0 -1 8366
+0 0
+S
+#8368
+&G&BRunning Branch~
+&G Here, one of the many creeks which branch from the two rivers of the 
+Halugrath Kingdom flows gently by. The water, like Lake Gulwyle, is 
+crystal clear and shallow, the bed being made of millions of small, round, 
+perfectly smoothe stones. Each stone is perfectly shaped in an ellipse, 
+and the creek appears to be a finely paved road with water flowing freely 
+down it. 
+~
+0
+0 7
+0
+0
+D0
+~
+~
+0 -1 8361
+0 0
+D1
+~
+~
+0 -1 8369
+0 0
+D2
+~
+~
+0 -1 8375
+0 0
+D3
+~
+~
+0 -1 8367
+0 0
+S
+#8369
+&G&BRunning Branch~
+&G Here, one of the many creeks which branch from the two rivers of the 
+Halugrath Kingdom flows gently by. The water, like Lake Gulwyle, is 
+crystal clear and shallow, the bed being made of millions of small, round, 
+perfectly smoothe stones. Each stone is perfectly shaped in an ellipse, 
+and the creek appears to be a finely paved road with water flowing freely 
+down it. 
+~
+0
+0 7
+0
+0
+D0
+~
+~
+0 -1 8362
+0 0
+D1
+~
+~
+0 -1 8370
+0 0
+D2
+~
+~
+0 -1 8376
+0 0
+D3
+~
+~
+0 -1 8368
+0 0
+S
+#8370
+&G&BRunning Branch~
+&G Here, one of the many creeks which branch from the two rivers of the 
+Halugrath Kingdom flows gently by. The water, like Lake Gulwyle, is 
+crystal clear and shallow, the bed being made of millions of small, round, 
+perfectly smoothe stones. Each stone is perfectly shaped in an ellipse, 
+and the creek appears to be a finely paved road with water flowing freely 
+down it. 
+~
+0
+0 7
+0
+0
+D0
+~
+~
+0 -1 8363
+0 0
+D2
+~
+~
+0 -1 8377
+0 0
+D3
+~
+~
+0 -1 8369
+0 0
+S
+#8371
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8364
+0 0
+D1
+~
+~
+0 -1 8372
+0 0
+D2
+~
+~
+0 -1 8378
+0 0
+S
+#8372
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8365
+0 0
+D1
+~
+~
+0 -1 8373
+0 0
+D2
+~
+~
+0 -1 8379
+0 0
+D3
+~
+~
+0 -1 8371
+0 0
+S
+#8373
+&G&BRunning Branch~
+&G Here, one of the many creeks which branch from the two rivers of the 
+Halugrath Kingdom flows gently by. The water, like Lake Gulwyle, is 
+crystal clear and shallow, the bed being made of millions of small, round, 
+perfectly smoothe stones. Each stone is perfectly shaped in an ellipse, 
+and the creek appears to be a finely paved road with water flowing freely 
+down it. 
+~
+0
+0 7
+0
+0
+D0
+~
+~
+0 -1 8366
+0 0
+D1
+~
+~
+0 -1 8374
+0 0
+D2
+~
+~
+0 -1 8380
+0 0
+D3
+~
+~
+0 -1 8372
+0 0
+S
+#8374
+&G&BRunning Branch~
+&G Here, one of the many creeks which branch from the two rivers of the 
+Halugrath Kingdom flows gently by. The water, like Lake Gulwyle, is 
+crystal clear and shallow, the bed being made of millions of small, round, 
+perfectly smoothe stones. Each stone is perfectly shaped in an ellipse, 
+and the creek appears to be a finely paved road with water flowing freely 
+down it. 
+~
+0
+0 7
+0
+0
+D0
+~
+~
+0 -1 8367
+0 0
+D1
+~
+~
+0 -1 8375
+0 0
+D2
+~
+~
+0 -1 8381
+0 0
+D3
+~
+~
+0 -1 8373
+0 0
+S
+#8375
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8368
+0 0
+D1
+~
+~
+0 -1 8376
+0 0
+D2
+~
+~
+0 -1 8382
+0 0
+D3
+~
+~
+0 -1 8374
+0 0
+S
+#8376
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8369
+0 0
+D1
+~
+~
+0 -1 8377
+0 0
+D2
+~
+~
+0 -1 8383
+0 0
+D3
+~
+~
+0 -1 8375
+0 0
+S
+#8377
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8370
+0 0
+D2
+~
+~
+0 -1 8384
+0 0
+D3
+~
+~
+0 -1 8376
+0 0
+S
+#8378
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8371
+0 0
+D1
+~
+~
+0 -1 8379
+0 0
+D2
+~
+~
+0 -1 8385
+0 0
+S
+#8379
+&G&BRunning Branch~
+&G Here, one of the many creeks which branch from the two rivers of the 
+Halugrath Kingdom flows gently by. The water, like Lake Gulwyle, is 
+crystal clear and shallow, the bed being made of millions of small, round, 
+perfectly smoothe stones. Each stone is perfectly shaped in an ellipse, 
+and the creek appears to be a finely paved road with water flowing freely 
+down it. 
+~
+0
+0 7
+0
+0
+D0
+~
+~
+0 -1 8372
+0 0
+D1
+~
+~
+0 -1 8380
+0 0
+D2
+~
+~
+0 -1 8386
+0 0
+D3
+~
+~
+0 -1 8378
+0 0
+S
+#8380
+&G&BRunning Branch~
+&G Here, one of the many creeks which branch from the two rivers of the 
+Halugrath Kingdom flows gently by. The water, like Lake Gulwyle, is 
+crystal clear and shallow, the bed being made of millions of small, round, 
+perfectly smoothe stones. Each stone is perfectly shaped in an ellipse, 
+and the creek appears to be a finely paved road with water flowing freely 
+down it. 
+~
+0
+0 7
+0
+0
+D0
+~
+~
+0 -1 8373
+0 0
+D1
+~
+~
+0 -1 8381
+0 0
+D2
+~
+~
+0 -1 8387
+0 0
+D3
+~
+~
+0 -1 8379
+0 0
+S
+#8381
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8374
+0 0
+D1
+~
+~
+0 -1 8382
+0 0
+D2
+~
+~
+0 -1 8388
+0 0
+D3
+~
+~
+0 -1 8380
+0 0
+S
+#8382
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8375
+0 0
+D1
+~
+~
+0 -1 8383
+0 0
+D2
+~
+~
+0 -1 8389
+0 0
+D3
+~
+~
+0 -1 8381
+0 0
+S
+#8383
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8376
+0 0
+D1
+~
+~
+0 -1 8384
+0 0
+D2
+~
+~
+0 -1 8390
+0 0
+D3
+~
+~
+0 -1 8382
+0 0
+S
+#8384
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8377
+0 0
+D2
+~
+~
+0 -1 8391
+0 0
+D3
+~
+~
+0 -1 8383
+0 0
+S
+#8385
+&G&OGaran Halugra~
+&G Halugrath Road, the main concourse of travel here in the kingdom of 
+Halugrath. This road, though winding, is the main path from Bluehaven, to 
+Tree Village, to Rafermand, or reversed if travel lies the other 
+direction. The road itself is not a paved road, though it is flat and well 
+trodden, and someone has at least taken the time to remove all the pebbles 
+and stones. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8378
+0 0
+D1
+~
+~
+0 -1 8386
+0 0
+D2
+~
+~
+0 -1 8392
+0 0
+S
+#8386
+&G&OBridge Over Running Branch~
+&G Halugrath Road, the main concourse of travel here in the kingdom of 
+Halugrath. This road, though winding, is the main path from Bluehaven, to 
+Tree Village, to Rafermand, or reversed if travel lies the other 
+direction. The road itself is not a paved road, though it is flat and well 
+trodden, and someone has at least taken the time to remove all the pebbles 
+and stones. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8379
+0 0
+D1
+~
+~
+0 -1 8387
+0 0
+D2
+~
+~
+0 -1 8393
+0 0
+D3
+~
+~
+0 -1 8385
+0 0
+S
+#8387
+&G&OGaran Halugra~
+&G Halugrath Road, the main concourse of travel here in the kingdom of 
+Halugrath. This road, though winding, is the main path from Bluehaven, to 
+Tree Village, to Rafermand, or reversed if travel lies the other 
+direction. The road itself is not a paved road, though it is flat and well 
+trodden, and someone has at least taken the time to remove all the pebbles 
+and stones. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8380
+0 0
+D1
+~
+~
+0 -1 8388
+0 0
+D2
+~
+~
+0 -1 8394
+0 0
+D3
+~
+~
+0 -1 8386
+0 0
+S
+#8388
+&G&OGaran Halugra~
+&G Halugrath Road, the main concourse of travel here in the kingdom of 
+Halugrath. This road, though winding, is the main path from Bluehaven, to 
+Tree Village, to Rafermand, or reversed if travel lies the other 
+direction. The road itself is not a paved road, though it is flat and well 
+trodden, and someone has at least taken the time to remove all the pebbles 
+and stones. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8381
+0 0
+D1
+~
+~
+0 -1 8389
+0 0
+D2
+~
+~
+0 -1 8395
+0 0
+D3
+~
+~
+0 -1 8387
+0 0
+S
+#8389
+&G&OGaran Halugra~
+&G Halugrath Road, the main concourse of travel here in the kingdom of 
+Halugrath. This road, though winding, is the main path from Bluehaven, to 
+Tree Village, to Rafermand, or reversed if travel lies the other 
+direction. The road itself is not a paved road, though it is flat and well 
+trodden, and someone has at least taken the time to remove all the pebbles 
+and stones. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8382
+0 0
+D1
+~
+~
+0 -1 8390
+0 0
+D2
+~
+~
+0 -1 8396
+0 0
+D3
+~
+~
+0 -1 8388
+0 0
+D5
+~
+~
+16777216 -1 8300
+0 0
+E
+road sign~
+&YDown - Lost Valley
+East - Tree Village, Blood Marsh, Rafermand
+~
+S
+#8390
+&G&OGaran Halugra~
+&G Halugrath Road, the main concourse of travel here in the kingdom of 
+Halugrath. This road, though winding, is the main path from Bluehaven, to 
+Tree Village, to Rafermand, or reversed if travel lies the other 
+direction. The road itself is not a paved road, though it is flat and well 
+trodden, and someone has at least taken the time to remove all the pebbles 
+and stones. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8383
+0 0
+D1
+~
+~
+0 -1 8391
+0 0
+D2
+~
+~
+0 -1 8397
+0 0
+D3
+~
+~
+0 -1 8389
+0 0
+S
+#8391
+&G&OGaran Halugra~
+&G Halugrath Road, the main concourse of travel here in the kingdom of 
+Halugrath. This road, though winding, is the main path from Bluehaven, to 
+Tree Village, to Rafermand, or reversed if travel lies the other 
+direction. The road itself is not a paved road, though it is flat and well 
+trodden, and someone has at least taken the time to remove all the pebbles 
+and stones. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8384
+0 0
+D2
+~
+~
+0 -1 8398
+0 0
+D3
+~
+~
+0 -1 8390
+0 0
+S
+#8392
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8385
+0 0
+D1
+~
+~
+0 -1 8393
+0 0
+S
+#8393
+&G&BRunning Branch~
+&G Here, one of the many creeks which branch from the two rivers of the 
+Halugrath Kingdom flows gently by. The water, like Lake Gulwyle, is 
+crystal clear and shallow, the bed being made of millions of small, round, 
+perfectly smoothe stones. Each stone is perfectly shaped in an ellipse, 
+and the creek appears to be a finely paved road with water flowing freely 
+down it. 
+~
+0
+0 7
+0
+0
+D0
+~
+~
+0 -1 8386
+0 0
+D1
+~
+~
+0 -1 8394
+0 0
+D3
+~
+~
+0 -1 8392
+0 0
+S
+#8394
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8387
+0 0
+D1
+~
+~
+0 -1 8395
+0 0
+D3
+~
+~
+0 -1 8393
+0 0
+S
+#8395
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8388
+0 0
+D1
+~
+~
+0 -1 8396
+0 0
+D3
+~
+~
+0 -1 8394
+0 0
+S
+#8396
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8389
+0 0
+D1
+~
+~
+0 -1 8397
+0 0
+D3
+~
+~
+0 -1 8395
+0 0
+S
+#8397
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8390
+0 0
+D1
+~
+~
+0 -1 8398
+0 0
+D3
+~
+~
+0 -1 8396
+0 0
+S
+#8398
+&G&YHalugra Planari~
+&G These are the Halugrath Plains, the beautiful, wide expanses of land 
+which span the distance from the northern shores of Lake Gulwyle to the 
+southern arms of the Alenxanth Mountain Range. The grasses are tall year 
+round, taller than most men. The shortest blades of grass are at least 
+four feet tall, and the tallest are almost double that. The wind 
+constantly makes a peaceful whisper as it rushes through those grasses and 
+travels across the plain. 
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 8391
+0 0
+D3
+~
+~
+0 -1 8397
+0 0
+S
+#8399
+Floating in a void~
+~
+4
+0 1
+0
+0
+S
+#0
+
+
+#RESETS
+M 1 8349 1 8382 -1 -1 -1 0 0
+M 1 8348 1 8382 -1 -1 -1 0 0
+M 1 8349 1 8361 -1 -1 -1 0 0
+M 1 8348 1 8361 -1 -1 -1 0 0
+M 1 8349 1 8377 -1 -1 -1 0 0
+M 1 8348 1 8377 -1 -1 -1 0 0
+M 1 8349 1 8371 -1 -1 -1 0 0
+M 1 8348 1 8371 -1 -1 -1 0 0
+M 1 8349 1 8385 -1 -1 -1 0 0
+M 1 8348 1 8385 -1 -1 -1 0 0
+M 1 8349 1 8388 -1 -1 -1 0 0
+M 1 8349 1 8394 -1 -1 -1 0 0
+M 1 8347 1 8306 -1 -1 -1 0 0
+M 1 8346 1 8322 -1 -1 -1 0 0
+O 1 8397 1 8318 -1 -1 -1 -1 0 0
+O 1 8397 1 8312 -1 -1 -1 -1 0 0
+O 1 8397 1 8307 -1 -1 -1 -1 0 0
+O 1 8397 1 8305 -1 -1 -1 -1 0 0
+O 1 8397 1 8308 -1 -1 -1 -1 0 0
+O 1 8397 1 8315 -1 -1 -1 -1 0 0
+O 1 8397 1 8321 -1 -1 -1 -1 0 0
+O 1 8397 1 8333 -1 -1 -1 -1 0 0
+M 1 8000 1 8000 -1 -1 -1 0 0
+M 1 8005 1 8005 -1 -1 -1 0 0
+M 1 8013 1 8013 -1 -1 -1 0 0
+M 1 8343 1 8323 -1 -1 -1 0 0
+M 1 8343 1 8324 -1 -1 -1 0 0
+M 1 8343 1 8332 -1 -1 -1 0 0
+M 1 8343 1 8300 -1 -1 -1 0 0
+O 1 8397 1 8300 -1 -1 -1 -1 0 0
+M 1 8343 1 8338 -1 -1 -1 0 0
+M 1 8347 1 8327 -1 -1 -1 0 0
+O 1 8397 1 8327 -1 -1 -1 -1 0 0
+M 1 8347 1 8311 -1 -1 -1 0 0
+M 1 8347 1 8320 -1 -1 -1 0 0
+M 1 8347 1 8343 -1 -1 -1 0 0
+M 1 8008 1 8008 -1 -1 -1 0 0
+M 1 8020 1 8020 -1 -1 -1 0 0
+M 1 8011 1 8011 -1 -1 -1 0 0
+M 1 8345 1 8349 -1 -1 -1 0 0
+M 1 8011 1 8006 -1 -1 -1 0 0
+M 1 8020 1 8006 -1 -1 -1 0 0
+M 1 8013 1 8006 -1 -1 -1 0 0
+M 1 8005 1 8014 -1 -1 -1 0 0
+O 1 8382 1 8252 -1 -1 -1 -1 0 0
+O 1 8277 1 8263 -1 -1 -1 -1 0 0
+M 1 8338 1 8250 -1 -1 -1 0 0
+M 1 8338 1 8253 -1 -1 -1 0 0
+O 1 8381 1 8253 -1 -1 -1 -1 0 0
+O 1 8379 1 8253 -1 -1 -1 -1 0 0
+M 1 8338 1 8257 -1 -1 -1 0 0
+M 1 8338 1 8262 -1 -1 -1 0 0
+O 1 8378 1 8262 -1 -1 -1 -1 0 0
+M 1 8338 1 8267 -1 -1 -1 0 0
+M 1 8338 1 8275 -1 -1 -1 0 0
+M 1 8338 1 8277 -1 -1 -1 0 0
+M 1 8338 1 8284 -1 -1 -1 0 0
+M 1 8338 1 8290 -1 -1 -1 0 0
+M 1 8338 1 8295 -1 -1 -1 0 0
+M 1 8338 1 8299 -1 -1 -1 0 0
+M 1 8337 1 8251 -1 -1 -1 0 0
+M 1 8337 1 8265 -1 -1 -1 0 0
+M 1 8337 1 8272 -1 -1 -1 0 0
+M 1 8337 1 8283 -1 -1 -1 0 0
+M 1 8337 1 8285 -1 -1 -1 0 0
+M 1 8337 1 8297 -1 -1 -1 0 0
+M 1 8336 1 8296 -1 -1 -1 0 0
+M 1 8336 1 8289 -1 -1 -1 0 0
+M 1 8336 1 8280 -1 -1 -1 0 0
+M 1 8336 1 8266 -1 -1 -1 0 0
+M 1 8336 1 8256 -1 -1 -1 0 0
+M 1 8335 1 8259 -1 -1 -1 0 0
+M 1 8335 1 8269 -1 -1 -1 0 0
+M 1 8335 1 8291 -1 -1 -1 0 0
+M 1 8334 1 8258 -1 -1 -1 0 0
+M 1 8334 1 8276 -1 -1 -1 0 0
+M 1 8334 1 8279 -1 -1 -1 0 0
+M 1 8333 1 8282 -1 -1 -1 0 0
+M 1 8333 1 8268 -1 -1 -1 0 0
+M 1 8333 1 8255 -1 -1 -1 0 0
+M 1 8333 1 8298 -1 -1 -1 0 0
+M 1 8331 1 8230 -1 -1 -1 0 0
+M 1 8332 1 8237 -1 -1 -1 0 0
+D 0 3551 2 2
+O 1 17 1 221 -1 -1 -1 -1 0 0
+O 1 8252 1 8218 -1 -1 -1 -1 0 0
+O 1 8255 1 8226 -1 -1 -1 -1 0 0
+D 0 8211 0 2
+D 0 8211 1 2
+D 0 8211 2 2
+D 0 8211 4 2
+D 0 8211 5 2
+D 0 8211 6 2
+D 0 8211 7 2
+D 0 8211 8 2
+M 1 8218 1 8246 -1 -1 -1 0 0
+M 1 8218 1 8243 -1 -1 -1 0 0
+M 1 8219 1 8240 -1 -1 -1 0 0
+M 1 8219 1 8240 -1 -1 -1 0 0
+M 1 8348 1 8389 -1 -1 -1 0 0
+O 1 8250 3 8206 -1 -1 -1 -1 0 0
+O 1 8251 1 8219 -1 -1 -1 -1 0 0
+O 1 8371 1 8214 -1 -1 -1 -1 0 0
+O 1 8249 1 8214 -1 -1 -1 -1 0 0
+O 1 212 1 8214 -1 -1 -1 -1 0 0
+M 1 8344 1 8310 -1 -1 -1 0 0
+E 1 8395 1 13 -1 0 0
+E 1 8394 1 5 -1 0 0
+E 1 8393 1 7 -1 0 0
+E 1 8393 2 8 -1 0 0
+O 1 8397 1 8310 -1 -1 -1 -1 0 0
+M 1 8341 1 8326 -1 -1 -1 0 0
+E 1 8391 1 13 -1 0 0
+M 1 8341 1 8341 -1 -1 -1 0 0
+E 1 8391 1 13 -1 0 0
+M 1 8340 1 8303 -1 -1 -1 0 0
+E 1 8390 1 5 -1 0 0
+E 1 8389 1 12 -1 0 0
+E 1 8388 1 7 -1 0 0
+E 1 8387 1 13 -1 0 0
+E 1 8388 2 8 -1 0 0
+M 1 8339 1 8328 -1 -1 -1 0 0
+E 1 8386 1 5 -1 0 0
+E 1 8385 1 12 -1 0 0
+E 1 8384 1 8 -1 0 0
+E 1 8343 1 10 -1 0 0
+E 1 8384 2 7 -1 0 0
+M 1 8330 1 8203 -1 -1 -1 0 0
+E 1 8377 1 13 -1 0 0
+E 1 8376 1 5 -1 0 0
+M 1 8329 1 8232 -1 -1 -1 0 0
+E 1 8375 1 13 -1 0 0
+M 1 8328 1 8236 -1 -1 -1 0 0
+E 1 8374 1 13 -1 0 0
+M 1 8327 1 8221 -1 -1 -1 0 0
+E 1 8373 1 13 -1 0 0
+M 1 8342 1 8309 -1 -1 -1 0 0
+E 1 8392 1 13 -1 0 0
+M 1 8350 1 8397 -1 -1 -1 0 0
+E 1 8361 1 13 -1 0 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  8000 spec_thief
+M  8005 spec_thief
+M  8020 spec_breath_any
+M  8218 spec_breath_any
+M  8340 spec_cast_undead
+M  8341 spec_cast_undead
+M  8342 spec_breath_any
+S
+
+
+#$

@@ -1,0 +1,4894 @@
+#AREA   Pure Land~
+
+
+
+#VERSION 53
+#AUTHOR Minal~
+
+#RANGES
+10 30 10 30 0 0 0 0 0
+$
+
+#RESETMSG The Mana energy forms a seed and sprouts.~
+
+#FLAGS
+0 30
+
+#ECONOMY 0 6029705 0
+
+#MOBILES
+#1300
+Griffin Hand~
+a Griffin Hand~
+A huge clawed talon of a griffin stands up right here.
+~
+Standing about 6 feet tall, this monstrosity is unnatural.  Being
+a chopped off talon of a huge griffin, it's seriously pissed at being
+cut off from its owner.  Those claws look pretty sharp and they're quite
+long too.
+~
+1 0 0 0 C
+0 0 7 7 6 7
+4d11+88 1d4+4 0 0 0
+0 0
+112 112 0
+14 13 15 13 14 13 13 45
+0 0 0 0 0
+89 0 0 0 1 1 45
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+2 0 0 0 0 0 0 512 0
+#1301
+ninja master~
+a Ninja master~
+A half-hidden ninja is here protecting the orb.
+~
+Standing around 6 feet 1 inches and clad all in black, soft leather,
+this Ninja looks quite formidable.  Red glowing eyes stare at you
+from beneath the mask that is over this things head.  Is it male,
+or female?  That is a question better left unsolved.
+~
+3 0 40 0 C
+0 0 9 10 8 10
+8d21+129 1d5+6 0 0 0
+1440 0
+112 112 0
+17 15 18 14 13 13 16 51
+0 0 0 0 0
+0 0 0 0 1 1 51
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+3 0 0 0 0 0 0 1073742032 2
+#1302
+dark knight~
+a dark knight~
+A knight of the dark code resides here.
+~
+Clad in black steel, this man poses a great threat to those weaker
+than himself and a challenge to those who are of strength of him.
+He stands impassively behind the altar and his face is cold and
+calm.  A glowing object of great power rests on his wrist.
+~
+3 0 0 -1000 C
+0 0 9 8 9 9
+8d21+134 1d5+6 0 0 0
+1440 0
+112 112 1
+16 16 14 14 13 13 17 51
+0 0 0 0 0
+0 0 0 0 1 1 51
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+4 0 0 0 0 0 0 192 524290
+#1303
+white knight~
+a White knight~
+A knight of the White code stands here preaching.
+~
+Clad in pure silver steel, this man has a look of pure faith in his
+eyes.  He stands here preaching, unaware of you.
+~
+3 0 0 1000 C
+0 0 9 8 10 8
+5d23+229 1d5+6 0 0 0
+1545 0
+112 112 1
+16 16 15 17 15 15 14 51
+0 0 0 0 0
+0 0 0 0 1 1 51
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+3 0 0 0 0 0 0 144 524322
+#1304
+warlock~
+a warlock~
+A mystical warlock is here chanting incantations.
+~
+Clad in a brown, flowing robe, this old man looks quite powerful.
+His white beard goes right down to his feet and his skin is leathery
+and drawn back.  His eyes are sunk deep into his head and his hands
+look quite feeble.
+~
+3 0 0 0 C
+0 0 7 7 8 6
+7d18+123 1d4+5 0 0 0
+1004 0
+112 112 0
+14 14 17 13 13 13 14 47
+0 0 0 0 0
+0 0 0 0 1 1 47
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+4 0 0 0 0 0 0 1342177312 2
+#1305
+vampire~
+a vampire~
+A creature of the night attacks you!
+~
+Clad in a red cape, dripping blood from its fangs, the red eyes stare
+at you, as a meal.
+~
+35&32768 0 0 -1000 C
+0 0 7 6 8 6
+7d17+117 1d4+5 0 0 0
+1004 0
+112 112 0
+14 17 14 13 13 13 14 47
+0 0 0 0 0
+0 0 0 0 1 1 47
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+3 0 0 0 0 0 0 262272 33
+#1306
+cockatrice~
+a cockatrice~
+A cockatrice bird is standing here, feeding.
+~
+Having two short yellow feet, with blue tinged wings with yellow feathers
+all over her body, this ferocious fighting bird is gathering food
+for her young.  She squawks at you to keep back.
+~
+1 0 0 0 C
+0 0 7 6 6 7
+4d11+89 1d4+4 0 0 0
+0 0
+112 112 2
+14 16 13 16 13 15 16 45
+0 0 0 0 0
+33 0 0 0 1 1 45
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+3 0 0 0 0 0 0 544 1
+#1307
+Jade Statue~
+a Jade statue~
+A faint, green glowing statue stands here.
+~
+Standing 6 feet 5 inches tall, the statue is made in the image of a
+fierce warrior man.  The face of the man has a look of contempt on
+it....wait....did the eyes just move?
+~
+3 0 0 0 C
+0 0 9 10 8 8
+6d25+226 1d5+6 0 0 0
+0 0
+112 112 0
+15 14 14 17 13 13 18 51
+0 0 0 0 0
+89 0 0 0 1 1 51
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+5 0 0 0 0 0 0 640 524290
+#1308
+mana goddess faerie~
+the Mana Faerie queen~
+A queenly faerie sits upon the throne here.
+~
+Looking very much like a 19 year old, sexy human female, only smaller,
+this faerie is incredibly intelligent.  Her face is regal and aged
+with wisdom, her legs are finely shaped, her body is....whoah, easy
+tiger.
+~
+3 0 524288 0 C
+0 0 7 6 7 7
+6d17+123 1d4+5 0 0 0
+1004 0
+112 112 2
+16 17 13 17 13 13 13 47
+0 0 0 0 0
+5 0 0 0 1 1 47
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1075839040 2
+> all_greet_prog 100~
+if sex($n) == 1
+purr
+whisper $n Hi there handsome, it has been SOOOO LOOONNGGG since a man has been here.
+whisper $n Please don't leave me here alone!
+else
+sigh
+say another woman.....
+endif
+~
+> rand_prog 35~
+if sex($r) == 1
+if rand(35)
+emote grabs $r ass and just grins!
+else
+if rand(65)
+emote rubs up against $r and smiles gently.
+else
+emote licks her lips at $R and plays with her hair.
+endif
+endif
+endif
+~
+|
+#1309
+animated tree~
+an animated tree~
+A big tree moving towards you...
+~
+Standing over 20 feet tall with bark flying off as it moves, this
+tree is monstrous.  It roars with rage and it has two red eyes.
+~
+35 0 0 0 C
+0 0 9 8 9 10
+8d21+128 1d5+6 0 0 0
+0 0
+112 112 0
+17 14 14 15 16 13 17 51
+0 0 0 0 0
+89 0 0 0 1 1 51
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+4 0 0 0 0 0 0 262208 524290
+#1310
+thunder cloud~
+a thunder cloud~
+A fluffy cloud floats here, throwing around thunder bolts.
+~
+Just a normal sized, fluffy cloud that has a mean attitude.
+~
+3 0 524288 0 C
+0 0 9 10 8 10
+5d24+236 1d5+6 0 0 0
+0 0
+112 112 0
+15 17 17 14 13 13 15 51
+0 0 0 0 0
+33 0 0 0 1 1 51
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+5 0 0 0 0 0 0 112 1
+#1311
+molebear~
+a molebear~
+A blue spiked molebear is scurrying about here.
+~
+The entire back of this animal is covered in blue spikes.  The front
+holds a pinkish sort of body with black button eyes staring at you.
+~
+1 0 0 0 C
+0 0 7 8 7 8
+4d12+97 1d4+4 0 0 0
+0 0
+112 112 0
+13 16 13 14 13 13 14 45
+0 0 0 0 0
+76 0 0 0 1 1 45
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+2 0 262145 0 0 0 0 64 2
+#1312
+giant~
+a giant~
+A giant is here staring at you with anger.
+~
+Looking to be about over 15 feet tall, and looking to be VERY ugly,
+this sucker has one short temper...and a big rage at that.
+~
+3 0 0 0 C
+0 0 10 9 9 9
+8d34+279 1d7+8 0 0 0
+2121 0
+112 112 1
+15 18 15 16 15 13 19 55
+0 0 0 0 0
+0 0 0 0 1 1 55
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+6 0 0 0 0 0 0 192 1
+#1313
+wind god mana beast~
+the &GWind Mana Beast&C~
+The mighty &GWind Mana Beast&P howls here!
+~
+Although this beast is fearsome and there's not much of a body to see,
+it doesn't look all that tough.  Well, looks can be deceiving.
+~
+3 0 168 0 C
+0 0 13 13 13 14
+11d48+313 1d9+11 0 0 0
+7500 0
+112 112 0
+17 17 18 17 14 13 16 61
+0 0 0 0 0
+57 0 0 0 1 1 61
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+20 0 0 0 4194432 4 0 393792 2
+#1314
+fire god mana beast~
+the &RFire Mana Beast~
+The &RFire Mana Beast&P is blowing things up here.
+~
+Just one, big, BIG fire beast.  Its roar shakes the entire area.  Its
+eyes resemble coals.
+~
+3 0 168 0 C
+0 0 13 12 14 14
+12d51+312 1d9+11 0 0 0
+7500 0
+112 112 0
+20 17 20 18 16 13 18 61
+0 0 0 0 0
+57 0 0 0 1 1 61
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+9 0 0 0 0 2 0 8256 524289
+#1315
+water god mana beast~
+the &BWater Mana Beast~
+The &BWater Mana Beast&P is swimming about here.
+~
+Just a silver hallow outlines this monster that is attacking you.
+~
+35 0 168 0 C
+0 0 13 12 14 12
+10d45+319 1d9+12 0 0 0
+7500 0
+112 112 0
+19 19 20 20 13 13 17 62
+0 0 0 0 0
+57 0 0 0 1 1 62
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+9 0 0 0 0 1 0 16896 1
+#1316
+forest god mana beast~
+the &gForest Mana Beast~
+A huge tree full of mana is staring at you...
+~
+Standing well over 50 feet and looking mean, the Forest Mana Beast
+is a force to be reckoned with.  Its limbs look quite strong and the
+leaves are deep green and full of energy.
+~
+3 0 168 0 C
+0 0 13 14 12 13
+11d47+306 1d9+12 0 0 0
+7500 0
+112 112 0
+16 16 19 19 16 13 16 62
+0 0 0 0 0
+57 0 0 0 1 1 62
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+9 0 0 0 4 4194304 0 295168 524290
+#1317
+a Jade warrior~
+a Jade warrior~
+A faint, green glowing statue stands here.
+~
+Standing 6 feet 5 inches tall, the statue is made in the image of a
+fierce warrior man.  The face of the man has a look of contempt on
+it....wait....did the eyes just move?
+~
+35 0 0 0 C
+0 0 9 9 9 10
+6d26+244 1d5+6 0 0 0
+1545 0
+112 112 0
+17 18 15 18 13 13 16 51
+0 0 0 0 0
+0 0 0 0 1 1 51
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+5 0 0 0 0 0 0 448 524291
+#1318
+moon god mana beast ~
+the Moon Mana Beast~
+The moon is changing into some type of creature...
+~
+It seems that the creature won't show its true colors until you attack
+it.  Until then, it stays in the shape of the full moon...with eyes.
+~
+3 0 524456 0 C
+0 0 13 13 13 12
+11d49+321 1d10+13 0 0 0
+7500 0
+112 112 0
+20 20 20 17 15 13 16 63
+0 0 0 0 0
+57 0 0 0 1 1 63
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+9 0 0 1048576 0 0 0 402653408 524295
+#1319
+earth god mana beast~
+the &OEarth Mana Beast~
+The hideous beast attacks!
+~
+This thing is huge, at least 20 feet tall and resembling something close
+to a minataur, but its shape keeps changing a bit.  It is very muscular
+and seems to have a bad temper.  Its eyes glow red.
+~
+35 0 168 0 C
+0 0 13 14 13 14
+7d31+680 1d10+13 0 0 0
+7500 0
+112 112 0
+16 17 19 16 16 13 20 63
+0 0 0 0 0
+57 0 0 0 1 1 63
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+9 0 0 0 4 4194304 0 33024 524290
+#1320
+light god mana beast~
+the &WLight Mana Beast~
+Two beasty eyes are watching you very closely.
+~
+A silver hallow outlines this beast.  It is no bigger than 10 feet by
+10 feet.  The shape looks like a big, perfect circle like boulder with
+red glowing eyes.
+~
+3 0 524456 1000 C
+0 0 14 14 13 15
+8d34+736 1d10+14 0 0 0
+15000 0
+112 112 0
+20 18 17 21 13 13 19 65
+0 0 0 0 0
+57 0 0 0 1 1 65
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+9 0 0 0 0 0 0 1476657920 7
+#1321
+dark god mana beast~
+the &zDark Mana Beast~
+The hideous and most powerful of all the Mana God Beasts floats towards you!
+~
+The two identical heads are all blue with very sharp, blood tipped
+fangs.  Their eyes glow with an evil red color.  The third head, which
+seems to be the master head is all red with an evil grin on its face.
+A blue gem is embedded in its forehead.
+~
+35&1024 0 524456 -1000 C
+0 0 15 15 16 15
+8d33+717 1d11+15 0 0 0
+15000 0
+112 112 0
+17 21 17 21 14 13 19 67
+0 0 0 0 0
+57 0 0 0 1 1 67
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+9 0 0 8192 0 0 0 131392 524291
+#1322
+flying turtle fat~
+a fat turtle~
+A very fat turtle is lazily flying around here.
+~
+Defying all odds, going against nature, and destroying the laws of
+physics, this over sized turtle with mini wings is flying around
+high in the sky here.  The turtle is the size of a shed and is green
+all over.  The shell is enormous too.
+~
+3 0 524288 0 C
+0 0 9 8 9 8
+6d25+231 1d5+6 0 0 0
+0 0
+112 112 0
+14 15 15 14 13 13 18 51
+0 0 0 0 0
+82 0 0 0 1 1 51
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+5 0 0 0 0 0 0 896 2
+#1323
+mana flying flammie beast~
+the &BMana &RBeast &YFlammie&W~
+A huge mana beast known as Flammie is healing in the mana here.
+~
+This...is that mana beast that was attacking the fortress in that
+mural way in the bottom of that cave.  It must be here in the center
+of all the world's supply of mana, healing itself from its defeat
+by the three young teenagers.  Just like in the mural, it is covered
+in white feathers with huge fangs and eyes filled with knowledge
+from eons of ages.  It is striped with blue from the mana it has 
+absorbed.  Just magnificent.
+~
+4099&1024 0 8360 0 C
+0 0 18 17 19 18
+13d54+1500 1d15+28 0 0 0
+580000 0
+112 112 0
+22 22 21 22 14 13 23 75
+0 0 0 0 0
+85 0 0 0 1 1 75
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+10 0 0 1056768 0 0 0 1208394496 7
+> death_prog 40~
+mpoload 1318 32
+mpecho As the mana beast Flammie sighs its last breath and falls to
+mpecho the ground in a great crash, its body starts to glow an incredible
+mpecho blue!  The body slowly fades away and a gleaming sword slowly
+mpecho revolves where the body disappeared.  The sword is the legendary
+mpecho Mana Sword!
+~
+> fight_prog 15~
+if rand(65)
+mpe _whi Flammie opens up its mouth and calls forth all the mana in the
+mpe _whi room to help it achieve victory!
+mpdamage $n 175
+else
+mpe _whi Flammie sucks all the mana up in the room to help heal itself!
+mprestore self 350
+endif
+~
+> act_prog p flees 15~
+mpat $n say You cannot escape my wrath!
+mptransfer $n 1449
+mpkill $n
+~
+|
+#1324
+king rabite~
+a king rabite~
+A blue rabite is here, munching away on something
+~
+An oval shaped monster with blue fur and floppy ears with a bunny
+nose and whiskers with cute little eyes and a huge buck tooth in
+front of its mouth is sticking out.  Probably a trademark of some
+kind.
+~
+1 0 0 0 C
+0 0 7 8 6 8
+4d11+88 1d4+4 0 0 0
+0 0
+112 112 0
+13 16 17 16 13 15 13 45
+0 0 0 0 0
+76 0 0 0 1 1 45
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+2 0 66048 0 0 0 0 128 1
+#1325
+mushboom~
+a mushboom~
+A mushboom is standing here, looking lost
+~
+A goodly sized mushroom with a blue covering and white spots
+with a very lost, innocent look on its face.  Its eyes are button
+black but cute.
+~
+1 0 0 0 C
+0 0 7 8 6 6
+4d11+96 1d4+4 0 0 0
+0 0
+112 112 0
+14 15 17 15 16 13 13 46
+0 0 0 0 0
+89 0 0 0 1 1 46
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+3 0 4 0 0 0 0 208 1
+> death_prog 100~
+mpe _red Just before the mustboom falls to the ground dead it starts to light
+mpe _red up very brightly and before you know it, it EXPLODES!
+mpdamage $n 300
+~
+|
+#1326
+Crane the crafty~
+Crane the crafty~
+Crane the crafty is here providing flight and entertainment!
+~
+Crane is a very, very, very, very, old man.  He appears to be drooling
+at all hours and it is an act of god that keeps him alive.  It might be
+a good idea not to touch him, he might just break or worse yet, drool all
+over you.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+> greet_prog 100~
+say HHeellllooo tttheerreee.  Ifff you nneeed flllight, just sayyyy sooo!
+smile
+emote drools all over the place.
+~
+> rand_prog 35~
+if rand(75)
+emote drools all over the place.
+else
+if rand(35)
+emote wets himself right in front of you...SICK!
+else
+emote pulls something most hidious out of his nose...GROSS!!!
+endif
+endif
+~
+> speech_prog flight~
+say IIII CCaaaannn Doooo Thhhhaattttt!
+c 'fly' $n
+~
+|
+#1449
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#1300
+orb weapons~
+the orb of weapons~
+A mystical orb floats here, giving off a mysterious light.~
+~
+1 67&256 1
+0 0 -1 0
+1.000000 1000 0 0 0 0 1
+E
+orb weapons~
+The orb gives off a greenish light and it hums with an ancient song.
+There are intricate designs carved into the orb of various weapons
+that are long gone or still in existance.  Quite a mysterious
+object.
+~
+A
+13 2 0
+A
+12 2 0
+#1301
+ninja dagger~
+a ninja dagger~
+A dagger used by ninjas on covert missions lies here.~
+~
+5 524289&0&256 513
+1000 9 10 5 -1 -1 0 4 5 7 6 0 25 8
+3.000000 1000 0 0 0 0 2
+'NONE'
+E
+ninja dagger~
+Having a plain hilt wrapped in good leather to avoid slipping from
+the hand with a good foot of steel attached to it that is quite sharp.
+The blade is slightly curved so it can fly through the air with perfection.
+~
+A
+77 3 0
+#1302
+guardian bracer~
+guardian~
+A bracer of immeasurable power lies here.~
+~
+9 524352&0&16 65
+11 11 11 1000 11 2 0 0 0 0 0 0 0 0
+1.000000 15000 0 0 0 0 2
+E
+guardian bracer~
+It looks like a common steel bracer.  The type that is clad all in
+steel with soft chain mesh on the inside for comfort.  The only
+difference is that there is a blood red gem set into the bracer that
+gives the power to the bracer.
+~
+A
+13 2 0
+A
+12 5 0
+A
+81 1 0
+> wear_prog 100~
+if level($n) >= 18
+mpecho As you slip on the bracer, a jolt of pure energy runs up your
+mpecho arm making you yell out in pain.  The bracer falls off your
+mpecho wrist.
+mpforce $n remove bracer
+endif
+~
+|
+#1303
+dark blade~
+a dark blade~
+A blade used by the dark knights lies here collecting dust.~
+~
+5 524288&0&64 513
+1000 10 14 7 -1 -1 0 6 7 7 10 0 30 12
+6.000000 15000 0 0 0 0 3
+'NONE'
+E
+dark blade~
+Just an ordinary sword with a black hilt, commonly used by the knights
+that follow the dark code.
+~
+A
+13 5 0
+A
+12 2 0
+A
+81 2 0
+#1304
+White Gauntlet~
+&w&WWhite Gauntlet~
+&w&WSomeone has left behind a White Gauntlet here.~
+~
+9 524288&0&16 65
+11 11 11 1000 11 2 0 0 0 0 0 0 0 0
+3.000000 15000 0 0 0 0 2
+E
+gauntlet~
+Just a normal glove.  Clad in steel, chain mesh on the inside for
+comfort.  Even has spiked encircling the opening of the glove.
+~
+A
+12 5 0
+A
+13 2 0
+A
+82 1 0
+#1305
+light blade~
+a light blade~
+A sword commonly used by the white knights lies here.~
+~
+5 525312&2097152&64 513
+1000 10 14 7 -1 -1 0 6 7 7 10 0 30 12
+1.000000 25000 0 0 0 0 3
+'NONE'
+E
+light blade~
+Just an ordinary sword with a white hilt that is used by the knights
+that follow the white code.
+~
+A
+13 3 0
+A
+12 5 0
+#1306
+amulet ring~
+an amulet ring~
+A ring that has an amulet crested lies on the ground here.~
+~
+9 64&0&16 3
+0 0 0 0
+0.100000 20000 0 0 0 0 3
+E
+amulet ring~
+Just an ordinary golden ring with an amulet inscribed on it with a
+red ruby in the middle of the ring.  Nice piece of work.
+~
+A
+81 1 0
+A
+13 3 0
+#1307
+vampire cape~
+a vampire cape~
+A cape that is deep black lies here on the ground.~
+~
+9 64 131073
+0 0 0 0
+2.000000 10000 0 0 0 0 2
+E
+vampire cape~
+Pure black on the outside and blood red on the inside.  Even smells
+like blood to.
+~
+A
+80 1 0
+A
+13 3 0
+A
+31 1 0
+A
+12 5 0
+#1308
+jade armlet~
+a jade armlet~
+A jagged piece of jade sits here on the ground.~
+~
+9 64&0&16 65
+11 11 11 1000 11 2 0 0 0 0 0 0 0 0
+3.000000 1000 0 0 0 0 2
+E
+jade armlet~
+A piece of jagged jade shaped into a rough circle.  Jade is quite
+strong so it offers some good protection.
+~
+A
+13 4 0
+A
+80 1 0
+#1309
+jade anklet~
+a jade anklet~
+A piece of jade is lying here.~
+~
+9 64&0&16 33
+11 11 11 1000 11 2 0 0 0 0 0 0 0 0
+3.000000 1000 0 0 0 0 2
+E
+jade anklet~
+A superbly made anklet.  Obviously crafted by a master smith.  Its
+powers are superb as is its shape and design.
+~
+A
+13 4 0
+A
+80 1 0
+#1310
+mana mask~
+a mana mask~
+A mask that looks like a mana fairy lies on the ground here.~
+~
+9 64 17
+12 12 12 1000 11 2 0 0 0 0 0 0 0 0
+1.000000 15000 0 0 0 0 2
+E
+mana mask~
+A plain wooden mask carved into the shape of a mana fairy face.  It
+holds mana power.
+~
+A
+12 6 0
+A
+13 2 0
+A
+83 150 0
+#1311
+leaf sack~
+a leaf sack~
+A sack made from tree leaves lies in a pile here.~
+~
+15 0&0&16 131073
+150 0 80 0
+1.000000 15000 0 0 0 0 0
+E
+leaf sack~
+A very ingenius made sack made of leaves.  The leaves are intricately
+attatched together by their own vines and stems.  Its quite sturdy.
+~
+#1312
+thunder necklace~
+a thunder necklace~
+A sizzling necklace full of energy floats here.~
+~
+8 524352 5
+0 0 0 0
+0.150000 1000 0 0 0 0 3
+A
+12 5 0
+A
+13 2 0
+A
+26 16 0
+#1313
+giant gloves~
+giant gloves~
+Some pretty big gloves lies on the ground here.~
+~
+9 0&0&16 65
+13 13 13 1000 13 4 0 0 0 0 0 0 0 0
+15.000000 1000 0 0 0 0 3
+E
+giant gloves~
+Just some big gloves made from the skin of foolish humans who dared to
+fight the giant.
+~
+A
+13 2 0
+A
+80 1 0
+> sac_prog 35~
+mpecho The giant gloves start to glow with a fasinating light!
+mpoload 1314 18
+mpat $n drop boxing
+
+~
+|
+#1314
+giant boxing gloves~
+giant boxing gloves~
+Some pretty big boxing gloves lie here.~
+~
+5 0&0&2048 513
+1000 15 19 8 -1 -1 0 8 6 5 8 0 5 10
+14.000000 15000 0 0 0 0 4
+'NONE'
+A
+1 1 0
+A
+81 1 0
+A
+77 5 0
+#1315
+turtle leggings~
+some turtle leggings~
+Leggings made from the shells of turtles is lying here.~
+~
+9 0&0&16 33
+11 11 11 1000 11 2 0 0 0 0 0 0 0 0
+10.000000 1000 0 0 0 0 2
+A
+80 2 0
+A
+13 5 0
+A
+77 -8 0
+#1316
+power suit~
+the power suit of mana~
+A suit encassed in powerful mana is lying on the ground here.~
+~
+9 524353 9
+15 15 15 1000 15 3 0 0 0 0 0 0 0 0
+6.000000 155000 0 0 0 0 4
+E
+power suit~
+Glowing with a blue nimbus and clad in some mystical type steel, this
+is some pretty powerful armor.  The material itself IS some type
+of steel, but once worn it seems to have no weight at all.  The steel
+is black and looks warm but is cool to the touch.
+~
+A
+13 8 0
+A
+12 15 0
+A
+4 1 0
+A
+3 1 0
+A
+83 200 0
+#1317
+griffon helm helmet~
+a griffon helmet~
+A helmet made from the tough skull of a griffon lies here.~
+~
+9 524352 17
+18 18 18 1000 16 3 0 0 0 0 0 0 0 0
+5.000000 185000 0 0 0 0 2
+E
+griffon helm helmet~
+Made from the pure white bone of a griffon's skull and encassed in
+that magical blue steel, this helmet holds extreme powers of mana
+inside of it.
+~
+A
+13 10 0
+A
+12 10 0
+A
+26 524288 0
+#1318
+mana sword blade~
+the &WMana Sword~
+The sword that contains the boundless energy of mana is stuck in the ground...~
+~
+5 524289&2097152&80 513
+1000 28 32 7 -1 -1 0 10 13 12 15 0 35 20
+6.000000 550000 0 0 0 0 4
+'NONE'
+A
+12 25 0
+A
+13 10 0
+A
+83 250 0
+A
+81 3 0
+A
+82 2 0
+A
+79 5 0
+#1319
+apocalypse~
+the bane of '&RApocalypse&G'~
+The sword of the Master Dragonmaster lies here, lost.~
+The evil ones cry out as Minal wields the &RApocalypse!~
+5 525643 8193
+12 1000 100 1 5 -1 0 0 0 0 0 0 0 0
+50.000000 0 0 0 0 0 0
+'acidic oblivion'
+E
+apocalypse~
+The hilt of this legendary sword is created from the ultimate metal,
+damascus.  Hardest of all materials and infused with godly power.
+The blade stands 8 feet tall, sharp enough to slice through rock
+like a hot knife through butter.  The sword weighs 50 pounds, but its
+rightful master, Master of the Dragonmasters, Minal, can use it
+with incredible speed.
+~
+A
+1 5 0
+A
+2 5 0
+A
+3 1 0
+A
+4 3 0
+A
+5 5 0
+A
+12 10000 0
+A
+17 -2 0
+A
+18 250 0
+A
+19 250 0
+A
+22 -15 0
+A
+20 -15 0
+A
+23 -15 0
+A
+24 -15 0
+A
+28 1 0
+A
+28 2 0
+A
+28 1048576 0
+A
+13 5000 0
+> wear_prog 100~
+mpecho The world shouts in triumph as Minal wields the legendary sword
+mpecho &R'Apocalypse'! &BTrue blade of the Master of Dragonmasters!
+~
+|
+#1320
+a sign~
+a sign~
+A sign describing this land is nailed into the road here.~
+~
+12 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+sign~
+A little about the area of Pure Land:
+This area was created by Minal, the all mighty leveling area maker.
+It's based on Pure Land from Secret of Mana, but the area is totally
+different from the one in the game.  The "plot" of this area is based
+on the Secret of Mana plot, but just barely.  Most of this area is
+purely my own creation.  If you are a fan of the Secret of Mana
+series, have fun.  If not, well, have fun anyways.
+Oh, by the way, this area holds leveling mobs and leveling eq, and
+is of medium-hard difficulty.
+
+(Modified slightly by Xerves for 2.x)
+~
+#1449
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#0
+
+
+#ROOMS
+#1300
+Surrounded by trees.~
+Above, to the left, to the right and all around are trees and leaves.
+Green leaves are covering every branch that is visible from this
+view.  Soft soil makes up most of the ground and the
+sky is visible through the very top of the tree-like-ceiling.
+To the north, there is evidence of a brook.  To the northwest
+and northeast...well it's just too dark to see that far.
+~
+2105348&2
+0 3
+0
+0
+D0
+Sounds of water are coming from the north.
+~
+~
+0 0 1302
+0 0
+D3
+~
+~
+134217728 -1 16000
+1023 442
+D6
+It's just too dark too dark to see that far...~
+~
+0 0 1303
+0 0
+D7
+It's just too dark to see into there...~
+~
+0 0 1301
+0 0
+S
+#1301
+Dark surroundings.~
+It's almost completely black around here from the thick foilage
+that is covering most places.  What can be seen are just a few
+trees and even then, sight is not worth it.  The trees
+that can be made out are gnarled and twisted, and have black,
+charred looking leaves on them.  On the positive side, sounds
+of water seem to be coming from the east.
+~
+2105345&2
+0 3
+0
+0
+D1
+A brook can be seen.
+~
+~
+0 0 1302
+0 0
+D8
+Back to towards the lighted clearing.
+~
+~
+0 0 1300
+0 0
+S
+#1302
+A brook with a bridge over it.~
+Light has found its way back to your eyes...and what a glory that
+beholds them.  Crystal clear water rushes by in a quick pace in
+this brook.  Rocks, jumping fish, and a rainbow can be seen
+in and through this wonderful, natural delight.  A marble bridge
+arches its way over the brook and seems to be sturdy enough to
+cross.
+~
+2105348&2
+0 3
+0
+0
+D1
+Into dark surroundings.
+~
+~
+0 0 1303
+0 0
+D2
+Back in the lighted clearing.
+~
+~
+0 0 1300
+0 0
+D3
+Into dark surroundings.
+~
+~
+0 0 1301
+0 0
+D7
+Going over the bridge.
+~
+~
+0 0 1304
+0 0
+S
+#1303
+Dark surroundings.~
+Life and light seems to be non-existant in this desolate clearing.
+The only things that can be seen are things that are close enough
+for your light to touch them.  Even then, it's not worth it.  Gnarled,
+twisted trees with blackened leaves and thick foilage cover the 
+surrounding area.  Sounds of water can be heard off to the west.
+~
+2105345&2
+0 3
+0
+0
+D3
+A brook can be seen...~
+~
+0 0 1302
+0 0
+D9
+Back towards the lighted clearing.
+~
+~
+0 0 1300
+0 0
+S
+#1304
+On a dusty trail.~
+Deep, &Ggreen&C, leafed trees cover the right and left sides of this trail
+and crispy &Obrown &Cleaves that have fallen off the trees lie on the 
+trail.  The trail itself is hard packed soil and seems to have
+been used quite frequently from the visible foot tracks in the
+soil.  The problem is...these tracks do not look like any that
+seem familiar.
+~
+2105344&2
+0 3
+0
+0
+D1
+Going along the trail.
+~
+~
+0 0 1305
+0 0
+D8
+Going back over the bridge.
+~
+~
+0 0 1302
+0 0
+S
+#1305
+Going along the trail.~
+Trees full of &Ggreen &Cleaves still cover the left and right sides
+of the trail but there are more &Obrown &Cleaves covering the trail now.
+The trail is still hard packed soil and the evidence of other life,
+the foot tracks, still cover them.  Off to the south, there are some
+sounds of water running.  Must be that beautiful brook...
+~
+2105344&2
+0 3
+0
+0
+D1
+Still going along the trail...
+~
+~
+0 0 1306
+0 0
+D3
+At the starting of the trail.
+~
+~
+0 0 1304
+0 0
+S
+#1306
+Going along the trail...~
+The trees around you have now changed from the &gdeep green&C, leafy trees
+to &Obrown&C, &Oorange &Cand crisped leafy trees.  There are definetely more
+leaves on the trail now and the path can barely be seen because
+of the amount of leaves upon it.  The trail continues to the northeast.
+~
+2105344&2
+0 3
+0
+0
+D3
+Going back along the trail.
+~
+~
+0 0 1305
+0 0
+D6
+To the far northeast, a small patch of snow can be seen.
+~
+~
+0 0 1307
+0 0
+S
+#1307
+Going along the trail...~
+Brrr...sure is cold here.  The trees around the path are no longer
+clothed with leaves, but are now gnarled and naked.  The trail has
+a lot of snow on it, just about as much as the sides do.  Tracks
+can be seen in the snow, and the tracks are definetely alien to
+what you have seen before.
+~
+2105344&2
+0 3
+0
+0
+D7
+There are signs of life sprouting...
+~
+~
+0 0 1308
+0 0
+D9
+Back along the trail.
+~
+~
+0 0 1306
+0 0
+S
+#1308
+The end of the trail.~
+Snow is still present around here, but most of it has just melted away.
+The leaves are starting to sprout new branches and buds for leaves to
+come and sway upon in the wind.  The trail is a bit mushy because
+of the melted snow and water and in the pot holes, there are puddles
+starting to form.  A big hole with a rope ladder leading down is here
+to.  Strangely, the rope doesn't seem to be wet.
+~
+2105348&2
+0 3
+0
+0
+D5
+Down into the underground.
+~
+~
+0 0 1309
+0 0
+D8
+Back along the trail.
+~
+~
+0 0 1307
+0 0
+S
+#1309
+Underground.~
+The walls of this underground cavern are solid and cold.  They must be
+frozen from the weather.  The trail is a bit wet from snow that has
+melted and the rocks are hard and frozen.  However, the rope you used
+to climb down here is not wet or frozen or even remotely close to
+needing a repair.  The cavern leads to the west.
+~
+2105344&2
+0 13
+0
+0
+D3
+Going along the cavern's trail.
+~
+~
+0 0 1310
+0 0
+D4
+Back up to the surface.
+~
+~
+0 0 1308
+0 0
+S
+#1310
+Along the underground path.~
+It seems to be a bit more warmer here than before.  The walls are still
+partially frozen, but the ground is not frozen or wet.  No snow covers
+any part of the trail and the rocks along the path are jagged and
+edged.  Surprisingly, a patch of &Obrown &Cgrass is growing off to the
+side, which is kind of unlikely because the soil here is not soft
+enough for grass to grow.
+~
+2105344&2
+0 13
+0
+0
+D1
+A rope ladder can be seen in the distance.
+~
+~
+0 0 1309
+0 0
+D3
+Going along the trail.
+~
+~
+0 0 1311
+0 0
+S
+#1311
+Going along the trail.~
+The walls are now completely defrosted and drops of water run down the
+sides to the ground.  The air is getting a little warmer and the ground
+is still as hard as it ever was.  On the dirt path, little foot tracks
+can be seen.  That must mean that this path is traveled quite often.
+Whatever is living around here must come through this cave to get
+some water from that brook.
+~
+2105344&2
+0 13
+0
+0
+D1
+Back along the trail.
+~
+~
+0 0 1310
+0 0
+D3
+Going along the trail.
+~
+~
+0 0 1312
+0 0
+S
+#1312
+Going along the trail.~
+This cavern room is the exact same as the cavern room before it.
+There are dirt walls that are dripping water, there are foot prints
+in the dirt.  The air is a bit more warmer and it's really dusty.
+~
+2105344&2
+0 0
+0
+0
+D1
+Back along the trail.
+~
+~
+0 0 1311
+0 0
+D3
+A bend in the path.
+~
+~
+0 0 1313
+0 0
+S
+#1313
+A bend in the path.~
+The path comes to an abrupt 90 degree angle here.  The path does not
+go west anymore, but now goes north.  Some vines are going down the
+sides of the walls, but they are dried out and brown because of no
+light or water.  Nothing much to see here.
+~
+2105344&2
+0 13
+0
+0
+D0
+A brilliant light seems to be coming from this direction.
+~
+~
+0 0 1314
+0 0
+D1
+Back along the trail.
+~
+~
+0 0 1312
+0 0
+S
+#1314
+A brilliant light.~
+Thousands upon thousands of little crystals are embedded into the walls
+here.  Light from the eastern exit is bouncing off these crystals 
+making a brilliant light all around you.  The prism colors can be seen
+through the light of the crystals, making a big, brilliant &Br&Ra&Gi&Yn&Cb&Po&Cw.
+~
+2105344&2
+0 13
+0
+0
+D1
+Light is coming from this direction.
+~
+~
+0 0 1315
+0 0
+D2
+Going along the trail.
+~
+~
+0 0 1313
+0 0
+S
+#1315
+A lit room.~
+There is a hole in the ceiling here, just enough for a good amount of
+light to get through.  Where the light is going down from the hole, 
+there is a mirror like substance that is angled to bounce the light
+off from here to the west.  Quite ingenious for a monster to do this.
+~
+2105344&2
+0 13
+0
+0
+D3
+The crystal lit room.
+~
+~
+0 0 1314
+0 0
+D6
+~
+~
+0 -1 1316
+0 0
+S
+#1316
+A normal cavern.~
+This cavern is pretty normal.  Dirt ground, dusty trail, vines on 
+walls, &rbloody&C carcass of a human, grass....What?! &rBloody carcass&C
+&Cof a human?!  The &rbloody &Ccorpse seems to be fresh and &Rblood &Cstains
+the ground here.  The air has an evil smell of death.
+~
+2105344&2
+0 13
+0
+0
+D6
+End of the cavern.
+~
+~
+0 0 1317
+0 0
+D9
+~
+~
+0 -1 1315
+0 0
+S
+#1317
+End of the cavern.~
+*Sniff* Ahhh...fresh air!  Light and life pours down from the hole
+in the ground above your head.  There's a rope ladder here leading
+up out of this cavern.  Watery dew drips down here, making some cavern
+flowers grow here.  Grass also covers the floor here.
+~
+2105348&2
+0 13
+0
+0
+D4
+Up into fresh air.
+~
+~
+65536 0 1318
+0 0
+D9
+A normal cave.
+~
+~
+0 0 1316
+0 0
+S
+#1318
+A muddy trail.~
+As they say, out of the rain, and into the mud.  The trail is mushy
+and muddy from the mud here and the trees around you are dripping
+rain water.  The trail leads off to the northeast, were the trail
+hasn't got any better.  You can always go back down into
+the cavern.
+~
+2105344&2
+0 3
+0
+0
+D5
+Into the cave.
+~
+~
+0 0 1317
+0 0
+D6
+Along the muddy trail.
+~
+~
+0 0 1319
+0 0
+S
+#1319
+Along the muddy trail.~
+The mud is ankle deep now and keeping out of the mud is quite difficult.
+The trees along the side of the trail are dripping rain drops and are
+forming mildew.  The trail continues along the southeast and the mud
+seems to get thicker every step of the way.
+~
+2105344&2
+0 3
+0
+0
+D8
+Going along the muddy trail.
+~
+~
+0 0 1320
+0 0
+D9
+The start of this muddy trail.
+~
+~
+0 0 1318
+0 0
+S
+#1320
+Along the muddy trail.~
+The mud is now half way up your leg, but not near your knee.  Fortunately
+the mud is not as sticky as it was before, so getting your feet in and
+out of the mud is easily done.  To the east, there seems to be no
+mud at all.
+~
+2105344&2
+0 3
+0
+0
+D1
+No mud here.
+~
+~
+0 0 1321
+0 0
+D7
+Going along this muddy trail.
+~
+~
+0 0 1319
+0 0
+S
+#1321
+Another hole in the ground.~
+There is no mud covering the ground now and there is another rope ladder
+leading down into the underground.  The trees around this place are
+different colors and they are not dripping water.  The rope ladder looks
+sturdy enough to climb down.  Peering into the hole shows that not
+much can be seen.
+~
+2105344&2
+0 3
+0
+0
+D3
+Going along the muddy trail.
+~
+~
+0 0 1320
+0 0
+D5
+Going down?  Alrighty!
+~
+~
+128 0 1322
+0 0
+S
+#1322
+The start of the long journey.~
+Somehow, this cavern seems to echo with the word "adventure".  Maybe
+this is the starting of one?  Of course...you could always read
+the sign here.  The cave is pretty bland with just bits and pieces
+of &Rred&C and &Bblue&C crystals here and there embedded in the walls.
+The cave leaves off to the east and to the west.
+~
+2105348&2
+0 13
+0
+0
+D1
+Along the underground path.
+~
+~
+0 0 1324
+0 0
+D3
+Into the great light.
+~
+~
+0 0 1323
+0 0
+D4
+Going up.
+~
+~
+0 0 1321
+0 0
+E
+sign~
+It reads, 'Welcome adventurer.  This is the starting point of a mystery
+and quest to face dangers and reap in the rewards.  The rewards are
+great, but the perils are very dangerous.  To the west is a little
+test run and a little reward that will help you on your way.  One
+more thing, most of this area is no recall. However, there are a 
+few recall places and you might get a hint when you reach one.'
+~
+S
+#1323
+A great light.~
+There is a very big orb here in the middle of the room, floating
+on a pedestal.  The orb seems to have designs of intricate weapons on
+it.  The cavern around you cannot be seen because of the light.
+What is for certain, is that there is a monster guarding this light.
+~
+2105344&2
+0 13
+0
+0
+D1
+The starting of the adventure.
+~
+~
+0 0 1322
+0 0
+S
+#1324
+Along the underground.~
+The cave is glinting with red and blue crystals making red and blue
+light show up on the walls.  The rocky walls are embedded with 
+thousands of these tiny crystals and some of these crystals crumble
+away from the wall when touched.  The path leads back to the west and
+continues on to the southeast.
+~
+2105344&2
+0 13
+0
+0
+D3
+Staring of the cave.
+~
+~
+0 0 1322
+0 0
+D8
+Going along the path.
+~
+~
+0 0 1325
+0 0
+S
+#1325
+Along the underground trail.~
+The walls are now covered with red and blue crystals.  Along the edges
+of the walls are some dimly glinting gem stones that have fallen off
+the walls over the years.  At least the trail is clear of these little
+gems.  The trail is hard packed but comfortable for walking on.
+~
+2105344&2
+0 13
+0
+0
+D1
+Going along the trails.
+~
+~
+0 0 1326
+0 0
+D7
+Along the underground trail.
+~
+~
+0 0 1324
+0 0
+S
+#1326
+Along the trail.~
+There are two holes with rope ladders leading down into them here.
+One hole has a sign posted near it that says, "If your level of skills
+are ten to seventeen, you may enter."  That was the southwest hole.
+The southeast hole reads, "If your level of skills are eightteen
+to thirty, you may enter."  There must be some cool stuff down there
+if they have signs for them...be careful!
+~
+2105348&2
+0 13
+0
+0
+D3
+Along the trail.
+~
+~
+0 0 1325
+0 0
+D6
+Going along the trail.
+~
+~
+0 0 1329
+0 0
+D8
+Going down the southeastern hole.
+~
+~
+0 0 1327
+0 0
+D9
+Going down the hole.
+~
+~
+0 0 1328
+0 0
+S
+#1327
+In a holy place.~
+All around you are white walls with big crosses on them.  There is a
+royal purple carpet going down the middle of the cavern in front of
+an altar.  Behind this altar is a big book with purple bindings, and
+the book has big letters saying "Bible."  You must be in a church
+or something.
+~
+3153920&2
+0 0
+0
+0
+D7
+Back up the hole.
+~
+~
+0 0 1326
+0 0
+S
+#1328
+In a dark place.~
+The walls are covered with big numbers that are written in deep red...
+kind of like blood.  Those numbers read "666".  On closer inspection,
+the numbers are really written in blood....eep!  Going down the
+middle of the cavern is a black carpet which leads up to a blood
+stained pedestal....this isn't good.
+~
+3153920&2
+0 0
+0
+0
+D6
+Going back up the hole.
+~
+~
+0 0 1326
+0 0
+S
+#1329
+The end of the cavern.~
+Here's another rope ladder leading up onto the surface.  Fresh air is
+coming down from above and the light from above bounces off the
+crystals here.  The ground around you is a bit rocky and seems to have
+moss covering it.  Going up is a blessing.
+~
+2105344&2
+0 13
+0
+0
+D4
+Going up!
+~
+~
+128 0 1330
+0 0
+D9
+Back along the trail.
+~
+~
+0 0 1326
+0 0
+S
+#1330
+Spring.~
+*SNIIIIIIFFFF* Ahhhh....fresh air never felt so nice.  The trees 
+around you are in full bloom and the leaves are in a deep green state.
+This place is kind of like a Spring type forest.  Love is in the air,
+water can be heard off in the distance, and, oh look!  Some deer are 
+off in the trees!
+~
+2105348&2
+0 3
+0
+0
+D3
+Going along the Spring trail.
+~
+~
+0 0 1331
+0 0
+D5
+Back into the cave.
+~
+~
+0 0 1329
+0 0
+S
+#1331
+A brook.~
+To the north, there is a nice little brook with fresh water.  There's
+a small wooden bridge leading over the brook to the north.  The forest
+surrounding this trail has trees of deep green leaves.  To the north,
+sounds of incantations can be heard.
+~
+2105344&2
+0 3
+0
+0
+D0
+Some sounds of whispering can barely be heard from here.
+~
+~
+0 0 1332
+0 0
+D1
+A rope ladder can be seen in the distance.
+~
+~
+0 0 1330
+0 0
+S
+#1332
+Outside of a cave.~
+Some magical words can be heard from the northwest in a cave.  The 
+words come out in a throaty, spidery talk.  The cave opening is
+lit with brightly, shining crystals and the walls look sturdy enough
+and tall enough to fit an ogre in there.  Back to the south, the running
+water of the brook can be heard, and the path continues eastward.
+~
+2105344&2
+0 3
+0
+0
+D1
+The trail continues.
+~
+~
+0 0 1334
+0 0
+D2
+Back to the brook.
+~
+~
+0 0 1331
+0 0
+D7
+Some strange chanting can be heard...
+~
+~
+0 0 1333
+0 0
+S
+#1333
+Inside the cave.~
+The cave's walls are embedded with thousands of tiny crystals.  The 
+walls behind the crystals can be seen, however, and are made of rock
+solid....rock.  The ground beneath your feet is made of hard packed
+dirt.  The northern wall has some writing on it.
+~
+2105344&2
+0 0 0 0 2 0
+0
+0
+D8
+Out of the cave.
+~
+~
+0 0 1332
+0 0
+E
+north wall writing~
+The writing looks very peculiar and cannot be understood.  The writing
+is in a spidery hand and some of the words look pretty big.
+~
+S
+#1334
+Along the trail.~
+The trail is composed of hard packed dirt, and there are some lovely
+green trees along the path.  Birds can be heard from the trees, singing
+happily and merrily.  The grass smells of sweet dew and the air has
+a nice, warm, calm feeling to it.  What a day to be alive...let's 
+keep it that way.
+~
+2105344&2
+0 3
+0
+0
+D1
+Along the trail.
+~
+~
+0 0 1335
+0 0
+D3
+Outside of the cave.
+~
+~
+0 0 1332
+0 0
+S
+#1335
+Along the trail...~
+Green trees.  Green grass.  Dirt path.  Sound of nature.  Long trail.
+Enough said.
+~
+2105344&2
+0 3
+0
+0
+D1
+Along the trail.
+~
+~
+0 0 1336
+0 0
+D3
+Along the trail.
+~
+~
+0 0 1334
+0 0
+S
+#1336
+Along the trail...~
+The trees here have red, brown, orange, crispy, crackling, leaves 
+on their dying branches.  The air is a little cooler than before and
+the grass is browning.  Off to the north, in the thicket, a herd of
+deer can be seen grazing in a clearing.
+~
+2105344&2
+0 3
+0
+0
+D1
+Along the trail.
+~
+~
+0 0 1337
+0 0
+D3
+Along the trail.
+~
+~
+0 0 1335
+0 0
+S
+#1337
+A turn in the path.~
+The trees, grass, and practically the whole environment, still have
+the Fall qualities.  The path veers off to the northeast where some
+rasping can be heard.  Speaking of rasping, walking all this way
+must have tired you out.
+~
+2105344&2
+0 3
+0
+0
+D3
+Along the trail.
+~
+~
+0 0 1336
+0 0
+D6
+Some sounds can be heard off in the distance.
+~
+~
+0 0 1338
+0 0
+S
+#1338
+Outside a cabin.~
+The usual is here.  Trees of different colors, dying grass, cool air.
+What is different is that there is a clearing here off to the east
+where a formidable cabin is lying on a hill.  Some sounds can be heard
+from inside this cabin, and the door is open...why not drop in and pay
+a visit to the owner?
+~
+2105348&2
+0 3
+0
+0
+D1
+Going into the cabin.
+~
+~
+0 0 1339
+0 0
+D7
+Along the trail.
+~
+~
+0 0 1340
+0 0
+D9
+Along the trail.
+~
+~
+0 0 1337
+0 0
+S
+#1339
+Inside the cabin.~
+The cabin is very dark, except for the lamp illuminating the center
+of the cabin.  The walls look rotten and there are a lot of spider webs
+in the corners.  The air smells of death and blood.  Guess dropping in
+was a bad idea.
+~
+2105352&2
+0 0
+0
+0
+D3
+Outside of the cabin.
+~
+~
+0 0 1338
+0 0
+S
+#1340
+Along the trail.~
+The trees are now bare of any leaves and the grass is now brown.  The
+air is definetely alot cooler now, and the path is hard from frost.
+The whole environment seems to be a cross of Fall and Winter.  What
+type of power has the ability to control the seasons every few leagues?
+It's just amazing.
+~
+2105344&2
+0 3
+0
+0
+D0
+Along the trail.
+~
+~
+0 0 1341
+0 0
+D8
+Outside the cabin.
+~
+~
+0 0 1338
+0 0
+S
+#1341
+Along the trail.~
+A bit of snow is covering the grass here.  Some snow can be seen laying
+on some Evergreen branches.  The mix of fresh snow and pine needles
+give the air a fresh, pure aroma.  The path is still covered with frost
+and has no snow upon it, so the way is easy accessible.
+~
+2105344&2
+0 3
+0
+0
+D2
+Along the trail.
+~
+~
+0 0 1340
+0 0
+D3
+A clearing.
+~
+~
+0 0 1342
+0 0
+S
+#1342
+A clearing.~
+Amazing.  There is no snow, no cool air, and the trees and grass are
+a deep green.  It's Spring here, and the place is devoid of any noise.
+A beds of flowers circle the clearing with multi-colored flowers in them.
+Some deer are here, grazing upon the deep green grass.  This must be
+a holy place.
+~
+2170880&2
+0 3
+0
+0
+D1
+Along the trail.
+~
+~
+0 0 1341
+0 0
+D3
+Out of the forest.
+~
+~
+0 0 1343
+0 0
+S
+#1343
+Coming out of the forest.~
+Ah...finally out of that forest.  It was a good forest....kind of on
+the weird side...but a good forest.  Now, before you, are long,
+rolling, green hills.  These hills stretch for many, many leagues.
+The sky is clear, nature sounds all around, good air....*sniiiiiifff*
+Yeah!
+~
+2105348&2
+0 4
+0
+0
+D1
+Back into the forest.
+~
+~
+0 0 1342
+0 0
+D7
+Hiking the hills, honorably....try saying that 3 times fast.
+~
+~
+0 0 1344
+0 0
+S
+#1344
+Hiking the hills.~
+Deep rolling hills cover the land as far as the eye can see.  The
+good mountain air is seeping deeply into your lungs, making a fresh
+feeling all over.  Birds can be seen flying through the air in
+glorious colors.  The sky is quite nice. Ahhhh,
+what a great place.
+~
+2105344&2
+0 4
+0
+0
+D6
+Hills.
+~
+~
+0 0 1346
+0 0
+D7
+Hills.
+~
+~
+0 0 1345
+0 0
+D8
+Hills.
+~
+~
+0 0 1343
+0 0
+S
+#1345
+Hills.~
+The trail turns sharply to the northeast because going any other
+direction would result in a very bad accident.  Example: falling off
+the damn hill.  That's about a good 25 foot, extreme, pointed, fall.
+So do not fall off the hill.  
+~
+2105344&2
+0 4
+0
+0
+D6
+Hills.
+~
+~
+0 0 1347
+0 0
+D8
+Hills.
+~
+~
+0 0 1344
+0 0
+S
+#1346
+Rolling green hills.~
+Off to the west, luxurious, deep green hills full with many types of
+flowers can be seen.  Butterflies effortlessly float above these flowers
+taking in the fragrance of the beautiful flower beds.  A small spring
+flows down one of the hills and into a small pond where some ducks
+are feeding.  Along the hill that your standing on, four-leaf clovers
+dance around your feet.
+~
+2105344&2
+0 4
+0
+0
+D7
+Along the hills.
+~
+~
+0 0 1347
+0 0
+D9
+Along the hills.
+~
+~
+0 0 1344
+0 0
+S
+#1347
+Getting off the path.~
+The lovely path of Spring and life end here.  A rocky trail now picks
+up here, and leads off to the northwest.  Thunder booms off from the
+west, and clouds start to gather to the northwest.  The adventure is
+bound to pick up some hard times now.
+~
+2105348&2
+0 4
+0
+0
+D7
+Entering the rocky terain.
+~
+~
+0 0 1348
+0 0
+D8
+Along the hills.
+~
+~
+0 0 1346
+0 0
+D9
+Along the hills.
+~
+~
+0 0 1345
+0 0
+S
+#1348
+Along the rocky trail.~
+Jagged rocks line the path towards the southwest, while a bit of grass
+still grows to the southeast.  Jagged crystals lie along the east and
+west sides of the path, and the crystals are quite transparent.
+~
+2105344&2
+0 5
+0
+0
+D8
+Back to the hills.
+~
+~
+0 0 1347
+0 0
+D9
+Along the rocky trail.
+~
+~
+0 0 1349
+0 0
+S
+#1349
+Along the rocky trail.~
+Clouds gather with fierce speed now, swirling above your head like 
+a storm going crazy.  Thunder booms out its call, lightning dances
+across the sky, and flashes of electricity explode in front of your eyes.
+This is not a good place to be.
+~
+2105352&2
+0 5
+0
+0
+D6
+Start of the trail.
+~
+~
+0 0 1348
+0 0
+D9
+Turn in the path.
+~
+~
+0 0 1350
+0 0
+S
+#1350
+A turn in the path.~
+The path starts to elevate, as mountainous terrain starts to take
+its course.  Huge boulders lie on the sides of path, some even going
+off the edge from the ground-shaking thunder.  Sharp rocks line the
+path.  Careful, but quick action is advised.
+~
+2105352&2
+0 5
+0
+0
+D2
+Along the trail.
+~
+~
+0 0 1351
+0 0
+D6
+Along the path.
+~
+~
+0 0 1349
+0 0
+S
+#1351
+Along the mountainous trail.~
+Lightning now sizzles down in a jagged pattern, blasting rocks from
+the mountain's side above your head.  Some of the rocks are not little
+ones either.  Boulders crash down the sides as this path turns into
+a hell hole.  Quick maneuvering should be the course for this action.
+~
+2105352&2
+0 5
+0
+0
+D0
+Along the trail.
+~
+~
+0 0 1350
+0 0
+D2
+Another turn in the path.
+~
+~
+0 0 1352
+0 0
+S
+#1352
+Another turn on the mountain.~
+Boulders are now crashing down with extreme force.  Luckily they are 
+not bouncing off the trail but are rolling down the mountain and off
+the edge.  The path is clear of debris and safe to traverse.  However,
+there's a patch of lava just off to the northwest that has to be
+avoided.
+~
+2105344&2
+0 5
+0
+0
+D0
+Along the trail.
+~
+~
+0 0 1351
+0 0
+D3
+Lava, watch your step.
+~
+~
+0 0 1353
+0 0
+S
+#1353
+Lava!~
+Lava is starting to overflow and onto the trail.  Caution is advised
+to get past the living lava field.  Going directly west will save
+a lot of trouble, since it is the path with the least amount of lava
+on it.
+~
+2105344&2
+0 5
+0
+0
+D1
+A turn in the mountain trail.
+~
+~
+0 0 1352
+0 0
+D3
+Along the lava trail.
+~
+~
+0 0 1354
+0 0
+S
+#1354
+Along the lava trail.~
+Lava flows like a river here.  High ledges and rocks jut out for
+a place to climb out of the path of the lava.  The rocks lead northwest
+and beyond.  A sudden roar and shake of the earth reveals a lot more
+lava.  Time to get high.
+~
+2105348&2
+0 5
+0
+0
+D1
+Along the lava trail.
+~
+~
+0 0 1353
+0 0
+D7
+Going up the ledges.
+~
+~
+0 0 1355
+0 0
+S
+#1355
+A summit of ledges.~
+You are now safe from the lava.  The lava field is far below now and
+it doesn't seem to be able to flow this high.  That was a heck of a 
+climb though.  A little circle of clouds float around here and a 
+path that looks easy-going leads off to the west.
+~
+2105344&2
+0 5
+0
+0
+D3
+Along the easy-going path.
+~
+~
+0 0 1356
+0 0
+D8
+You want to go back down?!  Okay, it's your skin.
+~
+~
+0 0 1354
+0 0
+S
+#1356
+Along the easy-going path.~
+Amazingly enough, grass grows among all this rock.  A little to the
+west, there's a nice soft patch of grass that looks good enough to
+sleep on.  Around this patch of grass, there are some rare mountain
+flowers.  The path leads off to the north.
+~
+2105344&2
+0 5
+0
+0
+D0
+Along the easy-going path.
+~
+~
+0 0 1357
+0 0
+D1
+The summit of ledges.
+~
+~
+0 0 1355
+0 0
+S
+#1357
+Along the easy-going path.~
+The path seems to elevate a little here, with the slope going up.
+Birds chirp off to the north upon high branches on the rocky ledge.
+Green grass grows on the slope and seems to help your feet go up.
+~
+2105344&2
+0 5
+0
+0
+D1
+The path ends.
+~
+~
+0 0 1358
+0 0
+D2
+Along the easy-going path.
+~
+~
+0 0 1356
+0 0
+S
+#1358
+Base of a climb.~
+The path ends here.  Now there's a sheer 50 meter climb, going straight
+up.  Little foot and hand holds litter the climb going up, making
+climbing much easier.  A little cloud ring is at the very top,
+so seeing the path going up with the naked eye is pretty hard to
+do.  Jagged rocks litter the ground here, and some grass is growing
+here.
+~
+2105344&2
+0 5
+0
+0
+D3
+Back along the path.
+~
+~
+0 0 1357
+0 0
+D4
+Going up.
+~
+~
+65664 0 1359
+0 0
+S
+#1359
+A resting ledge.~
+Here's a look out point that overlooks the terrain that you have
+already covered.  Off to the east, there's a glowing light coming
+from the end of the ledge.  Looking down shows the base of this climb.
+To the southeast, the multi-season forest can be seen.  The cabin
+off to the southeast still looks dark and there's no smoke coming
+from the chimney. 
+~
+3145732&2
+0 5
+0
+0
+D1
+Towards the green light.
+~
+~
+0 0 1360
+0 0
+D4
+Climbing towards the cloud ring.
+~
+~
+0 0 1361
+0 0
+D5
+Going back down.
+~
+~
+65664 0 1358
+0 0
+S
+#1360
+Overlooking the entire south portion.~
+Wow!  Look at what's all around you!  The entire south section can be
+seen from here, and it looks beautiful.  The multi-season forest,
+ranging from Spring, Summer, Fall, and Winter, can be seen and
+the colors just blind the eye.  The grassy hills and the flower
+covered hill can be seen, way off to the east, a family of deer
+can be seen.  Now, whats with this green light?
+~
+3153920&2
+0 5
+0
+0
+D3
+The front end of the ledge.
+~
+~
+0 0 1359
+0 0
+S
+#1361
+Around the circle of clouds.~
+&WYou can't see much, the clouds are too foggy to see through.  Just
+that a path can be seen going to the northwest.
+~
+2105344&2
+0 5
+0
+0
+D5
+Down the mountain.
+~
+~
+65664 0 1359
+0 0
+D7
+Going off in this direction.
+~
+~
+0 0 1362
+0 0
+S
+#1362
+Along a mountain path.~
+Coming out of the clouds, the world opens its colors to your eyes
+once again.  Grass and bushes litter the ground here and a path
+leads off to the northeast.  Going over to a ledge shows that
+you are REALLY high up on the mountain.  Well, time to explore.
+~
+2105344&2
+0 5
+0
+0
+D6
+Along the mountain path.
+~
+~
+0 0 1363
+0 0
+D8
+Into the clouds.
+~
+~
+0 0 1361
+0 0
+S
+#1363
+Along the mountain trail.~
+The path is quite rocky and dusty, and little footprints can be seen
+in the dust here.  There's a funny smell in the air, kind of like
+pollen floating in the air.  Speaking of flowers, the flowers along
+this path are in beautiful bloom and bees are pollenating and 
+carrying the pollen back to the hives.
+~
+2105344&2
+0 5
+0
+0
+D6
+Along the mountain trail.
+~
+~
+0 0 1364
+0 0
+D9
+Along the mountain trail.
+~
+~
+0 0 1362
+0 0
+S
+#1364
+Along the mountain trail.~
+Trees litter the path, rich in their own full, green leaves.  The air
+smells fresh from the mountain/tree air.  The world around you is buzzing
+with little bees exploring the flowers.  How could this kind of life
+live this high up in the mountain?  Seems like the answer is coming
+up ahead.
+~
+2105344&2
+0 5
+0
+0
+D8
+Along the mountain trail.
+~
+~
+0 0 1365
+0 0
+D9
+Along the mountain trail.
+~
+~
+0 0 1363
+0 0
+S
+#1365
+&GG&gr&Ge&ge&Gn &gL&Gi&gf&Ge.~
+&cLife is really buzzing now as the bees grow in population and
+life just sprouts from everywhere.  Life seems to grow quite
+happily here, and only mother nature knows why she would put this
+kind of life way up in the mountains.  The answer is coming.
+~
+2105344&2
+0 5
+0
+0
+D7
+Along the mountain trail.
+~
+~
+0 0 1364
+0 0
+D8
+Going along the mountain trail.
+~
+~
+0 0 1366
+0 0
+S
+#1366
+&YBuzzing Insects~
+&cEch, the bees have grown in size and population now.  Trees are
+littered with hives, this is probably where the bee cities are 
+anyways.  Whats even more strange is that none of the insects
+come out of the vacinity of green life.  Not one insect comes near
+you, which is not a bad thing.
+~
+2105344&2
+0 5
+0
+0
+D7
+Along the mountain trail.
+~
+~
+0 0 1365
+0 0
+D8
+Along the mountain trail.
+~
+~
+0 0 1367
+0 0
+S
+#1367
+Silence.~
+Even from this close of range, you should be able to hear the bees
+buzzing, but strangely, silence fills the air.  However, life is 
+even more green here, and there's a cave to the northeast.  The
+path leads off to the east, but maybe a little exploration
+wouldn't hurt.
+~
+3153924&2
+0 5
+0
+0
+D1
+Along the mountain trail.
+~
+~
+0 0 1368
+0 0
+D6
+Into the cave.
+~
+~
+0 0 1369
+0 0
+D7
+Along the mountain trail.
+~
+~
+0 0 1366
+0 0
+S
+#1368
+Along the mountain trail.~
+Life is just as beautiful as it was before...it's starting to get a
+little depressing.  Come on, a person can only take so much until
+it gets that way.  Anyways, the path, deep green and lovely,
+continues on to the northeast.
+~
+2105344&2
+0 5
+0
+0
+D3
+Along the mountain trail.
+~
+~
+0 0 1367
+0 0
+D6
+Along the mountain trail.
+~
+~
+0 0 1370
+0 0
+S
+#1369
+A faerie cave.~
+Ah ha!  That's the answer to why there is so much life on this mountain
+top, there are fairies keeping the place alive! Small faeries pass you
+and onto work with fixed, little smiles lighting up their small, sexy
+faces.  Yes, sexy, they may be small, but they are just about the
+same age as a young adult.  Anyways, the cave is quite alive with
+green vines and a golden throne in the middle of the cave.
+~
+3153928&2
+0 0
+0
+0
+D9
+Out of the cave.
+~
+~
+0 0 1367
+0 0
+S
+#1370
+Along the mountain trail.~
+Life is just...okay, this is getting very repetitive and vivid images
+appear before you of just destroying this place...hmm, could this
+be a little bit of foreboding?  Are these images of what may come
+or you may come upon?  Continue, to find out.
+~
+2105344&2
+0 5
+0
+0
+D1
+Along the mountain trail.
+~
+~
+0 0 1371
+0 0
+D9
+Along the mountain trail.
+~
+~
+0 0 1368
+0 0
+S
+#1371
+Along the mountain trail.~
+More images appear before you, showing blackened trees and bushes and
+destruction lying around a blackened forest.  Are these images of
+what is to come?  The trail leads to the southeast and a familiar
+smell fills the air.
+~
+2105344&2
+0 5
+0
+0
+D3
+Along the mountain trail.
+~
+~
+0 0 1370
+0 0
+D8
+Along the mountain trail.
+~
+~
+0 0 1372
+0 0
+S
+#1372
+Along the mountain trail.~
+The images are not appearing again, but that familiar smell is much
+more stronger than before.  To the northeast, black smoke can be
+seen, billowing up into the sky.  Of course, the path leads to
+the northeast so there will be time to investigate.
+~
+2105344&2
+0 5
+0
+0
+D6
+End of the trail.
+~
+~
+0 0 1373
+0 0
+D7
+Along the mountain trail.
+~
+~
+0 0 1371
+0 0
+S
+#1373
+End of the trail.~
+The black cloud of smoke is coming from below.  There's a rope ladder
+here leading down to the ground and as far as the eye can see, what
+this rope leads to, is not good.  The forest below is charred and
+blackened and smoke is coming from a fresh blast of fire that seems
+to be smoldering.
+~
+2105344&2
+0 5
+0
+0
+D5
+Going down the rope ladder.
+~
+~
+0 0 1374
+0 0
+D9
+Along the mountain trail.
+~
+~
+0 0 1372
+0 0
+S
+#1374
+The Black Forest.~
+The smoldering tree is almost finished smoldering and the air is quite
+thick with smoke.  Staying around here too long might damage your lungs.
+A trail, that is quite filled with soot, leads off to the southeast
+and some crows can be heard off in the distance.
+~
+2105349&2
+0 3
+0
+0
+D4
+Back up the rope ladder.
+~
+~
+0 0 1373
+0 0
+D8
+Going along the sooty trail.
+~
+~
+0 0 1375
+0 0
+> rand_prog 20~
+mpecho Too much smoke enters your lungs and your start to cough.
+mpdamage $n 40
+~
+|
+S
+#1375
+Crackling trees~
+The dirt path is white with ash and bits of black bark litter along the
+path.  The trees surrounding the path are burnt and most are still 
+crackling from whatever fire brushed through here.  No green is to
+be seen on this desolate path.  The path leads off to the east.
+~
+35659777&2
+0 3
+0
+0
+D1
+The black forest continues...~
+~
+0 0 1376
+0 0
+D7
+The black forest continues...
+~
+~
+0 0 1374
+0 0
+S
+#1376
+Along the path~
+Crackling and burnt trees surround the area, making visibilty in all
+directions, except for west and northeast, obsolete.  A grove is below
+you, through a hole....how is that possible?  Never mind.  Sounds come
+from inside the grove.  Peering through the hole shows a bit of green
+down there, hmm...
+~
+35659781&2
+0 3
+0
+0
+D3
+The black forest continues...
+~
+~
+0 0 1375
+0 0
+D5
+Into the grove...
+~
+~
+0 0 1377
+0 0
+D6
+The black forest continues...
+~
+~
+0 0 1378
+0 0
+S
+#1377
+In the grove~
+A few sparse green trees surround this almost quiet grove.  Mostly,
+there are green bushes with some type of fruit littering this little
+grove.  What really makes this place spooky is that big, BIG tree
+heading your way.....wait a minute....a tree HEADING your way...
+they don't move...
+~
+3153921&2
+0 13
+0
+0
+D4
+Back up into the black forest...
+~
+~
+0 0 1376
+0 0
+S
+#1378
+Along the trail~
+Same black and burning, crispy, smoke smelling, evil trees surrounding
+the path.  No green yet and the acrid smell of smoke lies heavy in the
+air.  The path continues to the east while you can go back to the
+southwest.
+~
+36708353&2
+0 3
+0
+0
+D1
+The black forest continues...
+~
+~
+0 0 1379
+0 0
+D9
+The black forest continues...
+~
+~
+0 0 1376
+0 0
+S
+#1379
+The trail continues~
+Smoke practically covers the sky.  Breathing is a little difficult
+here and the ground seems to be getting a little hot.  The trees
+are still burnt and some are crackling, while others smoulder,
+billowing out clouds of smoke.  The trail continues to the east
+while you can head back west.
+~
+3153921&2
+0 3
+0
+0
+D1
+The black forest continues...
+~
+~
+0 0 1380
+0 0
+D3
+The black forest continues...
+~
+~
+0 0 1378
+0 0
+S
+#1380
+Along the trail~
+The ground seems even more warm than before.  The smoke is still heavy
+in the air and breathing is still a little difficult.  Trees are crackling
+and smouldering and ash sometimes falls from a tree to the ground.
+The trail continues to the southeast while you can head back to the
+west.
+~
+3153921&2
+0 3
+0
+0
+D3
+The black forest continues...
+~
+~
+0 0 1379
+0 0
+D8
+The black forest continues...
+~
+~
+0 0 1381
+0 0
+S
+#1381
+The trail continues~
+The smoke seems to have slackened off quite a bit and a sweet smell
+fills the air.  The smell seems to be coming from below.  A stump
+lies in the middle of the path and on top of it, there's a hole.
+Peering down shows a dark room that seems to be totally non lethal,
+in fact, it seems safe.
+~
+3153921&2
+0 3
+0
+0
+D5
+Down into the safe room.
+~
+~
+0 0 1382
+0 0
+D6
+The black forest continues...
+~
+~
+0 0 1383
+0 0
+D7
+The black forest continues...
+~
+~
+0 0 1380
+0 0
+S
+#1382
+The safe room.~
+As your light illuminates the room, the features can be clearly made
+out now.  Surrounded by 4 dirt walls with a small table and a small
+chair in the middle with a shelf on the eastern wall and a small bed
+pushed against the west wall, this seems to be a small living quarters
+for some creature.  It certainly wouldn't mind if you rested for
+a while here.
+~
+3145741&2
+0 0
+0
+0
+D4
+Back up into the forest.
+~
+~
+0 0 1381
+0 0
+S
+#1383
+Sparse trees~
+Suddenly, the trees dwindle in number and all that is in view are
+a few black trees, not crackling or smouldering, just burnt trees.
+The path is hard packed dirt with bits of ash here and there.  The
+path continues to the north.
+~
+36708352&2
+0 3
+0
+0
+D0
+Along the trail...
+~
+~
+0 0 1384
+0 0
+D9
+The black forest continues...
+~
+~
+0 0 1381
+0 0
+S
+#1384
+Along the trail~
+Few trees cover the landscape with a few small shrubs and bushes of
+blackened leaves.  There doesn't seem to be as much ash as there was
+and branches seem to crack under every step along this trail.  The
+trail leads off to the west.
+~
+36708352&2
+0 3
+0
+0
+D2
+Sparse trees...
+~
+~
+0 0 1383
+0 0
+D3
+Along the trail...
+~
+~
+0 0 1385
+0 0
+S
+#1385
+Along the trail~
+The view holds no trees or bushes in sight and grass seems to be sparse
+and where there is grass, it is very brown.  The area seems to be picking
+up again with life and leaving death behind.  How peculiar.
+The trail leads off to the north.
+~
+36708352&2
+0 2
+0
+0
+D0
+Along the trail...
+~
+~
+0 0 1386
+0 0
+D1
+Along the trail...
+~
+~
+0 0 1384
+0 0
+S
+#1386
+Life seems to pick up~
+Patches of green grass roam the fields and a few green trees stand
+out tall and proud as to defy the blackness of death to the south.
+The dirt on which your walking on seems to be picking up life to.
+Rocks and roots now appear around the path and songs of birds
+cry out from those few trees.
+~
+36708352&2
+0 2
+0
+0
+D1
+Along the trail....
+~
+~
+0 0 1387
+0 0
+D2
+Along the trail...
+~
+~
+0 0 1385
+0 0
+S
+#1387
+&GGreen!~
+BAM!  After a mile's walk from the west and life seems to encompass
+you.  Trees of green in full bloom, some even bearing fruit, cover
+the landscape.  Lush green grass covers the ground and a family of
+deer lies off to the east, lounging on the cool grass.  Ahhh, life
+is sweet.  The trail leads off north.
+~
+36708352&2
+0 2
+0
+0
+D0
+Along the trail...
+~
+~
+0 0 1388
+0 0
+D3
+Along the trail...
+~
+~
+0 0 1386
+0 0
+S
+#1388
+A grassy trail~
+The dirt path suddenly cuts off as another replaces it.  A trail
+that seems less traveled than the others now leads off into depths
+unknown.  The trail itself is just a grassy trail where the grass
+has died from creatures crossing over it.  The trail leads off to
+the northwest.
+~
+36708352&2
+0 2
+0
+0
+D2
+Along the trail...
+~
+~
+0 0 1387
+0 0
+D7
+Along the trail...
+~
+~
+0 0 1389
+0 0
+S
+#1389
+Nearing hills~
+Off in the distance to the west, lush green hills roll the landscape.
+A feeling of magic seems to fill the air and a storm cloud lingers 
+above you.  In fact, the magic seems to make a path upward, towards
+that storm cloud.  The trail leads off to the west.
+~
+36708356&2
+0 2
+0
+0
+D3
+Rolling hills...
+~
+~
+0 0 1391
+0 0
+D4
+Into the storm...
+~
+~
+0 0 1390
+0 0
+D8
+Along the trail...
+~
+~
+0 0 1388
+0 0
+S
+#1390
+High in the sky~
+Soaring 150 feet above the ground, the entire land can be seen from
+here.  Off to the south, the black forest smoulders with smoke, to
+the southwest, the mountains reign high and supreme.  The sky smells
+so FRESH up here.  However, a huge storm cloud seems to have enveloped
+you and it seems....alive.
+~
+36708352&2
+0 9
+0
+0
+D5
+Down to the ground....gently.
+~
+~
+0 0 1389
+0 0
+S
+#1391
+Entering the hills~
+Ah, atop the rolling, lush green hills.  Butterflies swirl in vast
+amounts, the grass sways gently and the air smells so....fresh.
+The trail seems to dip down on a slope going down into smaller
+hills.
+~
+36708352&2
+0 4
+0
+0
+D1
+Along the trail...
+~
+~
+0 0 1389
+0 0
+D5
+Walking along the hills.
+~
+~
+0 0 1392
+0 0
+S
+#1392
+Walking along the hills~
+The hills gently roll around the land scape, creating an almost 
+peaceful and calm area.  Birds chirp from the numerous apple trees
+covering the area.  So green and lovely.  The trail takes off to
+the southwest.
+~
+36708352&2
+0 4
+0
+0
+D4
+Along the trail...
+~
+~
+0 0 1391
+0 0
+D9
+Along the trail on this hills.
+~
+~
+0 0 1393
+0 0
+S
+#1393
+Along the trail among the hills~
+Passing underneath an apple tree nets you a bonk on the head from a
+very ripe apple that fell off the tree.  In fact, numerous apples
+cover the ground underneat the apple tree, all very &Rred&C, and
+very delicious looking.  Of course, an apple off the tree would be 
+much better.  The trail takes off to the northwest.
+~
+36708352&2
+0 4
+0
+0
+D6
+Along the trail among the hills.
+~
+~
+0 0 1392
+0 0
+D7
+Along the trail among the hills.
+~
+~
+0 0 1394
+0 0
+> entry_prog 100~
+mpecho As you pass beneath the tree, a ripe apple falls from the tree
+mpecho and smacks you on the head.  That's it!  The formula for the
+mpecho great science of gravitiy is....is....damn!  Forgot it.
+mpdamage $n 1
+~
+|
+S
+#1394
+Among the hills~
+Butterflies block out the sky in numerous colors and design that
+dazzle the mind.  Opening your mouth might net you a few butterflies,
+but it's not advised.  The trail leads off to the north.
+~
+36708352&2
+0 4
+0
+0
+D0
+Along the trail.
+~
+~
+0 0 1395
+0 0
+D8
+Along the trail.
+~
+~
+0 0 1393
+0 0
+S
+#1395
+Along the hill path~
+Imagine that.  Walking on a path going through hills.  What do you
+think you see?  That's right.  Hills, hills, and more hills!
+Snazzy.  Ooo!  Look a hill with GRASS on it, hey! Look!  A flowerbed,
+how nice.  The path leads on to the northeast.
+~
+36708352&2
+0 4
+0
+0
+D2
+Along the path.
+~
+~
+0 0 1394
+0 0
+D6
+Along the path.
+~
+~
+0 0 1396
+0 0
+S
+#1396
+Hills~
+Great, even more hills, this is getting more sickening than it did
+in the blackened forest.  Life must die.  Destroy it!  Kill, maim,
+destroy!............er......the path leads off to the east.
+~
+36708352&2
+0 4
+0
+0
+D1
+Along the path.
+~
+~
+0 0 1397
+0 0
+D9
+Along the path.
+~
+~
+0 0 1395
+0 0
+S
+#1397
+Flatlands~
+Gasp!  Walking down the side of this huge hill leads off to a barren
+land.  Grass patches lie around the ground in a few places where
+wild bulls are feeding.  At least there's no more hills, 'cause if 
+there was one more damn hill........The path leads off to the 
+northeast.
+~
+36708352&2
+0 2
+0
+0
+D3
+What the hell?!  You want to go back into those demonic hills?
+Go ahead, you might go crazy.
+~
+~
+0 0 1396
+0 0
+D6
+Walking across the flatlands.
+~
+~
+0 0 1398
+0 0
+S
+#1398
+Sounds of water~
+Walking across the land brings a view of a little bit of a forest to
+the north with sounds of water drifting across the lands.  Where
+there's water, there's life.  The barren land is starting to get a
+little &Ggreener&C, probably because of the water up ahead.
+~
+36708352&2
+0 2
+0
+0
+D0
+Trees and water, ooo....
+~
+~
+0 0 1399
+0 0
+D9
+A baren field.
+~
+~
+0 0 1397
+0 0
+S
+#1399
+A little brook~
+Trees cover the north and east with a little brook of rushing water
+streaming from the east through the trees.  The water is refreshing 
+and a school of fish can be seen feeding off things in the water
+near some pointy rocks.  A little trail leads of to the west into 
+some rocky mountains. When does this ever END!?
+~
+36700164&2
+0 2
+0
+0
+D2
+Flatlands.
+~
+~
+0 0 1398
+0 0
+D3
+Start of ANOTHER damn path.
+~
+~
+0 0 1400
+0 0
+S
+#1400
+A rocky trail~
+Gravel litters this trail and dust is evident in the air making 
+breathing a little heavy.  The dust has not quite settled yet, so
+whatever kicked it up into the air has just passed this trail only
+a little while ago.  Walking northwest yields a little climb up onto
+a mini cliff.
+~
+3153924&2
+0 5
+0
+0
+D1
+A brook.
+~
+~
+0 0 1399
+0 0
+D7
+Up onto the cliff.
+~
+~
+0 0 1401
+0 0
+S
+#1401
+On the mini cliff~
+Looking down the cliff you just scaled nets a 10 foot drop.  Not too
+high of a climb, but enough of a drop to hurt. The trail continues to
+the southwest and deeper into this jagged mountain trail.
+~
+36708352&2
+0 5
+0
+0
+D8
+I don't suggest jumping.
+~
+~
+0 0 1400
+0 0
+D9
+Deeper into the mountain.
+~
+~
+0 0 1402
+0 0
+S
+#1402
+Deeper into the mountain~
+Rock now surrounds the area, except for the trail leading back northeast
+and south.  The mountain leaps high into the air.  One good shout could
+bring down an avalanche.
+~
+36708352&2
+0 5
+0
+0
+D2
+Along the rocky trail.
+~
+~
+0 0 1403
+0 0
+D6
+Along the rocky trail.
+~
+~
+0 0 1401
+0 0
+S
+#1403
+A little warmer~
+It seems that you are going more down than up.  The air around here is
+a little warmer than it was back up the trail.  Touching the side of
+the mountain, a warm touch is felt rather than the cool touch of rock.
+The trail leads back to the north but continues to the southwest.
+~
+36708352&2
+0 5
+0
+0
+D0
+Along the rocky trail.
+~
+~
+0 0 1402
+0 0
+D9
+A little deeper into the mountain.
+~
+~
+0 0 1404
+0 0
+S
+#1404
+The mouth of a cave~
+The trail leads right into a good sized cave.  The cave mouth is a good
+15 feet high by 8 feet wide, meaning that the first part of the cave
+is probably quite big.  What riches may lie within?
+~
+36708356&2
+0 5
+0
+0
+D3
+Into the cave opening.
+~
+~
+0 0 1405
+0 0
+D6
+Along the rocky trail.
+~
+~
+0 0 1403
+0 0
+S
+#1405
+Just past the opening~
+The cave is quite warm with nice sized jagged rocks jolting out from 
+the walls.  From far into the cave, a steady dripping can be heard.
+All caves seem to leak for some reason.  The only other exit except
+the opening is to the north.
+~
+36708360&2
+0 0
+0
+0
+D0
+Going deeper into the cave.
+~
+~
+0 0 1406
+0 0
+D1
+Out of the cave.
+~
+~
+0 0 1404
+0 0
+S
+#1406
+Strange designs~
+The walls are designed with old stick-men type drawings.  Quite a few
+of them show some type of warrior with a shining sword facing a huge
+winged type of animal.  With a closer inspection, the winged animal
+doesn't seem to be a dragon, although it does resemble a dragon.
+Some pictures show three people with one of them holding a shining 
+sword facing the winged animal, while others show a huge tree with
+great branches. There's another cave opening to the southwest.
+~
+36708360&2
+0 0
+0
+0
+D2
+The opening of the cave.
+~
+~
+0 0 1405
+0 0
+D9
+Deeper still.
+~
+~
+0 0 1407
+0 0
+S
+#1407
+Warmer still...~
+You are definetely going more down than up. It has become quite warm
+in the cave and light seems to be dwindling. Water drips from the 
+ceiling creating some pointed rocks.  There is a cave opening to the
+southwest.
+~
+36708360&2
+0 0
+0
+0
+D6
+Those strange designs...
+~
+~
+0 0 1406
+0 0
+D9
+Deeper into the cave.
+~
+~
+0 0 1408
+0 0
+S
+#1408
+A plain cavern~
+This cavern is quite bare.  No designs, no dripping water, no rocks,
+just a heat that seems to be increasing.  The cavern has an exit to
+the north.
+~
+36708360&2
+0 0
+0
+0
+D0
+Deeper into the cave.
+~
+~
+0 0 1409
+0 0
+D6
+Along the caverns.
+~
+~
+0 0 1407
+0 0
+S
+#1409
+Turning up the heat~
+Sweating profusely, you notice that the head is not tonding down
+one bit.  The air is quite dry and arid.  Light has practically left
+the cave except for your light.
+~
+36708361&2
+0 0
+0
+0
+D2
+A plain cave.
+~
+~
+0 0 1408
+0 0
+D3
+Turning up the heat.
+~
+~
+0 0 1410
+0 0
+S
+#1410
+Hot stones~
+Touching the ground, you quickly flinch back your hand as your fingers
+burn a little.  The air hasn't turned that much hotter but the ground
+is awfully hot.  Somehow, you know this quest is going to be very
+interesting to solve.  The cavern exits to the north.
+~
+36708361&2
+0 0
+0
+0
+D0
+Another cavern.
+~
+~
+0 0 1411
+0 0
+D1
+A cavern.
+~
+~
+0 0 1409
+0 0
+S
+#1411
+Steam~
+Yowzers!  The cavern is enclosed in a hot fog.  How did a cloud get
+down here?!  Wait a minute...is that water dripping from the ceiling?
+Of course!  The water is evaporating from the hot walls and ground!
+The steam kind of has an invigorating sort of freshness to it.
+The cavern leads of to the west.
+~
+36708353&2
+0 0
+0
+0
+D2
+A cavern.
+~
+~
+0 0 1410
+0 0
+D3
+A cavern.
+~
+~
+0 0 1412
+0 0
+> entry_prog 65~
+mpecho The steam refreshes your body and your wounds close.
+cast 'heal' $n
+~
+|
+S
+#1412
+A way down~
+Intense heat seems to rise up from the hole that is gaping in the middle
+of the cavern.  The cavern itself is quite small, enough to hold maybe
+4 tall people.  The only exits in view are the way you came from and that
+gaping hole.  There's a feel of magic in the air.  Seems like this place
+is a safe area.  Wait!  What's that?  In the corner of the cave, a sign
+so hidden that if it weren't for the magical aura around it, you wouldn't
+be able to see it.  The sign reads 'Once down, there's no up.'  Hrm.
+~
+36700421&2
+0 0 0 0 4 0
+0
+0
+D1
+A cavern.
+~
+~
+0 0 1411
+0 0
+D5
+Down the hole.
+~
+~
+0 0 1413
+0 0
+S
+#1413
+Another hole~
+Well, now you know what that sign meant.  After dropping from the hole
+above, the hole disappears and reappears in the middle of this cavern
+that can be used to drop down.  Well, there's no alternative other than
+to go forward...or down that is.
+~
+36708353&2
+0 0
+0
+0
+D5
+Going down.
+~
+~
+0 0 1414
+0 0
+S
+#1414
+Light~
+And the lord said...let there be light, and there was.  There seems to
+be a magical and quite artificial light humming through these caverns.
+The cavern is not as warm as above, where the steam was creating a lot
+of heat, but it's warm enough. Jagged rocks jolt up from the ground
+and ceiling, brushing your head.  The cavern leads off to the east
+since going back up is impossible.
+~
+36708360&2
+0 0
+0
+0
+D1
+Through the new caverns.
+~
+~
+0 0 1415
+0 0
+S
+#1415
+A mural~
+On the north wall, a huge mural that takes up the entire wall and extends
+right to the east wall attracts your eye.  The mural has three very
+well drawn people riding on the back of a huge winged animal flying
+towards a fortress that is floating in the sky that seems to be under
+attack from another winged beast.  The three people can be clearly
+identified, one as a small sprite boy, another as a buxom young woman
+with a fierce look in her eyes, and the 3rd person is a young man 
+with spikey hair wielding a shining sword.  Quite interesting.
+The cavern leads off to the south.
+~
+36708360&2
+0 0
+0
+0
+D2
+Sounds like snoring.
+~
+~
+0 0 1416
+0 0
+D3
+A cavern.
+~
+~
+0 0 1414
+0 0
+S
+#1416
+What's that noise?~
+What the...?  There's a sound like a saw cutting through a very tough
+old board echoing off the walls.  Listening closely reveals that the
+sound is coming off from the east.  For the first time in this cavern,
+this is a 3 way intersection.  There's the way you came from, the east
+way which holds the snoring and the west way which seems to be clear.
+~
+36708364&2
+0 0
+0
+0
+D0
+A cavern.
+~
+~
+0 0 1415
+0 0
+D1
+Snoring?
+~
+~
+0 0 1417
+0 0
+D3
+A cavern.
+~
+~
+0 0 1418
+0 0
+S
+#1417
+The sleeping giant~
+Incredible!  The sound IS snoring.  The snoring is coming from a very
+very BIG object.  Holding your light up so it can take in the object,
+the object turns out to be a.....a giant! Staring in awe, your light 
+attracts the giant and his eyes open and stares at you...with anger.
+I guess you disturbed his beauty rest and by the looks of him, he 
+needs a lot of it.
+~
+36708352&2
+0 0
+0
+0
+D3
+Back out in the cavern.
+~
+~
+0 0 1416
+0 0
+S
+#1418
+Air?!~
+Taking a deep breath, the clean smell of this land's fresh air hits
+your nose like a hammer to a nail. Where there's the clean smell of
+air, there's an opening up ahead.  However, this might be not a good
+idea since you haven't been able to catch a sign of what lays ahead.
+~
+36708360&2
+0 0
+0
+0
+D1
+Closer to the sound.
+~
+~
+0 0 1416
+0 0
+D7
+Air air air air air air air air air air air air and more air!
+~
+~
+0 0 1419
+0 0
+S
+#1419
+Light!~
+Woo hoo!  There's light coming from up ahead and it's not that magical
+artificial light that was used back in the cave.  There's no doubt 
+about it, the cave's exit is up ahead.
+~
+36708360&2
+0 0
+0
+0
+D7
+Closer to the exit.
+~
+~
+0 0 1420
+0 0
+D8
+A cavern.
+~
+~
+0 0 1418
+0 0
+S
+#1420
+Closer to the exit~
+Clear as clear can be, you can see into the next cavern to the west and
+by the corner of northern wall in the next room you can see an opening.
+Who cares about this cavern?!  Get into the other one!
+~
+36708360&2
+0 0
+0
+0
+D3
+The exit!
+~
+~
+0 0 1421
+0 0
+D8
+A cavern.
+~
+~
+0 0 1419
+0 0
+S
+#1421
+The exit!~
+Oh how a cave opening can look so sweet.  Water is dripping down from
+the ceiling and lush vines creep on the walls.  Fresh air slaps you
+in the face and the sounds of nature can be heard from outside.
+~
+36708356&2
+0 0
+0
+0
+D0
+Outside of the cave.
+~
+~
+0 0 1422
+0 0
+D1
+A cavern.
+~
+~
+0 0 1420
+0 0
+S
+#1422
+Outside of the cave.~
+***SNIFF*** Ahhhh!  The air smells so sweet and fresh.  The lush green
+grass looks inviting.  The nippy mountain coldness feels so invigorating...
+wait a minute...mountain coldness?  Really looking around, you notice that
+you are on the far northwestern side of the mountain on a trail going
+up and around.  How did that happen?!  It seemed as though you were
+going more down than up.....all well.
+~
+36708352&2
+0 5
+0
+0
+D2
+Back into the cave.
+~
+~
+0 0 1421
+0 0
+D3
+Going around the mountain.
+~
+~
+0 0 1423
+0 0
+S
+#1423
+Glittering snow~
+As all mountains usually have, snow covers the sides of the trail you
+are walking on but not on it.  How strange.  Of course, this entire
+journey has been strange, but this is still quite strange.  Anyways,
+the trail leads off to the northwest.
+~
+36708352&2
+0 5
+0
+0
+D1
+Outside of the cave.
+~
+~
+0 0 1422
+0 0
+D7
+Along the trail.
+~
+~
+0 0 1424
+0 0
+S
+#1424
+Sparse growth~
+A few evergreen trees lay on the edges of the mountain trail, as does
+sparse bushes where a mountain goat can be seen grazing on the branches
+of one of the bushes.  The trail leads off to the northeast.
+~
+36708352&2
+0 5
+0
+0
+D6
+Along the trail.
+~
+~
+0 0 1425
+0 0
+D8
+Along the trail.
+~
+~
+0 0 1423
+0 0
+S
+#1425
+Nearing the top of the mountain~
+Just a little bit more and the summit of the mountain can be reached.
+Looking off to the northwest, a vast forest can seen covering the land.
+A low flying cloud passes over you, happily letting out a bit of snow.
+~
+36708352&2
+0 5
+0
+0
+D1
+The summit.
+~
+~
+0 0 1426
+0 0
+D9
+Along the trail.
+~
+~
+0 0 1424
+0 0
+S
+#1426
+The summit~
+Finally.  After a long trek through countless forests, climbing hills
+and mountains, trudging through dark caves and lush grasslands, and
+climbing mountain trails, you reach the summit of the largest mountain
+in this land.  The summit is quite large, with snow all around the 
+surface and on the jagged, unclimbable peak.  However, where do you
+go from here?  Taking a closer inspection around the peak reveals
+a shimmering portal embedded in the rocks.  What is on the other side?
+~
+36708612&2
+0 5 0 0 4 0
+0
+0
+D0
+Into the portal.
+~
+~
+0 0 1427
+0 0
+D3
+On the mountain trail.
+~
+~
+0 0 1425
+0 0
+S
+#1427
+The other side of the portal~
+As you step out of the blinding light of the portal, the shimmering 
+doors close, trapping you on this side of....where?  Rainbow colors 
+flash through the sky of this place and the surface looks like crystal
+clear glass, however, it is quite solid.  There are yellow lights 
+showing a path that leads off to the east.  Dreadful sounds float in
+from the distance...
+~
+36700168&2
+0 0
+0
+0
+D1
+Closer to the sounds.
+~
+~
+0 0 1428
+0 0
+S
+#1428
+The trial~
+There's a sign post standing in the middle of the trail.  The sign
+is just a white board stuck on a wooden post...floating...a few inches
+off the trail.  The sign reads 'Take notice adventurer for there are
+mighty mana beasts ahead.  For there are 8 elements, there are also
+8 beasts.  They are quite powerful and quite a challenge.  Now is the
+time to turn back for those who are weak.' Turn back? Smirk.
+~
+36708356&2
+0 0
+0
+0
+D3
+A dead end.
+~
+~
+0 0 1427
+0 0
+D6
+Wind rages through this place.
+~
+~
+0 0 1429
+0 0
+S
+#1429
+&RRAGING &GWINDS~
+THE WIND BELLOWS THROUGHOUT THIS PLACE IN A FRENZY.  THE WIND IS SO
+LOUD THAT TALKING IS USELESS.  NOTHING CAN BE SEEN BECAUSE OF THE 
+WIND.  THE WIND IS SO FAST THAT IT IS VISIBLE.  ALL YOU CAN SEE ARE
+TWO ANGRY LOOKING EYES STARING AT YOU.
+~
+3153928&2
+0 0
+0
+0
+D8
+Intense heat slaps you in the face.
+~
+~
+0 0 1430
+0 0
+D9
+The sign post.
+~
+~
+0 0 1428
+0 0
+S
+#1430
+&RExploding heat~
+Sweat instantly pours out of every pore in your body but quickly 
+evaporates from the intense heat of this place.  The heat creates
+a red, blinding glare making the surroundings invisible to your
+eyes.  A movement is sensed and two, pitch black eyes stare at you
+from a part of the room.
+~
+3153928&2
+0 0
+0
+0
+D1
+Glub, glub.
+~
+~
+0 0 1431
+0 0
+D7
+Raging winds.
+~
+~
+0 0 1429
+0 0
+S
+#1431
+&BCold Water~
+Air is suddenly choked off from your lungs and you get the first drink
+of water that didn't come out of your container.  Just as quickly
+as the air was cut off from you, it returns in some magical air
+spell.  Swimming around a bit, the exit is found to the southeast,
+but there is something blocking it.
+~
+3153928&2
+0 0
+0
+0
+D3
+Intense heat.
+~
+~
+0 0 1430
+0 0
+D8
+Are those trees?
+~
+~
+0 0 1432
+0 0
+S
+#1432
+&gForest of Wonder~
+Feet crunching beneath gravel, you stop and look around.  Trees of every
+sort surround you.  Grass grows high beneath the trees and fresh air
+fills the sky.  However, the sounds of nature do not fill your ears,
+and an uncanny silence fills the world.  There are three ways to take 
+here, the way back, to the north and to the southeast.  Is that a tree
+bending down to grab you?
+~
+3153920&2
+0 0
+0
+0
+D0
+Soft moon light.
+~
+~
+0 0 1434
+0 0
+D7
+Cold water.
+~
+~
+0 0 1431
+0 0
+D8
+Some type of mineral glinting off of light.
+~
+~
+0 0 1433
+0 0
+S
+#1433
+Jade~
+The surface is smooth jade, the walls are smooth jade, that evil statue
+bent on destroying you that is walking towards you is jade, that....wait
+a minute...
+~
+3153928&2
+0 0
+0
+0
+D7
+The Forest of Wonder.
+~
+~
+0 0 1432
+0 0
+S
+#1434
+The light of the Moon~
+Swirling rainbow colors flash through the night sky and across the
+full moon.  The surface of this area is once again that crystal clear,
+sturdy glass.  Looking up at the moon, the moon looks down at you and
+changes.....
+~
+3153928&2
+0 0
+0
+0
+D1
+Shake, shake, shake. Shake, shake, shake.  Shake your booty...
+~
+~
+0 0 1435
+0 0
+D2
+The Forest of Wonder.
+~
+~
+0 0 1432
+0 0
+S
+#1435
+Tremors~
+High on some rocky hills, a path leads off to the east.  Out of nowhere,
+an earthquake starts to shake things up a bit and the earth splits in
+two and a huge ferocious monster comes flying out of the ground. En
+Garde!
+~
+3153920&2
+0 0
+0
+0
+D1
+Light.
+~
+~
+0 0 1436
+0 0
+D3
+Moon light.
+~
+~
+0 0 1434
+0 0
+S
+#1436
+Light~
+Pure, blinding light assaults your sight and the entire room is filled
+with light making it blindingly invisible.  Except for those two beasty
+looking eyes coming at you.
+~
+3153928&2
+0 0
+0
+0
+D3
+Earthquakes.
+~
+~
+0 0 1435
+0 0
+D6
+Pitch black.
+~
+~
+0 0 1437
+0 0
+S
+#1437
+Darkness~
+The entire area is enclosed in darkness.  Nothing can be seen.  Suddenly,
+a flash of light lights up the area and three disembodied, ferocious,
+fang mouthed heads with glowing eyes can be seen coming towards you.
+~
+3153920&2
+0 0
+0
+0
+D8
+The end of the trial.
+~
+~
+0 0 1438
+0 0
+D9
+Light.
+~
+~
+0 0 1436
+0 0
+S
+#1438
+The end of the trial~
+Coming out of that darkness, your eyes get accustomed to the light
+and the surrounding area is once again that rainbow sky and glass
+floor place.  There's another sign in the middle of the trail.  It
+reads, 'Congratulations, hero, for making it through the 8 mana god
+beasts.  I say hero because it takes a courageous and strong person
+to defeat the gods.  Welcome to the dimension of the winged beast.'
+Is that good news or bad news? A ladder leads up into a different
+dimension.
+~
+36700160&2
+0 0
+0
+0
+D4
+A short ladder leads up into some dimension.
+~
+~
+0 0 1439
+0 0
+S
+#1439
+Winged Beast Dimension~
+Actually....this looks a lot like the sky of Earth.  Looking down shows
+the entire area of Pure Land....wait a minute...it IS the sky of Earth.
+To give a rough estimate of how high this is, the largest mountain
+in Pure Land, the one with the portal on it, well, it looks like a 
+thimble.  There seems to be some type of magical draft that will take
+you to either the east or the west.
+~
+36708356&2
+0 9
+0
+0
+D1
+Ridin' the winds baby.
+~
+~
+0 0 1440
+0 0
+D3
+The home stretch.
+~
+~
+0 0 1441
+0 0
+D5
+Back into the rainbow dimension.
+~
+~
+0 0 1438
+0 0
+S
+#1440
+High in the sky~
+This area covers the eastern portion of Pure Land.  Way in the distance,
+is that old cottage where that mean ol' Vampire hangs out in.
+Far in the distance, the entrance to this mystical land can be seen.
+Quite a nice view.
+~
+3153920&2
+0 9
+0
+0
+D3
+Ridin' the winds baby.
+~
+~
+0 0 1439
+0 0
+S
+#1441
+Flying high and fast~
+You can't see anything.  The draft of the wind is too fast and it's
+carrying you to fast.
+~
+36708352&2
+0 9
+0
+0
+D1
+The entrance to this dimension.
+~
+~
+0 0 1439
+0 0
+D3
+Riding hard and riding fast.
+~
+~
+0 0 1442
+0 0
+S
+#1442
+Wooshing by~
+Woosh, whee, woosh, whee, woosh, whee....
+~
+36708352&2
+0 9
+0
+0
+D1
+The home stretch.
+~
+~
+0 0 1441
+0 0
+D3
+Coming closer to the final destination.
+~
+~
+0 0 1443
+0 0
+S
+#1443
+Voooooooom!~
+Now you're REALLY moving!  The wind rushes past your face in a refreshing
+sort of way and the final destination is coming closer with easy distance
+covered.
+~
+36708352&2
+0 9
+0
+0
+D1
+Wheee!
+~
+~
+0 0 1442
+0 0
+D3
+Yeeeeehaw!
+~
+~
+0 0 1444
+0 0
+S
+#1444
+Yeeeeeeeehaww!!!!~
+Mach 3!  Mach 3!  Mach 3!  Mach 3!  Mach 3!
+~
+36708352&2
+0 9
+0
+0
+D1
+Whoah!
+~
+~
+0 0 1443
+0 0
+D3
+This is just too fast!
+~
+~
+0 0 1445
+0 0
+S
+#1445
+Whoah, slow down!~
+Hopefully this magic carpet ride will end soon....or at least slow
+down a bit, before your lunch doesn't decide to stay in your stomach.
+~
+36708352&2
+0 9
+0
+0
+D1
+Mach 3!
+~
+~
+0 0 1444
+0 0
+D3
+Screeeeeeeeeeeeeech!
+~
+~
+0 0 1446
+0 0
+S
+#1446
+Seein' stars~
+Are you in outer space?  No, probably just REALLY dizzy from a sudden
+stop from the quick movements of the drafts.  Shake it off, because the
+amount of mana in this area is STRONG.
+~
+36708352&2
+0 9
+0
+0
+D1
+Going back into that magic carpet ride.
+~
+~
+0 0 1445
+0 0
+D3
+Whats that noise?
+~
+~
+0 0 1447
+0 0
+S
+#1447
+Blowing your mind~
+***rOoOoOoOoOoAaAaR!***  That magnificent cry of some large beast came
+from the general direction of.....above?  Feeling the flow of mana,
+a magical draft can be felt flowing up into the clouds.  Hopefully
+you don't get a nosebleed from that type of height.
+~
+36708352&2
+0 9
+0
+0
+D1
+Oooohhh man...
+~
+~
+0 0 1446
+0 0
+D4
+The feel of mana pulls at you.
+~
+~
+0 0 1448
+0 0
+S
+#1448
+The powerful pull~
+Oh man!  The amount of mana surging to the west is just too much!
+It feels as if all the world's mana concentrates to the west of here.
+It's just....incredible!  The sky even glows navy &Bblue &Cwith this much
+mana.
+~
+36700160&2
+0 1
+0
+0
+D3
+The final destination.
+~
+~
+0 0 1449
+0 0
+D5
+Going back down the draft.
+~
+~
+0 0 1447
+0 0
+S
+#1449
+The &Bfinal &Wdestination~
+I...Incredible!  This...power.  This much....mana.  It's unbearable!
+The entire area glows a navy &Bblue&C and the sky echoes with the humming
+of magic.  In the center of this area lies something like a huge
+oil gush full of mana!.  In the center of that mana lies a big, BIG
+winged type of beast that closely resembles the one seen in the mural
+in the cave.  What is even more surprising is that deep inside of
+that huge body, a powerful mana force lies within, just waiting to
+be released...
+~
+3153920&2
+0 1
+0
+0
+D1
+Grunt.
+~
+~
+0 0 1448
+0 0
+S
+#0
+
+
+#RESETS
+M 1 1300 1 1311 -1 -1 -1 0 0
+M 1 1304 1 1333 -1 -1 -1 0 0
+E 1 1306 1 1 -1 0 0
+M 1 1305 1 1339 -1 -1 -1 0 0
+E 1 1307 1 12 -1 0 0
+M 1 1300 1 1340 -1 -1 -1 0 0
+M 1 1306 1 1355 -1 -1 -1 0 0
+M 1 1310 1 1390 -1 -1 -1 0 0
+E 1 1312 1 3 -1 0 0
+M 1 1311 1 1407 -1 -1 -1 0 0
+M 1 1312 1 1417 -1 -1 -1 0 0
+E 1 1313 1 9 -1 0 0
+M 1 1311 1 1419 -1 -1 -1 0 0
+M 1 1300 1 1361 -1 -1 -1 0 0
+M 1 1311 1 1348 -1 -1 -1 0 0
+M 1 1322 1 1440 -1 -1 -1 0 0
+E 1 1315 1 7 -1 0 0
+M 1 1323 1 1449 -1 -1 -1 0 0
+E 1 1316 1 5 -1 0 0
+E 1 1317 1 6 -1 0 0
+M 1 1300 1 1395 -1 -1 -1 0 0
+O 1 1320 1 1300 -1 -1 -1 -1 0 0
+M 1 1306 1 1423 -1 -1 -1 0 0
+M 1 1311 1 1347 -1 -1 -1 0 0
+M 1 1300 1 1335 -1 -1 -1 0 0
+M 1 1324 1 1399 -1 -1 -1 0 0
+M 1 1324 1 1304 -1 -1 -1 0 0
+M 1 1311 1 1309 -1 -1 -1 0 0
+M 1 1325 1 1318 -1 -1 -1 0 0
+M 1 1325 1 1329 -1 -1 -1 0 0
+M 1 1324 1 1368 -1 -1 -1 0 0
+M 1 1300 1 1386 -1 -1 -1 0 0
+M 1 1317 1 1433 -1 -1 -1 0 0
+E 1 1309 1 7 -1 0 0
+E 1 1308 1 9 -1 0 0
+M 1 1307 1 1360 -1 -1 -1 0 0
+E 1 1308 1 9 -1 0 0
+E 1 1309 1 7 -1 0 0
+M 1 1308 1 1369 -1 -1 -1 0 0
+E 1 1310 1 6 -1 0 0
+M 1 1309 1 1377 -1 -1 -1 0 0
+E 1 1311 1 20 -1 0 0
+M 1 1302 1 1328 -1 -1 -1 0 0
+E 1 1302 1 9 -1 0 0
+E 1 1303 1 13 -1 0 0
+M 1 1303 1 1327 -1 -1 -1 0 0
+E 1 1305 1 13 -1 0 0
+E 1 1304 1 9 -1 0 0
+M 1 1301 1 1323 -1 -1 -1 0 0
+E 1 1300 1 0 -1 0 0
+E 1 1301 1 13 -1 0 0
+M 1 1313 1 1429 -1 -1 -1 0 0
+G 1 21119 1 0 -1 1126306841 28800
+M 1 1314 1 1430 -1 -1 -1 0 0
+G 1 21119 1 0 -1 0 28800
+M 1 1315 1 1431 -1 -1 -1 0 0
+G 1 21119 1 0 -1 0 28800
+M 1 1318 1 1434 -1 -1 -1 0 0
+G 1 21119 1 0 -1 0 28800
+M 1 1319 1 1435 -1 -1 -1 0 0
+G 1 21119 1 0 -1 0 28800
+M 1 1321 1 1437 -1 -1 -1 0 0
+G 1 21121 2 0 -1 1113546221 28800
+G 1 21121 2 0 -1 0 28800
+M 1 1320 1 1436 -1 -1 -1 0 0
+G 1 21121 2 0 -1 0 28800
+G 1 21121 2 0 -1 0 28800
+M 1 1316 1 1432 -1 -1 -1 0 0
+G 1 21119 1 0 -1 0 28800
+M 1 1326 1 1438 -1 -1 -1 0 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  1304 spec_cast_mage
+M  1305 spec_cast_undead
+M  1308 spec_cast_mage
+M  1316 spec_cast_mage
+M  1320 spec_poison
+M  1321 spec_cast_undead
+M  1323 spec_breath_any
+S
+
+
+#$

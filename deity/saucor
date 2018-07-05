@@ -1,0 +1,50 @@
+#DEITY
+Filename		../deity/saucor~
+Name		Saucor~
+Description	Saucor was once a mortal king, but was elevated to deity status for
+reasons known only by the higher powers.  He is still a powerful
+deity nonetheless.  The followers of Saucor are generally of good
+alignment, and typically of at least some noble heritage.  Saucor
+hates goblins with a passion, as they constantly terrorized him and
+his kingdom before his ascension.
+~
+Alignment		500
+Worshippers	11
+Flee		-5
+Flee_npcrace	-5
+Flee_npcfoe	-25
+Kill		5
+Kill_npcrace	0
+Kill_npcfoe	15
+Kill_magic	10
+Sac		5
+Bury_corpse	10
+Aid_spell		5
+Aid		15
+Steal		-15
+Backstab		-35
+Die		-50
+Die_npcrace	-50
+Die_npcfoe	-200
+Spell_aid		5
+Dig_corpse	-35
+Scorpse		375
+Savatar		225
+Sdeityobj		300
+Srecall		200
+Race		-1
+Class		-1
+Element		8
+Sex		-1
+Affected		69206020
+Npcrace		0
+Npcfoe		39
+Suscept		128
+Race2		-1
+Susceptnum	250
+Elementnum	1500
+Affectednum	1000
+Objstat		3
+End
+
+#END

@@ -1,0 +1,12 @@
+#COUNCIL
+Name         Advance Building Council~
+Filename     abuilding.council~
+Description  The Advance Building Council supports the builders who have progressed in building creativity and function.~
+Head         Varl~
+Members      1
+Board        0
+Meeting      0
+Powers       immtalk holylight invis goto mstat ostat rstat mset oset redit savearea loadarea instaroom minvoke oinvoke shops shopset makerepair makeshop mdelete odelete rdelete repairset repairshops repairset mpstat opstat rpstat reset ogrub rgrub zones vnums newzones mpedit opedit rpedit purge transfer restore~
+End
+
+#END

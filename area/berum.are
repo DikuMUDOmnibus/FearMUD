@@ -1,0 +1,2783 @@
+#AREA   Berum Manor~
+
+
+
+#VERSION 53
+#AUTHOR Ely~
+
+#RANGES
+5 50 0 75 0 0 0 0 0
+$
+
+#RESETMSG Somewhere .. a door slams shut.~
+
+#FLAGS
+12
+
+#ECONOMY 0 38878161 0
+
+#MOBILES
+#6900
+attendant~
+&w&zB&w&ce&w&Cr&w&zu&w&cm&w&zs Attendant~
+&zB&ce&Cr&zu&cm&z's Attendant stands here, grinning at you.
+~
+~
+67108931 0 4194304 0 C
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+13 13 13 25 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+> speech_prog p let me in~
+'&CYou want to see &zB&ce&Cr&zu&cm&z&C?
+'&CWell, I can't let just anyone in, go talk to his first commander.
+mpoload 6903
+give assassinkey $n
+~
+> act_prog p gives you &rA&Rs&ws&Wa&ws&Rsi&rn &zBadge&w.~
+'&CWell done $n.
+'&CBut i'm afraid you'll have to go see the second commander if you want in.
+mpoload 6904
+give antipaladinkey $n
+drop badge
+sac badge
+~
+> act_prog p gives you &zAn&wti&Wpa&wla&zdin Badge&w.~
+'&CSo, you defeated the second commander?
+nod
+'&C&zB&ce&Cr&zu&cm&z&C's third commander will be awaiting you.
+unlock east
+open east
+drop badge
+sac badge
+~
+> act_prog p gives you &bCu&Bt&wt&Wh&wr&Bo&bat &zBadge.~
+'&CYou managed to defeat the third commander, excellent.
+'&CBut you must speak with the fourth commander if you want to see &zB&ce&Cr&zu&cm.
+unlock west
+open west
+mppurge badge
+~
+> act_prog p gives you &gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &zBadge&w.~
+'&CCongratulations, you've defeated the fourth commander!
+'&rV&Ro&wr&za&rt&Rh&C, tell $m what $e's won!
+mpat 6911 t vorath get over here
+mppurge badge
+~
+> act_prog p arrives from the east.~
+if isnpc($n)
+force $n east
+endif
+~
+> act_prog p arrives from the west.~
+if isnpc($n)
+force $n west
+endif
+~
+|
+#6901
+vorath~
+&rV&Ro&wr&za&rt&Rh&z~
+&rV&Ro&wr&za&rt&Rh&z &Cis here, waiting to hand out some justice.
+~
+Vorath stands before you wearing a large grin on his face.  It would
+seem that instead of being entirelly serious in his position under
+Berum, he has decided to look at things in a humerous way.  This
+whimsical outlook is no reflection of his fighting ability, though.
+~
+67 0 71303296 0 C
+0 0 23 22 20 20
+10d43+6500 1d18+35 0 0 0
+110000 0
+112 112 0
+22 22 24 25 13 13 24 93
+0 0 0 0 0
+0 0 0 0 1 1 93
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+50 50 0 8192 2104576 0 0 1074004224 524295
+> speech_prog p get over here~
+mpgoto 6910
+mpecho &rV&Ro&wr&za&rt&Rh &rf&Rl&wa&Wshes &ri&Rn&wt&Wo &rE&Rx&wi&Wstense
+'&CI'd be delighted to!
+grin
+'&CFor completing all your tasks in such an efficient manner, you win a one-way ticket, all-expenses-paid trip...
+'&Rto &rH&Re&wl&zl&R!
+hitall
+~
+> fight_prog 30~
+mpechoat $n &rV&Ro&wr&za&rt&Rh &wspins his weapon in an arc over his
+mpechoat $n &whead, then brings it crashing down on you.
+mpechoaround $n &rV&Ro&wr&za&rt&Rh &wspins his weapon in an arc over his
+mpechoaround $n &whead, then brings it crashing down on $n.
+mpdamage $n 300
+~
+> death_prog 100~
+mpecho &rB&Re&wr&zum's voice fills the chamber...
+mpecho &w'&CYou have defeated the last of my men...&w'
+mpecho &w'&CCome, I await you.&w'
+mpoload 6926 0
+if rand(30)
+mpoload 6923 50
+endif
+~
+|
+#6902
+gatekeeper~
+&GThe &GG&ga&wt&ge&Gk&we&ge&Gp&we&Gr&w~
+&GThe &GG&ga&wt&ge&Gk&we&ge&Gp&we&Gr &Gstands here.
+~
+A small man stands here, eyeing you up in a disturbing manner.  He
+seems to be trying to decide if he should speak with you or not.
+~
+67108931 0 4194304 0 C
+0 0 -150 0 0 0
+10d20+1600 5d6+7 0 0 0
+0 0
+112 112 1
+13 13 13 13 13 13 13 2
+0 0 0 0 0
+0 0 0 0 1 1 2
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+'Ahh, hello $n.
+'I'll bet you want to get inside, don't you?
+'Well, for a reasonable fee of, oh...  10000 coins, i can get you in.
+snicker
+~
+> bribe_prog 10000~
+'Thank you thank you, enjoy your stay.
+snicker
+unlock north
+open north
+~
+> act_prog p leaves north.~
+close north
+lock north
+snicker
+~
+> act_prog p flies north.~
+close door
+lock door
+snicker
+~
+> act_prog p floats north.~
+close door
+lock door
+snicker
+~
+|
+#6903
+berum battle~
+&zB&ce&Cr&zu&cm&z~
+&zB&ce&Cr&zu&cm&z &Cstands here, in full battle armor.
+~
+Berum is huge.  His years in charge of this band of outlaws have only
+made him stronger, and this is reflected by his person.  Arms which
+could uproot trees are crossed over a barrel chest.  Perhaps you don't
+want to talk to him that badly...
+~
+67&1179648 0 373293184 0 C
+0 0 24 23 23 23
+10d200+11000 4d3+75 0 0 0
+850000 0
+112 112 1
+25 25 25 22 22 13 22 100
+0 0 0 0 0
+0 0 0 0 1 1 100
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+60 50 0 3153936 6298952 0 0 192 530439
+> all_greet_prog 100~
+bow $n
+'&CNone have made it to me before...  Prepare yourself!
+mpkill $n
+~
+> fight_prog 30~
+if rand(70)
+emote &wfocuses his energy into a &Cg&wl&Wo&Cw&wi&Wn&Cg &Cs&wp&Wh&Ce&wr&We &wof &Yl&wi&Wg&Yh&wt
+mpechoat $n &zB&ce&Cr&zu&cm&w raises his hand and points his finger at you.
+mpechoat $n &wthe orb archs from his outstretched finger, slamming into you with full force.
+mpechoaround $n &zB&ce&Cr&zu&cm&w raises his hand and points his finger at $n.
+mpechoaround $n &wthe orb archs from his outstretched finger, slamming into $n with full force.
+mpdamage $n 450
+else
+laugh
+say Time for you all the feel PAIN!!!!  PREPARE for the END!!
+c 'tidal wave'
+c 'tidal wave'
+endif
+~
+> death_prog 15~
+mpoload 6924 50
+~
+> act_prog p flees~
+chuckle
+mpat $n say You will not get away that easily, time to DIE!
+mptransfer $n 6912
+say There will be no survivors, time to DIE SWINE!
+mpkill $n
+~
+> rand_prog 30~
+mpe _whi Berum's skin glows as he starts to heal.
+mprestore self 150
+~
+> fight_prog 5~
+evil
+say You should of fled when you had the chance!
+mpslay $n
+~
+|
+#6904
+assassin commander~
+&rA&Rs&ws&Wa&ws&Rsi&rn &rCo&Rm&wm&Wa&wnd&Re&rr~
+&RThe &rA&Rs&ws&Wa&ws&Rsi&rn &rCo&Rm&wm&Wa&wnd&Re&rr &Rstands here, glaring at you.
+~
+&RThe assassin commander is of average build, and looks to be rather
+slender.  Although there is an unhealthy glint in his eye that would
+suggest his appearances don't have much to do with his fighting ability.
+~
+67 0 37748864 0 C
+0 0 22 20 22 22
+9d38+5500 1d18+25 0 0 0
+250000 0
+112 112 1
+21 25 23 23 13 13 25 100
+0 0 0 0 0
+0 0 0 0 1 1 100
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+85 65 0 1056784 2104608 0 0 320 524295
+> all_greet_prog 100~
+if ispc($n)
+'You want to talk to &zB&ce&Cr&zu&cm&z?
+snicker
+'Well, you have to pass my tests before you can see him.
+mpkill $n
+else
+bah $n
+endif
+~
+> fight_prog 20~
+if rand(50)
+emote &zfocuses his energy, and his blade begins to &Yg&Wlo&Yw&z.
+emote &zswings his blade in a wide arc, showering the room with sparks.
+mpdamage $n 200
+else
+emote &zscreams an ancient warcry, and his sword &Ys&Whim&Ymers&z with intensity.
+mpdamage $n 250
+endif
+if rand(10)
+emote &zhones his energy through his blade, and an immense &Yshockwave results!
+mpdamage $n 350
+endif
+~
+> death_prog 100~
+mpecho &zB&ce&Cr&zu&cm&z's &zvoice echos through the room...
+mpecho &z'&CWell done, you have defeated my first commander.&z'
+mpecho &z'&CNow bring his badge to my attendant for your next challenge.&z'
+if rand(20)
+mpoload 6919 50
+endif
+~
+> fight_prog 5~
+emote &cunleashes his fury at your assault!
+c 'gas breath' $n
+~
+> fight_prog 3~
+emote laughs at $n and waves goodbye!
+mpslay $n
+~
+> act_prog p flees~
+if rand(35)
+mpat $n say Death is the only way out!
+mptransfer $n 6924
+mpkill $n
+endif
+~
+|
+#6905
+antipaladin commander~
+&zAn&wti&Wpa&wla&zdin &zCo&wmm&Wan&wde&zr&w~
+&wThe &zAn&wti&Wpa&wla&zdin &zCo&wmm&Wan&wde&zr&w is here, preparing to smite you.
+~
+A tall man stands before you, clothed entirelly in black.  The only
+jewelry on him is a cross hanging from a chain around his neck.  Upon
+closer examination you notice that the cross is inverted...
+~
+67 0 37748864 0 C
+0 0 23 22 21 22
+9d37+6500 1d18+25 0 0 0
+125000 0
+112 112 1
+25 22 22 22 13 13 25 93
+0 0 0 0 0
+0 0 0 0 1 1 93
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+40 30 0 8304 3153152 0 0 256 2097159
+> all_greet_prog 100~
+'&CMore fools that vish to speak vith &zB&ce&Cr&zu&cm&z&C?
+shake
+'&CYou vill die!
+mpkill $n
+~
+> fight_prog 20~
+'&CYou vant to play rough?
+'&COK, ve can play rough.
+mpdamage $n 250
+~
+> death_prog 100~
+mpecho &zB&ce&Cr&zu&cm&z's voice fills the room...
+mpecho &w'&CYou have managed to defeat my second commander, I am impressed.&w'
+mpecho &w'&CBring his badge to my attendant for your next challenge.&w'
+if rand(75)
+'You may have defeated me, but you will not have my sword!
+emote slams his blade to the floor, shattering it!
+mppurge great
+endif
+~
+> act_prog p flees~
+if rand(35)
+mpat $n say get back here!
+mptransfer $n 6931
+mpkill $n
+endif
+~
+> fight_prog 3~
+cackle
+say I have had enough of you, time to end it!
+mpslay $n
+~
+|
+#6906
+cutthroat commander~
+&bCu&Bt&wt&Wh&wr&Bo&bat &bCo&Bm&wm&Wa&wn&Bde&br~
+&BThe &bCu&Bt&wt&Wh&wr&Bo&bat &bCo&Bm&wm&Wa&wn&Bde&br &Blurks here, on the verge of slicing you.
+~
+&BA tall man stands before you, sharpening his weapons as he grins
+broadly.  His arms are covered in tattoos, and a chain runs between
+a piercing in his left ear and left nostril.
+~
+67 0 4259842 0 C
+0 0 22 20 22 21
+10d43+7000 1d18+35 0 0 0
+250000 0
+112 112 1
+21 25 24 23 13 13 24 93
+0 0 0 0 0
+0 0 0 0 1 1 93
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+40 30 0 1056816 2104576 0 0 320 524551
+> all_greet_prog 100~
+if isimmort($n)
+else
+if ispc($n)
+shake
+'Idiot
+mpkill $n
+endif
+endif
+~
+> fight_prog 20~
+emote &zcircles around the room, then swings out with his blade.
+mpdamage $n 200
+~
+> death_prog 100~
+mpecho &zB&ce&Cr&zu&cm&w&z's voice fills the chamber...
+mpecho '&CYou have defeated yet another of my commanders, i applaud you.
+mpecho &z'&CNow, return to my attendant with his badge.&z'
+if rand(20)
+mpoload 6921 50
+endif
+~
+> act_prog p flees~
+if rand(45)
+mpat $n say Not today, today you will DIE!
+mptransfer $n 6940
+mpkill $n
+endif
+~
+> fight_prog 3~
+say Today is good day to watch $n DIE!
+mpslay $n
+~
+|
+#6907
+Death Knight Commander~
+&gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &gCo&zmm&wan&zde&gr~
+&gThe &gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &gCo&zmm&wan&zde&gr towers before you, quivering with rage.
+~
+The death knight commander stands easily 7 feet tall.  He is covered
+entirely in full-plate mail.  Across his back rests the hilt of a
+black long sword.
+~
+1 0 373293056 0 C
+0 0 24 20 20 21
+10d42+8000 1d18+65 0 0 0
+250000 0
+112 112 0
+21 22 25 24 13 13 22 93
+0 0 0 0 0
+0 0 0 0 1 1 93
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+40 30 0 1056768 2104576 0 0 320 524295
+> all_greet_prog 100~
+if isnpc($n)
+else
+'&CIf you want to talk to &zB&ce&Cr&zu&cm &Cyou have pass my tests first sol-dier!
+'&CYou're gonna discover muscles you never knew you had before!
+'&CBig muscles!  Hard muscles!
+mpkill $n
+endif
+~
+> fight_prog 20~
+'&CI'm about to drop the hammer!
+'&CAnd dispense some indescriminate justice!
+mpdamage $n 200
+~
+> death_prog 100~
+mpecho &zB&ce&Cr&zu&cm's voice fills the room...
+mpecho &w'&COutstanding, you have defeated my last commander.&w'
+mpecho &w'&CReturn his badge to my attendant to collect your reward!&w'
+if rand(20)
+mpoload 6922 50
+endif
+~
+> act_prog p flees~
+if rand(35)
+mpat $n say You can only wish to escape me!
+mptransfer $n 6961
+mpkill $n
+endif
+~
+> fight_prog 3~
+cackle
+say I wish to could get to know you better $n, but it is time to DIE!
+mpslay $n
+~
+|
+#6908
+doorman~
+&zThe &rA&Rs&ws&Wa&ws&Rsi&rn &zDoorman&W~
+&zThe &rA&Rs&ws&Wa&ws&Rsi&rn &zDoorman&z stands here.&W
+~
+A rather large man stands here with his arms crossed over his chest.
+He occasionaly casts glances down the hall to his west, apparantly
+his job is to keep the people in the hall from going outside.
+~
+67240003 0 4194304 0 C
+0 0 -150 0 0 0
+6d60+1500 5d6+7 0 0 0
+0 0
+112 112 0
+13 13 13 13 13 13 13 3
+0 0 0 0 0
+0 0 0 0 1 1 3
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if ispc($n)
+'&CAhh, visitors.
+'&CWelcome to the Hall of the Assassin.
+unlock east
+open east
+else
+'&CGet back in there!
+mpforce $n west
+endif
+~
+|
+#6909
+assassin elite~
+&zAn &rA&Rs&ws&Wa&wss&Ri&rn &rE&Rl&wi&Wt&we&W~
+&zAn &rA&Rs&ws&Wa&wss&Ri&rn &rE&Rl&wi&Wt&we&z crouches here.&W
+~
+&zA normal looking man crouches here, looking altogether quite ordinary.
+It would seem that the very best of the assassins strive to achieve
+an unasuming appearance, one that allows them to get past their
+target's defenses undetected.
+~
+67 0 65536 0 C
+0 0 19 20 18 19
+8d32+1505 1d16+22 0 0 0
+50000 0
+112 112 1
+24 20 23 23 13 13 24 83
+0 0 0 0 0
+0 0 0 0 1 1 83
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 2104576 0 0 1280 1
+> all_greet_prog 50~
+if ispc($n)
+backstab $n
+mpkill $n
+endif
+~
+|
+#6910
+antipaladin doorman~
+&zThe An&wti&Wpa&wla&zdin Doorman&W~
+&zThe An&wti&Wpa&wla&zdin Doorman stands here.&W
+~
+A slender man stands before you.  He seems to be in a considerable state
+nervousness, apparantly this isn't his idea of a good time.
+~
+67108931 0 4194304 0 C
+0 0 -150 0 0 0
+6d60+1500 5d6+7 0 0 0
+0 0
+112 112 1
+13 13 13 13 13 13 13 3
+0 0 0 0 0
+0 0 0 0 1 1 3
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if ispc($n)
+'&CWelcome to the hall of the Antipaladin.
+unlock west
+open west
+else
+shake
+force $n north
+endif
+~
+|
+#6911
+antipaladin elite~
+&zAn An&wti&Wpa&wla&zdin E&wl&Wi&wt&ze&W~
+&zAn An&wti&Wpa&wla&zdin E&wl&Wi&wt&ze stands here, sizing you up.&W
+~
+This man is of an above-average build, massive arms strain the sleeves
+of his tunic.  The light of ferver burns in his eyes, and as he turns
+them toward you you notice a glint of madness in them.
+~
+67 0 4194304 0 C
+0 0 17 18 18 17
+12d48+926 1d13+18 0 0 0
+5510 0
+112 112 1
+21 20 21 18 13 13 19 73
+0 0 0 0 0
+0 0 0 0 1 1 73
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 320 7
+> all_greet_prog 100~
+if ispc($n)
+mpechoat $n &zAn&wti&Wpa&wla&zdin E&wl&Wi&wt&ze raises his fist to the heavens, and brings it crashing down upon you!
+mpechoaround $n &zAn&wti&Wpa&wla&zdin E&wl&Wi&wt&ze raises his fist to the heavens, and brings it crashing down upon $n!
+mpdamage $n 100
+mpkill $n
+endif
+~
+|
+#6912
+cutthroat elite~
+&bCu&Bt&wt&Wh&wr&Bo&bat &bE&Bl&wi&Bt&be&W~
+&BA &bCu&Bt&wt&Wh&wr&Bo&bat &bE&Bl&wi&Bt&be &Bstands here.&W
+~
+A dark skinned man stands here, clothed in what would appear to be
+rags gathered at random.  Although his appearance may be shabby, his
+demeanor suggests he know's what he's doing.
+~
+67 0 4194304 0 C
+0 0 19 20 20 19
+8d34+1579 1d16+22 0 0 0
+6825 0
+112 112 0
+20 20 20 22 13 13 22 83
+0 0 0 0 0
+0 0 0 0 1 1 83
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 192 3
+#6913
+death knight elite~
+&gD&ze&wa&zt&gh K&zn&wig&zh&gt E&zl&wi&zt&ge&W~
+&gA D&ze&wa&zt&gh K&zn&wig&zh&gt E&zl&wi&zt&ge stands here, lost in a trance.
+~
+The details of this man are hard to make out.  He is clothed entirelly
+in black, and the handle of a sword can be seen over his left shoulder.
+~
+67 0 4194304 0 C
+0 0 19 20 20 19
+8d33+1535 1d16+23 0 0 0
+7040 0
+112 112 1
+23 24 20 22 13 13 21 84
+0 0 0 0 0
+0 0 0 0 1 1 84
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 192 3
+> rand_prog 5~
+mpecho &gD&ze&wa&zt&gh K&zn&wig&zh&gt E&zl&wi&zt&ge&z's eyes glaze over as he chants to his god.
+~
+|
+#6914
+assassin~
+&zAn &rA&Rs&ws&Wa&ws&Rsi&rn&w~
+&zAn &rA&Rs&ws&Wa&ws&Rsi&rn &zcrouches here.&w
+~
+The man before you is clad entirelly in black, noticing him is difficult,
+he seems to melt into the background.
+~
+97 0 8 0 C
+0 0 17 16 16 17
+12d50+969 1d13+18 0 0 0
+5510 0
+112 112 1
+18 21 20 19 13 13 18 73
+0 0 0 0 0
+0 0 0 0 1 1 73
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+80 0 0 0 0 0 0 0 2
+#6915
+antipaladin~
+&zAn An&wti&Wpa&wla&zdin&w~
+&zAn An&wti&Wpa&wla&zdin &zstands here.&w
+~
+A figure clad entirelly in black armor stands before you.  The light
+of blind devotion shines in his eyes as he moves to attack you.
+~
+97 0 8 0 C
+0 0 -120 0 0 0
+10d20+1200 5d5+6 0 0 0
+0 0
+112 112 1
+13 13 13 13 13 13 13 2
+0 0 0 0 0
+0 0 0 0 1 1 2
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 2
+#6916
+cutthroat~
+&zA &bCu&Bt&wt&Wh&wr&Bo&bat&w~
+&zA &bCu&Bt&wt&Wh&wr&Bo&bat &zcrouches here.&w
+~
+A short man stands here, grinning at you.  Apparantly he feels he has
+lucked into some easy wealth.  Convince him otherwise.
+~
+97 0 32 0 C
+0 0 17 16 16 17
+12d50+967 1d13+18 0 0 0
+5510 0
+112 112 1
+22 22 19 19 13 13 21 73
+0 0 0 0 0
+0 0 0 0 1 1 73
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 2
+#6917
+death knight~
+&zA &gD&ze&wa&zt&gh K&zn&wig&zh&gt&w~
+&zA &gD&ze&wa&zt&gh K&zn&wig&zh&gt&z stands here.&w
+~
+Before you stands a shambles of what used to be a man.  Apparantly
+the years of undeath have rotted this creature to such an extent that
+it is only barely recognizable as having been human.
+~
+97 0 32 0 C
+0 0 17 17 16 16
+12d48+934 1d13+18 0 0 0
+5510 0
+112 112 1
+20 20 21 20 13 13 20 73
+0 0 0 0 0
+0 0 0 0 1 1 73
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 2
+#6918
+SevreX trainer~
+&WS&we&zvr&we&WX~
+&WS&we&zvr&we&WX&P, Master of Energy and the Worlds, glances down at you.
+~
+&WS&we&zvr&we&WX&w, the Destroyer, glances down at you.
+But only briefly.
+Very briefly.
+He has very little time to spare for mortals.  But for the right price,
+he might show you a thing or two about hurling around the powers of the
+Immortals.  Just please enjoy your newfound godliness responsibly.
+~
+131139&1179648 0 373293184 -1000 C
+0 0 29 30 30 30
+10d43+18000 1d18+85 0 50 70
+10000000 0
+112 112 1
+25 23 24 22 13 13 24 100
+-15 -15 -15 -15 -15
+90 0 0 0 1 1 100
+0 0 0 0 0 0 0 0 0 0 0 0 0
+-500 -500 -500 120 -500 100 60 100 100 100 100 20 100 100 100
+0 0 0 0 7424 0 0 1074233664 528390
+> all_greet_prog 100~
+say &WA mortal eh?
+say &CGentlemen, we can rebuild $m.
+say &CWe have the technology.
+say &CWe can make $m stronger, faster, better than $e was before.
+~
+> rand_prog 2~
+say &RSome say the end is near.
+say &RSome say we'll see Armageddon soon.
+say &RI certainly hope we will.
+say &RI sure could use a vacation from this.
+~
+> rand_prog 2~
+say &RA new light shall dawn.
+say &RYour body shall be no more.
+say &RYour soul sucked into the void.
+say &RYour life will not mean a damn thing.
+say &ROh what a waste you stupid fuck.
+~
+> act_prog p flees~
+if rand(85)
+mpat $n say How dare you $n, run from Sevrex the god of POWER!
+mptransfer $n 6966
+mpkill $n
+mpdamage $n 500
+endif
+~
+> fight_prog 35~
+if rand(35)
+cackle
+mpe _whi Sevrex opens his mouth and lets out a horrifying blasting light right at $n
+mpdamage $n 500
+else
+if rand(20)
+evil
+mpe _red Sevrex laughs and the horrifying sound scorches $n body.
+mpdamage $n 750
+else
+if rand(35)
+say It is time to end this NOW!
+c 'tidal wave'
+c 'tidal wave'
+c 'tidal wave'
+c 'quantum' $n
+c 'quantum' $n
+c 'quantum' $n
+c 'power heal' self
+c 'power heal' self
+else
+laugh
+say You think you are going to kill me, fools!
+mprestore self 1000
+say I feel much better now
+endif
+endif
+endif
+~
+> fight_prog 5~
+say It is a shame it must end this way for you $n
+mpe _blu Sevrex moves like the wind delivering a punishing blow to $n
+mpdamage $n 10000
+cackle
+say Who is next!
+~
+> death_prog 100~
+emote whispers something softly before he dies.
+say You all have done well to defeat me, you are closer to godhood than I
+say could ever imagine, so I leave with you a reward that will make you a god!
+mpoload 6928
+~
+|
+#6920
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1073741825 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#6900
+manor key~
+The Manor Key~
+The Manor Key rests here.~
+~
+18 0 1
+6903 0 0 0
+1.000000 0 0 0 0 0 0
+E
+manor key~
+You see a large, rusty key.
+~
+#6902
+assassin badge~
+&rA&Rs&ws&Wa&ws&Rsi&rn &zBadge&w~
+&wThe &rA&Rs&ws&Wa&ws&Rsi&rn &zBadge&w is here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+assassin badge~
+You see a shiny steel badge with the word Assassin engraved on it.
+~
+#6903
+assassinkey key~
+Assassin Key~
+The Assassin Key is here.~
+~
+18 0 1
+6913 0 0 0
+1.000000 0 0 0 0 0 0
+E
+assassin key~
+You see a small, brass key.
+~
+#6904
+antipaladinkey key~
+Antipaladin Key~
+The Antipaladin Key is here.~
+~
+18 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+antipaladinkey key~
+You see a small, brass key.
+~
+#6905
+antipaladin badge~
+&zAn&wti&Wpa&wla&zdin Badge&w~
+&wThe &zAn&wti&Wpa&wla&zdin Badge&w is here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+antipaladin badge~
+You see a shiny steel badge with the word Antipaladin engraved on it.
+~
+#6906
+cutthroat key~
+Cutthroat Key~
+The Cutthroat Key is here.~
+~
+18 0 1
+6910 0 0 0
+1.000000 0 0 0 0 0 0
+E
+cutthroatkey key~
+You see a small brass key.
+~
+#6907
+cutthroat badge~
+&bCu&Bt&wt&Wh&wr&Bo&bat &zBadge~
+&zThe &bCu&Bt&wt&Wh&wr&Bo&bat &zBadge is here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+cutthroat badge~
+You see a shiny steel badge with the word Cutthroat engraved on it.
+~
+#6908
+deathknightkey key~
+Death Knight Key~
+The Death Knight Key is here.~
+~
+18 0 1
+6910 0 0 0
+1.000000 0 0 0 0 0 0
+E
+death knight key~
+You see a small, brass key.
+~
+#6909
+Death Knight Badge~
+&gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &zBadge&w~
+&zThe &gD&ze&wa&zt&gh &qK&zn&wig&zh&gt &zBadge&z is here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+death knight badge~
+You see a shiny steel badge with the words Death Knight engraved on it.
+~
+#6910
+berum key~
+Berum's Key~
+The Key to Berum's Room is here~
+~
+18 0 1
+6910 0 0 0
+1.000000 0 0 0 0 0 0
+E
+berum key~
+You see the key to Berum's room.
+~
+#6911
+Inner Assassin Key~
+Inner Assassin Key~
+The Inner Assassin Key is here.~
+~
+18 0 1
+6914 0 0 0
+1.000000 0 0 0 0 0 0
+E
+inner assassin key~
+You see a small, brass key.
+~
+#6912
+assassin dagger~
+&rA&Rs&ws&Was&ws&Ri&rn &zDagger&W~
+&zAn &rA&Rs&ws&Was&ws&Ri&rn &zDagger&z is here.&W~
+~
+5 0 513
+1000 25 27 6 -1 -1 0 8 10 12 12 0 40 4
+3.000000 100000 0 0 0 0 2
+'NONE'
+E
+assassin dagger~
+A long steel dagger rests here.  The blade is very thin, and tapers to
+a sharp point.  The pommel is capped with a grining rictus.
+~
+A
+13 5 0
+A
+12 5 0
+#6913
+assassin commander key~
+Assassin Commander Key~
+The Assassin Commander Key is here.~
+~
+18 0 1
+6921 0 0 0
+1.000000 0 0 0 0 0 0
+E
+assassin commander key~
+You see a small black key, apparantly made of steel.
+~
+#6914
+inner antipaladin key~
+Inner Antipaladin Key~
+The Inner Antipaladin Key is here.~
+~
+18 0 1
+6926 0 0 0
+1.000000 0 0 0 0 0 0
+E
+inner antipaladin key~
+You see a small, black key worn from use.
+~
+#6916
+death knight blade~
+&gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &zBlade&w~
+&zA &gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &zBlade is here.~
+~
+5 0 8193
+12 5 10 1 5 -1 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+'acidic oblivion'
+E
+death knight blade~
+A long black sword can be seen here, giving off an aura of darkness.
+~
+A
+18 5 0
+A
+19 5 0
+#6917
+inner death knight key~
+Inner Death Knight Key~
+The Inner Death Knight Key is here.~
+~
+18 0 1
+6960 0 0 0
+1.000000 0 0 0 0 0 0
+E
+inner death knight key~
+You see a small, black key, made of iron.
+~
+#6918
+inner cutthroat key~
+Inner Cutthroat Key~
+The Inner Cutthroat Key is here.~
+~
+18 0 1
+6939 0 0 0
+1.000000 0 0 0 0 0 0
+E
+inner cutthroat key~
+A small, brass key is here.
+~
+#6919
+Assassin Boots~
+&rA&Rs&ws&Wa&ws&Rsi&rn &zBoots&w~
+&zThe &rA&Rs&ws&Wa&ws&Rsi&rn &zBoots are here.~
+~
+9 0&0&16 33
+20 20 20 1000 24 2 0 0 0 0 0 0 0 0
+3.000000 2000000 0 0 0 0 3
+A
+26 32768 0
+A
+77 8 0
+A
+12 15 0
+A
+13 35 0
+A
+80 1 0
+A
+81 2 0
+A
+82 1 0
+#6920
+antipaladin great sword~
+&zAn&wti&Wpa&wla&zdin &zGr&wea&Wt-S&wwo&zrd&w~
+&zThe An&wti&Wpa&wla&zdin &zGr&wea&Wt-S&wwo&zrd &zis here.&w~
+~
+5 -2146959360&2228352&80 513
+1000 30 60 7 -1 -1 0 18 20 19 24 0 35 28
+9.000000 250000 0 0 0 0 8
+'NONE'
+E
+antipaladin great sword~
+The sword is huge, standing close to 6 feet in length.  Entirelly black,
+it seems to soak in the light from the room around it.
+~
+A
+13 60 0
+A
+12 20 0
+A
+84 450 0
+A
+83 450 0
+A
+22 -8 0
+A
+21 -8 0
+A
+20 -8 0
+A
+23 -8 0
+A
+24 -8 0
+A
+79 15 0
+A
+85 90 0
+#6921
+Dragon Tattoos~
+&bD&Bra&wgon Tatt&Boo&bs~
+&wA Pair of &bD&Bra&wgon Tatt&Boo&bs &ware here.~
+~
+9 0 5
+20 20 20 1000 23 2 0 0 0 0 0 0 0 0
+3.000000 2000000 0 0 0 0 3
+E
+dragon tattoos~
+A pair of intertwined dragons are ilistrated in these tattoos, running
+up the arms to meet between the shoulder-blades.
+~
+A
+13 35 0
+A
+12 15 0
+A
+82 2 0
+A
+79 3 0
+A
+24 -3 0
+A
+23 -10 0
+#6922
+blackened wristguard~
+&gA &gB&Gl&zac&wke&zn&Ge&gd W&Gr&zis&wtg&zua&gr&Gd&w~
+&gA &gB&Gl&zac&wke&zn&Ge&gd W&Gr&zis&wtg&zua&gr&Gd&w &gis here.~
+~
+9 0&0&16 65
+20 20 20 1000 23 2 0 0 0 0 0 0 0 0
+3.000000 2000000 0 0 0 0 3
+A
+13 35 0
+A
+12 15 0
+A
+24 -2 0
+A
+22 -2 0
+A
+21 -2 0
+A
+23 -2 0
+A
+20 -2 0
+A
+85 70 0
+#6923
+painted great helm~
+&w&rP&w&Ra&c&wi&w&zn&c&wt&w&Re&w&rd Gr&w&Rea&w&zt H&c&we&w&Rl&w&rm~
+&w&zA &w&rP&w&Ra&c&wi&w&zn&c&wt&w&Re&w&rd Gr&w&Rea&w&zt H&c&we&w&Rl&w&rm&w&z is here.~
+~
+9 0 17
+21 21 21 1000 22 2 0 0 0 0 0 0 0 0
+2.000000 125000 0 0 0 0 3
+E
+painted great helm~
+The helm is made of hardened leather, and in the center of it is a
+lens that radiates some mysterical power that makes the leather as
+hard as any metal known to man.
+~
+A
+13 25 0
+A
+12 20 0
+A
+82 1 0
+A
+80 1 0
+A
+77 5 0
+A
+2 1 0
+#6924
+flaming aura~
+&zF&Cl&ca&Cm&zi&Cn&cg &zA&cu&Cr&ca&w~
+&cA &zF&Cl&ca&Cm&zi&Cn&cg &zA&cu&Cr&ca is here.~
+~
+8 0&4096&16 131073
+0 0 0 0
+2.000000 5000000 0 0 0 0 5
+E
+flaming aura~
+Dark blue flames shift constantly in this area, seeming to be fueled
+by nothing, but continuing to glow.  You feel power surge through you
+just being close to it.
+~
+A
+13 75 0
+A
+12 25 0
+A
+85 60 0
+A
+77 15 0
+A
+1 2 0
+A
+101 65 0
+A
+102 65 0
+#6925
+altar ely~
+An Altar to Ely~
+&wAn altar to &RE&wl&Ry&w glows with an &ru&Rn&ws&zettl&wi&Rn&rg &za&Cur&za&w in the middle of this room.~
+~
+12 0 0
+2 30000 585 15000 15000 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+#6926
+Shard Power~
+&ra s&Rh&wa&Rr&rd of p&Ro&ww&Re&rr~
+&rA s&Rh&wa&Rr&rd of p&Ro&ww&Re&rr l&Rie&rs h&Re&wr&Re&r.~
+~
+18 131&258 1
+6966 0 0 0
+1.000000 0 0 0 0 0 0
+#6927
+Berums belt~
+&w&PB&w&ce&w&Cr&w&zu&w&cm&w&Ps B&w&ce&w&Cl&w&zt~
+&w&zSomeone has left behind the powerful &w&PB&w&ce&w&Cr&w&zu&w&cm&w&Ps B&w&ce&w&Cl&w&zt&z behind here for you.~
+~
+8 0&0&16 257
+0 0 0 0
+2.000000 2000000 0 0 0 0 2
+A
+13 25 0
+A
+12 15 0
+A
+85 75 0
+A
+79 5 0
+#6928
+Energy Plate~
+&w&WE&c&wn&w&ze&w&Wr&c&wg&w&zy &w&WP&c&wl&w&za&w&Wt&c&we~
+&c&wSomeone has left behind the powerful short &w&WE&c&wn&w&ze&w&Wr&c&wg&w&zy &w&WP&c&wl&w&za&w&Wt&c&we&c&w here for you!~
+~
+9 -2146959360&4352&16 9
+24 24 24 1000 25 3 0 0 0 0 0 0 0 0
+5.000000 1000000 0 0 0 0 5
+E
+energy plate~
+A very rare artifact left behind by the gods, the energy plate is made
+out of pure energy and offers protection superior to anything known to
+man.  Any hero that is lucky enough to have this item is fortunate in the
+protection it offers, but unfortunate in the curse that the artifact status
+carries.
+~
+A
+80 5 0
+A
+1 2 0
+A
+79 15 0
+A
+22 -10 0
+A
+21 -10 0
+A
+20 -10 0
+A
+23 -10 0
+A
+24 -10 0
+A
+13 350 0
+A
+12 200 0
+A
+101 50 0
+A
+102 50 0
+A
+100 -1 0
+#6930
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 1073741824 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#0
+
+
+#ROOMS
+#6900
+&gBefore the Gates&W~
+&GYou stand before a pair of large, iron gates.  They seem to be fairly
+&Gwell maintained, it would appear that whomever lives here can afford
+&Gto maintain his estate without taxing himself.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6901
+0 0
+D2
+~
+~
+134217728 -1 16000
+1393 274
+S
+#6901
+&gInside the Gates&W~
+&GThe inside of the gates afford a view of the manor itself.  It is a
+large building, with statues lining the upper battlements, and a fair
+amount of decoration gilding the windows and entryway.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6902
+0 0
+S
+#6902
+&gBefore a Large Manor&W~
+&GUpon closer inspection, you notice that you're arrival has not gone
+unnoticed.  The occasional face is seen peering through windows, and
+the noise of activity comes from within the manor.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6903
+0 0
+D2
+~
+~
+0 -1 6901
+0 0
+S
+#6903
+&zAt the Entrance&W~
+The entryway stands almost ten feet tall, and has the look of having
+withstood a great deal of abuse.  Before the doorway stands a smallish
+man, that continuously glances at you while snickering to himself.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+8389671 6900 6904
+0 0
+D2
+~
+~
+0 -1 6902
+0 0
+S
+#6904
+&zEntering the Main Hall&W~
+&CThe main hall is filled with decorations.  Tapestries adorn the walls
+and statues have been placed on pedestals at various points in the room.
+The room stretches onward to the north.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6905
+0 0
+D2
+~
+~
+8389671 6901 6903
+0 0
+S
+#6905
+&zIn the Main Hall&W~
+The hall remains much the same as it was upon entering.  The noise of
+activity is growing slightly louder, and you have the feeling that an
+eye is upon you.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6906
+0 0
+D2
+~
+~
+0 -1 6904
+0 0
+S
+#6906
+&zIn the Main Hall&W~
+The north end of the hall ends in a large staircase going up, as well
+as a door to the east, and one to the west.  The staircase seems to be
+worn with use, as if those seeking an audience with the manor's lord
+have went this way.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6962
+0 0
+D1
+~
+~
+0 -1 6925
+0 0
+D2
+~
+~
+0 -1 6905
+0 0
+D3
+~
+~
+0 -1 6913
+0 0
+D4
+~
+~
+0 -1 6907
+0 0
+S
+#6907
+&zAt the Top of the Staircase&W~
+The top of the staircase narrows into a small hallway, which leads to
+the north.  Torches have been placed in brackets along the walls to
+provide lighting.
+~
+2097152&2
+0 1
+0
+0
+D0
+~
+~
+0 -1 6908
+0 0
+D5
+~
+~
+0 -1 6906
+0 0
+S
+#6908
+&zIn the Hallway&W~
+The hallway continues much the same as it began, with torches lining
+the walls, and the occasional painting providing decoration.  Further
+north you notice that the hall comes to an end.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6909
+0 0
+D2
+~
+~
+0 -1 6907
+0 0
+S
+#6909
+&zBefore &zB&ce&Cr&zu&cm&z's Chambers&W~
+&zThe hall ends at the entrance to another room.  Looking inside you
+notice a few decroations, as well as the occasional chair placed
+around the sides of the room.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6910
+0 0
+D2
+~
+~
+0 -1 6908
+0 0
+S
+#6910
+&zB&ce&Cr&zu&cm&z's Antechamber&W~
+&zYou stand before a large doorway.  Apparently &zB&ce&Cr&zu&cm&z &zis
+on the other side of it.  An average-looking attendant is standing in
+front of the door.  Perhaps if you asked him to let you in, he would.
+There is also a door to the east, and one to the west.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+8389671 6910 6911
+0 0
+D1
+~
+~
+8389671 6906 6932
+0 0
+D2
+~
+~
+0 -1 6909
+0 0
+D3
+~
+~
+8389671 6908 6941
+0 0
+S
+#6911
+&zB&ce&Cr&zu&cm&z's Room&W~
+&zYou stand inside &zB&ce&Cr&zu&cm&z's personal chambers.  Weapons hang
+from the walls, as well as along racks toward the western end of the room.
+It would appear the &zB&ce&Cr&zu&cm&z did not gain his wealth by the most
+legal of manners.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6912
+0 0
+D2
+~
+~
+8389664 -1 6910
+0 0
+S
+#6912
+&zThe Treasure Room&W~
+&zB&ce&Cr&zu&cm&z's treasure room is occupied by piles of treasure which
+have been placed almost at random around the room.  While taking some would
+almost certainly enfuriate the manor's lord, the temptation is great.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6901
+0 0
+D2
+~
+~
+0 -1 6911
+0 0
+D6
+~
+~
+8391719 6926 6966
+0 0
+S
+#6913
+&zBefore a Doorway~
+In a recess to the west of the staircase a large door can be seen.
+In a remarkable contrast to the rest of the house, the door is very
+stark, and seems to reek of corruption.
+~
+2097152&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 6906
+0 0
+D3
+~
+~
+8389671 6903 6914
+0 0
+S
+#6914
+&zIn the Hall of the &rA&Rs&ws&Wa&ws&Rsi&rn&W~
+&RThis hall stands out in stark contrast to the rest of the manor.
+The lighting is almost non-existant, and the walls are bare of all
+decoration.  The hall continues to the west.
+~
+2097152&2
+0 14
+0
+0
+D1
+~
+~
+8389671 6911 6913
+0 0
+D3
+~
+~
+0 -1 6915
+0 0
+S
+#6915
+&zIn the Hall of the &rA&Rs&ws&Wa&ws&Rsi&rn&W~
+&RThis hall stands out in stark contrast to the rest of the manor.
+The lighting is almost non-existant, and the walls are bare of all
+decoration.  The hall continues to the south.
+~
+2097152&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 6914
+0 0
+D2
+~
+~
+0 -1 6916
+0 0
+S
+#6916
+&zIn the Hall of the &rA&Rs&ws&Wa&ws&Rsi&rn&W~
+&RThis hall stands out in stark contrast to the rest of the manor.
+The lighting is almost non-existant, and the walls are bare of all
+decoration.  The hall continues to the south.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6915
+0 0
+D2
+~
+~
+0 -1 6917
+0 0
+S
+#6917
+&zIn the Hall of the &rA&Rs&ws&Wa&ws&Rsi&rn&W~
+&RThis hall stands out in stark contrast to the rest of the manor.
+The lighting is almost non-existant, and the walls are bare of all
+decoration.  The hall continues to the south.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6916
+0 0
+D2
+~
+~
+0 -1 6918
+0 0
+S
+#6918
+&zIn the Hall of the &rA&Rs&ws&Wa&ws&Rsi&rn&W~
+&RThe end of the hall widens out, to the east and west can be seen
+a pair of smaller rooms, although the lighting is too poor to afford
+a good view of what may be lurking within.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6917
+0 0
+D1
+~
+~
+0 -1 6922
+0 0
+D2
+~
+~
+0 -1 6919
+0 0
+D3
+~
+~
+0 -1 6920
+0 0
+S
+#6919
+&zIn the Hall of the &rA&Rs&ws&Wa&ws&Rsi&rn&W~
+&RThe hall concludes here, leaving exits to the east and west.  The
+darkened rooms cannot be made out clearly from here, a closer look would
+be necessary to see what is inside.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6918
+0 0
+D1
+~
+~
+0 -1 6923
+0 0
+D3
+~
+~
+0 -1 6921
+0 0
+S
+#6920
+&zIn a Dark Room&W~
+&RThe sensation that hidden watchers lurk in this room is overpowering.
+Perhaps leaving before someone sticks a knife in your back would be a
+wise decision.
+~
+2097152&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 6918
+0 0
+S
+#6921
+&zIn a Dark Room&W~
+&RThe sensation that hidden watchers lurk in this room is overpowering.
+Perhaps leaving before someone sticks a knife in your back would be a
+wise decision.  Upon closer inspection you notice a door in the western
+wall.
+~
+2097152&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 6919
+0 0
+D3
+~
+~
+8389671 6913 6924
+0 0
+S
+#6922
+&zIn a Dark Room&W~
+&RThe sensation that hidden watchers lurk in this room is overpowering.
+Perhaps leaving before someone sticks a knife in your back would be a
+wise decision.
+~
+2097152&2
+0 14
+0
+0
+D3
+~
+~
+0 -1 6918
+0 0
+S
+#6923
+&zIn a Dark Room&W~
+&RThe sensation that hidden watchers lurk in this room is overpowering.
+Perhaps leaving before someone sticks a knife in your back would be a
+wise decision.
+~
+2097152&2
+0 14
+0
+0
+D3
+~
+~
+0 -1 6919
+0 0
+S
+#6924
+&zThe &rA&Rs&ws&Wa&ws&Rsi&rn &rCo&Rm&wm&Wa&wnd&Re&rr's &zRoom&W~
+&RThe commander's room is bare of all furniture and decorations, it
+consists of nothing but four walls and a door.  It would appear that
+the commander spends more time practicing his trade than maintaining
+his quarters.
+~
+2097152
+0 14
+0
+0
+D1
+~
+~
+8389671 6911 6921
+0 0
+S
+#6925
+&zBefore a Doorway&W~
+&CIn a recess to the east of the staircase a large door can be seen.
+Banded with iron, it seems very sturdy, any attempts at breaking it
+down would most likely result in failure.
+~
+2097152&2
+0 14
+0
+0
+D1
+~
+~
+8389671 6904 6926
+0 0
+D3
+~
+~
+0 -1 6906
+0 0
+S
+#6926
+&zIn the An&wti&Wpa&wla&zdin Hall&W~
+&wThe hallway is almost completely black, the only light source seems
+to be coming from the north.  The scuffle of boots can be heard in that
+direction, along with the occasional muttered curse.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6927
+0 0
+D3
+~
+~
+8389671 6914 6925
+0 0
+S
+#6927
+&zIn the An&wti&Wpa&wla&zdin Hall&W~
+&wContinuing to the north the hallway remains much the same.  The light
+source still provides little assistance, and the sounds that were
+apparent upon entering have quieted.  It appears your entrance was noted.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6928
+0 0
+D2
+~
+~
+0 -1 6926
+0 0
+S
+#6928
+&zIn the An&wti&Wpa&wla&zdin Hall&W~
+&wThe hall continues the same as before.  Nothing of importance can be
+seen, and the noise that was heard upon entering has went away almost
+entirely.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6929
+0 0
+D2
+~
+~
+0 -1 6927
+0 0
+S
+#6929
+&zIn the An&wti&Wpa&wla&zdin Hall&W~
+&wThe hall continues the same as before.  Nothing of importance can be
+seen, and the noise that was heard upon entering has went away almost
+entirely.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6930
+0 0
+D2
+~
+~
+0 -1 6928
+0 0
+S
+#6930
+&zIn a &CC&Wol&Cd &zRoom&W~
+&wYou have discovered the source of the light.  In the center of the
+room a white fire is burning, apparently with no fuel source at all.
+A group of people stand around it staring at you.  Apparently they are
+unhappy about being disturbed.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6931
+0 0
+D2
+~
+~
+0 -1 6929
+0 0
+S
+#6931
+&zThe An&wti&Wpa&wla&zdin &zCo&wmm&Wan&wde&zr's Room&W~
+&wThe commander's room is lined with war trophies.  Dented shields and
+armor line the western wall, and swords the eastern.  It would appear
+that his campaigning days have been rather successful.
+~
+2097152&2
+0 14
+0
+0
+D2
+~
+~
+0 -1 6930
+0 0
+S
+#6932
+&zIn the &bCu&Bt&wt&Wh&wr&Bo&bat &zHall~
+&BThis hallway is very much like the previous two.  No decorations
+adorn the walls, and lighting is very poor.  The sounds of movement can
+be heard towards the other end of the hall.
+~
+2097152&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 6933
+0 0
+D3
+~
+~
+8389671 6906 6910
+0 0
+S
+#6933
+&zIn the &bCu&Bt&wt&Wh&wr&Bo&bat &zHall~
+&BThis hallway is very much like the previous two.  No decorations
+adorn the walls, and lighting is very poor.  The sounds of movement can
+be heard towards the other end of the hall.
+~
+2097152&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 6934
+0 0
+D3
+~
+~
+0 -1 6932
+0 0
+S
+#6934
+&zIn the &bCu&Bt&wt&Wh&wr&Bo&bat &zHall~
+&BThis hallway is very much like the previous two.  No decorations
+adorn the walls, and lighting is very poor.  The sounds of movement can
+be heard towards the other end of the hall.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6935
+0 0
+D3
+~
+~
+0 -1 6933
+0 0
+S
+#6935
+&zIn the &bCu&Bt&wt&Wh&wr&Bo&bat &zHall~
+&BThis hallway is very much like the previous two.  No decorations
+adorn the walls, and lighting is very poor.  The sounds of movement can
+be heard towards the other end of the hall.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6936
+0 0
+D2
+~
+~
+0 -1 6934
+0 0
+S
+#6936
+&zIn the &bCu&Bt&wt&Wh&wr&Bo&bat &zHall~
+&BThis hallway is very much like the previous two.  No decorations
+adorn the walls, and lighting is very poor.  The sounds of movement can
+be heard towards the other end of the hall.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6937
+0 0
+D2
+~
+~
+0 -1 6935
+0 0
+S
+#6937
+&zIn the &bCu&Bt&wt&Wh&wr&Bo&bat &zHall~
+&BThis hallway is very much like the previous two.  No decorations
+adorn the walls, and lighting is very poor.  To the east you see a
+darkened alcove, the hall continues to the west.
+~
+2097152&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 6938
+0 0
+D2
+~
+~
+0 -1 6936
+0 0
+D3
+~
+~
+0 -1 6939
+0 0
+S
+#6938
+&zIn a Dark Corner of the Hall~
+&BThis corner of the hall is entirely black, nothing can be seen.
+Sounds of movement drift in from the west, although none can be heard
+here.  You still feel as if there is something here, though.
+~
+2097152&2
+0 14
+0
+0
+D3
+~
+~
+0 -1 6937
+0 0
+S
+#6939
+&zBefore a Doorway~
+&BA rickety door way stands before you seemingly barely hanging onto
+the wall.  A light can be seen on the other side of it, as well as the
+sounds of conversation.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+7 6918 6940
+0 0
+D1
+~
+~
+0 -1 6937
+0 0
+S
+#6940
+&zThe &bCu&Bt&wt&Wh&wr&Bo&bat &bCo&Bm&wm&Wa&wn&Bde&br's &zRoom~
+&BThe inside of the Commander's room is covered with dust and debris.
+The far wall is occupied by a pile of crates, while some broken bottles
+sit next to the entrance.
+~
+2097152&2
+0 14
+0
+0
+D2
+~
+~
+7 6918 6939
+0 0
+S
+#6941
+&zIn the &gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &zHall~
+&gThe walls are stark and bare in this hall.  In contrast to the other
+halls, the entire area is swept clean of debris, and the only sound
+heard is the clink of armored boots in the distance.
+~
+2097156&2
+0 14
+0
+0
+D1
+~
+~
+8389671 6908 6910
+0 0
+D3
+~
+~
+0 -1 6942
+0 0
+S
+#6942
+&zIn the &gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &zHall~
+&gThe walls are stark and bare in this hall.  In contrast to the other
+halls, the entire area is swept clean of debris, and the only sound
+heard is the clink of armored boots in the distance.
+~
+2097156&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6951
+0 0
+D1
+~
+~
+0 -1 6941
+0 0
+D2
+~
+~
+0 -1 6943
+0 0
+S
+#6943
+&zIn the &gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &zHall~
+&gThe walls are stark and bare in this hall.  In contrast to the other
+halls, the entire area is swept clean of debris, and the only sound
+heard is the clink of armored boots in the distance.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6942
+0 0
+D2
+~
+~
+0 -1 6944
+0 0
+S
+#6944
+&zIn the &gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &zHall~
+&gThe walls are stark and bare in this hall.  In contrast to the other
+halls, the entire area is swept clean of debris, and the only sound
+heard is the clink of armored boots in the distance.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6943
+0 0
+D2
+~
+~
+0 -1 6945
+0 0
+S
+#6945
+&zIn the &gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &zHall~
+&gThe walls are stark and bare in this hall.  In contrast to the other
+halls, the entire area is swept clean of debris, and the only sound
+heard is the clink of armored boots in the distance.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6944
+0 0
+D2
+~
+~
+0 -1 6946
+0 0
+S
+#6946
+&zIn the &gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &zHall~
+&gThe walls are stark and bare in this hall.  In contrast to the other
+halls, the entire area is swept clean of debris, and the only sound
+heard is the clink of armored boots in the distance.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6945
+0 0
+D2
+~
+~
+0 -1 6947
+0 0
+S
+#6947
+&zFurther Down the &gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &zHall~
+&gApproaching the southern end of the hall, you notice the flickering
+of a flame to the south.  In addition to this you hear a low chanting
+in that direction as well.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6946
+0 0
+D2
+~
+~
+0 -1 6948
+0 0
+S
+#6948
+&zFurther Down the &gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &zHall~
+&gApproaching the southern end of the hall, you notice the flickering
+of a flame to the south.  In addition to this you hear a low chanting
+in that direction as well.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6947
+0 0
+D2
+~
+~
+0 -1 6949
+0 0
+S
+#6949
+&zFurther Down the &gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &zHall~
+&gApproaching the southern end of the hall, you notice the flickering
+of a flame to the south.  In addition to this you hear a low chanting
+in that direction as well.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6948
+0 0
+D2
+~
+~
+0 -1 6950
+0 0
+S
+#6950
+&zThe Southern End of the &gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &zHall~
+&gYou have discovered the source of the flame.  In the center of the
+room a circle of candles gives off the fitful light, while a figure
+clothed entirelly in black chants in the center of them.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6949
+0 0
+S
+#6951
+&zIn the &gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &zHall~
+&gThe walls are stark and bare in this hall.  In contrast to the other
+halls, the entire hall is swept clean of debris, and the only sound
+heard is the clink of armored boots in the distance.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6952
+0 0
+D2
+~
+~
+0 -1 6942
+0 0
+S
+#6952
+&zIn the &gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &zHall~
+&gThe walls are stark and bare in this hall.  In contrast to the other
+halls, the entire hall is swept clean of debris, and the only sound
+heard is the clink of armored boots in the distance.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6953
+0 0
+D2
+~
+~
+0 -1 6951
+0 0
+S
+#6953
+&zIn the &gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &zHall~
+&gThe walls are stark and bare in this hall.  In contrast to the other
+halls, the entire hall is swept clean of debris, and the only sound
+heard is the clink of armored boots in the distance.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6955
+0 0
+D1
+~
+~
+0 -1 6954
+0 0
+D2
+~
+~
+0 -1 6952
+0 0
+S
+#6954
+&zA Corner in the Hall~
+&gDarkness fills this room, making the details hazy.  The only thing
+that stands out in the room is a large tapestry against the far wall.
+It looks to have been here for some time...
+~
+2097152&2
+0 14
+0
+0
+D3
+~
+~
+0 -1 6953
+0 0
+S
+#6955
+&zIn the &gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &zHall~
+&gThe walls are stark and bare in this hall.  In contrast to the other
+halls, the entire hall is swept clean of debris, and the only sound
+heard is the clink of armored boots in the distance.
+~
+2097152&2
+0 14
+0
+0
+D2
+~
+~
+0 -1 6953
+0 0
+D3
+~
+~
+0 -1 6956
+0 0
+S
+#6956
+&zIn the &gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &zHall~
+&gThe walls are stark and bare in this hall.  In contrast to the other
+halls, the entire hall is swept clean of debris, and the only sound
+heard is the clink of armored boots in the distance.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6957
+0 0
+D1
+~
+~
+0 -1 6955
+0 0
+S
+#6957
+&zIn the &gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &zHall~
+&gThe walls are stark and bare in this hall.  In contrast to the other
+halls, the entire hall is swept clean of debris, and the only sound
+heard is the clink of armored boots in the distance.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6958
+0 0
+D2
+~
+~
+0 -1 6956
+0 0
+S
+#6958
+&zApproaching the end of the &gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &zHall~
+&gApproaching the northern end of the hall, you begin to hear more
+signs of activity.  The clank of armor is louder, and you notice light
+gleaming from beneath a doorway to the north.
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 6960
+0 0
+D2
+~
+~
+0 -1 6957
+0 0
+D3
+~
+~
+0 -1 6959
+0 0
+S
+#6959
+&zA Dark Alcove~
+&gNothing can be seen clearly in this room, darkness fills it
+entirely.  You can hear a noise coming from further within, but
+determining what is causing it is all but impossible.
+~
+2097152&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 6958
+0 0
+S
+#6960
+&zBefore a Large Doorway~
+&gA large iron door stands at the northern exit of this room.  From the
+other side of it can be heard the sounds of metal striking metal, and
+a low drone that sounds almost like voices reciting a spell...
+~
+2097152&2
+0 14
+0
+0
+D0
+~
+~
+8389671 6917 6961
+0 0
+D2
+~
+~
+0 -1 6958
+0 0
+S
+#6961
+&zThe &gD&ze&wa&zt&gh &gK&zn&wig&zh&gt &gCo&zmm&wan&zde&gr's &zRoom~
+&gInside the commander's room, you see signs of many battles.
+It would seem that death knights deal with failure within their own
+ranks swiftly, and personally.
+~
+2097152&2
+0 14
+0
+0
+D2
+~
+~
+8389671 6917 6960
+0 0
+S
+#6962
+An Altar to Ely~
+The only illumination in this room is provided by a row of candles
+that line both the walls.  A chanting can be heard coming from
+around a glowing altar which is the centerpiece of this shrine.
+~
+2097156&2
+0 14
+0
+0
+D2
+~
+~
+0 -1 6906
+0 0
+S
+#6963
+Floating in a void~
+~
+2097156
+0 1
+0
+0
+D9
+~
+~
+0 -1 6912
+0 0
+S
+#6964
+Floating in a void~
+~
+2097156
+0 1
+0
+0
+S
+#6965
+Floating in a void~
+~
+2097156
+0 1
+0
+0
+S
+#6966
+&zA Hidden Room In the Manor&w~
+&zThis room is entirelly dark, nothing can be seen of the far walls.
+&zThe sound of movement echos from one corner of the room, it would
+&zappear that you aren't alone.
+~
+1076895744
+0 1
+0
+0
+D9
+~
+~
+1 6926 6912
+0 0
+S
+#0
+
+
+#RESETS
+M 1 6912 1 6939 -1 -1 -1 0 0
+G 1 6918 1 -1 -1 0 0
+D 0 6939 0 2
+M 1 6916 1 6935 -1 -1 -1 0 0
+M 1 6916 1 6935 -1 -1 -1 0 0
+M 1 6916 1 6935 -1 -1 -1 0 0
+M 1 6916 1 6933 -1 -1 -1 0 0
+M 1 6916 1 6933 -1 -1 -1 0 0
+M 1 6916 1 6933 -1 -1 -1 0 0
+M 1 6916 1 6938 -1 -1 -1 0 0
+M 1 6916 1 6938 -1 -1 -1 0 0
+M 1 6916 1 6938 -1 -1 -1 0 0
+M 1 6917 1 6942 -1 -1 -1 0 0
+M 1 6917 1 6942 -1 -1 -1 0 0
+M 1 6917 1 6942 -1 -1 -1 0 0
+M 1 6917 1 6944 -1 -1 -1 0 0
+M 1 6917 1 6944 -1 -1 -1 0 0
+M 1 6917 1 6944 -1 -1 -1 0 0
+M 1 6917 1 6946 -1 -1 -1 0 0
+M 1 6917 1 6946 -1 -1 -1 0 0
+M 1 6917 1 6946 -1 -1 -1 0 0
+M 1 6917 1 6952 -1 -1 -1 0 0
+M 1 6917 1 6952 -1 -1 -1 0 0
+M 1 6917 1 6952 -1 -1 -1 0 0
+M 1 6917 1 6954 -1 -1 -1 0 0
+M 1 6917 1 6954 -1 -1 -1 0 0
+M 1 6917 1 6954 -1 -1 -1 0 0
+M 1 6917 1 6956 -1 -1 -1 0 0
+M 1 6917 1 6956 -1 -1 -1 0 0
+M 1 6917 1 6956 -1 -1 -1 0 0
+M 1 6910 1 6926 -1 -1 -1 0 0
+G 1 6914 1 -1 -1 0 0
+D 0 6926 3 2
+D 0 6932 3 2
+D 0 6960 0 2
+D 0 6941 1 2
+M 1 6902 1 6903 -1 -1 -1 0 0
+G 1 6900 1 -1 -1 0 0
+D 0 6903 0 2
+D 0 6904 2 2
+D 0 6913 3 2
+M 1 6908 1 6914 -1 -1 -1 0 0
+G 1 6911 1 -1 -1 0 0
+D 0 6914 1 2
+D 0 6925 1 2
+M 1 6900 1 6910 -1 -1 -1 0 0
+G 1 6908 1 -1 -1 0 0
+G 1 6906 1 -1 -1 0 0
+G 1 6902 2 -1 -1 0 0
+G 1 6905 2 -1 -1 0 0
+G 1 6907 2 -1 -1 0 0
+G 1 6909 2 -1 -1 0 0
+G 1 6902 2 -1 -1 0 0
+G 1 6905 2 -1 -1 0 0
+G 1 6909 2 -1 -1 0 0
+D 0 6910 0 2
+D 0 6910 1 2
+D 0 6910 3 2
+O 0 6925 1 6962 -1 -1 -1 -1 0 0
+M 0 6918 1 6966 -1 -1 -1 0 172800
+M 1 6901 1 6911 -1 -1 -1 0 0
+G 1 6910 1 0 -1 0 0
+M 1 6903 1 6912 -1 -1 -1 1104456020 172800
+E 1 6927 1 12 -1 0 0
+D 0 6912 6 2
+M 1 6911 1 6930 -1 -1 -1 0 0
+M 1 6905 1 6931 -1 -1 -1 1104455143 43200
+E 1 6920 1 13 -1 0 0
+G 1 6905 1 0 -1 0 0
+M 1 6909 1 6923 -1 -1 -1 0 0
+E 1 6912 1 13 -1 0 0
+G 1 6913 1 0 -1 0 0
+M 1 6909 1 6923 -1 -1 -1 0 0
+M 1 6914 1 6923 -1 -1 -1 0 0
+M 1 6914 1 6923 -1 -1 -1 0 0
+M 1 6909 1 6921 -1 -1 -1 0 0
+E 1 6912 1 13 -1 0 0
+D 0 6921 3 2
+M 1 6909 1 6920 -1 -1 -1 0 0
+E 1 6912 1 13 -1 0 0
+M 1 6914 1 6920 -1 -1 -1 0 0
+M 1 6914 1 6920 -1 -1 -1 0 0
+M 1 6914 1 6920 -1 -1 -1 0 0
+M 1 6909 1 6922 -1 -1 -1 0 0
+E 1 6912 1 13 -1 0 0
+G 1 6913 1 0 -1 0 0
+M 1 6914 1 6922 -1 -1 -1 0 0
+M 1 6904 1 6924 -1 -1 -1 1104453502 43200
+G 1 6902 1 0 -1 0 0
+D 0 6924 1 2
+M 1 6913 1 6950 -1 -1 -1 0 0
+G 1 6917 1 0 -1 0 0
+M 1 6917 1 6950 -1 -1 -1 0 0
+M 1 6907 1 6961 -1 -1 -1 1126306031 43200
+G 1 6909 1 0 -1 0 0
+D 0 6961 2 2
+M 1 6906 1 6940 -1 -1 -1 1097246733 43200
+G 1 6907 1 0 -1 0 0
+D 0 6940 2 2
+M 1 6914 1 6917 -1 -1 -1 0 0
+E 1 6912 1 13 -1 0 0
+M 1 6914 1 6915 -1 -1 -1 0 0
+E 1 6912 1 13 -1 0 0
+M 1 6914 1 6915 -1 -1 -1 0 0
+M 1 6914 1 6915 -1 -1 -1 0 0
+M 1 6914 1 6915 -1 -1 -1 0 0
+E 1 6912 1 13 -1 0 0
+M 1 6914 1 6919 -1 -1 -1 0 0
+E 1 6912 1 13 -1 0 0
+M 1 6914 1 6919 -1 -1 -1 0 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

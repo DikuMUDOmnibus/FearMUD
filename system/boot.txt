@@ -1,0 +1,5 @@
+[*****] BOOT: ---------------------[ Boot Log ]--------------------
+[*****] BOOT: Load_resets: spellbooks.are (46) 'M': mobile 42509 doesn't exist.
+[*****] BOOT: Load_resets: spellbooks.are (46) 'M': room 42505 doesn't exist.
+[*****] BOOT: Load_resets: spellbooks.are (47) 'M': mobile 21013 doesn't exist.
+[*****] BOOT: Load_resets: spellbooks.are (47) 'M': room 42505 doesn't exist.

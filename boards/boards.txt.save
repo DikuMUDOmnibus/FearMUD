@@ -1,0 +1,32 @@
+Filename          immortal.brd~
+Vnum              1200
+Min_read_level    50
+Min_post_level    51
+Min_remove_level  55
+Max_posts         100
+Type 	           0
+End
+Filename          highgod.brd~
+Vnum              1201
+Min_read_level    54
+Min_post_level    52
+Min_remove_level  59
+Max_posts         50
+Type 	           0
+End
+Filename          mortals.brd~
+Vnum              21100
+Min_read_level    2
+Min_post_level    2
+Min_remove_level  59
+Max_posts         100
+Type               0
+End
+Filename         mortimm.brd~
+Vnum             9201
+Min_read_level   51
+Min_post_level   2
+Min_remove_level 59
+Max_posts        100
+Type             0
+End

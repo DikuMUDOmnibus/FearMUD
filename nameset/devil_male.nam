@@ -1,0 +1,61 @@
+/*****************************************************/
+/* DEVIL_MALE.nam                                    */
+/* Namnfil f”r namn fr†n Deverry (m„n)               */
+/* av Johan Danforth                                 */
+/* rader som b”rjar med / „r kommentar-rader         */
+/* varje section b”rjar med [xxx] enlig filen nedan  */
+/*****************************************************/
+/* Used for Undead                                   */
+/*****************************************************/
+[start]
+Aeth
+Addr
+Bl
+C
+Car
+D
+G
+Gl
+Gw
+L
+M
+Ow
+R
+Rh
+S
+T
+V
+Yr
+[middle]
+a
+ae
+e
+eo
+i
+o
+u
+y
+[end]
+bryn
+c
+cyn
+dd
+ddry
+ddyn
+doc
+dry
+gwyn
+llyn
+myr
+n
+nnyn
+nry
+nvan
+nyc
+r
+rcyn
+rraent
+ran
+ryn
+[stop]
+/* The end, comment needed for file to work*/

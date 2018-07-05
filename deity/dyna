@@ -1,0 +1,49 @@
+#DEITY
+Filename		../deity/dyna~
+Name		Dyna~
+Description	She is not a goddess, she is just the first disciple of the Dragons.
+She is human in all ways, and so, loves her fellow kind.  She kind
+of hates the giths because of their ugliness.  She doesn't mind
+spells or fighting and she adores people who honor others by burying
+them.
+~
+Alignment		0
+Worshippers	1
+Flee		-10
+Flee_npcrace	-10
+Flee_npcfoe	-20
+Kill		30
+Kill_npcrace	-20
+Kill_npcfoe	50
+Kill_magic	30
+Sac		30
+Bury_corpse	75
+Aid_spell		15
+Aid		15
+Steal		15
+Backstab		-10
+Die		-30
+Die_npcrace	-50
+Die_npcfoe	-50
+Spell_aid		15
+Dig_corpse	-75
+Scorpse		400
+Savatar		300
+Sdeityobj		300
+Srecall		300
+Race		-1
+Class		-1
+Element		1
+Sex		-1
+Affected		34603008
+Npcrace		0
+Npcfoe		10
+Suscept		520
+Race2		0
+Susceptnum	400
+Elementnum	600
+Affectednum	400
+Objstat		4
+End
+
+#END

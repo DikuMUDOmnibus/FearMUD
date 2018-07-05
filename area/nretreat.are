@@ -1,0 +1,3903 @@
+#AREA   Nature's Retreat~
+
+
+
+#VERSION 53
+#AUTHOR Harlequin~
+
+#RANGES
+5 45 5 75 0 0 0 0 0
+$
+
+#RESETMSG Birds fly overhead singing as they collect things to build their nests.~
+
+#FLAGS
+0
+
+#ECONOMY 0 19103656 0
+
+#MOBILES
+#5100
+Brown Sparrow~
+&Osparrow~
+&WA &Obrown sparrow &Wflies around.
+~
+The small brown bird flies around looking for twigs and branches to
+line its nest.
+~
+16777409 0 0 0 C
+0 0 2 1 1 3
+1d5+14 1d2+1 0 0 0
+0 0
+112 112 1
+15 6 6 15 13 13 15 37
+0 0 0 0 0
+78 0 0 0 1 1 37
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 32773 0 0 0 0 1 0
+> death_prog 20~
+mpoload 5100
+~
+|
+#5101
+Jack the Trader~
+Jack The Trader~
+Jack the Trader is standing here looking to make a deal with YOU!
+~
+Jack is a rough looking human that appears to have spent most of his
+life trapping beaver and hunting bear.  His long curly beard runs down
+to his oversized stomach and his smile exposes his many missing teeth.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+25000 0
+112 112 1
+> all_greet_prog 100~
+say Hi there stranger, I am Jack the trader.  I will purchase any thing
+say you find in your travels through this Forest.  If you collect everything
+say in 1 of the 5 areas I will give you a special prize.  Just say 'prize' if
+say you have all the items or say 'purchase' and I will take all the loot off
+say of you.
+~
+> speech_prog p purchase~
+if goldamt($i) > 10000
+if iscarrying($n) == 5100
+   mptake 5100 $n
+   give 50 coins $n
+endif
+if iscarrying($n) == 5102
+   mptake 5102 $n
+   give 55 coins $n
+endif
+if iscarrying($n) == 5104
+   mptake 5104 $n
+   give 75 coins $n
+endif
+if iscarrying($n) == 5106
+   mptake 5106 $n
+   give 80 coins $n
+endif
+if iscarrying($n) == 5108
+   mptake 5108 $n
+   give 85 coins $n
+endif
+if iscarrying($n) == 5110
+   mptake 5110 $n
+   give 110 coins $n
+endif
+if iscarrying($n) == 5112
+   mptake 5112 $n
+   give 110 coins $n
+endif
+if iscarrying($n) == 5113
+   mptake 5113 $n
+   give 110 coins $n
+endif
+if iscarrying($n) == 5122
+   mptake 5122 $n
+   give 120 coins $n
+endif
+if iscarrying($n) == 5130
+   mptake 5130 $n
+   give 130 coins $n
+endif
+if iscarrying($n) == 5123
+   mptake 5123 $n
+   give 140 coins $n
+endif
+if iscarrying($n) == 5124
+   mptake 5124 $n
+   give 180 coins $n
+endif
+if iscarrying($n) == 5126
+   mptake 5126 $n
+   give 200 coins $n
+endif
+if iscarrying($n) == 5127
+   mptake 5127 $n
+   give 210 coins $n
+endif
+if iscarrying($n) == 5128
+   mptake 5128 $n
+   give 230 coins $n
+endif
+if iscarrying($n) == 5131
+   mptake 5131 $n
+   give 270 coins $n
+endif
+if iscarrying($n) == 5129
+   mptake 5129 $n
+   give 280 coins $n
+endif
+if iscarrying($n) == 5132
+   mptake 5132 $n
+   give 300 coins $n
+endif
+if iscarrying($n) == 5133
+   mptake 5133 $n
+   give 270 coins $n
+endif
+mpjunk all
+tell $n Thanks friend!
+else
+say I am sorry I do not have enough money at this time to purchase your goods
+endif
+~
+> speech_prog p prize~
+if iscarrying($n) == 5100
+if iscarrying($n) == 5102
+tell $n You have all the loot from the 1st area, good job mate!  Here is your reward.
+mpoload 21103
+mpoload 21103
+mptake 5100 $n
+mptake 5102 $n
+drop slab
+drop slab
+mpjunk all
+break
+endif
+endif
+if iscarrying($n) == 5104
+if iscarrying($n) == 5106
+if iscarrying($n) == 5108
+tell $n You have all the loot from the 2nd area, good job mate!  Here is your reward.
+mpoload 21103
+mpoload 21103
+mpoload 21103
+if rand(20)
+mpoload 21105
+else
+mpoload 21103
+endif
+mptake 5104 $n
+mptake 5106 $n
+mptake 5108 $n
+drop slab
+drop slab
+drop slab
+drop slab
+mpjunk all
+break
+endif
+endif
+endif
+if iscarrying($n) == 5110
+if iscarrying($n) == 5112
+if iscarrying($n) == 5113
+if iscarrying($n) == 5122
+if iscarrying($n) == 5130
+if iscarrying($n) == 5123
+tell $n You have all the loot from the 3rd area, good job mate!  Here is your reward.
+mpoload 21105
+mpoload 21105
+mpoload 21105
+mpoload 21105
+mptake 5110 $n
+mptake 5112 $n
+mptake 5113 $n
+mptake 5122 $n
+mptake 5130 $n
+mptake 5123 $n
+drop slab
+drop slab
+drop slab
+drop slab
+mpjunk all
+break
+endif
+endif
+endif
+endif
+endif
+endif
+if iscarrying($n) == 5124
+if iscarrying($n) == 5126
+if iscarrying($n) == 5127
+if iscarrying($n) == 5128
+tell $n You have all the loot from the 4th area, good job mate!  Here is your reward.
+mpoload 21105
+mpoload 21105
+mpoload 21105
+mpoload 21107
+mptake 5124 $n
+mptake 5126 $n
+mptake 5127 $n
+mptake 5128 $n
+drop slab
+drop slab
+drop slab
+drop slab
+mpjunk all
+break
+endif
+endif
+endif
+endif
+if iscarrying($n) == 5131
+if iscarrying($n) == 5129
+if iscarrying($n) == 5132
+if iscarrying($n) == 5133
+tell $n You have all the loot from the 5th area, good job mate!  Here is your reward.
+mpoload 21107
+mpoload 21107
+mpoload 21107
+if rand(35)
+   mpoload 21109
+else
+   mpoload 21107
+endif
+mptake 5131 $n
+mptake 5129 $n
+mptake 5132 $n
+mptake 5133 $n
+drop slab
+drop slab
+drop slab
+drop slab
+mpjunk all
+break
+endif
+endif
+endif
+endif
+tell $n You do not have a whole collection yet, come back when you do!
+~
+|
+#5102
+Black Beetle~
+&zblack beetle~
+&WA &zblack beetle&W makes its way through the underbrush.
+~
+The black beetle scurries its way through the underbrush.
+~
+16777281 0 0 0 C
+0 0 3 2 3 4
+1d5+20 1d2+1 0 0 0
+0 0
+112 112 1
+12 6 6 14 13 13 13 37
+0 0 0 0 0
+26 0 0 0 1 1 37
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 5 0 0 0 0 1 0
+> death_prog 20~
+mpoload 5102
+~
+|
+#5104
+Mosquito~
+mosquito~
+A mosquito buzzes by.
+~
+A nasty little bugger with longs legs and an even longer needle for
+a nose.
+~
+16777281 0 0 0 C
+0 0 4 5 3 3
+1d5+24 1d2+2 0 0 0
+0 0
+112 112 1
+13 6 6 14 13 13 14 39
+0 0 0 0 0
+83 0 0 0 1 1 39
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 32772 0 0 0 0 1 0
+> death_prog 20~
+mpoload 5104
+~
+|
+#5110
+Squirrel~
+&Osquirrel&w~
+&WA furry little &Osquirrel&W hunts around for berries and nuts.
+~
+With its bushy tail bouncing around behind him, the squirrel makes
+his way up and down the tree trunks collecting nuts for his winter
+stash.
+~
+16777281 0 0 0 C
+0 0 4 4 4 3
+1d5+42 1d2+2 0 0 0
+0 0
+112 112 1
+13 13 13 13 13 13 13 39
+0 0 0 0 0
+77 0 0 0 1 1 39
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 5 0 0 0 0 1 0
+> death_prog 20~
+mpoload 5106
+~
+|
+#5112
+Grasshopper~
+&Ggrasshopper~
+&WA cute little &Ggrasshopper&W is here.
+~
+Small and green, the grasshopper hops around the forest floor between
+leaves and rocks.
+~
+16777281 0 0 0 C
+0 0 4 4 3 5
+2d6+44 1d2+2 0 0 0
+0 0
+112 112 1
+13 15 13 14 13 13 15 39
+0 0 0 0 0
+83 0 0 0 1 1 39
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 5 0 0 0 0 1 0
+> death_prog 20~
+mpoload 5108
+~
+|
+#5114
+Snake~
+&Gsnake~
+&WA long green &Gsnake&W slithers along the forest floor.
+~
+The scales on the snake's belly help him to slither and slide through
+tight spaces.
+~
+16777281 0 0 0 C
+0 0 5 6 5 5
+2d7+53 1d3+2 0 0 0
+0 0
+112 112 1
+16 14 14 16 13 13 16 41
+0 0 0 0 0
+62 0 0 0 1 1 41
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 65537 0 0 0 0 1 0
+> death_prog 40~
+if rand(33)
+mpoload 5110
+else
+if rand(33)
+mpoload 5112
+else
+mpoload 5113
+endif
+endif
+~
+|
+#5117
+Tangled Vine~
+&Otangled vine~
+A &Otangled vine&P lies here.
+~
+A long thin vine with nasty little thorns.
+~
+33 0 0 0 C
+0 0 5 6 5 6
+2d7+53 1d3+2 0 0 0
+0 0
+112 112 0
+12 16 14 16 13 13 14 41
+0 0 0 0 0
+49 0 0 0 1 1 41
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 576 0
+> death_prog 20~
+mpoload 5122
+~
+|
+#5119
+Moose~
+&Omoose~
+A &Omoose&P stands here grazing.
+~
+Standing tall, the moose just hangs around eating grass.
+~
+16777281 0 0 0 C
+0 0 5 5 5 4
+2d8+60 1d3+2 0 0 0
+0 0
+112 112 1
+16 13 15 15 13 13 12 41
+0 0 0 0 0
+87 0 0 0 1 1 41
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 5 0 0 0 0 33 0
+> death_prog 20~
+mpoload 5130
+~
+|
+#5120
+Field Rat~
+&Ofield rat~
+A &Ofield rat&P scurries through the tall grass.
+~
+A small brown field rat scurries through the grass.  It's tail is
+almost as long as the rest of his body.
+~
+16777281 0 0 0 C
+0 0 5 6 6 4
+2d8+60 1d3+2 0 0 0
+0 0
+112 112 1
+12 12 15 15 13 13 15 42
+0 0 0 0 0
+87 0 0 0 1 1 42
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 5 0 0 0 0 67 0
+> death_prog 20~
+mpoload 5123
+~
+|
+#5121
+Deer~
+a deer~
+A &Odeer&P stands here, lazily grazing on the tall grass.
+~
+Tall and lean, the deer runs through the field occasionally stopping
+to graze on the tall grass.
+~
+16777281 0 0 0 C
+0 0 6 5 5 7
+3d9+63 1d3+3 0 0 0
+0 0
+112 112 1
+13 15 15 15 13 13 15 43
+0 0 0 0 0
+87 0 0 0 1 1 43
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 5 0 0 0 0 65 0
+> death_prog 20~
+mpoload 5124
+~
+|
+#5123
+Wolf~
+&wgrey wolf~
+A large &Wgrey wolf &Pstalks his prey silently through the grass.
+~
+The large wolf stalks through the tall grass waiting to pounce on
+unsuspecting prey.
+~
+16777281 0 0 0 C
+0 0 6 5 7 6
+3d9+85 1d3+3 0 0 0
+0 0
+112 112 1
+12 16 12 13 13 13 14 43
+0 0 0 0 0
+87 0 0 0 1 1 43
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 5 0 0 0 0 65 2
+> death_prog 30~
+if rand(50)
+mpoload 5127
+else
+mpoload 5126
+endif
+~
+|
+#5124
+Small Bear~
+small bear~
+A small bear frolics in the tall grass.
+~
+Soft and furry, when this bear grows up he won't be as cuddly.
+~
+16777281 0 0 0 C
+0 0 6 7 7 6
+4d10+84 1d3+3 0 0 0
+0 0
+112 112 1
+15 14 16 12 13 13 15 43
+0 0 0 0 0
+87 0 0 0 1 1 43
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 5 0 0 0 0 65 0
+> death_prog 10~
+mpoload 5128
+~
+|
+#5130
+Large Bear~
+large bear~
+A large bear frolics in the tall grass.
+~
+An incredibly huge animal, with long claws that could probably rip
+a face off in a single swipe.
+~
+97 0 0 0 C
+0 0 6 5 7 7
+4d11+95 1d4+4 0 0 0
+0 0
+112 112 1
+15 17 15 16 13 13 16 45
+0 0 0 0 0
+87 0 0 0 1 1 45
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 5 0 0 0 0 65 2
+> death_prog 25~
+mpoload 5128
+~
+|
+#5131
+Frog~
+&Gfrog~
+&WA &Gfrog&W sits on his lily pad waiting for bugs to fly by.
+~
+Croaking like a madman, the frog looks to snare flying insects.
+~
+16777281 0 0 0 C
+0 0 7 7 7 8
+5d12+95 1d4+4 0 0 0
+0 0
+112 112 1
+17 17 17 14 13 13 15 46
+0 0 0 0 0
+80 0 0 0 1 1 46
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 5 0 0 0 0 1 2
+> death_prog 20~
+mpoload 5131
+~
+|
+#5133
+Hawk~
+hawk~
+A hawk flies high overhead.
+~
+Long wings help this large bird soar through the skies while a large
+pointed beak helps him devour his prey.
+~
+97 0 0 0 C
+0 0 7 6 8 6
+4d12+100 1d4+5 0 0 0
+0 0
+112 112 1
+15 16 13 15 13 13 16 47
+0 0 0 0 0
+78 0 0 0 1 1 47
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 1 0 0 0 0 3 2
+> death_prog 20~
+mpoload 5129
+~
+|
+#5135
+Lizard~
+&Glizard~
+&WA &Glizard&W scurries around the water's edge.
+~
+The lizard is covered with scales and has a long tongue he uses to
+catch flying insects.  Might want to watch out for its tail.
+~
+97 0 0 0 C
+0 0 7 8 6 7
+7d18+123 1d4+5 0 0 0
+0 0
+112 112 1
+17 16 13 17 13 13 13 47
+0 0 0 0 0
+79 0 0 0 1 1 47
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 5 0 0 0 0 5 2
+> death_prog 15~
+mpoload 5132
+~
+|
+#5136
+Harlequin Doll~
+a Harlequin Doll~
+A Harlequin Doll is here suspended by some foreign energy.
+~
+Nothing short of demonic power is keeping this thing alive.  It once upon
+a time was probably a poor child captured in a raid by the undead, but
+now it is just a sad puppet that is under the control of its cruel master.
+Now would be a good time to send it back to its maker.
+~
+35&32768 0 2 0 C
+0 0 10 10 9 9
+6d25+325 1d6+7 0 0 0
+1710 0
+112 112 2
+14 16 16 16 13 13 15 53
+0 0 0 0 0
+84 0 0 0 1 1 53
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1216610304 9746
+> death_prog 100~
+mpe _whi The doll gives out one last breath and smiles before collapsing before
+mpe _whi your feet.  As she dies a small bright light shoots out from her eyes
+mpe _whi and takes the form of a large ball of light.
+mpoload 5101
+~
+|
+#5137
+Fish~
+fish~
+A fish jumps out of the water hoping to catch a fly.
+~
+Swimming easily through the water, it will occasionally jump up to
+try to catch a fly.
+~
+16777281 0 0 0 C
+0 0 7 7 7 7
+5d13+100 1d4+4 0 0 0
+0 0
+112 112 1
+17 15 13 13 13 13 15 46
+0 0 0 0 0
+81 0 0 0 1 1 46
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 65537 0 0 0 0 1 2
+> death_prog 15~
+mpoload 5133
+~
+|
+#0
+
+
+#OBJECTS
+#5100
+Broken Twig~
+&Obroken twig&w ~
+&WA &Obroken twig &Wlies here.~
+~
+8 0 1
+0 0 0 0
+1.000000 150 0 0 0 0 0
+E
+broken twig~
+This little twig must have been dropped by a bird.  It has a nice
+sharp point on one end.
+~
+#5101
+Light of Harlequin~
+&w&WLight of Harlequin~
+&w&WSomeone has left behind the Light of Harlequin.~
+~
+1 -2147483648&256 1
+0 0 -1 0
+1.000000 55000 0 0 0 0 3
+E
+light of harlequin~
+A giant ball of light that use to be the life energy of the Harlequin
+Doll.  It was her hope that you could use the light to protect yourself
+from the fate she ran into.
+~
+A
+13 5 0
+A
+12 5 0
+A
+80 1 0
+#5102
+Beetle Shell~
+&zbeetle shell&w~
+&WA &zbeetle's shell&W lies here.~
+~
+8 0 1
+0 0 0 0
+5.000000 150 0 0 0 0 0
+E
+beetle shell~
+The shell is rock hard and would offer good protection on the back and
+body.
+~
+#5104
+Needle Nose~
+needle nose~
+A mosquito's needle-shaped nose lies here.~
+~
+8 0 1
+0 0 0 0
+1.000000 150 0 0 0 0 0
+E
+needle nose~
+Long and sharp, it's no wonder it's so easy for a mosquito to drain
+blood so quickly.
+~
+#5106
+Fur Pelt~
+fur pelt~
+A fur pelt lies here.~
+~
+8 0 1
+0 0 0 0
+2.000000 150 0 5105 0 0 0
+E
+fur pelt~
+Although it's small, it sure looks like it would help keep out a
+nasty winter draft.
+~
+#5108
+Pinchers~
+pinchers~
+A grasshopper's pinchers lie here.~
+~
+8 0 1
+0 0 0 0
+2.000000 150 0 0 0 0 0
+E
+pinchers~
+The sharp jaws of a grasshopper will make a great weapon.
+~
+#5110
+Snakeskin Boots~
+snakeskin boots~
+A pair of shiny snakeskin boots are here.~
+~
+9 0 33
+4 4 4 1000 4 1 0 0 0 0 0 0 0 0
+3.000000 500 0 0 0 0 1
+E
+snakeskin boots~
+Made of snakeskin, these boots help keep the feet dry and clean.
+~
+#5112
+Snakeskin Vest~
+snakeskin vest~
+A snakeskin vest lies here.~
+~
+9 0 9
+4 4 4 1000 4 1 0 0 0 0 0 0 0 0
+4.000000 500 0 0 0 0 1
+E
+snakeskin vest~
+The vest helps keep the body dry and clean.
+~
+#5113
+Snakeskin Gloves~
+snakeskin gloves~
+A pair of snakeskin gloves lie here.~
+~
+9 0 65
+4 4 4 1000 4 1 0 0 0 0 0 0 0 0
+2.000000 500 0 0 0 0 1
+E
+snakeskin gloves~
+These gloves are almost tough as leather and keep the hands warm
+and dry.
+~
+#5122
+Thorn~
+thorn~
+A sharp &Othorn&G lies here.~
+~
+8 0 1
+0 0 0 0
+1.000000 150 0 5121 0 0 0
+E
+thorn~
+The tip of the thorn almost glistens because it is so sharp.
+~
+#5123
+rats claws~
+rat's claws~
+A set of rat's claws lies here.~
+~
+8 0 1
+0 0 0 0
+1.000000 150 0 0 0 0 0
+E
+rat's claws~
+Nasty little claws that a rat uses to protect himself.
+~
+#5124
+Antlers~
+antlers~
+A set of deer's antlers are here.~
+~
+8 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+antlers~
+Long and sharp, a deer will use his antler's to play and fight with
+other deer.
+~
+#5125
+hawks beak~
+hawk's beak~
+The beak from a hawk lies here.~
+~
+8 0 1
+0 0 0 0
+1.000000 150 0 0 0 0 0
+#5126
+wolfs mask~
+wolf's mask~
+A mask made of a wolf's hide lies here.~
+~
+9 0 17
+4 4 4 1000 4 1 0 0 0 0 0 0 0 0
+2.000000 150 0 0 0 0 1
+#5127
+Wolfskin Vest~
+wolfskin vest~
+A vest made from a wolf's hide lies here.~
+~
+9 0 9 2
+5 5 5 1000 5 1 0 0 0 0 0 0 0 0
+4.000000 1500 0 0 0 0 1
+#5128
+Bearskin Coat~
+bearskin coat~
+A coat made of bearskin lies here.~
+~
+9 0 9 24
+5 5 5 1000 5 1 0 0 0 0 0 0 0 0
+6.000000 2250 0 0 0 0 1
+A
+13 3 0
+A
+1 1 0
+#5129
+hawks feather~
+hawk's feather~
+A feather from a hawk lies here.~
+~
+8 0 1
+0 0 0 0
+1.000000 150 0 0 0 0 0
+#5130
+mooses antlers~
+Moose's Antlers~
+Someone has left behind a poor moose's antlers.~
+~
+8 0 1
+0 0 0 0
+4.000000 150 0 0 0 0 0
+#5131
+frogs leg~
+a frog's leg~
+Someone has left behind a tasty frog's leg here.~
+~
+19 0 1
+7 0 0 0
+1.000000 200 0 0 0 0 0
+#5132
+Lizardskin Neckbrace~
+a Lizardskin Neckbrace~
+Someone has left behind a Lizardskin Neckbrace here.~
+~
+9 0 9
+6 6 6 1000 6 1 0 0 0 0 0 0 0 0
+3.000000 3000 0 0 0 0 1
+A
+12 2 0
+A
+13 2 0
+A
+77 2 0
+#5133
+fishskin~
+fishskin~
+A long strand of fishskin has been left here.~
+~
+8 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#0
+
+
+#ROOMS
+#5100
+&gEntrance to Forest~
+&w&CA thin dirt path winds its way between towering trees.  Small birds
+fly among the budding flowers, collecting their sweet nectar.  Insects
+of all types are flying through the air and crawling along the forest
+floor.  Small animals, like squirrels and chipmunks, dart between the
+trees and shrubs, playing a kind of tag with each other.
+Something has been etched into the &w&Obark&w&C of one of the trees.
+~
+1073741828&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5105
+0 0
+D1
+~
+~
+0 -1 5101
+0 0
+D2
+~
+~
+134217728 -1 16000
+841 331
+E
+bark~
+Nature's Retreat
+Low-Medium Difficulty
+Created by Harlequin 1/27/00
+Inspired by Nevon
+Modified for 2.x by Xerves
+
+~
+S
+#5101
+&gForest~
+Squirrels run up and down towering trees collecting nuts and berries
+to hide in their cubbyholes, stocking up for the colder winter months.
+Birds collect twigs and leaves from the forest floor to line their
+nests and bees buzz around collecting nectar for their hives.  This
+forest is quite a busy place!
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5106
+0 0
+D1
+~
+~
+0 -1 5102
+0 0
+D3
+~
+~
+0 -1 5100
+0 0
+S
+#5102
+&gForest~
+Trees, covered with moss and ivy, tower overhead.  They provide shelter
+to many different types of wildlife.  Insects are scurrying back and
+forth across the path, building nests and storing food.  Snakes slither
+around limbs of trees, over rocks, and under leaves, searching for
+unsuspecting prey.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5107
+0 0
+D1
+~
+~
+0 -1 5103
+0 0
+D3
+~
+~
+0 -1 5101
+0 0
+S
+#5103
+&gForest~
+Throughout the forest, birds are singing and bees are buzzing.  A
+gentle breeze soughs through the upper limbs of the trees and carry
+leaves to the forest floor.  Colorful flowers clutch at the base of a
+tree, creating the sense of family among the flora of the forest.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5108
+0 0
+D1
+~
+~
+0 -1 5104
+0 0
+D3
+~
+~
+0 -1 5102
+0 0
+S
+#5104
+&gForest~
+The path starts to fade out here, being covered over by the ivy growing
+on the trees.  It is starting to become difficult to pick a way through
+all the brush and the forest is growing darker as the light in the sky
+is blocked by the enormous trees.  The birds are not as vocal here, but
+the buzzing of insects can still be heard.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5109
+0 0
+D3
+~
+~
+0 -1 5103
+0 0
+S
+#5105
+&gForest~
+Acorns, and other nuts and berries, fall from above as squirrels and
+chipmunks search for their stores.  Large hollows are found in the
+trunk of almost every tree as the furry rodents hide their cheekfuls
+of nuts and berries.
+~
+1073741825&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 5106
+0 0
+D2
+~
+~
+0 -1 5100
+0 0
+S
+#5106
+&gForest~
+Bird's wings are heard fluttering above, as the occasional chirping of a
+cricket can be heard from beneath the leaves on the forest floor.  Leaves
+of all different colors are scattered around the floor, as if carelessly
+discarded by the trees towering overhead.
+~
+1073741825&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 5107
+0 0
+D2
+~
+~
+0 -1 5101
+0 0
+D3
+~
+~
+0 -1 5105
+0 0
+S
+#5107
+&gForest~
+Small colorful flowers hug the bases of the trees, clinging for dear
+life it would seem.  It's as if they know that the honeybees are coming
+to steal their nectar and that small animals want to eat their petals.
+Occasionally a honeybee will land on a flower only to fly away quickly,
+as if the flower has shoo'd it away.
+~
+1073741825&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5112
+0 0
+D1
+~
+~
+0 -1 5108
+0 0
+D2
+~
+~
+0 -1 5102
+0 0
+D3
+~
+~
+0 -1 5106
+0 0
+S
+#5108
+&gForest~
+The towering pines all but block out the sun, but that doesn't seem
+to stop the birds from singing and flying carefree through the air.
+Ants scurry around the forest floor as they go about their daily
+chores - picking up leaves, getting berries - quite the busy day.
+~
+1073741825&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 5109
+0 0
+D2
+~
+~
+0 -1 5103
+0 0
+D3
+~
+~
+0 -1 5107
+0 0
+S
+#5109
+&gForest~
+Crickets are chirping and snakes are slithering.  What a lovely place
+to hunt!  Chipmunks and squirrels run up and down the tall trees as
+if the towering pines were short poles and hop from branch to branch
+with a sure-footedness that's astounding.  The sun tries to find its
+way through the thick branches, but most of the forest is quite dark.
+~
+1073741825&2
+0 3
+0
+0
+D2
+~
+~
+0 -1 5104
+0 0
+D3
+~
+~
+0 -1 5108
+0 0
+S
+#5110
+&BBabbling Brook~
+No it doesn't actually babble, but on really quiet nights, it has been
+heard singing.  Frogs are hopping from lily pad to lily pad and their
+throats are puffing and deflating as they croak to each other.  Small
+lizards are seen scurrying around the water's edge looking for juicy
+mosquitos and moths.
+~
+1073741825&2
+0 6
+0
+0
+D1
+~
+~
+0 -1 5111
+0 0
+S
+#5111
+&BBabbling Brook~
+No it doesn't actually babble, but on really quiet nights, it has been
+heard signing.  Frogs are hopping from lily pad to lily pad and their
+throats are puffing and deflating as they croak to each other.  Small
+lizards are seen scurrying around the water's edge looking for juicy
+mosquitos and moths.
+~
+1073741825&2
+0 6
+0
+0
+D1
+~
+~
+0 -1 5112
+0 0
+D3
+~
+~
+0 -1 5110
+0 0
+S
+#5112
+&BBabbling Brook~
+No it doesn't actually babble, but on really quiet nights, it has been
+heard singing.  Frogs are hopping from lily pad to lily pad and their
+throats are puffing and deflating as they croak to each other.  Small
+lizards are seen scurrying around the water's edge looking for juicy
+mosquitos and moths.  There are just enough rocks scattered through the
+water that it might be possible to hop across from here.
+
+~
+1073741829&2
+0 6
+0
+0
+D0
+~
+~
+0 -1 5117
+0 0
+D1
+~
+~
+0 -1 5113
+0 0
+D2
+~
+~
+0 -1 5107
+0 0
+D3
+~
+~
+0 -1 5111
+0 0
+S
+#5113
+&BBabbling Brook~
+No it doesn't actually babble, but on really quiet nights, it has been
+heard singing.  Frogs are hopping from lily pad to lily pad and their
+throats are puffing and deflating as they croak to each other.  Small
+lizards are seen scurrying around the water's edge looking for juicy
+mosquitos and moths.
+~
+1073741825&2
+0 6
+0
+0
+D1
+~
+~
+0 -1 5114
+0 0
+D3
+~
+~
+0 -1 5112
+0 0
+S
+#5114
+&BBabbling Brook~
+No it doesn't actually babble, but on really quiet nights, it has been
+heard singing.  Frogs are hopping from lily pad to lily pad and their
+throats are puffing and deflating as they croak to each other.  Small
+lizards are seen scurrying around the water's edge looking for juicy
+mosquitos and moths.
+~
+1073741825&2
+0 6
+0
+0
+D3
+~
+~
+0 -1 5113
+0 0
+S
+#5115
+&gForest~
+Flowing water can be heard from the south, along with the rather loud
+croaking of frogs.  It's hard to say what time of day it is since the
+towering trees block out most of the sky.  Small birds flit about
+collecting twigs and branches for their nests.
+~
+1073741825&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5120
+0 0
+D1
+~
+~
+0 -1 5116
+0 0
+S
+#5116
+&gForest~
+Flowing water can be heard from the south, and there seems to have
+been an increase in the cricket population as their unmistakable
+chirping is heard all around.  Grasshoppers are hopping from here to
+there, not looking as if they're going in any particular direction.
+~
+1073741828&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5121
+0 0
+D1
+~
+~
+0 -1 5117
+0 0
+D3
+~
+~
+0 -1 5115
+0 0
+S
+#5117
+&gForest~
+Squirrels dart through the underbrush of the trees, racing to get
+their collection of nuts and berries hidden before any of the other
+forest animals see them.  Snakes slither over rocks and around tree
+limbs silently, waiting for something to eat.
+~
+1073741825&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5122
+0 0
+D1
+~
+~
+0 -1 5118
+0 0
+D2
+~
+~
+0 -1 5112
+0 0
+D3
+~
+~
+0 -1 5116
+0 0
+S
+#5118
+&gForest~
+Small shrubbery tremble and shake as furry rodents run through them.
+Little red dots show themselves at the end of the branches on these
+shrubs.  They must be the berries the rodents are looking for.  Above,
+the sky is mostly blotted out by the enormous trees that stand in
+the forest.  They almost seem to be trying to protect the forest
+floor from something in the sky.
+~
+1073741825&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5123
+0 0
+D1
+~
+~
+0 -1 5119
+0 0
+D3
+~
+~
+0 -1 5117
+0 0
+S
+#5119
+&gForest~
+Rocks litter the forest floor threatening to trip those that try to
+run over them.  Larger boulders sit at the base of trees seeming to
+rest their tired bodies.  Dark green moss gross on the rocks and
+boulders and insects clamber over it making a meal for themselves.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5124
+0 0
+D3
+~
+~
+0 -1 5118
+0 0
+S
+#5120
+&gForest~
+Snakes slither about, waiting for unsuspecting prey to come too close.
+Birds fly around seemingly without a care in the world, oftentimes
+with their beaks full of twigs, or the occasional worm for their
+hatchlings.  An extremely busy place for these animals.
+~
+1073741825&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 5121
+0 0
+D2
+~
+~
+0 -1 5115
+0 0
+S
+#5121
+&gForest~
+Acorns and berries fall from the upper branches of the trees - the
+squirrels and chipmunks must be paying attention to what they are
+doing up there.  Chattering can be heard from the small rodents as
+they compete with the chirping of the crickets.
+~
+1073741825&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 5122
+0 0
+D2
+~
+~
+0 -1 5116
+0 0
+D3
+~
+~
+0 -1 5120
+0 0
+S
+#5122
+&gForest~
+Grasshoppers hop along playfully, almost daring something to catch them.
+Down at the brook, south of here, there are plenty of frogs that would
+love to have them for dinner.  But for now they just hop around and away
+from birds and snakes.
+~
+1073741825&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 5123
+0 0
+D2
+~
+~
+0 -1 5117
+0 0
+D3
+~
+~
+0 -1 5121
+0 0
+S
+#5123
+&gForest~
+Sunlight tries to make its way through the branches of the trees, but
+to no avail.  There's no way of knowing if it's day or night with the
+way the branches block the sky.  Leaves and twigs snap and crinkle as
+they're walked on or scurried under.
+~
+1073741825&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 5124
+0 0
+D2
+~
+~
+0 -1 5118
+0 0
+D3
+~
+~
+0 -1 5122
+0 0
+S
+#5124
+&gForest~
+The forest seems to thin out a little bit east of here.  Although it
+does appear that the underbrush has started to grow a little thicker.
+Birds are singing, crickets are chirping - ah what a busy forest!
+~
+1073741825&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 5125
+0 0
+D2
+~
+~
+0 -1 5119
+0 0
+D3
+~
+~
+0 -1 5123
+0 0
+S
+#5125
+&OThicket~
+The tall trees continue through this patch of thickets.  The thorny
+vines cling to the bases of the trees and make traveling through here
+difficult and dangerous.  Vines stick and poke everywhere and although
+it's not dark here, it's difficult to find clear passage through the
+vines.
+~
+1073741828&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 5126
+0 0
+D2
+~
+~
+0 -1 5130
+0 0
+D3
+~
+~
+0 -1 5124
+0 0
+S
+#5126
+&OThicket~
+Thorns from the thickets try to tear their way through anything that
+moves past them.  They cling to the trees like children clinging to
+their parents.  Small rodents are no longer seen scurrying around,
+probably because they can't get through the thickets.
+~
+1073741824&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 5127
+0 0
+D2
+~
+~
+0 -1 5131
+0 0
+D3
+~
+~
+0 -1 5125
+0 0
+S
+#5127
+&OThicket~
+Although it's not as dark here in the thicket, it's still difficult
+to find a clear passage through the thorny vines.  They hang from the
+treetops and pluck at hats and eyes.  Nasty bushes with sticky balls
+are all around.
+~
+1073741824&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 5128
+0 0
+D2
+~
+~
+0 -1 5132
+0 0
+D3
+~
+~
+0 -1 5126
+0 0
+S
+#5128
+&OThicket~
+Tall trees tower overhead while thorny vines threaten to trip and
+hinder passage through the thicket.  Birds fly through the treetops
+but there are very few critters hanging around on the ground.  It
+would appear they also have difficulty getting through here.
+~
+1073741824&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 5129
+0 0
+D2
+~
+~
+0 -1 5133
+0 0
+D3
+~
+~
+0 -1 5127
+0 0
+S
+#5129
+&OThicket~
+If there's any grass in this area, it's been covered over by the
+infinite tangles of thorny vines that cover the base of the trees.
+Sticker bushes are found here and there and their stickers cling
+to anything and everything.
+~
+1073741824&2
+0 3
+0
+0
+D2
+~
+~
+0 -1 5134
+0 0
+D3
+~
+~
+0 -1 5128
+0 0
+S
+#5130
+&OThicket~
+Towering trees provide thick trunks for thorny vines to wrap themselves
+around.  Not many animals in this area - probably because they got
+tired of the vines ripping up their fur pelts.  Sticker bushes deposit
+their nasty stickers onto everything the passes by.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5125
+0 0
+D1
+~
+~
+0 -1 5131
+0 0
+D2
+~
+~
+0 -1 5135
+0 0
+S
+#5131
+&OThicket~
+Thorny vines surround the bases of the trees and make it almost
+impossible to walk.  The thorns themselves seem to have dug into the
+ground and taken new root for new vines.  The bark from some of the
+trees has been stripped away by the thorns and the twisting vines.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5126
+0 0
+D1
+~
+~
+0 -1 5132
+0 0
+D2
+~
+~
+0 -1 5136
+0 0
+D3
+~
+~
+0 -1 5130
+0 0
+S
+#5132
+&OThicket~
+The ground has been just about covered over in a tangle of thorny vines
+and sticker bushes.  If the branches of the trees were lower to the
+ground and closer together it might be possible to travel easier.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5127
+0 0
+D1
+~
+~
+0 -1 5133
+0 0
+D2
+~
+~
+0 -1 5137
+0 0
+D3
+~
+~
+0 -1 5131
+0 0
+S
+#5133
+&OThicket~
+Tall trees tower overhead while sticker bushes fill the forest floor
+with their nasty stickers.  Just about the only thing that can be
+seen scurrying around here are insects, but they move fast so they
+don't get caught up in the vines or bushes.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5128
+0 0
+D1
+~
+~
+0 -1 5134
+0 0
+D2
+~
+~
+0 -1 5138
+0 0
+D3
+~
+~
+0 -1 5132
+0 0
+S
+#5134
+&OThicket~
+Vines with long sharp thorns seem to reach out to rip away at anything
+that comes near them.  They provide a sort of protection for the
+towering trees as they strip away at the bark.  Kind of ironic, isn't
+it?
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5129
+0 0
+D2
+~
+~
+0 -1 5139
+0 0
+D3
+~
+~
+0 -1 5133
+0 0
+S
+#5135
+&OThicket~
+If there's any grass in this area, it's been covered over by the
+infinite tangles of thorny vines that cover the base of the trees.
+Sticker bushes are found here and there and their stickers cling
+to anything and everything.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5130
+0 0
+D1
+~
+~
+0 -1 5136
+0 0
+D2
+~
+~
+0 -1 5140
+0 0
+S
+#5136
+&OThicket~
+Tall trees tower overhead while thorny vines threaten to trip and
+hinder passage through the thicket.  Birds fly through the treetops
+but there are very few critters hanging around on the ground.  It
+would appear they also have difficulty getting through here.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5131
+0 0
+D1
+~
+~
+0 -1 5137
+0 0
+D2
+~
+~
+0 -1 5141
+0 0
+D3
+~
+~
+0 -1 5135
+0 0
+S
+#5137
+&OThicket~
+Although it's not as dark here in the thicket, it's still difficult
+to find a clear passage through the thorny vines.  They hang from the
+treetops and pluck at hats and eyes.  Nasty bushes with sticky balls
+are all around.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5132
+0 0
+D1
+~
+~
+0 -1 5138
+0 0
+D2
+~
+~
+0 -1 5142
+0 0
+D3
+~
+~
+0 -1 5136
+0 0
+S
+#5138
+&OThicket~
+Thorns from the thickets try to tear their way through anything that
+moves past them.  They cling to the trees like children clinging to
+their parents.  Small rodents are no longer seen scurrying around,
+probably because they can't get through the thickets.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5133
+0 0
+D1
+~
+~
+0 -1 5139
+0 0
+D2
+~
+~
+0 -1 5143
+0 0
+D3
+~
+~
+0 -1 5137
+0 0
+S
+#5139
+&OThicket~
+The tall trees continue through this patch of thickets.  The thorny
+vines cling to the bases of the trees and make traveling through here
+difficult and dangerous.  Vines stick and poke everywhere and although
+it's not dark here, it's difficult to find clear passage through the
+vines.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5134
+0 0
+D2
+~
+~
+0 -1 5144
+0 0
+D3
+~
+~
+0 -1 5138
+0 0
+S
+#5140
+&OThicket~
+Walking around becomes more tiresome and difficult.  Would be nice
+if these vines could be tamed and used as weapons.  Their tips have
+a nasty point - rip through just about anything that gets in their
+way.  The sticker bushes are just plain nasty.  They stick to
+everything and although they're not exactly painful, they are
+extremely difficult to remove once they stick.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5135
+0 0
+D1
+~
+~
+0 -1 5141
+0 0
+D2
+~
+~
+0 -1 5145
+0 0
+S
+#5141
+&OThicket~
+Tall trees tower overhead while sticker bushes fill the fores floor
+with their nasty stickers.  Just about the only thing that can be
+seen scurrying around here are insects, but they move fast so they
+don't get caught up in the vines or bushes.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5136
+0 0
+D1
+~
+~
+0 -1 5142
+0 0
+D2
+~
+~
+0 -1 5146
+0 0
+D3
+~
+~
+0 -1 5140
+0 0
+S
+#5142
+&OThicket~
+The ground has been just about covered over in a tangle of thorny vines
+and sticker bushes.  If the branches of the trees were lower to the
+ground and closer together it might be possible to travel easier.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5137
+0 0
+D1
+~
+~
+0 -1 5143
+0 0
+D2
+~
+~
+0 -1 5147
+0 0
+D3
+~
+~
+0 -1 5141
+0 0
+S
+#5143
+&OThicket~
+Thorny vines surround the bases of the trees and make it almost
+impossible to walk.  The thorns themselves seem to have dug into the
+ground and taken new root for new vines.  The bark from some of the
+trees has been stripped away by the thorns and the twisting vines.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5138
+0 0
+D1
+~
+~
+0 -1 5144
+0 0
+D2
+~
+~
+0 -1 5148
+0 0
+D3
+~
+~
+0 -1 5142
+0 0
+S
+#5144
+&OThicket~
+Towering trees provide thick trunks for thorny vines to wrap themselves
+around.  Not many animals in this area - probably because they got
+tired of the vines ripping up their fur pelts.  Sticker bushes deposit
+their nasty stickers onto everything that passes by.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5139
+0 0
+D2
+~
+~
+0 -1 5149
+0 0
+D3
+~
+~
+0 -1 5143
+0 0
+S
+#5145
+&OThicket~
+If there's any grass in this area, it's been covered over by the
+infinite tangles of thorny vines that cover the base of the trees.
+Sticker bushes are found here and there and their stickers cling
+to anything and everything.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5140
+0 0
+D1
+~
+~
+0 -1 5146
+0 0
+S
+#5146
+&OThicket~
+Tall trees tower overhead while thorny vines threaten to trip and
+hinder passage through the thicket.  Birds fly through the treetops
+but there are very few critters hanging around on the ground.  It
+would appear they also have difficulty getting through here.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5141
+0 0
+D1
+~
+~
+0 -1 5147
+0 0
+D3
+~
+~
+0 -1 5145
+0 0
+S
+#5147
+&OThicket~
+Although it's not as dark here in the thicket, it's still difficult
+to find a clear passage through the thorny vines.  They hand from the
+treetops and pluck at hats and eyes.  Nasty bushes with sticky balls
+are all around.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5142
+0 0
+D1
+~
+~
+0 -1 5148
+0 0
+D3
+~
+~
+0 -1 5146
+0 0
+S
+#5148
+&OThicket~
+Thorns from the thickets try to tear their way through anything that
+moves past them.  They cling to the trees like children clinging to
+their parents.  Small rodents are no longer seen scurrying around,
+probably because they can't get through the thickets.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5143
+0 0
+D1
+~
+~
+0 -1 5149
+0 0
+D3
+~
+~
+0 -1 5147
+0 0
+S
+#5149
+&OThicket~
+The tall trees continue through this patch of thickets.  The thorny
+vines cling to the bases of the trees and make traveling through here
+difficult and dangerous.  Vines stick and poke everywhere and although
+itn's not dark here, it's difficult to find clear passage through the
+vines.
+~
+1073741824&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 5144
+0 0
+D2
+~
+~
+0 -1 5150
+0 0
+D3
+~
+~
+0 -1 5148
+0 0
+S
+#5150
+&GOpen Field~
+Tall grass stretches as far as the eye can see.  A gentle breeze
+dances across the top of the grass making it sway back and forth.
+Wildlife of all types run free through these fields.  Small rodents
+run through the cover of the tall grass, making it difficult for
+large birds to find them.
+~
+1073741828&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 5149
+0 0
+D2
+~
+~
+0 -1 5155
+0 0
+D3
+~
+~
+0 -1 5151
+0 0
+S
+#5151
+&GOpen Field~
+A gentle breeze blows through the tall grass making it dance to a
+beat that only the grass can hear.  It's quiet and peaceful as 
+all types of animals run freely.  Birds of all sizes are seen
+flying high in the air.
+~
+1073741824&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 5150
+0 0
+D2
+~
+~
+0 -1 5156
+0 0
+D3
+~
+~
+0 -1 5152
+0 0
+S
+#5152
+&GOpen Field~
+Small rodents and insects scurry through the tall grass, hiding from
+larger predators.  Deer and moose can be seen running through these
+fields, occasionally stopping to graze on the tall grass.  What a
+quiet and peaceful area this is.
+~
+1073741824&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 5151
+0 0
+D2
+~
+~
+0 -1 5157
+0 0
+D3
+~
+~
+0 -1 5153
+0 0
+S
+#5153
+&GOpen Field~
+Tall grass sways back and forth in the gentle breeze.  Wildlife is
+running all through the fields without a care in the world.  Large
+and small birds fly through the air looking for small prey to pounce
+on.  That same small prey scurries through the tall grass hoping to
+remain undetected.
+~
+1073741824&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 5152
+0 0
+D2
+~
+~
+0 -1 5158
+0 0
+D3
+~
+~
+0 -1 5154
+0 0
+S
+#5154
+&GOpen Field~
+Small rodents take cover in the tall grass as large birds fly high
+overhead.  They have to be careful not to get stepped on by deer
+and moose too.  The gentle breeze dances through the tall grass,
+causing it to sway back and forth as if moving to a silent beat.
+~
+1073741824&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 5153
+0 0
+D2
+~
+~
+0 -1 5159
+0 0
+S
+#5155
+&GOpen Field~
+All types of wildlife run through these fields, chasing and playing
+with each other.  The sea of grass seems to stretch for miles as
+it sways with the gentle breeze.  Flowers of all colors and varieties
+grow all around.
+~
+1073741824&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 5150
+0 0
+D2
+~
+~
+0 -1 5160
+0 0
+D3
+~
+~
+0 -1 5156
+0 0
+S
+#5156
+&GOpen Field~
+Deer and moose run through here stopping occasionally to graze on the
+tall grass and their curious nature leads them to play with the
+small rodents that scurry through the grass.  All types of wildlife
+can be seen running through and flying over the tall grass.
+~
+1073741824&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 5151
+0 0
+D1
+~
+~
+0 -1 5155
+0 0
+D2
+~
+~
+0 -1 5161
+0 0
+D3
+~
+~
+0 -1 5157
+0 0
+S
+#5157
+&GOpen Field~
+Birds of all types fly high through the air looking for small rodents
+to prey upon.  Deer and moose run freely through the fields and on
+occasion a wolf can be seen stalking through the grass as well.  The
+grass sways in the gentle breeze.
+~
+1073741824&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 5152
+0 0
+D1
+~
+~
+0 -1 5156
+0 0
+D2
+~
+~
+0 -1 5162
+0 0
+D3
+~
+~
+0 -1 5158
+0 0
+S
+#5158
+&GOpen Field~
+Insects fly and crawl all over the field, looking for nectar from
+flowers.  Wildlife, large and small, run through the field stopping
+occasionally to graze on the tall grass.  Small rodents scurry 
+through the tall grass hiding from the birds flying high overhead.
+~
+1073741824&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 5153
+0 0
+D1
+~
+~
+0 -1 5157
+0 0
+D2
+~
+~
+0 -1 5163
+0 0
+D3
+~
+~
+0 -1 5159
+0 0
+S
+#5159
+&GOpen Field~
+Tall grass sways in the gentle breeze as animals of all sizes and
+types run through the open fields.  Birds fly high overhead and small
+rodents scurry around trying to hide in the grass.  Insects of all
+kinds are buzzing through the field, hopping from flower to flower
+looking for sweet nectar.
+~
+1073741824&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 5154
+0 0
+D1
+~
+~
+0 -1 5158
+0 0
+D2
+~
+~
+0 -1 5164
+0 0
+S
+#5160
+&GOpen Field~
+Tall grass sways in the gentle breeze as animals of all sizes and
+types run through the open fields.  Birds fly high overhead and small
+rodents scurry around trying to hide in the grass.  Insects of all
+kinds are buzzing through the field, hopping from flower to flower
+looking for sweet nectar.
+~
+1073741824&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 5155
+0 0
+D2
+~
+~
+0 -1 5165
+0 0
+D3
+~
+~
+0 -1 5161
+0 0
+S
+#5161
+&GOpen Field~
+A gentle breeze blows through the tall grass making it dance to a
+beat that only the grass can hear.  It's quiet and peaceful as
+all types of animals run freely.  Birds of all sizes are seen
+flying high in the air.
+~
+1073741824&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 5156
+0 0
+D1
+~
+~
+0 -1 5160
+0 0
+D2
+~
+~
+0 -1 5166
+0 0
+D3
+~
+~
+0 -1 5162
+0 0
+S
+#5162
+&GOpen Field~
+A gentle breeze blows through the tall grass making it dance to a
+beat that only the grass can hear.  It's quiet and peaceful as
+all types of animals run freely.  Birds of all sizes are seen
+flying high in the air.
+~
+1073741824&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 5157
+0 0
+D1
+~
+~
+0 -1 5161
+0 0
+D2
+~
+~
+0 -1 5167
+0 0
+D3
+~
+~
+0 -1 5163
+0 0
+S
+#5163
+&GOpen Field~
+Deer and moose run through here stopping occasionally to graze on the
+tall grass and their curious nature leads them to play with the
+small rodents that scurry through the grass.  All types of wildlife
+can be seen running through and flying over the tall grass.
+~
+1073741824&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 5158
+0 0
+D1
+~
+~
+0 -1 5162
+0 0
+D2
+~
+~
+0 -1 5168
+0 0
+D3
+~
+~
+0 -1 5164
+0 0
+S
+#5164
+&GOpen Field~
+Small rodents and insects scurry through the tall grass, hiding from
+larger predators.  Deer and moose can be seen running through these
+fields, occasionally stopping to graze on the tall grass.  What a
+quiet and peaceful area this is.
+~
+1073741824&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 5159
+0 0
+D1
+~
+~
+0 -1 5163
+0 0
+D2
+~
+~
+0 -1 5169
+0 0
+S
+#5165
+&GOpen Field~
+Tall grass sways in the gentle breeze as animals of all sizes and
+types frun through the open fields.  Birds fly high overhead and small
+rodents scurry around trying to hide in the grass.  Insects of all
+kinds are buzzing through the field, hopping from flower to flower
+looking for sweet nectar.
+~
+1073741824&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 5160
+0 0
+D2
+~
+~
+0 -1 5170
+0 0
+D3
+~
+~
+0 -1 5166
+0 0
+S
+#5166
+&GOpen Field~
+Insects fly and crawl all over the field, looking for nectar from
+flowers.  Wildlife, large and small, run through the field stopping
+occasionally to graze on the tall grass.  Small rodents scurry
+through the tall grass hiding from the birds flying high overhead.
+~
+1073741824&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 5161
+0 0
+D1
+~
+~
+0 -1 5165
+0 0
+D2
+~
+~
+0 -1 5171
+0 0
+D3
+~
+~
+0 -1 5167
+0 0
+S
+#5167
+&GOpen Field~
+Birds of all types fly high through the air looking for small rodents
+to prey upon.  Deer and moose run freely through the fields and on
+occasion a wolf can be seen stalking through the grass as well.  The
+grass sways in the gentle breeze.
+~
+1073741824&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 5162
+0 0
+D1
+~
+~
+0 -1 5166
+0 0
+D2
+~
+~
+0 -1 5172
+0 0
+D3
+~
+~
+0 -1 5168
+0 0
+S
+#5168
+&GOpen Field~
+Deer and moose run through here stopping occasionally to graze on the
+tall grass and their curious nature leads them to play with the
+small rodents that scurry through the grass.  All types of wildlife
+can be seen running through and flying over the tall grass.
+~
+1073741824&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 5163
+0 0
+D1
+~
+~
+0 -1 5167
+0 0
+D2
+~
+~
+0 -1 5173
+0 0
+D3
+~
+~
+0 -1 5169
+0 0
+S
+#5169
+&GOpen Field~
+All types of wildlife run through these fields, chasing and playing
+with each other.  The sea of grass seems to stretch for miles as
+it sways with the gentle breeze.  Flowers of all colors and varieties
+grow all around.
+~
+1073741824&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 5164
+0 0
+D1
+~
+~
+0 -1 5168
+0 0
+D2
+~
+~
+0 -1 5174
+0 0
+S
+#5170
+&GOpen Field~
+Small rodents take cover in the tall grass as large birds fly high
+overhead.  They have to be careful not to get stepped on by deer
+and moose too.  The gentle breeze dances through the tall grass,
+causing it to sway back and forth as if moving to a silent beat.
+~
+1073741824&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 5165
+0 0
+D1
+~
+~
+0 -1 5179
+0 0
+D3
+~
+~
+0 -1 5171
+0 0
+S
+#5171
+&GOpen Field~
+Tall grass sways back and forth in the gentle breeze.  Wildlife is
+running all through the fields without a care in the world.  Large
+and small birds fly through the air looking for small prey to pounce
+on.  That same small prey scurries through the tall grass hoping to
+remain undetected.
+~
+1073741824&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 5166
+0 0
+D1
+~
+~
+0 -1 5170
+0 0
+D3
+~
+~
+0 -1 5172
+0 0
+S
+#5172
+&GOpen Field~
+Small rodents and insects scurry through the tall grass, hiding from
+larger predators.  Deer and moose can be seen running through these
+fields, occasionally stopping to graze on the tall grass.  What a
+quiet and peaceful area this is.
+~
+1073741824&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 5167
+0 0
+D1
+~
+~
+0 -1 5171
+0 0
+D3
+~
+~
+0 -1 5173
+0 0
+S
+#5173
+&GOpen Field~
+A gentle breeze blows through the tall grass making it dance to a
+beat that only the grass can hear.  It's quiet and peaceful as
+all types of animals run freely.  Birds of all sizes are seen
+flying high in the air.
+~
+1073741824&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 5168
+0 0
+D1
+~
+~
+0 -1 5172
+0 0
+D3
+~
+~
+0 -1 5174
+0 0
+S
+#5174
+&GOpen Field~
+Tall grass stretches are far as the eye can see.  A gentle breeze
+dances across the top of the grass making it sway back and forth.
+Wildlife of all types run free through these fields.  Small rodents
+run through the cover of the tall grass, making it difficult for
+large birds to find them.
+~
+1073741824&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 5169
+0 0
+D1
+~
+~
+0 -1 5173
+0 0
+S
+#5175
+&BLake~
+A sandy beach stretches around a lake.  Tall trees surround the lake
+cutting it off from the rest of the world.  Fish can be seen jumping
+out of the water, presumably to catch flies.  What secrets does the
+lake hold?
+~
+1073741828&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5180
+0 0
+D3
+~
+~
+0 -1 5176
+0 0
+S
+#5176
+&BLake~
+Birds fly high through the trees that surround the white sand beach here.
+Frogs and crickets can be heard, seemingly chatting with each other -
+possibly gossiping about the goings on here at the lake.  Fish jump from
+the water trying to catch flies.  Frogs sit on lilypads trying to do
+the same.
+~
+1073741824&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5181
+0 0
+D1
+~
+~
+0 -1 5175
+0 0
+D3
+~
+~
+0 -1 5177
+0 0
+S
+#5177
+&BLake~
+Tall trees span from east to west surrounding the white sand beach
+that's here.  Clear blue water laps at the edge of the beach, but
+that's about all that seems to be moving on the water's surface.  No
+ripples, except around the occasional jumping fish or dive-bombing
+bird.
+~
+1073741824&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5182
+0 0
+D1
+~
+~
+0 -1 5176
+0 0
+D3
+~
+~
+0 -1 5178
+0 0
+S
+#5178
+&BLake~
+White sand stretches from east to west here surrounded by tall trees.
+Fish are jumping out of the water as flies take their chances by
+dropping to the water's surface.  Birds are flying overhead waiting
+for their chance to dive in to catch a fish.
+~
+1073741824&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5183
+0 0
+D1
+~
+~
+0 -1 5177
+0 0
+D3
+~
+~
+0 -1 5179
+0 0
+S
+#5179
+&BLake~
+The beach turns north here as it stretches around the lake.  The
+tall trees also turn to the north as birds fly through them making nests
+to bring their food back to.  The buzzing of flies can be heard and an
+occasional cricket can be heard chirping.
+~
+1073741828&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5184
+0 0
+D1
+~
+~
+0 -1 5178
+0 0
+D3
+~
+~
+0 -1 5170
+0 0
+S
+#5180
+&BLake~
+The sandy beach continues north of here, surrounding the still and
+peaceful lake.  Flies take chances dipping to the water's surface
+and fish jump to catch them.  Tall trees close the beach off from
+the rest of the world.
+~
+1073741824&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5185
+0 0
+D2
+~
+~
+0 -1 5175
+0 0
+D3
+~
+~
+0 -1 5181
+0 0
+S
+#5181
+&BLake~
+Still blue water is surrounded by a white sand beach.  Lily pads litter
+portions of the lake surface and fish can be seen swimming near the
+surface.  Birds fly overhead hoping to catch fish as they jump out of
+the water chasing flies.  Crickets can be heard chirping and frogs
+croak while sitting on their lily pads.
+~
+1073741824&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5186
+0 0
+D1
+~
+~
+0 -1 5180
+0 0
+D2
+~
+~
+0 -1 5176
+0 0
+D3
+~
+~
+0 -1 5182
+0 0
+S
+#5182
+&BLake~
+Still blue water is surrounded by a white sand beach.  Lily pads litter
+portions of the lake surface and fish can be seen swimming near the
+surface.  Birds fly overhead hoping to catch fish as they jump out of
+the water chasing flies.  Crickets can be heard chirping and frogs
+croak while sitting on their lily pads.
+~
+1073741824&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5187
+0 0
+D1
+~
+~
+0 -1 5181
+0 0
+D2
+~
+~
+0 -1 5177
+0 0
+D3
+~
+~
+0 -1 5183
+0 0
+S
+#5183
+&BLake~
+Still blue water is surrounded by a white sand beach.  Lily pads litter
+portions of the lake surface and fish can be seen swimming near the
+surface.  Birds fly overhead hoping to catch fish as they jump out of
+the water chasing flies.  Crickets can be heard chirping and frogs
+croak while sitting on their lily pads.
+~
+1073741824&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5188
+0 0
+D1
+~
+~
+0 -1 5182
+0 0
+D2
+~
+~
+0 -1 5178
+0 0
+D3
+~
+~
+0 -1 5184
+0 0
+S
+#5184
+&BLake~
+White sand stretches from north to south, surrounding a large lake.
+Tall trees close in the beach and birds fly through the air trying
+to catch fish as they jump out of the water.  It is quiet and peaceful
+here and there isn't even so much as a ripple in the water.
+~
+1073741824&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5189
+0 0
+D1
+~
+~
+0 -1 5183
+0 0
+D2
+~
+~
+0 -1 5179
+0 0
+S
+#5185
+&BLake~
+Tall trees surround the sandy beach, closing it off from the rest
+of the world.  The beach stretches from north to south with its
+white sand.  Small lake creatures make their way onto the beach
+looking for food.  Flies and fish tease each other all day as
+a fly drops to the surface and the fish jump up to try to catch them.
+~
+1073741824&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5190
+0 0
+D2
+~
+~
+0 -1 5180
+0 0
+D3
+~
+~
+0 -1 5186
+0 0
+S
+#5186
+&BLake~
+Still blue water is surrounded by a white sand beach.  Lily pads litter
+portions of the lake surface and fish can be seen swimming near the
+surface.  Birds fly overhead hoping to catch fish as they jump out of
+the water chasing flies.  Crickets can be heard chirping and frogs
+croak while sitting on their lily pads.
+~
+1073741824&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5191
+0 0
+D1
+~
+~
+0 -1 5185
+0 0
+D2
+~
+~
+0 -1 5181
+0 0
+D3
+~
+~
+0 -1 5187
+0 0
+S
+#5187
+&BLake~
+Still blue water is surrounded by a white sand beach.  Lily pads litter
+portions of the lake surface and fish can be seen swimming near the
+surface.  Birds fly overhead hoping to catch fish as they jump out of
+the water chasing flies.  Crickets can be heard chirping and frogs
+croak while sitting on their lily pads.
+~
+1073741824&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5192
+0 0
+D1
+~
+~
+0 -1 5186
+0 0
+D2
+~
+~
+0 -1 5182
+0 0
+D3
+~
+~
+0 -1 5188
+0 0
+S
+#5188
+&BLake~
+Still blue water is surrounded by a white sand beach.  Lily pads litter
+portions of the lake surface and fish can be seen swimming near the
+surface.  Birds fly overhead hoping to catch fish as they jump out of
+the water chasing flies.  Crickets can be heard chirping and frogs
+croak while sitting on their lily pads.
+~
+1073741824&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5193
+0 0
+D1
+~
+~
+0 -1 5187
+0 0
+D2
+~
+~
+0 -1 5183
+0 0
+D3
+~
+~
+0 -1 5189
+0 0
+S
+#5189
+&BLake~
+Tall trees surround the sandy beach, closing it off from the rest
+of the world.  The beach stretches from north to south with its
+white sand.  Small lake creatures make their way onto the beach
+looking for food.  Flies and fish tease each other all day as
+a fly drops to the surface and the fish jump up to try to catch them.
+~
+1073741824&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5194
+0 0
+D1
+~
+~
+0 -1 5188
+0 0
+D2
+~
+~
+0 -1 5184
+0 0
+S
+#5190
+&BLake~
+White sand stretches from north to south, surrounding a large lake.
+Tall trees close in the beach and birds fly through the air trying
+to catch fish as they jump out of the water.  It is quiet and peaceful
+here and there isn't even so much as a ripple in the water.
+~
+1073741824&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5195
+0 0
+D2
+~
+~
+0 -1 5185
+0 0
+D3
+~
+~
+0 -1 5191
+0 0
+S
+#5191
+&BLake~
+Still blue water is surrounded by a white sand beach.  Lily pads litter
+portions of the lake surface and fish can be seen swimming near the
+surface.  Birds fly overhead hoping to catch fish as they jump out of
+the water chasing flies.  Crickets can be heard chirping and frogs
+croak while sitting on their lily pads.
+~
+1073741824&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5196
+0 0
+D1
+~
+~
+0 -1 5190
+0 0
+D2
+~
+~
+0 -1 5186
+0 0
+D3
+~
+~
+0 -1 5192
+0 0
+S
+#5192
+&BLake~
+Still blue water is surrounded by a white sand beach.  Lily pads litter
+portions of the lake surface and fish can be seen swimming near the
+surface.  Birds fly overhead hoping to catch fish as they jump out of
+the water chasing flies.  Crickets can be heard chirping and frogs
+croak while sitting on their lily pads.
+~
+1073741824&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5197
+0 0
+D1
+~
+~
+0 -1 5191
+0 0
+D2
+~
+~
+0 -1 5187
+0 0
+D3
+~
+~
+0 -1 5193
+0 0
+S
+#5193
+&BLake~
+Still blue water is surrounded by a white sand beach.  Lily pads litter
+portions of the lake surface and fish can be seen swimming near the
+surface.  Birds fly overhead hoping to catch fish as they jump out of
+the water chasing flies.  Crickets can be heard chirping and frogs
+croak while sitting on their lily pads.
+~
+1073741824&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5198
+0 0
+D1
+~
+~
+0 -1 5192
+0 0
+D2
+~
+~
+0 -1 5188
+0 0
+D3
+~
+~
+0 -1 5194
+0 0
+S
+#5194
+&BLake~
+The sandy beach continues north and south, surrounding the still and
+peaceful lake.  Flies take chances of dipping to the water's surface
+and fish jump to catch them.  Tall trees close the beach off from
+the rest of the world.
+~
+1073741824&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5199
+0 0
+D1
+~
+~
+0 -1 5193
+0 0
+D2
+~
+~
+0 -1 5189
+0 0
+S
+#5195
+&BLake~
+The beach turns to the west here as it stretches around the lake.  The
+tall trees also turn to the west as birds fly through them making nests
+to bring their food back to.  The buzzing of flies can be heard and an
+occasional cricket can be heard chirping.
+~
+1073741824&2
+0 7
+0
+0
+D2
+~
+~
+0 -1 5190
+0 0
+D3
+~
+~
+0 -1 5196
+0 0
+S
+#5196
+&BLake~
+White sand stretches from east to west here surrounded by tall trees.
+Fish are jumping out of the water as flies take their chances by
+dropping to the water's surface.  Birds are flying overhead waiting
+for their chance to dive in to catch a fish.
+~
+1073741824&2
+0 7
+0
+0
+D1
+~
+~
+0 -1 5195
+0 0
+D2
+~
+~
+0 -1 5191
+0 0
+D3
+~
+~
+0 -1 5197
+0 0
+S
+#5197
+&BLake~
+Tall trees span from east to west surrounding the white sand beach
+that's here.  Clear blue water laps at the edge of the beach, but
+that's about all that seems to be moving on the water's surface.  No
+ripples, except around the occasional jumping fish or dive-bombing
+bird.
+~
+1073741824&2
+0 7
+0
+0
+D1
+~
+~
+0 -1 5196
+0 0
+D2
+~
+~
+0 -1 5192
+0 0
+D3
+~
+~
+0 -1 5198
+0 0
+S
+#5198
+&BLake~
+Birds fly high through the trees that surround the white sand beach here.
+Frogs and crickets can be heard, seemingly chatting with each other - 
+possibly gossiping about goings on here at the lake.  Fish jump from
+the water trying to catch flies.  Frogs sit on lilypads trying to do
+the same.
+~
+1073741824&2
+0 7
+0
+0
+D1
+~
+~
+0 -1 5197
+0 0
+D2
+~
+~
+0 -1 5193
+0 0
+D3
+~
+~
+0 -1 5199
+0 0
+S
+#5199
+&BLake~
+Tall trees surround this lake, cutting it off from the rest of the
+world.  White sand covers the beach, which stretches east and south
+from here.  Animals like turtles and snakes find their way into and
+out of the water looking for food or for a place to rest in the sun.
+~
+1073741824&2
+0 7
+0
+0
+D1
+~
+~
+0 -1 5198
+0 0
+D2
+~
+~
+0 -1 5194
+0 0
+S
+#0
+
+
+#RESETS
+M 1 5100 1 5102 -1 -1 -1 0 0
+M 1 5102 1 5102 -1 -1 -1 0 0
+M 1 5100 1 5102 -1 -1 -1 0 0
+M 1 5102 1 5103 -1 -1 -1 0 0
+M 1 5102 1 5103 -1 -1 -1 0 0
+M 1 5102 1 5104 -1 -1 -1 0 0
+M 1 5102 1 5104 -1 -1 -1 0 0
+M 1 5100 1 5107 -1 -1 -1 0 0
+M 1 5102 1 5107 -1 -1 -1 0 0
+M 1 5100 1 5107 -1 -1 -1 0 0
+M 1 5102 1 5109 -1 -1 -1 0 0
+M 1 5100 1 5109 -1 -1 -1 0 0
+M 1 5100 1 5109 -1 -1 -1 0 0
+M 1 5100 1 5109 -1 -1 -1 0 0
+M 1 5100 1 5109 -1 -1 -1 0 0
+M 1 5104 1 5115 -1 -1 -1 0 0
+M 1 5110 1 5117 -1 -1 -1 0 0
+M 1 5112 1 5117 -1 -1 -1 0 0
+M 1 5110 1 5118 -1 -1 -1 0 0
+M 1 5110 1 5119 -1 -1 -1 0 0
+M 1 5110 1 5120 -1 -1 -1 0 0
+M 1 5112 1 5120 -1 -1 -1 0 0
+M 1 5104 1 5120 -1 -1 -1 0 0
+M 1 5104 1 5120 -1 -1 -1 0 0
+M 1 5104 1 5122 -1 -1 -1 0 0
+M 1 5110 1 5122 -1 -1 -1 0 0
+M 1 5112 1 5122 -1 -1 -1 0 0
+M 1 5112 1 5123 -1 -1 -1 0 0
+M 1 5110 1 5124 -1 -1 -1 0 0
+M 1 5104 1 5124 -1 -1 -1 0 0
+M 1 5104 1 5124 -1 -1 -1 0 0
+M 1 5120 1 5126 -1 -1 -1 0 0
+M 1 5120 1 5127 -1 -1 -1 0 0
+M 1 5119 1 5127 -1 -1 -1 0 0
+M 1 5120 1 5128 -1 -1 -1 0 0
+M 1 5117 1 5128 -1 -1 -1 0 0
+M 1 5119 1 5130 -1 -1 -1 0 0
+M 1 5120 1 5131 -1 -1 -1 0 0
+M 1 5117 1 5131 -1 -1 -1 0 0
+M 1 5119 1 5132 -1 -1 -1 0 0
+M 1 5114 1 5132 -1 -1 -1 0 0
+M 1 5120 1 5133 -1 -1 -1 0 0
+M 1 5117 1 5133 -1 -1 -1 0 0
+M 1 5114 1 5133 -1 -1 -1 0 0
+M 1 5117 1 5134 -1 -1 -1 0 0
+M 1 5114 1 5134 -1 -1 -1 0 0
+M 1 5119 1 5135 -1 -1 -1 0 0
+M 1 5114 1 5135 -1 -1 -1 0 0
+M 1 5114 1 5137 -1 -1 -1 0 0
+M 1 5119 1 5138 -1 -1 -1 0 0
+M 1 5119 1 5138 -1 -1 -1 0 0
+M 1 5114 1 5142 -1 -1 -1 0 0
+M 1 5114 1 5142 -1 -1 -1 0 0
+M 1 5120 1 5142 -1 -1 -1 0 0
+M 1 5120 1 5142 -1 -1 -1 0 0
+M 1 5117 1 5143 -1 -1 -1 0 0
+M 1 5120 1 5143 -1 -1 -1 0 0
+M 1 5119 1 5145 -1 -1 -1 0 0
+M 1 5120 1 5146 -1 -1 -1 0 0
+M 1 5117 1 5146 -1 -1 -1 0 0
+M 1 5117 1 5147 -1 -1 -1 0 0
+M 1 5119 1 5147 -1 -1 -1 0 0
+M 1 5120 1 5147 -1 -1 -1 0 0
+M 1 5114 1 5148 -1 -1 -1 0 0
+M 1 5120 1 5149 -1 -1 -1 0 0
+M 1 5119 1 5149 -1 -1 -1 0 0
+M 1 5119 1 5149 -1 -1 -1 0 0
+M 1 5117 1 5149 -1 -1 -1 0 0
+M 1 5117 1 5149 -1 -1 -1 0 0
+M 1 5124 1 5151 -1 -1 -1 0 0
+M 1 5123 1 5151 -1 -1 -1 0 0
+M 1 5123 1 5152 -1 -1 -1 0 0
+M 1 5124 1 5152 -1 -1 -1 0 0
+M 1 5124 1 5155 -1 -1 -1 0 0
+M 1 5130 1 5155 -1 -1 -1 0 0
+M 1 5124 1 5156 -1 -1 -1 0 0
+M 1 5124 1 5156 -1 -1 -1 0 0
+M 1 5123 1 5156 -1 -1 -1 0 0
+M 1 5130 1 5157 -1 -1 -1 0 0
+M 1 5123 1 5157 -1 -1 -1 0 0
+M 1 5124 1 5158 -1 -1 -1 0 0
+M 1 5121 1 5158 -1 -1 -1 0 0
+M 1 5124 1 5158 -1 -1 -1 0 0
+M 1 5123 1 5158 -1 -1 -1 0 0
+M 1 5123 1 5158 -1 -1 -1 0 0
+M 1 5121 1 5160 -1 -1 -1 0 0
+M 1 5130 1 5160 -1 -1 -1 0 0
+M 1 5121 1 5161 -1 -1 -1 0 0
+M 1 5124 1 5162 -1 -1 -1 0 0
+M 1 5130 1 5164 -1 -1 -1 0 0
+M 1 5123 1 5164 -1 -1 -1 0 0
+M 1 5121 1 5164 -1 -1 -1 0 0
+M 1 5123 1 5165 -1 -1 -1 0 0
+M 1 5121 1 5166 -1 -1 -1 0 0
+M 1 5121 1 5166 -1 -1 -1 0 0
+M 1 5124 1 5167 -1 -1 -1 0 0
+M 1 5121 1 5168 -1 -1 -1 0 0
+M 1 5124 1 5168 -1 -1 -1 0 0
+M 1 5124 1 5168 -1 -1 -1 0 0
+M 1 5124 1 5169 -1 -1 -1 0 0
+M 1 5123 1 5169 -1 -1 -1 0 0
+M 1 5121 1 5170 -1 -1 -1 0 0
+M 1 5123 1 5170 -1 -1 -1 0 0
+M 1 5130 1 5171 -1 -1 -1 0 0
+M 1 5123 1 5171 -1 -1 -1 0 0
+M 1 5121 1 5171 -1 -1 -1 0 0
+M 1 5121 1 5171 -1 -1 -1 0 0
+M 1 5124 1 5171 -1 -1 -1 0 0
+M 1 5121 1 5172 -1 -1 -1 0 0
+M 1 5124 1 5172 -1 -1 -1 0 0
+M 1 5130 1 5173 -1 -1 -1 0 0
+M 1 5123 1 5173 -1 -1 -1 0 0
+M 1 5124 1 5174 -1 -1 -1 0 0
+M 1 5137 1 5175 -1 -1 -1 0 0
+M 1 5133 1 5176 -1 -1 -1 0 0
+M 1 5135 1 5176 -1 -1 -1 0 0
+M 1 5131 1 5177 -1 -1 -1 0 0
+M 1 5135 1 5178 -1 -1 -1 0 0
+M 1 5137 1 5178 -1 -1 -1 0 0
+M 1 5137 1 5178 -1 -1 -1 0 0
+M 1 5133 1 5178 -1 -1 -1 0 0
+M 1 5133 1 5180 -1 -1 -1 0 0
+M 1 5137 1 5180 -1 -1 -1 0 0
+M 1 5137 1 5180 -1 -1 -1 0 0
+M 1 5135 1 5181 -1 -1 -1 0 0
+M 1 5135 1 5181 -1 -1 -1 0 0
+M 1 5135 1 5181 -1 -1 -1 0 0
+M 1 5133 1 5181 -1 -1 -1 0 0
+M 1 5133 1 5182 -1 -1 -1 0 0
+M 1 5131 1 5182 -1 -1 -1 0 0
+M 1 5131 1 5183 -1 -1 -1 0 0
+M 1 5137 1 5184 -1 -1 -1 0 0
+M 1 5133 1 5185 -1 -1 -1 0 0
+M 1 5131 1 5186 -1 -1 -1 0 0
+M 1 5137 1 5186 -1 -1 -1 0 0
+M 1 5137 1 5188 -1 -1 -1 0 0
+M 1 5135 1 5188 -1 -1 -1 0 0
+M 1 5137 1 5188 -1 -1 -1 0 0
+M 1 5133 1 5189 -1 -1 -1 0 0
+M 1 5135 1 5192 -1 -1 -1 0 0
+M 1 5131 1 5192 -1 -1 -1 0 0
+M 1 5135 1 5193 -1 -1 -1 0 0
+M 1 5133 1 5193 -1 -1 -1 0 0
+M 1 5133 1 5194 -1 -1 -1 0 0
+M 1 5137 1 5195 -1 -1 -1 0 0
+M 1 5133 1 5195 -1 -1 -1 0 0
+M 1 5131 1 5196 -1 -1 -1 0 0
+M 1 5135 1 5196 -1 -1 -1 0 0
+M 1 5131 1 5196 -1 -1 -1 0 0
+M 1 5131 1 5196 -1 -1 -1 0 0
+M 1 5133 1 5197 -1 -1 -1 0 0
+M 1 5131 1 5197 -1 -1 -1 0 0
+M 1 5133 1 5197 -1 -1 -1 0 0
+M 1 5137 1 5197 -1 -1 -1 0 0
+M 1 5135 1 5199 -1 -1 -1 0 0
+M 1 5137 1 5199 -1 -1 -1 0 0
+M 1 5135 1 5199 -1 -1 -1 0 0
+M 1 5136 1 5187 -1 -1 -1 1109811351 86400
+M 1 5137 1 5187 -1 -1 -1 0 0
+M 1 5101 1 5110 -1 -1 -1 0 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

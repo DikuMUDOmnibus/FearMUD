@@ -1,0 +1,89 @@
+#HIT
+#BASH
+$p $W's $G crushes $P $B~
+$p $W's $G slaughters $P $B~
+$n deliver$o a crushing strike to $P $B~
+End~
+
+#SLASH
+$p $W's $G slices into $P $B~
+$n grunt$o, swing$o, and hit$o!~
+$n spin$o on $s heel and bring $s $W arcing up into $P $B~
+A ribbon of $P blood traces the swing of $p weapon.~
+End~
+
+#STAB
+$p $W's $G plunges into $P $B~
+End~
+
+#MISS
+#BASH
+$N quickly elude$a $p $W~
+End~
+
+#SLASH
+$N quickly elude$a $p $W~
+$n grunt$o, swing$o, and miss$O!~
+End~
+
+#STAB
+$N quickly elude$a $p $W~
+End~
+
+#BLOCK
+#BASH
+$N raise$a $S $b to deflect $p $W~
+End~
+
+#SLASH
+$N raise$a $S $b to deflect $p $W~
+End~
+
+#STAB
+$N raise$a $S $b to deflect $p $W~
+End~
+
+#PARRY
+#BASH
+End~
+
+#SLASH
+End~
+
+#STAB
+End~
+
+#DODGE
+#BASH
+End~
+
+#SLASH
+End~
+
+#STAB
+End~
+
+#CRIT
+#BASH
+End~
+
+#SLASH
+End~
+
+#STAB
+End~
+
+#INSTA
+#BASH
+$p $W delivers a crushing death strike to $P $B~
+End~
+
+#SLASH
+$p $W delivers a slicing death strike to $P $B~
+End~
+
+#STAB
+$p $W delivers a piercing death strike to $P $B~
+End~
+
+#END

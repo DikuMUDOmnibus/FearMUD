@@ -1,0 +1,242 @@
+#FRONT
+X          440
+Y          485
+Map        1
+Speed      1
+Size       23
+Type       0
+Typec      5
+End
+
+#FRONT
+X          20
+Y          520
+Map        0
+Speed      1
+Size       27
+Type       1
+Typec      5
+End
+
+#FRONT
+X          388
+Y          418
+Map        0
+Speed      1
+Size       25
+Type       0
+Typec      3
+End
+
+#FRONT
+X          427
+Y          371
+Map        1
+Speed      2
+Size       23
+Type       0
+Typec      6
+End
+
+#FRONT
+X          580
+Y          507
+Map        0
+Speed      2
+Size       29
+Type       0
+Typec      4
+End
+
+#FRONT
+X          226
+Y          278
+Map        1
+Speed      1
+Size       30
+Type       0
+Typec      4
+End
+
+#FRONT
+X          263
+Y          374
+Map        0
+Speed      1
+Size       22
+Type       1
+Typec      2
+End
+
+#FRONT
+X          156
+Y          439
+Map        1
+Speed      2
+Size       27
+Type       1
+Typec      3
+End
+
+#FRONT
+X          280
+Y          267
+Map        1
+Speed      1
+Size       26
+Type       0
+Typec      5
+End
+
+#FRONT
+X          696
+Y          691
+Map        0
+Speed      3
+Size       23
+Type       0
+Typec      7
+End
+
+#FRONT
+X          318
+Y          347
+Map        1
+Speed      2
+Size       27
+Type       0
+Typec      6
+End
+
+#FRONT
+X          181
+Y          321
+Map        0
+Speed      1
+Size       23
+Type       1
+Typec      7
+End
+
+#FRONT
+X          135
+Y          366
+Map        1
+Speed      3
+Size       23
+Type       1
+Typec      3
+End
+
+#FRONT
+X          555
+Y          673
+Map        0
+Speed      3
+Size       25
+Type       0
+Typec      7
+End
+
+#FRONT
+X          151
+Y          208
+Map        1
+Speed      1
+Size       23
+Type       0
+Typec      7
+End
+
+#FRONT
+X          200
+Y          278
+Map        0
+Speed      1
+Size       30
+Type       0
+Typec      4
+End
+
+#FRONT
+X          222
+Y          118
+Map        1
+Speed      1
+Size       29
+Type       0
+Typec      5
+End
+
+#FRONT
+X          165
+Y          281
+Map        0
+Speed      1
+Size       28
+Type       0
+Typec      7
+End
+
+#FRONT
+X          133
+Y          163
+Map        1
+Speed      1
+Size       23
+Type       0
+Typec      5
+End
+
+#FRONT
+X          541
+Y          522
+Map        0
+Speed      3
+Size       30
+Type       0
+Typec      4
+End
+
+#FRONT
+X          202
+Y          135
+Map        1
+Speed      2
+Size       23
+Type       0
+Typec      2
+End
+
+#FRONT
+X          25
+Y          392
+Map        0
+Speed      3
+Size       27
+Type       1
+Typec      7
+End
+
+#FRONT
+X          349
+Y          136
+Map        1
+Speed      3
+Size       22
+Type       1
+Typec      5
+End
+
+#FRONT
+X          278
+Y          561
+Map        0
+Speed      2
+Size       26
+Type       0
+Typec      1
+End
+
+
+#END

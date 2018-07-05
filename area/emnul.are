@@ -1,0 +1,3810 @@
+#AREA   Em'nul Tribe~
+
+
+
+#VERSION 53
+#AUTHOR Adelsin~
+
+#RANGES
+0 0 0 0 0 0 0 0 0
+$
+
+#RESETMSG You hear the Em'nul Wardrums pound as new life is brought into the village...~
+
+#FLAGS
+0
+
+#ECONOMY 0 26883580 0
+
+#MOBILES
+#451
+emnul strongback~
+&gE&gm&G'&Gn&Gu&Gl &GS&Gt&Gr&Go&Gn&Gg&Gb&ga&gc&gk&w~
+An &gE&gm&G'&Gn&Gu&Gl &GS&Gt&Gr&Go&Gn&Gg&Gb&ga&gc&gk&w is here, minding his own business.
+~
+This &gE&gm&G'&Gn&Gu&Gl &GS&Gt&Gr&Go&Gn&Gg&Gb&ga&gc&gk&w clearly has all the distinguishing characteristics of a turtle. Slow, big, and cased. 
+Messing with something like this will most likely get you killed for this being clearly trained to Defend.
+~
+131077&2097152 0 512 0 C
+0 0 22 10 3 5
+25d75+1000 2d15+25 0 0 0
+10000 0
+112 112 0
+23 21 18 13 20 13 14 53
+-5 -5 -5 -5 -5
+0 0 0 0 1 1 53
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 200 300 100 225 -500 100 100 100 100 100 100
+5 4 4195360 64 2099488 8 0 256 8193
+> death_prog 25~
+mpoload 451
+~
+|
+#452
+emnul strongback samuri~
+&gE&gm&G'&Gn&Gu&Gl &GS&Gt&Gr&Go&Gn&Gg&Gb&ga&gc&gk&w &gS&Ga&Wm&Wu&Gr&gi~
+&gE&gm&G'&Gn&Gu&Gl &GS&Gt&Gr&Go&Gn&Gg&Gb&ga&gc&gk&w &gS&Ga&Wm&Wu&Gr&gi is here fiddling his sword&w
+~
+This &gE&gm&G'&Gn&Gu&Gl &GS&Gt&Gr&Go&Gn&Gg&Gb&ga&gc&gk&w &gS&Ga&Wm&Wu&Gr&gi&w clearly has all the distinguishing characteristics of a turtle. Slow, big, and cased.
+These &gS&Ga&Wm&Wu&Gr&gi&w'&Ws&w are specifically trained to kill on sight! Friendly or not, anything is a threat to them.
+~
+268566567&2097152 0 67109376 0 C
+0 0 0 0 13 0
+1d500+1250 2d15+25 0 0 0
+15000 0
+112 112 1
+25 25 20 19 20 13 13 68
+-5 -5 -5 -5 -5
+17 0 0 0 1 1 68
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 200 100 100 225 -500 100 100 100 100 100 100
+0 0 4195360 0 0 0 0 1073742592 528390
+> death_prog 25~
+mpoload 454
+~
+> fight_prog 75~
+if hitprcnt($i) > 10
+'Come catch me!
+flee
+flee
+flee
+else
+mpecho $i looks angry!
+endif
+~
+|
+#453
+emnul strongback assassin~
+&gE&gm&G'&Gn&Gu&Gl &GS&Gt&Gr&Go&Gn&Gg&Gb&ga&gc&gk&w &gA&Gs&zs&ga&Gs&zs&gi&Gn&w~
+An &gE&gm&G'&Gn&Gu&Gl &GS&Gt&Gr&Go&Gn&Gg&Gb&ga&gc&gk&w &gA&Gs&zs&ga&Gs&zs&gi&Gn&w is here, trying to be sneaky.
+~
+~
+39&1179648 0 4259840 0 C
+0 0 19 0 0 14
+3d200+900 11d3+21 0 0 0
+75000 0
+112 112 0
+19 23 18 24 17 13 20 72
+-5 -5 -5 -5 -5
+17 0 0 0 1 1 72
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 200 300 100 100 25 75 100 100 100 100 100
+0 0 0 0 2100480 0 0 1600 524291
+> greet_prog 100~
+mpecho There's something behind $n!
+mpforce 453 backstab $n
+~
+> death_prog 10~
+mpoload 456
+~
+|
+#454
+emnul child~
+&gEm&G'nul Chi&gld&w~
+A small &gEm&G'nul Chi&gld&w is here, looking for something to do.
+~
+~
+1 0 512 0 C
+0 0 0 9 9 9
+4d25+150 1d4+7 0 0 0
+0 0
+112 112 0
+16 15 15 14 13 13 13 48
+0 0 0 0 0
+79 0 0 0 1 1 48
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 64 0
+> death_prog 40~
+mpoload 457
+~
+|
+#455
+emnul resident~
+&gEm&G'nul Resid&gent&w~
+An &gEm&G'nul Resid&gent&w is here, tending to the childern
+~
+~
+1 0 512 0 C
+0 0 2 11 11 11
+8d25+200 1d6+9 0 0 0
+110 0
+112 112 0
+18 23 23 18 13 13 14 54
+0 0 0 0 0
+79 0 0 0 1 1 54
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 64 2
+> death_prog 40~
+mpoload 457
+~
+|
+#456
+emnul resident ~
+&gEm&G'nul Resid&gent&w~
+An &gEm&G'nul Resid&gent&w is here, tending to the childern
+~
+~
+1 0 512 0 C
+0 0 2 11 11 11
+6d12+480 1d7+11 0 0 0
+110 0
+112 112 0
+18 20 20 20 16 13 14 67
+0 0 0 0 0
+79 0 0 0 1 1 67
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1073741888 10
+> death_prog 40~
+mpoload 457
+~
+|
+#457
+emnul shaman~
+&gEm&G'nul Sham&gan&w~
+&gEm&G'nul Sham&gan&w is here, catering to your needs.
+~
+This &Em&G'nul Sham&gan&w lives in peace and serenity, healing injured warriors. This &gEm&G'nul&w is no differnt from the rest when it comes to looks.
+Big cased shell and hard rough skin.
+~
+67239939&16384 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#458
+apothecary~
+&rA&wp&zo&rt&wh&ze&rc&wa&zr&ry&w~
+&rA&wp&zo&rt&wh&ze&rc&wa&zr&ry&w
+~
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#459
+calm emnul merchant~
+&gcal&Gm Merch&gant&w~
+A &gcal&Gm &gEm&G'nul Merch&gant&w is here, trying to gather business
+~
+~
+67108865 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#460
+chief emnul garroy~
+&WG&ga&Gr&gr&Go&gy&G&W~
+&WG&ga&Gr&gr&Go&gy&G&W the &gEm&G'nul Strongb&gack &G&WC&gh&Gi&ge&Gf&w is here.
+~
+~
+1077936167 0 375399040 0 C
+0 0 0 0 0 0
+20d100+5000 3d1+3 0 0 0
+500000 0
+112 112 0
+25 25 25 25 25 13 25 76
+-7 -7 -7 -7 -7
+0 0 0 0 1 1 76
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 50 50 100 100 100 100 100
+0 0 0 0 0 0 0 1074004032 524291
+#466
+emnul strongback merchant~
+&gE&gm&G'&Gn&Gu&Gl &GS&Gt&Gr&Go&Gn&Gg&Gb&ga&gc&gk&w &WM&Ge&Wr&Gc&Wh&Ga&Wn&Gt&P~
+&gE&gm&G'&Gn&Gu&Gl &GS&Gt&Gr&Go&Gn&Gg&Gb&ga&gc&gk&w &WM&Ge&Wr&Gc&Wh&Ga&Wn&Gt&P is here.
+~
+~
+67174405 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+10000 0
+112 112 0
+#467
+emnul blacksmith~
+&gEm&G'nul Blacksm&gith&P~
+The &gEm&G'nul Blacksm&gith&P is here pounding away an ore.
+~
+A small, but very well built dwarf is here pounding away on ore.  His
+skin is very dark, which is probably from all the smoke and ash from
+working in this Forge.
+
+~
+67108867&4194304 0 0 0 C
+0 0 0 0 0 0
+20d10+5300 0d0+0 0 0 0
+5000 0
+112 112 1
+23 14 13 14 13 13 13 15
+0 0 0 0 0
+2 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#468
+emnul banker~
+&gEm&G'nul Bank&ger&w~
+An &gEm&G'nul Bank&ger&P is here counting all the money
+~
+He stands about the average height for an &gEm&G'nul&w, but he is vastly overweight.
+He seems to take great delight in your and your money bag though.
+~
+67108875 0 0 0 C
+0 0 0 0 0 0
+5d10+1000 0d0+0 0 0 0
+10000 0
+112 112 1
+12 18 18 12 12 13 20 15
+0 0 0 0 0
+0 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#469
+emnul weaponsmith~
+&gEm&G'nul Weaponsm&gith&w~
+&gEm&G'nul Weaponsm&gith&w is here, wanting to help you!
+~
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+> all_greet_prog 100~
+say Welcome $n!
+mpsleep 2
+say I sell you weapons, as well as repair them!
+~
+|
+#500
+Gnome Punker~
+&bG&Bn&zo&bm&Be &RP&wu&zn&Rk&we&zr&w~
+&bG&Bn&zo&bm&Be &RP&wu&zn&Rk&we&zr&w is here, making sure no one takes anything.
+~
+You see a short little &RP&wu&zn&Rk&w ready to fuck up something.
+save
+The &bG&Bn&zo&bm&Be &RP&wu&zn&Rk&we&zr&w has a killer &PP&pu&Pr&pp&Pl&pe&w ^r&xMohawk^w&w.
+~
+67108865 0 0 0 C
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+13 13 13 13 13 13 13 15
+0 0 0 0 0
+14 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#502
+small emnul turtle shell~
+a newly created small emnul turtle shell~
+Some god abandoned a newly created small emnul turtle shell here.
+~
+~
+1073741825 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#545
+goblin slave~
+&Wsomone's &Rmagi&rcal &Ggob&glin&w~
+&Wsomone's &Rmagi&rcal &Ggob&glin&w is here.
+~
+~
+151257089 0 0 0 C
+0 0 0 0 0 0
+0d0+5 0d0+0 0 0 0
+0 0
+112 112 0
+25 13 13 25 13 13 13 15
+0 0 0 0 0
+17 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 8192
+> entry_prog 50~
+if rand(30)
+emote flies around $n's head before finally landing.
+else
+poke $n
+emote giggles.
+endif
+~
+|
+#560
+emnul happy~
+&ghap&Gpy&g Em&G'nul&w~
+A &ghap&Gpy&g Em&G'nul&w is here, looking extremly happy!
+~
+This &gEm&G'nul&w looks so happy.
+~
+67108867 0 0 0 C
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+13 13 13 25 13 13 13 15
+0 0 0 0 0
+0 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+> all_greet_prog 25~
+say Do you have a trinket I could have?
+~
+> speech_prog yes~
+if iscarrying($n) == 457
+mpoload 200160
+mptake trinket $n
+drop coins
+mpforce $n get coins
+say Thanks
+mppurge trinket
+else
+say You do not have that.
+kick $n
+endif
+~
+|
+#561
+bess the cow~
+&w&WB&we&zss &wthe &Wc&wo&zw~
+&w&WB&we&zss &wthe &Wc&wo&zw &Wis &zhere
+~
+~
+67108865 0 0 0 C
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+13 13 13 13 13 13 13 15
+0 0 0 0 0
+14 0 0 0 0 0 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#599
+placeholder~
+a newly created placeholder~
+Some god abandoned a newly created placeholder here.
+~
+~
+1073741825 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#451
+Em'nul Shell~
+&gE&gm&G'&Gn&Gu&Gl &Ws&Gh&We&Gl&Wl&w~
+An &gE&gm&G'&Gn&Gu&Gl &GS&Gt&Gr&Go&Gn&Gg&Gb&ga&gc&gk&w &Ws&Gh&We&Gl&Wl&w is here.~
+~
+9 0 9
+17 17 17 1000 5 3 0 0 0 0 0 0 0 0
+13.760000 70000 0 0 0 0 4
+A
+80 2 0
+A
+1 -1 0
+A
+77 -4 0
+A
+94 3 0
+A
+13 35 0
+> damage_prog 50~
+if rand(10)
+mpecho $n feels the strength of the Em'nul flow through him.
+mprestore $n 100
+else
+mpecho $n feels the strength of the Em'nul flow through him.
+mprestore $n 50
+endif
+~
+|
+#452
+Em'nul Basher~
+&gE&gm&G'&Gn&Gu&Gl &gB&gA&GS&GH&gE&gR&w~
+&gE&gm&G'&Gn&Gu&Gl &gB&gA&GS&GH&gE&gR&w &W-&G Nuff' Said.~
+~
+5 268435456&131072&2048 513
+1000 20 25 6 -1 -1 0 14 0 0 13 0 30 2
+46.779999 35000 0 0 0 0 6
+'NONE'
+A
+13 14 0
+#453
+Em'nul Longsword~
+&gEm&G'nul &gL&Gon&Wgsw&Gor&gd&w~
+An &gEm&G'nul &gL&Gon&Wgsw&Gor&gd&w is here, stick in the ground~
+~
+5 268435456&0&64 513
+1000 20 25 6 -1 -1 0 0 15 0 13 0 30 2
+17.000000 35000 0 0 0 0 4
+'NONE'
+A
+79 3 0
+A
+13 10 0
+A
+12 4 0
+#454
+helmet samuri emnul~
+&gEm&G'nul &gS&Gam&Wu&Gr&gi H&Ge&Wlm&Ge&gt&w~
+An &gEm&G'nul &gS&Gam&Wu&Gr&gi H&Ge&Wlm&Ge&gt&w is here~
+~
+9 524288 17
+15 15 15 1000 3 2 0 0 0 0 0 0 0 0
+7.540000 70000 0 0 0 0 4
+A
+80 2 0
+A
+80 1 0
+A
+13 35 0
+> damage_prog 50~
+if rand(10)
+mpecho $n feels the strength of the Em'nul flow through him.
+mprestore $n 100
+else
+mpecho $n feels the strength of the Em'nul flow through him.
+mprestore $n 50
+endif
+~
+|
+#455
+key wooden turtle~
+A Wooden key with a Turtle-shaped handle~
+A Wooden Key with a Turtle-shaped handle is here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#456
+emnul necklace~
+&gEm&G'nul &WNec&Gkla&gce~
+An &gEm&G'nul &WNec&Gkla&gce&w is here~
+~
+8 2 32769
+0 0 0 0
+1.000000 150000 0 0 0 0 0
+> rand_prog 10~
+if rand(10)
+mpecho $n feels better as the strength of Em'nul flows through $m.
+mprestore $n 50
+else
+mpecho $n feels better as the strength of Em'nul flows through $m.
+mprestore $n 25
+endif
+~
+|
+#457
+emnul trinket~
+&gEm&G'nul Trin&gket&w~
+An &gEm&G'nul Trin&gket&w is lying here~
+~
+8 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#500
+Punker Knuckles~
+&RP&wu&zn&Rk&we&zr&w &RK&wn&zu&Rc&wk&zl&Re&ws.~
+Some god dropped a newly created Punker Knuckles here.~
+~
+5 0 513
+0 0 0 0 -1 -1 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+'NONE'
+#501
+emnul special~
+&ga stick &gEm&G'nul Spec&gial&w~
+&ga stick &gEm&G'nul Spec&gial&w~
+~
+19 0 1
+14 0 0 0
+1.000000 98 0 21218 0 0 0
+E
+slab of beef~
+A huge cut of beef, and it is 100 percent meat.
+~
+#502
+small emnul turtle shell~
+&ga small Em&G'nul turtlesh&gell~
+&ga small Em&G'nul turtlesh&gell~
+~
+17 0 1
+30 30 0 0
+5.000000 857 0 21213 0 0 0
+E
+dragonskin~
+A simple leather pouch that can be used to hold water.
+~
+#544
+Test~
+a newly created Test~
+Some god dropped a newly created Test here.~
+~
+30 1073741824 1
+11 11 0 0 -1 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+> use_prog 100~
+mpmload 545
+mpforce goblin follow $n
+mpecho Goblin Slaver appears!
+mpforce goblin c 'stone skin' $n
+mpforce goblin c 'sanctuary' $n
+mpforce goblin c 'bless' $n
+mpforce goblin c 'heal' $n
+~
+|
+#545
+pipe bong em'nul stinger~
+&gEm&G'nul &WStinger&w~
+An &gEm&G'nul &WStinger&w is here.~
+~
+30 0 1
+11 0 0 0
+1.000000 35000 0 0 0 0 0
+> use_prog 75~
+if hps($n) >= 11
+mprestore $n 2
+mpecho $n feels good.
+endif
+if hps($n) >= 21
+mprestore $n 5
+mpecho $n feels good.
+endif
+if hps($n) >= 51
+mprestore $n 12
+mpecho $n feels good.
+endif
+if hps($n) >= 71
+mprestore $n 18
+mpecho $n feels good.
+endif
+if hps($n) >= 101
+mprestore $n 25
+mpecho $n feels good.
+endif
+if hps($n) >= 151
+mprestore $n 38
+mpecho $n feels good.
+endif
+if hps($n) >= 210
+mprestore $n 50
+mpecho $n feels good.
+endif
+if hps($n) >= 510 
+mprestore $n 125
+mpecho $n feels good. 
+endif
+if hps($n) >= 1010 
+mprestore $n 250 
+mpecho $n feels good. 
+endif
+if hps($n) >= 1510
+mprestore $n 375
+mpecho $n feels good. 
+endif
+~
+> use_prog 25~
+if hps($n) >= 21
+mpdamage $n 10
+mpecho $n puffed too hard.
+endif
+if hps($n) >= 51
+mpdamage $n 25
+mpecho $n puffed too hard.
+endif
+if hps($n) >= 71
+mpdamage $n 35
+mpecho $n puffed too hard.
+endif
+if hps($n) >= 101
+mpdamage $n 50
+mpecho $n puffed too hard.
+endif
+if hps($n) >= 151
+mpdamage $n 75
+mpecho $n puffed too hard.
+endif
+if hps($n) >= 210
+mpdamage $n 100
+mpecho $n puffed too hard.
+endif
+if hps($n) >= 510 
+mpdamage $n 250
+mpecho $n puffed too hard. 
+endif
+if hps($n) >= 1010 
+mpdamage $n 500 
+mpecho $n puffed too hard. 
+endif
+if hps($n) >= 1510
+mpdamage $n 750
+mpecho $n puffed too hard. 
+endif
+~
+> use_prog 10~
+mpmload 545
+mpforce goblin follow $n
+mpforce goblin c 'stone skin' $n
+mpforce goblin c 'sanctuary' $n
+mpforce goblin c 'bless' $n
+mpforce goblin c 'heal' $n
+mpecho _red What's that?!
+~
+|
+#546
+worn pipe~
+A worn pipe~
+A worn pipe is here, ready to be used.~
+~
+30 0 1
+3 0 0 0
+1.000000 6500 0 0 0 0 0
+#547
+herb nooracht~
+A cluster of nooracht~
+A cluster of nooracht is here, ready to be used.~
+~
+32 8192 1
+0 11 3 0
+1.000000 122 0 0 0 0 0
+#548
+herb occadaal~
+A cluster of occadaal~
+A cluster of occadaal is here, ready to be used~
+~
+32 0 1
+0 11 4 0 4 0 0 0 0 0 0 0 0 0
+1.000000 122 0 0 0 0 0
+#549
+herb breadl~
+A cluster of Breadl~
+A cluster of Breadl is lying here, ready to be used.~
+~
+32 0 1
+0 11 5 0
+1.000000 122 0 0 0 0 0
+#550
+fountain spring ~
+A Fountain~
+A fountain is here pouring out fresh, crisp water.~
+~
+17 0 0
+10000 10000 0 0
+1.000000 11 0 21228 0 0 0
+#551
+visayan~
+&OV&bi&zs&ba&zy&ba&zn&w~
+&OV&bi&zs&ba&zy&ba&zn&w~
+~
+5 262144&128&8464 513
+1000 29 33 6 -1 -1 0 10 14 12 13 0 40 4
+1.000000 425000 0 0 0 0 6
+'NONE'
+A
+1 3 0
+A
+13 38 0
+A
+12 34 0
+A
+79 4 0
+> damage_prog 30~
+if rand(50)
+mprestore $n 150
+mpecho $n feels the fury of Garroy.
+else
+mprestore $n 75
+mpecho $n feels the rage of the Em'nul Tribe.
+endif
+~
+|
+#552
+chair~
+&w&W Adelsin's Personal Toilet~
+&w&W Adelsin's Personal Toilet is here~
+~
+12 0 0
+4 4000 1024 1000 1000 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+#553
+reward~
+&OS&Wu&Op&We&Or &CCool &WReward~
+&OS&Wu&Op&We&Or &CCool &WReward~
+%s eat$q $p and is proclaimed a REWARDED PLAYER!~
+26 0 1
+10 70 106 159 30 0 0 0 0 0 0 0 0 0
+1.000000 8 0 5251 0 0 0
+'fireshield' 'iceshield' 'shockshield'
+#556
+emnul dirk~
+&gEm&G'nul &Rd&zi&Rr&zk&w~
+An &gEm&G'nul &Rd&zi&Rr&zk&w is here~
+~
+5 268435456&0&256 513
+1000 22 26 4 -1 -1 0 0 0 14 10 0 40 4
+1.500000 35000 0 0 0 0 3
+'NONE'
+A
+13 10 0
+A
+79 3 0
+#590
+emnul skin armor~
+&gEm&G'nul skin-ar&gmor&w~
+&gEm&G'nul skin-ar&gmor&w is waiting to be used~
+~
+9 0 9
+9 9 9 1000 9 1 0 0 0 0 0 0 0 0
+2.000000 40000 0 0 0 0 2
+#591
+emnul skin skull cap~
+&gEm&G'nul skin&g-sku&Gllcap&w~
+&gEm&G'nul skin&g-sku&Gllcap&w is just lying here~
+~
+9 0 17
+11 11 11 1000 9 1 0 0 0 0 0 0 0 0
+2.000000 24000 0 0 0 0 1
+#592
+emnul skin neck brace~
+&gEm&G'nul skin-n&geckbr&Gace~
+&gEm&G'nul skin-n&geckbr&Gace&w is here waiting for a new neck~
+~
+9 0 5
+11 11 11 1000 9 1 0 0 0 0 0 0 0 0
+2.000000 4800 0 0 0 0 1
+#593
+emnul skin greave~
+&gEm'&Gnul skin-gr&geave&w~
+An &gEm'&Gnul skin-gr&geave&w is lying here~
+~
+9 0 33
+10 10 10 1000 9 1 0 0 0 0 0 0 0 0
+2.000000 20000 0 0 0 0 2
+#594
+emnul skin gauntlet~
+&gEm&G'nul skin-&ggaun&Gtlet&w~
+An &gEm&G'nul skin-&ggaun&Gtlet&w is here~
+~
+9 0 65
+10 10 10 1000 9 1 0 0 0 0 0 0 0 0
+2.000000 16000 0 0 0 0 2
+#599
+placeholder~
+a newly created placeholder~
+Some god dropped a newly created placeholder here.~
+~
+13 1073741824 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#0
+
+
+#ROOMS
+#451
+Entrance to a tribal village.~
+&YBeautiful beach area with a soft ocean current, radiant palm
+&Ytrees, and of course the &gEm&G'nul Strongb&gack's.&w
+&YThis tribe has survived many centuries  on these beaches,
+&Ywithstood many raging wars, and the harshest of what Mother
+&Ynature brings.
+&YThere is a path that continues north.
+
+&WA sign is here.
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+no simple~
+0 -1 453
+0 0
+D1
+~
+~
+134217728 -1 16000
+689 354
+E
+sign~
+&g    _____  
+ &Woo&G/><><>\.
+&g( -)&G><><><>
+&g  L|_|L|_|`&w
+
+|\| () 
+~
+S
+#452
+&YP&Ge&Wr&Yf&Ge&Wc&Yt&Gl&Wy &Yc&Gu&Wt &Yb&Ge&Wa&Yc&Gh &Wp&Ya&Gt&Wh&Y.&w~
+&YThis c&Gu&Wt p&Ya&Gt&Wh&Y really is perfect. Nice soft comforting sand
+&Wp&Ya&Gt&Wh&Y that curves with your feet without letting 
+&Yyou sink. You see normal every day turtle people or &gEm&G'nul's
+&Ygo about their normal everyday business of working jobs to
+&Yserve community, raising the young, fishing for food, and
+&Yserving the town's militia to preserve peace. There are many
+&BH&Pu&Wt&B'&Ps&Y off in the distance.
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 457
+0 0
+D1
+~
+~
+0 -1 453
+0 0
+S
+#453
+&YP&Ge&Wr&Yf&Ge&Wc&Yt&Gl&Wy &Yc&Gu&Wt &Yb&Ge&Wa&Yc&Gh &Wp&Ya&Gt&Wh&Y.&w~
+&Y As you walk in you noticed these creatures that closely
+&Yresemble turtles. They stand fairly tall with a seemingly
+&Ybrute appearance.
+
+&YYou see a &BH&Pu&Wt&Y to the north.
+&WP&Ya&Gt&Wh&Y to the west.
+&YAnd a &RT&Wu&rn&Rn&We&rl&Y to the east.
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+1 -1 458
+0 0
+D1
+~
+~
+0 -1 454
+0 0
+D2
+~
+~
+0 -1 451
+0 0
+D3
+~
+~
+0 -1 452
+0 0
+S
+#454
+&rD&Ra&Wr&rk &RT&Wu&rn&Rn&We&rl&R.&w~
+&r Dark, damp, loney tunnel. Can't fit no more then two people
+&r but seems to fit one of these &gEm&G'nul Strongb&gack's&r just
+&r perfectly. There is a dark sound of tapping. Probably just
+&r water you tell yourself. Never can be to sure. Pictures of
+&r poorly drawn out upright turtles can be seen doing 
+&r everything from fighting fierce battles to farming in the
+&r plains to adventuring to neighboring towns.
+~
+1073742089&2
+0 0 0 0 2 0
+0
+0
+D1
+~
+~
+0 -1 455
+0 0
+D3
+~
+~
+0 -1 453
+0 0
+E
+pictures~
+&g    _____  
+ &Woo&G/><><>\.
+&g( -)&G><><><>
+&g  L|_|L|_|`&w
+
+~
+E
+pictuires~
+look
+~
+S
+#455
+&rD&Ra&Wr&rk &RT&Wu&rn&Rn&We&rl&R.&w~
+&r Dark, damp, loney tunnel. Can't fit no more then two people
+&r but seems to fit one of these &gEm&G'nul Strongb&gack's&r just
+&r perfectly. There is a dark sound of tapping. Probably just
+&r water you tell yourself. Never can be to sure. Pictures of
+&r poorly drawn out upright turtles can be seen doing 
+&r everything from fighting fierce battles to farming in the
+&r plains to adventuring to neighboring towns.
+~
+1073742089&2
+0 0 0 0 2 0
+0
+0
+D0
+~
+~
+0 -1 460
+0 0
+D1
+~
+~
+0 -1 456
+0 0
+D3
+~
+~
+0 -1 454
+0 0
+E
+pictures~
+&W   **
+  *&w**&W*
+ *&w****&W*
+  *&w**&W*
+&W   **
+~
+S
+#456
+&rD&Ra&Wr&rk &RT&Wu&rn&Rn&We&rl&R.&w~
+&rEven smaller tunnel which is obviously is a dead end. Seems like somethings sneaking up on you, but what? Better get out.
+~
+1073742089&2
+0 0 0 0 2 0
+0
+0
+D3
+~
+~
+0 -1 455
+0 0
+S
+#457
+&YP&Ge&Wr&Yf&Ge&Wc&Yt&Gl&Wy &Yc&Gu&Wt &Yb&Ge&Wa&Yc&Gh &Wp&Ya&Gt&Wh&Y.&w~
+&YThis c&Gu&Wt p&Ya&Gt&Wh&Y really is perfect. Nice soft comforting sand
+&Wp&Ya&Gt&Wh&Y that curves with your feet without letting 
+&Yyou sink. You see normal every day turtle people or &gEm&G'nul's
+&Ygo about their normal everyday business of working jobs to
+&Yserve community, raising the young, fishing for food, and
+&Yserving the town's militia to preserve peace. There are many
+&BH&Pu&Wt&B'&Ps&Y off to the southwest.
+~
+1073741828&2
+0 44
+0
+0
+D2
+~
+~
+0 -1 452
+0 0
+D6
+~
+~
+0 -1 462
+0 0
+D9
+~
+~
+0 -1 527
+0 0
+S
+#458
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 459
+0 0
+D2
+~
+~
+1 -1 453
+0 0
+S
+#459
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741824&2
+0 0
+0
+0
+D3
+~
+~
+0 -1 458
+0 0
+S
+#460
+&rD&Ra&Wr&rk &RT&Wu&rn&Rn&We&rl&R.&w~
+&r Dark, damp, loney tunnel. Can't fit no more then two people
+&r but seems to fit one of these &gEm&G'nul Strongb&gack's&r just
+&r perfectly. There is a dark sound of tapping. Probably just
+&r water you tell yourself. Never can be to sure. Pictures of
+&r poorly drawn out upright turtles can be seen doing 
+&r everything from fighting fierce battles to farming in the
+&r plains to adventuring to neighboring towns.
+~
+1073741833&2
+0 0 0 0 2 0
+0
+0
+D1
+~
+~
+0 -1 461
+0 0
+D2
+~
+~
+0 -1 455
+0 0
+E
+turtles~
+~
+E
+pictures~
+&g    _____  
+ &Woo&G/><><>\.
+&g( -)&G><><><>
+&g  L|_|L|_|`&w
+
+~
+S
+#461
+&rD&Ra&Wr&rk &RT&Wu&rn&Rn&We&rl&R.&w~
+&r Dark, damp, loney tunnel. Can't fit no more then two people
+&r but seems to fit one of these &gEm&G'nul Strongb&gack's&r just
+&r perfectly. There is a dark sound of tapping. Probably just
+&r water you tell yourself. Never can be to sure. Pictures of
+&r poorly drawn out upright turtles can be seen doing 
+&r everything from fighting fierce battles to farming in the
+&r plains to adventuring to neighboring towns.
+~
+1073742089&2
+0 0 0 0 2 0
+0
+0
+D3
+~
+~
+0 -1 460
+0 0
+D6
+~
+~
+0 -1 464
+0 0
+E
+pictures~
+&g    _____  
+ &Woo&G/><><>\.
+&g( -)&G><><><>
+&g  L|_|L|_|`&w
+
+~
+S
+#462
+&YP&Ge&Wr&Yf&Ge&Wc&Yt&Gl&Wy &Yc&Gu&Wt &Yb&Ge&Wa&Yc&Gh &Wp&Ya&Gt&Wh&Y.&w~
+&YThis c&Gu&Wt p&Ya&Gt&Wh&Y really is perfect. Nice soft comforting sand
+&Wp&Ya&Gt&Wh&Y that curves with your feet without letting 
+&Yyou sink. You see normal every day turtle people or &gEm&G'nul's
+&Ygo about their normal everyday business of working jobs to
+&Yserve community, raising the young, fishing for food, and
+&Yserving the town's militia to preserve peace. There are many
+&BH&Pu&Wt&B'&Ps&Y off in the distance.
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 465
+0 0
+D9
+~
+~
+0 -1 457
+0 0
+S
+#463
+&BI&Pn&Ws&Bi&Pd&We &Ba &PL&Wa&Br&Pg&We &BH&Pu&Wt&w~
+&P An absolutly huge &BH&Pu&Wt&P! Standing close to 15 feet tall and at least 12 feel wide.
+You see many "tribal-like" weapons all with some resemblness of a turtle, rather it be the hilt to the hammer end.
+The floor is produced by a rich brand of bamboo. It seems you could use this bamboo as a barbell for a 1000 pounds. 
+This floor was built to last.
+There is a door to the north.
+~
+1073741832&2
+0 0
+0
+0
+D0
+~
+~
+7 455 467
+0 0
+D7
+~
+~
+0 -1 466
+0 0
+S
+#464
+&rD&Ra&Wr&rk &RT&Wu&rn&Rn&We&rl&R.&w~
+&r The end of this tunnel is near for you can now make out
+&r light. Makes you wonder what's out there.  You can
+&r faintly here the beaches waves crash the well-kept shore.
+&r Musty smells and the shivering coldness begin to fade.
+~
+1073742089&2
+0 0 0 0 2 0
+0
+0
+D0
+~
+~
+0 -1 468
+0 0
+D9
+~
+~
+0 -1 461
+0 0
+E
+pictures~
+&g    _____  
+ &Woo&G/><><>\.
+&g( -)&G><><><>
+&g  L|_|L|_|`&w
+
+~
+E
+light~
+It's coming from the north.
+~
+S
+#465
+&rD&Ra&Wr&rk &RT&Wu&rn&Rn&We&rl&R.~
+&r Very dark &RT&Wu&rn&Rn&We&rl however, it is very cool which is a nice
+&r change from the heat outside. Musty and damp you can make out
+&r two exits... north and south. There is nothing visable on the
+&r walls that you can clearly see.
+~
+1073741824&2
+0 0 0 0 2 0
+0
+0
+D0
+~
+~
+0 -1 469
+0 0
+D2
+~
+~
+0 -1 462
+0 0
+D4
+~
+~
+2176 -1 499
+0 0
+S
+#466
+&BI&Pn&Ws&Bi&Pd&We &Ba &PL&Wa&Br&Pg&We &BH&Pu&Wt&w~
+&P An absolutly huge &BH&Pu&Wt&P! Standing close to 15 feet tall and at least 12 feel wide.
+You see many "tribal-like" weapons all with some resemblness of a turtle, rather it be the hilt to the hammer end.
+The floor is produced by a rich brand of bamboo. It seems you could use this bamboo as a barbell for a 1000 pounds. 
+This floor was built to last.
+~
+1073741832&2
+0 0
+0
+0
+D7
+~
+~
+3 -1 469
+0 0
+D8
+~
+~
+0 -1 463
+0 0
+S
+#467
+&BI&Pn&Ws&Bi&Pd&We &Ba &PL&Wa&Br&Pg&We &BH&Pu&Wt&w~
+~
+1076889612&2
+0 0
+0
+0
+D2
+~
+~
+7 455 463
+0 0
+S
+#468
+&WE&Bn&Ct&Br&Wa&Bn&Cc&Be &Wt&Co &BT&Cr&Wa&Ci&Bn&Ci&Wn&Cg &BG&Cr&Wo&Cu&Bn&Cd&Ws&C.&w~
+Battle grounds for the &gEm&G'nul Strongb&gack's&C. You can see the
+wonderful ocean from here. It seems like it goes on forever. 
+Makes you wonder what's out there,if anything. Battles cries
+scream from various directions.
+&RWatch out! They might now know your just visiting!
+~
+1073741825&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 471
+0 0
+D2
+~
+~
+0 -1 464
+0 0
+D6
+~
+~
+0 -1 472
+0 0
+D7
+~
+~
+0 -1 470
+0 0
+E
+ocean~
+&C   -`-`-`-`-`-`-`-
+&c   `-`-`-`-`-`-`-`
+&B   ---------------
+&b   ---------------
+        &BO&Cc&We&Ba&Cn&W.&w
+~
+S
+#469
+&YP&Ge&Wr&Yf&Ge&Wc&Yt&Gl&Wy &Yc&Gu&Wt &Yb&Ge&Wa&Yc&Gh &Wp&Ya&Gt&Wh&Y.&w~
+&YThis c&Gu&Wt p&Ya&Gt&Wh&Y really is perfect. Nice soft comforting sand
+&Wp&Ya&Gt&Wh&Y that curves with your feet without letting 
+&Yyou sink. You see normal every day turtle people or &gEm&G'nul's
+&Ygo about their normal everyday business of working jobs to
+&Yserve community, raising the young, fishing for food, and
+&Yserving the town's militia to preserve peace. There is a rather
+&Ylarge &BH&Pu&Wt&Y to the southeast.
+
+You can see the ocean from here.
+~
+1073741824&2
+0 44
+0
+0
+D2
+~
+~
+0 -1 465
+0 0
+D7
+~
+~
+0 -1 473
+0 0
+D8
+~
+~
+3 455 466
+0 0
+E
+ocean~
+&C   -`-`-`-`-`-`-`-
+&c   `-`-`-`-`-`-`-`
+&B   ---------------
+&b   ---------------
+        &BO&Cc&We&Ba&Cn&W.&w
+~
+S
+#470
+&BT&Cr&Wa&Ci&Bn&Ci&Wn&Cg &BG&Cr&Wo&Cu&Bn&Cd&Ws&C.&w~
+Battle grounds for the &gEm&G'nul Strongb&gack's&C. You can see the
+wonderful ocean from here. It seems like it goes on forever. 
+Makes you wonder what's out there,if anything. Battles cries
+scream from various directions.
+&RWatch out! They might now know your just visiting!
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 475
+0 0
+D1
+~
+~
+0 -1 471
+0 0
+D6
+~
+~
+0 -1 476
+0 0
+D7
+~
+~
+0 -1 474
+0 0
+D8
+~
+~
+0 -1 468
+0 0
+E
+ocean~
+&C   -`-`-`-`-`-`-`-
+&c   `-`-`-`-`-`-`-`
+&B   ---------------
+&b   ---------------
+        &BO&Cc&We&Ba&Cn&W.&w
+~
+S
+#471
+&BT&Cr&Wa&Ci&Bn&Ci&Wn&Cg &BG&Cr&Wo&Cu&Bn&Cd&Ws&C.&w~
+Battle grounds for the &gEm&G'nul Strongb&gack's&C. You can see the
+wonderful ocean from here. It seems like it goes on forever. 
+Makes you wonder what's out there,if anything. Battles cries
+scream from various directions.
+&RWatch out! They might now know your just visiting!
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 476
+0 0
+D1
+~
+~
+0 -1 472
+0 0
+D2
+~
+~
+0 -1 468
+0 0
+D3
+~
+~
+0 -1 470
+0 0
+D7
+~
+~
+0 -1 475
+0 0
+E
+ocean~
+&C   -`-`-`-`-`-`-`-
+&c   `-`-`-`-`-`-`-`
+&B   ---------------
+&b   ---------------
+        &BO&Cc&We&Ba&Cn&W.&w
+~
+S
+#472
+&BT&Cr&Wa&Ci&Bn&Ci&Wn&Cg &BG&Cr&Wo&Cu&Bn&Cd&Ws&C.&w~
+Battle grounds for the &gEm&G'nul Strongb&gack's&C. You can see the
+wonderful ocean from here. It seems like it goes on forever. 
+Makes you wonder what's out there,if anything. Battles cries
+scream from various directions.
+&RWatch out! They might now know your just visiting!
+~
+1073741824&2
+0 44
+0
+0
+D3
+~
+~
+0 -1 471
+0 0
+D7
+~
+~
+0 -1 476
+0 0
+D9
+~
+~
+0 -1 468
+0 0
+E
+ocean~
+&C   -`-`-`-`-`-`-`-
+&c   `-`-`-`-`-`-`-`
+&B   ---------------
+&b   ---------------
+        &BO&Cc&We&Ba&Cn&W.&w
+~
+S
+#473
+&YP&Ge&Wr&Yf&Ge&Wc&Yt&Gl&Wy &Yc&Gu&Wt &Yb&Ge&Wa&Yc&Gh &Wp&Ya&Gt&Wh&Y.&w~
+&YThis c&Gu&Wt p&Ya&Gt&Wh&Y really is perfect. Nice soft comforting sand
+&Wp&Ya&Gt&Wh&Y that curves with your feet without letting 
+&Yyou sink. You see normal every day turtle people or &gEm&G'nul's
+&Ygo about their normal everyday business of working jobs to
+&Yserve community, raising the young, fishing for food, and
+&Yserving the town's militia to preserve peace. There are many
+&BH&Pu&Wt&B'&Ps&Y off to the southwest.
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 477
+0 0
+D8
+~
+~
+0 -1 469
+0 0
+D9
+~
+~
+0 -1 571
+0 0
+S
+#474
+&BT&Cr&Wa&Ci&Bn&Ci&Wn&Cg &BG&Cr&Wo&Cu&Bn&Cd&Ws&C.&w~
+Battle grounds for the &gEm&G'nul Strongb&gack's&C. You can see the
+wonderful ocean from here. It seems like it goes on forever. 
+Makes you wonder what's out there,if anything. Battles cries
+scream from various directions.
+&RWatch out! They might now know your just visiting!
+~
+1073741824&2
+0 44
+0
+0
+D1
+~
+~
+0 -1 475
+0 0
+D8
+~
+~
+0 -1 470
+0 0
+E
+ocean~
+&C   -`-`-`-`-`-`-`-
+&c   `-`-`-`-`-`-`-`
+&B   ---------------
+&b   ---------------
+        &BO&Cc&We&Ba&Cn&W.&w
+~
+S
+#475
+&BT&Cr&Wa&Ci&Bn&Ci&Wn&Cg &BG&Cr&Wo&Cu&Bn&Cd&Ws&C.&w~
+Battle grounds for the &gEm&G'nul Strongb&gack's&C. You can see the
+wonderful ocean from here. It seems like it goes on forever. 
+Makes you wonder what's out there,if anything. Battles cries
+scream from various directions.
+&RWatch out! They might now know your just visiting!
+~
+1073741824&2
+0 44
+0
+0
+D1
+~
+~
+0 -1 476
+0 0
+D2
+~
+~
+0 -1 470
+0 0
+D3
+~
+~
+0 -1 474
+0 0
+D8
+~
+~
+0 -1 471
+0 0
+E
+ocean~
+&C   -`-`-`-`-`-`-`-
+&c   `-`-`-`-`-`-`-`
+&B   ---------------
+&b   ---------------
+        &BO&Cc&We&Ba&Cn&W.&w
+~
+S
+#476
+&BT&Cr&Wa&Ci&Bn&Ci&Wn&Cg &BG&Cr&Wo&Cu&Bn&Cd&Ws&C.&w~
+Battle grounds for the &gEm&G'nul Strongb&gack's&C. You can see the
+wonderful ocean from here. It seems like it goes on forever. 
+Makes you wonder what's out there,if anything. Battles cries
+scream from various directions.
+&RWatch out! They might now know your just visiting!
+~
+1073741824&2
+0 44
+0
+0
+D2
+~
+~
+0 -1 471
+0 0
+D3
+~
+~
+0 -1 475
+0 0
+D8
+~
+~
+0 -1 472
+0 0
+D9
+~
+~
+0 -1 470
+0 0
+E
+ocean~
+&C   -`-`-`-`-`-`-`-
+&c   `-`-`-`-`-`-`-`
+&B   ---------------
+&b   ---------------
+        &BO&Cc&We&Ba&Cn&W.&w
+~
+S
+#477
+Dead end.~
+&YThis c&Gu&Wt p&Ya&Gt&Wh&Y really is perfect. Nice soft comforting sand
+&Wp&Ya&Gt&Wh&Y that curves with your feet without letting 
+&Yyou sink. You see normal every day turtle people or &gEm&G'nul's
+&Ygo about their normal everyday business of working jobs to
+&Yserve community, raising the young, fishing for food, and
+&Yserving the town's militia to preserve peace. There are many
+&BH&Pu&Wt&B'&Ps&Y off in the distance.
+~
+1073741824&2
+0 44
+0
+0
+D2
+~
+~
+0 -1 473
+0 0
+S
+#478
+Breeding Farm.~
+~
+1073741824
+0 2
+0
+0
+D0
+~
+~
+0 -1 481
+0 0
+D1
+~
+~
+0 -1 479
+0 0
+D6
+~
+~
+0 -1 482
+0 0
+D8
+~
+~
+0 -1 477
+0 0
+S
+#479
+Breeding Farm.~
+~
+1073741824
+0 2
+0
+0
+D0
+~
+~
+0 -1 482
+0 0
+D1
+~
+~
+0 -1 480
+0 0
+D2
+~
+~
+0 -1 477
+0 0
+D3
+~
+~
+0 -1 478
+0 0
+D6
+~
+~
+0 -1 483
+0 0
+D7
+~
+~
+0 -1 481
+0 0
+S
+#480
+Breeding Name.~
+~
+1073741824
+0 2
+0
+0
+D0
+~
+~
+0 -1 483
+0 0
+D3
+~
+~
+0 -1 479
+0 0
+D7
+~
+~
+0 -1 482
+0 0
+D9
+~
+~
+0 -1 477
+0 0
+S
+#481
+Breeding Farm.~
+~
+1073741824
+0 2
+0
+0
+D0
+~
+~
+0 -1 484
+0 0
+D1
+~
+~
+0 -1 482
+0 0
+D2
+~
+~
+0 -1 478
+0 0
+D6
+~
+~
+0 -1 485
+0 0
+D8
+~
+~
+0 -1 479
+0 0
+S
+#482
+Breeding Farm.~
+~
+1073741824
+0 2
+0
+0
+D0
+~
+~
+0 -1 485
+0 0
+D1
+~
+~
+0 -1 483
+0 0
+D2
+~
+~
+0 -1 479
+0 0
+D3
+~
+~
+0 -1 481
+0 0
+D6
+~
+~
+0 -1 486
+0 0
+D7
+~
+~
+0 -1 484
+0 0
+D8
+~
+~
+0 -1 480
+0 0
+D9
+~
+~
+0 -1 478
+0 0
+S
+#483
+Breeding Farm.~
+~
+1073741824
+0 2
+0
+0
+D0
+~
+~
+0 -1 486
+0 0
+D2
+~
+~
+0 -1 480
+0 0
+D3
+~
+~
+0 -1 482
+0 0
+D7
+~
+~
+0 -1 485
+0 0
+D9
+~
+~
+0 -1 479
+0 0
+S
+#484
+Breeding Farm.~
+~
+1073741824
+0 2
+0
+0
+D1
+~
+~
+0 -1 485
+0 0
+D2
+~
+~
+0 -1 481
+0 0
+D8
+~
+~
+0 -1 482
+0 0
+S
+#485
+Breeding Farm.~
+~
+1073741824
+0 2
+0
+0
+D1
+~
+~
+0 -1 486
+0 0
+D2
+~
+~
+0 -1 482
+0 0
+D3
+~
+~
+0 -1 484
+0 0
+D8
+~
+~
+0 -1 483
+0 0
+D9
+~
+~
+0 -1 481
+0 0
+S
+#486
+Breeding Farm.~
+~
+1073741824
+0 2
+0
+0
+D2
+~
+~
+0 -1 483
+0 0
+D3
+~
+~
+0 -1 485
+0 0
+D9
+~
+~
+0 -1 482
+0 0
+S
+#487
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#498
+Floating in a void~
+~
+4
+0 1
+0
+0
+S
+#499
+&rW&Re&Wl&rl&R-&WF&ru&Rr&Wn&ri&rs&Rh&We&rd &RC&Wa&rv&Re&W.~
+&r It is absolutly amazing how much a single room in cave can be furnished. There is a bed, a desk, a table used for dining, and a rotted door.
+The &Rc&Wa&rv&Re&r is extremly clean for having dirt floors and walls.
+There is a ceiling lantern providing the light for the room.
+Makes you wonder who could live is such a place.
+~
+1073741836&2
+0 0
+0
+0
+D5
+~
+~
+0 -1 465
+0 0
+E
+bed~
+&W A well-made bed, wouldn't want to disturb it.
+~
+E
+desk~
+&r Rather cluttered with this and that. You notice a&w &WNote&r and a &PP&pu&Pr&pp&Pl&pe&w &WEnvelope&r.
+~
+E
+note~
+&r Reads as follows:
+&w&W
+
+
+       _________________________________________     
+       |                                        |        
+       |                                        |        
+       |     Ran to the store,                  |        
+       |        Be back shortly                 |        
+       |                          Love,         |      
+       |                           Ayrus        |      
+       |                                        |        
+       |                                        |      
+       | _______________________________________|         
+~
+E
+purple~
+&r It's a sealed envelope.
+&P
+ __________________________________
+|\                                /|
+| \                              / |
+|  \___________________________ /  |
+|                                  |
+|                                  |
+|                                  |
+|                                  |
+|_________________________________ |
+&W Better not open it.
+~
+E
+envelope~
+&r It's a sealed envelope.
+&P
+ __________________________________
+|\                                /|
+| \                              / |
+|  \___________________________ /  |
+|                                  |
+|                                  |
+|                                  |
+|                                  |
+|_________________________________ |
+&W Better not open it.
+~
+E
+table~
+&r Basic table with a&w &WBright &WW&wh&Wi&wt&We&r table cloth.
+It has been set with dinner plates.
+~
+> entry_prog 5~
+mpoload 455
+~
+|
+S
+#500
+&c.&c.&c.&c.&C.&C.&C.&C.&B.&B.&B.&B.&C.&C.&C.&C.&c.&c.&c.&c.~
+exa cool
+~
+4
+0 1
+0
+0
+E
+cool~
+&W
+                ______ 
+                \     \. 
+                |`\_____\.
+                |` |    | 
+   __-====-__   |  |    | 
+  (-<       >->_|  |    | 
+  {---====----:  \ |    | 
+  !----------/----`+----/ 
+   \         \___     / 
+    >------\     \  <   
+   <_________________>  
+
+&C.&W.&C.&cO&Cn&Cl&cy &cA&cn&Cc&Wi&Ce&cn&ct &cw&Ci&Ct&ch &Wa &cT&Co&Wi&Wl&Ce&ct&C.&W.&C.
+~
+> act_prog p $n begs and grovels to the powers that be~
+mpecho Woah!
+~
+|
+S
+#501
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gNs&Gah&w~
+~
+1073741824&2
+0 44
+0
+0
+D2
+~
+~
+0 -1 502
+0 0
+D6
+~
+~
+0 -1 570
+0 0
+S
+#502
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gNs&Gah&w~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 501
+0 0
+D1
+~
+~
+1 -1 543
+0 0
+D2
+~
+~
+0 -1 503
+0 0
+D9
+~
+~
+0 -1 517
+0 0
+S
+#503
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gNs&Gah&w~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 502
+0 0
+D1
+~
+~
+3 -1 544
+0 0
+D2
+~
+~
+0 -1 504
+0 0
+S
+#504
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gNs&Gah&w~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 503
+0 0
+D1
+~
+~
+1 -1 545
+0 0
+D2
+~
+~
+0 -1 505
+0 0
+D3
+~
+~
+3 -1 560
+0 0
+S
+#505
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gNs&Gah&w~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 504
+0 0
+D1
+~
+~
+3 -1 546
+0 0
+D2
+~
+~
+0 -1 506
+0 0
+D3
+~
+~
+1 -1 561
+0 0
+S
+#506
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gNs&Gah&w~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 505
+0 0
+D1
+~
+~
+3 -1 547
+0 0
+D2
+~
+~
+0 -1 507
+0 0
+D9
+~
+~
+0 -1 528
+0 0
+S
+#507
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gNs&Gah&w~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 506
+0 0
+D1
+~
+~
+3 -1 548
+0 0
+D2
+~
+~
+0 -1 508
+0 0
+S
+#508
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gNs&Gah&w~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 507
+0 0
+D1
+~
+~
+3 -1 549
+0 0
+D2
+~
+~
+0 -1 509
+0 0
+S
+#509
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gNs&Gah&w~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 508
+0 0
+D2
+~
+~
+0 -1 510
+0 0
+S
+#510
+&YI&Gn&Rt&Ye&Gr&Rs&Ye&Gc&Rt&Yi&Go&Rn &Y- &gNs&Gah &gT&Gun&w~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 509
+0 0
+D1
+~
+~
+0 -1 526
+0 0
+D2
+~
+~
+0 -1 511
+0 0
+D3
+~
+~
+0 -1 525
+0 0
+S
+#511
+&rD&Ra&Wr&rk &RT&Wu&rn&Rn&We&rl&R.&w~
+~
+1073741837&2
+0 0 0 0 2 0
+0
+0
+D0
+~
+~
+0 -1 510
+0 0
+D1
+~
+~
+2048 -1 542
+0 0
+D2
+~
+~
+0 -1 512
+0 0
+S
+#512
+&rD&Ra&Wr&rk &RT&Wu&rn&Rn&We&rl&R.&w~
+~
+1073741837&2
+0 0 0 0 2 0
+0
+0
+D0
+~
+~
+0 -1 511
+0 0
+D2
+~
+~
+0 -1 513
+0 0
+S
+#513
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gNs&Gah&w~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 512
+0 0
+D2
+~
+~
+0 -1 514
+0 0
+D3
+~
+~
+0 -1 541
+0 0
+S
+#514
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gNs&Gah&w~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 513
+0 0
+D2
+~
+~
+0 -1 515
+0 0
+D3
+~
+~
+1 -1 572
+0 0
+S
+#515
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gNs&Gah&w~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 514
+0 0
+D9
+~
+~
+0 -1 516
+0 0
+S
+#516
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gNs&Gah&w~
+~
+1073741824&2
+0 44
+0
+0
+D2
+~
+~
+0 -1 574
+0 0
+D6
+~
+~
+0 -1 515
+0 0
+S
+#517
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gT&Gun~
+~
+1073741824&2
+0 44
+0
+0
+D6
+~
+~
+0 -1 502
+0 0
+D7
+~
+~
+3 -1 550
+0 0
+D9
+~
+~
+0 -1 518
+0 0
+S
+#518
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gT&Gun~
+~
+1073741824&2
+0 44
+0
+0
+D6
+~
+~
+0 -1 517
+0 0
+D7
+~
+~
+1 -1 551
+0 0
+D9
+~
+~
+0 -1 519
+0 0
+S
+#519
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gT&Gun~
+~
+1073741824&2
+0 44
+0
+0
+D2
+~
+~
+0 -1 520
+0 0
+D3
+~
+~
+3 -1 552
+0 0
+D6
+~
+~
+0 -1 518
+0 0
+S
+#520
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gT&Gun~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 519
+0 0
+D2
+~
+~
+0 -1 521
+0 0
+D3
+~
+~
+3 -1 553
+0 0
+S
+#521
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gT&Gun~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 520
+0 0
+D2
+~
+~
+0 -1 522
+0 0
+D3
+~
+~
+1 -1 554
+0 0
+S
+#522
+&YI&Gn&Rt&Ye&Gr&Rs&Ye&Gc&Rt&Yi&Go&Rn &Y- &gT&Gun &gTy&Grle&w~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 521
+0 0
+D1
+~
+~
+0 -1 529
+0 0
+D2
+~
+~
+0 -1 523
+0 0
+D3
+~
+~
+0 -1 530
+0 0
+S
+#523
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gT&Gun~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 522
+0 0
+D3
+~
+~
+3 -1 555
+0 0
+D8
+~
+~
+0 -1 524
+0 0
+S
+#524
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gT&Gun~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+3 -1 556
+0 0
+D1
+~
+~
+0 -1 525
+0 0
+D7
+~
+~
+0 -1 523
+0 0
+S
+#525
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gT&Gun~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+1 -1 557
+0 0
+D1
+~
+~
+0 -1 510
+0 0
+D3
+~
+~
+0 -1 524
+0 0
+S
+#526
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gT&Gun~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+3 -1 558
+0 0
+D3
+~
+~
+0 -1 510
+0 0
+D6
+~
+~
+0 -1 527
+0 0
+S
+#527
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gT&Gun~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+1 -1 559
+0 0
+D6
+~
+~
+0 -1 457
+0 0
+D9
+~
+~
+0 -1 526
+0 0
+S
+#528
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gTy&Grle~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+3 -1 563
+0 0
+D6
+~
+~
+0 -1 506
+0 0
+D9
+~
+~
+0 -1 529
+0 0
+S
+#529
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gTy&Grle~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+3 -1 564
+0 0
+D3
+~
+~
+0 -1 522
+0 0
+D6
+~
+~
+0 -1 528
+0 0
+S
+#530
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gTy&Grle~
+~
+1073741824&2
+0 44
+0
+0
+D1
+~
+~
+0 -1 522
+0 0
+D3
+~
+~
+3 -1 565
+0 0
+D9
+~
+~
+0 -1 531
+0 0
+S
+#531
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gTy&Grle~
+~
+1073741824&2
+0 44
+0
+0
+D2
+~
+~
+0 -1 532
+0 0
+D3
+~
+~
+3 -1 566
+0 0
+D6
+~
+~
+0 -1 530
+0 0
+S
+#532
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gTy&Grle~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 531
+0 0
+D1
+~
+~
+1 -1 568
+0 0
+D2
+~
+~
+0 -1 533
+0 0
+D3
+~
+~
+3 -1 567
+0 0
+S
+#533
+&rD&Ra&Wr&rk &RT&Wu&rn&Rn&We&rl&R.&w~
+~
+1073741837&2
+0 0 0 0 2 0
+0
+0
+D0
+~
+~
+0 -1 532
+0 0
+D2
+~
+~
+0 -1 534
+0 0
+S
+#534
+&rD&Ra&Wr&rk &RT&Wu&rn&Rn&We&rl&R.&w~
+~
+1073741837&2
+0 0 0 0 2 0
+0
+0
+D0
+~
+~
+0 -1 533
+0 0
+D2
+~
+~
+0 -1 535
+0 0
+S
+#535
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gTy&Grle~
+~
+1073741824&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 534
+0 0
+D1
+~
+~
+0 -1 538
+0 0
+D8
+~
+~
+0 -1 536
+0 0
+S
+#536
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gTy&Grle~
+~
+1073741824&2
+0 44
+0
+0
+D7
+~
+~
+0 -1 535
+0 0
+D8
+~
+~
+0 -1 537
+0 0
+S
+#537
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gTy&Grle~
+~
+1073741824&2
+0 44
+0
+0
+D6
+~
+~
+1 -1 573
+0 0
+D7
+~
+~
+0 -1 536
+0 0
+S
+#538
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gMer&Gsain&w~
+~
+1073741824&2
+0 44
+0
+0
+D1
+~
+~
+0 -1 539
+0 0
+D3
+~
+~
+0 -1 535
+0 0
+S
+#539
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gMer&Gsain&w~
+~
+1073741824&2
+0 44
+0
+0
+D1
+~
+~
+0 -1 540
+0 0
+D2
+~
+~
+0 -1 575
+0 0
+D3
+~
+~
+0 -1 538
+0 0
+S
+#540
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gMer&Gsain&w~
+~
+1073741824&2
+0 44
+0
+0
+D1
+~
+~
+0 -1 541
+0 0
+D3
+~
+~
+0 -1 539
+0 0
+S
+#541
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gMer&Gsain&w~
+~
+1073741824&2
+0 44
+0
+0
+D1
+~
+~
+0 -1 513
+0 0
+D2
+~
+~
+1 -1 572
+0 0
+D3
+~
+~
+0 -1 540
+0 0
+S
+#542
+&rC&Ra&Wv&re~
+&r A poorly dug cave. Looks like it could callaspe at any
+&rsecond.
+~
+4&2
+0 44
+0
+0
+D3
+~
+~
+0 -1 511
+0 0
+S
+#543
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D3
+~
+~
+1 -1 502
+0 0
+S
+#544
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D3
+~
+~
+1 -1 503
+0 0
+S
+#545
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D3
+~
+~
+1 -1 504
+0 0
+S
+#546
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D3
+~
+~
+1 -1 505
+0 0
+S
+#547
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D3
+~
+~
+1 -1 506
+0 0
+S
+#548
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D3
+~
+~
+3 -1 507
+0 0
+S
+#549
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741836&2
+0 0
+0
+0
+D3
+~
+~
+1 -1 508
+0 0
+S
+#550
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D8
+~
+~
+3 -1 517
+0 0
+S
+#551
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D8
+~
+~
+1 -1 518
+0 0
+S
+#552
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D1
+~
+~
+1 -1 519
+0 0
+S
+#553
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D1
+~
+~
+3 -1 520
+0 0
+S
+#554
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D1
+~
+~
+1 -1 521
+0 0
+S
+#555
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D1
+~
+~
+1 -1 523
+0 0
+S
+#556
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D2
+~
+~
+1 -1 524
+0 0
+S
+#557
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 569
+0 0
+D2
+~
+~
+1 -1 525
+0 0
+S
+#558
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D2
+~
+~
+1 -1 526
+0 0
+S
+#559
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D2
+~
+~
+1 -1 527
+0 0
+S
+#560
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D1
+~
+~
+3 -1 504
+0 0
+S
+#561
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D1
+~
+~
+1 -1 505
+0 0
+D9
+~
+~
+0 -1 562
+0 0
+S
+#562
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D6
+~
+~
+0 -1 561
+0 0
+S
+#563
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D2
+~
+~
+1 -1 528
+0 0
+S
+#564
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D2
+~
+~
+3 -1 529
+0 0
+S
+#565
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D1
+~
+~
+1 -1 530
+0 0
+S
+#566
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D1
+~
+~
+3 -1 531
+0 0
+S
+#567
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D1
+~
+~
+1 -1 532
+0 0
+S
+#568
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D3
+~
+~
+1 -1 532
+0 0
+S
+#569
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+&PAverage, normal &BH&Pu&Wt&P with bamboo floor and walls with
+&Phay. It does an unusual smell, as if someone hasn't bathed in 
+&Pweeks! It is really hot in here, but supplies relief from the
+&Psun. Even with the heat, there's excuse for not bathing, then
+&Pagain, when was the last time you bathed?
+~
+1073741832&2
+0 0
+0
+0
+D2
+~
+~
+0 -1 557
+0 0
+S
+#570
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gNs&Gah&w~
+~
+1073741824&2
+0 44
+0
+0
+D6
+~
+~
+0 -1 571
+0 0
+D9
+~
+~
+0 -1 501
+0 0
+S
+#571
+&YR&Ge&Rs&Yi&Gd&Re&Yn&Gt&Ra&Yl &G- &gNs&Gah&w~
+~
+1073741828&2
+0 44
+0
+0
+D6
+~
+~
+0 -1 473
+0 0
+D9
+~
+~
+0 -1 570
+0 0
+S
+#572
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+~
+1073742340&2050
+0 0
+0
+0
+D0
+~
+~
+0 -1 541
+0 0
+D1
+~
+~
+0 -1 514
+0 0
+S
+#573
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+~
+1073742340&2050
+0 0
+0
+0
+D9
+~
+~
+0 -1 537
+0 0
+S
+#574
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+~
+1073741824&2
+0 0
+0
+0
+D0
+~
+~
+1 -1 516
+0 0
+S
+#575
+&BI&Pn&Ws&Bi&Pd&We &BH&Pu&Wt&B.&w~
+~
+1073741828&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 539
+0 0
+S
+#576
+&w&WG&wi&Wa&wn&Wt &wM&Wi&wl&Wk &wR&Wo&wo&Wm~
+&wAll you can see is &WM&wI&WL&wK&W!
+~
+1073741828
+0 1
+0
+0
+S
+#598
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#599
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#0
+
+
+#RESETS
+M 1 451 1 452 -1 -1 -1 0 0
+E 1 452 1 13 -1 0 0
+M 1 451 1 469 -1 -1 -1 0 0
+E 1 452 1 13 -1 0 0
+D 0 469 8 1
+M 1 451 1 477 -1 -1 -1 0 0
+E 1 452 1 13 -1 0 0
+M 1 451 1 468 -1 -1 -1 0 0
+E 1 452 1 13 -1 0 0
+G 1 21221 1 0 -1 0 0
+P 0 21218 10 0 -1 0 0
+P 0 21212 1 0 -1 0 0
+M 1 451 1 453 -1 -1 -1 0 0
+E 1 452 1 13 -1 0 0
+D 0 453 0 0
+M 1 500 1 500 -1 -1 -1 0 0
+E 1 500 1 13 -1 0 0
+M 1 452 1 472 -1 -1 -1 0 0
+E 1 453 1 13 -1 0 0
+M 1 452 1 470 -1 -1 -1 0 0
+E 1 453 1 13 -1 0 0
+M 1 452 1 474 -1 -1 -1 0 0
+E 1 453 1 13 -1 0 0
+M 1 452 1 475 -1 -1 -1 0 0
+E 1 453 1 13 -1 0 0
+M 1 452 1 476 -1 -1 -1 0 0
+E 1 453 1 13 -1 0 0
+M 1 452 1 471 -1 -1 -1 0 0
+E 1 453 1 13 -1 0 0
+D 0 527 0 0
+D 0 526 0 1
+D 0 525 0 0
+D 0 524 0 1
+D 0 523 3 1
+D 0 530 3 1
+D 0 531 3 1
+D 0 532 1 0
+D 0 532 3 1
+D 0 521 3 0
+D 0 520 3 1
+D 0 519 3 1
+D 0 518 7 0
+D 0 517 7 1
+D 0 502 1 0
+D 0 503 1 1
+D 0 504 1 0
+D 0 504 3 1
+D 0 505 1 1
+D 0 505 3 0
+D 0 506 1 1
+D 0 528 0 1
+D 0 529 0 1
+D 0 507 1 1
+D 0 508 1 1
+M 0 454 1 517 -1 -1 -1 0 0
+M 0 454 1 504 -1 -1 -1 0 0
+M 0 454 1 509 -1 -1 -1 0 0
+M 0 454 1 520 -1 -1 -1 0 0
+M 0 454 1 525 -1 -1 -1 0 0
+M 0 454 1 528 -1 -1 -1 0 0
+M 0 454 1 532 -1 -1 -1 0 0
+M 0 454 1 558 -1 -1 -1 0 0
+M 0 454 1 555 -1 -1 -1 0 0
+M 0 454 1 566 -1 -1 -1 0 0
+M 0 454 1 561 -1 -1 -1 0 0
+M 0 454 1 546 -1 -1 -1 0 0
+M 0 454 1 549 -1 -1 -1 0 0
+M 0 454 1 560 -1 -1 -1 0 0
+M 0 454 1 524 -1 -1 -1 0 0
+M 0 454 1 518 -1 -1 -1 0 0
+M 0 455 1 519 -1 -1 -1 0 0
+M 0 455 1 524 -1 -1 -1 0 0
+M 0 455 1 532 -1 -1 -1 0 0
+M 0 455 1 502 -1 -1 -1 0 0
+M 0 455 1 560 -1 -1 -1 0 0
+M 0 455 1 530 -1 -1 -1 0 0
+M 0 455 1 510 -1 -1 -1 0 0
+M 0 455 1 522 -1 -1 -1 0 0
+M 0 455 1 564 -1 -1 -1 0 0
+M 0 455 1 553 -1 -1 -1 0 0
+M 0 456 1 532 -1 -1 -1 0 0
+M 0 456 1 556 -1 -1 -1 0 0
+M 0 456 1 558 -1 -1 -1 0 0
+M 0 456 1 546 -1 -1 -1 0 0
+M 0 456 1 560 -1 -1 -1 0 0
+M 0 456 1 550 -1 -1 -1 0 0
+M 0 456 1 565 -1 -1 -1 0 0
+M 0 456 1 555 -1 -1 -1 0 0
+M 0 456 1 524 -1 -1 -1 0 0
+M 1 457 1 459 -1 -1 -1 0 0
+M 1 459 1 516 -1 -1 -1 0 0
+G 1 549 1 0 -1 0 0
+G 1 547 2 0 -1 0 0
+G 1 547 2 0 -1 0 0
+G 1 548 1 0 -1 0 0
+G 1 546 1 0 -1 0 0
+M 1 458 1 542 -1 -1 -1 0 0
+G 1 545 1 0 -1 0 0
+G 1 547 1 0 -1 0 0
+M 1 467 1 572 -1 -1 -1 0 0
+M 1 467 1 573 -1 -1 -1 0 0
+M 1 468 1 574 -1 -1 -1 0 0
+D 0 574 0 0
+M 0 451 1 513 -1 -1 -1 0 0
+M 0 451 1 535 -1 -1 -1 0 0
+M 1 469 1 575 -1 -1 -1 0 0
+G 1 452 1 0 -1 0 0
+G 1 556 1 0 -1 0 0
+G 1 453 1 0 -1 0 0
+M 1 453 1 456 -1 -1 -1 1123666870 14400
+E 1 556 1 13 -1 1123666870 14400
+M 1 560 1 562 -1 -1 -1 0 0
+M 1 455 1 559 -1 -1 -1 0 0
+M 1 456 1 559 -1 -1 -1 0 0
+D 0 559 2 0
+M 1 454 1 557 -1 -1 -1 0 0
+D 0 557 2 0
+M 1 454 1 554 -1 -1 -1 0 0
+D 0 554 1 0
+D 0 551 8 0
+M 1 454 1 543 -1 -1 -1 0 0
+M 1 455 1 543 -1 -1 -1 0 0
+M 1 456 1 543 -1 -1 -1 0 0
+M 1 455 1 543 -1 -1 -1 0 0
+M 1 454 1 543 -1 -1 -1 0 0
+M 1 454 1 543 -1 -1 -1 0 0
+M 1 455 1 543 -1 -1 -1 0 0
+D 0 543 3 0
+M 1 455 1 545 -1 -1 -1 0 0
+M 1 454 1 545 -1 -1 -1 0 0
+D 0 545 3 0
+M 1 455 1 568 -1 -1 -1 0 0
+D 0 568 3 0
+O 1 16103 1 569 -1 -1 -1 -1 0 0
+M 1 456 1 552 -1 -1 -1 0 0
+O 1 16103 1 552 -1 -1 -1 -1 0 0
+D 0 552 1 0
+O 1 16103 1 547 -1 -1 -1 -1 0 0
+D 0 547 3 0
+O 1 16103 1 563 -1 -1 -1 -1 0 0
+D 0 563 2 0
+O 0 550 1 453 -1 -1 -1 -1 0 0
+O 0 550 1 510 -1 -1 -1 -1 0 0
+O 0 550 1 522 -1 -1 -1 -1 0 0
+O 0 550 1 506 -1 -1 -1 -1 0 0
+O 0 550 1 502 -1 -1 -1 -1 0 0
+O 0 550 1 515 -1 -1 -1 -1 0 0
+M 1 459 1 539 -1 -1 -1 0 0
+G 1 549 1 0 -1 0 0
+G 1 548 1 0 -1 0 0
+G 1 546 1 0 -1 0 0
+G 1 547 1 0 -1 0 0
+O 1 550 1 540 -1 -1 -1 -1 0 0
+D 0 537 6 0
+M 1 466 1 536 -1 -1 -1 0 0
+G 1 591 1 0 -1 0 0
+G 1 594 1 0 -1 0 0
+G 1 590 1 0 -1 0 0
+G 1 592 1 0 -1 0 0
+G 1 593 1 0 -1 0 0
+M 1 561 1 576 -1 -1 -1 0 0
+S
+
+
+#SHOPS
+ 458    0  0  0  0  0   120  90         0 23    ; &rA&wp&zo&rt&wh&ze&rc&wa&zr&ry&w
+ 459    0  0  0  0  0   120  90         0 23    ; &gcal&Gm Merch&gant&w
+ 466    0  0  0  0  0   120  90         0 23    ; &gE&gm&G'&Gn&Gu&Gl &GS&Gt&Gr&Go&Gn&Gg&Gb&ga&gc&gk&w &WM&Ge&Wr&Gc&Wh&Ga&Wn&Gt&P
+ 469    0  0  0  0  0   120  90         0 23    ; &gEm&G'nul Weaponsm&gith&w
+0
+
+
+#REPAIRS
+ 469    5  9  0         100   1         0 23    ; &gEm&G'nul Weaponsm&gith&w
+0
+
+
+#SPECIALS
+M  457 spec_cast_adept
+S
+
+
+#$

@@ -1,0 +1,4195 @@
+#AREA   Harrow Dale~
+
+
+
+#VERSION 44
+#AUTHOR Skan~
+
+#RANGES
+0 0 0 0 0 0 0 0 0
+$
+
+#KINGDOM
+0 0 0 0 0 0 0 0 0 21002 21001 0
+$
+
+#RESETMSG &zA black wind blows down from the heights...~
+
+#FLAGS
+0 45
+
+#ECONOMY 0 31226937 0
+
+#MOBILES
+#28000
+lesser ghoul~
+a lesser ghoul~
+A lesser ghoul stands here.
+~
+The ghoul is relatively short, and is very bony. It has pale blueish-gray skin
+and scragely, dirty-grey hair. It's eyes are tiny and black, and it grins at you
+with decaying, yellow teeth.
+~
+193&32768 0 4194304 0 C
+0 0 7 4 8 5
+1d1+138 2d2+5 0
+560 0
+112 112 0
+12 11 12 14 13 13 13 29
+0 0 0 0 0
+36 0 0 0 1 1 29
+0 0 0 0 0 0 0 0 0 0
+0 0 1991 0 0 0 0 51 2
+#28001
+phantasmal fishmonger~
+a phantasmal fishmonger~
+A phantasmal fishmonger stands here.
+~
+The fishmonger is a translucent, white figure which stands about 6 feet tall.
+He is pretty grungy-looking, and stares at you as you approach, brandishing his
+trident.
+~
+65&32768 0 4194304 0 C
+0 0 7 5 5 5
+1d1+138 2d2+5 0
+560 0
+112 112 1
+15 14 14 15 16 13 12 29
+0 0 0 0 0
+0 0 0 0 1 1 29
+0 0 0 0 0 0 0 0 0 0
+0 0 1991 0 0 0 0 48 3
+#28002
+goblin~
+a goblin~
+A goblin stands here, snarling.
+~
+The goblin is short and stocky. Its skin is a dark, acid-green and is very leathery
+looking. It has a very dumb look on it's face.
+~
+193 0 512 0 C
+0 0 7 4 8 3
+1d1+138 2d2+5 0
+560 0
+112 112 0
+16 10 10 14 16 13 9 29
+0 0 0 0 0
+0 0 0 0 1 1 29
+0 0 0 0 0 0 0 0 0 0
+0 0 2039 0 0 0 0 51 3
+#28003
+barrow wight~
+a barrow wight~
+A barrow wight floats here.
+~
+The barrow wight is tall, thin and very pale. It is emanating a sort of cold
+that chills you to the bone and stands your hair on end.
+~
+65&1024 0 6291456 0 C
+0 0 8 6 6 6
+1d1+254 2d3+8 0
+960 0
+112 112 0
+18 16 17 17 15 13 13 36
+0 0 0 0 0
+0 0 0 0 1 1 36
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 33554434 524291
+#28004
+night mare~
+a night-mare~
+A night-mare stands here, stamping and neighing.
+~
+The night-mare is a huge black female horse with dingy hair. It stinks of
+rotting flesh, and in places you can see it's innards through holes in the skin.
+From it's mouth drips a copious amount of saliva.
+~
+65&32768 0 4194304 0 C
+0 0 8 10 4 4
+1d1+180 2d3+8 0
+723 0
+112 112 0
+18 15 14 14 11 13 13 36
+0 0 0 0 0
+85 0 0 0 1 1 36
+0 0 0 0 0 0 0 0 0 0
+0 0 369164289 0 0 0 0 257 2
+#28005
+nightmare stallion~
+a nightmare stallion~
+A nightmare stallion stands here, shimmering in the gloom.
+~
+The stallion is a sight to behold. It's coat is a glossy black, and it's
+horseshoes are silver, shiny and bright. It has a long, black mane and tail
+and moves with the grace of a unicorn... a faint aura of deep blue surrounds it.
+~
+65&1024 0 6291456 0 C
+0 0 9 12 6 6
+1d1+311 3d4+9 0
+1231 0
+112 112 0
+20 16 15 17 14 13 13 39
+0 0 0 0 0
+0 0 0 0 1 1 39
+0 0 0 0 0 0 0 0 0 0
+0 0 369164289 0 0 0 0 257 2
+#28099
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#28000
+horseshoe~
+a steel horseshoe~
+A steel horseshoe lies here.~
+~
+5 0 513
+1000 10 12 7 -1 -1 0 8 4 4 10 0
+3 10000 0 0 0
+'NONE'
+#28001
+horseshoe~
+a silver horseshoe~
+A silver horseshoe lies here.~
+~
+5 0 513
+1000 12 13 8 -1 -1 0 10 6 6 11 0
+4 15000 0 0 0
+'NONE'
+#28099
+lastobj~
+a newly created lastobj~
+Some god dropped a newly created lastobj here.~
+~
+13 0 1
+0 0 0 0
+1 0 0 0 0
+#0
+
+
+#ROOMS
+#28000
+&zThe Sands of Harrowdale~
+&zThe shores of the lake lap eerily against the black-sanded shores of Harrowdale.
+&zTo the west lies the bridge, and to the east rises the hulking mass of Dunharrow.
+&zThe black sands spread almost as far as the eye can see to the north and south,
+&zbut all around, the lake can be made out through the gloom.
+~
+0
+0 10
+0
+0
+D1
+~
+~
+0 -1 28001
+0 0
+D3
+~
+~
+134217728 -1 16000
+911 368
+S
+#28001
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+4
+0 10
+0
+0
+D0
+~
+~
+0 -1 28006
+0 0
+D1
+~
+~
+0 -1 28002
+0 0
+D3
+~
+~
+0 -1 28000
+0 0
+D6
+~
+~
+0 -1 28005
+0 0
+D8
+~
+~
+0 -1 28041
+0 0
+S
+#28002
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+4
+0 10
+0
+0
+D0
+~
+~
+0 -1 28005
+0 0
+D1
+~
+~
+0 -1 28003
+0 0
+D2
+~
+~
+0 -1 28041
+0 0
+D3
+~
+~
+0 -1 28001
+0 0
+D6
+~
+~
+0 -1 28004
+0 0
+D7
+~
+~
+0 -1 28006
+0 0
+D8
+~
+~
+0 -1 28098
+0 0
+S
+#28003
+&zThe Sands of Harrowdale~
+&zThe ancient and impenetrable walls of Dunharrow loom up to immesurable heights,
+&zdwarfing everything around. A deep black mist, almost imperceptable, flows
+&zdown from the heights of the mountain, darkening sky, sand, and distant lake.
+~
+4
+0 10
+0
+0
+D0
+~
+~
+0 -1 28004
+0 0
+D2
+~
+~
+0 -1 28098
+0 0
+D3
+~
+~
+0 -1 28002
+0 0
+D7
+~
+~
+0 -1 28005
+0 0
+D9
+~
+~
+0 -1 28041
+0 0
+S
+#28004
+&zThe Sands of Harrowdale~
+&zThe ancient and impenetrable walls of Dunharrow loom up to immesurable heights,
+&zdwarfing everything around. A deep black mist, almost imperceptable, flows
+&zdown from the heights of the mountain, darkening sky, sand, and distant lake.
+~
+4
+0 10
+0
+0
+D0
+~
+~
+0 -1 28008
+0 0
+D2
+~
+~
+0 -1 28003
+0 0
+D3
+~
+~
+0 -1 28005
+0 0
+D6
+~
+~
+0 -1 28009
+0 0
+D7
+~
+~
+0 -1 28007
+0 0
+D9
+~
+~
+0 -1 28002
+0 0
+S
+#28005
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+4
+0 10
+0
+0
+D0
+~
+~
+0 -1 28007
+0 0
+D1
+~
+~
+0 -1 28004
+0 0
+D2
+~
+~
+0 -1 28002
+0 0
+D3
+~
+~
+0 -1 28006
+0 0
+D6
+~
+~
+0 -1 28008
+0 0
+D8
+~
+~
+0 -1 28003
+0 0
+D9
+~
+~
+0 -1 28001
+0 0
+S
+#28006
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+4
+0 10
+0
+0
+D1
+~
+~
+0 -1 28005
+0 0
+D2
+~
+~
+0 -1 28001
+0 0
+D6
+~
+~
+0 -1 28007
+0 0
+D8
+~
+~
+0 -1 28002
+0 0
+S
+#28007
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+4
+0 10
+0
+0
+D0
+~
+~
+0 -1 28012
+0 0
+D1
+~
+~
+0 -1 28008
+0 0
+D2
+~
+~
+0 -1 28005
+0 0
+D6
+~
+~
+0 -1 28011
+0 0
+D8
+~
+~
+0 -1 28004
+0 0
+D9
+~
+~
+0 -1 28006
+0 0
+S
+#28008
+&zThe Sands of Harrowdale~
+&zThe shores around Dunharrow are pretty wide, and the black sands seem to extend
+for a few miles both towards the shore of the lake, and towards the mountain. The chill
+wind blowing off the slopes whirls the black sand around in little twisters and the
+faint crashing of waves in the distance makes this place seem very lonely.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28011
+0 0
+D1
+~
+~
+0 -1 28009
+0 0
+D2
+~
+~
+0 -1 28004
+0 0
+D3
+~
+~
+0 -1 28007
+0 0
+D6
+~
+~
+0 -1 28010
+0 0
+D7
+~
+~
+0 -1 28012
+0 0
+D9
+~
+~
+0 -1 28005
+0 0
+S
+#28009
+&zThe Sands of Harrowdale~
+&zThe ancient and impenetrable walls of Dunharrow loom up to immesurable heights,
+&zdwarfing everything around. A deep black mist, almost imperceptable, flows
+&zdown from the heights of the mountain, darkening sky, sand, and distant lake.
+~
+4
+0 10
+0
+0
+D0
+~
+~
+0 -1 28010
+0 0
+D3
+~
+~
+0 -1 28008
+0 0
+D7
+~
+~
+0 -1 28011
+0 0
+D9
+~
+~
+0 -1 28004
+0 0
+S
+#28010
+&zThe Sands of Harrowdale~
+&zThe ancient and impenetrable walls of Dunharrow loom up to immesurable heights,
+&zdwarfing everything around. A deep black mist, almost imperceptable, flows
+&zdown from the heights of the mountain, darkening sky, sand, and distant lake.
+~
+4
+0 10
+0
+0
+D0
+~
+~
+0 -1 28014
+0 0
+D2
+~
+~
+0 -1 28009
+0 0
+D3
+~
+~
+0 -1 28011
+0 0
+D6
+~
+~
+0 -1 28015
+0 0
+D7
+~
+~
+0 -1 28013
+0 0
+D9
+~
+~
+0 -1 28008
+0 0
+S
+#28011
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+4
+0 10
+0
+0
+D0
+~
+~
+0 -1 28013
+0 0
+D1
+~
+~
+0 -1 28010
+0 0
+D2
+~
+~
+0 -1 28008
+0 0
+D3
+~
+~
+0 -1 28012
+0 0
+D6
+~
+~
+0 -1 28014
+0 0
+D8
+~
+~
+0 -1 28009
+0 0
+D9
+~
+~
+0 -1 28007
+0 0
+S
+#28012
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+4
+0 10
+0
+0
+D1
+~
+~
+0 -1 28011
+0 0
+D2
+~
+~
+0 -1 28007
+0 0
+D8
+~
+~
+0 -1 28008
+0 0
+S
+#28013
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+4
+0 10
+0
+0
+D0
+~
+~
+16777216 -1 28019
+0 0
+D1
+~
+~
+0 -1 28014
+0 0
+D2
+~
+~
+0 -1 28011
+0 0
+D6
+~
+~
+16777216 -1 28018
+0 0
+D8
+~
+~
+0 -1 28010
+0 0
+S
+#28014
+&zThe Sands of Harrowdale~
+&zThe shores around Dunharrow are pretty wide, and the black sands seem to extend
+for a few miles both towards the shore of the lake, and towards the mountain. The chill
+wind blowing off the slopes whirls the black sand around in little twisters and the
+faint crashing of waves in the distance makes this place seem very lonely.
+~
+4
+0 10
+0
+0
+D0
+~
+~
+16777216 -1 28018
+0 0
+D1
+~
+~
+0 -1 28015
+0 0
+D2
+~
+~
+0 -1 28010
+0 0
+D3
+~
+~
+0 -1 28013
+0 0
+D6
+~
+~
+16777216 -1 28017
+0 0
+D7
+~
+~
+16777216 -1 28019
+0 0
+D9
+~
+~
+0 -1 28011
+0 0
+S
+#28015
+&zThe Sands of Harrowdale~
+&zThe ancient and impenetrable walls of Dunharrow loom up to immesurable heights,
+&zdwarfing everything around. A deep black mist, almost imperceptable, flows
+&zdown from the heights of the mountain, darkening sky, sand, and distant lake.
+~
+4
+0 10
+0
+0
+D0
+~
+~
+16777216 -1 28017
+0 0
+D3
+~
+~
+0 -1 28014
+0 0
+D6
+~
+~
+16777216 -1 28016
+0 0
+D7
+~
+~
+16777216 -1 28018
+0 0
+D9
+~
+~
+0 -1 28010
+0 0
+S
+#28016
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+4
+0 1
+0
+0
+D0
+~
+~
+0 -1 28022
+0 0
+D3
+~
+~
+0 -1 28017
+0 0
+D6
+~
+~
+0 -1 28023
+0 0
+D7
+~
+~
+0 -1 28021
+0 0
+D9
+~
+~
+16777216 -1 28015
+0 0
+S
+#28017
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+4
+0 1
+0
+0
+D0
+~
+~
+0 -1 28021
+0 0
+D1
+~
+~
+0 -1 28016
+0 0
+D2
+~
+~
+16777216 -1 28015
+0 0
+D3
+~
+~
+0 -1 28018
+0 0
+D6
+~
+~
+0 -1 28022
+0 0
+D7
+~
+~
+0 -1 28020
+0 0
+D9
+~
+~
+16777216 -1 28014
+0 0
+S
+#28018
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+4
+0 1
+0
+0
+D0
+~
+~
+0 -1 28020
+0 0
+D1
+~
+~
+0 -1 28017
+0 0
+D2
+~
+~
+16777216 -1 28014
+0 0
+D3
+~
+~
+0 -1 28019
+0 0
+D6
+~
+~
+0 -1 28021
+0 0
+D8
+~
+~
+16777216 -1 28015
+0 0
+D9
+~
+~
+16777216 -1 28013
+0 0
+S
+#28019
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+4
+0 2
+0
+0
+D1
+~
+~
+0 -1 28018
+0 0
+D2
+~
+~
+16777216 -1 28013
+0 0
+D6
+~
+~
+0 -1 28020
+0 0
+D8
+~
+~
+16777216 -1 28014
+0 0
+S
+#28020
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+4
+0 2
+0
+0
+D1
+~
+~
+0 -1 28021
+0 0
+D2
+~
+~
+0 -1 28018
+0 0
+D6
+~
+~
+0 -1 28024
+0 0
+D8
+~
+~
+0 -1 28017
+0 0
+D9
+~
+~
+0 -1 28019
+0 0
+S
+#28021
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+4
+0 2
+0
+0
+D0
+~
+~
+0 -1 28024
+0 0
+D1
+~
+~
+0 -1 28022
+0 0
+D2
+~
+~
+0 -1 28017
+0 0
+D3
+~
+~
+0 -1 28020
+0 0
+D6
+~
+~
+0 -1 28025
+0 0
+D8
+~
+~
+0 -1 28016
+0 0
+D9
+~
+~
+0 -1 28018
+0 0
+S
+#28022
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+4
+0 2
+0
+0
+D0
+~
+~
+0 -1 28025
+0 0
+D1
+~
+~
+0 -1 28023
+0 0
+D2
+~
+~
+0 -1 28016
+0 0
+D3
+~
+~
+0 -1 28021
+0 0
+D6
+~
+~
+0 -1 28026
+0 0
+D7
+~
+~
+0 -1 28024
+0 0
+D9
+~
+~
+0 -1 28017
+0 0
+S
+#28023
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+4
+0 2
+0
+0
+D0
+~
+~
+0 -1 28026
+0 0
+D3
+~
+~
+0 -1 28022
+0 0
+D6
+~
+~
+0 -1 28027
+0 0
+D7
+~
+~
+0 -1 28025
+0 0
+D9
+~
+~
+0 -1 28016
+0 0
+S
+#28024
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+4
+0 2
+0
+0
+D1
+~
+~
+0 -1 28025
+0 0
+D2
+~
+~
+0 -1 28021
+0 0
+D6
+~
+~
+0 -1 28029
+0 0
+D8
+~
+~
+0 -1 28022
+0 0
+D9
+~
+~
+0 -1 28020
+0 0
+S
+#28025
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+4
+0 2
+0
+0
+D0
+~
+~
+0 -1 28029
+0 0
+D1
+~
+~
+0 -1 28026
+0 0
+D2
+~
+~
+0 -1 28022
+0 0
+D3
+~
+~
+0 -1 28024
+0 0
+D6
+~
+~
+16777216 -1 28030
+0 0
+D8
+~
+~
+0 -1 28023
+0 0
+D9
+~
+~
+0 -1 28021
+0 0
+S
+#28026
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+4
+0 2
+0
+0
+D0
+~
+~
+16777216 -1 28030
+0 0
+D1
+~
+~
+0 -1 28027
+0 0
+D2
+~
+~
+0 -1 28023
+0 0
+D3
+~
+~
+0 -1 28025
+0 0
+D6
+~
+~
+16777216 -1 28035
+0 0
+D7
+~
+~
+0 -1 28029
+0 0
+D9
+~
+~
+0 -1 28022
+0 0
+S
+#28027
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+16777216 -1 28035
+0 0
+D1
+~
+~
+0 -1 28028
+0 0
+D3
+~
+~
+0 -1 28026
+0 0
+D6
+~
+~
+16777216 -1 28037
+0 0
+D7
+~
+~
+16777216 -1 28030
+0 0
+D9
+~
+~
+0 -1 28023
+0 0
+S
+#28028
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+16777216 -1 28037
+0 0
+D3
+~
+~
+0 -1 28027
+0 0
+D6
+~
+~
+16777216 -1 28039
+0 0
+D7
+~
+~
+16777216 -1 28035
+0 0
+S
+#28029
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+0
+0 2
+0
+0
+D1
+~
+~
+16777216 -1 28030
+0 0
+D2
+~
+~
+0 -1 28025
+0 0
+D8
+~
+~
+0 -1 28026
+0 0
+D9
+~
+~
+0 -1 28024
+0 0
+S
+#28030
+&wThe Barrows~
+&zThe land here is riddled with hundreds of house-sized mounds of earth, all covered
+with a sparse carpet of dead grass. These are barrows, homes of the shades of forgotten
+hero's of antiquity...
+~
+0
+0 4
+0
+0
+D0
+~
+~
+0 -1 28031
+0 0
+D1
+~
+~
+0 -1 28035
+0 0
+D2
+~
+~
+16777216 -1 28026
+0 0
+D3
+~
+~
+16777216 -1 28029
+0 0
+D6
+~
+~
+0 -1 28034
+0 0
+D8
+~
+~
+16777216 -1 28027
+0 0
+D9
+~
+~
+16777216 -1 28025
+0 0
+S
+#28031
+&wThe Barrows~
+&zThe land here is riddled with hundreds of house-sized mounds of earth, all covered
+with a sparse carpet of dead grass. These are barrows, homes of the shades of forgotten
+hero's of antiquity...
+~
+0
+0 4
+0
+0
+D0
+~
+~
+0 -1 28032
+0 0
+D1
+~
+~
+0 -1 28034
+0 0
+D2
+~
+~
+0 -1 28030
+0 0
+D6
+~
+~
+0 -1 28033
+0 0
+D8
+~
+~
+0 -1 28035
+0 0
+S
+#28032
+&wThe Barrows~
+&zThe land here is riddled with hundreds of house-sized mounds of earth, all covered
+with a sparse carpet of dead grass. These are barrows, homes of the shades of forgotten
+hero's of antiquity...
+~
+0
+0 4
+0
+0
+D1
+~
+~
+0 -1 28033
+0 0
+D2
+~
+~
+0 -1 28031
+0 0
+D8
+~
+~
+0 -1 28034
+0 0
+S
+#28033
+&wThe Barrows~
+&zThe land here is riddled with hundreds of house-sized mounds of earth, all covered
+with a sparse carpet of dead grass. These are barrows, homes of the shades of forgotten
+hero's of antiquity...
+~
+0
+0 4
+0
+0
+D2
+~
+~
+0 -1 28034
+0 0
+D3
+~
+~
+0 -1 28032
+0 0
+D8
+~
+~
+0 -1 28036
+0 0
+D9
+~
+~
+0 -1 28031
+0 0
+S
+#28034
+&wThe Barrows~
+&zThe land here is riddled with hundreds of house-sized mounds of earth, all covered
+with a sparse carpet of dead grass. These are barrows, homes of the shades of forgotten
+hero's of antiquity...
+~
+0
+0 4
+0
+0
+D0
+~
+~
+0 -1 28033
+0 0
+D1
+~
+~
+0 -1 28036
+0 0
+D2
+~
+~
+0 -1 28035
+0 0
+D3
+~
+~
+0 -1 28031
+0 0
+D7
+~
+~
+0 -1 28032
+0 0
+D8
+~
+~
+0 -1 28037
+0 0
+D9
+~
+~
+0 -1 28030
+0 0
+S
+#28035
+&wThe Barrows~
+&zThe land here is riddled with hundreds of house-sized mounds of earth, all covered
+with a sparse carpet of dead grass. These are barrows, homes of the shades of forgotten
+hero's of antiquity...
+~
+0
+0 4
+0
+0
+D0
+~
+~
+0 -1 28034
+0 0
+D1
+~
+~
+0 -1 28037
+0 0
+D2
+~
+~
+16777216 -1 28027
+0 0
+D3
+~
+~
+0 -1 28030
+0 0
+D6
+~
+~
+0 -1 28036
+0 0
+D7
+~
+~
+0 -1 28031
+0 0
+D8
+~
+~
+16777216 -1 28028
+0 0
+D9
+~
+~
+16777216 -1 28026
+0 0
+S
+#28036
+&wThe Barrows~
+&zThe land here is riddled with hundreds of house-sized mounds of earth, all covered
+with a sparse carpet of dead grass. These are barrows, homes of the shades of forgotten
+hero's of antiquity...
+~
+0
+0 4
+0
+0
+D1
+~
+~
+0 -1 28038
+0 0
+D2
+~
+~
+0 -1 28037
+0 0
+D3
+~
+~
+0 -1 28034
+0 0
+D7
+~
+~
+0 -1 28033
+0 0
+D8
+~
+~
+0 -1 28039
+0 0
+D9
+~
+~
+0 -1 28035
+0 0
+S
+#28037
+&wThe Barrows~
+&zThe land here is riddled with hundreds of house-sized mounds of earth, all covered
+with a sparse carpet of dead grass. These are barrows, homes of the shades of forgotten
+hero's of antiquity...
+~
+0
+0 4
+0
+0
+D0
+~
+~
+0 -1 28036
+0 0
+D1
+~
+~
+0 -1 28039
+0 0
+D2
+~
+~
+16777216 -1 28028
+0 0
+D3
+~
+~
+0 -1 28035
+0 0
+D6
+~
+~
+0 -1 28038
+0 0
+D7
+~
+~
+0 -1 28034
+0 0
+D9
+~
+~
+16777216 -1 28027
+0 0
+S
+#28038
+&wThe Barrows~
+&zThe land here is riddled with hundreds of house-sized mounds of earth, all covered
+with a sparse carpet of dead grass. These are barrows, homes of the shades of forgotten
+hero's of antiquity...
+~
+0
+0 4
+0
+0
+D2
+~
+~
+0 -1 28039
+0 0
+D3
+~
+~
+0 -1 28036
+0 0
+D8
+~
+~
+0 -1 28040
+0 0
+D9
+~
+~
+0 -1 28037
+0 0
+S
+#28039
+&wThe Barrows~
+&zThe land here is riddled with hundreds of house-sized mounds of earth, all covered
+with a sparse carpet of dead grass. These are barrows, homes of the shades of forgotten
+hero's of antiquity...
+~
+0
+0 4
+0
+0
+D0
+~
+~
+0 -1 28038
+0 0
+D1
+~
+~
+0 -1 28040
+0 0
+D2
+~
+~
+16777216 -1 28042
+0 0
+D3
+~
+~
+0 -1 28037
+0 0
+D7
+~
+~
+0 -1 28036
+0 0
+D8
+~
+~
+16777216 -1 28043
+0 0
+D9
+~
+~
+0 -1 28028
+0 0
+S
+#28040
+&wThe Barrows~
+&zThe land here is riddled with hundreds of house-sized mounds of earth, all covered
+with a sparse carpet of dead grass. These are barrows, homes of the shades of forgotten
+hero's of antiquity...
+~
+0
+0 4
+0
+0
+D2
+~
+~
+16777216 -1 28043
+0 0
+D3
+~
+~
+0 -1 28039
+0 0
+D7
+~
+~
+0 -1 28038
+0 0
+D9
+~
+~
+16777216 -1 28042
+0 0
+S
+#28041
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28002
+0 0
+D1
+~
+~
+0 -1 28098
+0 0
+D2
+~
+~
+0 -1 28099
+0 0
+D6
+~
+~
+0 -1 28003
+0 0
+D7
+~
+~
+0 -1 28001
+0 0
+D8
+~
+~
+0 -1 28097
+0 0
+S
+#28042
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+16777216 -1 28039
+0 0
+D1
+~
+~
+0 -1 28043
+0 0
+D2
+~
+~
+0 -1 28044
+0 0
+D6
+~
+~
+16777216 -1 28040
+0 0
+D8
+~
+~
+0 -1 28045
+0 0
+S
+#28043
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+16777216 -1 28040
+0 0
+D2
+~
+~
+0 -1 28045
+0 0
+D3
+~
+~
+0 -1 28042
+0 0
+D7
+~
+~
+16777216 -1 28039
+0 0
+D8
+~
+~
+0 -1 28046
+0 0
+D9
+~
+~
+0 -1 28044
+0 0
+S
+#28044
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 28042
+0 0
+D1
+~
+~
+0 -1 28045
+0 0
+D6
+~
+~
+0 -1 28043
+0 0
+D8
+~
+~
+0 -1 28047
+0 0
+S
+#28045
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 28043
+0 0
+D1
+~
+~
+0 -1 28046
+0 0
+D2
+~
+~
+0 -1 28047
+0 0
+D3
+~
+~
+0 -1 28044
+0 0
+D7
+~
+~
+0 -1 28042
+0 0
+D8
+~
+~
+0 -1 28048
+0 0
+S
+#28046
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+0
+0 2
+0
+0
+D2
+~
+~
+0 -1 28048
+0 0
+D3
+~
+~
+0 -1 28045
+0 0
+D7
+~
+~
+0 -1 28043
+0 0
+D8
+~
+~
+0 -1 28049
+0 0
+D9
+~
+~
+0 -1 28047
+0 0
+S
+#28047
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 28045
+0 0
+D1
+~
+~
+0 -1 28048
+0 0
+D2
+~
+~
+0 -1 28052
+0 0
+D6
+~
+~
+0 -1 28046
+0 0
+D7
+~
+~
+0 -1 28044
+0 0
+D8
+~
+~
+0 -1 28051
+0 0
+S
+#28048
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 28046
+0 0
+D1
+~
+~
+0 -1 28049
+0 0
+D2
+~
+~
+0 -1 28051
+0 0
+D3
+~
+~
+0 -1 28047
+0 0
+D7
+~
+~
+0 -1 28045
+0 0
+D8
+~
+~
+0 -1 28050
+0 0
+D9
+~
+~
+0 -1 28052
+0 0
+S
+#28049
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+0
+0 2
+0
+0
+D2
+~
+~
+0 -1 28050
+0 0
+D3
+~
+~
+0 -1 28048
+0 0
+D7
+~
+~
+0 -1 28046
+0 0
+D9
+~
+~
+0 -1 28051
+0 0
+S
+#28050
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 28049
+0 0
+D2
+~
+~
+0 -1 28055
+0 0
+D3
+~
+~
+0 -1 28051
+0 0
+D7
+~
+~
+0 -1 28048
+0 0
+D9
+~
+~
+0 -1 28054
+0 0
+S
+#28051
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 28048
+0 0
+D1
+~
+~
+0 -1 28050
+0 0
+D2
+~
+~
+0 -1 28054
+0 0
+D3
+~
+~
+0 -1 28052
+0 0
+D6
+~
+~
+0 -1 28049
+0 0
+D7
+~
+~
+0 -1 28047
+0 0
+D8
+~
+~
+0 -1 28055
+0 0
+D9
+~
+~
+0 -1 28053
+0 0
+S
+#28052
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 28047
+0 0
+D1
+~
+~
+0 -1 28051
+0 0
+D2
+~
+~
+0 -1 28053
+0 0
+D6
+~
+~
+0 -1 28048
+0 0
+D8
+~
+~
+0 -1 28054
+0 0
+S
+#28053
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 28052
+0 0
+D1
+~
+~
+0 -1 28054
+0 0
+D2
+~
+~
+0 -1 28058
+0 0
+D6
+~
+~
+0 -1 28051
+0 0
+D8
+~
+~
+0 -1 28057
+0 0
+S
+#28054
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 28051
+0 0
+D1
+~
+~
+0 -1 28055
+0 0
+D2
+~
+~
+0 -1 28057
+0 0
+D3
+~
+~
+0 -1 28053
+0 0
+D6
+~
+~
+0 -1 28050
+0 0
+D7
+~
+~
+0 -1 28052
+0 0
+D8
+~
+~
+0 -1 28056
+0 0
+D9
+~
+~
+0 -1 28058
+0 0
+S
+#28055
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 28050
+0 0
+D2
+~
+~
+0 -1 28056
+0 0
+D3
+~
+~
+0 -1 28054
+0 0
+D7
+~
+~
+0 -1 28051
+0 0
+D9
+~
+~
+0 -1 28057
+0 0
+S
+#28056
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 28055
+0 0
+D2
+~
+~
+16777216 -1 28061
+0 0
+D3
+~
+~
+0 -1 28057
+0 0
+D7
+~
+~
+0 -1 28054
+0 0
+D9
+~
+~
+16777216 -1 28060
+0 0
+S
+#28057
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 28054
+0 0
+D1
+~
+~
+0 -1 28056
+0 0
+D2
+~
+~
+16777216 -1 28060
+0 0
+D3
+~
+~
+0 -1 28058
+0 0
+D6
+~
+~
+0 -1 28055
+0 0
+D7
+~
+~
+0 -1 28053
+0 0
+D8
+~
+~
+16777216 -1 28061
+0 0
+D9
+~
+~
+16777216 -1 28059
+0 0
+S
+#28058
+&gThe Dead Meadows~
+&gThe Dead Meadows are called that for a reason, and it becomes almost painfully
+clear now... the meadows are a huge expanse of wasteland that once may have been rich
+emerald fields of green grass. They are now little more than endless miles of dead and
+dying plantlife. The ground is dry and cracked, and huge rifts criss cross every
+few hundred feet.
+~
+0
+0 2
+0
+0
+D0
+~
+~
+0 -1 28053
+0 0
+D1
+~
+~
+0 -1 28057
+0 0
+D2
+~
+~
+16777216 -1 28059
+0 0
+D6
+~
+~
+0 -1 28054
+0 0
+D8
+~
+~
+16777216 -1 28060
+0 0
+S
+#28059
+&zThe Sands of Harrowdale~
+&zThe ancient and impenetrable walls of Dunharrow loom up to immesurable heights,
+&zdwarfing everything around. A deep black mist, almost imperceptable, flows
+&zdown from the heights of the mountain, darkening sky, sand, and distant lake.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+16777216 -1 28058
+0 0
+D1
+~
+~
+0 -1 28060
+0 0
+D2
+~
+~
+0 -1 28063
+0 0
+D6
+~
+~
+16777216 -1 28057
+0 0
+D8
+~
+~
+0 -1 28062
+0 0
+D9
+~
+~
+0 -1 28064
+0 0
+S
+#28060
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+16777216 -1 28057
+0 0
+D1
+~
+~
+0 -1 28061
+0 0
+D2
+~
+~
+0 -1 28062
+0 0
+D3
+~
+~
+0 -1 28059
+0 0
+D6
+~
+~
+16777216 -1 28056
+0 0
+D7
+~
+~
+16777216 -1 28058
+0 0
+D9
+~
+~
+0 -1 28063
+0 0
+S
+#28061
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+16777216 -1 28056
+0 0
+D3
+~
+~
+0 -1 28060
+0 0
+D7
+~
+~
+16777216 -1 28057
+0 0
+D9
+~
+~
+0 -1 28062
+0 0
+S
+#28062
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28060
+0 0
+D2
+~
+~
+0 -1 28067
+0 0
+D3
+~
+~
+0 -1 28063
+0 0
+D6
+~
+~
+0 -1 28061
+0 0
+D7
+~
+~
+0 -1 28059
+0 0
+D9
+~
+~
+0 -1 28066
+0 0
+S
+#28063
+&zThe Sands of Harrowdale~
+&zThe shores around Dunharrow are pretty wide, and the black sands seem to extend
+for a few miles both towards the shore of the lake, and towards the mountain. The chill
+wind blowing off the slopes whirls the black sand around in little twisters and the
+faint crashing of waves in the distance makes this place seem very lonely.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28059
+0 0
+D1
+~
+~
+0 -1 28062
+0 0
+D2
+~
+~
+0 -1 28066
+0 0
+D3
+~
+~
+0 -1 28064
+0 0
+D6
+~
+~
+0 -1 28060
+0 0
+D8
+~
+~
+0 -1 28067
+0 0
+D9
+~
+~
+0 -1 28065
+0 0
+S
+#28064
+&zThe Sands of Harrowdale~
+&zThe ancient and impenetrable walls of Dunharrow loom up to immesurable heights,
+&zdwarfing everything around. A deep black mist, almost imperceptable, flows
+&zdown from the heights of the mountain, darkening sky, sand, and distant lake.
+~
+0
+0 10
+0
+0
+D1
+~
+~
+0 -1 28063
+0 0
+D2
+~
+~
+0 -1 28065
+0 0
+D6
+~
+~
+0 -1 28059
+0 0
+D8
+~
+~
+0 -1 28066
+0 0
+S
+#28065
+&zThe Sands of Harrowdale~
+&zThe ancient and impenetrable walls of Dunharrow loom up to immesurable heights,
+&zdwarfing everything around. A deep black mist, almost imperceptable, flows
+&zdown from the heights of the mountain, darkening sky, sand, and distant lake.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28064
+0 0
+D1
+~
+~
+0 -1 28066
+0 0
+D2
+~
+~
+0 -1 28069
+0 0
+D6
+~
+~
+0 -1 28063
+0 0
+D8
+~
+~
+0 -1 28068
+0 0
+D9
+~
+~
+0 -1 28070
+0 0
+S
+#28066
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28063
+0 0
+D1
+~
+~
+0 -1 28067
+0 0
+D2
+~
+~
+0 -1 28068
+0 0
+D3
+~
+~
+0 -1 28065
+0 0
+D6
+~
+~
+0 -1 28062
+0 0
+D7
+~
+~
+0 -1 28064
+0 0
+D9
+~
+~
+0 -1 28069
+0 0
+S
+#28067
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28062
+0 0
+D3
+~
+~
+0 -1 28066
+0 0
+D7
+~
+~
+0 -1 28063
+0 0
+D9
+~
+~
+0 -1 28068
+0 0
+S
+#28068
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28066
+0 0
+D3
+~
+~
+0 -1 28069
+0 0
+D6
+~
+~
+0 -1 28067
+0 0
+D7
+~
+~
+0 -1 28065
+0 0
+D9
+~
+~
+0 -1 28071
+0 0
+S
+#28069
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28065
+0 0
+D1
+~
+~
+0 -1 28068
+0 0
+D2
+~
+~
+0 -1 28071
+0 0
+D3
+~
+~
+0 -1 28070
+0 0
+D6
+~
+~
+0 -1 28066
+0 0
+D9
+~
+~
+0 -1 28072
+0 0
+S
+#28070
+&zThe Sands of Harrowdale~
+&zThe ancient and impenetrable walls of Dunharrow loom up to immesurable heights,
+&zdwarfing everything around. A deep black mist, almost imperceptable, flows
+&zdown from the heights of the mountain, darkening sky, sand, and distant lake.
+~
+0
+0 10
+0
+0
+D1
+~
+~
+0 -1 28069
+0 0
+D2
+~
+~
+0 -1 28072
+0 0
+D6
+~
+~
+0 -1 28065
+0 0
+D8
+~
+~
+0 -1 28071
+0 0
+D9
+~
+~
+0 -1 28074
+0 0
+S
+#28071
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28069
+0 0
+D3
+~
+~
+0 -1 28072
+0 0
+D6
+~
+~
+0 -1 28068
+0 0
+D7
+~
+~
+0 -1 28070
+0 0
+D9
+~
+~
+0 -1 28073
+0 0
+S
+#28072
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28070
+0 0
+D1
+~
+~
+0 -1 28071
+0 0
+D2
+~
+~
+0 -1 28073
+0 0
+D3
+~
+~
+0 -1 28074
+0 0
+D6
+~
+~
+0 -1 28069
+0 0
+D9
+~
+~
+0 -1 28075
+0 0
+S
+#28073
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28072
+0 0
+D3
+~
+~
+0 -1 28075
+0 0
+D6
+~
+~
+0 -1 28071
+0 0
+D7
+~
+~
+0 -1 28074
+0 0
+S
+#28074
+&zThe Sands of Harrowdale~
+&zThe ancient and impenetrable walls of Dunharrow loom up to immesurable heights,
+&zdwarfing everything around. A deep black mist, almost imperceptable, flows
+&zdown from the heights of the mountain, darkening sky, sand, and distant lake.
+~
+0
+0 10
+0
+0
+D1
+~
+~
+0 -1 28072
+0 0
+D2
+~
+~
+0 -1 28075
+0 0
+D3
+~
+~
+0 -1 28076
+0 0
+D6
+~
+~
+0 -1 28070
+0 0
+D8
+~
+~
+0 -1 28073
+0 0
+D9
+~
+~
+0 -1 28077
+0 0
+S
+#28075
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28074
+0 0
+D1
+~
+~
+0 -1 28073
+0 0
+D3
+~
+~
+0 -1 28077
+0 0
+D6
+~
+~
+0 -1 28072
+0 0
+D7
+~
+~
+0 -1 28076
+0 0
+D9
+~
+~
+0 -1 28078
+0 0
+S
+#28076
+&zBefore the Harrow Gate~
+&zThe Harrow Gate opens into the mountain to the north. In the gloom it appears to be
+a huge, gaping maw filled with a forboding nothingness. A chill wind blows from the
+dark opening...
+~
+0
+0 10
+0
+0
+D1
+~
+~
+0 -1 28074
+0 0
+D2
+~
+~
+0 -1 28077
+0 0
+D3
+~
+~
+0 -1 28079
+0 0
+D8
+~
+~
+0 -1 28075
+0 0
+D9
+~
+~
+0 -1 28080
+0 0
+S
+#28077
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28076
+0 0
+D1
+~
+~
+0 -1 28075
+0 0
+D2
+~
+~
+0 -1 28078
+0 0
+D3
+~
+~
+0 -1 28080
+0 0
+D6
+~
+~
+0 -1 28074
+0 0
+D7
+~
+~
+0 -1 28079
+0 0
+D9
+~
+~
+0 -1 28081
+0 0
+S
+#28078
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28077
+0 0
+D3
+~
+~
+0 -1 28081
+0 0
+D6
+~
+~
+0 -1 28075
+0 0
+D7
+~
+~
+0 -1 28080
+0 0
+S
+#28079
+&zBefore the Harrow Gate~
+&zThe Harrow Gate opens into the mountain to the north. In the gloom it appears to be
+a huge, gaping maw filled with a forboding nothingness. A chill wind blows from the
+dark opening...
+~
+0
+0 10
+0
+0
+D1
+~
+~
+0 -1 28076
+0 0
+D2
+~
+~
+0 -1 28080
+0 0
+D3
+~
+~
+0 -1 28084
+0 0
+D8
+~
+~
+0 -1 28077
+0 0
+D9
+~
+~
+0 -1 28083
+0 0
+S
+#28080
+&zThe Sands of Harrowdale~
+&zThe shores around Dunharrow are pretty wide, and the black sands seem to extend
+for a few miles both towards the shore of the lake, and towards the mountain. The chill
+wind blowing off the slopes whirls the black sand around in little twisters and the
+faint crashing of waves in the distance makes this place seem very lonely.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28079
+0 0
+D1
+~
+~
+0 -1 28077
+0 0
+D2
+~
+~
+0 -1 28081
+0 0
+D3
+~
+~
+0 -1 28083
+0 0
+D6
+~
+~
+0 -1 28076
+0 0
+D7
+~
+~
+0 -1 28084
+0 0
+D8
+~
+~
+0 -1 28078
+0 0
+D9
+~
+~
+0 -1 28082
+0 0
+S
+#28081
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28080
+0 0
+D1
+~
+~
+0 -1 28078
+0 0
+D3
+~
+~
+0 -1 28082
+0 0
+D6
+~
+~
+0 -1 28077
+0 0
+D7
+~
+~
+0 -1 28083
+0 0
+S
+#28082
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28083
+0 0
+D1
+~
+~
+0 -1 28081
+0 0
+D6
+~
+~
+0 -1 28080
+0 0
+D7
+~
+~
+0 -1 28085
+0 0
+S
+#28083
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28084
+0 0
+D1
+~
+~
+0 -1 28080
+0 0
+D2
+~
+~
+0 -1 28082
+0 0
+D3
+~
+~
+0 -1 28085
+0 0
+D6
+~
+~
+0 -1 28079
+0 0
+D7
+~
+~
+0 -1 28086
+0 0
+D8
+~
+~
+0 -1 28081
+0 0
+S
+#28084
+&zThe Sands of Harrowdale~
+&zThe ancient and impenetrable walls of Dunharrow loom up to immesurable heights,
+&zdwarfing everything around. A deep black mist, almost imperceptable, flows
+&zdown from the heights of the mountain, darkening sky, sand, and distant lake.
+~
+0
+0 10
+0
+0
+D1
+~
+~
+0 -1 28079
+0 0
+D2
+~
+~
+0 -1 28083
+0 0
+D3
+~
+~
+0 -1 28086
+0 0
+D7
+~
+~
+0 -1 28087
+0 0
+D8
+~
+~
+0 -1 28080
+0 0
+D9
+~
+~
+0 -1 28085
+0 0
+S
+#28085
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28086
+0 0
+D1
+~
+~
+0 -1 28083
+0 0
+D6
+~
+~
+0 -1 28084
+0 0
+D8
+~
+~
+0 -1 28082
+0 0
+S
+#28086
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28087
+0 0
+D1
+~
+~
+0 -1 28084
+0 0
+D2
+~
+~
+0 -1 28085
+0 0
+D3
+~
+~
+0 -1 28088
+0 0
+D7
+~
+~
+0 -1 28089
+0 0
+D8
+~
+~
+0 -1 28083
+0 0
+S
+#28087
+&zThe Sands of Harrowdale~
+&zThe ancient and impenetrable walls of Dunharrow loom up to immesurable heights,
+&zdwarfing everything around. A deep black mist, almost imperceptable, flows
+&zdown from the heights of the mountain, darkening sky, sand, and distant lake.
+~
+0
+0 10
+0
+0
+D2
+~
+~
+0 -1 28086
+0 0
+D3
+~
+~
+0 -1 28089
+0 0
+D7
+~
+~
+0 -1 28090
+0 0
+D8
+~
+~
+0 -1 28084
+0 0
+D9
+~
+~
+0 -1 28088
+0 0
+S
+#28088
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28089
+0 0
+D1
+~
+~
+0 -1 28086
+0 0
+D6
+~
+~
+0 -1 28087
+0 0
+D7
+~
+~
+0 -1 28091
+0 0
+S
+#28089
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28090
+0 0
+D1
+~
+~
+0 -1 28087
+0 0
+D2
+~
+~
+0 -1 28088
+0 0
+D3
+~
+~
+0 -1 28091
+0 0
+D7
+~
+~
+0 -1 28092
+0 0
+D8
+~
+~
+0 -1 28086
+0 0
+S
+#28090
+&zThe Sands of Harrowdale~
+&zThe ancient and impenetrable walls of Dunharrow loom up to immesurable heights,
+&zdwarfing everything around. A deep black mist, almost imperceptable, flows
+&zdown from the heights of the mountain, darkening sky, sand, and distant lake.
+~
+0
+0 10
+0
+0
+D2
+~
+~
+0 -1 28089
+0 0
+D3
+~
+~
+0 -1 28092
+0 0
+D7
+~
+~
+0 -1 28093
+0 0
+D8
+~
+~
+0 -1 28087
+0 0
+D9
+~
+~
+0 -1 28091
+0 0
+S
+#28091
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28092
+0 0
+D1
+~
+~
+0 -1 28089
+0 0
+D6
+~
+~
+0 -1 28090
+0 0
+D7
+~
+~
+0 -1 28095
+0 0
+D8
+~
+~
+0 -1 28088
+0 0
+S
+#28092
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28093
+0 0
+D1
+~
+~
+0 -1 28090
+0 0
+D2
+~
+~
+0 -1 28091
+0 0
+D3
+~
+~
+0 -1 28095
+0 0
+D7
+~
+~
+0 -1 28096
+0 0
+D8
+~
+~
+0 -1 28089
+0 0
+S
+#28093
+&zThe Sands of Harrowdale~
+&zThe ancient and impenetrable walls of Dunharrow loom up to immesurable heights,
+&zdwarfing everything around. A deep black mist, almost imperceptable, flows
+&zdown from the heights of the mountain, darkening sky, sand, and distant lake.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28094
+0 0
+D2
+~
+~
+0 -1 28092
+0 0
+D3
+~
+~
+0 -1 28096
+0 0
+D7
+~
+~
+0 -1 28097
+0 0
+D8
+~
+~
+0 -1 28090
+0 0
+D9
+~
+~
+0 -1 28095
+0 0
+S
+#28094
+&zThe Sands of Harrowdale~
+&zThe ancient and impenetrable walls of Dunharrow loom up to immesurable heights,
+&zdwarfing everything around. A deep black mist, almost imperceptable, flows
+&zdown from the heights of the mountain, darkening sky, sand, and distant lake.
+~
+0
+0 10
+0
+0
+D2
+~
+~
+0 -1 28093
+0 0
+D3
+~
+~
+0 -1 28097
+0 0
+D7
+~
+~
+0 -1 28098
+0 0
+D9
+~
+~
+0 -1 28096
+0 0
+S
+#28095
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28096
+0 0
+D1
+~
+~
+0 -1 28092
+0 0
+D6
+~
+~
+0 -1 28093
+0 0
+D8
+~
+~
+0 -1 28091
+0 0
+S
+#28096
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28097
+0 0
+D1
+~
+~
+0 -1 28093
+0 0
+D2
+~
+~
+0 -1 28095
+0 0
+D6
+~
+~
+0 -1 28094
+0 0
+D7
+~
+~
+0 -1 28099
+0 0
+D8
+~
+~
+0 -1 28092
+0 0
+S
+#28097
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28098
+0 0
+D1
+~
+~
+0 -1 28094
+0 0
+D2
+~
+~
+0 -1 28096
+0 0
+D3
+~
+~
+0 -1 28099
+0 0
+D7
+~
+~
+0 -1 28041
+0 0
+D8
+~
+~
+0 -1 28093
+0 0
+S
+#28098
+&zThe Sands of Harrowdale~
+&zThe ancient and impenetrable walls of Dunharrow loom up to immesurable heights,
+&zdwarfing everything around. A deep black mist, almost imperceptable, flows
+&zdown from the heights of the mountain, darkening sky, sand, and distant lake.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28003
+0 0
+D2
+~
+~
+0 -1 28097
+0 0
+D3
+~
+~
+0 -1 28041
+0 0
+D7
+~
+~
+0 -1 28002
+0 0
+D8
+~
+~
+0 -1 28094
+0 0
+D9
+~
+~
+0 -1 28099
+0 0
+S
+#28099
+&zThe Sands of Harrowdale~
+&zThe sound of waves lapping against black-sanded shores echoes distantly off of
+the sheer black walls of the mountain. A chill wind flows from the icy peaks, blowing
+sand lightly around in swirling gusts.
+~
+0
+0 10
+0
+0
+D0
+~
+~
+0 -1 28041
+0 0
+D1
+~
+~
+0 -1 28097
+0 0
+D6
+~
+~
+0 -1 28098
+0 0
+D8
+~
+~
+0 -1 28096
+0 0
+S
+#0
+
+
+#RESETS
+M 1 28000 1 28099 -1 -1 -1 0 0
+E 1 21017 1 13 21105 0 0
+M 1 28000 1 28006 -1 -1 -1 0 0
+E 1 21017 1 13 21105 0 0
+M 1 28000 1 28014 -1 -1 -1 0 0
+G 1 21017 1 21107 -1 0 0
+M 1 28000 1 28069 -1 -1 -1 0 0
+E 1 21017 1 13 21105 0 0
+M 1 28000 1 28052 -1 -1 -1 0 0
+E 1 21017 1 13 21105 0 0
+M 1 28000 1 28046 -1 -1 -1 0 0
+E 1 21017 1 13 21105 0 0
+M 1 28000 1 28029 -1 -1 -1 0 0
+E 1 21017 1 13 21105 0 0
+M 1 28000 1 28016 -1 -1 -1 0 0
+E 1 21017 1 13 21105 0 0
+M 1 28001 1 28090 -1 -1 -1 0 0
+E 1 21029 1 13 21105 0 0
+M 1 28001 1 28068 -1 -1 -1 0 0
+E 1 21029 1 13 21105 0 0
+M 1 28001 1 28078 -1 -1 -1 0 0
+E 1 21029 1 13 21105 0 0
+M 1 28001 1 28085 -1 -1 -1 0 0
+E 1 21029 1 13 21105 0 0
+M 1 28001 1 28096 -1 -1 -1 0 0
+E 1 21029 1 13 21105 0 0
+M 1 28001 1 28059 -1 -1 -1 0 0
+E 1 21029 1 13 21105 0 0
+M 1 28002 1 28087 -1 -1 -1 0 0
+E 1 21008 1 13 21105 0 0
+M 1 28002 1 28094 -1 -1 -1 0 0
+E 1 21008 1 13 21107 0 0
+M 1 28002 1 28070 -1 -1 -1 0 0
+E 1 21008 1 13 21105 0 0
+M 1 28002 1 28007 -1 -1 -1 0 0
+E 1 21008 1 13 21105 0 0
+M 1 28003 1 28034 -1 -1 -1 0 0
+E 1 21012 1 13 21107 0 0
+E 1 21045 1 5 21107 0 0
+M 1 28003 1 28038 -1 -1 -1 0 0
+E 1 21037 1 13 21107 0 0
+M 1 28004 1 28043 -1 -1 -1 0 0
+E 1 28000 1 13 -1 0 0
+M 1 28004 1 28051 -1 -1 -1 0 0
+E 1 28000 1 13 -1 0 0
+M 1 28004 1 28058 -1 -1 -1 0 0
+E 1 28000 1 13 -1 0 0
+M 1 28004 1 28024 -1 -1 -1 0 0
+E 1 28000 1 13 -1 0 0
+M 1 28004 1 28028 -1 -1 -1 0 0
+E 1 28000 1 13 -1 0 0
+M 1 28005 1 28027 -1 -1 -1 0 0
+E 1 28001 1 13 -1 0 0
+M 1 28005 1 28020 -1 -1 -1 0 0
+E 1 28001 1 13 -1 0 0
+M 1 28005 1 28023 -1 -1 -1 0 0
+E 1 28001 1 13 -1 0 0
+M 1 28005 1 28042 -1 -1 -1 0 0
+E 1 28001 1 13 -1 0 0
+M 1 28005 1 28050 -1 -1 -1 0 0
+E 1 28001 1 13 -1 0 0
+M 1 28005 1 28047 -1 -1 -1 0 0
+E 1 28001 1 13 -1 0 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

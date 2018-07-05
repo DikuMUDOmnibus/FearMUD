@@ -1,0 +1,62 @@
+#! /bin/csh -f
+
+# Set the port number.
+set port = 3003
+
+# Change to area directory.
+cd area
+
+# Set limits.
+nohup
+nice
+limit stack 1024k
+unlimit core
+if ( -e shutdown.txt ) rm -f shutdown.txt
+
+while ( 1 )
+    # If you want to have logs in a different directory,
+    #   change the 'set logfile' line to reflect the directory name.
+    set index = 1000
+    while ( 1 )
+	set logfile = ../log/$index.log
+	if ( ! -e $logfile ) break
+	@ index++
+    end
+
+    # Record starting time
+    date > $logfile
+    date > ../area/boot.txt
+
+    # Record initial charges
+    # charges >> $logfile
+
+    # Run SMAUG.
+    ../src/fear $port >&! $logfile
+#    ../src/fear >>&! $logfile
+
+    # Record ending charges
+    # charges >> $logfile
+
+#    # Delete this out if no adb.
+#    if ( -e core ) then
+#	    echo '$c' | adb ../src/fear
+#    endif
+
+    # Restart, giving old connections a chance to die.
+    if ( -e shutdown.txt ) then
+	rm -f shutdown.txt
+	exit 0
+    endif
+  
+    # Does a core file exist?  Then generate a backtrace and e-mail it.
+    if ( -e core ) then
+        \mv core ../src
+        cd ../src
+        gdb -quiet -batch -command=commands fear core >&! ../crash/$index.crash
+        mail -s "Crash Report toc" rafermand@insightbb.com < ../crash/$index.crash
+        \mv core ../area
+        cd ../area
+    endif
+
+    sleep 10
+end

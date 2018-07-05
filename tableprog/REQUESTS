@@ -1,0 +1,57 @@
+The following statements are REQUESTS of the user and are not
+binding parts of the license agreement.  I just ask you to please
+be kind and try to help me out by following this list.  It mostly
+allows me to keep track of what works, what is wrong, and versions.
+Thanks.
+
+1.  Any bugs you find in the code, please notify me ASAP so they can
+    be dealt with.
+2.  Anyway you find to "better" the code in ways of speed or just
+    ease of use, I would be interested in knowing.  Version 1.0 is
+    my first time into slightly complex file usage, so there are
+    probably better ways of doing it than I did.
+3.  Any redistribution that contains derivative work, I would like to
+    be contacted so I can link it up to the main site.
+4.  Check back to the main site regularly for fixes to the code.
+5.  Check the site if you get the code to work to make sure I have
+    your code base listed as "workable".  If not, please contact me.
+6.  If your CodeBase is not listed, don't contact me 100 times and
+    ask me when it will work for your CodeBase.  Ask someone in your
+    CodeBase community if they know of any ports.  I will get to it
+    eventually, I just do not want to be bugged.
+7.  Please do not ask me how to make additions to the code that is
+    not released in new versions, or available through a patch.  I
+    will try to answer your questions if you run into a snag about
+    how the program works, but I will not walk you through how to
+    add a new feature if you don't know what you are doing
+8.  Do not contact me asking when this or that is going to be added.
+    You can contact me with requested additions in the feature, but
+    only 1 or 2 emails please, I don't want to be spammed by requests.
+
+The below list are rights I give you that are not covered by the GPL
+license (section 10.)  These rights I give cover redistribution in
+MUD/MOO related codebases only.  If you are running something else, as
+section 10 states, please contact me for more information over USAGE.
+
+1.  You can include this program in any non pay to use **LEGAL**
+    distribution of a CodeBase as long as you provide the source in the 
+    distribution.
+2.  You can intigrate this code into any non pay to use **LEGAL** Codebase 
+    and distribute it that way as long as I am credited in your game.  If you 
+    redistribute the code, you must also include the original source even if 
+    it is already within the source of your game.  Lastly, you need to leave 
+    the notice at top of the files intact if you intigrate the code into your
+    code base.
+3.  If you release your Codebase that includes this program in it, and your
+    Codebase is pay to use, please contact me first because you will be in
+    conflict with the GPL license if you make someone pay for the code.    
+    
+If you think you might be breaking part of the license, or wish to contact
+me about something else, you can reach me at
+
+                                               rafermand@home.net
+If that email doesn't work, visit my website   www.rafermand.com
+Or visit my mud Rafermand                      stormbringer.sysconn.com:3002
+
+I thank you for reading this file, and hope you follow my requests so this
+code can be useful for everyone.

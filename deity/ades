@@ -1,0 +1,50 @@
+#DEITY
+Filename		../deity/ades~
+Name		Ades~
+Description	Ades is the goddess of the ever going battle of war.  She loves killing
+be it may through, swords and spears, or sizzling your enemy or
+translocating them into the ocean.  She hates goodness with a fiery
+passion, and loves to see hate and destruction.  Because of this,
+she is fond of trolls and other monsters like them.  She loathes elves
+for their wisdom and pure hearts.
+~
+Alignment		-1000
+Worshippers	22
+Flee		-35
+Flee_npcrace	-40
+Flee_npcfoe	-75
+Kill		20
+Kill_npcrace	10
+Kill_npcfoe	75
+Kill_magic	20
+Sac		25
+Bury_corpse	30
+Aid_spell		-20
+Aid		20
+Steal		20
+Backstab		50
+Die		-50
+Die_npcrace	-45
+Die_npcfoe	0
+Spell_aid		-10
+Dig_corpse	-10
+Scorpse		300
+Savatar		300
+Sdeityobj		300
+Srecall		300
+Race		-1
+Class		-1
+Element		1
+Sex		-1
+Affected		34603008
+Npcrace		8
+Npcfoe		1
+Suscept		2304
+Race2		-1
+Susceptnum	500
+Elementnum	1000
+Affectednum	500
+Objstat		3
+End
+
+#END

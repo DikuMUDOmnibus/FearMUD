@@ -1,0 +1,48 @@
+#DEITY
+Filename		../deity/daal~
+Name		Daal~
+Description	Daal is a minataur who likes to fight.  He especially likes half-trolls
+since they are hard going and strong.  He hates the human race
+because they're frail and he thinks of them as only as slaves.
+He also despises magic, but likes to see fights and wars happen.
+~
+Alignment		0
+Worshippers	0
+Flee		-10
+Flee_npcrace	-10
+Flee_npcfoe	-5
+Kill		20
+Kill_npcrace	-5
+Kill_npcfoe	15
+Kill_magic	20
+Sac		5
+Bury_corpse	15
+Aid_spell		-5
+Aid		5
+Steal		5
+Backstab		10
+Die		-40
+Die_npcrace	-40
+Die_npcfoe	-65
+Spell_aid		-10
+Dig_corpse	-15
+Scorpse		400
+Savatar		400
+Sdeityobj		300
+Srecall		300
+Race		-1
+Class		-1
+Element		1
+Sex		0
+Affected		512
+Npcrace		8
+Npcfoe		0
+Suscept		256
+Race2		0
+Susceptnum	200
+Elementnum	900
+Affectednum	400
+Objstat		0
+End
+
+#END

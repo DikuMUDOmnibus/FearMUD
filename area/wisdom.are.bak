@@ -1,0 +1,4459 @@
+#AREA   The Tree of Wisdom.~
+
+
+
+#VERSION 53
+#AUTHOR Lucis Minal~
+
+#RANGES
+28 50 25 50 0 0 0 0 0
+$
+
+#RESETMSG The seed of wisdom takes root and new wisdom comes again.~
+
+#FLAGS
+4 8
+
+#ECONOMY 0 10405021 0
+
+#MOBILES
+#3800
+Elven Maiden~
+an Elven Maiden~
+A beautiful elven maiden is standing here
+~
+This fair skinned elven lady with hair of raven black and full red
+lips, is standing here singing softly while picking mushrooms
+here in the forest.  She is about 5'6 and is fairly skinny, but
+not scrawny, but beautiful in shape.  Her bosom is nice and round
+and her head is held high in the great embrace of the wind.
+~
+67240003 0 4194432 550 C
+0 0 20 20 20 20
+20d10+1850 5d6+10 0 0 0
+1000 0
+112 112 2
+14 20 20 18 12 25 15 3
+0 0 0 0 0
+1 0 0 0 1 1 3
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+29 0 2047 0 0 0 0 1073741856 4098
+> greet_prog 10~
+tell $n I wish to pass you some information.  I heard that the sky dragon has
+tell $n started accepting visitors.  If you wish to visit him and hear about his
+tell $n great quests, simply go up and tell him 'I wish to hear of great quests of wisdom.'
+tell $n You will need to fly to get up there, just ask me about 'how can I fly?'
+~
+> speech_prog p how can I fly?~
+tell $n You already can you just do not know it yet.....
+c 'fly' $n
+mpsleep 12
+tell $n See I told ya!
+~
+|
+#3802
+Thunder Dragon~
+The Thunder Dragon~
+A dragon of black scales and with flashing eyes is here.
+~
+Of the blackest scales, sparking with electricity, this monstrosity
+of a dragon looks calm and almost harmless....unless you do something
+to tick him off, which I don't suggest you doing.  The Thunder Dragon's
+eyes glow with a red aura and spark with electricity.
+~
+67&1179648 0 67117696 0 C
+0 0 23 20 20 20
+20d15+2700 8d5+16 0 0 0
+100000 0
+112 112 1
+18 23 15 17 18 20 17 85
+-10 -10 -10 -10 -10
+31 0 0 0 1 1 85
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+37 0 462527 1056768 2104576 0 0 5 524290
+> greet_prog 100~
+tell $n Welcome to the Tree of Wisdom.  If you fashion yourself to be a
+tell $n soldier of virtue you may travel up to seek the blessing of the
+tell $n goddess Althena.  If you wish to visit darkness itself, you may
+tell $n venture downward to visit your dark mistress.
+~
+> fight_prog 25~
+if rand(70)
+mpe _whi Thunder dragon starts to glow white and shoots out massive burst of energy.
+c 'jolting burst' $n
+else
+if rand(20)
+mpe _blu Thunder dragon starts to glow blue and shoots out massive bursts of energy.
+c 'quantum spike' $n
+else
+mpe _gre Thunder dragon starts to glow green and shoots out massive bursts of energy.
+c 'electric blast' $n
+endif
+endif
+~
+> death_prog 100~
+mpe _whi As the last blow is delivered to the Thunder Dragon, a small
+mpe _whi shard of the dragon seems to fall to the ground.  It appears
+mpe _whi to be in the shape of a ball.
+mpoload 3800
+~
+|
+#3803
+Amazon warrior~
+An Amazon warrior~
+An Amazon warrior is here hiding behind leaves.
+~
+She is VERY beautiful...of course all that you can see is her short
+skirted legs, and almost bare...chest.  Her face is veiled for a
+kill.
+~
+131171&1179648 0 4194858 -500 C
+0 0 0 0 0 0
+5d15+600 0d0+0 0 0 0
+5000 0
+112 112 2
+18 17 17 15 16 13 16 65
+-3 -3 -3 -3 -3
+0 0 0 0 1 1 65
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+21 0 2047 0 2104576 0 0 160 524290
+#3804
+Peace~
+Peace~
+A beautiful woman clothed in white robes, symbolizing Peace is here.
+~
+This holy woman of &C&Wpeace &gis the most beautiful woman ever.
+With her dark skin and fair eyes, and long lashes that seem to look
+like silk.  Her voice is clear and crystal like and her eyes hold
+joy and peace in them.
+~
+131139&1048576 0 67109032 1000 C
+0 0 19 17 17 17
+5d10+1250 6d4+18 0 0 0
+15000 0
+112 112 2
+16 20 20 15 14 20 13 70
+-4 -4 -4 -4 -4
+0 0 0 0 1 1 70
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+32 0 1089 0 2104584 0 0 1076101120 6
+> death_prog 25~
+if rand(30)
+mpe _whi A foreign looking slab appears on the corpse of Peace
+mpoload 21123
+else
+mpe _whi A mysterious object falls from nowhere and falls on the corpse of Peace
+mpoload 3830
+endif
+~
+|
+#3805
+Chaos~
+Chaos~
+A swirling mass of Chaos is wreaking havoc here.
+~
+Masses of heavy artillery swirl about him as though as they were
+caught in a tornado.  Auras and images flash around him of war
+and death.  There is a strange fire burning in his eyes.
+~
+131171&1048576 0 8224 -1000 C
+0 0 19 17 17 17
+5d13+1350 6d4+19 0 0 0
+15000 0
+112 112 1
+18 20 20 16 14 10 17 75
+-4 -4 -4 -4 -4
+0 0 0 0 1 1 75
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+35 0 225 0 6298880 0 0 160 524289
+> death_prog 25~
+if rand(30)
+mpe _whi A foreign looking slab appears on the corpse of Chaos
+mpoload 21123
+else
+mpe _whi A mysterious object falls from nowhere and falls on the corpse of Chaos
+mpoload 3831
+endif
+~
+|
+#3806
+Plague~
+the Plague~
+Sickness and disease swirl about here, and you know it's the Plague.
+~
+Sickness and disease swirl about in a tornado like fashion and screams
+yell out with pain and disorder.  This must be the Plague.
+~
+131139&1048576 0 0 -1000 C
+0 0 19 17 17 18
+6d15+1400 4d4+25 0 0 0
+18000 0
+112 112 0
+18 14 14 15 18 10 13 75
+-4 -4 -4 -4 -4
+0 0 0 0 1 1 75
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+33 0 1 0 2104577 0 0 262177 524289
+> death_prog 25~
+if rand(30)
+mpe _whi A foreign looking slab appears on the corpse of Plague
+mpoload 21123
+else
+mpe _whi A mysterious object falls from nowhere and falls on the corpse of Plague
+mpoload 3833
+endif
+~
+|
+#3807
+Pestilence~
+Pestilence~
+A swarm of bugs gathers here, known as Pestilence.
+~
+Swarms of insects buzz around in a human shaped form, and move as a
+human too.  This surely must be none other than the fabled Pestilence.
+~
+131139&1048576 0 8192 -1000 C
+0 0 19 17 17 17
+7d17+1425 7d4+18 0 0 0
+19000 0
+112 112 0
+17 20 20 17 14 14 20 75
+-4 -4 -4 -4 -4
+10 0 0 0 1 1 75
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+39 0 0 0 2104576 0 0 1074008067 524290
+> death_prog 25~
+if rand(30)
+mpe _whi A foreign looking slab appears on the corpse of Pestilence
+mpoload 21123
+else
+mpe _whi A mysterious object falls from nowhere and falls on the corpse of Pestilence
+mpoload 3834
+endif
+~
+|
+#3808
+War~
+War~
+Auras and images of War and death flash around this man.
+~
+This man is dressed in full plate mail, and has fresh blood on his
+armor and sword.  Clearly a man to stay away from.
+~
+131171&1179648 0 8192 -1000 C
+0 0 18 15 15 15
+5d20+1325 4d4+22 0 15 20
+5000 0
+112 112 1
+20 17 17 18 18 10 19 75
+-5 -5 -5 -5 -5
+1 0 0 0 1 1 75
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+40 0 513 8192 2104576 0 0 262528 524289
+> death_prog 25~
+if rand(30)
+mpe _whi A foreign looking slab appears on the corpse of War
+mpoload 21123
+else
+mpe _whi A mysterious object seems to instantly appear in the corpse of War
+mpoload 3838
+endif
+~
+|
+#3809
+Crystal Golem~
+the Crystal Golem~
+A golem crystalized from the crystalized dew of the drops.
+~
+The golem is covered, from head to toe, in crystalized mildew from
+the raindrops of the crystal leaves.  The golem is kind of transparent
+with light shining through and creating prisms.
+~
+131139&1048576 0 0 0 C
+0 0 20 17 17 17
+7d19+1410 6d4+20 0 0 0
+500 0
+112 112 0
+23 17 17 17 16 13 19 65
+-5 -5 -5 -5 -5
+40 0 0 0 1 1 65
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+32 0 1 1048576 4 4194304 0 160 2
+> death_prog 25~
+if rand(30)
+mpe _whi A foreign looking slab appears on the corpse of the Crystal Golem
+mpoload 21123
+else
+mpe _whi A mysterious object falls from nowhere and falls on the corpse of the Crystal Golem
+mpoload 3835
+endif
+~
+|
+#3810
+Hope~
+Hope~
+A shining woman known as Hope is here.
+~
+This woman is beautiful beyond mortal compare.  Her hair is a brilliant
+blonde, and her skin is white as snow.  Her hazelnut like eyes
+hold wisdom and her mouth seems pouted, ready for a kiss.
+~
+131139&1048576 0 138 1000 C
+0 0 18 16 16 16
+6d11+1300 9d4+12 0 0 0
+12000 0
+112 112 2
+14 20 20 18 14 20 16 65
+-7 -7 -7 -7 -7
+0 0 0 0 1 1 65
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+38 0 1 1048576 2104576 8192 0 33554448 6
+> entry_prog 100~
+emote someone snickers at you ruthlessly
+if isgood($n)
+say Ah, righteous one, can you find me and find true Hope?
+endif
+if isevil($n)
+say Nana nana neener, your so stupid and I'm meaner!!
+emote giggle
+endif
+if isneutral($n)
+say You supposed to be here?
+emote laughs at you
+endif
+~
+> death_prog 25~
+if rand(30)
+mpe _whi A foreign looking slab appears on the corpse of Hope
+mpoload 21123
+else
+mpe _whi A mysterious object falls from nowhere and falls on the corpse of Hope.
+mpoload 3839
+endif
+~
+|
+#3811
+Huge Raven~
+a Huge Raven~
+A huge, black feathered Raven is here.
+~
+The raven is tall, wide, and covered in pitch black feathers.  Her
+eyes hold a burning red light and her sharp beak is vicious.
+~
+131139&1048576 0 8 0 C
+0 0 18 16 16 16
+6d15+1400 1d40+13 0 0 0
+0 0
+112 112 2
+15 19 19 22 17 13 19 95
+-6 -6 -6 -6 -6
+87 0 0 0 1 1 95
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+35 3 294968 0 2104576 0 0 1048582 2
+> death_prog 25~
+if rand(30)
+mpe _whi A foreign looking slab appears on the corpse of Raven
+mpoload 21123
+else
+mpe _whi A mysterious object falls from nowhere and falls on the corpse of the Raven.
+mpoload 3836
+endif
+~
+|
+#3812
+Life~
+Life~
+A beautiful woman of Life is here.
+~
+A beautiful woman of Life, dressed up in an almost transparent robe.
+She doesn't seemed abashed, on the contrary she's overjoyed to see you.
+~
+67108931&1179648 0 168 1000 C
+0 0 -150 0 0 0
+5d10+1825 6d5+18 0 0 0
+6000 0
+112 112 0
+15 15 15 15 15 15 15 5
+0 0 0 0 -10
+0 0 0 0 1 1 5
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+33 0 49 0 2104576 0 0 1375731712 6
+#3813
+Light~
+the Light~
+A man in white robes illuminated by Light.
+~
+The man is dressed up in shining white robes and seems to be of middle
+age, even though he hides his real age in youth.  A shining white
+nimbus glows over the man.
+~
+131139&1048576 0 0 1000 C
+0 0 18 16 16 16
+7d18+1445 6d8+8 0 0 0
+30000 0
+112 112 1
+17 14 14 16 18 18 13 5
+-6 -6 -6 -6 -6
+0 0 0 0 1 1 5
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+36 0 49 0 4197634 0 0 112 524289
+> death_prog 25~
+if rand(30)
+mpe _whi A foreign looking slab appears on the corpse of Light
+mpoload 21123
+else
+mpe _whi Two mysterious objects fall from nowhere and fall on the corpse of the Light.
+mpoload 3837
+mpoload 3837
+endif
+~
+|
+#3814
+Death~
+Death~
+A skeleton in black robes of Death is here.
+~
+The skeleton has its lower jaw half way removed and its eye sockets
+contain two bloody eyes.  The skeleton's robes are the pitches of
+black and you know that this must be the Reaper of Souls, the guide
+of darkness, Death.
+~
+131171&1048576 0 4194432 -1000 C
+0 0 19 16 16 16
+8d20+1650 6d4+23 0 0 0
+60000 0
+112 112 0
+21 23 23 19 18 1 12 75
+-7 -7 -7 -7 -7
+0 0 0 0 1 1 75
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+30 0 0 1056768 2104576 0 0 2097218 2
+> greet_prog 100~
+if level($n) < 2
+say Hello Puny Mortal, get ready to DIE!!!
+mpe _red Death waves his hand and you feel a strong pain in your chest.
+mpdamage $n 100
+mpkill $n
+endif
+~
+> fight_prog 10~
+say Your time is coming soon $n!
+mpe _red Death Points at $n and makes $n pay for sins of the past.
+mpdamage $n 100
+~
+> death_prog 25~
+if rand(45)
+mpe _whi A foreign looking slab appears on the corpse of Death
+mpoload 21123
+else
+mpe _whi A bright light shines from the corpse of Death
+mpoload 3832
+endif
+~
+|
+#3815
+Darkness~
+Darkness~
+A shadow of Darkness is here.
+~
+There's not much to see of this, it's just a shadow.
+~
+131139&1048576 0 4194434 -1000 C
+0 0 18 16 16 17
+10d15+1425 7d4+18 0 0 0
+50000 0
+112 112 0
+17 20 20 17 10 10 18 75
+-6 -6 -6 -6 -6
+57 0 0 0 1 1 75
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+34 0 0 0 3328 0 0 2097248 2
+> death_prog 25~
+if rand(30)
+mpe _whi A foreign looking slab appears on the corpse of Darkness
+mpoload 21123
+else
+mpe _whi A mysterious object falls from nowhere and falls on the corpse of Darkness.
+mpoload 3840
+endif
+~
+|
+#3816
+Sky Dragon~
+the Sky Dragon~
+A dragon of different colors of the rainbow is flying here.
+~
+This dragon is HUGE!  Around 11 feet tall (just crouching down mind you)
+and about 18 feet wide, that's with his tail underneath his body.
+The scales of the dragon are in the different colors of the rainbow
+and his gaping mouth is full of sharp teeth.  A force that shouldn't
+be messed with is what this dragon is.
+~
+4163&1179648 0 4194472 0 C
+0 0 31 29 29 29
+10d35+13500 3d5+85 0 0 0
+1000000 0
+112 112 1
+20 24 24 17 17 17 19 100
+-17 -17 -17 -17 -17
+31 0 0 0 1 1 100
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+54 0 32817 0 6298888 2 0 322 524294
+> greet_prog 100~
+say Welcome to my humble abode on top of the Tree of Wisdom my friend.
+say You are standing directly on the path the goddess Althena, but I
+say am afraid you must stop here.  Althena is not taking any visitors right
+say now.  You may try to pass if you want, but it will only lead to your
+say Death.
+~
+> death_prog 35~
+mpecho With the last strike delivered to the Sky Dragon, she quickly falls
+mpecho to the ground.  With her last gasping breath she congratulates $n on
+mpecho your victory.  She informs you that you are still not worthy enough to
+mpecho meet with Althena, but that a special blade will be left for you to prove
+mpecho of your deeds.
+mpoload 3815
+mpforce $n get althena sky
+~
+> fight_prog 35~
+if rand(50)
+mpe _red The Sky Dragon whips his massive head back and strikes $n with it!
+mpdamage $n 150
+else
+if rand(30)
+mpe _red The Sky Dragon recites ancient words and $n's body starts to BURN!!!
+mpdamage $n 250
+else
+if rand(10)
+mpe _red The Sky Dragon Dives at $n and thrashes $n into the ground!!
+mpdamage $n 350
+else
+mpe _red The Sky Dragon cuts it's self, then sucks it's own blood. It looks healthier...
+mprestore self 250
+endif
+endif
+endif
+~
+> speech_prog p I wish to hear of great quests of wisdom.~
+say Not many have came here seeking answers to such riddles.  But, if
+say must know, I wish to recollect so to say the weapons and armors these
+say fiends stole from me.  I will give great rewards for 2 items turned in,
+say 4 items turned in, and all pieces (including every weapon) turned in.
+say If you wish to do a turn in, simply say 'I am here to collect!' and I will
+say examine if your cause is straight and true.
+say If you wish to turn in a whole set of wisdom gear, say
+say 'I am here for the ultimate reward!' and present your gifts.
+~
+> speech_prog p I am here to collect!~
+mpvalue $n 0
+if iscarrying($n) == 3830
+   mpvalue $n +1
+endif
+if iscarrying($n) == 3831
+   mpvalue $n +1
+endif
+if iscarrying($n) == 3832
+   mpvalue $n +1
+endif
+if iscarrying($n) == 3833
+   mpvalue $n +1
+endif
+if iscarrying($n) == 3834
+   mpvalue $n +1
+endif
+if iscarrying($n) == 3835
+   mpvalue $n +1
+endif
+if iscarrying($n) == 3836
+   mpvalue $n +1
+endif
+if iscarrying($n) == 3837
+   mpvalue $n +1
+endif
+if iscarrying($n) == 3838
+   mpvalue $n +1
+endif
+if iscarrying($n) == 3839
+   mpvalue $n +1
+endif
+if iscarrying($n) == 3840
+   mpvalue $n +1
+endif
+if checkmpvalue($n) >= 4
+   say You have done well to collect 4 pieces or more, as a token you may have
+   say this great ancient ring of power.
+   mpoload 3842
+   mpgive 3842 $n
+   mpvalue $n 0
+   if iscarrying($n) == 3830
+      mptake 3830 $n
+      mpvalue $n +1
+   endif
+   if iscarrying($n) == 3831
+      mptake 3831 $n
+      mpvalue $n +1
+   endif
+   if iscarrying($n) == 3832
+      mptake 3832 $n
+      mpvalue $n +1
+   endif
+   if iscarrying($n) == 3833
+ mptake 3833 $n
+      mpvalue $n +1
+   endif
+   if checkmpvalue($n) < 4
+      if iscarrying($n) == 3834
+         mptake 3834 $n
+         mpvalue $n +1
+      endif   
+   endif
+   if checkmpvalue($n) < 4
+      if iscarrying($n) == 3835
+         mptake 3835 $n
+         mpvalue $n +1
+      endif   
+   endif
+   if checkmpvalue($n) < 4
+      if iscarrying($n) == 3836
+         mptake 3836 $n
+         mpvalue $n +1
+      endif   
+   endif
+   if checkmpvalue($n) < 4
+      if iscarrying($n) == 3837
+         mptake 3837 $n
+         mpvalue $n +1
+      endif   
+   endif
+   if checkmpvalue($n) < 4
+      if iscarrying($n) == 3838
+         mptake 3838 $n
+         mpvalue $n +1
+      endif   
+   endif
+   if checkmpvalue($n) < 4
+      if iscarrying($n) == 3839
+         mptake 3839 $n
+         mpvalue $n +1
+      endif   
+   endif
+   if checkmpvalue($n) < 4
+      if iscarrying($n) == 3840
+         mptake 3840 $n
+         mpvalue $n +1
+      endif   
+   endif
+else
+   if checkmpvalue($n) >= 2
+      say You have done well to collect 2 pieces or more, as a token you may have
+      say this great necklace that will bring you great fortunes in life.
+      mpoload 3841
+      mpgive 3841 $n
+      mpvalue $n 0
+      if iscarrying($n) == 3830
+         mptake 3830 $n
+         mpvalue $n +1
+      endif
+      if iscarrying($n) == 3831
+        mptake 3831 $n
+         mpvalue $n +1
+      endif
+      if checkmpvalue($n) < 2
+         if iscarrying($n) == 3832
+            mptake 3832 $n
+            mpvalue $n +1
+         endif
+      endif
+      if checkmpvalue($n) < 2
+         if iscarrying($n) == 3833
+            mptake 3833 $n
+            mpvalue $n +1
+         endif
+      endif
+      if checkmpvalue($n) < 2
+         if iscarrying($n) == 3834
+            mptake 3834 $n
+            mpvalue $n +1
+         endif   
+      endif
+      if checkmpvalue($n) < 2
+         if iscarrying($n) == 3835
+            mptake 3835 $n
+            mpvalue $n +1
+         endif   
+      endif
+      if checkmpvalue($n) < 2
+         if iscarrying($n) == 3836
+            mptake 3836 $n
+            mpvalue $n +1
+        endif   
+      endif
+      if checkmpvalue($n) < 2
+         if iscarrying($n) == 3837
+            mptake 3837 $n
+            mpvalue $n +1
+         endif   
+      endif
+      if checkmpvalue($n) < 2
+         if iscarrying($n) == 3838
+            mptake 3838 $n
+            mpvalue $n +1
+         endif   
+      endif
+      if checkmpvalue($n) < 2
+         if iscarrying($n) == 3839
+            mptake 3839 $n
+            mpvalue $n +1
+         endif   
+      endif
+      if checkmpvalue($n) < 2
+         if iscarrying($n) == 3840
+            mptake 3840 $n
+            mpvalue $n +1
+         endif   
+      endif
+   else
+      say You don't possess enough wisdom gear to be worth my time, be gone!
+   endif
+endif
+mpjunk all
+mpvalue $n 0
+~
+> speech_prog p I am here for the ultimate reward!~
+mpvalue $n 0
+if iscarrying($n) == 3830
+   mpvalue $n +1
+endif
+if iscarrying($n) == 3831
+   mpvalue $n +1
+endif
+if iscarrying($n) == 3832
+   mpvalue $n +1
+endif
+if iscarrying($n) == 3833
+   mpvalue $n +1
+endif
+if iscarrying($n) == 3834
+   mpvalue $n +1
+endif
+if iscarrying($n) == 3835
+   mpvalue $n +1
+endif
+if iscarrying($n) == 3836
+   mpvalue $n +1
+endif
+if iscarrying($n) == 3837
+   mpvalue $n +1
+endif
+if iscarrying($n) == 3838
+   mpvalue $n +1
+endif
+if iscarrying($n) == 3839
+   mpvalue $n +1
+endif
+if iscarrying($n) == 3840
+   mpvalue $n +1
+endif
+if checkmpvalue($n) == 11
+   say You have collected all the wisdom gear!  The only reward I have left to
+   say give is the blade of Twilight.  While not as strong as the Blade of
+   say Althena, it is a mighty piece of artwork to enjoy.  Thanks again!
+   mpoload 3843
+   mpgive 3843 $n
+   mptake 3830 $n
+   mptake 3831 $n
+   mptake 3832 $n
+   mptake 3833 $n
+   mptake 3834 $n
+   mptake 3835 $n
+mptake 3836 $n
+   mptake 3837 $n
+   mptake 3838 $n
+   mptake 3839 $n
+   mptake 3840 $n
+   mpjunk all
+   mpvalue $n 0
+   break
+endif
+mpvalue $n 0
+say You fool!  You do not have all 11 items.
+~
+|
+#3817
+giant rabid mole~
+A giant rabid mole~
+A giant rabid mole is here drooling purple ooze.
+~
+Thie mole is about 4 feet tall, with razor sharp claws and teeth that
+look like they could chew through steel.  It seems to be foaming a strange
+purple substance out of its mouth.
+~
+33 0 0 0 C
+0 0 12 11 11 11
+6d13+400 3d5+6 0 0 0
+0 0
+112 112 1
+16 15 15 16 15 13 9 53
+0 0 0 0 0
+87 0 0 0 1 1 53
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+28 0 262145 0 0 0 0 1074003971 2
+#3818
+Arachnid~
+an Arachnid~
+A huge...HUGE arachnid spider is here!
+~
+Too disgusting to describe, you just have to know it is big, mean
+and poisonous.
+~
+97 0 0 0 C
+0 0 12 11 11 11
+5d10+400 1d20+4 0 0 0
+100 0
+112 112 0
+16 14 14 14 17 1 12 55
+0 0 0 0 0
+63 0 0 0 1 1 55
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+30 0 49 0 0 0 0 262145 2
+#3819
+Pandora~
+Pandora~
+A beautiful, unlucky, woman named Pandora is here.
+~
+Pandora has great, shiny, beautiful hazel colored hair and eyes,
+with skin as white as snow, and a red mouth that is pouted in a kiss
+position.  Her body is slim, but not scrawny, her hands delicate,
+and her bosom....well....big.  She does have a dangerous side to
+her though....be careful if she asks you in for a hot night.
+~
+4163&1179648 0 71303336 -1000 C
+0 0 28 25 26 27
+40d15+9500 8d7+35 0 0 0
+250000 0
+112 112 2
+21 24 24 23 22 20 6 100
+-15 -15 -15 -15 -15
+0 0 0 0 1 1 100
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+50 0 49 1048576 2104576 0 0 1109655552 524294
+> fight_prog 45~
+if rand(50)
+mpe Pandora's eyes glow yellow as her strength is returned.
+c 'power heal' Pandora
+else
+if rand(20)
+mpe Pandora's eyes glow blue and with that she releases a tidal wave.
+c 'tidal wave'
+else
+mpecho Pandora's eyes start to glow hot red and she opens her 
+mpecho horrible box and unleashes all the evils upon thee!
+mpdamage $n 200
+endif
+endif
+~
+> death_prog 30~
+mpe _whi With the last strike, Pandora falls to the ground to her death.
+mpe _whi Having saved her from the curse of carrying Pandora's box, you are
+mpe _whi now the ones that will burdon this curse.  $n has been chosen to
+mpe _whi Handle this curse.
+mpoload 3821
+mpforce $n get pandora pandora
+mpoload 21143
+mpoload 21143
+mpoload 21143
+mpoload 21143
+mpoload 21143
+mpoload 21143
+~
+|
+#3820
+Miq~
+Miq~
+Miq is here, juggling his weapons idly.
+~
+A tall, fleet of foot man with an odd disposition and a fetish for juggling
+sharp pointy objects, Miq is by no means to be taken lightly.  As you look
+him over, he puts on a little show for you, juggling two scimitars, a shield,
+and a book.  You will fear his mad skills.
+~
+67244115&4 0 4194304 0 S
+0 0 0 0 0 0
+10000d1+0 0d0+0 0 0 0
+0 0
+112 112 0
+> speech_prog p What skills do you teach Miq~
+tell $n I teach
+tell $n ----------------------------------
+tell $n 200.  Master Dual Wield
+tell $n 201.  Novice Acid
+tell $n 202.  Novice Electrocution
+tell $n ----------------------------------
+~
+> speech_prog p learn 1 200~
+mpteach $n 1 dual wield
+~
+> speech_prog p learn 4 200~
+mpteach $n 4 dual wield
+~
+> speech_prog p learn 1 201~
+mpteach $n 1 acid
+~
+> speech_prog p learn 2 201~
+mpteach $n 2 acid
+~
+> speech_prog p learn 1 202~
+mpteach $n 1 electrocution
+~
+> speech_prog p learn 2 202~
+mpteach $n 2 electrocution
+~
+|
+#3899
+Neal~
+Neal~
+Neal floats around in the air trying to avoid his long hair.
+~
+A strange looking elf, that doesn't even include the fact that he is
+flying in the air.  Neal has very very very long Orange hair that moves
+about the air in a circular motion when he moves around and his face is
+covered in some really strange orange looking dots.  He is either stricken
+with some disease, or was removed from his dwelling because he looked like
+that.
+~
+67244115&4 0 4718592 0 C
+0 0 0 0 0 0
+1d1+10000 0d0+0 0 0 0
+10000 0
+112 112 0
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+1 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+> speech_prog p What skills do you teach Neal~
+tell $n I teach
+tell $n ----------------------------------
+tell $n 203.  Expert Tumble
+tell $n 204.  Expert Blessing
+tell $n 205.  Novice Immolation
+tell $n ----------------------------------
+~
+> speech_prog p learn 3 203~
+mpteach $n 3 tumble
+~
+> speech_prog p learn 3 204~
+mpteach $n 3 blessing
+~
+> speech_prog p learn 2 205~
+mpteach $n 2 immolation
+~
+> speech_prog p learn 1 203~
+mpteach $n 1 tumble
+~
+> speech_prog p learn 1 204~
+mpteach $n 1 blessing
+~
+> speech_prog p learn 1 205~
+mpteach $n 1 immolation
+~
+|
+#0
+
+
+#OBJECTS
+#3800
+Ball of Thunder~
+&w&WBall of &w&WT&w&Ch&w&Wu&w&Cn&w&Wd&w&Ce&w&Wr~
+&w&CA &w&WBall of &w&WT&w&Ch&w&Wu&w&Cn&w&Wd&w&Ce&w&Wr &w&Cis here before your feet.~
+~
+1 -2147483648&256 1
+0 0 -1 0
+1.000000 150000 0 0 0 0 3
+A
+13 35 0
+A
+12 50 0
+A
+78 1 0
+A
+82 1 0
+A
+81 2 0
+#3801
+The Sky Key~
+The key to the Sky~
+A key that seems to be reflecting the color of the sky is here.
+
+
+~
+~
+18 524608 1
+3856 0 0 0
+1.000000 0 0 0 0 0 0
+E
+sky key~
+&GThe key is a beautiful &Bblue color, and it's handle seems to be a 
+cloud.  There's a ruby in the cloud, the ruby is shaped as the sun and 
+is glowing &Yyellow.
+~
+#3802
+black dragon armor~
+the Black Dragon armor~
+Black armor with silver bindings is laying on the ground.~
+~
+9 8946688 9
+0 0 0 0 0 50 0 0 0 0 0 0 0 0
+8.000000 70000 0 0 0 0 0
+E
+black dragon armor~
+The armor is made of black scales from the legendary Black Dragon
+and seem to spark in the light with blue electricity.  In the middle
+of the armor is a red ruby that shines with a fiery brightness,
+surely this is armor for a great knight of virtue.
+~
+A
+17 -60 0
+A
+13 150 0
+A
+12 75 0
+A
+18 7 0
+A
+19 9 0
+A
+27 4 0
+A
+22 -5 0
+A
+20 -5 0
+A
+24 -5 0
+#3803
+bible~
+the Holy Bible of Peace~
+A book with gold lettering and silver lining with silk paper is on the floor here.~
+~
+3 64 16385
+40 12 12 -1
+1.000000 3000 0 0 0 0 0
+'NONE'
+E
+bible holy~
+The books lettering are all done up in gold letters and the lining
+around the book is all in silver.  The paper feels as though as it
+were silk.
+~
+A
+17 -10 0
+A
+3 1 0
+A
+4 1 0
+#3804
+chaos mail~
+the Chaos Mail~
+Banded mail that seems to scream out at your soul is on the floor.~
+~
+9 524608 9
+10 0 0 0 0 45 0 0 0 0 0 0 0 0
+1.000000 5000 0 0 0 0 0
+A
+17 -15 0
+A
+1 1 0
+A
+5 1 0
+A
+25 -2 0
+A
+19 6 0
+A
+18 5 0
+#3806
+head dress~
+a head dress~
+A head dress with insects painted on is laying on the ground here.~
+~
+9 320 17
+10 10 0 0 0 43 0 0 0 0 0 0 0 0
+5.000000 5000 0 0 0 0 0
+E
+head dress~
+Feathered at the ends and bone used as the base, this head dress has
+intricate designs of golden bees and different types of the bugs,
+ranging from ants to butterflies.
+~
+A
+17 -15 0
+A
+13 25 0
+A
+12 25 0
+A
+1 1 0
+A
+5 1 0
+A
+18 3 0
+A
+19 3 0
+#3807
+War armor~
+some war armor~
+Bloodied and dented war armor is here on the ground.~
+~
+9 524544 9
+14 13 0 0
+7.000000 5000 0 0 0 0 0
+E
+war armor~
+Bloodied and dented, this banded mail plate of armor has seen better
+days, and bad wars.  The feel of the current through the armor feels
+as though as if it were cursed with long hardship journeys.
+~
+A
+17 -22 0
+A
+19 6 0
+A
+18 6 0
+A
+13 45 0
+A
+12 -50 0
+#3808
+War blade~
+a War Sword~
+A bloodied blade of a sword is here~
+~
+5 524544 8193
+12 7 7 1 3 -1 0 0 0 0 0 0 0 0
+12.000000 5500 0 0 0 0 0
+'acidic ball'
+E
+war blade~
+Bloodied to the tip, the blade is a deep crimson in blood, and the
+hilt is a deep wooden, leather covered, work of art.  Strength
+seems to ebb from this blade, but holding this sword in your hands
+seems to....make you dumber, put bluntly.
+~
+A
+17 -5 0
+A
+13 45 0
+A
+19 7 0
+A
+18 9 0
+A
+3 -1 0
+A
+1 1 0
+#3809
+Hope Staff~
+the hope staff~
+A brilliant shining white light of a staff is here.~
+~
+5 320 8193
+12 7 6 13 1 -1 0 0 0 0 0 0 0 0
+8.000000 6000 0 0 0 0 0
+'acid blast'
+A
+17 -10 0
+A
+13 20 0
+A
+12 50 0
+A
+3 2 0
+A
+25 1 0
+A
+18 5 0
+A
+19 6 0
+> wear_prog 20~
+mpecho A dazzling light fills your eyes and you feel chilled to your
+mpecho bones, and a feeling of freshness flows through you.
+cast 'heal' $n
+~
+|
+#3810
+Feather Necklace~
+a black feather necklace~
+A necklace of black raven feathers is here.~
+~
+9 262496 5
+15 15 0 0
+0.150000 2000 0 0 0 0 0
+A
+17 -20 0
+A
+13 15 0
+A
+12 65 0
+A
+3 2 0
+A
+4 2 0
+A
+1 -2 0
+A
+18 3 0
+A
+19 3 0
+#3811
+Death Scythe~
+the Scythe of Death~
+The Reapers own weapon, the Scythe, is here.~
+~
+5 16778048&8 8193
+12 5 6 23 2 -1 0 0 0 0 0 0 0 0
+10.000000 9000 0 0 0 0 0
+'acid breath'
+E
+scythe death~
+The handle is 6 feet tall, with a sharp blade that reaches out at least
+4 feet and the tip is covered in blood.  The wood of the handle is
+deep black, and gnarled as though as if it were made right out of
+a dead tree.
+~
+A
+17 -5 0
+A
+13 65 0
+A
+12 20 0
+A
+1 1 0
+A
+5 1 0
+A
+18 9 0
+A
+19 10 0
+#3812
+blue dragon helmet~
+the Blue Dragon's helmet~
+A helmet with a red ruby in it is here laying on the ground.~
+~
+9 1344 17
+15 15 0 0
+3.000000 10000 0 0 0 0 0
+E
+blue dragon's helmet~
+The helmet is capped in fur, which is strapped down by white dragon
+scales and the straps are capped off in glittering blue scales.
+In the middle of the helmet is a moderately sized red ruby and
+the helmet has a sense of protection against all poisons.
+~
+A
+17 -25 0
+A
+13 100 0
+A
+12 100 0
+A
+18 6 0
+A
+1 1 0
+A
+4 1 0
+A
+20 -10 0
+#3813
+red dragon shield~
+the Red Dragon's shield~
+A shield with a red ruby in the middle is here on the floor.~
+~
+9 525632 513
+15 15 0 0
+4.000000 40000 0 0 0 0 0
+E
+red dragon's shield~
+The shield has red scales out in front with a largered ruby in the
+middle of the shield, which has white bindings around it and a white
+strap on the back to put your arm through.  The shield has white
+dragon feathers on the back for softness and a good comforting fit.
+The shield seems to have a sense of protection against dragon
+breath and all types of spells.
+~
+A
+17 -30 0
+A
+13 100 0
+A
+12 75 0
+A
+19 6 0
+A
+5 2 0
+A
+23 -8 0
+A
+24 -8 0
+#3814
+white dragon ring~
+the White Dragon ring~
+A ring of white dragon feathers is here on the floor.~
+~
+9 263488 3
+15 15 0 0
+0.100000 10000 0 0 0 0 0
+E
+white dragon ring~
+s
+The ring has a feel of gold but has the soft touch of the white
+dragon's feathers.  In the middle of the ring there is a large dragon
+crystal, fresh from the white dragon itself.  The ring has a mystical
+power about it that cannot be explained.
+~
+A
+17 -20 0
+A
+13 75 0
+A
+12 50 0
+A
+19 6 0
+A
+3 1 0
+A
+22 -6 0
+#3815
+Althena Blade~
+Althena's Blade~
+A sword with an awsome blade is here stuck in the ground.~
+~
+5 524352&0&80 513
+1000 50 55 6 -1 -1 0 22 23 23 25 0 35 30
+5.000000 17500000 0 0 0 0 6
+'NONE'
+E
+althena's blade~
+The legendary blade of the DragonMaster.  Said to be forged from the
+powers of Earth and the forger was Althena herself.  This blade has
+the power of immunity of the 3 powers of Earth, fire, cold and
+electricity.  The hilt of this sword is pure gold with a large red
+ruby in the middle of it.  The Blade itself is 4 and half feet
+tall.  Even those this is a sword, it is the power of Holyness.
+~
+A
+24 -6 0
+A
+21 -6 0
+A
+22 -6 0
+A
+23 -6 0
+A
+20 -6 0
+A
+13 60 0
+A
+12 70 0
+A
+77 10 0
+A
+1 1 0
+A
+3 1 0
+A
+102 60 0
+A
+101 60 0
+> wear_prog 100~
+mpecho Angels rejoice and the clear voice of Althena sings out
+mpecho as $n wields the Legendary Blade of the DragonMaster!
+~
+> remove_prog 100~
+mpecho As $n removes $I, a sense of loss enters $n's mind.
+~
+|
+#3816
+table~
+a table~
+A square, wooden table on four legs.~
+~
+12 0 0
+0 0 0 0
+15.000000 0 0 0 0 0 0
+E
+table ~
+The table is just a plain 4 and a half foot wooden table with a vase
+on it.
+~
+#3817
+vase~
+a vase of flowers~
+A vase of colors with some flowers is on the table.~
+~
+12 0 1
+0 0 0 0
+6.000000 0 0 0 0 0 0
+E
+vase~
+The vase is colored in the three primary colors, red, blue, and yellow.
+It has some lovely red roses in it too.
+~
+#3818
+chair~
+a chair~
+A plain old chair.~
+~
+12 0 0
+1 750 1 200 200 0 0 0 0 0 0 0 0 0
+5.000000 0 0 0 0 0 0
+E
+chair ~
+It's a CHAIR.  Not a monster, not some sort of cool weapon, but a CHAIR.
+You had to check this?  You didn't know what a chair looked like?!
+That's sort of...uh...pathetic.
+~
+#3819
+blue crystal~
+a &Bblue &Gcrystal~
+A beautiful &Bblue &Gcrystal lies here.~
+~
+12 0 1
+0 0 0 0
+600.000000 0 0 0 0 0 0
+#3820
+red ruby~
+a &rred &Gruby~
+A beautiful &rred &Gruby.~
+~
+12 0 1
+0 0 0 0
+600.000000 0 0 0 0 0 0
+E
+red ruby~
+It is a red ruby.
+~
+#3821
+Pandora Box~
+Pandora's Box~
+Pandora's box has been foolish left here.~
+~
+8 0&0&16 32769
+0 0 0 0
+2.000000 7500000 0 0 0 0 5
+A
+24 -10 0
+A
+21 -10 0
+A
+22 -10 0
+A
+23 -10 0
+A
+20 -10 0
+A
+12 125 0
+A
+31 -7 0
+A
+83 400 0
+> drop_prog 100~
+mpe _red $n tries to let go of Pandora's Box, but another entity has other plans!
+mpforce $n get Pandora
+~
+|
+#3822
+A Sign~
+A wooden sign~
+A sign has been pounded into the ground here.~
+~
+12 0 1
+0 0 0 0
+999.000000 0 0 0 0 0 0
+E
+sign~
+|---------------------------------|
+          |   Welcome to The Tree of Wisdom.|
+          |   This is a bigger, badder Tree | 
+          |   of Life from RoD, you may or  |
+          |   may not recogonize some of the|
+          |   MOBs here.  This is not       |
+          |   plagarism.  So have fun.      |
+          |--------------|  |---------------|
+                         |__|
+&RNOTE! &C&WThere is a warning here:
+&GThis area is intended for lvls 32-50.  The eq here is mostly 40-50
+stuff, so be forwarned.       ----|-----> Lucis Minal
+~
+#3823
+dragon boots scale~
+green dragonscale boots~
+Flashing green, dragonscale boots have been left here~
+~
+9 1088 65
+20 20 0 12
+3.000000 10000 0 0 0 0 0
+A
+13 50 0
+A
+14 150 0
+A
+18 10 0
+A
+2 2 0
+A
+17 -15 0
+> sac_prog 10~
+~
+|
+#3830
+Wisdom Greave~
+&w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WG&c&wr&w&We&c&wa&w&Wv&c&we~
+&w&CA &w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WG&c&wr&w&We&c&wa&w&Wv&c&we &w&Cis here awaiting its new owner.~
+~
+9 524288 33
+17 17 17 1000 18 3 0 0 0 0 0 0 0 0
+5.000000 60000 0 0 0 0 3
+A
+13 5 0
+A
+12 5 0
+#3831
+Wisdom Gauntlet~
+&w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WG&c&wa&w&Wu&c&wn&w&Wt&c&wl&w&We&c&wt~
+&w&CA &w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WG&c&wa&w&Wu&c&wn&w&Wt&c&wl&w&We&c&wt &w&Cis here awaiting its new owner.~
+~
+9 524288 65
+17 17 17 1000 18 3 0 0 0 0 0 0 0 0
+4.000000 80000 0 0 0 0 3
+A
+13 4 0
+A
+12 4 0
+A
+97 80 0
+#3832
+Wisdom Breastplate~
+&w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WB&c&wr&w&We&c&wa&w&Ws&c&wt&w&Wp&c&wl&w&Wa&c&wt&w&We~
+&w&CA &w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WB&c&wr&w&We&c&wa&w&Ws&c&wt&w&Wp&c&wl&w&Wa&c&wt&w&We &w&Cis here awaiting its new owner.~
+~
+9 524288 9
+16 16 16 1000 18 4 0 0 0 0 0 0 0 0
+11.000000 400000 0 0 0 0 4
+A
+13 12 0
+A
+12 12 0
+A
+70 38 0
+A
+103 80 0
+#3833
+Wisdom Gorget~
+&w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WG&c&wo&w&Wr&c&wg&w&We&c&wt~
+&w&CA &w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WG&c&wo&w&Wr&c&wg&w&We&c&wt &w&Cis here awaiting its new owner.~
+~
+9 524288 5
+20 20 20 1000 20 4 0 0 0 0 0 0 0 0
+3.000000 85000 0 0 0 0 3
+A
+13 5 0
+A
+12 5 0
+A
+99 80 0
+#3834
+Wisdom Armet~
+&w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WA&c&wr&w&Wm&c&we&w&Wt~
+&w&CA &w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WA&c&wr&w&Wm&c&we&w&Wt &w&Cis here awaiting its new owner.~
+~
+9 524288 17
+18 18 18 1000 19 4 0 0 0 0 0 0 0 0
+3.000000 100000 0 0 0 0 3
+A
+13 5 0
+A
+12 5 0
+A
+70 39 0
+A
+100 80 0
+#3835
+Wisdom Great Axe~
+&w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WG&c&wr&w&We&c&wa&w&Wt &c&wA&w&Wx&c&we~
+&w&CA &w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WG&c&wr&w&We&c&wa&w&Wt &c&wA&w&Wx&c&we &w&Cis here awaiting its new owner.~
+~
+5 0&131072&128 513
+1000 30 34 8 -1 -1 0 13 15 11 17 0 30 24
+8.000000 120000 0 0 0 0 8
+'NONE'
+A
+13 8 0
+A
+12 8 0
+A
+84 250 0
+#3836
+Wisdom Claymore~
+&w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WC&c&wl&w&Wa&c&wy&w&Wm&c&wo&w&Wr&c&we~
+&w&CA &w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WC&c&wl&w&Wa&c&wy&w&Wm&c&wo&w&Wr&c&we &w&Cis here awaiting its new owner.~
+~
+5 524288&131072&64 513
+1000 30 34 8 -1 -1 0 13 15 12 16 0 30 18
+6.000000 150000 0 0 0 0 7
+'NONE'
+A
+13 8 0
+A
+12 8 0
+A
+90 20 0
+#3837
+Wisdom Stiletto~
+&w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WS&c&wt&w&Wi&c&wl&w&We&c&wt&w&Wt&c&wo~
+&w&CA &w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WS&c&wt&w&Wi&c&wl&w&We&c&wt&w&Wt&c&wo &w&Cis here awaiting its new owner.~
+~
+5 524288&0&256 513
+1000 27 29 6 -1 -1 0 9 11 13 14 0 40 4
+3.000000 100000 0 0 0 0 3
+'NONE'
+A
+13 4 0
+A
+12 4 0
+A
+92 20 0
+#3838
+Wisdom Guisarme~
+&w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WG&c&wu&w&Wi&c&ws&w&Wa&c&wr&w&Wm&c&we~
+&w&CA &w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WG&c&wu&w&Wi&c&ws&w&Wa&c&wr&w&Wm&c&we &w&Cis here awaiting its new owner.~
+~
+5 524288&131072&512 513
+1000 32 34 8 -1 -1 0 9 14 14 13 0 20 10
+8.000000 125000 0 0 0 0 8
+'NONE'
+A
+13 8 0
+A
+12 8 0
+A
+81 3 0
+#3839
+Wisdom Morning Star~
+&w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WM&c&wo&w&Wr&c&wn&w&Wi&c&wn&w&Wg &c&wS&w&Wt&c&wa&w&Wr~
+&w&CA &w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WM&c&wo&w&Wr&c&wn&w&Wi&c&wn&w&Wg &c&wS&w&Wt&c&wa&w&Wr &w&Cis here awaiting its new owner.~
+~
+5 524288&131072&2048 513
+1000 30 38 9 -1 -1 0 14 13 10 17 0 10 35
+9.000000 125000 0 0 0 0 6
+'NONE'
+A
+13 8 0
+A
+12 8 0
+A
+94 20 0
+#3840
+Wisdom Battle Staff~
+&w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WB&c&wa&w&Wt&c&wt&w&Wl&c&we &w&WS&c&wt&w&Wa&c&wf&w&Wf~
+&w&CA &w&WW&c&wi&w&Ws&c&wd&w&Wo&c&wm &w&WB&c&wa&w&Wt&c&wt&w&Wl&c&we &w&WS&c&wt&w&Wa&c&wf&w&Wf &w&Cis here awaiting its new owner.~
+~
+5 524288&131072&1024 513
+1000 28 32 8 -1 -1 0 13 12 11 19 0 16 14
+7.000000 150000 0 0 0 0 9
+'NONE'
+A
+13 8 0
+A
+12 8 0
+A
+88 20 0
+#3841
+teardrop of sight~
+&w&CA &w&GT&w&Ce&w&Ga&w&Cr&w&Gd&w&Cr&w&Go&w&Cp &w&Go&w&Cf &w&GS&w&Ci&w&Gg&w&Ch&w&Gt&w~
+&w&CA &w&GT&w&Ce&w&Ga&w&Cr&w&Gd&w&Cr&w&Go&w&Cp &w&Go&w&Cf &w&GS&w&Ci&w&Gg&w&Ch&w&Gt &w&Clies here glowing magically.~
+~
+8 128&2 32769
+0 0 0 0
+0.300000 2000000 0 0 0 0 5
+A
+12 25 0
+A
+13 20 0
+A
+78 1 0
+A
+70 35 0
+#3842
+Eperche Ring~
+&w&GA&w&On &w&GE&w&Op&w&Ge&w&Or&w&Gc&w&Oh&w&Ge &w&OR&w&Gi&w&On&w&Gg~
+&w&GA&w&On &w&GE&w&Op&w&Ge&w&Or&w&Gc&w&Oh&w&Ge &w&OR&w&Gi&w&On&w&Gg &w&Clies here waiting for the next lucky owner!~
+~
+8 128&2 3
+0 0 0 0
+0.100000 3000000 0 0 0 0 5
+A
+80 3 0
+A
+82 1 0
+A
+12 30 0
+A
+13 30 0
+A
+81 5 0
+A
+85 70 0
+#3843
+Blade of Twilight~
+&w&GBlade of &w&zTwilight~
+&w&CSomeone has left the powerful &w&GBlade of &w&zTwilight&w&C here for you to pickup!~
+~
+5 524480&2&80 513
+1000 49 55 7 -1 -1 0 20 21 21 24 0 33 22
+3.000000 15000000 0 0 0 0 4
+'NONE'
+E
+blade of twilight~
+You are lucky, or crafty, enough to behold one of the great blades of
+Rafermand.  Known for its power and stealth, the blade of twilight stands
+out as a crowning mark in blade production.  Not too many blades out
+there can match this blade and you are lucky enough to have it at your
+side.
+~
+A
+13 45 0
+A
+12 45 0
+A
+84 450 0
+A
+83 450 0
+A
+22 -6 0
+A
+21 -6 0
+A
+20 -6 0
+A
+23 -6 0
+A
+26 16 0
+A
+26 4194304 0
+A
+24 -6 0
+#3899
+Final Object~
+a newly created Final Object~
+Some god dropped a newly created Final Object here.~
+~
+13 1073741824 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#0
+
+
+#ROOMS
+#3800
+A dirt path.~
+&CThe path you are walking is a plain dirt path, with few trees on
+each side of the path.  Some leaves have already fallen onto the
+ground and are different shades of colors, such as, &Yyellow&C,
+&Ggreen&C, and &Rreds&C.
+~
+0&2
+0 2
+0
+0
+D2
+~
+~
+134217728 -1 16000
+1040 353
+D7
+A field of long grass.
+~
+~
+0 0 3801
+0 0
+S
+#3801
+A field of grass.~
+&CLong &ggreen &Cgrass stretches across the land for miles and miles.
+The sky has a lovely gaze in it, and seems calm.  The air is nice
+and cool, and has an air of comfort, and a special hint of a snippy
+briskness to it.
+~
+0&8194
+0 2
+0
+0
+D6
+A field of long grass.
+~
+~
+0 0 3802
+0 0
+D8
+A dirt path.
+~
+~
+0 0 3800
+0 0
+S
+#3802
+A field of grass.~
+Longer blades of grass form a field and stretch on and on for miles
+on end.  The wind of this land gently brushes against the grass
+making the grass bend gently to the left.  The air, still crisp
+and cool, has a hint of the season of fall in it.
+~
+0&2
+0 2
+0
+0
+D0
+Trees sway gently with the wind.
+~
+~
+0 0 3803
+0 0
+D9
+A field of long grass.
+~
+~
+0 0 3801
+0 0
+S
+#3803
+A path of trees.~
+Evergreens, weeping willow, oaks, and all other different kinds of
+trees are on the left and right sides of the dirt path.  They all
+sway gently from the on coming, gentle, wind.  The sky seems to set
+the mood of the land and it is very peaceful and quiet.  The wind
+seems to play gentle music with every gust.
+~
+0&2
+0 3
+0
+0
+D2
+A field of long grass.
+~
+~
+0 0 3802
+0 0
+D3
+Trees sway gently with the wind.
+~
+~
+0 0 3804
+0 0
+S
+#3804
+A path of trees.~
+More trees cover the path's left and right sides.  They all seem to
+sway with the wind, as though the wind and the trees are one.  Around
+you, there seems to be music in the air from the wind, or from the
+inhabitants of this land.  The sky is set now, and the air of it is
+calm.
+~
+0&2
+0 3
+0
+0
+D1
+Trees sway gently with the wind.
+~
+~
+0 0 3803
+0 0
+D3
+A worn down dirt path.
+~
+~
+0 0 3805
+0 0
+S
+#3805
+A worn down path.~
+The dirt on this path is worn down by many travelers, there are
+different types of footprints in the dirt, there's a bird's footprints,
+some humans, and some that don't seem familiar.  The sun is starting
+to rise in the east, and the horizon is taking on a warm glow of 
+orange and red.
+~
+0&2
+0 2
+0
+0
+D1
+Trees sway gently with the wind.
+~
+~
+0 0 3804
+0 0
+D7
+On a trail around a huge tree.
+~
+~
+0 0 3806
+0 0
+S
+#3806
+On a trail around the tree.~
+The trail is worn down by use and the dirt is hardpacked from traveler's
+feet.  To the west of you, there is a HUGE tree.  This tree is so tall
+that you'd have to climb it to see what its branches look like.
+The tree already casts a long shadow upon the ground from the rising
+sun.
+~
+0&2
+0 3
+0
+0
+D7
+On a trail around the tree.
+~
+~
+0 0 3813
+0 0
+D8
+A worn down dirt path.
+~
+~
+0 0 3805
+0 0
+S
+#3807
+On a trail around the tree.~
+The sun is blocked out from trees to the east but the wind cuts at you
+from the west.  There doesn't seem to be any possible way to climb
+from here, and you could catch a cold from standing here in front of
+the wind.  Time to be finding the way up.
+~
+0
+0 3
+0
+0
+D3
+A way up.
+~
+~
+0 0 3808
+0 0
+D6
+On a trail around the tree.
+~
+~
+0 0 3806
+0 0
+S
+#3808
+A way up...or down.~
+The tree seems to slacken off its roghness, and there seems to be
+little foot-hand holds in the tree for you to climb.  The ground
+beneath you seems to be soft and there is a gaping hole to the left of
+the first foothold.  The hole seems to be big enough for a full
+grown Troll to get through, and is more than enough the size for
+a human or elf to get through.
+~
+4&2
+0 3
+0
+0
+D4
+Going up the tree.
+~
+~
+0 0 3814
+0 0
+D5
+Into the hole.
+~
+~
+0 0 3857
+0 0
+D7
+On a trail around the tree.
+~
+~
+0 0 3809
+0 0
+S
+#3809
+On a trail around the tree.~
+The hard packed dirt seems to have dwindled off and now there is
+nice, soft, rich soil.  There doesn't seem to be any footprints
+in the soil, stepping on the soil proves it right.  Your foot
+doesn't sink but still stays above the soil.  In fact it DOES
+stay above the soil.  Your floating above the ground!  It won't
+last long though...
+~
+0&2
+0 3
+0
+0
+D0
+On a trail around the tree.
+~
+~
+0 0 3810
+0 0
+D8
+A way up.
+~
+~
+0 0 3808
+0 0
+S
+#3810
+On a trail around the tree.~
+The dirt beneath your feet is hard packed and worn down from use.
+There are leaves on the sides of the path, and some on the path too,
+making a crunching sound whenever you step on one.  This side of the
+tree seems to have fall qualities, leaves of different colors, a 
+coldness to the wind, and not much warmth from the sun.
+~
+0&2
+0 3
+0
+0
+D2
+On a trail around the tree.
+~
+~
+0 0 3809
+0 0
+D6
+On a trail around the tree.
+~
+~
+0 0 3811
+0 0
+S
+#3811
+On a trail around the tree.~
+The sun is giving off a lot of light and this side of the tree seems
+to have some Spring type qualities.  Little puddles of water are on the
+path and to the sides, some of the plants and all of the grass are
+turning back to their natural colors and are blooming.  The wind is
+still a bit chilly, but the atmosphere of this place is like Spring.
+~
+0&2
+0 3
+0
+0
+D1
+On a trail around the tree.
+~
+~
+0 0 3812
+0 0
+D9
+On a trail around the tree.
+~
+~
+0 0 3810
+0 0
+S
+#3812
+On a trail around the tree.~
+The sun, high above your head, is giving off a great amount of heat
+and light.  The dirt is hardpacked from use, and the tree's leaves,
+as well as the grass, are a deep green.  The flowers in the grass
+have bloomed and are different types of colors.  This side of the tree
+has some Summer type qualities to it.
+~
+0&2
+0 3
+0
+0
+D3
+On a trail around the tree.
+~
+~
+0 0 3811
+0 0
+D8
+On a trail around the tree.
+~
+~
+0 0 3813
+0 0
+S
+#3813
+On a trail around the tree.~
+Despite the sun to the east, the wind from the west is sharp and
+cold.  There are withered leaves on the branches of the tree, and
+there is a small patch of snow on the left side of the path.  The
+path's dirt has been frozen, and there's a patch of ice in the middle
+of the path.  This side of the tree has some Winter qualities to it.
+~
+0&2
+0 3
+0
+0
+D7
+On a trail around the tree.
+~
+~
+0 0 3812
+0 0
+D8
+On a trail around the tree.
+~
+~
+0 0 3806
+0 0
+S
+#3814
+Climbing the tree.~
+You can now see some of the branches high up in the top of the tree.
+The branch you're on right now, is a deep chestnut brown and has
+leaves as green as they can get.  The foot/hand holds have disappeared,
+but there is another branch to the north.
+~
+0&2
+0 3
+0
+0
+D0
+A swaying branch.
+~
+~
+0 0 3815
+0 0
+D5
+Down on the ground.
+~
+~
+0 0 3808
+0 0
+S
+#3815
+A swaying branch.~
+This branch is swaying gently from the wind, and leaves are fluttering
+down from the branch.  The leaves are an orange/reddish color and
+the branch has bark being stripped off from your boots.  The leaves
+seem to be a perfect place to blend into.  The foot/hand holds have
+appeared again and are going up.
+~
+4&2
+0 3
+0
+0
+D2
+On a lucious branch.
+~
+~
+0 0 3814
+0 0
+D4
+A branch that has half of it's side burned and the other half not.
+~
+~
+0 0 3816
+0 0
+S
+#3816
+An interwined branch.~
+The west side of this branch is charred and burnt, and the leaves
+are either scorched or burnt to a crisp.  The east side of the
+branch, however, is a deep rich brown with leaves of the purest
+green making it a very interesting combination to look at.  Along
+with the colors, a man flying around the branches to the north
+make this side of the tree just a little different from the rest.
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 3859
+0 0
+D1
+A peaceful branch.
+~
+~
+0 0 3817
+0 0
+D3
+A branch that is twisted and charred.
+~
+~
+0 0 3818
+0 0
+D4
+Going up the tree.
+~
+~
+0 0 3819
+0 0
+D5
+A swaying branch.
+~
+~
+0 0 3815
+0 0
+S
+#3817
+A peaceful branch.~
+This branch is very calming.  The branch is a deep, rich brown,
+and the leaves are the purest green ever seen.  There is no
+wind, and there is a calming warmth of this branch.  The leaves
+seem to glow with an aura of bright white, as does the branch.
+~
+0&2
+0 3
+0
+0
+D3
+A branch half charred, and half pure.
+~
+~
+0 0 3816
+0 0
+S
+#3818
+A twisted and charred branch.~
+This branch is all twisted out of shape, but still walkable.  The 
+leaves on the branch are either charred, burnt, or roasted.  The
+branch itself is not brown, but not burnt either, but the bark
+strips away even if you nudge it.  Not a very nice place to be.
+~
+0&2
+0 3
+0
+0
+D1
+A branch that is half charred and half pure.
+~
+~
+0 0 3816
+0 0
+S
+#3819
+An intersection.~
+There are 3 branches leading off to different ways which are, north,
+east, and west.  There are foot/hand holds going up the trunk of the 
+tree, and down the trunk of the tree.  There is a plaque on the trunk
+of the tree, or just directly south of you.
+~
+0&2
+0 3
+0
+0
+D0
+A branch in turmoil.
+~
+~
+0 0 3824
+0 0
+D1
+An infested branch.
+~
+~
+0 0 3822
+0 0
+D3
+A sick looking branch.
+~
+~
+0 0 3820
+0 0
+D4
+A normal branch.
+~
+~
+0 0 3826
+0 0
+D5
+A branch that is half charred and half pure.
+~
+~
+0 0 3816
+0 0
+E
+plaque trunk south~
+|--------------------------------------|
+             |   Welcome to the REAL start of the   |
+             |  adventure.  Get ready for some fun! |
+             |--------------------------------------|~
+S
+#3820
+A sick looking branch.~
+The branch seems to be...sick.  The branch is spotted with yellow,
+brown, and black spots, and seems to bend a little from loss of
+strength.  The leaves have the same spots as the branch does,
+but are a sickly yellow.  The branch continues on to the west.
+~
+0&2
+0 3
+0
+0
+D1
+An intersection of branches.
+~
+~
+0 0 3819
+0 0
+D3
+A withered end.
+~
+~
+0 0 3821
+0 0
+S
+#3821
+A withered end.~
+The end immediately dips down to the ground, and is still a good
+2 stories above the ground, I don't suggest jumping for it.
+The branch is still spotted, but bends even more, as the 
+source of the sickness seems to be pretty strong on this branch.
+Strange...there are no leaves here....
+~
+0&2
+0 3
+0
+0
+D1
+A sick looking branch.
+~
+~
+0 0 3820
+0 0
+S
+#3822
+An infested branch.~
+Millions upon millions of bugs are swarming around your head, it would
+be a good idea to keep your mouth closed.  The branch is COVERED in
+bugs and disgusting little things, but as you put your foot down,
+the bugs move out of the way, and you don't squish any.  The
+branch, "branches" off to the east.
+~
+0&2
+0 3
+0
+0
+D1
+A swarm of bugs.
+~
+~
+0 0 3823
+0 0
+D3
+An intersection of branches.
+~
+~
+0 0 3819
+0 0
+S
+#3823
+A swarm covered branch.~
+The bugs don't seem to be all around anymore, they seem to be 
+concentrated into one at the end of the branch.  You can now see
+the branch...and wish you hadn't.  The leaves are all eaten
+through from some of the bugs, and there are THOUSANDS of little
+eggs on them.
+~
+0&2
+0 3
+0
+0
+D3
+An infested branch.
+~
+~
+0 0 3822
+0 0
+S
+#3824
+A branch in turmoil.~
+&CSome of the leaves are on fire!  However, they don't seem to pass the
+flames onto the next leaf....coming closer you notice that some of the
+leaves of fire....are not leaves at all!  They are actually little
+fireballs hanging from the branch.  The branch is a bit slippery, and
+looking down, shows you that the branch is wet with fresh &Rblood&C.
+~
+0&2
+0 3
+0
+0
+D0
+The branch is in complete chaos.
+~
+~
+0 0 3825
+0 0
+D2
+An intersection of branches.
+~
+~
+0 0 3819
+0 0
+S
+#3825
+The branch is in complete chaos!~
+&CThere is &Rblood &CEVERYWHERE!  It's not slippery or sticky, but
+is just like a smooth surface.  The blood is acting like a fuel
+support for the flames that are hanging onto the branch!  The flames
+don't spread though.  The source of all this is pretty close.
+~
+0&2
+0 3
+0
+0
+D2
+A branch in turmoil.~
+~
+0 0 3824
+0 0
+S
+#3826
+A normal branch.~
+&CThis branch is....pretty normal.  There is nothing spectacular about 
+it, but there's nothing bland about it either.  The bark on the
+branch is just a normal, mud color.  The leaves are something that
+you'd see in summer-fall, some are &ggreen &Cbut most are different
+shades of orange, and &Rred&C.
+~
+0&2
+0 3
+0
+0
+D1
+A glowing branch.
+~
+~
+0 0 3827
+0 0
+D4
+A normal branch.
+~
+~
+0 0 3834
+0 0
+D5
+An intersection on branches.
+~
+~
+0 0 3819
+0 0
+D6
+A crystalized branch.
+~
+~
+0 0 3831
+0 0
+S
+#3827
+A glowing branch.~
+Wow!  This branch is GLOWING! The aura around the branch is a gentle
+&C&Wwhite &Clight.  The bark is also &C&Wwhite&C, as the leaves are a
+shining &C&Wwhite &Clight. In fact...the only way you know that there
+are leaves is that they are outlined in a shining &Yyellow&C.
+~
+0&2
+0 3
+0
+0
+D1
+A shining branch.
+~
+~
+0 0 3828
+0 0
+D3
+A normal branch.
+~
+~
+0 0 3826
+0 0
+S
+#3828
+A shining branch.~
+This branch isn't glowing anymore, instead it's shining a bright
+white light.  The leaves are glowing yellow and are now outlined in
+a silver aura.  The bark of the branch is shining a gold color,
+outlined by the bright white light.  You can barely see foot/hand 
+holds going down a wide branch.
+~
+0&2
+0 3
+0
+0
+D3
+A glowing branch.
+~
+~
+0 0 3827
+0 0
+D5
+A pulsing branch.
+~
+~
+0 0 3829
+0 0
+S
+#3829
+A pulsing branch.~
+Incredible!  The branch is a mixture of shining AND glowing, giving
+it a look of pulsing!  The pulsing light is a bright white and
+yellow mixture, and the leaves are glowing white, outlined by a
+silver aura.  The air holds a feeling of confidence and...hope.
+There are foot/hand holds going down a wide branch.
+~
+0&2
+0 3
+0
+0
+D4
+A shining branch.
+~
+~
+0 0 3828
+0 0
+D5
+A glamerous branch.
+~
+~
+0 0 3830
+0 0
+S
+#3830
+A branch of Hope.~
+&CThe bark of the branch is a pulsing &C&Wwhite light, &Cand the leaves 
+are a brilliant light &Ggreen&C.  The lights combine into one in the
+middle of the branch, and create something that every creature in
+Rafermand holds dear to their hearts....Hope.  There is a sign 
+before the shining light of Hope.
+~
+0&2
+0 3
+0
+0
+D4
+A pulsing branch.
+~
+~
+0 0 3829
+0 0
+E
+sign~
+|-----------------------|
+             |       Always          |
+             |       Think           |
+             |        of             |
+             |       Hope            |
+             |_______________________|
+                       | |
+                       | |
+                       |_|~
+S
+#3831
+A crystalized branch.~
+Beautiful.  The branch is a gleaming, pure, clear, crystal.  The 
+leaves are crystalized waterdrops from the pure rain of the sky.
+This branch must be truly blessed.  The sun from the east bounces off
+of the mirrored surface of the branch, making everything glow and the
+prism colors appear on the trunk.
+~
+0&2
+0 3
+0
+0
+D1
+The branch continues on.
+~
+~
+0 0 3832
+0 0
+D9
+A normal branch.
+~
+~
+0 0 3826
+0 0
+S
+#3832
+The branch continues on.~
+Walking on the branch doesn't seem hard at all.  The surface isn't
+slippery, and it doesn't feel like it's going to break right under
+your feet.  The crystal feels as smooth as glass but as hard as
+tempered steel.  The sun continues to make the prism colors dance 
+around.
+~
+0&2
+0 3
+0
+0
+D3
+A crystalized branch.
+~
+~
+0 0 3831
+0 0
+D6
+The crystal branch comes to a stop.
+~
+~
+0 0 3833
+0 0
+S
+#3833
+Coming to a stop.~
+The crystalized branch immediately comes to a stop not more than
+8 feet away.  Before you, there is a concentration of crystalized
+rain drops, a spire, and there is no entrance.  Of course
+the spire is only about 10 feet tall.  The sun shines through the
+crystal spire making a replica of it with prism colors on the trunk
+of the tree.
+~
+0&2
+0 3
+0
+0
+D9
+The crystal branch continues on.
+~
+~
+0 0 3832
+0 0
+S
+#3834
+A normal branch.~
+The air is a bit cooler up here, since there is more wind higher above
+the ground.  The sun's warmth doesn't seem to be very warm at the
+moment either.  To the north, there is another branch that connects
+to the 2nd huge trunk of this giant tree.  To the west there is a
+HUGE nest.
+~
+0&2
+0 3
+0
+0
+D0
+A normal branch.
+~
+~
+0 0 3837
+0 0
+D3
+A HUGE nest full of black raven feathers.
+~
+~
+0 0 3835
+0 0
+D5
+A normal branch.
+~
+~
+0 0 3826
+0 0
+S
+#3835
+A HUGE nest.~
+The nest is roughly 10 feet by 10 feet, and is made up of straw,
+string, leaves, feathers, and other things that nests are usually
+made up of.  A huge nest must only mean that there is a huge
+bird...
+~
+0&2
+0 3
+0
+0
+D1
+A normal branch.
+~
+~
+0 0 3834
+0 0
+D3
+The end of the nest.
+~
+~
+0 0 3836
+0 0
+S
+#3836
+The end of the nest.~
+Now, there are bits and pieces of small animals...a head...guts..
+perhaps a body or a tail...but what must be pretty bad about this
+nest is that there are human and elven skeletons around here...
+a dusty skull...a rib...and even an entire skeleton!
+~
+0&2
+0 3
+0
+0
+D1
+A HUGE nest.
+~
+~
+0 0 3835
+0 0
+S
+#3837
+A normal branch.~
+Except for the fact that there are foot/hand holds up against the
+north trunk for you to grab hold on, this branch is pretty normal.
+The bark of the branch is a deep brown, and the leaves are a normal
+green.
+~
+0&2
+0 3
+0
+0
+D2
+A normal branch.
+~
+~
+0 0 3834
+0 0
+D4
+Going up the trunk.
+~
+~
+0 0 3838
+0 0
+S
+#3838
+An intersection of branches.~
+From this center point there are 5 ways you can go.  Northeast
+to a branch that is full of life, to the southeast, a branch
+full of light. To the west, an entry way for a branch that looks 
+withered and dying, and a branch that looks as black as 
+night.  Or going down back the way you came from.  Read the plaque for 
+whats upward.
+~
+0&2
+0 3
+0
+0
+D3
+An entry way into the dark.
+~
+~
+0 0 3839
+0 0
+D4
+Into the sky.
+~
+~
+64 0 3855
+0 0
+D5
+A normal branch.
+~
+~
+0 0 3837
+0 0
+D6
+A branch full of rich life.
+~
+~
+0 0 3847
+0 0
+D8
+A branch full of gentle, but bright light.
+~
+~
+0 0 3851
+0 0
+E
+plaque~
+|-----------------------------|
+              | Althena, the goddess of the |
+              | Silver Star, has chosen me  |
+              | To protect the treasures of |
+              | The DragonMaster.  Those who|
+              | Face me, must destroy me,   |
+              | And gain the power, or be   |
+              | Utterly destroyed.          |
+              |-----------------------------|
+~
+S
+#3839
+A branch of despair.~
+The bark underneath crumbles and peels away from even the lightest
+touch.  The leaves are all withered and dying from non-existant
+sunshine and rain, on this side of the tree. There are murky and
+dark clouds in the west sky, and the ground seems to be barren past the
+trees to the west.  To the northwest, there is a branch that seems 
+withered, and to the southeast....well you can't tell since it's pretty
+dark.
+~
+0&2
+0 3
+0
+0
+D1
+An intersection of branches.
+~
+~
+0 0 3838
+0 0
+D7
+A branch that seems to be withering and dying.
+~
+~
+0 0 3840
+0 0
+D9
+A branch that is barely seen.
+~
+~
+0 0 3844
+0 0
+S
+#3840
+A withered branch.~
+The bark on the branch is dead black.  At every movement you make,
+bark strips off from the branch, and even then, the "skin" of the
+branch is black.  The leaves are withered, some are even still
+dying.  The colors of the leaves range from sick brown, to black.
+Off in the distance there is a strange sound...
+~
+0&2
+0 3
+0
+0
+D8
+A branch that is dying.
+
+~
+~
+0 0 3839
+0 0
+D9
+The branch continues on.
+~
+~
+0 0 3841
+0 0
+S
+#3841
+The branch continues on.~
+The branch seems to go on for a long distance, and that strange sound
+sounds more clearer...it sounds kind of like a screeching sound, but
+even here, closer as you are, the sound is still a bit hard to make out.
+The bark is still black, and the leaves are still the same colors
+as before.
+~
+0&2
+0 3
+0
+0
+D6
+A withered branch.
+~
+~
+0 0 3840
+0 0
+D7
+The branch continues on.
+~
+~
+0 0 3842
+0 0
+S
+#3842
+The branch continues on.~
+Ah ha!  There it is!  That sound again!  The sound is clearer and
+sharper...it DOES sound like a wailing sound, but it's more like a
+child crying...The leaves are ALL dead black now, and the brach is
+weaker than before.
+~
+0&2
+0 3
+0
+0
+D8
+The branch continues on.
+~
+~
+0 0 3841
+0 0
+D9
+The end of the branch.
+~
+~
+0 0 3843
+0 0
+S
+#3843
+The end of the branch.~
+All around you is blackness.  Seeing is no problem, just that the
+branch is black, the leaves are black, and the sky seems black from
+the leaves.  The late afternoon sun is hidden behind all of the
+black leaves, and shadows are thrown everywhere.  What is worse,
+the place has an air of death.
+~
+0&2
+0 3
+0
+0
+D6
+The branch continues on.
+~
+~
+0 0 3842
+0 0
+S
+#3844
+Darkness.~
+Without your light, this branch would be pitch black.  There is
+no moon, no sun, and there seems not to be any sky either from
+this point of view.  Darkness peers around every corner, and
+your next step may be your last.  Step carefully.
+~
+0&2
+0 3
+0
+0
+D6
+A branch that seems to be dying.
+~
+~
+0 0 3839
+0 0
+D9
+~
+~
+0 -1 3845
+0 0
+S
+#3845
+Darkness.~
+Everthing seems to get darker the farther you go in.  Without the guide
+of your light, the entire place would be nothing but black.  Careful
+steps and quick looking, and definetly a good light, will get you
+through this.
+~
+0&2
+0 3
+0
+0
+D6
+~
+~
+0 -1 3844
+0 0
+D9
+Light!
+~
+~
+0 0 3846
+0 0
+S
+#3846
+A little light.~
+There is light here!  It seems to be coming from the end of the branch.
+Except for that shining light, the branch is still pitch black.  That
+light seems to be a guiding light to the end.  May it be your
+salvation....or your demise.
+~
+0&2
+0 3
+0
+0
+D6
+Darkness.
+~
+~
+0 0 3845
+0 0
+S
+#3847
+A branch full of life.~
+&CLively &ggreen, &Bblue sky, &Cfresh air, the sun!  Everything is full 
+of life here.  Here and there, there is a fluttering butterfly, or
+a fuzzy &ggreen &Cand &Yyellow &Ccaterpillar crawling upon a leaf,
+birds chirping, and all other different kinds of animals.  The air
+smells so sweet and fresh and cool upon your skin and also seems
+to be warm.  This is life...
+~
+0&2
+0 3
+0
+0
+D8
+The branch continues on.
+~
+~
+0 0 3848
+0 0
+D9
+An intersection of branches.
+~
+~
+0 0 3838
+0 0
+> all_greet_prog 100~
+mpecho A bird chirps loudly, and some crickets, cricket.  Warm sunshine falls upon your shoulders,
+mpecho and the wind blows gently at your face.
+$n emote smiles gently.
+~
+|
+S
+#3848
+The branch continues on.~
+Life, and energy seems to flow through the air like fireflies on a
+nice dark night.  There are other smaller branches hanging off of the
+branch with fully bloomed and blossomed tree flowers and lovely
+green leaves.  Around you, there seems to be singing going on all the
+time.
+~
+0&2
+0 3
+0
+0
+D6
+The branch continues on.
+~
+~
+0 0 3849
+0 0
+D7
+A branch full of life.
+~
+~
+0 0 3847
+0 0
+S
+#3849
+The branch continues on.~
+The air seems to have cooled off and the sky has slackened off its
+warmth a tad bit.  There are now nests of the birds that have been seen
+before and there are speckled eggs in them.  Touching them reveals that
+they are still warm from early mother-sitting-down nest incubation.
+Hopefully they will hatch into beautiful birds.
+~
+0&2
+0 3
+0
+0
+D8
+A paradise.
+~
+~
+0 0 3850
+0 0
+D9
+The branch continues on.
+~
+~
+0 0 3848
+0 0
+S
+#3850
+Paradise.~
+&CYou are not at the end of the branch.  There is now millions of 
+colors floating into your eyes.  &rRed wings &Cof different types of
+birds, &ggreen, &Cbeautiful leaves hanging upon rich brown bark,
+and best of all, just beyond the end of the branch, a lake full
+of clear &Bblue water&C, with a giant roaring, and splashing
+waterfall adding even more water to that lake.  Around the lake,
+there are beautiful trees making a circle around it.
+So in meaning, you are not at the end of the branch but at the beginning
+of paradise.
+~
+4&4098
+0 3
+0
+563650
+D7
+The branch continues on.
+~
+~
+0 0 3849
+0 0
+> entry_prog 25~
+mpecho As you enter the secluded paradise, a mist of prism colors
+mpecho floats towards you, engulfing you and making you feel refreshed.
+cast 'heal' $n
+~
+|
+S
+#3851
+Light fills the entire place.~
+AH, no!  Light fills the ENTIRE branch, it's....it's....HURTING your
+eyes!  You can see nothing here except for light, but strangely
+enough, there's a sense of the right way...even though, seeing the
+branch is impossible.  That is VERY mysterious.
+~
+65536&2
+0 3
+0
+0
+D7
+An intersection of branches.
+~
+~
+0 0 3838
+0 0
+D8
+~
+~
+0 -1 3852
+0 0
+> rand_prog 20~
+mpecho The light fills your vision, burning your eyes and you start
+mpecho to get a very bad headache.
+mpdamage $n 50
+~
+|
+S
+#3852
+Light.~
+Everything is light.  Seeing the branch is impossible. there is NO
+sound here.  Everything is silent.  No one would hear even the highest
+blood curdling scream possible.  The perfect place for an ambush.
+Keep alert.
+~
+65536&2
+0 3
+0
+0
+D7
+~
+~
+0 -1 3851
+0 0
+D8
+Light.
+~
+~
+0 0 3853
+0 0
+> rand_prog 20~
+mpecho The light fills your vision, burning your eyes and you start
+mpecho to get a very bad headache.
+mpdamage $n 50
+~
+|
+S
+#3853
+Light.~
+&CThe light seems to be...gentler here.  As though the light dimmed
+some.  You can now see SOME Of the branch.  It's a &Obrown &Ccolor
+and the leaves are a deep &Ggreen&C.  Besides that, there's nothing
+new.
+~
+65536&2
+0 3
+0
+0
+D6
+A gentle light.
+~
+~
+0 0 3854
+0 0
+D7
+Light.
+~
+~
+0 0 3852
+0 0
+S
+#3854
+A gentle light.~
+The light has dimmed to a concentration at the end of the branch.
+In front of the light there is a sign made out of the very bark of the
+branch.  What seems even more strange about it, is that it's CONNECTED
+to the branch, and is NOT nailed in or pounded in.  Maybe it's a 
+message from a higher enity?
+~
+65536&2
+0 3
+0
+0
+D9
+Light.
+~
+~
+0 0 3853
+0 0
+E
+sign~
+|-----------------------|
+                  |         NEVER         |
+                  |         FORGET        |
+                  |         THE           |
+                  |         POWER         |
+                  |      OF THE LIGHT!    |
+                  |_______________________|
+                             | |
+                             |_|
+~
+S
+#3855
+In the sky.~
+Clouds drift by your face, and the sky is even more blue than before.
+The sun stands high in the sky, and seems to be a bright warm ball
+of light of yellowness.  Below you, is the top of the tree, but then..
+that must mean....looking down shows you are more than 25 stories above
+the ground!  Better make sure you don't fall!
+~
+4&66
+0 3
+0
+0
+D0
+To the unknown.
+~
+~
+25165831 3801 3856
+0 0
+D5
+Going back to the tree.
+~
+~
+0 0 3838
+0 0
+> entry_prog 100~
+mpecho The sky seems to welcome you, and the sun is shining brightly.
+mpecho The sky seems to welcome you, and the wind lifts you off above
+mpecho the clouds.
+~
+|
+S
+#3856
+Stair way to heaven.~
+This is the stair way to heaven...wait a minute!  You don't want to
+come here...yet!!!
+~
+4259844
+0 0
+0
+0
+> entry_prog 100~
+mpecho As you walk up to the bottom of the staircase, a woman's
+mpecho voice whispers to you from out of no where.
+mpecho "You must not BE here, here, let me send you back."
+mptransfer $n 3800
+~
+|
+S
+#3857
+Underground.~
+You're underneath the ground, and there is dirt ALL around you.  Some
+of the tree's huge roots are here, they are about 5 feet tall.  There
+are little roots on the walls of the dirt, probably from small little
+plants and the grass.  There's a ladder for you to climb, so you can
+get back up to the surface.
+~
+268
+0 13
+0
+0
+D2
+A tunnel.
+~
+~
+0 0 3858
+0 0
+D4
+Back up the hole.
+~
+~
+128 0 3808
+0 0
+S
+#3858
+A tunnel.~
+The dirt walls are covered in roots now.  Touching one of the walls
+brings down a small amount of dirt.  The walls seem to crumble under
+your touch.  That must mean that they could come down with even a 
+moderate blow.  This place doesn't look safe.
+~
+264
+0 13 0 0 6 0
+0
+0
+D0
+Back to the ladder.
+~
+~
+0 0 3857
+0 0
+D2
+~
+~
+0 -1 3861
+0 0
+S
+#3859
+Floating just north of a branch~
+There is almost nothing like the feeling of not being bound to the
+earth while actually being stable enough to feel like you are standing
+on the ground.  However, the view quickly down reminds most that the
+only thing that happens when you go down is a very bad thing.  In the
+sky just before you, a strange looking elf is floating around the area
+making sure he can be seen to all who pass.
+~
+1090519040&2
+0 3
+0
+0
+D2
+~
+~
+0 -1 3816
+0 0
+D5
+~
+~
+0 -1 3811
+0 0
+S
+#3860
+An Old Hideaway under the Guard Room~
+Though you would have guessed from the age of the hatch above that this room
+has been abandoned for quite a long time, you are instantly made aware to
+the opposite as a jovial, almost maniacal man comes over to you and greets
+you with a slap on the back and a couple of terrifying near misses with his
+juggled weapons of mass destruction.  He invites you to come in and have
+a seat, and watch his performance.
+~
+1073741824
+0 1
+0
+0
+D4
+~
+hatch~
+8389665 -1 3895
+0 0
+S
+#3861
+The tunnel continues on...~
+This tunnel doesn't seem to have an end, and feels as though it
+continues on for a long time.  There are now no roots in the walls
+above you, or to the side of you in the dirt walls.  The dirt walls
+crumble even more with every small movement you take.  Hopefully,
+they will hold until you get out of here.
+~
+264
+0 0 0 0 6 0
+0
+0
+D0
+~
+~
+0 -1 3858
+0 0
+D8
+The tunnel continues...~
+~
+0 0 3862
+0 0
+S
+#3862
+The tunnel continues on...~
+WILL THERE BE NO END TO THIS DAMN TUNNEL?!  It stretches on for what
+seems to be a LONG time.  Suffocation seems to be a high risk in here,
+as does, the walls caving in....but strangely enough they hold hard,
+even when they spill out what seems to be rich and soft soil.
+~
+264
+0 0 0 0 6 0
+0
+0
+D6
+The tunnel continues...~
+~
+0 0 3863
+0 0
+D7
+The tunnel continues...~
+~
+0 0 3861
+0 0
+S
+#3863
+The tunnel continues on....~
+Dammit!  Not only does this tunnel seem long and dry and risk taking
+and very uncomfortable, it's also VERY boring.  Other than the 
+occasional mole or two, there isn't ANYTHING to fight down here...
+at least....not yet.
+~
+268
+0 0 0 0 6 0
+0
+0
+D8
+The tunnel continues on....~
+~
+0 0 3864
+0 0
+D9
+The tunnel continues on...~
+~
+0 0 3862
+0 0
+S
+#3864
+A hollowed out room.~
+&CThe dirt walls are smoothed out, and there are no roots sticking out
+from the walls, no stones, no breaks in the wall.  The wall looks like
+it was smoothed out by the master masons.  There is a small wooden table
+in the middle of the room, surrounded by 4 chairs, one chair at each
+end.  In the middle of the table is a vase of &rred &Croses, the vase
+itself is 3 different colors mixed together in different swirls, a
+&Bblue &Cswirl, a &rred &Cswirl, and a &Yyellow &Cswirl, the 3 primary
+colors.
+~
+268
+0 13 0 0 6 0
+0
+0
+D6
+More tunnels.
+~
+~
+0 0 3865
+0 0
+D7
+Back into the tunnel.
+~
+~
+0 0 3863
+0 0
+S
+#3865
+The tunnel continues...~
+The walls have become more natural now, even bigger roots then before,
+stones, worms, sometimes even a mole or two spotted.  Different this
+time is that there is a bit of a rancid smell in the air, it doesn't
+come from behind, but seems to be comming to the north.  The rancid
+smell, it kind of smells like 5 month old trash rotted with just a
+hint of 3 skunks....not that you'd know what that smells like or 
+anything.
+~
+264
+0 13 0 0 6 0
+0
+0
+D0
+The smell gets a little worse.
+~
+~
+0 0 3866
+0 0
+D9
+A hollowed out room.
+~
+~
+0 0 3864
+0 0
+S
+#3866
+The smell gets worse...~
+Ugh...that smell has just gotten a hair length worse.  The roots on
+the walls seem to be a little wilted from that smell, even the stones
+seem a little corroded and have taken on a greenish-yellow cast, look,
+and color.  The air feels a bit thicker, only with some fresh air 
+coming in from behind.
+~
+264
+0 13 0 0 6 0
+0
+0
+D2
+The tunnel going back.
+~
+~
+0 0 3865
+0 0
+D9
+The air smells the same, the tunnel continues.
+~
+~
+0 0 3867
+0 0
+S
+#3867
+The tunnel continues on...~
+The smell isn't any better, nor is it any worse.  It smells the
+same, the roots are wilted, and the rocks have that greenish-yellow
+look, feel, and color to them.  The path has seemed to be getting
+a bit rough and rocky, be careful not to step on any sharp rocks.
+~
+264
+0 13 0 0 6 0
+0
+0
+D0
+The tunnel continues.~
+~
+0 0 3868
+0 0
+D6
+The tunnel continues...~
+~
+0 0 3866
+0 0
+S
+#3868
+The tunnel continues....~
+The path has gotten even rockier and every second step brings a sharp
+jagged rock, or a big rock that you could trip on.  The smell has stayed
+the same, and there are less roots then before.  The rocks, however,
+have become a sickly brownish-yellow, and they seem to be very weak,
+touching them may break off some flakes.
+~
+264
+0 13 0 0 6 0
+0
+0
+D1
+Into a rough walled room.
+~
+~
+0 0 3869
+0 0
+D2
+The tunnel continues.~
+~
+0 0 3867
+0 0
+S
+#3869
+A guard post.~
+&CThe walls are rutted out, nothing like that smooth walled room back to
+the west somewhere.  The walls are not only rutted, but are rough and
+rocky, though, there are no roots or rocks sticking out.  In the middle
+of the room there is a moderately sized table with 6 chairs around it
+and there are a stack of chips, &C&Wwhite&c, &Bblue&C, and &rred&C.
+The cards around the chips are turned down, and you cannot tell
+what they read without picking them up.
+~
+264
+0 13 0 0 6 0
+0
+0
+D2
+Going into a smooth walled tunnel.
+~
+~
+0 0 3870
+0 0
+D3
+Back into the tunnel.
+~
+~
+0 0 3868
+0 0
+S
+#3870
+A smooth walled tunnel.~
+The walls of the tunnel seems to have been smoothed out.  There are no
+roots or rocks sticking out from the walls, and the soil seems to look
+like hardened clay at first glance, but harder inspection reveals that
+it is smoothed out, hard packed dirt and soil.  What's different about
+this soil is that it's white, note deep brown or black.  The path
+seems to be smooth too, though, it is brown, not white.
+~
+264
+0 13 0 0 6 0
+0
+0
+D0
+Into the rough walled room.
+~
+~
+0 0 3869
+0 0
+D2
+Going deeper into the tunnel...
+~
+~
+0 0 3871
+0 0
+S
+#3871
+The smooth tunnel continues on...~
+As you progress further, the soil seems to be getting darker.  As
+though the place before was holy, and the place coming up is evil.
+The white soil has changed to a deeper baige color.  The dirt on the
+path is still the same, and smooth as ever.  There are sill no
+roots or sharp rocks on the path.
+~
+264
+0 13 0 0 6 0
+0
+0
+D0
+The smooth tunnels beginning.
+~
+~
+0 0 3870
+0 0
+D9
+The tunnel goes deeper.
+~
+~
+0 0 3872
+0 0
+S
+#3872
+The tunnel gets a bit darker.~
+Ugh, that smell has come back!  Even more worse than before and to make
+matter worse, the soil has turned from a baige color to a very light
+brown, perhaps it's because of the smell?  Even though rank smells don't
+rot soil.  The smell smells even worse ahead, but there's only one way
+to find out where...or what, its coming from.
+~
+264
+0 13 0 0 6 0
+0
+0
+D6
+The smooth tunnel leads back to the entrance.
+~
+~
+0 0 3871
+0 0
+D9
+The smell gets worse.~
+~
+0 0 3873
+0 0
+S
+#3873
+The smell gets a little worse.~
+That smell is still there, and it smells a little worse than
+before.  Not only that, the soil has darkened a little more, now 
+that light brown color has turned just a whisker darker than before.
+The dirt path is still smooth, but little bits of stone have turned
+up now.
+~
+264
+0 13 0 0 6 0
+0
+0
+D3
+A roughened, hallowed out burrow.
+
+~
+~
+0 0 3874
+0 0
+D6
+The tunnel leads back.
+~
+~
+0 0 3872
+0 0
+S
+#3874
+A small burrow.~
+This is more like a hole than a tunnel.  The walls seem to be hallowed
+out rather roughly, and soil still crumbles down.  The roots seem to
+stick out much more than before, and the path is filled with dirt
+that's been shoveled out and has not been smoothed.  Jagged rocks
+lay among the rich brown soil.  The smell hasn't gotten worse or better
+either.
+~
+264
+0 13 0 0 6 0
+0
+0
+D1
+The tunnel going back...
+~
+~
+0 0 3873
+0 0
+D3
+The tunnel continues...
+~
+~
+0 0 3875
+0 0
+S
+#3875
+The tunnel continues.~
+The walls suddenly are smooth once again.  The roots seem more natural
+now, and the dirt path is now smooth with no extra dirt or rocks.  The
+smell however, hasn't improved.  It hasn't gotten any worse either.
+The smell, however, smells closer and stronger, so that must mean the
+source is close.
+~
+264
+0 13 0 0 6 0
+0
+0
+D1
+The roughened, hallowed out burrow.
+~
+~
+0 0 3874
+0 0
+D9
+The tunnel continues.
+~
+~
+0 0 3876
+0 0
+S
+#3876
+The tunnel seems to go on and on...~
+Ugh, when the hell will this damned tunnel end!  That smell is bad
+enough, but an everlasting tunnel to boot?!  Sowehow, though, this
+tunnel DOES have one thing that seems to be a goal, which is the SOURCE
+of that accursed smell, and that source is coming nearer with each
+coming step.
+~
+264
+0 13 0 0 6 0
+0
+0
+D6
+The tunnel going back.
+~
+~
+0 0 3875
+0 0
+D7
+This accursed tunnel continues on.
+~
+~
+0 0 3877
+0 0
+S
+#3877
+The damned tunnel continues on....~
+The smell seems to bounce off the soil walls, that, or the smell
+sticks to the walls, rotting the very rich soil.  Even the affects
+of the smell has affected the environment around you.  The roots are
+a deep sickly green, and the soil seems to be a little rotted, and dry.
+~
+264
+0 13 0 0 6 0
+0
+0
+D0
+The incredible long, and boring, and hateful tunnel continues...
+~
+~
+0 0 3878
+0 0
+D8
+The tunnel going back.
+~
+~
+0 0 3876
+0 0
+S
+#3878
+The hateful tunnel continues...~
+The smell is definetely closer, and not only that the smell is stronger
+is a clue, the affects have really screwed up the environment.  Rotted
+roots, of a sickly green color.  The soil is VERY dry, and the air is
+dry...and hot.  Time to move on...
+~
+264
+0 13 0 0 6 0
+0
+0
+D2
+The tunnel going back.
+~
+~
+0 0 3877
+0 0
+D7
+A room covered with webs.
+~
+~
+0 0 3879
+0 0
+S
+#3879
+A web covered room.~
+The smell is close, but not here.  What IS here, however, is sticky,
+gooey, slimy, webs.  Thousands of small little spiders crawl along them,
+and there are, surprisingly, dead bugs stuck on the webs.  The only
+light in here is from your light, and that stands to question,
+this deep in the tunnel, in the other parts of the tunnel....
+why was there so much light, other than that of your light?
+~
+265
+0 13 0 0 6 0
+0
+0
+D8
+The tunnel going back.
+~
+~
+0 0 3878
+0 0
+D9
+The tunnel continues.
+~
+~
+0 0 3880
+0 0
+> entry_prog 25~
+mpecho A tiny, seemingly harmless spider crawls up your hand and then bites!
+mpdamage $n 20
+~
+|
+S
+#3880
+The tunnel continues.~
+The smell is still the same as it was before, just putrid enough that
+you'd want to puke, and just pure enough to breathe.  The air is humid
+and not very fresh, and there is no cool wind to blow in your face for
+coolness, just hot, stinky, dry, air and crunchy dirt beneath your
+feet.  Whatever the hell is at the end of this tunnel better be worth
+it.
+~
+264
+0 13 0 0 6 0
+0
+0
+D6
+A web covered room.
+~
+~
+0 0 3879
+0 0
+D9
+The tunnel continues...
+~
+~
+0 0 3881
+0 0
+S
+#3881
+The tunnel continues...~
+Blisters are probably a major hazard right about now.  All this walking
+seems to be a weary way to get to something good.  The air around here
+has now a thickness to it.  There's that stench still, but the air
+seems more thick then before.  It doesn't seem to affect the stench,
+however, it does affect the pure air, making it even more breathable.
+~
+264
+0 13 0 0 6 0
+0
+0
+D6
+The tunnel going back.
+~
+~
+0 0 3880
+0 0
+D8
+A thick purple cloud.
+~
+~
+0 0 3882
+0 0
+S
+#3882
+A thick purple cloud.~
+There's nothing but purple everywhere, and the air is REALLY thick,
+this is probably why it was thick back there a bit.  The air seems,
+not stinky, but seems....seems...probably poisonous is the right word.
+You shouldn't stay in here for too long.
+~
+264
+0 13 0 0 6 0
+0
+0
+D3
+Opening up into a cavern.
+~
+~
+0 0 3883
+0 0
+D7
+The tunnel going back.
+~
+~
+0 0 3881
+0 0
+> rand_prog 25~
+mpecho You start to choke on the gas and you seem to feel sick.
+cast 'posion' $n
+mpdamage $n 50
+~
+|
+S
+#3883
+In a cavern.~
+YEAH!!  WOOHOO!  YES!!  That tunnel is done!  Oh man....oh...man..
+great...now your in a cavern.  The walls are made of crystal, iron,
+and different materials.  What's even worse is that the smell
+is still here and it is closer than ever.  Whatever that stench
+is coming from it's getting closer.
+~
+264
+0 13 0 0 6 0
+0
+0
+D1
+Into the purple cloud.
+~
+~
+0 0 3882
+0 0
+D9
+The cavern goes even deeper.
+~
+~
+0 0 3884
+0 0
+S
+#3884
+Catacombs.~
+Mountains of rock and minerals are all over the place, tall catacombs
+rise through out the cave.  Wherever your light shines thousands upon
+thousands of minerals glitter, some even reflecting the light back 
+becoming the prism colors.  Small little screeches are heard far into 
+the cave, and the flutter of wings sounds near.  Of course it's a cave,
+so there must be bats.
+~
+264
+0 13 0 0 6 0
+0
+0
+D6
+Back to the starting of this cave.
+~
+~
+0 0 3883
+0 0
+D7
+Going deeper into the cavern.
+~
+~
+0 0 3885
+0 0
+S
+#3885
+A prism of colors.~
+Quartz crystal, large columns of them, are being shined upon from
+light coming from a large hole way up in the cavern.  That light goes
+through the quartz crystal making the prism colors, bouncing off a 
+natural mirror of water, retracting that prism beam to another 
+natural mirror of water, which in that reflects all around the cavern.
+Through that process, the entire cavern is glowing and dancing with
+the prism colors.
+~
+264
+0 13 0 0 6 0
+0
+0
+D0
+Going even deeper into the cavern.
+~
+~
+0 0 3886
+0 0
+D8
+Going back towards the mouth of the cavern.
+~
+~
+0 0 3884
+0 0
+S
+#3886
+A natural spring.~
+In the center of the cavern is a large basin filled with pure water.  
+The water is clear and cool, and the air is chilled with fresh air 
+courtesy of the hold above the cavern.  Around the basin of water,
+is a halo of water, being shined upon from the light from the hole,
+which in then reflects back upwards to make dancing green shadows
+upon the ceiling of the cavern.
+~
+264
+0 13 0 0 6 0
+0
+0
+D2
+Going back to the mouth of the cavern.
+~
+~
+0 0 3885
+0 0
+D6
+Going, still, even deeper into this mysterious cavern.
+~
+~
+0 0 3887
+0 0
+S
+#3887
+A &Bblue &C&Wroom of crystal.~
+This entire room is blue from the blue crystal that is embedded into
+the ground, walls, and ceilings, and they're glowing from the light
+from the hole in the ceiling, in which turn they reflect towards
+each other which then reflect back, giving this room a pure sky
+blue color.  That smell that was in that tunnel hasn't come around
+for a little while....strange...
+~
+264
+0 13 0 0 6 0
+0
+0
+D0
+A red room of......~
+~
+0 0 3888
+0 0
+D9
+Going back towards the opening of the cave.
+~
+~
+0 0 3886
+0 0
+S
+#3888
+A red room of a large ruby.~
+Two holes are on each side of the room, shining inwards towards a 
+pedestal that holds a red ruby.  The ruby is glowing mysteriously
+with the light from the two holes.  The ruby looks very enchanting
+and seems to croon at your soul.  Fighting it off, you better get
+the hell out of here.
+~
+264
+0 13 0 0 6 0
+0
+0
+D2
+Going back towards the opening of the cavern.
+~
+~
+0 0 3887
+0 0
+D6
+A plain old tunnel.
+~
+~
+0 0 3889
+0 0
+S
+#3889
+A plain old tunnel.~
+Oh man, another tunnel.  Except for this one has stone walls, and a
+crystal path.  There's no light except for yours and there is no
+fresh air from any holes.  What's worse is that the smell has come
+again, and it's worse, but even closer.  The source is close now,
+the goal of all this damn walking.
+~
+265
+0 13 0 0 6 0
+0
+0
+D6
+Going along the trail.
+~
+~
+0 0 3890
+0 0
+D9
+Heading back into the cave.
+~
+~
+0 0 3888
+0 0
+S
+#3890
+The tunnel continues.~
+The walls of the tunnel are a little caved in.  Maybe a good 5 inches 
+from each side of you.  Kind of cramped and small in between.  The
+trail is hard dirt and sharp small rocks line the way into the cavern.
+The smell is closer now, as though, each step takes you closer to
+the source, and goal.
+~
+265
+0 13 0 0 6 0
+0
+0
+D0
+A sticky web.
+~
+~
+0 0 3891
+0 0
+D9
+Goin back to the start of the tunnel.
+~
+~
+0 0 3889
+0 0
+S
+#3891
+A huge sticky web.~
+It's another one of those huge webs that has been encountered before.
+Again, thousands of little arachnid spiders line the smaller webs
+along the big one.  The smell has gotten worse and seems to be coming
+from the northwest.  Careful, don't step on any of the poisonous
+spiders!
+~
+265
+0 13 0 0 6 0
+0
+0
+D2
+Heading back into the tunnnel.
+~
+~
+0 0 3890
+0 0
+D7
+The smell worsens.
+~
+~
+0 0 3892
+0 0
+> entry_prog 25~
+mpecho As you walk onto the web, a small spider crawls up your leg, and
+mpecho onto your arm.  Then viciously bites the palm of your hand!
+mpdamage $n 100
+~
+|
+S
+#3892
+Another cave.~
+Here's another cave.  Except this one is the exact opposite of the last
+one you were just in.  The walls are not beautiful crystal or rubies,
+but deep black granite.  There is no air/light hole in the ceiling 
+above.  The smell seems to thicken the air to a degree where breathing
+sometimes, might be a bad idea.  The source, however, is definetely
+getting closer.
+~
+265
+0 13 0 0 6 0
+0
+0
+D3
+Going deeper into the cave.
+~
+~
+0 0 3893
+0 0
+D8
+A sticky web.
+~
+~
+0 0 3891
+0 0
+S
+#3893
+Molten lava covered walls.~
+The walls of this part of the cavern are cooled off lava.  However, 
+the heat is still radiating from some holes, and some odd places still
+have red hot spots showing up, and blowing holes.  The cavern is almost
+unbearably hot, and the smell is mixed up with the heat, giving the
+air an almost unbreathable, suffocating, and smelly mixture.
+~
+265
+0 13 0 0 6 0
+0
+0
+D1
+Heading back to the starting of this evil cavern.
+~
+~
+0 0 3892
+0 0
+D6
+Darkness.
+~
+~
+0 0 3894
+0 0
+S
+#3894
+Darkness.~
+There's nothing here.  Nada, goose egg, zip, nitcho, NOTHING!!!
+All there seems to be is a narrow, short bridge from where
+you are to the other side, and two very dark, and VERY big, steep,
+pits.  Careful of your step.  You do NOT want to fall.
+~
+1057033
+0 13 0 0 6 0
+0
+0
+D0
+A guard room.
+~
+~
+0 0 3895
+0 0
+D9
+Heading back out of the cavern.
+~
+~
+0 0 3893
+0 0
+S
+#3895
+A guard room.~
+The walls are actually wooden planks now.  There's a normal small
+wooden table in the middle of the room, a chair, cupboards for 
+supplies, and a small fireplace.  A wooden door leads to the east.
+Dust outlines a hatch below; it looks as if it hasn't been used in a while.
+Testing the doorknob reveals that the door is unlocked.  Now, how
+ironic is that?  A guard room, with an unlocked door?  Tsk, tsk, tsk.
+~
+3154184
+0 0 0 0 6 0
+0
+0
+D1
+A walkway.
+~
+~
+8389667 0 3896
+0 0
+D2
+Heading back out of the guard room.
+~
+~
+0 0 3894
+0 0
+S
+#3896
+A walkway.~
+This is just a plain walkway with plain old dirt walls in a plain
+old underground tunnel.  Trouble is that the smell is even WORSE
+This is just a plain walkway with plain old dirt walls in a plain
+~
+36708617
+0 13 0 0 6 0
+0
+0
+D3
+Heading into the guard room.
+~
+~
+0 0 3895
+0 0
+D6
+The walkway continues.
+~
+~
+0 0 3897
+0 0
+S
+#3897
+The walkway continues.~
+The walkway continues on to the north, as does that horrible smell 
+which is VERY strong and close.  The way back is only to the southwest.
+Got enough guts to continue on to see the mystery of the smell,
+what the source is, and if there are any rewards in it?
+~
+36708616
+0 13 0 0 6 0
+0
+0
+D0
+In front of a large door.
+~
+~
+0 0 3898
+0 0
+D9
+Near the guard room.
+~
+~
+0 0 3896
+0 0
+S
+#3898
+In front of a door.~
+Whoah.  That's one BIG door.  The door has a symbol of a box on it,
+and that box has a keyhole that kind of looks like a symbol on it.
+There's something written under the box, why don't you look at the
+INSCRIPTION?!  HMMM?!??!  WHY DON'T YOU?  CAN'T READ?!!??
+Besides.  The door is unlocked, why don't you just go into the room...
+~
+3154188
+0 13 0 0 6 0
+0
+0
+D0
+The smell stops.
+~
+~
+3 0 3899
+0 0
+D2
+Heading back to safety.
+~
+~
+0 0 3897
+0 0
+E
+inscription~
+It reads: "Beware, and wary, dear traveler, what lies behind this door
+will probably rip your guts out, eat your head, slice you in two,
+all the while doing her laundry."  Got it?  Good.
+~
+S
+#3899
+The smell....STOPS!~
+HERE'S where the source of that god awful smell.  The room is very
+plain, with wood all around, and is quite moderate in size.  There
+doesn't seem to be much fresh air and that smell is quite thick in
+this room.  Watch your back, cause anything can happen if you wait
+long enough.
+~
+2105608
+0 0 0 0 6 0
+0
+0
+D2
+Back to safety.
+~
+~
+33 0 3898
+0 0
+S
+#0
+
+
+#RESETS
+M 1 3802 1 3808 -1 -1 -1 1123800875 86400
+M 1 3806 1 3821 -1 -1 -1 1127013524 28800
+M 1 3809 1 3833 -1 -1 -1 1127013642 28800
+M 1 3812 1 3850 -1 -1 -1 0 28800
+M 1 3813 1 3854 -1 -1 -1 1127013787 28800
+M 1 3815 1 3846 -1 -1 -1 1127013805 28800
+O 1 3816 1 3864 -1 -1 -1 -1 0 0
+O 1 3818 1 3864 -1 -1 -1 -1 0 0
+O 1 3817 1 3864 -1 -1 -1 -1 0 0
+M 1 3817 1 3867 -1 -1 -1 0 0
+O 1 3816 1 3869 -1 -1 -1 -1 0 0
+O 1 3818 1 3869 -1 -1 -1 -1 0 0
+M 1 3817 1 3872 -1 -1 -1 0 0
+M 1 3818 1 3879 -1 -1 -1 0 0
+O 1 3820 1 3888 -1 -1 -1 -1 0 0
+O 1 3819 1 3887 -1 -1 -1 -1 0 0
+M 1 3818 1 3891 -1 -1 -1 0 0
+O 1 3816 1 3895 -1 -1 -1 -1 0 0
+O 1 3818 1 3895 -1 -1 -1 -1 0 0
+D 0 3895 1 1
+D 0 3898 0 1
+M 1 3800 1 3804 -1 -1 -1 0 0
+M 1 3803 1 3815 -1 -1 -1 1129589598 7200
+E 1 21025 1 13 21119 0 0
+E 1 21057 1 7 21117 0 0
+E 1 21049 1 5 21117 0 0
+E 1 21053 1 9 21117 0 0
+E 1 21065 1 6 21117 0 0
+E 1 21062 1 3 21117 0 0
+E 1 21057 2 8 21117 0 0
+E 1 21053 2 10 21117 0 0
+M 1 3805 1 3818 -1 -1 -1 1128989137 28800
+M 1 3807 1 3823 -1 -1 -1 1127013612 28800
+M 1 3808 1 3825 -1 -1 -1 1128989357 21600
+E 1 21050 1 5 21111 0 0
+E 1 21015 1 13 21111 0 0
+M 1 3804 1 3817 -1 -1 -1 1127013464 28800
+M 1 3810 1 3830 -1 -1 -1 1127013656 28800
+M 1 3811 1 3836 -1 -1 -1 1127013672 28800
+M 1 3814 1 3843 -1 -1 -1 1127013831 28800
+M 1 3818 1 3865 -1 -1 -1 0 0
+M 1 3817 1 3865 -1 -1 -1 0 0
+M 1 3818 1 3863 -1 -1 -1 0 0
+M 1 3817 1 3863 -1 -1 -1 0 0
+M 1 3817 1 3862 -1 -1 -1 0 0
+M 1 3817 1 3862 -1 -1 -1 0 0
+M 1 3818 1 3861 -1 -1 -1 0 0
+M 1 3817 1 3858 -1 -1 -1 0 0
+M 1 3817 1 3858 -1 -1 -1 0 0
+M 1 3818 1 3866 -1 -1 -1 0 0
+M 1 3817 1 3866 -1 -1 -1 0 0
+M 1 3817 1 3868 -1 -1 -1 0 0
+M 1 3818 1 3871 -1 -1 -1 0 0
+M 1 3817 1 3871 -1 -1 -1 0 0
+M 1 3818 1 3873 -1 -1 -1 0 0
+M 1 3817 1 3873 -1 -1 -1 0 0
+M 1 3818 1 3874 -1 -1 -1 0 0
+M 1 3817 1 3874 -1 -1 -1 0 0
+M 1 3817 1 3875 -1 -1 -1 0 0
+M 1 3818 1 3876 -1 -1 -1 0 0
+M 1 3817 1 3876 -1 -1 -1 0 0
+M 1 3818 1 3878 -1 -1 -1 0 0
+M 1 3817 1 3878 -1 -1 -1 0 0
+M 1 3817 1 3880 -1 -1 -1 0 0
+M 1 3818 1 3881 -1 -1 -1 0 0
+M 1 3817 1 3881 -1 -1 -1 0 0
+M 1 3818 1 3882 -1 -1 -1 0 0
+M 1 3817 1 3882 -1 -1 -1 0 0
+M 1 3818 1 3883 -1 -1 -1 0 0
+M 1 3817 1 3883 -1 -1 -1 0 0
+M 1 3818 1 3884 -1 -1 -1 0 0
+M 1 3817 1 3884 -1 -1 -1 0 0
+M 1 3818 1 3885 -1 -1 -1 0 0
+M 1 3817 1 3885 -1 -1 -1 0 0
+M 1 3818 1 3886 -1 -1 -1 0 0
+M 1 3818 1 3886 -1 -1 -1 0 0
+M 1 3817 1 3886 -1 -1 -1 0 0
+M 1 3818 1 3889 -1 -1 -1 0 0
+M 1 3817 1 3889 -1 -1 -1 0 0
+M 1 3818 1 3890 -1 -1 -1 0 0
+M 1 3817 1 3890 -1 -1 -1 0 0
+M 1 3818 1 3892 -1 -1 -1 0 0
+M 1 3817 1 3892 -1 -1 -1 0 0
+M 1 3818 1 3893 -1 -1 -1 0 0
+M 1 3817 1 3893 -1 -1 -1 0 0
+M 1 3818 1 3894 -1 -1 -1 0 0
+M 1 3817 1 3894 -1 -1 -1 0 0
+D 0 3860 4 0
+M 1 3819 1 3899 -1 -1 -1 1113147383 86400
+M 1 3816 1 3855 -1 -1 -1 1129908827 86400
+D 0 3855 0 2
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  3800 spec_cast_cleric
+M  3802 spec_breath_lightning
+M  3812 spec_cast_adept
+M  3815 spec_cast_undead
+M  3816 spec_breath_gas
+M  3819 spec_cast_undead
+S
+
+
+#$

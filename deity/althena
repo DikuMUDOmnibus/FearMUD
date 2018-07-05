@@ -1,0 +1,50 @@
+#DEITY
+Filename		../deity/althena~
+Name		Althena~
+Description	The goddess Althena, the goddess of life and death.  She doesn't lean
+towards either side, but works in the ways of both good and bad.  She
+favors the humans who also follow her ways, having potential for
+either path, and never following a single path merely due to heredity.
+She hates the trolls for their traditional evil, never contemplating
+any other path.
+~
+Alignment		0
+Worshippers	3
+Flee		-5
+Flee_npcrace	-5
+Flee_npcfoe	-25
+Kill		5
+Kill_npcrace	-5
+Kill_npcfoe	15
+Kill_magic	15
+Sac		10
+Bury_corpse	10
+Aid_spell		10
+Aid		15
+Steal		5
+Backstab		5
+Die		-25
+Die_npcrace	-25
+Die_npcfoe	-50
+Spell_aid		0
+Dig_corpse	-20
+Scorpse		500
+Savatar		400
+Sdeityobj		300
+Srecall		300
+Race		-1
+Class		-1
+Element		8
+Sex		-1
+Affected		1049088
+Npcrace		0
+Npcfoe		19
+Suscept		512
+Race2		0
+Susceptnum	1000
+Elementnum	1000
+Affectednum	500
+Objstat		2
+End
+
+#END

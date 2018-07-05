@@ -1,0 +1,64 @@
+/*****************************************************/
+/* HUMAN_FEMALE.NAM                                  */
+/* Namnfil f”r namn med Albion-klang                 */
+/* Johan Danforth                                    */
+/* rader som b”rjar med / „r kommentar-rader         */
+/* varje section b”rjar med [xxx] enlig filen nedan  */
+/*****************************************************/
+[start]
+Ae
+Ai
+Bet
+E
+Eli
+Eoew
+Eaer
+Gai
+Gla
+Hie
+Isrel
+Le
+Lomi
+T
+Thi
+Tiel
+Uiel
+Ui
+V
+Y
+[middle]
+a
+adrie
+ara
+e
+ebri
+i
+io
+ithra
+ilma
+o
+orfi
+u
+y
+[end]
+ly
+lai
+laie
+linie
+mie
+ny
+nie
+ny
+ndei
+ndi
+ngil
+mie
+ry
+rie
+ria
+rio
+y
+wie
+[stop]
+/* Leave comment after stop, it is looking for empty space */
+

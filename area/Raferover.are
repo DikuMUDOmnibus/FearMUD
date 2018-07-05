@@ -1,0 +1,4295 @@
+#AREA   Raferover~
+
+
+
+#VERSION 53
+#AUTHOR Xerves~
+
+#RANGES
+1 75 1 75 0 0 0 0 0
+$
+
+#RESETMSG Silence is broken as the wilderness comes to life.~
+
+#FLAGS
+0
+
+#ECONOMY 0 61356369 0
+
+#MOBILES
+#16000
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#16001
+Giant Ant~
+A Giant Ant~
+A Giant Ant is here stalking its prey.
+~
+~
+1 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d3+2 0 0 0
+0 0
+112 112 1
+17 15 16 14 16 13 13 15
+0 0 0 0 0
+0 0 0 0 1 1 15
+2 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16002
+Grey Weresquirrel~
+&zA grey were-squirrel&W~
+&zA grey were-squirrel gnarls menacingly.&W
+~
+&zThe grey were-squirrel is a mutated, beastly squirrel. He 
+weighs about eight pounds and is about two and half feet 
+tall at the top of his back. His teeth are much longer than 
+usual as are his claws, and his muscles bulge with their 
+strength and mass. 
+&G
+~
+1 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d2+1 0 0 0
+0 0
+112 112 1
+10 10 10 13 10 13 10 15
+0 0 0 0 0
+77 0 0 0 1 1 15
+1 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16003
+Brown Weresquirrel~
+&OA brown were-squirrel&G~
+&OA brown were-squirrel growls angrily.&G
+~
+&OThe brown were-squirrel is, to be simplified, a mutated 
+squirrel. In physical size, it weighs roughly one hundred 
+pounds, and stand about three feet tall at the middle of 
+his back. His teeth are significantly longer, as are his 
+claws.&G 
+~
+1&8 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d2+1 0 0 0
+0 0
+112 112 1
+11 10 10 13 10 13 11 15
+0 0 0 0 0
+77 0 0 0 1 1 15
+1 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16004
+Were Foxsquirrel~
+&RA were-fox squirrel&G~
+&RA were-fox squirrel hunts for its next victim.&G
+~
+&RThe were-fox squirrel is a mutated fox squirrel, weighing 
+an average of one hundred and twenty pounds and standing 
+three and a half feet tall at the middle of his back. His 
+teeth are as long as dagger blades, his claws are not much 
+shorter, and his muscles can easily be seen rippling 
+beneath skin's surface.&G 
+~
+1&8 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d3+2 0 0 0
+0 0
+112 112 1
+14 12 12 14 12 13 12 15
+0 0 0 0 0
+77 0 0 0 1 1 15
+2 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16005
+Were Flyingsquirrel~
+&OA were-flying squirrel&G~
+&OA were-flying squirrel searches for someone to kill.&G
+~
+&OThe were-flying squirrel is a vicious beast, weighing on 
+average one hundred and forty pounds and standing about 
+three and a half feet tall, when it's actually on the 
+ground. It has very keen eyes and is deathly accurate with 
+it's sixteen inch teeth and twelve inch claws.&G 
+~
+1&8 0 524288 0 C
+0 0 0 0 0 0
+0d0+0 1d3+2 0 0 0
+0 0
+112 112 1
+14 14 12 14 12 13 12 15
+0 0 0 0 0
+77 0 0 0 1 1 15
+2 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16006
+Were Shadowsquirrel~
+&zA were-shadow squirrel.&G~
+&zA were-shadow squirrel anxiously seeks another fight.&G
+~
+&zThe were-shadow squirrel is the most fiendish of the 
+were-squirrel species. It yearns for nothing more than the 
+taste of blood dripping from it's twenty inch fangs, the 
+burn of it's tired muscles, or the exhaustion after a good 
+fight in it's two hundred pound frame. Indeed, it is a 
+creature to be feared! 
+&G
+~
+1&8 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d4+4 0 0 0
+0 0
+112 112 1
+15 14 14 15 14 13 14 15
+0 0 0 0 0
+77 0 0 0 1 1 15
+3 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16007
+Grey Coyote~
+&zA grey coyote&G~
+&zA grey coyote stalks his prey.&G
+~
+&zThe grey coyote is a typical coyote, weighing roughly 
+sixty pounds, long legs, and keen sense. His coat is a 
+shimmering grey, and his eyes show the tell tale signs of 
+hydrophobia, making him tend to be extraoardinarilly 
+violent.&G 
+~
+1 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d2+1 0 0 0
+0 0
+112 112 1
+11 8 12 11 8 13 10 15
+0 0 0 0 0
+73 0 0 0 1 1 15
+1 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16008
+Brown Coyote~
+&OA brown coyote&G~
+&OA brown coyote stalks his prey.&G
+~
+&OThe brown coyote is a typical coyote, weighing roughly 
+sixty five pounds, long legs, and keen sense. His coat is a 
+shimmering brown, and his eyes show the tell tale signs of 
+hydrophobia, making him tend to be extraoardinarilly 
+violent 
+&G
+~
+1 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d2+1 0 0 0
+0 0
+112 112 1
+13 9 12 11 9 13 10 15
+0 0 0 0 0
+73 0 0 0 1 1 15
+1 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16009
+Red Coyote~
+&RA red coyote&G~
+&RA red coyote stalk his prey.&G
+~
+&RThe red coyote is a typical coyote, weighing roughly 
+seventy pounds, long legs, and keen sense. His coat is a 
+shimmering red, and his eyes show the tell tale signs of 
+hydrophobia, making him tend to be extraoardinarilly 
+violent.&G
+~
+1 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d3+2 0 0 0
+0 0
+112 112 1
+13 13 12 13 12 13 12 15
+0 0 0 0 0
+73 0 0 0 1 1 15
+2 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16010
+Black Coyote~
+&zA black coyote&G~
+&zA black coyote stalks his prey.&G
+~
+&zThe black coyote is a larger than typical coyote, 
+weighing roughly seventy five pounds, long legs, and keen 
+sense. His coat is a shimmering black, and his eyes show 
+the tell tale signs of hydrophobia, making him tend to be 
+extraoardinarilly violent.&G 
+~
+1 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d3+2 0 0 0
+0 0
+112 112 0
+14 14 13 13 13 13 13 15
+0 0 0 0 0
+73 0 0 0 1 1 15
+2 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16011
+Shadow Coyote~
+&zA shadow coyote&G~
+&zA shadow coyote appears to be anxious for blood.&G
+~
+&zThe shadow coyote is a beast of mystery and fear. Much 
+like a warg, he is vicious and quite large, capable of 
+carrying small riders such as goblins. It's vicious streak 
+is as wide as the day is long, and his temper is as short 
+as the winter solstace.&G 
+~
+1 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d4+4 0 0 0
+0 0
+112 112 1
+15 15 14 14 14 13 14 15
+0 0 0 0 0
+73 0 0 0 1 1 15
+3 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16012
+Young Elf Bandit~
+&GA young elf bandit&G~
+&GA young elf bandit is seeking mallice.&G
+~
+&GThe young elf bandit is a like many of the ruffians that 
+live outside the reach of city guards and the lamp light of 
+windows. Constantly the bandits seek to live off of those 
+who are either weaker, or are unsuspecting.&G 
+~
+1 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d2+1 0 0 0
+0 0
+112 112 1
+10 12 11 12 10 13 11 15
+0 0 0 0 0
+1 0 0 0 1 1 15
+1 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16013
+Adolescent Elf Bandit~
+&GAn adolescent elf bandit&G~
+&GAn adolescent elf bandit lurks for a victim.&G
+~
+&GThe young elf bandit is a like many of the ruffians that 
+live outside the reach of city guards and the lamp light of 
+windows. Constantly the bandits seek to live off of those 
+who are either weaker, or are unsuspecting. &G
+~
+1 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d2+1 0 0 0
+0 0
+112 112 2
+11 12 12 12 11 13 12 15
+0 0 0 0 0
+1 0 0 0 1 1 15
+1 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16014
+Teen Elf Bandit~
+&GA teenage elf bandit&G~
+&GA teenage elf bandit seeks a victim.&G
+~
+&GThe young elf bandit is a like many of the ruffians that 
+live outside the reach of city guards and the lamp light of 
+windows. Constantly the bandits seek to live off of those 
+who are either weaker, or are unsuspecting. &G
+~
+1 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d3+2 0 0 0
+0 0
+112 112 2
+13 13 13 14 13 13 13 15
+0 0 0 0 0
+1 0 0 0 1 1 15
+2 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16015
+Adult Elf Bandit~
+&GAn adult elf bandit&G~
+&GAn adult elf bandit hunger for a fight.&G
+~
+&GThe young elf bandit is a like many of the ruffians that 
+live outside the reach of city guards and the lamp light of 
+windows. Constantly the bandits seek to live off of those 
+who are either weaker, or are unsuspecting. &G
+~
+1 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d3+2 0 0 0
+0 0
+112 112 1
+13 14 13 14 13 13 13 15
+0 0 0 0 0
+1 0 0 0 1 1 15
+2 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16016
+Veteran Elf Bandit~
+&GA veteran elf bandit&G~
+&GA veteran elf bandit has murder on her mind.&G
+~
+&GThe young elf bandit is a like many of the ruffians that 
+live outside the reach of city guards and the lamp light of 
+windows. Constantly the bandits seek to live off of those 
+who are either weaker, or are unsuspecting.&G
+~
+1 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d4+4 0 0 0
+0 0
+112 112 2
+14 15 15 15 13 13 15 15
+0 0 0 0 0
+1 0 0 0 1 1 15
+3 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16017
+Savage Wolverine~
+&OA savage wolverine&w&w~
+&OA savage wolverine hungers for the taste of blood.&w&w
+~
+The wolverine is a vicious beast in it's normal state, but 
+the wolverines roaming around the wilderness of Rafermand 
+are even worse than those typically vicious creatures. 
+Here, they grow larger, quicker, keener, and more lethal. 
+~
+1 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d2+1 0 0 0
+0 0
+112 112 2
+12 12 12 12 12 13 12 15
+0 0 0 0 0
+76 0 0 0 1 1 15
+1 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16018
+Huge Wolverine~
+&OA huge wolverine&w&w~
+&OA huge wolverine hungers for the taste of blood.&w&w
+~
+The wolverine is a vicious beast in it's normal state, but 
+the wolverines roaming around the wilderness of Rafermand 
+are even worse than those typically vicious creatures. 
+Here, they grow larger, quicker, keener, and more lethal. 
+~
+1 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d3+2 0 0 0
+0 0
+112 112 1
+14 13 13 14 13 13 13 15
+0 0 0 0 0
+76 0 0 0 1 1 15
+2 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16019
+Repair Blacksmith~
+Repair Blacksmith~
+A blacksmith is here repairing weapons and armor.
+~
+~
+1140850691&524288 0 0 0 C
+0 0 0 0 0 0
+2d50+1500 0d0+0 0 0 0
+3500 0
+112 112 1
+19 14 15 13 15 13 13 15
+0 0 0 0 0
+2 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16020
+Repair Blacksmith~
+Repair Blacksmith~
+A blacksmith is here repairing weapons and armor.
+~
+~
+67108867&524288 0 0 0 C
+0 0 0 0 0 0
+2d50+1500 0d0+0 0 0 0
+3500 0
+112 112 1
+19 14 15 13 15 13 13 15
+0 0 0 0 0
+2 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16021
+Shadow Dwarf~
+&zA shadow dwarf&w&w~
+&zA shadow dwarf's eyes blaze with the thought of murder.&G
+~
+&zThe shadow dwarves are a fierce and cruel lot, so savage 
+that it is a wonder how any of them could still exist. They 
+are shorter than most dwarves, but they make up for that 
+with increased strength, and a keener wit for evil 
+doings.&G 
+~
+1 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d4+4 0 0 0
+0 0
+112 112 2
+15 15 14 14 15 13 15 15
+0 0 0 0 0
+2 0 0 0 1 1 15
+3 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16022
+Pygmy Gargoyle~
+&zA pygmy gargoyle&G~
+&zA pygmy gargoyle searches for a victim.&G
+~
+The pygmy gargoyle are a race of gargoyles much like those 
+already known to exist except for one major change. The 
+pygmy gargoyles are evil and mischievous. They are small, 
+but nearly as strong and quick as their larger cousins. 
+~
+1 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d3+2 0 0 0
+0 0
+112 112 2
+15 14 14 15 14 13 14 15
+0 0 0 0 0
+34 0 0 0 1 1 15
+2 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16023
+pygmy minotaur~
+&OA pygmy minotaur&G~
+&OA pygmy minotaur is looking for a fight.&G
+~
+&OThe pygmy minotaurs were bred intentionally, oddly as 
+that may sound. But, there was a reason. The people of a 
+far off land wanted a new form of entertainment for their 
+gladiatorial battles, thus they bred the short minotaurs. 
+They are indeed fierce and strong, the same as their larger 
+cousins. The only thing limiting their capabilities in 
+battle is their short stature. 
+&G
+~
+1 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d3+2 0 0 0
+0 0
+112 112 2
+15 14 14 15 14 13 14 15
+0 0 0 0 0
+20 0 0 0 1 1 15
+2 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16024
+Halfelf Rogue~
+&OA half-elf rogue&G~
+&OA half-elf rogue is looking for his next murder victim.&G
+~
+&OThe half-elf rogue is simply that, a half-elven, 
+half-human thief that roams the wilderness looking for 
+someone to rob. &G 
+~
+1 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d2+2 0 0 0
+0 0
+112 112 2
+16 14 14 16 14 13 14 15
+0 0 0 0 0
+1 0 0 0 1 1 15
+2 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16025
+Ogre Mercenary~
+&w&COgre Mercenary~
+&w&PAn &w&COgre Mercenary&w&P is here seeking justice!
+~
+~
+1&2097152 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d5+5 0 0 0
+0 0
+112 112 1
+18 16 13 13 13 13 13 15
+0 0 0 0 0
+3 0 0 0 1 1 15
+4 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16026
+Black Bear~
+&w&zBlack Bear~
+&w&PA &w&zBlack Bear&w&P is here seeking justice!
+~
+~
+1&2097152 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d4+5 0 0 0
+0 0
+112 112 1
+17 16 13 13 13 13 13 15
+0 0 0 0 0
+24 0 0 0 1 1 15
+4 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16027
+Savage Minotaur~
+&w&cSavage Minotaur~
+&w&PA &w&cSavage Minotaur&w&P is here seeking justice!
+~
+~
+1&2097152 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d5+5 0 0 0
+0 0
+112 112 1
+17 16 13 13 13 13 13 15
+0 0 0 0 0
+20 0 0 0 1 1 15
+4 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16028
+Shadow Harpy~
+&w&zShadow Harpy~
+&w&PA &w&zShadow Harpy&w&P is here seeking justice!
+~
+~
+1&2097152 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d5+5 0 0 0
+0 0
+112 112 2
+16 17 13 13 13 13 13 15
+0 0 0 0 0
+42 0 0 0 1 1 15
+4 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16029
+Fledgling Zombie~
+&w&RFledgling Zombie~
+&w&PA &w&RFledgling Zombie&w&P is here seeking justice!
+~
+~
+1&2097152 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d5+5 0 0 0
+0 0
+112 112 1
+17 16 13 13 13 13 13 15
+0 0 0 0 0
+71 0 0 0 1 1 15
+4 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16030
+Shadow Orc~
+&w&OShadow Orc~
+&w&PA &w&OShadow Orc&w&P is here seeking justice!
+~
+~
+1&2097152 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d5+5 0 0 0
+0 0
+112 112 1
+17 16 13 13 13 13 13 15
+0 0 0 0 0
+53 0 0 0 1 1 15
+4 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16031
+Stealth Hobbit~
+&w&gStealth Hobbit~
+&w&PA &w&gStealth Hobbit&w&P is here seeking justice!
+~
+~
+1&2097152 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d5+6 0 0 0
+0 0
+112 112 1
+17 17 13 13 13 13 13 15
+0 0 0 0 0
+4 0 0 0 1 1 15
+5 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 524290
+#16032
+Chieftin Goblin~
+&RChieftain Goblin&W~
+&WA &RChieftain Goblin&W is here seeking justice!
+~
+~
+1&2097152 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d5+6 0 0 0
+0 0
+112 112 1
+18 17 13 13 13 13 13 15
+0 0 0 0 0
+17 0 0 0 1 1 15
+5 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 524290
+#16033
+Powerful Skeleton~
+&w&zPowerful Skeleton~
+&w&PA &w&zPowerful Skeleton&w&P is here seeking justice!
+~
+~
+1&2097152 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d5+6 0 0 0
+0 0
+112 112 1
+17 17 13 13 13 13 13 15
+0 0 0 0 0
+21 0 0 0 1 1 15
+5 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 2
+#16034
+Deadly Spirit~
+&w&WDeadly Spirit~
+&w&PA &w&WDeadly Spirit&w&P is here seeking justice!
+~
+~
+1&2097152 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d5+6 0 0 0
+0 0
+112 112 1
+17 17 13 13 13 13 13 15
+0 0 0 0 0
+84 0 0 0 1 1 15
+5 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 262144 2
+#16035
+Novice Zombie~
+&w&ONovice Zombie~
+&w&PA &w&ONovice Zombie&w&P is here seeking justice!
+~
+~
+1&2097152 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d5+6 0 0 0
+0 0
+112 112 1
+17 17 13 13 13 13 13 15
+0 0 0 0 0
+71 0 0 0 1 1 15
+5 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1073741824 2
+#16036
+Deadly Ghoul~
+&w&rDeadly Ghoul~
+&w&PA &w&rDeadly Ghoul&w&P is here seeking justice!
+~
+~
+1&2097152 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d5+6 0 0 0
+0 0
+112 112 1
+17 17 13 13 13 13 13 15
+0 0 0 0 0
+36 0 0 0 1 1 15
+5 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1073741824 2
+#16037
+Chaotic Fairy~
+&w&rChaotic Fairy~
+&w&PA &w&rChaotic Fairy&w&P is here seeking justice!
+~
+~
+1&2097152 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d7+9 0 0 0
+0 0
+112 112 1
+17 19 13 13 13 13 13 15
+0 0 0 0 0
+5 0 0 0 1 1 15
+6 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1107558464 524290
+#16038
+Chieftain Orc~
+&OChieftain Orc&W~
+&WA &OChieftain Orc&W is here seeking justice!
+~
+~
+1&2097152 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d7+9 0 0 0
+0 0
+112 112 1
+19 19 13 13 13 13 13 15
+0 0 0 0 0
+53 0 0 0 1 1 15
+6 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 64 2
+#16039
+Shadow O Death~
+&w&zShadow O Death~
+&w&PA &w&zShadow O Death&w&P is here seeking justice!
+~
+~
+1&2097152 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d7+9 0 0 0
+0 0
+112 112 1
+18 19 13 13 13 13 13 15
+0 0 0 0 0
+56 0 0 0 1 1 15
+6 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 64 258
+#16040
+Red Golem~
+&w&rRed Golem~
+&w&PA &w&rRed Golem&w&P is here seeking justice!
+~
+~
+1&2097152 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d7+9 0 0 0
+0 0
+112 112 1
+20 19 13 13 13 13 13 15
+0 0 0 0 0
+40 0 0 0 1 1 15
+6 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 64 8194
+#16041
+Baby Dragon~
+&w&BBaby Dragon~
+&w&PA &w&BBaby Dragon&w&P is here seeking justice!
+~
+~
+1&2097152 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d7+9 0 0 0
+0 0
+112 112 1
+20 20 13 13 13 13 13 15
+0 0 0 0 0
+31 0 0 0 1 1 15
+6 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1107296320 8194
+#16042
+Black Golem~
+&w&zBlack Golem~
+&w&PA &w&zBlack Golem&w&P is here seeking justice!
+~
+~
+1&2097152 0 0 0 C
+0 0 0 0 0 0
+0d0+0 1d7+9 0 0 0
+0 0
+112 112 1
+20 19 13 13 13 13 13 15
+0 0 0 0 0
+40 0 0 0 1 1 15
+6 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 64 8194
+#16043
+Repair Blacksmith~
+Repair Blacksmith~
+A blacksmith is here repairing weapons and armor.
+~
+~
+1140850691&524288 0 0 0 C
+0 0 0 0 0 0
+2d50+1500 0d0+0 0 0 0
+3500 0
+112 112 1
+19 14 15 13 15 13 13 15
+0 0 0 0 0
+2 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16044
+Repair Blacksmith~
+Repair Blacksmith~
+A blacksmith is here repairing weapons and armor.
+~
+~
+1140850691&524288 0 0 0 C
+0 0 0 0 0 0
+2d50+1500 0d0+0 0 0 0
+3500 0
+112 112 1
+19 14 15 13 15 13 13 15
+0 0 0 0 0
+2 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16045
+Repair Blacksmith~
+Repair Blacksmith~
+A blacksmith is here repairing weapons and armor.
+~
+~
+1140850691&524288 0 0 0 C
+0 0 0 0 0 0
+2d50+1500 0d0+0 0 0 0
+3500 0
+112 112 1
+19 14 15 13 15 13 13 15
+0 0 0 0 0
+2 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16047
+Repair Blacksmith~
+Repair Blacksmith~
+A blacksmith is here repairing weapons and armor.
+~
+~
+67108867&524288 0 0 0 C
+0 0 0 0 0 0
+2d50+1500 0d0+0 0 0 0
+3500 0
+112 112 1
+19 14 15 13 15 13 13 15
+0 0 0 0 0
+2 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16048
+Repair Blacksmith~
+Repair Blacksmith~
+A blacksmith is here repairing weapons and armor.
+~
+~
+67108867&524288 0 0 0 C
+0 0 0 0 0 0
+2d50+1500 0d0+0 0 0 0
+3500 0
+112 112 1
+19 14 15 13 15 13 13 15
+0 0 0 0 0
+2 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16049
+Repair Blacksmith~
+Repair Blacksmith~
+A blacksmith is here repairing weapons and armor.
+~
+~
+67108867&524288 0 0 0 C
+0 0 0 0 0 0
+2d50+1500 0d0+0 0 0 0
+3500 0
+112 112 1
+19 14 15 13 15 13 13 15
+0 0 0 0 0
+2 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16200
+Nthanel~
+Nthanel~
+Nthanel is here looking like he is VERY happy to see you.
+~
+~
+67108867&12 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+> greet_prog 100~
+say Hello there, I am glad you found me.  I have an interesting offer to
+say make.  I have discovered a secret magical artifact that will transport
+say you to a mysterious land of great wealth.  I only ask 500,000 coins in
+say return for my services.
+say I also can transport you to another wonderful underwater adventure for only
+say the cheap price of 200,000 coins
+~
+> bribe_prog 500000~
+tell $n You are very wise, very wise to become lunch for my master BERUM!
+mptransfer $n 6901
+mpat $n cackle
+~
+> bribe_prog 200000~
+tell $n As you wish master, the Hydriss will enjoy you...FOR LUNCH!!!
+mptransfer $n 2851
+~
+|
+#16201
+Beginning Lumberjack~
+A Beginning Lumberjack~
+A Beginning Lumberjack is here cutting down some wood.
+~
+~
+3&64 0 0 0 C
+0 0 0 0 0 0
+3d3+55 1d1+1 0 0 0
+148 0
+112 112 0
+15 13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 80 10000 0 5 2 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+1 0 0 0 0 0 0 0 0
+#16202
+Intermediate Lumberjack~
+An Intermediate Lumberjack~
+An Intermediate Lumberjack is here cutting down some wood.
+~
+~
+3&64 0 0 0 C
+0 0 0 0 0 0
+5d3+101 1d5+2 0 0 0
+212 0
+112 112 0
+15 13 13 13 13 13 13 1
+0 0 0 0 0
+0 0 0 0 1 1 1
+0 100 15000 0 5 3 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+1 0 0 0 0 0 0 112 2
+#16203
+Advanced Lumberjack~
+An Advanced Lumberjack~
+An Advanced Lumberjack is here cutting down some wood.
+~
+~
+3&64 0 0 0 C
+0 0 0 0 0 0
+7d5+229 1d8+4 0 0 0
+276 0
+112 112 0
+15 13 13 13 13 13 13 1
+0 0 0 0 0
+0 0 0 0 1 1 1
+0 125 20000 0 5 4 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+2 0 0 0 0 0 0 112 2
+#16204
+Expert Lumberjack~
+An Expert Lumberjack~
+An Expert Lumberjack is here cutting down some wood.
+~
+~
+3&64 0 0 0 C
+0 0 0 0 0 0
+8d8+365 2d5+6 0 0 0
+339 0
+112 112 0
+15 13 13 13 13 13 13 2
+0 0 0 0 0
+0 0 0 0 1 1 2
+0 160 28000 0 5 4 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+5 0 0 0 0 0 0 576 2
+#16205
+Master Lumberjack~
+A Master Lumberjack~
+A Master Lumberjack is here cutting down some wood.
+~
+~
+3&64 0 0 0 C
+0 0 0 0 0 0
+10d12+730 3d4+8 0 0 0
+531 0
+112 112 0
+15 13 13 13 13 13 13 2
+0 0 0 0 0
+0 0 0 0 1 1 2
+60 200 40000 0 5 5 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+7 0 0 0 0 0 0 16 2
+#16206
+Apprentice Corn Farmer~
+An Apprentice Corn Farmer~
+An Apprentice Corn Farmer is here farming the land.
+~
+~
+3&64 0 0 0 C
+0 0 0 0 0 0
+5d3+101 1d5+2 0 0 0
+212 0
+112 112 0
+15 13 13 13 13 13 13 1
+0 0 0 0 0
+0 0 0 0 1 1 1
+1122 100 6000 0 3 3 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+1 0 0 0 0 0 0 32 1
+#16207
+Trained Corn Farmer~
+A Trained Corn Farmer~
+A Trained Corn Famer is here farming the land.
+~
+~
+3&64 0 0 0 C
+0 0 0 0 0 0
+7d5+229 1d8+4 0 0 0
+276 0
+112 112 0
+15 13 13 13 13 13 13 1
+0 0 0 0 0
+0 0 0 0 1 1 1
+44 130 10000 0 3 4 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+2 0 0 0 0 0 0 624 2
+#16208
+Master Corn Farmer~
+A Master Corn Farmer~
+A Master Corn Farmer
+~
+~
+3&64 0 0 0 C
+0 0 0 0 0 0
+8d8+365 2d5+6 0 0 0
+339 0
+112 112 0
+15 13 13 13 13 13 13 2
+0 0 0 0 0
+0 0 0 0 1 1 2
+345 160 16000 0 3 5 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+5 0 0 0 0 0 0 64 1
+#16209
+Apprentice Wheat Farmer~
+An Apprentice Wheat Farmer~
+An Apprentice Wheat Farmer is here farming the land.
+~
+~
+3&64 0 0 0 C
+0 0 0 0 0 0
+5d3+101 1d5+2 0 0 0
+212 0
+112 112 0
+15 13 13 13 13 13 13 1
+0 0 0 0 0
+0 0 0 0 1 1 1
+111 100 6000 0 4 3 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+1 0 0 0 0 0 0 0 2
+#16210
+Trained Wheat Farmer~
+A Trained Wheat Farmer~
+A Trained Wheat Famer is here farming the land.
+~
+~
+3&64 0 0 0 C
+0 0 0 0 0 0
+7d5+229 1d8+4 0 0 0
+276 0
+112 112 0
+15 13 13 13 13 13 13 1
+0 0 0 0 0
+0 0 0 0 1 1 1
+132 130 10000 0 4 4 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+2 0 0 0 0 0 0 16 2
+#16211
+Master Wheat Farmer~
+A Master Wheat Farmer~
+A Master Wheat Farmer
+~
+~
+3&64 0 0 0 C
+0 0 0 0 0 0
+8d8+365 2d5+6 0 0 0
+339 0
+112 112 0
+15 13 13 13 13 13 13 2
+0 0 0 0 0
+0 0 0 0 1 1 2
+35 160 16000 0 4 5 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+5 0 0 0 0 0 0 112 1
+#16212
+Apprentice Iron Miner~
+An Apprentice Iron Miner~
+An Apprentice Iron Miner is here mining.
+~
+~
+3&64 0 0 0 C
+0 0 0 0 0 0
+7d5+229 1d8+4 0 0 0
+276 0
+112 112 0
+15 13 13 13 13 13 13 1
+0 0 0 0 0
+0 0 0 0 1 1 1
+0 50 20000 0 2 1 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+2 0 0 0 0 0 0 544 1
+#16213
+Trained Iron Miner~
+A Trained Iron Miner~
+A Trained Iron Miner is here mining.
+~
+~
+3&64 0 0 0 C
+0 0 0 0 0 0
+8d8+365 2d5+6 0 0 0
+339 0
+112 112 0
+15 13 13 13 13 13 13 2
+0 0 0 0 0
+0 0 0 0 1 1 2
+0 65 30000 0 2 1 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+5 0 0 0 0 0 0 656 1
+#16214
+Master Iron Miner~
+A Master Iron Miner~
+A Master Iron Miner is here mining.
+~
+~
+3&64 0 0 0 C
+0 0 0 0 0 0
+10d12+730 3d4+8 0 0 0
+531 0
+112 112 0
+15 13 13 13 13 13 13 2
+0 0 0 0 0
+0 0 0 0 1 1 2
+0 85 45000 0 2 2 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+7 0 0 0 0 0 0 16 1
+#16215
+Apprentice Gold Miner~
+An Apprentice Gold Miner~
+An Apprentice Gold Miner is here mining.
+~
+~
+3&64 0 0 0 C
+0 0 0 0 0 0
+7d5+229 1d8+4 0 0 0
+276 0
+112 112 0
+15 13 13 13 13 13 13 1
+0 0 0 0 0
+0 0 0 0 1 1 1
+0 50 20000 0 2 1 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+2 0 0 0 0 0 0 128 2
+#16216
+Trained Gold Miner~
+A Trained Gold Miner~
+A Trained Gold Miner is here mining.
+~
+~
+3&64 0 0 0 C
+0 0 0 0 0 0
+8d8+365 2d5+6 0 0 0
+339 0
+112 112 0
+15 13 13 13 13 13 13 2
+0 0 0 0 0
+0 0 0 0 1 1 2
+0 65 30000 0 2 1 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+5 0 0 0 0 0 0 0 1
+#16217
+Master Gold Miner~
+A Master Gold Miner~
+A Master Gold Miner is here mining.
+~
+~
+3&64 0 0 0 C
+0 0 0 0 0 0
+10d12+730 3d4+8 0 0 0
+531 0
+112 112 0
+15 13 13 13 13 13 13 2
+0 0 0 0 0
+0 0 0 0 1 1 2
+0 85 45000 0 2 2 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+7 0 0 0 0 0 0 112 1
+#16218
+Kingdom Warrior~
+A Kingdom Warrior~
+A Warrior is here doing his duties for his kingdom.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+13d17+1283 4d5+15 0 0 0
+1041 0
+112 112 1
+16 13 13 13 13 13 13 3
+0 0 0 0 0
+0 0 0 0 1 1 3
+0 0 40000 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+12 0 0 0 0 0 0 736 2
+#16219
+Kingdom Cleric~
+A Kingdom Cleric~
+A Cleric is here tending to the wounded in her kingdom.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+13d17+1180 4d5+6 0 0 0
+1041 0
+112 112 2
+13 13 13 13 13 13 13 2
+0 0 0 0 0
+0 0 0 0 1 1 2
+0 0 120000 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+10 0 0 0 0 0 0 16 4412
+#16220
+Kingdom Mage~
+A Kingdom Mage~
+A Mage is here looking to cause havok to those in the way.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+8d10+1050 4d5+1 0 0 0
+1041 0
+112 112 1
+13 13 13 13 13 13 13 1
+0 0 0 0 0
+0 0 0 0 1 1 1
+0 0 160000 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+30 0 0 0 0 0 0 1378091136 64
+#16221
+Kingdom Archer~
+A Kingdom Archer~
+An Archer is here looking for a target to fire at.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+13d17+1220 4d5+8 0 0 0
+1041 0
+112 112 1
+15 13 13 13 13 13 13 3
+0 0 0 0 0
+0 0 0 0 1 1 3
+0 0 65000 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+25 0 0 0 0 0 0 112 1
+#16222
+Kingdom Barbarian~
+A Kingdom Barbarian~
+A massive barbarian is here looking for skulls to crush.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+13d17+1600 4d5+11 0 0 0
+1041 0
+112 112 1
+19 13 13 13 13 13 13 3
+0 0 0 0 0
+0 0 0 0 1 1 3
+0 0 65000 2 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+8 0 0 0 0 0 0 1073742576 2
+#16223
+Kingdom Horseman~
+A Kingdom Horseman~
+A galiant warrior on the back of a horse is here riding through the Wilderness.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+13d17+1200 4d5+9 0 0 0
+1041 0
+112 112 1
+15 13 13 13 13 13 13 2
+0 0 0 0 0
+0 0 0 0 1 1 2
+0 0 60000 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+10 0 0 0 0 0 0 0 3
+#16224
+Kingdom Horse~
+A Kingdom Horse~
+A healthy looking horse is here waiting to transport someone.
+~
+~
+262145&4608 0 0 0 C
+0 0 0 0 0 0
+12d13+700 3d3+4 0 0 0
+764 0
+112 112 1
+13 13 13 13 13 13 13 2
+0 0 0 0 0
+86 0 0 0 1 1 2
+0 0 40000 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+8 0 0 0 0 0 0 32 2
+#16225
+Kingdom Guard~
+A Kingdom Guard~
+A guard is here doing his duties to protect his land.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+13d17+1400 4d5+7 0 0 0
+1041 0
+112 112 1
+16 13 13 13 13 13 13 3
+0 0 0 0 0
+0 0 0 0 1 1 3
+0 0 40000 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+12 0 0 0 0 0 0 64 3
+#16226
+Kingdom Knight~
+A Kingdom Knight~
+A Knight of the kingdom is here and ready for his duties.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+15d19+1800 5d4+13 0 0 0
+1359 0
+112 112 1
+17 13 13 13 13 13 13 4
+0 0 0 0 0
+0 0 0 0 1 1 4
+0 0 80000 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+20 0 0 0 0 0 0 944 2
+#16227
+Kingdom Slinger~
+A Kingdom Slinger~
+A Slinger is here with sling in hand and ready for battle.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+13d17+1200 4d5+5 0 0 0
+1041 0
+112 112 1
+13 13 13 13 13 13 13 2
+0 0 0 0 0
+0 0 0 0 1 1 2
+0 0 45000 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+17 0 0 0 0 0 0 0 1
+#16228
+Kingdom Chaplain~
+A Kingdom Chaplain~
+A Chaplain is here to outcast all pains and evils of her kingdom.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+15d19+1440 5d4+7 0 0 0
+1359 0
+112 112 1
+13 13 13 13 13 13 13 3
+0 0 0 0 0
+0 0 0 0 1 1 3
+0 0 225000 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+16 0 0 0 0 0 0 16 4414
+#16229
+Kingdom Crossbowman~
+A Kingdom Crossbowman~
+A man with a crossbow is here waiting for a target to shoot at.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+13d17+1220 4d5+10 0 0 0
+1041 0
+112 112 2
+14 13 13 13 13 13 13 3
+0 0 0 0 0
+0 0 0 0 1 1 3
+0 0 75000 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+30 0 0 0 0 0 0 16 2
+#16230
+Kingdom Thief~
+A Kingdom Thief~
+A thief is here in the shadows waiting for his next victim.
+~
+~
+1&4608 0 98306 0 C
+0 0 0 0 0 0
+13d17+1190 4d5+7 0 0 0
+1041 0
+112 112 1
+15 13 13 17 13 13 20 3
+0 0 0 0 0
+0 0 0 0 1 1 3
+0 0 95000 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+17 0 0 0 0 0 0 1776 1
+#16231
+An Apprentice Stone Miner~
+An Apprentice Stone Miner~
+An Apprentice Stone Miner is here mining Stone.
+~
+~
+3&64 0 0 0 C
+0 0 0 0 0 0
+3d4+110 0d0+0 0 0 0
+135 0
+112 112 1
+15 13 13 13 13 13 13 15
+0 0 0 0 0
+0 0 0 0 1 1 15
+0 80 10000 0 6 2 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16232
+A Trained Stone Miner~
+A Trained Stone Miner~
+A Trained Stone Miner is here mining Stone.
+~
+~
+3&64 0 0 0 C
+0 0 0 0 0 0
+5d4+210 0d0+0 0 0 0
+235 0
+112 112 1
+15 13 13 13 13 13 13 15
+0 0 0 0 0
+0 0 0 0 1 1 15
+0 100 15000 0 6 3 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16233
+A Master Stone Miner~
+A Master Stone Miner~
+A Master Stone Miner is here mining Stone.
+~
+~
+3&64 0 0 0 C
+0 0 0 0 0 0
+6d8+350 0d0+0 0 0 0
+435 0
+112 112 1
+15 13 13 13 13 13 13 15
+0 0 0 0 0
+0 0 0 0 1 1 15
+0 130 22500 0 6 4 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16234
+Viona~
+Viona the Beginner Book Seller~
+Viona is here carefully going over and sorting each book.
+~
+A rather young and short human female.  She appears to be dressed like
+most mages are (light armor, robe to identify the group of mages), but
+because of the job she has, she is most likely just an apprentice.
+~
+67108867&8192 0 0 0 C
+0 0 0 0 0 0
+5d20+850 0d0+0 0 0 0
+5000 0
+112 112 2
+12 18 17 14 12 13 15 15
+0 0 0 0 0
+0 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16235
+Craig~
+Craig the Banker~
+Craig the Banker is here making sure all the money is deposited correctly.
+~
+A slender individual, but it appears that he has the energy of 10 men as
+he moves back and forth between the piles of cash and the customers who are
+waiting for him.  His hair seems to stand straight up too, wonder why?
+~
+67108875 0 0 0 C
+0 0 0 0 0 0
+5d10+1000 0d0+0 0 0 0
+3000 0
+112 112 1
+12 18 18 12 12 13 20 15
+0 0 0 0 0
+0 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16236
+Cira~
+Cira the Novice Book Seller~
+Cira is here carefully restacking her supply of books.
+~
+Cira appears to be in her late twenties.  She is dressed in a rather bright,
+sparkling robe that appears to have little gems stiched into it.  Rather this
+is for affect or some kind of magical power is unknown.
+~
+67108867&8192 0 0 0 C
+0 0 0 0 0 0
+5d20+850 0d0+0 0 0 0
+5000 0
+112 112 2
+12 18 17 14 12 13 15 15
+0 0 0 0 0
+0 0 0 0 1 1 15
+1 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16237
+Repair Blacksmith~
+Repair Blacksmith~
+A blacksmith is here repairing weapons and armor.
+~
+~
+67108867&524288 0 0 0 C
+0 0 0 0 0 0
+2d50+1500 0d0+0 0 0 0
+3500 0
+112 112 1
+19 14 15 13 15 13 13 15
+0 0 0 0 0
+2 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16238
+Forge Blacksmith~
+Forge Blacksmith~
+A blacksmith is here forging weapons and armor.
+~
+~
+67108867 0 0 0 C
+0 0 0 0 0 0
+2d50+1500 0d0+0 0 0 0
+3500 0
+112 112 1
+21 14 15 13 15 13 13 15
+0 0 0 0 0
+2 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16240
+weird naked indian~
+&zWeird Naked Indian~
+&zA weird naked indian stands here looking for something.
+~
+This strange painted person stands before you naked. Thats right this
+guy is in his birthday suit.  Nobody knows why but some say this is
+some sort of punishment for angering the higher Gods. Stay clear of this
+guy though, he has quite a temper.
+~
+1 0 0 0 C
+0 0 0 0 0 0
+0d0+0 2d1+4 0 0 0
+0 0
+112 112 1
+15 14 14 15 15 13 15 15
+0 0 0 0 0
+0 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16241
+Young Warrior~
+A Young Warrior~
+Some god abandoned a newly created Warrior here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+5d3+70 0d0+0 0 0 0
+0 0
+112 112 1
+15 14 14 14 14 13 14 35
+0 0 0 0 0
+0 0 0 0 1 1 35
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16242
+Warrior~
+A Warrior~
+Some god abandoned a newly created Warrior here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+5d3+80 0d0+0 0 0 0
+0 0
+112 112 1
+16 15 15 15 15 13 14 45
+0 0 0 0 0
+0 0 0 0 1 1 45
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16243
+Veteran Warrior~
+A Veteran Warrior~
+Some god abandoned a newly created Warrior here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+5d3+100 0d0+0 0 0 0
+0 0
+112 112 1
+17 16 16 15 15 13 14 55
+0 0 0 0 0
+0 0 0 0 1 1 55
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16244
+Warlord~
+A Warlord~
+Some god abandoned a newly created Warrior here.
+~
+~
+1&4608 0 32 0 C
+0 0 0 0 0 0
+5d3+140 0d0+0 0 0 0
+0 0
+112 112 1
+18 17 17 15 16 13 16 70
+0 0 0 0 0
+0 0 0 0 1 1 70
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16245
+Young Thief~
+A Young Thief~
+Some god abandoned a newly created Young Thief here.
+~
+~
+1&4608 0 65568 0 C
+0 0 0 0 0 0
+5d3+55 0d0+0 0 0 0
+0 0
+112 112 1
+14 14 14 15 14 13 17 50
+0 0 0 0 0
+0 0 0 0 1 1 50
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16246
+Thief~
+A Thief~
+Some god abandoned a newly created Young Thief here.
+~
+~
+1&4608 0 65568 0 C
+0 0 0 0 0 0
+5d3+65 0d0+0 0 0 0
+0 0
+112 112 1
+14 15 15 16 14 13 17 60
+0 0 0 0 0
+0 0 0 0 1 1 60
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16247
+Veteran Thief~
+A Veteran Thief~
+Some god abandoned a newly created Young Thief here.
+~
+~
+1&4608 0 65568 0 C
+0 0 0 0 0 0
+5d3+85 0d0+0 0 0 0
+0 0
+112 112 1
+15 16 16 17 14 13 18 70
+0 0 0 0 0
+0 0 0 0 1 1 70
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16248
+Assassin~
+An Assassin~
+Some god abandoned a newly created Young Thief here.
+~
+~
+1&4608 0 4292640 0 C
+0 0 0 0 0 0
+5d3+120 0d0+0 0 0 0
+0 0
+112 112 1
+16 18 18 18 15 13 19 90
+0 0 0 0 0
+0 0 0 0 1 1 90
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16249
+Apprentice Cleric~
+An Apprentice Cleric~
+Some god abandoned a newly created Apprentice Cleric here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+2d4+35 0d0+0 0 0 0
+0 0
+112 112 2
+13 15 15 13 13 13 13 20
+0 0 0 0 0
+0 0 0 0 1 1 20
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16250
+Trained Cleric~
+A Trained Cleric~
+Some god abandoned a newly created Apprentice Cleric here.
+~
+~
+1&4608 0 32 0 C
+0 0 0 0 0 0
+2d6+50 0d0+0 0 0 0
+0 0
+112 112 2
+14 17 17 14 13 13 15 35
+0 0 0 0 0
+0 0 0 0 1 1 35
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16251
+Battle Cleric~
+A Battle Cleric~
+Some god abandoned a newly created Apprentice Cleric here.
+~
+~
+1&4608 0 160 0 C
+0 0 0 0 0 0
+5d3+95 0d0+0 0 0 0
+0 0
+112 112 2
+16 18 18 14 14 13 15 55
+0 0 0 0 0
+0 0 0 0 1 1 55
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16252
+Rayola~
+Rayola the Expert Book Seller~
+Rayola is here carefully restacking her supply of tomes.
+~
+Royola is deeply clothed in her robes and is hard to tell much about her.  You
+can see a bit of light emmitting from the face area of the robe, but that is about
+it.
+~
+67108867&8192 0 0 0 C
+0 0 0 0 0 0
+5d20+850 0d0+0 0 0 0
+5000 0
+112 112 2
+12 18 17 14 12 13 15 15
+0 0 0 0 0
+0 0 0 0 1 1 15
+2 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16253
+town healer~
+the town healer~
+The town healer waves his hands around to heal the sick and hurt.
+~
+From what you can gather by looking at the robed fellow you can tell he
+is a middle aged man with a kind soul.  Beyond that, not much else to see
+unless you killed him.
+~
+67108867&16384 0 0 0 C
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+14 18 18 17 13 13 13 15
+0 0 0 0 0
+0 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16299
+Worker~
+Worker~
+A Worker is here harvesting for his kingdom.
+~
+~
+3&64 0 0 0 C
+0 0 0 0 0 0
+3d3+45 0d0+0 0 0 0
+0 0
+112 112 1
+13 14 13 13 13 13 13 15
+0 0 0 0 0
+0 0 0 0 1 1 15
+0 50 15000 0 0 2 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16300
+horse~
+a loyal horse~
+A loyal horse is here hauling around its master's weight.
+~
+~
+262147 0 0 0 C
+0 0 6 4 4 4
+5d3+60 0d0+0 0 0 0
+0 0
+112 112 1
+13 13 13 13 13 13 13 15
+0 0 0 0 0
+86 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16301
+Fighter~
+Fighter~
+A Fighter is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+3d5+141 0d0+0 0 0 0
+0 0
+112 112 0
+15 18 18 15 13 13 13 50
+0 0 0 0 0
+0 0 0 0 1 1 50
+0 0 0 0 0 0 0 0 0 0 6 1 1
+100 100 100 100 100 100 90 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16302
+Swordsman~
+Swordsman~
+A Swordsman is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+3d5+210 0d0+0 0 2 3
+0 0
+112 112 0
+15 17 17 18 13 13 13 60
+0 0 0 0 0
+0 0 0 0 1 1 60
+0 0 0 0 0 0 0 0 0 0 6 1 2
+100 100 100 100 100 100 85 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 1
+#16303
+Barbarian~
+Barbarian~
+A Barbarian is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+3d5+280 0d0+0 0 3 5
+0 0
+112 112 0
+20 16 16 16 13 13 13 60
+0 0 0 0 0
+0 0 0 0 1 1 60
+0 0 0 0 0 0 0 0 0 0 6 1 3
+100 100 100 100 100 100 80 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16304
+Soldier~
+Soldier~
+A Soldier is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+4d5+350 0d0+0 0 5 8
+0 0
+112 112 0
+16 17 17 16 13 13 13 65
+0 0 0 0 0
+0 0 0 0 1 1 65
+0 0 0 0 0 0 0 0 0 0 6 2 4
+100 100 100 100 100 100 75 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 1
+#16305
+Veteran~
+Veteran~
+A Veteran is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+4d5+460 0d0+0 0 7 11
+0 0
+112 112 0
+16 17 17 19 13 13 13 70
+0 0 0 0 0
+0 0 0 0 1 1 70
+0 0 0 0 0 0 0 0 0 0 6 2 5
+100 100 100 100 100 100 70 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 2
+#16306
+Captain~
+Captain~
+A Captain is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+4d5+610 0d0+0 0 10 15
+0 0
+112 112 0
+16 19 19 19 13 13 13 75
+0 0 0 0 0
+0 0 0 0 1 1 75
+0 0 0 0 0 0 0 0 0 0 6 3 6
+100 100 100 100 100 100 65 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 320 2
+#16307
+General~
+General~
+A General is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+6d5+800 0d0+0 0 15 22
+0 0
+112 112 0
+17 20 20 19 13 13 13 80
+0 0 0 0 0
+0 0 0 0 1 1 80
+0 0 0 0 0 0 0 0 0 0 6 4 7
+100 100 100 100 100 100 60 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 320 2
+#16308
+Knight~
+Knight~
+A Knight is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+6d5+1050 0d0+0 0 25 35
+0 0
+112 112 0
+18 19 19 20 13 13 13 90
+0 0 0 0 0
+0 0 0 0 1 1 90
+0 0 0 0 0 0 0 0 0 0 6 5 8
+100 100 100 100 100 80 55 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 256 524291
+#16309
+Grand Knight~
+Grand Knight~
+A Grand Knight is here.
+~
+~
+1&4608 0 33554560 0 C
+0 0 0 0 0 0
+10d5+1250 0d0+0 0 35 45
+0 0
+112 112 0
+19 19 19 21 13 13 13 95
+0 0 0 0 0
+0 0 0 0 1 1 95
+0 0 0 0 0 0 0 0 0 0 6 7 9
+100 100 100 100 100 75 45 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 256 524291
+#16310
+Champion~
+Champion~
+A Champion is here.
+~
+~
+1&4608 0 369098880 0 C
+0 0 0 0 0 0
+20d5+1850 0d0+0 0 55 65
+0 0
+112 112 0
+20 21 21 23 13 13 13 100
+0 0 0 0 0
+0 0 0 0 1 1 100
+0 0 0 0 0 0 0 0 0 0 6 24 10
+100 100 100 100 100 65 30 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 256 524291
+#16311
+Fledgling Cleric ~
+Fledgling Cleric~
+A Fledgling Cleric is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+3d5+111 0d0+0 0 0 0
+0 0
+112 112 0
+14 18 18 15 13 13 13 45
+0 0 0 0 0
+0 0 0 0 1 1 45
+0 0 0 0 0 0 0 0 0 0 6 2 1
+100 100 100 100 100 90 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16312
+Initiate Cleric~
+Initiate Cleric~
+An Initiate Cleric is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+3d5+165 0d0+0 0 0 0
+0 0
+112 112 0
+14 17 17 15 13 13 13 50
+0 0 0 0 0
+0 0 0 0 1 1 50
+0 0 0 0 0 0 0 0 0 0 6 2 2
+100 100 100 100 100 90 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16313
+Neophyte Cleric~
+Neophyte Cleric~
+A Neophyte Cleric is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+3d5+220 0d0+0 0 0 0
+0 0
+112 112 0
+15 16 16 16 13 13 13 50
+0 0 0 0 0
+0 0 0 0 1 1 50
+0 0 0 0 0 0 0 0 0 0 6 2 3
+100 100 100 100 100 85 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16314
+Cleric~
+Cleric~
+A Cleric is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+4d5+295 0d0+0 0 2 3
+0 0
+112 112 0
+14 17 17 16 13 13 13 50
+0 0 0 0 0
+0 0 0 0 1 1 50
+0 0 0 0 0 0 0 0 0 0 6 3 4
+100 100 100 100 100 80 95 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16315
+Seasoned Cleric~
+Seasoned Cleric~
+A Seasoned Cleric is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+4d5+395 0d0+0 0 3 5
+0 0
+112 112 0
+14 18 18 16 13 13 13 55
+0 0 0 0 0
+0 0 0 0 1 1 55
+0 0 0 0 0 0 0 0 0 0 6 4 5
+100 100 100 100 100 75 90 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16316
+Battle Cleric~
+Battle Cleric~
+A Battle Cleric is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+4d5+520 0d0+0 0 7 11
+0 0
+112 112 0
+16 19 19 18 13 13 13 70
+0 0 0 0 0
+0 0 0 0 1 1 70
+0 0 0 0 0 0 0 0 0 0 6 5 6
+100 100 100 100 100 70 70 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 2
+#16317
+Arch-Cleric~
+Arch-Cleric~
+An Arch-Cleric is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+6d5+570 0d0+0 0 7 11
+0 0
+112 112 0
+15 20 20 19 13 13 13 65
+0 0 0 0 0
+0 0 0 0 1 1 65
+0 0 0 0 0 0 0 0 0 0 6 7 7
+100 100 100 100 100 70 75 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16318
+Chaplain~
+Chaplain~
+A Chaplain is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+6d5+800 0d0+0 0 10 15
+0 0
+112 112 0
+16 20 20 17 13 13 13 70
+0 0 0 0 0
+0 0 0 0 1 1 70
+0 0 0 0 0 0 0 0 0 0 6 9 8
+100 100 100 100 100 65 70 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16319
+Supreme Chaplain~
+Supreme Chaplain~
+A Supreme Chaplain is here.
+~
+~
+1&4608 0 33554560 0 C
+0 0 0 0 0 0
+10d5+1010 0d0+0 0 13 18
+0 0
+112 112 0
+16 19 19 18 13 13 13 75
+0 0 0 0 0
+0 0 0 0 1 1 75
+0 0 0 0 0 0 0 0 0 0 6 12 9
+100 100 100 100 100 60 65 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 2
+#16320
+Divine~
+Divine~
+A Divine is here.
+~
+~
+1&4608 0 369098880 0 C
+0 0 0 0 0 0
+20d5+1450 0d0+0 0 20 30
+0 0
+112 112 0
+18 22 22 19 13 13 13 90
+0 0 0 0 0
+0 0 0 0 1 1 90
+0 0 0 0 0 0 0 0 0 0 6 36 10
+100 100 100 100 100 50 55 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 2
+#16321
+Fledgling Mage~
+Fledgling Mage~
+A Fledgling Mage is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+3d5+91 0d0+0 0 0 0
+0 0
+112 112 0
+15 18 18 15 13 13 13 35
+0 0 0 0 0
+0 0 0 0 1 1 35
+0 0 0 0 0 0 0 0 0 0 6 2 1
+100 100 100 100 100 75 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16322
+Initiate Mage~
+Initiate Mage~
+An Initiate Mage is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+3d5+130 0d0+0 0 0 0
+0 0
+112 112 0
+14 17 17 15 13 13 13 40
+0 0 0 0 0
+0 0 0 0 1 1 40
+0 0 0 0 0 0 0 0 0 0 6 2 2
+100 100 100 100 100 70 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16323
+Neophyte Mage~
+Neophyte Mage~
+A Neophyte Mage is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+3d5+160 0d0+0 0 0 0
+0 0
+112 112 0
+15 16 16 16 13 13 13 40
+0 0 0 0 0
+0 0 0 0 1 1 40
+0 0 0 0 0 0 0 0 0 0 6 2 3
+100 100 100 100 100 65 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16324
+Mageling~
+Mageling~
+A Mageling is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+4d5+235 0d0+0 0 0 0
+0 0
+112 112 0
+14 17 17 16 13 13 13 45
+0 0 0 0 0
+0 0 0 0 1 1 45
+0 0 0 0 0 0 0 0 0 0 6 3 4
+100 100 100 100 100 60 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16325
+Mage~
+Mage~
+A Mage is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+4d5+320 0d0+0 0 0 0
+0 0
+112 112 0
+14 18 18 16 13 13 13 45
+0 0 0 0 0
+0 0 0 0 1 1 45
+0 0 0 0 0 0 0 0 0 0 6 4 5
+100 100 100 100 100 55 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16326
+Battle Mage~
+Battle Mage~
+A Battle Mage is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+4d5+460 0d0+0 0 5 8
+0 0
+112 112 0
+16 19 19 18 13 13 13 65
+0 0 0 0 0
+0 0 0 0 1 1 65
+0 0 0 0 0 0 0 0 0 0 6 5 6
+100 100 100 100 100 50 75 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 2
+#16327
+Arch-Mage~
+Arch-Mage~
+An Arch-Mage is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+6d5+450 0d0+0 0 3 5
+0 0
+112 112 0
+15 20 20 19 13 13 13 55
+0 0 0 0 0
+0 0 0 0 1 1 55
+0 0 0 0 0 0 0 0 0 0 6 7 7
+100 100 100 100 100 45 90 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16328
+Sorceress~
+Sorceress~
+A Sorceress is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+6d5+670 0d0+0 0 5 9
+0 0
+112 112 2
+16 20 20 17 13 13 13 60
+0 0 0 0 0
+0 0 0 0 1 1 60
+0 0 0 0 0 0 0 0 0 0 6 9 8
+100 100 100 100 100 40 85 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16329
+Supreme Wizard~
+Supreme Wizard~
+A Supreme Wizard is here.
+~
+~
+1&4608 0 33554560 0 C
+0 0 0 0 0 0
+10d5+805 0d0+0 0 7 11
+0 0
+112 112 0
+16 19 19 18 13 13 13 65
+0 0 0 0 0
+0 0 0 0 1 1 65
+0 0 0 0 0 0 0 0 0 0 6 12 9
+100 100 100 100 100 30 80 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 2
+#16330
+Lich~
+Lich~
+A Lich is here.
+~
+~
+1&4608 0 369098880 0 C
+0 0 0 0 0 0
+20d5+1050 0d0+0 0 10 15
+0 0
+112 112 0
+18 22 22 19 13 13 13 80
+0 0 0 0 0
+0 0 0 0 1 1 80
+0 0 0 0 0 0 0 0 0 0 6 36 10
+100 100 100 100 100 20 70 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 2
+#16331
+Fledgling Archer~
+Fledgling Archer~
+A Fledgling Archer is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+3d5+120 0d0+0 0 0 0
+0 0
+112 112 0
+15 18 18 15 13 13 13 50
+0 0 0 0 0
+0 0 0 0 1 1 50
+0 0 0 0 0 0 0 0 0 0 6 1 1
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16332
+Apprentice Archer~
+Apprentice Archer~
+An Apprentice Archer is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+3d5+180 0d0+0 0 0 0
+0 0
+112 112 0
+15 17 17 15 13 13 13 55
+0 0 0 0 0
+0 0 0 0 1 1 55
+0 0 0 0 0 0 0 0 0 0 6 1 2
+100 100 100 100 100 100 85 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16333
+Trained Archer~
+Trained Archer~
+A Trained Archer is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+3d5+240 0d0+0 0 2 3
+0 0
+112 112 0
+16 16 16 15 13 13 13 55
+0 0 0 0 0
+0 0 0 0 1 1 55
+0 0 0 0 0 0 0 0 0 0 6 1 3
+100 100 100 100 100 100 95 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#16334
+Archer~
+Archer~
+An Archer is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+4d5+320 0d0+0 0 3 5
+0 0
+112 112 0
+16 17 17 16 13 13 13 60
+0 0 0 0 0
+0 0 0 0 1 1 60
+0 0 0 0 0 0 0 0 0 0 6 2 4
+100 100 100 100 100 100 90 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 2
+#16335
+Seasoned Archer~
+Seasoned Archer~
+A Seasoned Archer is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+4d5+430 0d0+0 0 4 8
+0 0
+112 112 0
+16 17 17 16 13 13 13 65
+0 0 0 0 0
+0 0 0 0 1 1 65
+0 0 0 0 0 0 0 0 0 0 6 2 5
+100 100 100 100 100 100 85 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 2
+#16336
+Veteran Archer~
+Veteran Archer~
+A Veteran Archer is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+4d5+575 0d0+0 0 7 11
+0 0
+112 112 0
+16 19 19 17 13 13 13 70
+0 0 0 0 0
+0 0 0 0 1 1 70
+0 0 0 0 0 0 0 0 0 0 6 3 6
+100 100 100 100 100 100 80 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 2
+#16337
+Sharpshooter~
+Sharpshooter~
+A Sharpshooter is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+6d5+710 0d0+0 0 10 14
+0 0
+112 112 0
+17 20 20 18 13 13 13 75
+0 0 0 0 0
+0 0 0 0 1 1 75
+0 0 0 0 0 0 0 0 0 0 6 4 7
+100 100 100 100 100 100 75 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 2
+#16338
+Veteran Sharpshooter~
+Veteran Sharpshooter~
+A Veteran Sharpshooter is here.
+~
+~
+1&4608 0 0 0 C
+0 0 0 0 0 0
+6d5+910 0d0+0 0 15 19
+0 0
+112 112 0
+18 19 19 18 13 13 13 80
+0 0 0 0 0
+0 0 0 0 1 1 80
+0 0 0 0 0 0 0 0 0 0 6 5 8
+100 100 100 100 100 100 70 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 2
+#16339
+Master Sharpshooter~
+Master Sharpshooter~
+A Master Sharpshooter is here.
+~
+~
+1&4608 0 33554560 0 C
+0 0 0 0 0 0
+10d5+1100 0d0+0 0 18 22
+0 0
+112 112 0
+19 19 19 19 13 13 13 85
+0 0 0 0 0
+0 0 0 0 1 1 85
+0 0 0 0 0 0 0 0 0 0 6 7 9
+100 100 100 100 100 100 65 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 2
+#16340
+Skilled Assassin~
+Skilled Assassin~
+A Skilled Assassin is here.
+~
+~
+1&4608 0 369098880 0 C
+0 0 0 0 0 0
+20d5+1600 0d0+0 0 25 35
+0 0
+112 112 0
+20 21 21 21 13 13 13 95
+0 0 0 0 0
+0 0 0 0 1 1 95
+0 0 0 0 0 0 0 0 0 0 6 24 10
+100 100 100 100 100 75 55 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 256 524290
+#16498
+Viona~
+Viona~
+Viona is here selling passage to the great ship Verseria.
+~
+Viona appears to be a middle aged human.  The years have treated her
+harsly, most likely due to traveling the world.  She has mostly shut
+off that part of her life and is now in the business of renting out
+space on the Verseria.
+~
+67108867&8 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 2
+> all_greet_prog 100~
+tell $n Hello and welcome to the harbor for the great ship Verseria.
+tell $n If you wish to grab a ride on her, the cost will be 50,000 coins.
+tell $n If you wish to ride, simply give me 50,000 coins
+~
+> bribe_prog 50000~
+tell $n Thanks for your business.  Once you see the ship arrive, use the
+tell $n entership command to board my fine vessel.  Once you arrive on the
+tell $n distant harbor, use leaveship to exit the ship.
+mptransfer $n 16000 780 395
+mptransfer self 16000 780 395
+mpforce $n look
+mptransfer self 16000 780 393
+~
+|
+#16499
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#16000
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#16001
+bone sword~
+a bone sword~
+A sharp piece of bone lays here.~
+~
+5 1073742336 8193
+0 0 0 3 -1 -1 0 0 0 0 0 0 0 0
+40.000000 4000 0 12120 0 0 0
+'NONE'
+A
+1 2 0
+A
+2 2 0
+A
+3 -1 0
+A
+19 1 0
+A
+18 1 0
+#16002
+chest~
+a weapon's chest~
+A weapons chest rests against the northern wall.~
+~
+15 1073741824 1
+1000 0 0 0
+1.000000 0 0 104 0 0 0
+E
+chest~
+This chest is made from a thick carved oak, it is sturdy but not locked.
+You feel you must examine it closer to see what it might contain.
+~
+#16003
+globe invulnerbility~
+Globe of Invulnerbility~
+A globe of invulnerbility shimmers in the sky above you...~
+~
+1 256 1
+23 23 -1 0
+1.000000 5000 0 0 0 0 0
+E
+globe~
+The globe is a bright, hot sphere infused with the powers of all the
+immortals.  If this sphere is ever destroyed in battle, the chances
+of it reviving is phenomanal.  Have fun with this little baby.
+~
+A
+17 -30 0
+A
+13 70 0
+A
+12 70 0
+A
+18 7 0
+A
+19 7 0
+A
+22 -10 0
+A
+23 -5 0
+> damage_prog 95~
+mpoload 16003
+mpecho As the globe's light fades away and the globe crumbles to dust
+mpecho the dust starts to glow and the globe is remade into new life.
+drop globe
+mpforce $n get globe
+mpforce $n wear globe
+~
+|
+#16004
+ring ancient gods~
+Ring of &RAnc&Bient &GGods&C~
+Some god dropped a newly created ring ancient gods here.~
+~
+9 524608 3
+24 24 0 0
+1.000000 0 0 0 0 0 0
+E
+ring ancient gods~
+This ring is special.  It was used by the Gods of Ancient times and
+was one of the most special rings in existance.  In fact it still is.
+Xerves keeps these rings under key and lock.  But Lucis stole the key
+and now is rarely giving these out...but you have to earn them.
+~
+A
+17 -40 0
+A
+13 75 0
+A
+12 100 0
+A
+24 -10 0
+A
+20 -5 0
+A
+18 8 0
+A
+19 7 0
+#16005
+immortal torque~
+Immortal torque~
+A torque regularly used by the immortal's lays upon the ground here.~
+~
+9 320 5
+23 23 0 0
+1.000000 5000 0 0 0 0 0
+E
+immortal torque~
+A torque that is used by immortals.  It glows with a blinding yellow
+light and the touch of it warms the neck.  This is truly a gift from
+the gods.
+~
+A
+17 -40 0
+A
+13 100 0
+A
+12 125 0
+A
+2 1 0
+A
+1 1 0
+A
+18 7 0
+A
+19 7 0
+A
+23 -5 0
+#16006
+soul armor~
+Soul Armor~
+Armor that protects against space and time lies on the ground here...~
+~
+9 524616 9
+30 30 0 0
+1.000000 10000 0 0 0 0 0
+E
+soul armor~
+This armor was created with Space and Time magic and it protects against
+that type of magic....well actually only 2.  It'll reduce the chance
+of being paralyzed and will protect you from acid.  This armor is
+truly a gift from the gods.
+~
+A
+17 -60 0
+A
+13 150 0
+A
+12 100 0
+A
+18 13 0
+A
+19 12 0
+A
+22 -10 0
+A
+28 128 0
+#16007
+protection~
+Protection~
+A helmet of protection lies on the ground here.~
+~
+9 524608 17
+30 30 0 0
+1.000000 0 0 0 0 0 0
+E
+protection~
+This helmet adds a bit of resistance to the wearer when coming in contact
+to paralysis, breath attacks, spells, and poison.  The helmet it
+is very nice to have and is a gift from the gods.
+~
+A
+17 -30 0
+A
+13 100 0
+A
+12 150 0
+A
+18 10 0
+A
+19 10 0
+A
+22 -5 0
+A
+24 -5 0
+A
+20 -5 0
+A
+23 -5 0
+#16008
+god skull guards~
+God Skull Leggings~
+Leggings made from the skulls of gods lays on the ground.~
+~
+9 524608 33
+25 25 0 0
+4.000000 5000 0 0 0 0 0
+E
+god skull leggings~
+These leggings are made from the skulls of ancient, ancient, ancient...
+ANCIENT gods.  Yes, gods can die....in a matter of millions and
+millions of years...
+~
+A
+13 150 0
+A
+12 75 0
+A
+18 11 0
+A
+19 10 0
+A
+24 -10 0
+A
+27 2 0
+A
+17 -40 0
+#16009
+feet gods~
+Feet of the Gods~
+Feet that immortals like to have are standing here...~
+~
+9 0 65
+26 26 0 0
+2.000000 2000 0 0 0 0 0
+A
+17 -20 0
+A
+13 50 0
+A
+12 50 0
+A
+18 9 0
+A
+19 9 0
+A
+14 200 0
+> wear_prog 100~
+mpecho You magically remove your feet and place these on your ankles.
+~
+|
+#16010
+skeletal hand god~
+Skeletal Hands of the Gods~
+Some very weird looking hands are laying on the ground here.~
+~
+9 0 129
+26 26 0 0
+2.000000 4000 0 0 0 0 0
+E
+hand skeletal god~
+These skeletal hands are taken from the corpses of slain immortals.
+They are still infused with the great powers of the gods and can
+kick some ass as a glove.
+~
+E
+skeletal god skull~
+~
+A
+13 100 0
+A
+12 75 0
+A
+17 -20 0
+A
+22 -5 0
+A
+19 7 0
+A
+18 7 0
+> sac_prog 100~
+mpecho As $n kneels down in supplication to the long past gods, the
+mpecho Skeletal Hands begin to glow!  They instantly flash and morph
+mpecho into special fighting gloves!
+mpoload 16011 50
+mpat $n drop god
+~
+|
+#16011
+skeletal god gloves~
+Skeletal Boxing Gloves~
+Gloves made from skeletal hands are here.~
+~
+5 524608 8193
+12 12 4 17 4 -1 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+'acidic blast'
+E
+skeltal god boxing gloves~
+Good job.  You have found the secret boxing gloves.  They are pretty
+good in combat with the hardness of the bone.
+~
+A
+17 -25 0
+A
+13 150 0
+A
+12 50 0
+A
+18 14 0
+A
+19 14 0
+A
+22 -10 0
+A
+24 -10 0
+A
+1 2 0
+A
+2 1 0
+> sac_prog 100~
+mpecho As $n kneels down in supplication to the long past gods, the
+mpecho gloves morph back into the Skeletal Hands.
+mpoload 16010 50
+mpat $n drop hand
+~
+|
+#16012
+legendary sleeves~
+Legendary Sleeves~
+Sleeves of past legends are on the groun in a heap.~
+~
+9 8389952 257
+13 13 0 0
+4.000000 4000 0 0 0 0 0
+E
+legendary sleeves~
+These sleeves were worn by all of the major heroes in the legends.
+Hercules, King Arthur, all of them.  They hold special meaning in
+the hearts of people and are treasured by the immortals.  They are
+infused with the hope of all people.
+~
+A
+17 -30 0
+A
+13 100 0
+A
+12 100 0
+A
+18 13 0
+A
+19 10 0
+A
+24 -10 0
+A
+1 3 0
+> wear_prog 100~
+mpecho As $n wears the Legendary Sleeves, the hopes of the people cry
+mpecho out and a new hero is born.
+~
+|
+#16013
+mirror shield~
+the Mirror Shield~
+A shield with a shiny reflection lays upon the ground here.~
+~
+9 320 513
+30 30 0 0
+1.000000 0 0 0 0 0 0
+E
+mirror shield~
+This shield has a shiny reflection that will protect you from extreme
+heat and extreme cold.  Sure it doesn't have very good affects, but
+man, with this protection, who needs em?
+~
+A
+17 -35 0
+A
+28 1 0
+A
+28 2 0
+A
+12 100 0
+A
+18 7 0
+A
+19 7 0
+A
+24 -15 0
+A
+13 100 0
+#16014
+cloak light~
+the Cloak of Light~
+A cloak of the Light lies on the ground in a heap.~
+~
+9 1344 1025
+27 27 0 0
+1.000000 0 0 0 0 0 0
+E
+cloak light~
+The fabled Cloak of Light, worn by the most known prince of Egypt,
+Ra.  It has the powers of light infused into it.
+~
+A
+17 -30 0
+A
+13 100 0
+A
+12 75 0
+A
+18 10 0
+A
+19 11 0
+A
+22 -5 0
+A
+1 1 0
+A
+2 1 0
+> sac_prog 100~
+mpecho As the cloak of Light fades away, a wave of black is left behind.
+mpoload 16015 50
+mpat $n drop darkness
+~
+|
+#16015
+cloak darkness~
+the Cloak of Darkness~
+A cloak of Darkness lies on the ground in a heap.~
+~
+9 832 1025
+27 27 0 0
+4.000000 3000 0 0 0 0 0
+A
+17 -30 0
+A
+13 100 0
+A
+12 75 0
+A
+18 10 0
+A
+19 11 0
+A
+24 -5 0
+A
+5 1 0
+A
+2 1 0
+> sac_prog 100~
+mpecho As the cloak of Darkness fades away, a bright light is left behind.
+mpoload 16014 50
+mpat $n drop light
+~
+|
+#16016
+kingly belt~
+Kingly Belt~
+A belt of King's lies on the ground.~
+~
+9 320 2049
+27 27 0 0
+3.000000 4000 0 0 0 0 0
+E
+kingly belt~
+This belt has been worn and passed down by generations of Kings.
+It is infused my the magestic power of a king...it won't raise your
+caste or anything, you'll just look cooler.
+~
+A
+17 -30 0
+A
+13 100 0
+A
+12 100 0
+A
+18 11 0
+A
+19 10 0
+A
+14 150 0
+A
+2 1 0
+A
+25 1 0
+A
+24 -5 0
+#16017
+power bracer~
+a Power bracer~
+A bracer of power lies on the ground.~
+~
+9 672064 4097
+10 10 0 0
+2.000000 3000 0 0 0 0 0
+E
+power bracer~
+This bracer is filled with imense strength it is very tough.  This
+bracer soars with power once you wear it.
+~
+A
+17 -15 0
+A
+13 100 0
+A
+19 10 0
+A
+1 3 0
+A
+22 -10 0
+#16018
+immortal bane sword~
+Immortal's Bane~
+A sword that can strike down an immortal lies on the ground.~
+~
+5 524608 8193
+12 15 3 1 4 -1 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+'acidic blast'
+E
+bane~
+Ah ha!  The majestic sword of the Immortal's Bane.  It's legend runs
+through the land of Rafermand with its glorious power and it's fame to
+strike down an immortal!  I don't suggest you try it though, because
+us immortals are mean.
+~
+A
+17 -40 0
+A
+13 175 0
+A
+12 75 0
+A
+18 14 0
+A
+19 15 0
+A
+1 1 0
+A
+2 1 0
+A
+5 1 0
+A
+24 -10 0
+A
+22 -10 0
+> wear_prog 100~
+mpecho As $n wields the sword of Immortal's Bane, the Immortals chuckle
+mpecho at the thought of $n fighting them.
+~
+|
+#16019
+millennium~
+Millennium~
+A black sceptre shimmers on the ground here.~
+~
+9 8487233&56 16385
+24 24 0 0
+4.000000 3000 0 0 0 0 0
+E
+millennium~
+This long, black sceptre is a focusing tool for mana users to gather
+their mana magic.  It multiplies the amount of mana you have and
+protects against much spells.  It also is very powerful.
+~
+A
+17 -30 0
+A
+13 40 0
+A
+12 200 0
+A
+18 7 0
+A
+19 7 0
+A
+3 1 0
+A
+4 1 0
+A
+24 -15 0
+A
+22 -10 0
+A
+26 1048576 0
+> wear_prog 100~
+mpecho The skies open themselves, revealing a swirling tornado...
+mpecho The tornado envelopes you for a moment...
+mpecho When it finally dissipates, a soft green glow surrounds you...
+~
+> remove_prog 100~
+mpecho The glow instantly disappears as the sceptre leaves your grasp...
+~
+|
+#16020
+immortal tear~
+Immortal's tear~
+A tear shed by an Immortal for the hopes of the future.~
+~
+9 1345 65537
+24 24 0 0
+1.000000 0 0 0 0 0 0
+E
+immortal tear~
+This tear was shed by a holy immortal woman from long time ago.  The
+tear instantly crystalized as the immortal's life was burned out by
+the ages.  The tear was found by the woman's closest friend and was
+preserved over the ages.  It holds special meaning to all of the immortals
+because of her sacrifice.  Treasure it.
+~
+A
+17 -30 0
+A
+13 75 0
+A
+12 80 0
+A
+18 9 0
+A
+19 10 0
+A
+1 1 0
+A
+4 1 0
+A
+2 1 0
+A
+26 524292 0
+#16021
+feAr~
+feAr~
+The sight of feAr floats in front of your eyes.~
+~
+9 320 131073
+25 25 0 0
+1.000000 0 0 0 0 0 0
+E
+fear~
+feAr.  The most important thing in Rafermand...what has created
+Raferand.
+feAr.
+Don't you forget it, or you will pay.
+~
+A
+17 -30 0
+A
+13 100 0
+A
+12 75 0
+A
+18 10 0
+A
+19 10 0
+A
+26 40 0
+A
+26 4194304 0
+#16022
+angelic wings~
+Angelic Wings~
+A pair of angel wings flutter in the air here.~
+~
+9 1345 524289
+27 27 0 0
+1.000000 0 0 0 0 0 0
+E
+angel wings~
+This pair of wings was taken from the body of a fallen angel.  It
+has angelic powers infused in it and it can make you soar
+like and Eagle.
+~
+A
+17 -30 0
+A
+13 100 0
+A
+12 100 0
+A
+18 8 0
+A
+19 8 0
+A
+26 524288 0
+#16023
+majora mask~
+Majora's Mask~
+The mask of the mystical Majora lies on the ground here.~
+~
+9 8421696&512 1048577
+25 25 0 0
+1.000000 0 0 0 0 0 0
+A
+17 -30 0
+A
+13 75 0
+A
+12 125 0
+A
+18 9 0
+A
+19 10 0
+A
+24 -5 0
+#16024
+divine anklet~
+a Divine anklet~
+An anklet made of divine powers lies on the ground here.~
+~
+9 524609 2097153
+24 24 0 0
+2.000000 3000 0 0 0 0 0
+E
+divine anklet~
+This anklet is infused with the powers of the divine dragon.  It has
+the strength of a dragon with in it, and is very powerful, even for
+mortal use.
+~
+A
+17 -30 0
+A
+13 80 0
+A
+12 80 0
+A
+18 6 0
+A
+19 6 0
+A
+1 2 0
+A
+23 -10 0
+#16025
+red dragon scales~
+&Rred dragon &Gscales~
+A shard of red glimmers faintly beneath your feet.~
+~
+8 321 1
+0 0 0 0
+20.000000 25000 0 0 0 0 0
+E
+red dragon scales~
+A shard of a dense red material, with the consistency of leather but a
+toughness exceeding even diamond.  It glows faintly when it catches the sun.
+~
+> time_prog 7~
+if rand(50)
+mpecho &WA shard of &Ysunlight &Wcatches the &Rred scales&W, blinding you briefly.
+endif
+~
+|
+#16026
+blue dragon scales~
+&Bblue dragon &Gscales~
+A glint of blue catches your eye.~
+~
+8 320 1
+0 0 0 0
+20.000000 275 0 0 0 0 0
+E
+blue dragon scales~
+A thick, rough fragment of a blue dragon's hide.  It will not reflect light
+no matter how hard you try.
+~
+#16027
+white dragon scales~
+&Wwhite dragon &Gscales~
+&PA large chunk of a &Wwhite&P leathery material lies here.~
+~
+8 322 1
+0 0 0 0
+20.000000 300 0 0 0 0 0
+E
+white dragon scales~
+A bleached white piece of hard leathery material, taken (rather by force)
+from the wings of a white dragon.
+~
+#16028
+black dragon scales~
+&zblack dragon &Gscales~
+&PA pool of &zblack&P corruption seethes in the corner.~
+~
+8 340 1
+0 0 0 0
+20.000000 325 0 0 0 0 0
+E
+black dragon scales~
+Though you can tell they are solid by holding them, these scales nonetheless
+seem to move about constantly like a liquid, and their dark color and acidic
+tinge seem to bespeak evil lurking beneath the surface of the scales.
+~
+#16029
+grey dragon scales~
+&c&wgrey dragon &Gscales~
+&c&wA small puddle of grey quicksilver lies in the corner.~
+~
+8 343 1
+0 0 0 0
+1.000000 500 0 0 0 0 0
+E
+grey dragon scales~
+These scales don't seem to stay still: they are photoreactive, darting madly
+(or so it appears) whenever light hits them.  It is a very nauseating and
+unnerving effect: could these scales still somehow be alive?
+~
+#16030
+Maze Token~
+&GA &rM&Ra&rz&Re &GToken~
+&GA &rM&Ra&rz&Re &GToken lies here before your very eyes.~
+~
+40 -2147483648&512 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#16031
+signpost~
+signpost~
+A signpost is here~
+~
+8 0&512 0
+0 0 0 0
+1.000000 11 0 0 0 0 0
+E
+signpost~
+North is the camp, be careful.
+~
+#16032
+Feii's News Board~
+Feii's News Board~
+Feii's News Board is attached to the wall and ready for notes.~
+~
+69 0 0
+0 0 0 0
+1.000000 100 0 16118 0 0 0
+E
+noteboard~
+A normal noteboard that can be used to write/post notes to.
+~
+#16033
+Kingdom Woodland Board~
+Kingdom Woodland Board~
+Kingdom Woodland Board is attached to the wall and ready for notes.~
+~
+69 0 0
+0 0 0 0
+1.000000 100 0 16118 0 0 0
+E
+noteboard~
+A normal noteboard that can be used to write/post notes to.
+~
+#16063
+demon's tooth~
+Demon's Tooth~
+A tooth of a Demon lies here awaiting its new owner.~
+~
+8 0&512 1
+0 0 0 0
+3.000000 250 0 0 0 0 0
+#16070
+Tree Sprout~
+A Tree Sproupt~
+&GA small tree sprout lies here waiting to be planted.~
+~
+8 262144 1
+0 0 0 0
+8.000000 1200 0 0 0 0 0
+E
+tree sprout~
+A simple little sprout that can be planted into the ground to start
+growing a new tree.  It starts with very little wood and will
+eventually grow into a good source of wood.
+~
+#16071
+grass seed~
+Some Grass Seed~
+&GSome grass seed has been dropped here.~
+~
+8 262144 1
+0 0 0 0
+7.000000 800 0 0 0 0 0
+E
+grass seed~
+Some seed that can be planted to start to grow fields of grass.  Good
+for grazing and better looking that baron plains.
+~
+#16072
+Store Bin~
+a Storage Bin~
+A Storage Bin for Gold and Wood is here.~
+~
+65 0&512 0
+10000 5 0 1
+500.000000 120 0 0 0 0 0
+#16073
+Storage Bin~
+a Storage Bin~
+A Storage Bin for Gold and Wood is here.~
+~
+65 0&512 0
+10000 5 0 1
+500.000000 120 0 16072 0 0 0
+#16076
+Holding Bin~
+a Holding Bin~
+A Holding Bin for Stone and Wood is here.~
+~
+65 0&512 0
+10000 5 0 6
+500.000000 120 0 16073 0 0 0
+#16077
+Holding Bin~
+a Holding Bin~
+A Holding Bin for Stone and Wood is here.~
+~
+65 0&512 0
+10000 5 0 6 1401 0 0 0 0 0 0 0 0 0
+500.000000 120 0 16076 0 0 0
+#16100
+Throne~
+A Royal Throne~
+&G&WA &c&wR&G&Wo&c&wy&G&Wa&c&wl &G&WT&c&wh&G&Wr&c&wo&G&Wn&c&we&G&W is here before you in all of its glory.~
+~
+12 0 0
+1 1000 1170 700 700 0 0 0 0 0 0 0 0 0
+300.000000 1000000 0 0 0 0 0
+E
+royal throne~
+A special throne made for the king of the kingdom to occupy while he
+is in his kingdom.  The throne is typically thought of as just a chair
+but it is possible for the king to actually sleep in it if he so
+desires.  Made from only the best materials, a very much needed piece
+of the kingdom.
+~
+#16101
+Chair~
+a Chair~
+A normal looking wooden chair is here before you.~
+~
+12 0 0
+1 0 9 200 200 0 0 0 0 0 0 0 0 0
+10.000000 50000 0 0 0 0 0
+E
+chair~
+A standard looking wooden chair, not the best in the world but made to
+last the years.
+~
+#16102
+Comforable Chair~
+a Comfortable Chair~
+A very well designed and comfortable chair is here before you.~
+~
+12 0 0
+0 0 9 300 300 0 0 0 0 0 0 0 0 0
+12.000000 75000 0 0 0 0 0
+E
+comfortable chair~
+A well designed wooden chair that has a few features such as a cushion
+to help the person sitting on the chair to relax.
+~
+#16103
+Bed~
+a Bed~
+A standard looking bed is here before you.~
+~
+12 0 0
+2 1200 585 300 300 0 0 0 0 0 0 0 0 0
+40.000000 150000 0 0 0 0 0
+E
+bed~
+A standard bed that most people in the world sleep on.  A nice matress
+on a decent frame, not the best in the world but it is better than the
+cold ground.
+~
+#16104
+Comfortable Bed~
+a Comfortable Bed~
+A well made and comfortable looking bed is here before you.~
+~
+12 0 0
+3 2000 585 500 500 0 0 0 0 0 0 0 0 0
+50.000000 250000 0 0 0 0 0
+E
+comfortable bed~
+Made from some of the best materials and careful craftmenship, this
+bed is suppose to provide the user a very relaxing sleep or rest.
+~
+#16105
+Spring~
+a Spring~
+In the center of the room a spring continuously filters fresh water.~
+~
+17 0 0
+5000 5000 0 0
+15.000000 200000 0 0 0 0 0
+E
+spring~
+A nice looking statue of one of the gods that continues to pour out
+fresh water to all who wish to drink our fill a dragonskin.
+~
+#16106
+Fountain~
+a Fountain~
+In the center of the room a fountain pours almost endless amounts of fresh water.~
+~
+17 0 0
+20000 20000 0 0
+65.000000 350000 0 0 0 0 0
+E
+fountain~
+A lovely marble fountain that seems to endly just pour and pour out
+fresh, clear, and clean water.
+~
+#16107
+Fountain of Ale~
+a Fountain of Ale~
+The heart of all parties, a Fountain of Ale, is in the center of the room.~
+~
+17 0 0
+10000 10000 3 0
+60.000000 500000 0 0 0 0 0
+E
+fountain of ale~
+Everyone in the world knew it had to be made, so some fool made it.
+This fountain works like a normal one but it pours everyone's favorite
+beverage, Ale.
+~
+#16108
+Kingdom Sigil~
+Kingdom Sigil~
+A Sigil of the kingdom is here before you.~
+~
+1 0&256 1
+0 0 -1 0
+1.000000 1000 0 0 0 0 0
+E
+sigil~
+A special sigil that shows the sign of your Kingdom.  It can be used
+as a light and to inform others of your affiliation.
+~
+A
+3 1 0
+A
+19 1 0
+A
+18 1 0
+A
+13 10 0
+A
+12 10 0
+#16109
+Storage Bin LS~
+A Lumber and Stone Storage Bin~
+A Storage Bin for Lumber and Stone is here.~
+~
+65 0&512 0
+10000 5 0 6
+500.000000 120 0 16076 0 0 0
+#16110
+Storage Bin LG~
+A Lumber and Gold Storage Bin~
+A Storage Bin for Lumber and Gold is here.~
+~
+65 0 0
+10000 1 0 5 5800 0 0 0 0 0 0 0 0 0
+500.000000 120 0 16109 0 0 0
+#16111
+Storage Bin GI~
+A Gold and Iron Storage Bin~
+A Storage Bin for Gold and Iron is here.~
+~
+65 0 0
+10000 1 0 2
+500.000000 120 0 16109 0 0 0
+#16112
+Storage Bin CG~
+A Corn and Grain Storage Bin~
+A Storage Bin for Corn and Grain is here.~
+~
+65 0 0
+10000 3 0 4
+500.000000 120 0 16109 0 0 0
+#16113
+small box~
+small box~
+A small box is here to dump goods into.~
+~
+15 0 0
+21 0 0 0
+1.000000 100 0 0 0 0 0
+E
+small box~
+A small box meant to hold a few items of importance.
+~
+#16114
+small chest~
+small chest~
+A small chest is here waiting to hold goods.~
+~
+15 0 0
+51 0 0 0
+1.000000 100 0 0 0 0 0
+E
+small chest~
+A small chest meant to hold a few weapons and pieces of armor.
+~
+#16115
+medium chest~
+medium chest~
+A medium chest for storing equipment is here.~
+~
+15 0 0
+81 0 0 0
+1.000000 100 0 0 0 0 0
+E
+medium chest~
+A medium chest meant to hold one or two person's equipment.
+~
+#16116
+large chest~
+large chest~
+A large chest lies here waiting for use.~
+~
+15 0 0
+151 0 0 0
+1.000000 100 0 0 0 0 0
+E
+large chest~
+A large chest meant to hold a small family's possessions.
+~
+#16117
+gigantic chest~
+gigantic chest~
+A gigantic chest is here for use.~
+~
+15 0 0
+281 0 0 0
+1.000000 100 0 0 0 0 0
+E
+gigantic chest~
+A gigantic chest meant to hold public possessions.
+~
+#16118
+noteboard~
+a noteboard~
+A generic noteboard sits here.~
+~
+69 0 0
+0 0 0 0
+1.000000 100 0 0 0 0 0
+E
+noteboard~
+A normal noteboard that can be used to write/post notes to.
+~
+#16119
+corn seed~
+Corn Seed~
+&YA small packet of corn seed is here on the ground.~
+~
+8 262144 1
+0 0 0 0
+1.000000 1200 0 0 0 0 0
+E
+corn seed~
+A simple packet used to make corn grow in the Wilderness.
+~
+#16120
+grain seed~
+grain seed~
+&c&wA small packet of grain seed lies here before your feet.~
+~
+8 262144 1
+0 0 0 0
+1.000000 1200 0 0 0 0 0
+E
+grain seed~
+A simple little packet used to plant grain in the Wilderness.
+~
+#16121
+stone pick~
+a stone pick~
+A small pick used to extract stone is here before you.~
+~
+66 0 1
+6 25 0 0
+8.000000 13000 0 0 0 0 0
+#16122
+a gold pick~
+a gold pick~
+A pick used to mine gold is here before your feet.~
+~
+66 0 1
+1 25 0 0
+8.000000 13000 0 0 0 0 0
+E
+a gold pick~
+This pick is your standard-run-of-the-mill pick for extracting gold.
+~
+#16123
+a coal pick~
+a coal pick~
+A pick used to mine coal is here before your feet.~
+~
+66 0 1
+2 25 0 0
+8.000000 13000 0 0 0 0 0
+E
+a coal pick~
+This pick is just a typical pick used to mine coal.
+~
+#16124
+corn push plow~
+a corn push plow~
+A small man-pushed corn plow is here before you.~
+~
+66 0 1
+3 25 0 0
+15.000000 12000 0 0 0 0 0
+E
+corn push plow~
+A very low-tech plow used to harvest corn.  It is simply just ran by
+the individual pushing it around.
+~
+#16125
+grain push plow~
+a grain push plow~
+A small man-pushed grain plow is here before you.~
+~
+66 0 1
+4 25 0 0
+15.000000 12000 0 0 0 0 0
+E
+grain push plow~
+A very low-tech plow used to harvest grain.  It is simply just ran by
+the individual pushing it around.
+~
+#16126
+a sturdy axe~
+a sturdy axe~
+A special tree cutting axe lies right before you.~
+~
+66 0 1
+5 25 0 0
+10.000000 12000 0 0 0 0 0
+E
+a sturdy axe~
+This axe is just a typical axe used by lumberjacks to cut down trees.
+Nothing really special about it.
+~
+#16127
+a well crafted axe~
+a well-crafted axe~
+A well-made lumber axe is here before you.~
+~
+66 0 1
+5 38 0 0
+11.000000 35000 0 0 0 0 0
+E
+a well crafted axe~
+This axe has been specially crafted.  The axe is quite a bit sharper
+than the typical axe, and the handle is much thicker and stronger than
+other axes.  Not the greatest cutting machine, but is a lot better than
+a regular axe.
+~
+#16128
+kingdom key~
+kingdom key~
+Someone has dropped a kingdom key here~
+~
+18 8192&512&1 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#16130
+Medium Storage Bin LS~
+A Medium Lumber and Stone Storage Bin~
+A Medium Storage Bin for Lumber and Stone is here.~
+~
+65 0 0
+5000 5 0 6
+500.000000 120 0 16109 0 0 0
+#16131
+Medium Storage Bin LG~
+A Medium Lumber and Gold Storage Bin~
+A Medium Storage Bin for Lumber and Gold is here.~
+~
+65 0 0
+5000 1 0 5
+500.000000 120 0 16110 0 0 0
+#16132
+Medium Storage Bin GI~
+A Medium Gold and Iron Storage Bin~
+A Medium Storage Bin for Gold and Iron is here.~
+~
+65 0 0
+5000 1 0 2
+500.000000 120 0 16111 0 0 0
+#16133
+Medium Storage Bin CG~
+A Medium Corn and Grain Storage Bin~
+A Medium Storage Bin for Corn and Grain is here.~
+~
+65 0 0
+5000 3 0 4
+500.000000 120 0 16112 0 0 0
+#16134
+Small Storage Bin LS~
+A Small Lumber and Stone Storage Bin~
+A Small Storage Bin for Lumber and Stone is here.~
+~
+65 0 0
+2500 5 0 6
+500.000000 120 0 16109 0 0 0
+#16135
+Small Storage Bin LG~
+A Small Lumber and Gold Storage Bin~
+A Small Storage Bin for Lumber and Gold is here.~
+~
+65 0 0
+2500 1 0 5
+500.000000 120 0 16110 0 0 0
+#16136
+Small Storage Bin GI~
+A Small Gold and Iron Storage Bin~
+A Small Storage Bin for Gold and Iron is here.~
+~
+65 0 0
+2500 1 0 2
+500.000000 120 0 16111 0 0 0
+#16137
+Small Storage Bin CG~
+A Small Corn and Grain Storage Bin~
+A Small Storage Bin for Corn and Grain is here.~
+~
+65 0 0
+2500 3 0 4
+500.000000 120 0 16112 0 0 0
+#16138
+Large Storage Bin LS~
+A Large Lumber and Stone Storage Bin~
+A Large Storage Bin for Lumber and Stone is here.~
+~
+65 0 0
+50000 5 0 6
+500.000000 120 0 16109 0 0 0
+#16139
+Large Storage Bin LG~
+A Large Lumber and Gold Storage Bin~
+A Large Storage Bin for Lumber and Gold is here.~
+~
+65 0 0
+50000 1 0 5
+500.000000 120 0 16110 0 0 0
+#16140
+Large Storage Bin GI~
+A Large Gold and Iron Storage Bin~
+A Large Storage Bin for Gold and Iron is here.~
+~
+65 0 0
+50000 1 0 2
+500.000000 120 0 16111 0 0 0
+#16141
+Large Storage Bin CG~
+A Large Corn and Grain Storage Bin~
+A Large Storage Bin for Corn and Grain is here.~
+~
+65 0 0
+50000 3 0 4
+500.000000 120 0 16112 0 0 0
+#16150
+kingdom long sword~
+Long Sword~
+A Long Sword is here.~
+~
+5 532480 8193
+0 3 8 1 4 -1 35 0 0 0 0 0 0 0
+10.000000 20 0 0 0 0 0
+'acidic blast'
+#16151
+kingdom huge axe~
+Huge Axe~
+A Huge Axe is here.~
+~
+5 532480 8193
+0 4 8 11 5 -1 35 0 0 0 0 0 0 0
+12.000000 20 0 0 0 0 0
+'acidic oblivion'
+#16152
+kingdom elven bow~
+Elven Bow~
+An Elven Bow is here.~
+~
+56 532480 262145
+0 3 6 9 5 0 35 0 0 0 0 0 0 0
+9.000000 20 0 0 0 0 0
+#16153
+kingdom elven crossbow~
+Elven Crossbow~
+An Elven Crossbow is here.~
+~
+56 532480 262145
+0 4 5 8 5 0 35 0 0 0 0 0 0 0
+7.000000 20 0 0 0 0 0
+#16154
+kingdom steel lance~
+Steel Lance~
+A Steel Lance is here.~
+~
+5 532480 8193
+0 4 7 12 5 -1 35 0 0 0 0 0 0 0
+11.000000 20 0 0 0 0 0
+'acidic oblivion'
+#16155
+kingdom sling~
+Sling~
+A Sling is here.~
+~
+56 8192 262145
+0 4 4 10 4 0 35 0 0 0 0 0 0 0
+5.000000 20 0 0 0 0 0
+#16156
+kingdom healing staff~
+Healing Staff~
+A Healing Staff is here.~
+~
+5 8192 8193
+0 4 4 6 4 -1 35 0 0 0 0 0 0 0
+8.000000 20 0 0 0 0 0
+'acidic blast'
+#16157
+kingdom long knife~
+Long Knife~
+A Long Knife is here.~
+~
+5 532480 8193
+0 7 2 3 3 -1 35 0 0 0 0 0 0 0
+5.000000 20 0 0 0 0 0
+'acidic ball'
+#16158
+kingdom twisted dagger~
+Twisted Dagger~
+A Twisted Dagger is here.~
+~
+5 532480 8193
+0 8 3 2 3 -1 35 0 0 0 0 0 0 0
+6.000000 20 0 0 0 0 0
+'acidic ball'
+#16159
+kingdom royal sword~
+Royal Sword~
+A Royal Sword is here.~
+~
+5 532480 8193
+0 4 10 1 4 -1 35 0 0 0 0 0 0 0
+11.000000 20 0 0 0 0 0
+'acidic blast'
+#16160
+kingdom chain mail~
+Chain Mail~
+A set of Chain Mail is here.~
+~
+9 532480 9
+9 9 0 0 0 0 35 0 0 0 0 0 0 0
+10.000000 20 0 0 0 0 0
+#16161
+kingdom scale mail~
+Scale Mail~
+A set of Scale Mail is here.~
+~
+9 532480 9
+11 11 0 0 0 0 35 0 0 0 0 0 0 0
+13.000000 20 0 0 0 0 0
+#16162
+kingdom plate mail~
+Plate Mail~
+A set of Plate Mail is here.~
+~
+9 532480 9
+13 13 0 0 0 0 35 0 0 0 0 0 0 0
+25.000000 20 0 0 0 0 0
+#16163
+kingdom leather hide~
+Leather Hide~
+A Leather Hide is here.~
+~
+9 8192 9
+7 7 0 0 0 0 35 0 0 0 0 0 0 0
+7.000000 20 0 0 0 0 0
+#16164
+kingdom bronze helmet~
+Bronze Helmet~
+A Bronze Helmet is here.~
+~
+9 532480 17
+5 5 0 0 0 0 35 0 0 0 0 0 0 0
+7.000000 20 0 0 0 0 0
+#16165
+kingdom full helmet~
+Full Helmet~
+A Full Helmet is here.~
+~
+9 532480 17
+7 7 0 0 0 0 35 0 0 0 0 0 0 0
+9.000000 20 0 0 0 0 0
+#16166
+kingdom Large Shield~
+Large Shield~
+A Large Shield is here.~
+~
+9 532480 513
+8 8 0 0 0 0 35 0 0 0 0 0 0 0
+8.000000 20 0 0 0 0 0
+#16167
+kingdom Medium Shield~
+Medium Shield~
+A Medium Shield is here.~
+~
+9 532480 513
+6 6 0 0 0 0 35 0 0 0 0 0 0 0
+5.000000 20 0 0 0 0 0
+#16168
+kingdom Bronze Gauntlet~
+Bronze Gauntlet~
+A Bronze Gauntlet is here.~
+~
+9 532480 257
+6 6 0 0 0 0 35 0 0 0 0 0 0 0
+4.000000 20 0 0 0 0 0
+#16169
+kingdom Wristguard~
+Wristguard~
+A Wristguard is here.~
+~
+9 8192 257
+4 4 0 0 0 0 35 0 0 0 0 0 0 0
+2.000000 20 0 0 0 0 0
+#16170
+Steel legguard~
+Steel Legguard~
+A Steel Legguard is here.~
+~
+9 532480 33
+7 7 0 0 0 0 35 0 0 0 0 0 0 0
+3.000000 20 0 0 0 0 0
+#16171
+Padded kneeguard~
+Padded Kneeguard~
+A Padded Kneeguard is here.~
+~
+9 8192 33
+4 4 0 0 0 0 35 0 0 0 0 0 0 0
+1.000000 20 0 0 0 0 0
+#16172
+kingdom steel arrow~
+Steel Arrow~
+A Steel Arrow lies here on the ground.~
+~
+57 0 65537
+0 3 5 9
+1.000000 15 0 0 0 0 0
+#16173
+kingdom steel bolt~
+Steel Bolt~
+A Steel Bolt lies here on the ground.~
+~
+57 0 16385
+0 5 3 8
+1.000000 15 0 0 0 0 0
+#16174
+kingdom large stone~
+Large Stone~
+A Large Stone lies here on the ground.~
+~
+57 0 16385
+0 3 4 10
+1.000000 15 0 0 0 0 0
+#16175
+kingdom large quiver~
+Large Quiver~
+A Large Quiver lies here on the ground.~
+~
+58 0 1
+21 0 0 12
+1.000000 15 0 0 0 0 0
+#16499
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#0
+
+
+#ROOMS
+#16000
+Wilderness~
+Shouldn't see this room.
+~
+4&8
+0 1
+0
+0
+S
+#16001
+Caste Wilderness~
+~
+4&8
+0 1
+0
+0
+S
+#16051
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#16499
+Floating in a void~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+134217728 -1 16000
+500 500
+S
+#0
+
+
+#RESETS
+M 1 16200 1 16000 1138 430 0 0 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+ 16020    5  9  0         120   1         0 23    ; Repair Blacksmith
+ 16047    5  9  0         120   1         0 23    ; Repair Blacksmith
+ 16048    5  9  0         120   1         0 23    ; Repair Blacksmith
+ 16049    5  9  0         120   1         0 23    ; Repair Blacksmith
+0
+
+
+#SPECIALS
+M  16253 spec_cast_adept
+S
+
+
+#$

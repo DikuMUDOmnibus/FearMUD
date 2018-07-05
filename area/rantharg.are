@@ -1,0 +1,7370 @@
+#AREA   Rantharg Dungeon~
+
+
+
+#VERSION 53
+#AUTHOR Xerves~
+
+#RANGES
+0 0 0 0 0 0 0 0 0
+$
+
+#RESETMSG The creatures of Rantharg dungeon start come come out of the woodwork.~
+
+#FLAGS
+0 30
+
+#ECONOMY 0 23107213 0
+
+#MOBILES
+#43000
+nasty rat~
+a nasty rat~
+A nasty rat with big pointy teeth is here looking for blood.
+~
+~
+65569 0 0 0 C
+0 0 6 7 7 7
+3d5+130 1d3+5 0 0 0
+0 0
+112 112 1
+14 17 16 16 16 13 18 45
+0 0 0 0 0
+54 0 0 0 1 1 45
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 3 0
+#43001
+red goblin~
+a red goblin~
+A red goblin is here looking for living creatures to feast on.
+~
+~
+65569 0 0 0 C
+0 0 7 8 8 8
+10d3+170 1d4+5 0 0 0
+1200 0
+112 112 1
+17 16 16 17 17 13 17 45
+0 0 0 0 0
+17 0 0 0 1 1 45
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#43002
+black goblin~
+a black goblin~
+A black goblin is here looking for his next victim.
+~
+~
+65569 0 0 0 C
+0 0 8 8 8 8
+12d3+185 2d2+5 0 0 0
+1600 0
+112 112 1
+18 16 16 17 17 13 17 48
+0 0 0 0 0
+0 0 0 0 1 1 48
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 2
+> death_prog 15~
+if rand(50)
+   mpoload 35
+else
+   mpoload 34
+endif
+~
+|
+#43003
+rantharg spider~
+a rantharg spider~
+A rantharg spider is here looking for fresh bLOoD!
+~
+~
+65569 0 0 0 C
+0 0 6 7 7 7
+3d6+130 2d2+4 0 0 0
+0 0
+112 112 0
+15 16 16 17 15 13 15 43
+0 0 0 0 0
+63 0 0 0 1 1 43
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 262144 0
+> death_prog 20~
+if rand(50)
+   mpoload 35
+else
+   mpoload 34
+endif
+~
+|
+#43004
+rantharg maurauder~
+a rantharg maurauder~
+A Rantharg Maurauder is here serving his kin proud!
+~
+~
+65569 0 0 0 C
+0 0 11 10 10 10
+10d6+350 2d3+10 0 0 0
+2500 0
+112 112 1
+16 18 17 17 17 13 14 53
+0 0 0 0 0
+17 0 0 0 1 1 53
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 192 524290
+> death_prog 15~
+if rand(10)
+   mpoload 39
+   break
+endif
+if rand(20)
+   mpoload 38
+   break
+endif
+mpload 35
+~
+|
+#43005
+rantharg ogre~
+a rantharg ogre~
+A tall rantharg ogre is here looking for skulls to SMASH!
+~
+~
+65569 0 0 0 C
+0 0 10 9 9 9
+11d3+250 3d3+8 0 0 0
+1650 0
+112 112 0
+19 14 14 14 18 13 14 49
+0 0 0 0 0
+3 0 0 0 1 1 49
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+> death_prog 15~
+if rand(10)
+   mpoload 39
+   break
+endif
+if rand(20)
+   mpoload 38
+   break
+endif
+mpload 35
+~
+|
+#43006
+rantharg spirit~
+a rantharg spirit~
+A rantharg spirit is here haunting the living.
+~
+~
+65569&32768 0 0 0 C
+0 0 10 9 9 9
+15d3+270 1d10+7 0 0 0
+0 0
+112 112 1
+14 21 21 18 17 13 18 54
+0 0 0 0 0
+84 0 0 0 1 1 54
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 1048576 0 1074003968 0
+> death_prog 15~
+if rand(10)
+   mpoload 41
+   break
+endif
+if rand(20)
+   mpoload 40
+   break
+endif
+mpload 34
+~
+|
+#43007
+rantharg wight~
+a rantharg wight~
+A rantharg wight is here causing pain and misery to anything in the way!
+~
+~
+65569&1024 0 0 0 C
+0 0 12 11 11 11
+15d4+380 2d4+9 0 0 0
+2800 0
+112 112 2
+17 22 22 17 16 13 21 59
+0 0 0 0 0
+68 0 0 0 1 1 59
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1076101120 18
+> death_prog 15~
+if rand(25)
+   mpoload 43002
+   break
+endif
+if rand(10)
+   mpoload 41
+   break
+endif
+if rand(20)
+   mpoload 40
+   break
+endif
+mpload 34
+~
+|
+#43008
+rantharg golem~
+a rantharg golem~
+A rantharg golem is here looking to crush YOU!
+~
+~
+65569 0 0 0 C
+0 0 15 10 10 10
+12d5+340 2d3+9 0 0 0
+0 0
+112 112 1
+18 19 19 14 17 13 15 50
+0 0 0 0 0
+40 0 0 0 1 1 50
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 8192 0 0 0 0 524288
+> death_prog 5~
+mpe _whi A small chunk of the golem falls off during death
+mpoload 43001
+~
+|
+#43009
+rantharg baby dragon~
+a rantharg baby dragon~
+A Rantharg baby dragon is here looking for his next meal.
+~
+~
+65569 0 0 0 C
+0 0 10 9 9 9
+10d3+400 2d4+8 0 0 0
+3000 0
+112 112 1
+19 16 16 14 18 13 19 49
+0 0 0 0 0
+31 0 0 0 1 1 49
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 131072 4354
+> death_prog 20~
+mpe _whi A big chunk of the dragon falls off upon death, it kind of looks
+mpe _whi like a belt.
+mpoload 43000
+~
+|
+#43010
+a rantharg energy~
+a rantharg energy~
+A rantharg energy is here absorbing all energy in this godforsaken hellhole!
+~
+~
+65569 0 0 0 C
+0 0 10 9 9 9
+10d3+240 3d2+10 0 0 0
+0 0
+112 112 0
+15 19 19 17 17 13 15 48
+0 0 0 0 0
+85 0 0 0 1 1 48
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 1048576 0 0 1074003968 0
+#43011
+Door Guardian~
+Door Guardian~
+The Door Guardian stands stern as to allow no one to continue.
+~
+Not much can be seen of the guardian because he is fully clad in some
+wierd kind of armor.  All that can be seen is he is one big, bad mother
+fu**er and you should think twice about picking a fight with him.
+~
+3 0 0 0 C
+0 0 18 17 17 17
+5d20+1800 5d5+22 0 0 0
+6500 0
+112 112 1
+19 17 17 18 18 13 19 85
+0 0 0 0 0
+0 0 0 0 1 1 85
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 2104576 0 0 224 1
+> death_prog 100~
+mpe _whi A small key slips out as the guardian dies.
+mpoload 43003
+if rand(20)
+mpoload 21113
+endif
+~
+|
+#43012
+Rinker~
+Rinker~
+Rinker is here permitting none to continue on to the trainers.
+~
+Rinker can be summed up as such: big and nasty looking.  Being down here
+in this hole has made him most likely the ugliest looking ogre to walk
+the earth, but he has gained great strength.
+~
+3 0 640 0 C
+0 0 20 19 19 19
+8d8+2200 5d4+25 0 0 0
+45000 0
+112 112 1
+23 21 21 20 20 13 20 85
+0 0 0 0 0
+3 0 0 0 1 1 85
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 8192 2104576 0 0 960 524306
+> death_prog 100~
+mpoload 43004
+mpe _whi A key drops along with his corpse
+if rand(25)
+mpoload 21133
+endif
+~
+> greet_prog 100~
+say Yous go no further now, if yous wishhh to passss you mus fight!
+~
+> fight_prog 25~
+if rand(35)
+mpe _whi Rinker laughs and chuckles then rams right into you!
+mpdamage $n 110
+else
+mpe _whi Rinker rubs soemthing over his skin restoring back some health!
+mprestore self 75
+endif
+~
+|
+#43013
+Ryina~
+Ryina~
+Ryina is here to stop all who would wish to visit the trainers.
+~
+Where most elves are known for their grace and beauty, Ryina looks like
+a mix between a giant rat and an elf.  The days down here have aged her
+to an ungodly age, but something in the air keeps her alive and hitting,
+hitting very hard.
+~
+3 0 301990528 0 C
+0 0 19 18 18 18
+8d9+2000 4d3+25 0 0 0
+32000 0
+112 112 2
+17 23 23 21 17 13 23 75
+0 0 0 0 0
+1 0 0 0 1 1 75
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 8192 2104576 0 0 1208221696 34
+> greet_prog 100~
+say If you wish to see the trainer, you will have to survive me first!
+~
+> fight_prog 20~
+if rand(60)
+mpe _whi Ryina waves her hands in the air and conjuers a fireball.
+c 'fireball'
+else
+mpe _whi Ryina chants a few words and recovers some health.
+mprestore self 80
+endif
+~
+> death_prog 100~
+mpoload 43005
+mpe _whi A small key appears on Ryina's death
+~
+|
+#43014
+Zthen~
+Zthen~
+Zthen is here to pick a bone from the living.
+~
+Z'then has to be the largest skeleton in Rafermand, he stands about 10
+feet tall, yet he doesn't appear to look like an ogre.  Just looking at
+him is awe inspiring, too bad you have to take him down to get by.
+~
+3 0 640 0 C
+0 0 19 18 18 18
+10d15+2050 9d5+9 0 0 0
+34000 0
+112 112 0
+19 20 20 20 18 13 14 80
+0 0 0 0 0
+21 0 0 0 1 1 80
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 2104576 1 0 1074004928 526354
+> death_prog 100~
+mpe _whi A small key falls from the bones of Z'then
+mpoload 43007
+~
+> greet_prog 100~
+say You shall not pass, if you think you must I will send you to your grave!
+~
+> fight_prog 25~
+if rand(25)
+mpe _red Z'then rips a part of him off and throws it at you.
+mpdamage $n 85
+break
+endif
+if rand(15)
+mpe _red Z'then casts a curse on you the makes your skin BURN!
+mpdamage $n 140
+break
+endif
+mpe _whi Z'then picks up a bone off the floar and uses it to heal itself.
+mprestore self 70
+~
+|
+#43015
+Ziber~
+Ziber~
+Ziber is here looking for another soul to send to its maker.
+~
+A very sturdy looking dwarf.  Where as most things appear to have aged
+horribly here, the dwarf looks a little weathered, but nothing more.  It
+must be from years of living underground before this horrible assignment.
+~
+3 0 640 0 C
+0 0 19 18 18 18
+8d6+2100 10d3+15 0 0 0
+42500 0
+112 112 1
+20 21 21 20 20 13 19 82
+0 0 0 0 0
+2 0 0 0 1 1 82
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 1048576 2104585 0 0 1074004928 17
+> death_prog 100~
+mpe _whi A key appears from Ziber's beard as he drops dead.
+mpoload 43008
+~
+> greet_prog 100~
+say Your chance of moving on is as good as me cutting my beard!
+~
+> fight_prog 25~
+if rand(35)
+mpe _red Ziber crashes his axe down into the ground in front of you causing
+mpe _red a wave of force to crush your bones!
+mpdamage $n 120
+else
+mpe _whi Ziber pulls out a giant pint of some brew and drinks it!
+mprestore self 65
+endif
+~
+|
+#43016
+a rantharg skeleton~
+a rantharg skeleton~
+A rantharg skeleton is here looking to snatch a bone or two.
+~
+~
+65569&32768 0 0 0 C
+0 0 10 10 10 10
+15d3+230 3d8+1 0 0 0
+1850 0
+112 112 0
+18 17 17 15 18 13 17 55
+0 0 0 0 0
+21 0 0 0 1 1 55
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1074004032 8
+> death_prog 20~
+if rand(20)
+mpoload 38
+break
+endif
+if rand(10)
+mpoload 39
+break
+endif
+if rand(20)
+mpoload 40
+break
+endif
+if rand(10)
+mpoload 41
+break
+mpoload 21232
+endif
+~
+|
+#43017
+a rantharg hellknight~
+a rantharg hellknight~
+The unholy protector, the rantharg hellknight, is here to f**k you up.
+~
+~
+65569&32768 0 0 0 C
+0 0 14 13 13 13
+10d7+680 3d4+13 0 0 0
+3800 0
+112 112 1
+19 18 18 17 18 13 15 68
+0 0 0 0 0
+21 0 0 0 1 1 68
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1073742528 18
+> death_prog 25~
+if rand(20)
+mpoload 21233
+else
+mpoload 21232
+endif
+~
+|
+#43018
+Ryin~
+Ryin~
+Ryin is here teaching the best how to be better.
+~
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 2
+#43019
+Crumi~
+Crumi~
+Crumi is here teaching the finer arts of combat and stealth.
+~
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 2
+#43020
+Steve~
+Steve~
+Steve is here parting with very valuable information.
+~
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 1
+#43021
+Nfur~
+Nfur~
+Nfur is here teaching all willing to learn the advance arts.
+~
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 1
+#43022
+Mangled Rantharg-Beast~
+Mangled Rantharg-Beast~
+A Mangled Rantharg-Beast is here guarding the door with its life
+~
+It is hard to tell exactly what it is, besides that fact that it is some kind
+of creature and it does not look too happy to see you here.
+~
+3 0 0 0 C
+0 0 18 17 17 17
+5d20+1880 5d5+24 0 0 0
+0 0
+112 112 0
+22 17 17 18 18 13 19 80
+0 0 0 0 0
+89 0 0 0 1 1 80
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 2104576 0 0 224 1
+> death_prog 100~
+mpoload 43010
+mpe _whi A small key appears on the corpse of the beast.
+if rand(20)
+mpoload 21113
+endif
+~
+|
+#43023
+a rantharg light sprite~
+a rantharg light sprite~
+A glowing rantharg light sprite is here to blind you to death.
+~
+~
+65569 0 0 0 C
+0 0 13 12 12 12
+5d10+575 3d4+11 0 0 0
+3500 0
+112 112 0
+17 23 23 19 17 13 22 65
+0 0 0 0 0
+85 0 0 0 1 1 65
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 1048576 0 0 1208221696 2
+#43024
+Uthi~
+Uthi~
+Uthi is here to drop anyone that wishes to continue
+~
+The many years in this place have disconfigured Uthi into something almost
+beast like.  The only thing that still makes him human is his eyes, that
+is the look not the soul behind.  Looking too much into them will cause
+any creature to turn evil just like him.
+~
+3&131072 0 128 0 C
+0 0 20 19 19 19
+15d15+2050 6d5+20 0 0 0
+43000 0
+112 112 1
+19 22 22 21 20 13 20 83
+0 0 0 0 0
+0 0 0 0 1 1 83
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 960 524306
+> greet_prog 100~
+say You are to continue no further, if you wish to contest, you can DIE!
+~
+> fight_prog 25~
+if rand(35)
+mpe _whi Uthi jumps back, begins to glow, then rushes you with PURE ENERGY!
+mpdamage $n 115
+else
+mpe _whi Uthi quickly quaffs some mysterious liquid and heals himself
+mprestore self 80
+endif
+~
+> death_prog 100~
+mpoload 43011
+mpe _whi A key appears on the corpse of Uthi
+~
+|
+#43025
+Siena~
+Siena~
+Siena is here guarding the entrance to the trainers.
+~
+Looking at this poor hidious beast makes you feel almost sorry for it.
+Hobbits aren't exactly the most charismatic of all creatures, but poor
+Siena looks like she has lived about 5 lives and then beaten with an
+ugly stick.
+~
+3 0 301990528 0 C
+0 0 19 18 18 18
+15d20+1850 4d3+25 0 0 0
+34000 0
+112 112 2
+17 23 23 21 17 13 23 75
+0 0 0 0 0
+4 0 0 0 1 1 75
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 8192 2104576 0 0 1208221696 34
+> death_prog 100~
+mpoload 43012
+mpe _whi A key mysteriously appears on the corpse of Siena
+~
+> greet_prog 100~
+say I cannot allow you to continue, if you wish to move on, you must do
+say it over my dead body.
+~
+> fight_prog 20~
+if rand(65)
+mpe _whi Siena starts to rise into the error chanting the words for earth clamp.
+c 'earth clamp' $n
+else
+mpe _whi Siena waves her hands around and her wounds begin to heal.
+mprestore self 90
+endif
+~
+|
+#43026
+Riveur~
+Riveur~
+Riveur is here looking for blood to suck.
+~
+Just looking at this freek can give anyone the creeps.  He appears to
+look like an average man in his 30s, but with blood stains all over
+his almost naked body adds a sight you will never get out of your
+head.  It might be a good idea to kill him quickly or forever be
+plaqued with his grotesque image all your life.
+~
+3&32768 0 640 0 C
+0 0 19 18 18 18
+10d15+2000 9d5+11 0 0 0
+34000 0
+112 112 1
+19 20 20 20 18 13 14 80
+0 0 0 0 0
+0 0 0 0 1 1 80
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 2104576 1 0 1074004928 526354
+> death_prog 100~
+mpe _whi A small key falls from a small pouch on Riveur
+mpoload 43013
+~
+> greet_prog 100~
+say You are not allowed to pass, if you wish, I could use more BLooD!!!
+~
+> fight_prog 25~
+if rand(45)
+mpe _red Riveur creeps up on you and sucks your blood!
+mpdamage $n 95
+mprestore self 45
+break
+endif
+if rand(25)
+mpe _red Riveur ducks behind you and digs his claws into you!
+mpdamage $n 125
+mprestore self 35
+break
+endif
+mpe _whi Riveur makes a small slit in his skin and refreshes himself!
+mprestore self 75
+~
+|
+#43027
+Aquen~
+Aquen~
+Aquen is here offering death to anyone that wishes to pass.
+~
+Although Aquen does not stand very tall, the pure energy that radiates from
+her is enough to scare any living creature to go back to their homes and beg
+for forgiveness.  Also of an odd note, where most creatures are strickened by
+some kind of disfigurement here, Aquen has regained a very pure beautiful and
+an agelessness rarely seen.  Perhaps it is all an illusion though.
+~
+3 0 369623680 0 C
+0 0 19 18 18 18
+15d20+2250 4d3+22 0 0 0
+34000 0
+112 112 2
+15 23 23 21 17 13 23 85
+0 0 0 0 0
+5 0 0 0 1 1 85
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 8192 2104576 0 0 1208221696 34
+> death_prog 100~
+mpoload 43014
+mpe _whi A key slides into the corpse of Aquen
+if rand(20)
+mpoload 43015
+say You have done well to kill me, for this power I shall grant you my power.
+endif
+~
+> greet_prog 100~
+say To continue you must survive me, good luck with that fool!
+~
+> fight_prog 30~
+if rand(65)
+mpe _whi Aquen spins and chants the words for deanimation.
+c 'deanimation' $n
+break
+endif
+if rand(45)
+mpe _whi Aquen starts to glow brightly, releasing a magical power unmatched on $n
+c 'quantum spike' $n
+else
+mpe _whi Aquen flutters her wings and a fresh wave of light restores her
+mprestore self 120
+endif
+~
+|
+#43028
+Reyina~
+Reyina~
+Reyina is here to teach the magical arts to the best.
+~
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 2
+#43029
+Jamie~
+Jamie~
+Jamie is here teaching the elite magical arts to the elite.
+~
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 2
+#43030
+Johnny~
+Johnny~
+Johnny is here to teach the arts of Energy and Divine to the best.
+~
+~
+67108883&4 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 1
+#43031
+Sandie~
+Sandie~
+Sandie is here selling the most powerful tomes in all of Rafermand.
+~
+~
+67108867&8192 0 0 0 C
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 1
+16 13 13 13 13 13 13 15
+0 0 0 0 0
+0 0 0 0 1 1 15
+3 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#43199
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#43299
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#43000
+dragonscale belt~
+a tender dragonscale belt~
+Someone has left behind a tender dragonscale belt~
+~
+9 0 257 1
+0 0 0 1000
+4.000000 13000 0 0 0 0 2
+E
+tender dragonscale belt~
+A very nice looking belt made out of the hide of a young dragon.
+~
+A
+12 8 0
+A
+13 5 0
+#43001
+golem ring~
+a golem ring~
+Someone has left a golem ring here.~
+~
+8 0 3
+0 0 0 0
+0.100000 8500 0 0 0 0 4
+E
+golem ring~
+A special ring that imbues you with the spirit of the golem.
+~
+A
+80 1 0
+A
+13 2 0
+#43002
+glowing blade~
+&w&CA &w&YGlowing&w&C Blade~
+&w&CA &w&YGlowing&w&C Blade lies here waiting for its next target.~
+~
+5 65&2097152&64 513
+1000 18 21 6 -1 -1 0 8 11 11 12 0 30 15
+1.000000 25000 0 0 0 0 3
+'NONE'
+E
+glowing blade~
+A very nice blade, the undead seem to fear it!
+~
+A
+13 4 0
+A
+12 4 0
+#43003
+front door key~
+front door key~
+The key to the underground's front door is laying here.~
+~
+18 0 1
+0 0 0 0
+1.000000 5 0 0 0 0 0
+#43004
+rinker key~
+a rinker key~
+Rinker's key lies here.~
+~
+18 0 1
+0 0 0 0
+1.000000 2 0 0 0 0 0
+#43005
+ryina key~
+a ryina key~
+Ryina's key lies here for you to pick up.~
+~
+18 0 1
+0 0 0 0
+1.000000 3 0 0 0 0 0
+#43006
+Dusty Backpack~
+a Dusty Backpack~
+A Dusty Backpack has been left here, how lucky of you!~
+~
+15 0&0&16 131073
+250 0 55 0
+1.000000 120000 0 0 0 0 0
+E
+Dusty Backpack~
+A very large backpack and by the looks of it, a very strong backpack.
+It appears to be made out of some unknown material.  It is probably
+best to not worry about the material, seeing how it came from a rather
+nasty skeleton creature.
+~
+#43007
+zthen key~
+a zthen key~
+Z'then's key lies here for you to pick up.~
+~
+18 0 1
+0 0 0 0
+1.000000 3 0 43005 0 0 0
+#43008
+ziber key~
+Ziber's key lies here for anyone to take.~
+Some god dropped a newly created ziber key here.~
+~
+18 0 1
+0 0 0 0
+1.000000 4 0 0 0 0 0
+#43009
+Blessed Axe of Undead Slaying~
+&w&YBlessed Axe of Undead Slaying~
+&w&CSome has left bhind the great &w&YBlessed Axe of Undead Slaying&w~
+~
+5 65&2228224 513
+1000 32 36 10 -1 -1 0 13 15 10 17 0 25 28
+13.000000 450000 0 0 0 0 8
+'NONE'
+E
+blessed axe of undead slaying~
+A very powerful axe that is good at doing damage to those who have the
+magical power of the undead.  With this weapon you should be able to
+cleave them down in no time at all.
+~
+#43010
+front door key~
+front door key~
+The key to the underground's front door is laying here.~
+~
+18 0 1
+0 0 0 0
+1.000000 5 0 43003 0 0 0
+#43011
+Uthi key~
+a Uthi key~
+Uthi's key lies here~
+~
+18 0 1
+0 0 0 0
+1.000000 2 0 43004 0 0 0
+#43012
+Siena key~
+a siena key~
+Siena's key lies here.~
+~
+18 0 1
+0 0 0 0
+1.000000 2 0 43004 0 0 0
+#43013
+Riveur key~
+a riveur key~
+Riveur's key lies here.~
+~
+18 0 1
+0 0 0 0
+1.000000 2 0 43012 0 0 0
+#43014
+Aquen key~
+an aquen key~
+Aquen's key lies here.~
+~
+18 0 1
+0 0 0 0
+1.000000 2 0 43013 0 0 0
+#43015
+Aquen Staff~
+&w&RA&w&Cq&w&Wu&w&Re&w&Cn &w&WS&w&Rt&w&Ca&w&Wf&w&Rf~
+&w&CSomeone has left behind the powerful &w&RA&w&Cq&w&Wu&w&Re&w&Cn &w&WS&w&Rt&w&Ca&w&Wf&w&Rf &w&Chere.~
+~
+5 524353 513
+1000 18 19 4 37 1005 0 10 11 10 17 0 10 8
+3.000000 2500000 0 0 0 0 0
+'deanimation'
+E
+aquen staff~
+A very powerful staff that glows in the darkness.  It appears that Aquen
+poured part of his soul into this staff making its magical power one of
+the greatest things in all of Rafermand.
+~
+#43199
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#43299
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#0
+
+
+#ROOMS
+#43000
+Entrance to the Dungeon of Rantharg~
+The path running out into the desert looks like bliss compared to the
+one leading into the dungeon.  Many nasty things creep along the winding
+paths inside, then again many treasures lay buried deep in the dungeon
+too.  One would have to be extremely brave to continue on when most would
+start running to the outside world now!
+~
+4&2
+0 14
+0
+0
+D1
+~
+~
+134217728 -1 16000
+879 464
+D3
+~
+~
+0 -1 43001
+0 0
+S
+#43001
+Beginning of the dungeon~
+To the east, day light can been seen, it can only mean one thing, an
+exit!  To the west the dungeon appears to simply cut deeper and deeper
+in toward the earth, only to wind and twist into some hidious location.
+~
+4&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 43000
+0 0
+D3
+~
+~
+0 -1 43002
+0 0
+S
+#43002
+Rantharg Dungeon~
+Not much can be learned from the surroundings besides that it 
+is dark and the walls are very unforgiving. The darkness and 
+monotony can only make it next to impossible to keep a true 
+path, and a trail can be lost in an instant. It could be very 
+difficult indeed to find a way back out, not to mention all the 
+nasties lurking around everywhere. 
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43003
+0 0
+D1
+~
+~
+0 -1 43001
+0 0
+D2
+~
+~
+0 -1 43008
+0 0
+S
+#43003
+Rantharg Dungeon~
+Just as this place looks like it cannot get any more bland, a 
+room as bland as this one just suddenly appears, how sad! Well, 
+a person could continue to stare at the walls and wait for 
+death, but at least that is an easy way out! 
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43004
+0 0
+D2
+~
+~
+0 -1 43002
+0 0
+S
+#43004
+Rantharg Dungeon~
+THERE IS A LIGHT, well, it seemed to be a light, but the 
+darkness has been known to play tricks on a person's eyes!! The 
+utter blackness creeps ever stronger into this horrible little 
+section of hell, which can only mean one thing, there is always 
+another minion of evil behind. 
+~
+0&2
+0 0
+0
+0
+D2
+~
+~
+0 -1 43003
+0 0
+D3
+~
+~
+0 -1 43005
+0 0
+S
+#43005
+Rantharg Dungeon~
+Trop, trip, drop, trad...the ominous sounds are all that can 
+be heard here as the evil minions of the hole march around 
+hunting for fresh blood! Many adventurers weapons have failed 
+them at times such as these from notched blades, splintered 
+handles, and fickle blessings of magic. 
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43006
+0 0
+D1
+~
+~
+0 -1 43004
+0 0
+D3
+~
+~
+0 -1 43007
+0 0
+S
+#43006
+Rantharg Dungeon~
+This room appears to have been forgotten by the forsaken one 
+who built this hell hole. For that reason, this room appears to 
+be slightly out of whack from the rest of the dungeon. Maybe 
+that is a good thing, maybe it is not... 
+~
+0&2
+0 0
+0
+0
+D2
+~
+~
+0 -1 43005
+0 0
+S
+#43007
+Rantharg Dungeon~
+The walls appear to be a little red here, mostly from the 
+blood that once poured from the poor, dead individual who is 
+rotting on the cave floor. That alone should be enough to urge 
+the adventurer onward, but added to the atmosphere of the place 
+the urge is overwhelming. Of course, as is evident, some people 
+take the easy way out. 
+~
+0&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 43005
+0 0
+S
+#43008
+Rantharg Dungeon~
+All the paths are starting to look the same here, perhaps you 
+have already been here, or perhaps you know where you are going. 
+Or perhaps those sounds you are starting to hear are getting 
+closer and closer to you, now would be a good time to be looking 
+around for friends....What you don't have more than that? 
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43002
+0 0
+D2
+~
+~
+0 -1 43009
+0 0
+S
+#43009
+Rantharg Dungeon~
+More dirty walls, more dirty trails, more blood.  Perhaps if you brought with you
+a flute you could of increased your joy while in this bloody dungeon from hell, then
+again it would be fun for them to all run right for you and kill you too.  Yes, I think
+that would appeaze the gods!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43008
+0 0
+D1
+~
+~
+0 -1 43010
+0 0
+D2
+~
+~
+0 -1 43021
+0 0
+S
+#43010
+Rantharg Dungeon~
+A few skulls line the ground in this very room, it appears one of them still has a few
+small bits of flesh left, well that is until that giant creature on top of it gets
+down chewing on it.  It might be a good idea to move on before that giant creature
+comes looking for you!
+~
+0&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 43011
+0 0
+D2
+~
+~
+0 -1 43013
+0 0
+D3
+~
+~
+0 -1 43009
+0 0
+S
+#43011
+Rantharg Dungeon~
+It sounds like the sounds of children playing can be heard not too far away from here.
+Come to think about it, why would children be playing here.  Perhaps it is a trap or
+perhaps it is some CANDY!  Yes candy, you know you want some right now, instead all
+you have is a bloody weapon.  How sad...
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43012
+0 0
+D1
+~
+~
+0 -1 43017
+0 0
+D2
+~
+~
+0 -1 43014
+0 0
+D3
+~
+~
+0 -1 43010
+0 0
+S
+#43012
+Rantharg Dungeon~
+Just as you couldn't take another horrible sight, another one appears here.  A very
+dead elf is here with about 25 small spears stuck into the poor things body.  The
+scary part is the spears aren't very sharp, poor thing!
+~
+0&2
+0 0
+0
+0
+D2
+~
+~
+0 -1 43011
+0 0
+S
+#43013
+Rantharg Dungeon~
+All the paths are starting to look the same here, perhaps you have already been
+here, or perhaps you know where you are going.  Or perhaps those sounds you are
+starting to hear are getting closer and closer to you, now would be a good time
+to be looking around for friends....What you don't have more than that?
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43010
+0 0
+D2
+~
+~
+0 -1 43019
+0 0
+S
+#43014
+Rantharg Dungeon~
+The walls appear to be a little red here, mostly from the blood that once poured
+from the poor, dead individual who is rotting right here.  You better move faster
+if you don't want to become like the poor lad - that is if you don't want to take
+the easy way out like he did!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43011
+0 0
+D1
+~
+~
+0 -1 43010
+0 0
+D2
+~
+~
+0 -1 43015
+0 0
+S
+#43015
+Rantharg Dungeon~
+Trop, Trip, Drop, Trad, these are the sounds you can hear all around you as the
+evil minions of this hole march around looking for YOU!  I hope that weapon of
+yours is very pointy or blunt and your magical blessing is in high yield today
+my friend!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43014
+0 0
+D1
+~
+~
+0 -1 43018
+0 0
+S
+#43016
+Rantharg Dungeon~
+Just as this place looks like it cannot get any blander, a room as bland as this
+just suddenly appears, how sad!  Well, if you continue looking at the walls, you
+will eventually die, so well that is an easy way out!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43017
+0 0
+D2
+~
+~
+0 -1 43018
+0 0
+D3
+~
+~
+0 -1 43014
+0 0
+S
+#43017
+Rantharg Dungeon~
+Not much can be learned by your surroundings besides that it is dark and the
+walls look very unforgiving.  If you aren't keep tracking of where you are going
+and where you have been, you might have a small problem getting out of this
+place, not to mention all the nasties waiting around to chew on you!
+~
+0&2
+0 0
+0
+0
+D2
+~
+~
+0 -1 43016
+0 0
+D3
+~
+~
+0 -1 43011
+0 0
+S
+#43018
+Rantharg Dungeon~
+YOU SEE LIGHT, well you thought you seen light, your eyes are fooling you again
+my friend!!!  The darkness seems to creep even stronger in this horrible little
+section of hell, how sad for you, better be watching you back!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43010
+0 0
+D3
+~
+~
+0 -1 43015
+0 0
+S
+#43019
+Rantharg Dungeon~
+More dirty walls, more dirty trails, more blood.  Perhaps if you brought with you
+a flute you could of increased your joy while in this bloody dungeon from hell, then
+again it would be fun for them to all run right for you and kill you too.  Yes, I think
+that would appeaze the gods!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43013
+0 0
+D2
+~
+~
+0 -1 43020
+0 0
+S
+#43020
+Rantharg Dungeon~
+A few skulls line the ground in this very room, it appears one of them still has a few
+small bits of flesh left, well that is until that giant creature on top of it gets
+down chewing on it.  It might be a good idea to move on before that giant creature
+comes looking for you!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43019
+0 0
+S
+#43021
+Rantharg Dungeon~
+It sounds like the sounds of children playing can be heard not too far away from here.
+Come to think about it, why would children be playing here.  Perhaps it is a trap or
+perhaps it is some CANDY!  Yes candy, you know you want some right now, instead all
+you have is a bloody weapon.  How sad...
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43009
+0 0
+D2
+~
+~
+0 -1 43022
+0 0
+S
+#43022
+Rantharg Dungeon~
+Just as you couldn't take another horrible sight, another one appears here.  A very
+dead elf is here with about 25 small spears stuck into the poor things body.  The
+scary part is the spears aren't very sharp, poor thing!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43021
+0 0
+D2
+~
+~
+0 -1 43023
+0 0
+S
+#43023
+Rantharg Dungeon~
+Not much can be learned by your surroundings besides that it is dark and the
+walls look very unforgiving.  If you aren't keep tracking of where you are going
+and where you have been, you might have a small problem getting out of this
+place, not to mention all the nasties waiting around to chew on you!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43022
+0 0
+D2
+~
+~
+0 -1 43025
+0 0
+D3
+~
+~
+0 -1 43024
+0 0
+S
+#43024
+Rantharg Dungeon~
+YOU SEE LIGHT, well you thought you seen light, your eyes are fooling you again
+my friend!!!  The darkness seems to creep even stronger in this horrible little
+section of hell, how sad for you, better be watching you back!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43026
+0 0
+D1
+~
+~
+0 -1 43023
+0 0
+S
+#43025
+Rantharg Dungeon~
+Just as this place looks like it cannot get any blander, a room as bland as this
+just suddenly appears, how sad!  Well, if you continue looking at the walls, you
+will eventually die, so well that is an easy way out!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43023
+0 0
+S
+#43026
+Rantharg Dungeon~
+Trop, Trip, Drop, Trad, these are the sounds you can hear all around you as the
+evil minions of this hole march around looking for YOU!  I hope that weapon of
+yours is very pointy or blunt and your magical blessing is in high yield today
+my friend!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43027
+0 0
+D2
+~
+~
+0 -1 43024
+0 0
+S
+#43027
+Rantharg Dungeon~
+The walls appear to be a little red here, mostly from the blood that once poured
+from the poor, dead individual who is rotting right here.  You better move faster
+if you don't want to become like the poor lad - that is if you don't want to take
+the easy way out like he did!
+~
+0&2
+0 0
+0
+0
+D2
+~
+~
+0 -1 43026
+0 0
+D3
+~
+~
+0 -1 43028
+0 0
+S
+#43028
+Rantharg Dungeon~
+All the paths are starting to look the same here, perhaps you have already been
+here, or perhaps you know where you are going.  Or perhaps those sounds you are
+starting to hear are getting closer and closer to you, now would be a good time
+to be looking around for friends....What you don't have more than that?
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43032
+0 0
+D1
+~
+~
+0 -1 43027
+0 0
+D2
+~
+~
+0 -1 43029
+0 0
+D3
+~
+~
+0 -1 43033
+0 0
+S
+#43029
+Rantharg Dungeon~
+All the paths are starting to look the same here, perhaps you have already been
+here, or perhaps you know where you are going.  Or perhaps those sounds you are
+starting to hear are getting closer and closer to you, now would be a good time
+to be looking around for friends....What you don't have more than that?
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43028
+0 0
+D2
+~
+~
+0 -1 43030
+0 0
+S
+#43030
+Rantharg Dungeon~
+More dirty walls, more dirty trails, more blood.  Perhaps if you brought with you
+a flute you could of increased your joy while in this bloody dungeon from hell, then
+again it would be fun for them to all run right for you and kill you too.  Yes, I think
+that would appeaze the gods!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43029
+0 0
+D2
+~
+~
+0 -1 43031
+0 0
+S
+#43031
+Rantharg Dungeon~
+A few skulls line the ground in this very room, it appears one of them still has a few
+small bits of flesh left, well that is until that giant creature on top of it gets
+down chewing on it.  It might be a good idea to move on before that giant creature
+comes looking for you!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43030
+0 0
+D2
+~
+~
+0 -1 43053
+0 0
+S
+#43032
+Rantharg Dungeon~
+A few skulls line the ground in this very room, it appears one of them still has a few
+small bits of flesh left, well that is until that giant creature on top of it gets
+down chewing on it.  It might be a good idea to move on before that giant creature
+comes looking for you!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43034
+0 0
+D2
+~
+~
+0 -1 43028
+0 0
+S
+#43033
+Safe Room~
+The gods have smiled on you friend, this room appears to be free of the dread and gloom
+of the read of the dungeon.  If you are looking to take a quick breather, inhale that
+nice pastry you brought with you, or anything that might get you killed anywhere else,
+this would probably be a good place to do it.  Or at least lets hope so....
+~
+0&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 43028
+0 0
+S
+#43034
+Rantharg Dungeon~
+It sounds like the sounds of children playing can be heard not too far away from here.
+Come to think about it, why would children be playing here.  Perhaps it is a trap or
+perhaps it is some CANDY!  Yes candy, you know you want some right now, instead all
+you have is a bloody weapon.  How sad...
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43035
+0 0
+D2
+~
+~
+0 -1 43032
+0 0
+S
+#43035
+Rantharg Dungeon~
+Just as you couldn't take another horrible sight, another one appears here.  A very
+dead elf is here with about 25 small spears stuck into the poor things body.  The
+scary part is the spears aren't very sharp, poor thing!
+~
+0&2
+0 0
+0
+0
+D2
+~
+~
+0 -1 43034
+0 0
+D3
+~
+~
+0 -1 43036
+0 0
+S
+#43036
+Rantharg Dungeon~
+Trop, Trip, Drop, Trad, these are the sounds you can hear all around you as the
+evil minions of this hole march around looking for YOU!  I hope that weapon of
+yours is very pointy or blunt and your magical blessing is in high yield today
+my friend!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43037
+0 0
+D1
+~
+~
+0 -1 43035
+0 0
+D3
+~
+~
+0 -1 43042
+0 0
+S
+#43037
+Rantharg Dungeon~
+Trop, Trip, Drop, Trad, these are the sounds you can hear all around you as the
+evil minions of this hole march around looking for YOU!  I hope that weapon of
+yours is very pointy or blunt and your magical blessing is in high yield today
+my friend!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43038
+0 0
+D2
+~
+~
+0 -1 43036
+0 0
+S
+#43038
+Rantharg Dungeon~
+The walls appear to be a little red here, mostly from the blood that once poured
+from the poor, dead individual who is rotting right here.  You better move faster
+if you don't want to become like the poor lad - that is if you don't want to take
+the easy way out like he did!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43040
+0 0
+D1
+~
+~
+0 -1 43039
+0 0
+D2
+~
+~
+0 -1 43037
+0 0
+D3
+~
+~
+0 -1 43041
+0 0
+S
+#43039
+Rantharg Dungeon~
+More dirty walls, more dirty trails, more blood.  Perhaps if you brought with you
+a flute you could of increased your joy while in this bloody dungeon from hell, then
+again it would be fun for them to all run right for you and kill you too.  Yes, I think
+that would appeaze the gods!
+~
+0&2
+0 0
+0
+0
+D3
+~
+~
+0 -1 43038
+0 0
+S
+#43040
+Rantharg Dungeon~
+A few skulls line the ground in this very room, it appears one of them still has a few
+small bits of flesh left, well that is until that giant creature on top of it gets
+down chewing on it.  It might be a good idea to move on before that giant creature
+comes looking for you!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43051
+0 0
+D2
+~
+~
+0 -1 43038
+0 0
+S
+#43041
+Rantharg Dungeon~
+All the paths are starting to look the same here, perhaps you have already been
+here, or perhaps you know where you are going.  Or perhaps those sounds you are
+starting to hear are getting closer and closer to you, now would be a good time
+to be looking around for friends....What you don't have more than that?
+~
+0&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 43038
+0 0
+S
+#43042
+Rantharg Dungeon~
+The walls appear to be a little red here, mostly from the blood that once poured
+from the poor, dead individual who is rotting right here.  You better move faster
+if you don't want to become like the poor lad - that is if you don't want to take
+the easy way out like he did!
+~
+0&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 43036
+0 0
+D2
+~
+~
+0 -1 43043
+0 0
+D3
+~
+~
+0 -1 43045
+0 0
+S
+#43043
+Rantharg Dungeon~
+All the paths are starting to look the same here, perhaps you have already been
+here, or perhaps you know where you are going.  Or perhaps those sounds you are
+starting to hear are getting closer and closer to you, now would be a good time
+to be looking around for friends....What you don't have more than that?
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43042
+0 0
+D2
+~
+~
+0 -1 43044
+0 0
+S
+#43044
+Rantharg Dungeon~
+More dirty walls, more dirty trails, more blood.  Perhaps if you brought with you
+a flute you could of increased your joy while in this bloody dungeon from hell, then
+again it would be fun for them to all run right for you and kill you too.  Yes, I think
+that would appeaze the gods!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43043
+0 0
+S
+#43045
+Rantharg Dungeon~
+A few skulls line the ground in this very room, it appears one of them still has a few
+small bits of flesh left, well that is until that giant creature on top of it gets
+down chewing on it.  It might be a good idea to move on before that giant creature
+comes looking for you!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43046
+0 0
+D1
+~
+~
+0 -1 43042
+0 0
+S
+#43046
+Rantharg Dungeon~
+It sounds like the sounds of children playing can be heard not too far away from here.
+Come to think about it, why would children be playing here.  Perhaps it is a trap or
+perhaps it is some CANDY!  Yes candy, you know you want some right now, instead all
+you have is a bloody weapon.  How sad...
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43047
+0 0
+D2
+~
+~
+0 -1 43045
+0 0
+S
+#43047
+Rantharg Dungeon~
+Just as you couldn't take another horrible sight, another one appears here.  A very
+dead elf is here with about 25 small spears stuck into the poor things body.  The
+scary part is the spears aren't very sharp, poor thing!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43048
+0 0
+D2
+~
+~
+0 -1 43046
+0 0
+S
+#43048
+Rantharg Dungeon~
+Not much can be learned by your surroundings besides that it is dark and the
+walls look very unforgiving.  If you aren't keep tracking of where you are going
+and where you have been, you might have a small problem getting out of this
+place, not to mention all the nasties waiting around to chew on you!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43049
+0 0
+D2
+~
+~
+0 -1 43047
+0 0
+S
+#43049
+Rantharg Dungeon~
+Just as this place looks like it cannot get any blander, a room as bland as this
+just suddenly appears, how sad!  Well, if you continue looking at the walls, you
+will eventually die, so well that is an easy way out!
+~
+0&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 43050
+0 0
+D2
+~
+~
+0 -1 43048
+0 0
+S
+#43050
+Rantharg Dungeon~
+YOU SEE LIGHT, well you thought you seen light, your eyes are fooling you again
+my friend!!!  The darkness seems to creep even stronger in this horrible little
+section of hell, how sad for you, better be watching you back!
+~
+0&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 43051
+0 0
+D3
+~
+~
+0 -1 43049
+0 0
+S
+#43051
+Rantharg Dungeon~
+It sounds like the sounds of children playing can be heard not too far away from here.
+Come to think about it, why would children be playing here.  Perhaps it is a trap or
+perhaps it is some CANDY!  Yes candy, you know you want some right now, instead all
+you have is a bloody weapon.  How sad...
+~
+0&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 43052
+0 0
+D2
+~
+~
+0 -1 43040
+0 0
+D3
+~
+~
+0 -1 43050
+0 0
+S
+#43052
+Rantharg Dungeon~
+Just as you couldn't take another horrible sight, another one appears here.  A very
+dead elf is here with about 25 small spears stuck into the poor things body.  The
+scary part is the spears aren't very sharp, poor thing!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43064
+0 0
+D2
+~
+~
+0 -1 43061
+0 0
+D3
+~
+~
+0 -1 43051
+0 0
+S
+#43053
+Rantharg Dungeon~
+It sounds like the sounds of children playing can be heard not too far away from here.
+Come to think about it, why would children be playing here.  Perhaps it is a trap or
+perhaps it is some CANDY!  Yes candy, you know you want some right now, instead all
+you have is a bloody weapon.  How sad...
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43031
+0 0
+D2
+~
+~
+0 -1 43054
+0 0
+D3
+~
+~
+0 -1 43055
+0 0
+S
+#43054
+Rantharg Dungeon~
+A few skulls line the ground in this very room, it appears one of them still has a few
+small bits of flesh left, well that is until that giant creature on top of it gets
+down chewing on it.  It might be a good idea to move on before that giant creature
+comes looking for you!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43053
+0 0
+D1
+~
+~
+0 -1 43084
+0 0
+S
+#43055
+Rantharg Dungeon~
+Just as you couldn't take another horrible sight, another one appears here.  A very
+dead elf is here with about 25 small spears stuck into the poor things body.  The
+scary part is the spears aren't very sharp, poor thing!
+~
+0&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 43053
+0 0
+D3
+~
+~
+0 -1 43056
+0 0
+S
+#43056
+Rantharg Dungeon~
+Not much can be learned by your surroundings besides that it is dark and the
+walls look very unforgiving.  If you aren't keep tracking of where you are going
+and where you have been, you might have a small problem getting out of this
+place, not to mention all the nasties waiting around to chew on you!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43059
+0 0
+D1
+~
+~
+0 -1 43055
+0 0
+D2
+~
+~
+0 -1 43060
+0 0
+D3
+~
+~
+0 -1 43057
+0 0
+S
+#43057
+Rantharg Dungeon~
+YOU SEE LIGHT, well you thought you seen light, your eyes are fooling you again
+my friend!!!  The darkness seems to creep even stronger in this horrible little
+section of hell, how sad for you, better be watching you back!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43058
+0 0
+D1
+~
+~
+0 -1 43056
+0 0
+D3
+~
+~
+0 -1 43074
+0 0
+S
+#43058
+Rantharg Dungeon~
+Not much can be learned by your surroundings besides that it is dark and the
+walls look very unforgiving.  If you aren't keep tracking of where you are going
+and where you have been, you might have a small problem getting out of this
+place, not to mention all the nasties waiting around to chew on you!
+~
+0&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 43059
+0 0
+D2
+~
+~
+0 -1 43057
+0 0
+S
+#43059
+Rantharg Dungeon~
+Just as this place looks like it cannot get any blander, a room as bland as this
+just suddenly appears, how sad!  Well, if you continue looking at the walls, you
+will eventually die, so well that is an easy way out!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43081
+0 0
+D2
+~
+~
+0 -1 43056
+0 0
+D3
+~
+~
+0 -1 43058
+0 0
+S
+#43060
+Rantharg Dungeon~
+Just as this place looks like it cannot get any blander, a room as bland as this
+just suddenly appears, how sad!  Well, if you continue looking at the walls, you
+will eventually die, so well that is an easy way out!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43056
+0 0
+S
+#43061
+Rantharg Dungeon~
+Not much can be learned by your surroundings besides that it is dark and the
+walls look very unforgiving.  If you aren't keep tracking of where you are going
+and where you have been, you might have a small problem getting out of this
+place, not to mention all the nasties waiting around to chew on you!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43052
+0 0
+D1
+~
+~
+0 -1 43062
+0 0
+S
+#43062
+Rantharg Dungeon~
+All the paths are starting to look the same here, perhaps you have already been
+here, or perhaps you know where you are going.  Or perhaps those sounds you are
+starting to hear are getting closer and closer to you, now would be a good time
+to be looking around for friends....What you don't have more than that?
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43063
+0 0
+D3
+~
+~
+0 -1 43061
+0 0
+S
+#43063
+Rantharg Dungeon~
+A few skulls line the ground in this very room, it appears one of them still has a few
+small bits of flesh left, well that is until that giant creature on top of it gets
+down chewing on it.  It might be a good idea to move on before that giant creature
+comes looking for you!
+~
+0&2
+0 0
+0
+0
+D2
+~
+~
+0 -1 43062
+0 0
+S
+#43064
+Rantharg Dungeon~
+Just as this place looks like it cannot get any blander, a room as bland as this
+just suddenly appears, how sad!  Well, if you continue looking at the walls, you
+will eventually die, so well that is an easy way out!
+~
+0&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 43065
+0 0
+D2
+~
+~
+0 -1 43052
+0 0
+S
+#43065
+Rantharg Dungeon~
+YOU SEE LIGHT, well you thought you seen light, your eyes are fooling you again
+my friend!!!  The darkness seems to creep even stronger in this horrible little
+section of hell, how sad for you, better be watching you back!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43068
+0 0
+D1
+~
+~
+0 -1 43066
+0 0
+D3
+~
+~
+0 -1 43064
+0 0
+S
+#43066
+Rantharg Dungeon~
+What a god forsaken place this appears to be, it might be a good idea
+not to go this way, then again it might be a good idea to continue on
+and find out what awaits you.
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43067
+0 0
+D3
+~
+~
+0 -1 43065
+0 0
+S
+#43067
+Rantharg Dungeon~
+Only thing awaiting you this way is a deadend my friend, ha ha you
+should just slam your head on the wall and make sure to aim for the
+pointy bits that are lodged in it.  Oh well.
+~
+0&2
+0 0
+0
+0
+D2
+~
+~
+0 -1 43066
+0 0
+S
+#43068
+Rantharg Dungeon~
+All the paths are starting to look the same here, perhaps you have already been
+here, or perhaps you know where you are going.  Or perhaps those sounds you are
+starting to hear are getting closer and closer to you, now would be a good time
+to be looking around for friends....What you don't have more than that?
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43069
+0 0
+D2
+~
+~
+0 -1 43065
+0 0
+S
+#43069
+Rantharg Dungeon~
+More dirty walls, more dirty trails, more blood.  Perhaps if you brought with you
+a flute you could of increased your joy while in this bloody dungeon from hell, then
+again it would be fun for them to all run right for you and kill you too.  Yes, I think
+that would appeaze the gods!
+~
+0&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 43070
+0 0
+D2
+~
+~
+0 -1 43068
+0 0
+S
+#43070
+Rantharg Dungeon~
+A few skulls line the ground in this very room, it appears one of them still has a few
+small bits of flesh left, well that is until that giant creature on top of it gets
+down chewing on it.  It might be a good idea to move on before that giant creature
+comes looking for you!
+~
+0&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 43071
+0 0
+D3
+~
+~
+0 -1 43069
+0 0
+S
+#43071
+Rantharg Dungeon~
+It sounds like the sounds of children playing can be heard not too far away from here.
+Come to think about it, why would children be playing here.  Perhaps it is a trap or
+perhaps it is some CANDY!  Yes candy, you know you want some right now, instead all
+you have is a bloody weapon.  How sad...
+~
+0&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 43072
+0 0
+D3
+~
+~
+0 -1 43070
+0 0
+S
+#43072
+Rantharg Dungeon~
+Just as you couldn't take another horrible sight, another one appears here.  A very
+dead elf is here with about 25 small spears stuck into the poor things body.  The
+scary part is the spears aren't very sharp, poor thing!
+~
+0&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 43073
+0 0
+D3
+~
+~
+0 -1 43071
+0 0
+S
+#43073
+Some Light~
+You can see light coming just a little bit up from here.  You better
+be prepared to climb or fly up there though.  To the west, nothing
+but a bunch of darkness and frantic screamings, you know you want to
+got that way :-)
+~
+4&2
+0 0
+0
+0
+D3
+~
+~
+0 -1 43072
+0 0
+D4
+~
+~
+128 -1 43177
+0 0
+S
+#43074
+Rantharg Dungeon~
+Trop, Trip, Drop, Trad, these are the sounds you can hear all around you as the
+evil minions of this hole march around looking for YOU!  I hope that weapon of
+yours is very pointy or blunt and your magical blessing is in high yield today
+my friend!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43075
+0 0
+D1
+~
+~
+0 -1 43057
+0 0
+S
+#43075
+Rantharg Dungeon~
+The walls appear to be a little red here, mostly from the blood that once poured
+from the poor, dead individual who is rotting right here.  You better move faster
+if you don't want to become like the poor lad - that is if you don't want to take
+the easy way out like he did!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43076
+0 0
+D2
+~
+~
+0 -1 43074
+0 0
+S
+#43076
+Rantharg Dungeon~
+All the paths are starting to look the same here, perhaps you have already been
+here, or perhaps you know where you are going.  Or perhaps those sounds you are
+starting to hear are getting closer and closer to you, now would be a good time
+to be looking around for friends....What you don't have more than that?
+~
+0&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 43078
+0 0
+D2
+~
+~
+0 -1 43075
+0 0
+D3
+~
+~
+0 -1 43077
+0 0
+S
+#43077
+Rantharg Dungeon~
+More dirty walls, more dirty trails, more blood.  Perhaps if you brought with you
+a flute you could of increased your joy while in this bloody dungeon from hell, then
+again it would be fun for them to all run right for you and kill you too.  Yes, I think
+that would appeaze the gods!
+~
+0&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 43076
+0 0
+S
+#43078
+Rantharg Dungeon~
+A few skulls line the ground in this very room, it appears one of them still has a few
+small bits of flesh left, well that is until that giant creature on top of it gets
+down chewing on it.  It might be a good idea to move on before that giant creature
+comes looking for you!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43079
+0 0
+D3
+~
+~
+0 -1 43076
+0 0
+S
+#43079
+Rantharg Dungeon~
+It sounds like the sounds of children playing can be heard not too far away from here.
+Come to think about it, why would children be playing here.  Perhaps it is a trap or
+perhaps it is some CANDY!  Yes candy, you know you want some right now, instead all
+you have is a bloody weapon.  How sad...
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43080
+0 0
+D2
+~
+~
+0 -1 43078
+0 0
+S
+#43080
+Rantharg Dungeon~
+Just as you couldn't take another horrible sight, another one appears here.  A very
+dead elf is here with about 25 small spears stuck into the poor things body.  The
+scary part is the spears aren't very sharp, poor thing!
+~
+0&2
+0 0
+0
+0
+D2
+~
+~
+0 -1 43079
+0 0
+S
+#43081
+Rantharg Dungeon~
+YOU SEE LIGHT, well you thought you seen light, your eyes are fooling you again
+my friend!!!  The darkness seems to creep even stronger in this horrible little
+section of hell, how sad for you, better be watching you back!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43082
+0 0
+D2
+~
+~
+0 -1 43059
+0 0
+S
+#43082
+Rantharg Dungeon~
+Trop, Trip, Drop, Trad, these are the sounds you can hear all around you as the
+evil minions of this hole march around looking for YOU!  I hope that weapon of
+yours is very pointy or blunt and your magical blessing is in high yield today
+my friend!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43083
+0 0
+D2
+~
+~
+0 -1 43081
+0 0
+S
+#43083
+Rantharg Dungeon~
+The walls appear to be a little red here, mostly from the blood that once poured
+from the poor, dead individual who is rotting right here.  You better move faster
+if you don't want to become like the poor lad - that is if you don't want to take
+the easy way out like he did!
+~
+0&2
+0 0
+0
+0
+D2
+~
+~
+0 -1 43082
+0 0
+S
+#43084
+Rantharg Dungeon~
+It sounds like the sounds of children playing can be heard not too far away from here.
+Come to think about it, why would children be playing here.  Perhaps it is a trap or
+perhaps it is some CANDY!  Yes candy, you know you want some right now, instead all
+you have is a bloody weapon.  How sad...
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43086
+0 0
+D1
+~
+~
+0 -1 43085
+0 0
+D3
+~
+~
+0 -1 43054
+0 0
+S
+#43085
+Rantharg Dungeon~
+Not much can be learned by your surroundings besides that it is dark and the
+walls look very unforgiving.  If you aren't keep tracking of where you are going
+and where you have been, you might have a small problem getting out of this
+place, not to mention all the nasties waiting around to chew on you!
+~
+0&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 43088
+0 0
+D2
+~
+~
+0 -1 43087
+0 0
+D3
+~
+~
+0 -1 43084
+0 0
+S
+#43086
+Rantharg Dungeon~
+Just as you couldn't take another horrible sight, another one appears here.  A very
+dead elf is here with about 25 small spears stuck into the poor things body.  The
+scary part is the spears aren't very sharp, poor thing!
+~
+0&2
+0 0
+0
+0
+D2
+~
+~
+0 -1 43084
+0 0
+S
+#43087
+Rantharg Dungeon~
+Just as this place looks like it cannot get any blander, a room as bland as this
+just suddenly appears, how sad!  Well, if you continue looking at the walls, you
+will eventually die, so well that is an easy way out!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43085
+0 0
+S
+#43088
+Rantharg Dungeon~
+YOU SEE LIGHT, well you thought you seen light, your eyes are fooling you again
+my friend!!!  The darkness seems to creep even stronger in this horrible little
+section of hell, how sad for you, better be watching you back!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43089
+0 0
+D1
+~
+~
+0 -1 43090
+0 0
+D3
+~
+~
+0 -1 43085
+0 0
+S
+#43089
+Rantharg Dungeon~
+Trop, Trip, Drop, Trad, these are the sounds you can hear all around you as the
+evil minions of this hole march around looking for YOU!  I hope that weapon of
+yours is very pointy or blunt and your magical blessing is in high yield today
+my friend!
+~
+0&2
+0 0
+0
+0
+D2
+~
+~
+0 -1 43088
+0 0
+S
+#43090
+Rantharg Dungeon~
+The walls appear to be a little red here, mostly from the blood that once poured
+from the poor, dead individual who is rotting right here.  You better move faster
+if you don't want to become like the poor lad - that is if you don't want to take
+the easy way out like he did!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43091
+0 0
+D2
+~
+~
+0 -1 43092
+0 0
+D3
+~
+~
+0 -1 43088
+0 0
+S
+#43091
+Rantharg Dungeon~
+All the paths are starting to look the same here, perhaps you have already been
+here, or perhaps you know where you are going.  Or perhaps those sounds you are
+starting to hear are getting closer and closer to you, now would be a good time
+to be looking around for friends....What you don't have more than that?
+~
+0&2
+0 0
+0
+0
+D2
+~
+~
+0 -1 43090
+0 0
+S
+#43092
+Rantharg Dungeon~
+More dirty walls, more dirty trails, more blood.  Perhaps if you brought with you
+a flute you could of increased your joy while in this bloody dungeon from hell, then
+again it would be fun for them to all run right for you and kill you too.  Yes, I think
+that would appeaze the gods!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43090
+0 0
+D2
+~
+~
+0 -1 43093
+0 0
+S
+#43093
+Rantharg Dungeon~
+A few skulls line the ground in this very room, it appears one of them still has a few
+small bits of flesh left, well that is until that giant creature on top of it gets
+down chewing on it.  It might be a good idea to move on before that giant creature
+comes looking for you!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43092
+0 0
+D1
+~
+~
+0 -1 43096
+0 0
+D3
+~
+~
+0 -1 43094
+0 0
+S
+#43094
+Rantharg Dungeon~
+It sounds like the sounds of children playing can be heard not too far away from here.
+Come to think about it, why would children be playing here.  Perhaps it is a trap or
+perhaps it is some CANDY!  Yes candy, you know you want some right now, instead all
+you have is a bloody weapon.  How sad...
+~
+0&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 43093
+0 0
+D2
+~
+~
+0 -1 43095
+0 0
+S
+#43095
+Rantharg Dungeon~
+Just as you couldn't take another horrible sight, another one appears here.  A very
+dead elf is here with about 25 small spears stuck into the poor things body.  The
+scary part is the spears aren't very sharp, poor thing!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43094
+0 0
+S
+#43096
+Rantharg Dungeon~
+Not much can be learned by your surroundings besides that it is dark and the
+walls look very unforgiving.  If you aren't keep tracking of where you are going
+and where you have been, you might have a small problem getting out of this
+place, not to mention all the nasties waiting around to chew on you!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43099
+0 0
+D2
+~
+~
+0 -1 43097
+0 0
+D3
+~
+~
+0 -1 43093
+0 0
+S
+#43097
+Rantharg Dungeon~
+Trop, Trip, Drop, Trad, these are the sounds you can hear all around you as the
+evil minions of this hole march around looking for YOU!  I hope that weapon of
+yours is very pointy or blunt and your magical blessing is in high yield today
+my friend!
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 43096
+0 0
+D1
+~
+~
+0 -1 43098
+0 0
+S
+#43098
+A giant hole~
+A giant hole drops down from here, further into the ground than where
+you are now.  It is hard to see how far the drop is due to there is no
+light down belong and it seems like the dreaded place is eating up any
+light that might give you some answers.
+~
+4
+0 0
+0
+0
+D3
+~
+~
+0 -1 43097
+0 0
+D5
+~
+~
+0 -1 43101
+0 0
+S
+#43099
+Rantharg Dungeon~
+Just as this place looks like it cannot get any blander, a room as bland as this
+just suddenly appears, how sad!  Well, if you continue looking at the walls, you
+will eventually die, so well that is an easy way out!
+~
+0&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 43100
+0 0
+D2
+~
+~
+0 -1 43096
+0 0
+S
+#43100
+Rantharg Dungeon~
+YOU SEE LIGHT, well you thought you seen light, your eyes are fooling you again
+my friend!!!  The darkness seems to creep even stronger in this horrible little
+section of hell, how sad for you, better be watching you back!
+~
+0&2
+0 0
+0
+0
+D3
+~
+~
+0 -1 43099
+0 0
+S
+#43101
+Giant hole~
+Not much to look at here, if you continue up you will reach the top, if
+you go down you will reach the bottom eventually.
+~
+16777216
+0 0
+0
+0
+D4
+~
+~
+64 -1 43098
+0 0
+D5
+~
+~
+0 -1 43102
+0 0
+S
+#43102
+Giant hole~
+The hole continues in both directions.  Must be good having a choice
+in which way to go :-)
+~
+16777216
+0 0
+0
+0
+D4
+~
+~
+64 -1 43101
+0 0
+D5
+~
+~
+0 -1 43103
+0 0
+S
+#43103
+Giant hole~
+The hole continues on both directions.
+~
+16777216
+0 0
+0
+0
+D4
+~
+~
+64 -1 43102
+0 0
+D5
+~
+~
+0 -1 43104
+0 0
+S
+#43104
+Giant hole~
+Can almost see the bottom now, how amazing!
+~
+16777216
+0 0
+0
+0
+D4
+~
+~
+64 -1 43103
+0 0
+D5
+~
+~
+0 -1 43105
+0 0
+S
+#43105
+Giant hole~
+It is still some while away, the bottom that is!
+~
+16777216
+0 0
+0
+0
+D4
+~
+~
+64 -1 43104
+0 0
+D5
+~
+~
+0 -1 43106
+0 0
+S
+#43106
+Giant hole~
+Almost there, almost here....
+~
+16777216
+0 0
+0
+0
+D4
+~
+~
+64 -1 43105
+0 0
+D5
+~
+~
+0 -1 43107
+0 0
+S
+#43107
+Bottom of the Giant hole~
+A giant hole leading to the maze above is only reachable if you can
+fly up there.  If you cannot, well there is always the path into the
+darkness running to the east.  The maze was a great joy to behold, being
+even deeper into it should make it even more enjoyable, yes, yes indeed!
+~
+4
+0 0
+0
+0
+D1
+~
+~
+0 -1 43108
+0 0
+D4
+~
+~
+0 -1 43106
+0 0
+S
+#43108
+Deep Underground~
+Falling even deeper than the dungeon section, you are now far into the
+ground.  The smell down here is 3 times worse than the dungeon, that
+can only mean some big nasty critters are down here and are not going
+to welcome you with a cup of tee.  Might be a good idea to rest up
+if you are not at full strength.
+~
+4&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 43109
+0 0
+D3
+~
+~
+0 -1 43107
+0 0
+S
+#43109
+Underground Path Continues~
+The path continues to cut and turn down here.  Where it might of been
+silent back near the hole, you can tell it is very busy down here, much
+like it was above in the dungeon.  From the look of the skeleton laying
+here it looks like you are going to be in for another fight.
+~
+0&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 43110
+0 0
+D3
+~
+~
+0 -1 43108
+0 0
+S
+#43110
+Underground Path Continues~
+The path continues to cut and turn down here.  Where it might of been
+silent back near the hole, you can tell it is very busy down here, much
+like it was above in the dungeon.  From the look of the skeleton laying
+here it looks like you are going to be in for another fight.
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43109
+0 0
+D2
+~
+~
+0 -1 43111
+0 0
+S
+#43111
+Before a Door~
+A door is just a short distance to the east.  Even more noticable is
+the large creature that appears to be guarding the door.  It might be
+a good idea to turn around and run now if you are not ready for a good
+fight.  If whomever is running this joint is putting a bouncer at the
+front door, there has to be more foul evil behind it.
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43110
+0 0
+D1
+~
+~
+0 -1 43112
+0 0
+S
+#43112
+Front Door~
+According to the nice engravings on the door, this door opens access
+to the great 4 trainers of Rafermand.  Also according to the door only
+the powerful my gain access to these trainers.  Well, it appears if
+you are powerful enough you may continue on, but you will first need
+to prove it to the door guard and get the key.
+~
+4&2
+0 13
+0
+0
+D1
+~
+~
+8389671 43003 43113
+0 0
+D3
+~
+~
+0 -1 43111
+0 0
+S
+#43113
+The Underground paths continue...~
+The actual "entrance" into the underground is just to the west.  To
+the north and the south two paths that most likely lead to the power
+of the 4 trainers in this area.  That is if you don't get killed and
+eaten by the nasty creatures here wishing to do you a lot of harm.
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43114
+0 0
+D2
+~
+~
+0 -1 43129
+0 0
+D3
+~
+~
+8389671 43002 43112
+0 0
+S
+#43114
+Deep Underground~
+Another beautiful room with blood splatters all over the ground and the dugout
+walls.  If you stand around for too long and start to think about it, you might
+end up like the others, dead and stuck here.  We wouldn't want that would we?
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43115
+0 0
+D2
+~
+~
+0 -1 43113
+0 0
+S
+#43115
+Deep Underground~
+The screams seem to be increasing in volume here, almost as if they are coming
+from the dreaded dugout walls themself.  If the walls are screaming to get out
+of here, what does that say about your willingness to be here?  Then again these
+walls don't possess your undeniable power right?
+~
+0&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 43116
+0 0
+D2
+~
+~
+0 -1 43114
+0 0
+S
+#43116
+Deep Underground~
+Something was nice enough to leave a stack of bodies here for you to admire.
+Looking more closely at the bodies you notice that the butcher has a rather
+odd artistic style because the bodies are lined up forming the word DEATH.  How
+nice of the citizens to leave you a friendly reminder.
+~
+0&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 43117
+0 0
+D3
+~
+~
+0 -1 43115
+0 0
+S
+#43117
+Deep Underground~
+A strange breeze wisps around in this room.  This would be nice if it wasn't
+pushing all the horrible smells around and creating the horrible smell to
+end all horrible smells.  You probably won't be able to eat food properly after
+this experience, but when it comes to eating magic mushrooms there is not much
+to enjoy (why can't it be magic chocolate?)
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43116
+0 0
+D1
+~
+~
+0 -1 43118
+0 0
+S
+#43118
+Deep Underground~
+Blood appears to be pouring down into a small pond at this very spot.  Looking
+down at the pond it appears to be man (err creature) made.  Something had enough
+time to cut a nice hole in the ground here and trick some poor creatures around
+here to bleed for their blood pond.  The creatures must be getting bored.
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43119
+0 0
+D3
+~
+~
+0 -1 43117
+0 0
+S
+#43119
+Deep Underground~
+A bunch of skulls tied together by rope are hanging from the top of dugout walls
+here.  According to every other hidious sighting in this place, not only are the
+creatures here very barbaric, but they also have some strange artistic ability
+too.  Perhaps you can talk with them.....yeah sure....
+~
+0&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 43120
+0 0
+D2
+~
+~
+0 -1 43118
+0 0
+S
+#43120
+Deep Underground~
+Something is horribly wrong with this room, it doesn't smell of death.  It might
+be a good idea not to stay in this room for a very long time.  Then again, you could
+choose to rest here, die, and start to create a foul smell for this room.  That
+sounds like a grand plan right?
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43121
+0 0
+D1
+~
+~
+0 -1 43122
+0 0
+D2
+~
+~
+0 -1 43123
+0 0
+D3
+~
+~
+0 -1 43119
+0 0
+S
+#43121
+Deep Underground~
+Another beautiful room with blood splatters all over the ground and the dugout
+walls.  If you stand around for too long and start to think about it, you might
+end up like the others, dead and stuck here.  We wouldn't want that would we?
+~
+0&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 43120
+0 0
+S
+#43122
+Deep Underground~
+It appears some creature has left an ear sandwitch behind here.  A bunch of ears
+from various races and odd creatures has been shoves in some bread looking 
+material and was chewed on for a bit.  You know you want to go get you some of
+that!
+~
+0&2
+0 13
+0
+0
+D3
+~
+~
+0 -1 43120
+0 0
+S
+#43123
+Deep Underground~
+The screams seem to be increasing in volume here, almost as if they are coming
+from the dreaded dugout walls themself.  If the walls are screaming to get out
+of here, what does that say about your willingness to be here?  Then again these
+walls don't possess your undeniable power right?
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43120
+0 0
+D2
+~
+~
+0 -1 43124
+0 0
+S
+#43124
+Deep Underground~
+Something was nice enough to leave a stack of bodies here for you to admire.
+Looking more closely at the bodies you notice that the butcher has a rather
+odd artistic style because the bodies are lined up forming the word DEATH.  How
+nice of the citizens to leave you a friendly reminder.
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43123
+0 0
+D1
+~
+~
+0 -1 43125
+0 0
+S
+#43125
+Deep Underground~
+A strange breeze wisps around in this room.  This would be nice if it wasn't
+pushing all the horrible smells around and creating the horrible smell to
+end all horrible smells.  You probably won't be able to eat food properly after
+this experience, but when it comes to eating magic mushrooms there is not much
+to enjoy (why can't it be magic chocolate?)
+~
+0&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 43126
+0 0
+D3
+~
+~
+0 -1 43124
+0 0
+S
+#43126
+Deep Underground~
+Blood appears to be pouring down into a small pond at this very spot.  Looking
+down at the pond it appears to be man (err creature) made.  Something had enough
+time to cut a nice hole in the ground here and trick some poor creatures around
+here to bleed for their blood pond.  The creatures must be getting bored.
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43127
+0 0
+D3
+~
+~
+0 -1 43125
+0 0
+S
+#43127
+Deep Underground~
+A bunch of skulls tied together by rope are hanging from the top of dugout walls
+here.  According to every other hidious sighting in this place, not only are the
+creatures here very barbaric, but they also have some strange artistic ability
+too.  Perhaps you can talk with them.....yeah sure....
+~
+4&2
+0 13
+0
+0
+D0
+~
+~
+8389671 43004 43128
+0 0
+D2
+~
+~
+0 -1 43126
+0 0
+S
+#43128
+Deep Underground~
+Something is horribly wrong with this room, it doesn't smell of death.  It might
+be a good idea not to stay in this room for a very long time.  Then again, you could
+choose to rest here, die, and start to create a foul smell for this room.  That
+sounds like a grand plan right?
+~
+4&2
+0 13
+0
+0
+D2
+~
+~
+8389671 43004 43127
+0 0
+S
+#43129
+Deep Underground~
+Another beautiful room with blood splatters all over the ground and the dugout
+walls.  If you stand around for too long and start to think about it, you might
+end up like the others, dead and stuck here.  We wouldn't want that would we?
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43113
+0 0
+D2
+~
+~
+0 -1 43130
+0 0
+S
+#43130
+Deep Underground~
+The screams seem to be increasing in volume here, almost as if they are coming
+from the dreaded dugout walls themself.  If the walls are screaming to get out
+of here, what does that say about your willingness to be here?  Then again these
+walls don't possess your undeniable power right?
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43129
+0 0
+D2
+~
+~
+0 -1 43131
+0 0
+S
+#43131
+Deep Underground~
+Something was nice enough to leave a stack of bodies here for you to admire.
+Looking more closely at the bodies you notice that the butcher has a rather
+odd artistic style because the bodies are lined up forming the word DEATH.  How
+nice of the citizens to leave you a friendly reminder.
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43130
+0 0
+D1
+~
+~
+0 -1 43132
+0 0
+D2
+~
+~
+0 -1 43164
+0 0
+D3
+~
+~
+0 -1 43149
+0 0
+S
+#43132
+Deep Underground~
+A bunch of skulls tied together by rope are hanging from the top of dugout walls
+here.  According to every other hidious sighting in this place, not only are the
+creatures here very barbaric, but they also have some strange artistic ability
+too.  Perhaps you can talk with them.....yeah sure....
+~
+0&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 43133
+0 0
+D3
+~
+~
+0 -1 43131
+0 0
+S
+#43133
+Deep Underground~
+Something is horribly wrong with this room, it doesn't smell of death.  It might
+be a good idea not to stay in this room for a very long time.  Then again, you could
+choose to rest here, die, and start to create a foul smell for this room.  That
+sounds like a grand plan right?
+~
+0&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 43134
+0 0
+D3
+~
+~
+0 -1 43132
+0 0
+S
+#43134
+Deep Underground~
+It appears some creature has left an ear sandwitch behind here.  A bunch of ears
+from various races and odd creatures has been shoves in some bread looking 
+material and was chewed on for a bit.  You know you want to go get you some of
+that!
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43135
+0 0
+D1
+~
+~
+0 -1 43136
+0 0
+D2
+~
+~
+0 -1 43138
+0 0
+D3
+~
+~
+0 -1 43133
+0 0
+S
+#43135
+Deep Underground~
+Another beautiful room with blood splatters all over the ground and the dugout
+walls.  If you stand around for too long and start to think about it, you might
+end up like the others, dead and stuck here.  We wouldn't want that would we?
+~
+0&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 43137
+0 0
+D2
+~
+~
+0 -1 43134
+0 0
+S
+#43136
+Deep Underground~
+Something was nice enough to leave a stack of bodies here for you to admire.
+Looking more closely at the bodies you notice that the butcher has a rather
+odd artistic style because the bodies are lined up forming the word DEATH.  How
+nice of the citizens to leave you a friendly reminder.
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43137
+0 0
+D3
+~
+~
+0 -1 43134
+0 0
+S
+#43137
+Deep Underground~
+The screams seem to be increasing in volume here, almost as if they are coming
+from the dreaded dugout walls themself.  If the walls are screaming to get out
+of here, what does that say about your willingness to be here?  Then again these
+walls don't possess your undeniable power right?
+~
+0&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 43136
+0 0
+D3
+~
+~
+0 -1 43135
+0 0
+S
+#43138
+Deep Underground~
+A strange breeze wisps around in this room.  This would be nice if it wasn't
+pushing all the horrible smells around and creating the horrible smell to
+end all horrible smells.  You probably won't be able to eat food properly after
+this experience, but when it comes to eating magic mushrooms there is not much
+to enjoy (why can't it be magic chocolate?)
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43134
+0 0
+D1
+~
+~
+0 -1 43139
+0 0
+D2
+~
+~
+0 -1 43141
+0 0
+D3
+~
+~
+0 -1 43140
+0 0
+S
+#43139
+Deep Underground~
+A bunch of skulls tied together by rope are hanging from the top of dugout walls
+here.  According to every other hidious sighting in this place, not only are the
+creatures here very barbaric, but they also have some strange artistic ability
+too.  Perhaps you can talk with them.....yeah sure....
+~
+0&2
+0 13
+0
+0
+D3
+~
+~
+0 -1 43138
+0 0
+S
+#43140
+Deep Underground~
+Blood appears to be pouring down into a small pond at this very spot.  Looking
+down at the pond it appears to be man (err creature) made.  Something had enough
+time to cut a nice hole in the ground here and trick some poor creatures around
+here to bleed for their blood pond.  The creatures must be getting bored.
+~
+0&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 43138
+0 0
+S
+#43141
+Deep Underground~
+Something is horribly wrong with this room, it doesn't smell of death.  It might
+be a good idea not to stay in this room for a very long time.  Then again, you could
+choose to rest here, die, and start to create a foul smell for this room.  That
+sounds like a grand plan right?
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43138
+0 0
+D2
+~
+~
+0 -1 43142
+0 0
+S
+#43142
+Deep Underground~
+It appears some creature has left an ear sandwitch behind here.  A bunch of ears
+from various races and odd creatures has been shoves in some bread looking 
+material and was chewed on for a bit.  You know you want to go get you some of
+that!
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43141
+0 0
+D1
+~
+~
+0 -1 43143
+0 0
+S
+#43143
+Deep Underground~
+Another beautiful room with blood splatters all over the ground and the dugout
+walls.  If you stand around for too long and start to think about it, you might
+end up like the others, dead and stuck here.  We wouldn't want that would we?
+~
+0&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 43144
+0 0
+D3
+~
+~
+0 -1 43142
+0 0
+S
+#43144
+Deep Underground~
+The screams seem to be increasing in volume here, almost as if they are coming
+from the dreaded dugout walls themself.  If the walls are screaming to get out
+of here, what does that say about your willingness to be here?  Then again these
+walls don't possess your undeniable power right?
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43145
+0 0
+D3
+~
+~
+0 -1 43143
+0 0
+S
+#43145
+Deep Underground~
+Something was nice enough to leave a stack of bodies here for you to admire.
+Looking more closely at the bodies you notice that the butcher has a rather
+odd artistic style because the bodies are lined up forming the word DEATH.  How
+nice of the citizens to leave you a friendly reminder.
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43146
+0 0
+D1
+~
+~
+0 -1 43147
+0 0
+D2
+~
+~
+0 -1 43144
+0 0
+S
+#43146
+Deep Underground~
+A strange breeze wisps around in this room.  This would be nice if it wasn't
+pushing all the horrible smells around and creating the horrible smell to
+end all horrible smells.  You probably won't be able to eat food properly after
+this experience, but when it comes to eating magic mushrooms there is not much
+to enjoy (why can't it be magic chocolate?)
+~
+0&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 43145
+0 0
+S
+#43147
+Deep Underground~
+Blood appears to be pouring down into a small pond at this very spot.  Looking
+down at the pond it appears to be man (err creature) made.  Something had enough
+time to cut a nice hole in the ground here and trick some poor creatures around
+here to bleed for their blood pond.  The creatures must be getting bored.
+~
+4&2
+0 13
+0
+0
+D1
+~
+~
+8389671 43005 43148
+0 0
+D3
+~
+~
+0 -1 43145
+0 0
+S
+#43148
+Deep Underground~
+A bunch of skulls tied together by rope are hanging from the top of dugout walls
+here.  According to every other hidious sighting in this place, not only are the
+creatures here very barbaric, but they also have some strange artistic ability
+too.  Perhaps you can talk with them.....yeah sure....
+~
+4&2
+0 13
+0
+0
+D3
+~
+~
+8389671 43005 43147
+0 0
+S
+#43149
+Deep Underground~
+A strange breeze wisps around in this room.  This would be nice if it wasn't
+pushing all the horrible smells around and creating the horrible smell to
+end all horrible smells.  You probably won't be able to eat food properly after
+this experience, but when it comes to eating magic mushrooms there is not much
+to enjoy (why can't it be magic chocolate?)
+~
+0&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 43131
+0 0
+D3
+~
+~
+0 -1 43150
+0 0
+S
+#43150
+Deep Underground~
+Blood appears to be pouring down into a small pond at this very spot.  Looking
+down at the pond it appears to be man (err creature) made.  Something had enough
+time to cut a nice hole in the ground here and trick some poor creatures around
+here to bleed for their blood pond.  The creatures must be getting bored.
+~
+0&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 43149
+0 0
+D3
+~
+~
+0 -1 43151
+0 0
+S
+#43151
+Deep Underground~
+Another beautiful room with blood splatters all over the ground and the dugout
+walls.  If you stand around for too long and start to think about it, you might
+end up like the others, dead and stuck here.  We wouldn't want that would we?
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43152
+0 0
+D1
+~
+~
+0 -1 43150
+0 0
+S
+#43152
+Deep Underground~
+The screams seem to be increasing in volume here, almost as if they are coming
+from the dreaded dugout walls themself.  If the walls are screaming to get out
+of here, what does that say about your willingness to be here?  Then again these
+walls don't possess your undeniable power right?
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43153
+0 0
+D2
+~
+~
+0 -1 43151
+0 0
+S
+#43153
+Deep Underground~
+Something was nice enough to leave a stack of bodies here for you to admire.
+Looking more closely at the bodies you notice that the butcher has a rather
+odd artistic style because the bodies are lined up forming the word DEATH.  How
+nice of the citizens to leave you a friendly reminder.
+~
+0&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 43152
+0 0
+D3
+~
+~
+0 -1 43154
+0 0
+S
+#43154
+Deep Underground~
+A strange breeze wisps around in this room.  This would be nice if it wasn't
+pushing all the horrible smells around and creating the horrible smell to
+end all horrible smells.  You probably won't be able to eat food properly after
+this experience, but when it comes to eating magic mushrooms there is not much
+to enjoy (why can't it be magic chocolate?)
+~
+0&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 43153
+0 0
+D2
+~
+~
+0 -1 43155
+0 0
+S
+#43155
+Deep Underground~
+Blood appears to be pouring down into a small pond at this very spot.  Looking
+down at the pond it appears to be man (err creature) made.  Something had enough
+time to cut a nice hole in the ground here and trick some poor creatures around
+here to bleed for their blood pond.  The creatures must be getting bored.
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43154
+0 0
+D2
+~
+~
+0 -1 43156
+0 0
+S
+#43156
+Deep Underground~
+A bunch of skulls tied together by rope are hanging from the top of dugout walls
+here.  According to every other hidious sighting in this place, not only are the
+creatures here very barbaric, but they also have some strange artistic ability
+too.  Perhaps you can talk with them.....yeah sure....
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43155
+0 0
+D2
+~
+~
+0 -1 43157
+0 0
+S
+#43157
+Deep Underground~
+Something is horribly wrong with this room, it doesn't smell of death.  It might
+be a good idea not to stay in this room for a very long time.  Then again, you could
+choose to rest here, die, and start to create a foul smell for this room.  That
+sounds like a grand plan right?
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43156
+0 0
+D1
+~
+~
+0 -1 43158
+0 0
+D2
+~
+~
+0 -1 43160
+0 0
+S
+#43158
+Deep Underground~
+Another beautiful room with blood splatters all over the ground and the dugout
+walls.  If you stand around for too long and start to think about it, you might
+end up like the others, dead and stuck here.  We wouldn't want that would we?
+~
+0&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 43159
+0 0
+D3
+~
+~
+0 -1 43157
+0 0
+S
+#43159
+Deep Underground~
+The screams seem to be increasing in volume here, almost as if they are coming
+from the dreaded dugout walls themself.  If the walls are screaming to get out
+of here, what does that say about your willingness to be here?  Then again these
+walls don't possess your undeniable power right?
+~
+0&2
+0 13
+0
+0
+D3
+~
+~
+0 -1 43158
+0 0
+S
+#43160
+Deep Underground~
+It appears some creature has left an ear sandwitch behind here.  A bunch of ears
+from various races and odd creatures has been shoves in some bread looking 
+material and was chewed on for a bit.  You know you want to go get you some of
+that!
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43157
+0 0
+D2
+~
+~
+0 -1 43161
+0 0
+S
+#43161
+Deep Underground~
+Something was nice enough to leave a stack of bodies here for you to admire.
+Looking more closely at the bodies you notice that the butcher has a rather
+odd artistic style because the bodies are lined up forming the word DEATH.  How
+nice of the citizens to leave you a friendly reminder.
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43160
+0 0
+D1
+~
+~
+0 -1 43162
+0 0
+S
+#43162
+Deep Underground~
+A strange breeze wisps around in this room.  This would be nice if it wasn't
+pushing all the horrible smells around and creating the horrible smell to
+end all horrible smells.  You probably won't be able to eat food properly after
+this experience, but when it comes to eating magic mushrooms there is not much
+to enjoy (why can't it be magic chocolate?)
+~
+4&2
+0 13
+0
+0
+D1
+~
+~
+8389671 43008 43163
+0 0
+D3
+~
+~
+0 -1 43161
+0 0
+S
+#43163
+Deep Underground~
+Blood appears to be pouring down into a small pond at this very spot.  Looking
+down at the pond it appears to be man (err creature) made.  Something had enough
+time to cut a nice hole in the ground here and trick some poor creatures around
+here to bleed for their blood pond.  The creatures must be getting bored.
+~
+4&2
+0 13
+0
+0
+D3
+~
+~
+8389671 43008 43162
+0 0
+S
+#43164
+Deep Underground~
+Another beautiful room with blood splatters all over the ground and the dugout
+walls.  If you stand around for too long and start to think about it, you might
+end up like the others, dead and stuck here.  We wouldn't want that would we?
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43131
+0 0
+D2
+~
+~
+0 -1 43165
+0 0
+S
+#43165
+Deep Underground~
+The screams seem to be increasing in volume here, almost as if they are coming
+from the dreaded dugout walls themself.  If the walls are screaming to get out
+of here, what does that say about your willingness to be here?  Then again these
+walls don't possess your undeniable power right?
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43164
+0 0
+D1
+~
+~
+0 -1 43168
+0 0
+D2
+~
+~
+0 -1 43166
+0 0
+D3
+~
+~
+0 -1 43171
+0 0
+S
+#43166
+Deep Underground~
+Blood appears to be pouring down into a small pond at this very spot.  Looking
+down at the pond it appears to be man (err creature) made.  Something had enough
+time to cut a nice hole in the ground here and trick some poor creatures around
+here to bleed for their blood pond.  The creatures must be getting bored.
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43165
+0 0
+D1
+~
+~
+0 -1 43169
+0 0
+D2
+~
+~
+0 -1 43167
+0 0
+D3
+~
+~
+0 -1 43170
+0 0
+S
+#43167
+Deep Underground~
+It appears some creature has left an ear sandwitch behind here.  A bunch of ears
+from various races and odd creatures has been shoves in some bread looking 
+material and was chewed on for a bit.  You know you want to go get you some of
+that!
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43166
+0 0
+D2
+~
+~
+0 -1 43172
+0 0
+S
+#43168
+Deep Underground~
+Something is horribly wrong with this room, it doesn't smell of death.  It might
+be a good idea not to stay in this room for a very long time.  Then again, you could
+choose to rest here, die, and start to create a foul smell for this room.  That
+sounds like a grand plan right?
+~
+0&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 43169
+0 0
+D3
+~
+~
+0 -1 43165
+0 0
+S
+#43169
+Deep Underground~
+A bunch of skulls tied together by rope are hanging from the top of dugout walls
+here.  According to every other hidious sighting in this place, not only are the
+creatures here very barbaric, but they also have some strange artistic ability
+too.  Perhaps you can talk with them.....yeah sure....
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43168
+0 0
+D3
+~
+~
+0 -1 43166
+0 0
+S
+#43170
+Deep Underground~
+A strange breeze wisps around in this room.  This would be nice if it wasn't
+pushing all the horrible smells around and creating the horrible smell to
+end all horrible smells.  You probably won't be able to eat food properly after
+this experience, but when it comes to eating magic mushrooms there is not much
+to enjoy (why can't it be magic chocolate?)
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43171
+0 0
+D1
+~
+~
+0 -1 43166
+0 0
+S
+#43171
+Deep Underground~
+Something was nice enough to leave a stack of bodies here for you to admire.
+Looking more closely at the bodies you notice that the butcher has a rather
+odd artistic style because the bodies are lined up forming the word DEATH.  How
+nice of the citizens to leave you a friendly reminder.
+~
+0&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 43165
+0 0
+D2
+~
+~
+0 -1 43170
+0 0
+S
+#43172
+Deep Underground~
+Another beautiful room with blood splatters all over the ground and the dugout
+walls.  If you stand around for too long and start to think about it, you might
+end up like the others, dead and stuck here.  We wouldn't want that would we?
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43167
+0 0
+D1
+~
+~
+0 -1 43173
+0 0
+S
+#43173
+Deep Underground~
+The screams seem to be increasing in volume here, almost as if they are coming
+from the dreaded dugout walls themself.  If the walls are screaming to get out
+of here, what does that say about your willingness to be here?  Then again these
+walls don't possess your undeniable power right?
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43174
+0 0
+D1
+~
+~
+0 -1 43175
+0 0
+D3
+~
+~
+0 -1 43172
+0 0
+S
+#43174
+Deep Underground~
+Something was nice enough to leave a stack of bodies here for you to admire.
+Looking more closely at the bodies you notice that the butcher has a rather
+odd artistic style because the bodies are lined up forming the word DEATH.  How
+nice of the citizens to leave you a friendly reminder.
+~
+0&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 43173
+0 0
+S
+#43175
+Deep Underground~
+A strange breeze wisps around in this room.  This would be nice if it wasn't
+pushing all the horrible smells around and creating the horrible smell to
+end all horrible smells.  You probably won't be able to eat food properly after
+this experience, but when it comes to eating magic mushrooms there is not much
+to enjoy (why can't it be magic chocolate?)
+~
+0&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 43267
+0 0
+D2
+~
+~
+0 -1 43176
+0 0
+D3
+~
+~
+0 -1 43173
+0 0
+S
+#43176
+Deep Underground~
+Blood appears to be pouring down into a small pond at this very spot.  Looking
+down at the pond it appears to be man (err creature) made.  Something had enough
+time to cut a nice hole in the ground here and trick some poor creatures around
+here to bleed for their blood pond.  The creatures must be getting bored.
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 43175
+0 0
+S
+#43177
+Climbing toward the light~
+The light continues to shine as you lood upwards, downwards the dread
+that you passed through is still strong in your mind, can it be any
+worse up here?
+~
+0
+0 1
+0
+0
+D4
+~
+~
+128 -1 43178
+0 0
+D5
+~
+~
+128 -1 43073
+0 0
+S
+#43178
+Climbing toward the light~
+You can almost see the top of the climb from here, you must be climbing
+up toward the structure that you could see from the outside of this
+dungeon.
+~
+0
+0 1
+0
+0
+D4
+~
+~
+128 -1 43179
+0 0
+D5
+~
+~
+128 -1 43177
+0 0
+S
+#43179
+Climbing toward the light~
+Just a short distance and you will be at the top.  Below you, the light
+appears to be literally eaten by the darkness down below.
+~
+0
+0 1
+0
+0
+D4
+~
+~
+128 -1 43180
+0 0
+D5
+~
+~
+128 -1 43178
+0 0
+S
+#43180
+The light shines brightly~
+The light shines brightly from the sky, but looking closely you can see
+that it is not a natural light, not even a good light.  The light is an
+artificial light generated by something that can only be most evil.  Only
+DEATH and PAIN is up here, hope you are ready for it.
+~
+4&2
+0 0
+0
+0
+D2
+~
+~
+0 -1 43181
+0 0
+D5
+~
+~
+128 -1 43179
+0 0
+S
+#43181
+False Impressions~
+The evil light continues to shine all over offering a very erie feeling
+along with an oddly soothing one.  The area in this upper floor appears
+to be all artificial and consists of a grass like zone.  This would be
+great out in the openness of the wilderness, instead it just adds to the
+mystery of this horrible place.
+~
+4&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43180
+0 0
+D2
+~
+~
+0 -1 43182
+0 0
+S
+#43182
+A path begins~
+A small path starts here that can only lead deep into this foul zone.
+The smell that you thought you could forget it starting to creep back
+into the area destroying any hope of getting through this without any
+bumps and bruises.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43181
+0 0
+D1
+~
+~
+0 -1 43183
+0 0
+S
+#43183
+The path continues~
+The path continues to cut deep into this foul area.  The air continues
+to gain more of the stench you learned to love down below.  It is oddly
+quiet though and that silence can only be the kind that arrives before
+the storm.  Hope your armor is nice and solid.
+~
+0&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 43184
+0 0
+D3
+~
+~
+0 -1 43182
+0 0
+S
+#43184
+The path continues~
+Ah a familiar site, a rotting corpse is here as a reminder of what is
+to come.  It looks like the poor bastard had part of his head chewed off
+and it appears to be placed nice and cleanly on the other side of the
+room.  It looks like your company is looking for some fun!
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43185
+0 0
+D3
+~
+~
+0 -1 43183
+0 0
+S
+#43185
+The path winds...~
+The path begins to wind here leading to something most foul toward the
+southeast.  It can only be something big, nasty, and quite foul.  It
+is a good idea to be ready for anything and everything because you will
+soon be meeting face to face with it.
+~
+0&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 43186
+0 0
+D2
+~
+~
+0 -1 43184
+0 0
+S
+#43186
+The path winds to the south~
+The path cuts to the south.  From here you can hear the sounds of foul
+creates discussing their intentions toward something, hopefully they
+have not found out that you are here.  From the sounds of it there are
+quite a few of them and they are not here to share war stories.
+~
+0&2
+0 2
+0
+0
+D2
+~
+~
+0 -1 43187
+0 0
+D3
+~
+~
+0 -1 43185
+0 0
+S
+#43187
+Coming before a giant door~
+From here you can see a giant door that is blocking entry into the rest
+of this artificial slaughterfest.  The horrible sounds of below are starting
+to increase the the foul smell is attacking like that 4th enemy that you can
+never see.  The sounds of footsteps can be hard coming from around the door
+along with a lot of grunting.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43186
+0 0
+D2
+~
+~
+0 -1 43188
+0 0
+S
+#43188
+Before the giant door~
+Just to the east the giant door that blocks entry into what can only be
+another maze stands firm as anything you seen down below.  A giant creature
+with big pointy teeth is also standing just as firm and stern as the door.
+It looks like the only way through is to fight the creature, what else is
+new right?
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43187
+0 0
+D1
+~
+~
+0 -1 43189
+0 0
+S
+#43189
+Before the Giant Door~
+The door that allows access to the rest of the maze is directly in front
+of you.  Also directly in front of you is the horrible creature that has
+been placed here to prevent any further access into this horrible place.
+In order to get in you are going to have to drop the big, nasty creature
+and get the key from its rotting corpse.
+~
+4&2
+0 2
+0
+0
+D1
+~
+~
+8389665 43010 43269
+0 0
+D3
+~
+~
+0 -1 43188
+0 0
+S
+#43190
+On the artificial path~
+The light shines down here and in an act of evil is shining a spot light on
+the 6 dead bodies here.  Perhaps this evil place is trying to tell you a
+little something, GET THE HELL OUT!!!  Well, you have made it this far and
+leaving is not really an option now, is it?
+~
+0&2
+0 2
+0
+0
+D2
+~
+~
+0 -1 43269
+0 0
+D6
+~
+~
+0 -1 43191
+0 0
+S
+#43191
+On the artificial path~
+The light seems to dim in the room leaving a very undesired affect of
+spooking anything that enters the room.  A few shadows can be seen here
+but just as soon as they are seen they disappear back out of site.  It
+might be a good idea not to stay here for a very long time.
+~
+0&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 43192
+0 0
+D9
+~
+~
+0 -1 43190
+0 0
+S
+#43192
+On the artificial path~
+Screams can be heard coming from all directions even from above.  The
+sounds sound like they are coming from some creature with a grasp of
+the common language, instead of the devilish one that this foul minions
+speak in.  The words are however barely recognizable due to what appears
+a section of each of the poor soul's tongue being cut off.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43193
+0 0
+D1
+~
+~
+0 -1 43195
+0 0
+D2
+~
+~
+0 -1 43194
+0 0
+D3
+~
+~
+0 -1 43191
+0 0
+S
+#43193
+On the artificial path~
+A very beautiful message has been painted in blood on the wall.  The message
+reads, "Anyone that continues will find a dagger in their back".  It is funny
+because similiar messages have appeared all over down below and so far you
+are breathing...well atleast for now that is.
+~
+0&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 43196
+0 0
+D2
+~
+~
+0 -1 43192
+0 0
+S
+#43194
+On the artificial path~
+An odd quietness fills this area.  For a second it feels refreshing but it can
+only mean something most foul and evil is waiting in the next room.  Now might
+be a good time to get ready for it, but standing around for too long can only
+mean certain death that or an interesting story...
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43192
+0 0
+D1
+~
+~
+0 -1 43197
+0 0
+S
+#43195
+On the artificial path~
+Drops of blood drip from above, hell they even shine from the pristine light as
+they drop to the ground.  Apparently the last poor individual here was watching
+the dripping a little too much and didn't notice the creature that was there to
+add his body to the large collection of its.  It might be a good idea to learn
+from that poor soul's mistakes and leave this place quickly.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43196
+0 0
+D1
+~
+~
+0 -1 43198
+0 0
+D2
+~
+~
+0 -1 43197
+0 0
+D3
+~
+~
+0 -1 43192
+0 0
+S
+#43196
+On the artificial path~
+A very strange thing can be heard from here, the devilish creatures singing in
+their foul language.  It is hard to understand what is going on, but by the
+sounds of the screaming and what appears to be laughter and cheering, it appears
+the creatures are having a fun time with some poor creature.
+~
+0&2
+0 2
+0
+0
+D2
+~
+~
+0 -1 43195
+0 0
+D3
+~
+~
+0 -1 43193
+0 0
+S
+#43197
+On the artificial path~
+Giant spikes made out of bones of various races have been carefully planted in
+the ground.  On top of them are future spikes to be made into an even larger
+monument to the evil of this place.  The creatures here are very artistic in
+their ways of dispatching their foes.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43195
+0 0
+D3
+~
+~
+0 -1 43194
+0 0
+S
+#43198
+On the artificial path~
+The light shines down here and in an act of evil is shining a spot light on
+the 6 dead bodies here.  Perhaps this evil place is trying to tell you a
+little something, GET THE HELL OUT!!!  Well, you have made it this far and
+leaving is not really an option now, is it?
+~
+0&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 43199
+0 0
+D3
+~
+~
+0 -1 43195
+0 0
+S
+#43199
+On the artificial path~
+The light seems to dim in the room leaving a very undesired affect of
+spooking anything that enters the room.  A few shadows can be seen here
+but just as soon as they are seen they disappear back out of site.  It
+might be a good idea not to stay here for a very long time.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43200
+0 0
+D1
+~
+~
+0 -1 43201
+0 0
+D3
+~
+~
+0 -1 43198
+0 0
+S
+#43200
+On the artificial path~
+Screams can be heard coming from all directions even from above.  The
+sounds sound like they are coming from some creature with a grasp of
+the common language, instead of the devilish one that this foul minions
+speak in.  The words are however barely recognizable due to what appears
+a section of each of the poor soul's tongue being cut off.
+~
+0&2
+0 2
+0
+0
+D2
+~
+~
+0 -1 43199
+0 0
+S
+#43201
+On the artificial path~
+A very beautiful message has been painted in blood on the wall.  The message
+reads, "Anyone that continues will find a dagger in their back".  It is funny
+because similiar messages have appeared all over down below and so far you
+are breathing...well atleast for now that is.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43202
+0 0
+D1
+~
+~
+0 -1 43203
+0 0
+D2
+~
+~
+0 -1 43204
+0 0
+D3
+~
+~
+0 -1 43199
+0 0
+S
+#43202
+On the artificial path~
+A very strange thing can be heard from here, the devilish creatures singing in
+their foul language.  It is hard to understand what is going on, but by the
+sounds of the screaming and what appears to be laughter and cheering, it appears
+the creatures are having a fun time with some poor creature.
+~
+0&2
+0 2
+0
+0
+D2
+~
+~
+0 -1 43201
+0 0
+S
+#43203
+On the artificial path~
+Drops of blood drip from above, hell they even shine from the pristine light as
+they drop to the ground.  Apparently the last poor individual here was watching
+the dripping a little too much and didn't notice the creature that was there to
+add his body to the large collection of its.  It might be a good idea to learn
+from that poor soul's mistakes and leave this place quickly.
+~
+0&2
+0 2
+0
+0
+D3
+~
+~
+0 -1 43201
+0 0
+S
+#43204
+On the artificial path~
+Giant spikes made out of bones of various races have been carefully planted in
+the ground.  On top of them are future spikes to be made into an even larger
+monument to the evil of this place.  The creatures here are very artistic in
+their ways of dispatching their foes.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43201
+0 0
+D2
+~
+~
+0 -1 43205
+0 0
+S
+#43205
+On the artificial path~
+An odd quietness fills this area.  For a second it feels refreshing but it can
+only mean something most foul and evil is waiting in the next room.  Now might
+be a good time to get ready for it, but standing around for too long can only
+mean certain death that or an interesting story...
+~
+4&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43204
+0 0
+D1
+~
+~
+8389671 43014 43206
+0 0
+S
+#43206
+On the artificial path~
+The light seems to dim in the room leaving a very undesired affect of
+spooking anything that enters the room.  A few shadows can be seen here
+but just as soon as they are seen they disappear back out of site.  It
+might be a good idea not to stay here for a very long time.
+~
+4&2
+0 2
+0
+0
+D3
+~
+~
+8389671 43014 43205
+0 0
+S
+#43207
+On the artificial path~
+The light shines down here and in an act of evil is shining a spot light on
+the 6 dead bodies here.  Perhaps this evil place is trying to tell you a
+little something, GET THE HELL OUT!!!  Well, you have made it this far and
+leaving is not really an option now, is it?
+~
+0&2
+0 2
+0
+0
+D2
+~
+~
+0 -1 43208
+0 0
+D3
+~
+~
+0 -1 43269
+0 0
+S
+#43208
+On the artificial path~
+The light seems to dim in the room leaving a very undesired affect of
+spooking anything that enters the room.  A few shadows can be seen here
+but just as soon as they are seen they disappear back out of site.  It
+might be a good idea not to stay here for a very long time.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43207
+0 0
+D1
+~
+~
+0 -1 43209
+0 0
+S
+#43209
+On the artificial path~
+Screams can be heard coming from all directions even from above.  The
+sounds sound like they are coming from some creature with a grasp of
+the common language, instead of the devilish one that this foul minions
+speak in.  The words are however barely recognizable due to what appears
+a section of each of the poor soul's tongue being cut off.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43210
+0 0
+D1
+~
+~
+0 -1 43215
+0 0
+D2
+~
+~
+0 -1 43211
+0 0
+D3
+~
+~
+0 -1 43208
+0 0
+S
+#43210
+On the artificial path~
+A very beautiful message has been painted in blood on the wall.  The message
+reads, "Anyone that continues will find a dagger in their back".  It is funny
+because similiar messages have appeared all over down below and so far you
+are breathing...well atleast for now that is.
+~
+0&2
+0 2
+0
+0
+D2
+~
+~
+0 -1 43209
+0 0
+S
+#43211
+On the artificial path~
+A very strange thing can be heard from here, the devilish creatures singing in
+their foul language.  It is hard to understand what is going on, but by the
+sounds of the screaming and what appears to be laughter and cheering, it appears
+the creatures are having a fun time with some poor creature.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43209
+0 0
+D2
+~
+~
+0 -1 43212
+0 0
+S
+#43212
+On the artificial path~
+Drops of blood drip from above, hell they even shine from the pristine light as
+they drop to the ground.  Apparently the last poor individual here was watching
+the dripping a little too much and didn't notice the creature that was there to
+add his body to the large collection of its.  It might be a good idea to learn
+from that poor soul's mistakes and leave this place quickly.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43211
+0 0
+D1
+~
+~
+0 -1 43213
+0 0
+D2
+~
+~
+0 -1 43214
+0 0
+S
+#43213
+On the artificial path~
+Giant spikes made out of bones of various races have been carefully planted in
+the ground.  On top of them are future spikes to be made into an even larger
+monument to the evil of this place.  The creatures here are very artistic in
+their ways of dispatching their foes.
+~
+0&2
+0 2
+0
+0
+D3
+~
+~
+0 -1 43212
+0 0
+S
+#43214
+On the artificial path~
+An odd quietness fills this area.  For a second it feels refreshing but it can
+only mean something most foul and evil is waiting in the next room.  Now might
+be a good time to get ready for it, but standing around for too long can only
+mean certain death that or an interesting story...
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43212
+0 0
+S
+#43215
+On the artificial path~
+The light shines down here and in an act of evil is shining a spot light on
+the 6 dead bodies here.  Perhaps this evil place is trying to tell you a
+little something, GET THE HELL OUT!!!  Well, you have made it this far and
+leaving is not really an option now, is it?
+~
+0&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 43216
+0 0
+D3
+~
+~
+0 -1 43209
+0 0
+S
+#43216
+On the artificial path~
+The light seems to dim in the room leaving a very undesired affect of
+spooking anything that enters the room.  A few shadows can be seen here
+but just as soon as they are seen they disappear back out of site.  It
+might be a good idea not to stay here for a very long time.
+~
+0&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 43217
+0 0
+D3
+~
+~
+0 -1 43215
+0 0
+S
+#43217
+On the artificial path~
+Screams can be heard coming from all directions even from above.  The
+sounds sound like they are coming from some creature with a grasp of
+the common language, instead of the devilish one that this foul minions
+speak in.  The words are however barely recognizable due to what appears
+a section of each of the poor soul's tongue being cut off.
+A very beautiful message has been painted in blood on the wall.  The message
+reads, "Anyone that continues will find a dagger in their back".  It is funny
+because similiar messages have appeared all over down below and so far you
+are breathing...well atleast for now that is.
+~
+0&2
+0 2
+0
+0
+D2
+~
+~
+0 -1 43218
+0 0
+D3
+~
+~
+0 -1 43216
+0 0
+S
+#43218
+On the artificial path~
+A very strange thing can be heard from here, the devilish creatures singing in
+their foul language.  It is hard to understand what is going on, but by the
+sounds of the screaming and what appears to be laughter and cheering, it appears
+the creatures are having a fun time with some poor creature.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43217
+0 0
+D1
+~
+~
+0 -1 43219
+0 0
+D2
+~
+~
+0 -1 43220
+0 0
+S
+#43219
+On the artificial path~
+Drops of blood drip from above, hell they even shine from the pristine light as
+they drop to the ground.  Apparently the last poor individual here was watching
+the dripping a little too much and didn't notice the creature that was there to
+add his body to the large collection of its.  It might be a good idea to learn
+from that poor soul's mistakes and leave this place quickly.
+~
+0&2
+0 2
+0
+0
+D3
+~
+~
+0 -1 43218
+0 0
+S
+#43220
+On the artificial path~
+Giant spikes made out of bones of various races have been carefully planted in
+the ground.  On top of them are future spikes to be made into an even larger
+monument to the evil of this place.  The creatures here are very artistic in
+their ways of dispatching their foes.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43218
+0 0
+D2
+~
+~
+0 -1 43221
+0 0
+S
+#43221
+On the artificial path~
+An odd quietness fills this area.  For a second it feels refreshing but it can
+only mean something most foul and evil is waiting in the next room.  Now might
+be a good time to get ready for it, but standing around for too long can only
+mean certain death that or an interesting story...
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43220
+0 0
+D1
+~
+~
+0 -1 43222
+0 0
+S
+#43222
+On the artificial path~
+The light shines down here and in an act of evil is shining a spot light on
+the 6 dead bodies here.  Perhaps this evil place is trying to tell you a
+little something, GET THE HELL OUT!!!  Well, you have made it this far and
+leaving is not really an option now, is it?
+~
+0&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 43223
+0 0
+D3
+~
+~
+0 -1 43221
+0 0
+S
+#43223
+On the artificial path~
+The light seems to dim in the room leaving a very undesired affect of
+spooking anything that enters the room.  A few shadows can be seen here
+but just as soon as they are seen they disappear back out of site.  It
+might be a good idea not to stay here for a very long time.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43224
+0 0
+D3
+~
+~
+0 -1 43222
+0 0
+S
+#43224
+On the artificial path~
+Screams can be heard coming from all directions even from above.  The
+sounds sound like they are coming from some creature with a grasp of
+the common language, instead of the devilish one that this foul minions
+speak in.  The words are however barely recognizable due to what appears
+a section of each of the poor soul's tongue being cut off.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43225
+0 0
+D2
+~
+~
+0 -1 43223
+0 0
+S
+#43225
+On the artificial path~
+A very beautiful message has been painted in blood on the wall.  The message
+reads, "Anyone that continues will find a dagger in their back".  It is funny
+because similiar messages have appeared all over down below and so far you
+are breathing...well atleast for now that is.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43227
+0 0
+D1
+~
+~
+0 -1 43226
+0 0
+D2
+~
+~
+0 -1 43224
+0 0
+S
+#43226
+On the artificial path~
+A very strange thing can be heard from here, the devilish creatures singing in
+their foul language.  It is hard to understand what is going on, but by the
+sounds of the screaming and what appears to be laughter and cheering, it appears
+the creatures are having a fun time with some poor creature.
+~
+0&2
+0 2
+0
+0
+D3
+~
+~
+0 -1 43225
+0 0
+S
+#43227
+On the artificial path~
+Drops of blood drip from above, hell they even shine from the pristine light as
+they drop to the ground.  Apparently the last poor individual here was watching
+the dripping a little too much and didn't notice the creature that was there to
+add his body to the large collection of its.  It might be a good idea to learn
+from that poor soul's mistakes and leave this place quickly.
+~
+4&2
+0 2
+0
+0
+D0
+~
+~
+8389671 43013 43228
+0 0
+D2
+~
+~
+0 -1 43225
+0 0
+S
+#43228
+On the artificial path~
+Giant spikes made out of bones of various races have been carefully planted in
+the ground.  On top of them are future spikes to be made into an even larger
+monument to the evil of this place.  The creatures here are very artistic in
+their ways of dispatching their foes.
+~
+4&2
+0 2
+0
+0
+D2
+~
+~
+8389671 43013 43227
+0 0
+S
+#43229
+On the artificial path~
+The light shines down here and in an act of evil is shining a spot light on
+the 6 dead bodies here.  Perhaps this evil place is trying to tell you a
+little something, GET THE HELL OUT!!!  Well, you have made it this far and
+leaving is not really an option now, is it?
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43269
+0 0
+D2
+~
+~
+0 -1 43230
+0 0
+S
+#43230
+On the artificial path~
+The light seems to dim in the room leaving a very undesired affect of
+spooking anything that enters the room.  A few shadows can be seen here
+but just as soon as they are seen they disappear back out of site.  It
+might be a good idea not to stay here for a very long time.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43229
+0 0
+D2
+~
+~
+0 -1 43231
+0 0
+S
+#43231
+On the artificial path~
+Screams can be heard coming from all directions even from above.  The
+sounds sound like they are coming from some creature with a grasp of
+the common language, instead of the devilish one that this foul minions
+speak in.  The words are however barely recognizable due to what appears
+a section of each of the poor soul's tongue being cut off.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43230
+0 0
+D2
+~
+~
+0 -1 43248
+0 0
+D3
+~
+~
+0 -1 43232
+0 0
+S
+#43232
+On the artificial path~
+A very beautiful message has been painted in blood on the wall.  The message
+reads, "Anyone that continues will find a dagger in their back".  It is funny
+because similiar messages have appeared all over down below and so far you
+are breathing...well atleast for now that is.
+~
+0&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 43231
+0 0
+D3
+~
+~
+0 -1 43234
+0 0
+S
+#43233
+On the artificial path~
+~
+4
+0 1
+0
+0
+S
+#43234
+On the artificial path~
+A very strange thing can be heard from here, the devilish creatures singing in
+their foul language.  It is hard to understand what is going on, but by the
+sounds of the screaming and what appears to be laughter and cheering, it appears
+the creatures are having a fun time with some poor creature.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43235
+0 0
+D1
+~
+~
+0 -1 43232
+0 0
+D3
+~
+~
+0 -1 43239
+0 0
+S
+#43235
+On the artificial path~
+Drops of blood drip from above, hell they even shine from the pristine light as
+they drop to the ground.  Apparently the last poor individual here was watching
+the dripping a little too much and didn't notice the creature that was there to
+add his body to the large collection of its.  It might be a good idea to learn
+from that poor soul's mistakes and leave this place quickly.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43236
+0 0
+D2
+~
+~
+0 -1 43234
+0 0
+S
+#43236
+On the artificial path~
+Giant spikes made out of bones of various races have been carefully planted in
+the ground.  On top of them are future spikes to be made into an even larger
+monument to the evil of this place.  The creatures here are very artistic in
+their ways of dispatching their foes.
+~
+0&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 43237
+0 0
+D2
+~
+~
+0 -1 43235
+0 0
+S
+#43237
+On the artificial path~
+An odd quietness fills this area.  For a second it feels refreshing but it can
+only mean something most foul and evil is waiting in the next room.  Now might
+be a good time to get ready for it, but standing around for too long can only
+mean certain death that or an interesting story...
+~
+0&2
+0 2
+0
+0
+D2
+~
+~
+0 -1 43238
+0 0
+D3
+~
+~
+0 -1 43236
+0 0
+S
+#43238
+On the artificial path~
+A very beautiful message has been painted in blood on the wall.  The message
+reads, "Anyone that continues will find a dagger in their back".  It is funny
+because similiar messages have appeared all over down below and so far you
+are breathing...well atleast for now that is.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43237
+0 0
+S
+#43239
+On the artificial path~
+The light shines down here and in an act of evil is shining a spot light on
+the 6 dead bodies here.  Perhaps this evil place is trying to tell you a
+little something, GET THE HELL OUT!!!  Well, you have made it this far and
+leaving is not really an option now, is it?
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43240
+0 0
+D1
+~
+~
+0 -1 43234
+0 0
+D2
+~
+~
+0 -1 43241
+0 0
+D3
+~
+~
+0 -1 43242
+0 0
+S
+#43240
+On the artificial path~
+The light seems to dim in the room leaving a very undesired affect of
+spooking anything that enters the room.  A few shadows can be seen here
+but just as soon as they are seen they disappear back out of site.  It
+might be a good idea not to stay here for a very long time.
+~
+0&2
+0 2
+0
+0
+D2
+~
+~
+0 -1 43239
+0 0
+S
+#43241
+On the artificial path~
+Screams can be heard coming from all directions even from above.  The
+sounds sound like they are coming from some creature with a grasp of
+the common language, instead of the devilish one that this foul minions
+speak in.  The words are however barely recognizable due to what appears
+a section of each of the poor soul's tongue being cut off.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43239
+0 0
+S
+#43242
+On the artificial path~
+A very beautiful message has been painted in blood on the wall.  The message
+reads, "Anyone that continues will find a dagger in their back".  It is funny
+because similiar messages have appeared all over down below and so far you
+are breathing...well atleast for now that is.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43243
+0 0
+D1
+~
+~
+0 -1 43239
+0 0
+D2
+~
+~
+0 -1 43247
+0 0
+S
+#43243
+On the artificial path~
+Drops of blood drip from above, hell they even shine from the pristine light as
+they drop to the ground.  Apparently the last poor individual here was watching
+the dripping a little too much and didn't notice the creature that was there to
+add his body to the large collection of its.  It might be a good idea to learn
+from that poor soul's mistakes and leave this place quickly.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43244
+0 0
+D2
+~
+~
+0 -1 43242
+0 0
+S
+#43244
+On the artificial path~
+The light seems to dim in the room leaving a very undesired affect of
+spooking anything that enters the room.  A few shadows can be seen here
+but just as soon as they are seen they disappear back out of site.  It
+might be a good idea not to stay here for a very long time.
+~
+0&2
+0 2
+0
+0
+D2
+~
+~
+0 -1 43243
+0 0
+D3
+~
+~
+0 -1 43245
+0 0
+S
+#43245
+On the artificial path~
+A very beautiful message has been painted in blood on the wall.  The message
+reads, "Anyone that continues will find a dagger in their back".  It is funny
+because similiar messages have appeared all over down below and so far you
+are breathing...well atleast for now that is.
+~
+4&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 43244
+0 0
+D2
+~
+~
+8389671 43011 43246
+0 0
+S
+#43246
+On the artificial path~
+Screams can be heard coming from all directions even from above.  The
+sounds sound like they are coming from some creature with a grasp of
+the common language, instead of the devilish one that this foul minions
+speak in.  The words are however barely recognizable due to what appears
+a section of each of the poor soul's tongue being cut off.
+~
+4&2
+0 2
+0
+0
+D0
+~
+~
+8389671 43011 43245
+0 0
+S
+#43247
+On the artificial path~
+A very strange thing can be heard from here, the devilish creatures singing in
+their foul language.  It is hard to understand what is going on, but by the
+sounds of the screaming and what appears to be laughter and cheering, it appears
+the creatures are having a fun time with some poor creature.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43242
+0 0
+S
+#43248
+On the artificial path~
+The light shines down here and in an act of evil is shining a spot light on
+the 6 dead bodies here.  Perhaps this evil place is trying to tell you a
+little something, GET THE HELL OUT!!!  Well, you have made it this far and
+leaving is not really an option now, is it?
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43231
+0 0
+D2
+~
+~
+0 -1 43249
+0 0
+S
+#43249
+On the artificial path~
+The light seems to dim in the room leaving a very undesired affect of
+spooking anything that enters the room.  A few shadows can be seen here
+but just as soon as they are seen they disappear back out of site.  It
+might be a good idea not to stay here for a very long time.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43248
+0 0
+D2
+~
+~
+0 -1 43250
+0 0
+S
+#43250
+On the artificial path~
+Screams can be heard coming from all directions even from above.  The
+sounds sound like they are coming from some creature with a grasp of
+the common language, instead of the devilish one that this foul minions
+speak in.  The words are however barely recognizable due to what appears
+a section of each of the poor soul's tongue being cut off.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43249
+0 0
+D1
+~
+~
+0 -1 43251
+0 0
+S
+#43251
+On the artificial path~
+A very beautiful message has been painted in blood on the wall.  The message
+reads, "Anyone that continues will find a dagger in their back".  It is funny
+because similiar messages have appeared all over down below and so far you
+are breathing...well atleast for now that is.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43252
+0 0
+D2
+~
+~
+0 -1 43256
+0 0
+D3
+~
+~
+0 -1 43250
+0 0
+S
+#43252
+On the artificial path~
+A very strange thing can be heard from here, the devilish creatures singing in
+their foul language.  It is hard to understand what is going on, but by the
+sounds of the screaming and what appears to be laughter and cheering, it appears
+the creatures are having a fun time with some poor creature.
+~
+0&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 43253
+0 0
+D2
+~
+~
+0 -1 43251
+0 0
+S
+#43253
+On the artificial path~
+Drops of blood drip from above, hell they even shine from the pristine light as
+they drop to the ground.  Apparently the last poor individual here was watching
+the dripping a little too much and didn't notice the creature that was there to
+add his body to the large collection of its.  It might be a good idea to learn
+from that poor soul's mistakes and leave this place quickly.
+~
+0&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 43254
+0 0
+D3
+~
+~
+0 -1 43252
+0 0
+S
+#43254
+On the artificial path~
+Giant spikes made out of bones of various races have been carefully planted in
+the ground.  On top of them are future spikes to be made into an even larger
+monument to the evil of this place.  The creatures here are very artistic in
+their ways of dispatching their foes.
+~
+0&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 43255
+0 0
+D3
+~
+~
+0 -1 43253
+0 0
+S
+#43255
+On the artificial path~
+An odd quietness fills this area.  For a second it feels refreshing but it can
+only mean something most foul and evil is waiting in the next room.  Now might
+be a good time to get ready for it, but standing around for too long can only
+mean certain death that or an interesting story...
+~
+0&2
+0 2
+0
+0
+D3
+~
+~
+0 -1 43254
+0 0
+S
+#43256
+On the artificial path~
+The light shines down here and in an act of evil is shining a spot light on
+the 6 dead bodies here.  Perhaps this evil place is trying to tell you a
+little something, GET THE HELL OUT!!!  Well, you have made it this far and
+leaving is not really an option now, is it?
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43251
+0 0
+D2
+~
+~
+0 -1 43257
+0 0
+S
+#43257
+On the artificial path~
+The light seems to dim in the room leaving a very undesired affect of
+spooking anything that enters the room.  A few shadows can be seen here
+but just as soon as they are seen they disappear back out of site.  It
+might be a good idea not to stay here for a very long time.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43256
+0 0
+D1
+~
+~
+0 -1 43258
+0 0
+D2
+~
+~
+0 -1 43260
+0 0
+D3
+~
+~
+0 -1 43261
+0 0
+S
+#43258
+On the artificial path~
+Screams can be heard coming from all directions even from above.  The
+sounds sound like they are coming from some creature with a grasp of
+the common language, instead of the devilish one that this foul minions
+speak in.  The words are however barely recognizable due to what appears
+a section of each of the poor soul's tongue being cut off.
+~
+0&2
+0 2
+0
+0
+D2
+~
+~
+0 -1 43259
+0 0
+D3
+~
+~
+0 -1 43257
+0 0
+S
+#43259
+On the artificial path~
+A very beautiful message has been painted in blood on the wall.  The message
+reads, "Anyone that continues will find a dagger in their back".  It is funny
+because similiar messages have appeared all over down below and so far you
+are breathing...well atleast for now that is.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43258
+0 0
+S
+#43260
+On the artificial path~
+A very strange thing can be heard from here, the devilish creatures singing in
+their foul language.  It is hard to understand what is going on, but by the
+sounds of the screaming and what appears to be laughter and cheering, it appears
+the creatures are having a fun time with some poor creature.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43257
+0 0
+S
+#43261
+On the artificial path~
+Drops of blood drip from above, hell they even shine from the pristine light as
+they drop to the ground.  Apparently the last poor individual here was watching
+the dripping a little too much and didn't notice the creature that was there to
+add his body to the large collection of its.  It might be a good idea to learn
+from that poor soul's mistakes and leave this place quickly.
+~
+0&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 43257
+0 0
+D3
+~
+~
+0 -1 43263
+0 0
+S
+#43262
+On the artificial path~
+~
+4
+0 1
+0
+0
+S
+#43263
+On the artificial path~
+Giant spikes made out of bones of various races have been carefully planted in
+the ground.  On top of them are future spikes to be made into an even larger
+monument to the evil of this place.  The creatures here are very artistic in
+their ways of dispatching their foes.
+~
+0&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 43261
+0 0
+D3
+~
+~
+0 -1 43264
+0 0
+S
+#43264
+On the artificial path~
+An odd quietness fills this area.  For a second it feels refreshing but it can
+only mean something most foul and evil is waiting in the next room.  Now might
+be a good time to get ready for it, but standing around for too long can only
+mean certain death that or an interesting story...
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43265
+0 0
+D1
+~
+~
+0 -1 43263
+0 0
+S
+#43265
+On the artificial path~
+A very beautiful message has been painted in blood on the wall.  The message
+reads, "Anyone that continues will find a dagger in their back".  It is funny
+because similiar messages have appeared all over down below and so far you
+are breathing...well atleast for now that is.
+~
+4&2
+0 2
+0
+0
+D0
+~
+~
+8389671 43012 43266
+0 0
+D2
+~
+~
+0 -1 43264
+0 0
+S
+#43266
+On the artificial path~
+Screams can be heard coming from all directions even from above.  The
+sounds sound like they are coming from some creature with a grasp of
+the common language, instead of the devilish one that this foul minions
+speak in.  The words are however barely recognizable due to what appears
+a section of each of the poor soul's tongue being cut off.
+~
+4&2
+0 2
+0
+0
+D2
+~
+~
+8389671 43012 43265
+0 0
+S
+#43267
+Deep Underground~
+A bunch of skulls tied together by rope are hanging from the top of dugout walls
+here.  According to every other hidious sighting in this place, not only are the
+creatures here very barbaric, but they also have some strange artistic ability
+too.  Perhaps you can talk with them.....yeah sure....
+~
+4&2
+0 13
+0
+0
+D1
+~
+~
+8389671 43007 43268
+0 0
+D3
+~
+~
+0 -1 43175
+0 0
+S
+#43268
+Deep Underground~
+Something is horribly wrong with this room, it doesn't smell of death.  It might
+be a good idea not to stay in this room for a very long time.  Then again, you could
+choose to rest here, die, and start to create a foul smell for this room.  That
+sounds like a grand plan right?
+~
+4&2
+0 13
+0
+0
+D3
+~
+~
+8389671 43007 43267
+0 0
+S
+#43269
+The maze shows its face~
+The maze can be seen now that the door is now behind you.  All sorts of
+nasty sounds can be heard that was being muffled out by the door.  Also,
+the smell appears to be even more putrid than it was before even more so
+than it was down below.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 43190
+0 0
+D1
+~
+~
+0 -1 43207
+0 0
+D2
+~
+~
+0 -1 43229
+0 0
+D3
+~
+~
+8389665 43010 43189
+0 0
+S
+#43299
+Floating in a void~
+~
+4
+0 1
+0
+0
+S
+#0
+
+
+#RESETS
+M 1 43000 1 43002 -1 -1 -1 0 0
+M 1 43001 1 43003 -1 -1 -1 0 0
+M 1 43002 1 43004 -1 -1 -1 0 0
+M 1 43001 1 43005 -1 -1 -1 0 0
+M 1 43002 1 43005 -1 -1 -1 0 0
+M 1 43004 1 43006 -1 -1 -1 0 0
+M 1 43002 1 43006 -1 -1 -1 0 0
+M 1 43003 1 43007 -1 -1 -1 0 0
+M 1 43002 1 43009 -1 -1 -1 0 0
+M 1 43003 1 43010 -1 -1 -1 0 0
+M 1 43006 1 43011 -1 -1 -1 0 0
+M 1 43002 1 43012 -1 -1 -1 0 0
+M 1 43003 1 43013 -1 -1 -1 0 0
+M 1 43003 1 43013 -1 -1 -1 0 0
+M 1 43003 1 43014 -1 -1 -1 0 0
+M 1 43000 1 43014 -1 -1 -1 0 0
+M 1 43000 1 43018 -1 -1 -1 0 0
+M 1 43001 1 43018 -1 -1 -1 0 0
+M 1 43002 1 43018 -1 -1 -1 0 0
+M 1 43003 1 43018 -1 -1 -1 0 0
+M 1 43002 1 43019 -1 -1 -1 0 0
+M 1 43003 1 43022 -1 -1 -1 0 0
+M 1 43005 1 43022 -1 -1 -1 0 0
+M 1 43006 1 43024 -1 -1 -1 0 0
+M 1 43000 1 43024 -1 -1 -1 0 0
+M 1 43000 1 43025 -1 -1 -1 0 0
+M 1 43000 1 43025 -1 -1 -1 0 0
+M 1 43000 1 43025 -1 -1 -1 0 0
+M 1 43000 1 43025 -1 -1 -1 0 0
+M 1 43006 1 43027 -1 -1 -1 0 0
+M 1 43001 1 43027 -1 -1 -1 0 0
+M 1 43005 1 43030 -1 -1 -1 0 0
+M 1 43006 1 43031 -1 -1 -1 0 0
+M 1 43005 1 43034 -1 -1 -1 0 0
+M 1 43004 1 43034 -1 -1 -1 0 0
+M 1 43008 1 43035 -1 -1 -1 0 0
+M 1 43003 1 43035 -1 -1 -1 0 0
+M 1 43001 1 43036 -1 -1 -1 0 0
+M 1 43002 1 43036 -1 -1 -1 0 0
+M 1 43006 1 43042 -1 -1 -1 0 0
+M 1 43009 1 43043 -1 -1 -1 0 0
+M 1 43003 1 43044 -1 -1 -1 0 0
+M 1 43004 1 43044 -1 -1 -1 0 0
+M 1 43004 1 43045 -1 -1 -1 0 0
+M 1 43006 1 43045 -1 -1 -1 0 0
+M 1 43002 1 43048 -1 -1 -1 0 0
+M 1 43001 1 43048 -1 -1 -1 0 0
+M 1 43005 1 43049 -1 -1 -1 0 0
+M 1 43005 1 43049 -1 -1 -1 0 0
+M 1 43007 1 43051 -1 -1 -1 0 0
+M 1 43000 1 43053 -1 -1 -1 0 0
+M 1 43000 1 43053 -1 -1 -1 0 0
+M 1 43000 1 43053 -1 -1 -1 0 0
+M 1 43003 1 43055 -1 -1 -1 0 0
+M 1 43003 1 43055 -1 -1 -1 0 0
+M 1 43004 1 43059 -1 -1 -1 0 0
+M 1 43009 1 43061 -1 -1 -1 0 0
+M 1 43002 1 43065 -1 -1 -1 0 0
+M 1 43005 1 43065 -1 -1 -1 0 0
+M 1 43005 1 43066 -1 -1 -1 0 0
+M 1 43009 1 43067 -1 -1 -1 0 0
+M 1 43008 1 43069 -1 -1 -1 0 0
+M 1 43000 1 43070 -1 -1 -1 0 0
+M 1 43000 1 43070 -1 -1 -1 0 0
+M 1 43009 1 43072 -1 -1 -1 0 0
+M 1 43008 1 43074 -1 -1 -1 0 0
+M 1 43009 1 43076 -1 -1 -1 0 0
+M 1 43003 1 43077 -1 -1 -1 0 0
+M 1 43003 1 43077 -1 -1 -1 0 0
+M 1 43003 1 43077 -1 -1 -1 0 0
+M 1 43007 1 43079 -1 -1 -1 0 0
+M 1 43002 1 43081 -1 -1 -1 0 0
+M 1 43006 1 43082 -1 -1 -1 0 0
+M 1 43008 1 43083 -1 -1 -1 0 0
+M 1 43005 1 43084 -1 -1 -1 0 0
+M 1 43005 1 43084 -1 -1 -1 0 0
+M 1 43001 1 43088 -1 -1 -1 0 0
+M 1 43002 1 43088 -1 -1 -1 0 0
+M 1 43005 1 43088 -1 -1 -1 0 0
+M 1 43006 1 43092 -1 -1 -1 0 0
+M 1 43008 1 43092 -1 -1 -1 0 0
+M 1 43008 1 43093 -1 -1 -1 0 0
+M 1 43004 1 43093 -1 -1 -1 0 0
+M 1 43008 1 43097 -1 -1 -1 0 0
+M 1 43007 1 43097 -1 -1 -1 0 0
+M 1 43000 1 43099 -1 -1 -1 0 0
+M 1 43000 1 43099 -1 -1 -1 0 0
+M 1 43001 1 43099 -1 -1 -1 0 0
+M 1 43007 1 43028 -1 -1 -1 0 0
+M 1 43000 1 43028 -1 -1 -1 0 0
+M 1 43010 1 43028 -1 -1 -1 0 0
+M 1 43008 1 43047 -1 -1 -1 0 0
+M 1 43009 1 43047 -1 -1 -1 0 0
+M 1 43010 1 43047 -1 -1 -1 0 0
+M 1 43001 1 43052 -1 -1 -1 0 0
+M 1 43003 1 43052 -1 -1 -1 0 0
+M 1 43010 1 43052 -1 -1 -1 0 0
+M 1 43010 1 43068 -1 -1 -1 0 0
+M 1 43010 1 43054 -1 -1 -1 0 0
+M 1 43005 1 43057 -1 -1 -1 0 0
+M 1 43010 1 43057 -1 -1 -1 0 0
+M 1 43004 1 43075 -1 -1 -1 0 0
+M 1 43010 1 43075 -1 -1 -1 0 0
+M 1 43010 1 43085 -1 -1 -1 0 0
+M 1 43010 1 43090 -1 -1 -1 0 0
+M 1 43016 1 43109 -1 -1 -1 0 0
+M 1 43016 1 43111 -1 -1 -1 0 0
+M 1 43011 1 43112 -1 -1 -1 1123819238 3600
+D 0 43112 1 2
+M 1 43016 1 43113 -1 -1 -1 0 0
+D 0 43113 3 2
+M 1 43001 1 43114 -1 -1 -1 0 0
+M 1 43002 1 43114 -1 -1 -1 0 0
+M 1 43016 1 43116 -1 -1 -1 0 0
+M 1 43016 1 43116 -1 -1 -1 0 0
+M 1 43016 1 43117 -1 -1 -1 0 0
+M 1 43008 1 43117 -1 -1 -1 0 0
+M 1 43005 1 43119 -1 -1 -1 0 0
+M 1 43016 1 43119 -1 -1 -1 0 0
+M 1 43016 1 43120 -1 -1 -1 0 0
+M 1 43016 1 43120 -1 -1 -1 0 0
+M 1 43017 1 43120 -1 -1 -1 0 0
+M 1 43016 1 43124 -1 -1 -1 0 0
+M 1 43006 1 43124 -1 -1 -1 0 0
+M 1 43016 1 43126 -1 -1 -1 0 0
+M 1 43009 1 43126 -1 -1 -1 0 0
+M 1 43012 1 43127 -1 -1 -1 1118412078 7200
+E 1 21050 1 5 21123 0 0
+D 0 43127 0 2
+M 1 43016 1 43130 -1 -1 -1 0 0
+M 1 43016 1 43130 -1 -1 -1 0 0
+M 1 43017 1 43131 -1 -1 -1 0 0
+M 1 43010 1 43131 -1 -1 -1 0 0
+M 1 43016 1 43133 -1 -1 -1 0 0
+M 1 43007 1 43134 -1 -1 -1 0 0
+M 1 43016 1 43135 -1 -1 -1 0 0
+M 1 43016 1 43136 -1 -1 -1 0 0
+M 1 43016 1 43136 -1 -1 -1 0 0
+M 1 43017 1 43136 -1 -1 -1 0 0
+M 1 43016 1 43139 -1 -1 -1 0 0
+M 1 43016 1 43139 -1 -1 -1 0 0
+M 1 43004 1 43140 -1 -1 -1 0 0
+M 1 43005 1 43142 -1 -1 -1 0 0
+M 1 43016 1 43143 -1 -1 -1 0 0
+M 1 43016 1 43143 -1 -1 -1 0 0
+M 1 43017 1 43144 -1 -1 -1 0 0
+M 1 43016 1 43145 -1 -1 -1 0 0
+M 1 43017 1 43146 -1 -1 -1 0 0
+M 1 43013 1 43147 -1 -1 -1 1123819982 7200
+E 1 21062 1 3 21125 0 0
+D 0 43147 1 2
+M 1 43005 1 43150 -1 -1 -1 0 0
+M 1 43004 1 43150 -1 -1 -1 0 0
+M 1 43016 1 43152 -1 -1 -1 0 0
+M 1 43016 1 43152 -1 -1 -1 0 0
+M 1 43017 1 43153 -1 -1 -1 0 0
+M 1 43016 1 43154 -1 -1 -1 0 0
+M 1 43002 1 43154 -1 -1 -1 0 0
+M 1 43016 1 43156 -1 -1 -1 0 0
+M 1 43016 1 43156 -1 -1 -1 0 0
+M 1 43016 1 43156 -1 -1 -1 0 0
+M 1 43008 1 43158 -1 -1 -1 0 0
+M 1 43016 1 43160 -1 -1 -1 0 0
+M 1 43017 1 43161 -1 -1 -1 0 0
+M 1 43015 1 43162 -1 -1 -1 1123553332 7200
+E 1 43009 1 13 -1 0 0
+D 0 43162 1 2
+M 1 43016 1 43165 -1 -1 -1 0 0
+M 1 43016 1 43169 -1 -1 -1 0 0
+M 1 43017 1 43169 -1 -1 -1 0 0
+M 1 43016 1 43170 -1 -1 -1 0 0
+M 1 43016 1 43170 -1 -1 -1 0 0
+M 1 43001 1 43172 -1 -1 -1 0 0
+M 1 43016 1 43173 -1 -1 -1 0 0
+M 1 43008 1 43173 -1 -1 -1 0 0
+M 1 43017 1 43174 -1 -1 -1 0 0
+M 1 43016 1 43175 -1 -1 -1 0 0
+M 1 43016 1 43175 -1 -1 -1 0 0
+M 1 43017 1 43176 -1 -1 -1 0 0
+M 1 43014 1 43267 -1 -1 -1 1123819288 7200
+E 1 43006 1 20 -1 0 0
+D 0 43267 1 2
+M 1 43019 1 43148 -1 -1 -1 0 0
+D 0 43148 3 2
+M 1 43018 1 43268 -1 -1 -1 0 0
+D 0 43268 3 2
+M 1 43020 1 43128 -1 -1 -1 0 0
+D 0 43128 2 2
+M 1 43021 1 43163 -1 -1 -1 0 0
+D 0 43163 3 2
+M 1 43002 1 43184 -1 -1 -1 0 0
+M 1 43005 1 43185 -1 -1 -1 0 0
+M 1 43002 1 43185 -1 -1 -1 0 0
+M 1 43004 1 43187 -1 -1 -1 0 0
+M 1 43016 1 43188 -1 -1 -1 0 0
+M 1 43005 1 43190 -1 -1 -1 0 0
+M 1 43017 1 43190 -1 -1 -1 0 0
+M 1 43001 1 43192 -1 -1 -1 0 0
+M 1 43002 1 43192 -1 -1 -1 0 0
+M 1 43007 1 43192 -1 -1 -1 0 0
+M 1 43008 1 43197 -1 -1 -1 0 0
+M 1 43009 1 43197 -1 -1 -1 0 0
+M 1 43016 1 43198 -1 -1 -1 0 0
+M 1 43016 1 43198 -1 -1 -1 0 0
+M 1 43017 1 43199 -1 -1 -1 0 0
+M 1 43023 1 43199 -1 -1 -1 0 0
+M 1 43009 1 43201 -1 -1 -1 0 0
+M 1 43017 1 43201 -1 -1 -1 0 0
+M 1 43017 1 43203 -1 -1 -1 0 0
+M 1 43016 1 43207 -1 -1 -1 0 0
+M 1 43016 1 43207 -1 -1 -1 0 0
+M 1 43005 1 43208 -1 -1 -1 0 0
+M 1 43005 1 43208 -1 -1 -1 0 0
+M 1 43007 1 43209 -1 -1 -1 0 0
+M 1 43016 1 43211 -1 -1 -1 0 0
+M 1 43016 1 43211 -1 -1 -1 0 0
+M 1 43023 1 43212 -1 -1 -1 0 0
+M 1 43009 1 43213 -1 -1 -1 0 0
+M 1 43009 1 43213 -1 -1 -1 0 0
+M 1 43005 1 43216 -1 -1 -1 0 0
+M 1 43005 1 43216 -1 -1 -1 0 0
+M 1 43016 1 43218 -1 -1 -1 0 0
+M 1 43016 1 43218 -1 -1 -1 0 0
+M 1 43016 1 43219 -1 -1 -1 0 0
+M 1 43016 1 43219 -1 -1 -1 0 0
+M 1 43017 1 43221 -1 -1 -1 0 0
+M 1 43017 1 43221 -1 -1 -1 0 0
+M 1 43016 1 43223 -1 -1 -1 0 0
+M 1 43016 1 43223 -1 -1 -1 0 0
+M 1 43016 1 43223 -1 -1 -1 0 0
+M 1 43016 1 43223 -1 -1 -1 0 0
+M 1 43023 1 43224 -1 -1 -1 0 0
+M 1 43023 1 43225 -1 -1 -1 0 0
+M 1 43016 1 43226 -1 -1 -1 0 0
+M 1 43016 1 43226 -1 -1 -1 0 0
+M 1 43017 1 43230 -1 -1 -1 0 0
+M 1 43016 1 43230 -1 -1 -1 0 0
+M 1 43010 1 43232 -1 -1 -1 0 0
+M 1 43016 1 43234 -1 -1 -1 0 0
+M 1 43016 1 43234 -1 -1 -1 0 0
+M 1 43016 1 43236 -1 -1 -1 0 0
+M 1 43016 1 43236 -1 -1 -1 0 0
+M 1 43023 1 43237 -1 -1 -1 0 0
+M 1 43016 1 43239 -1 -1 -1 0 0
+M 1 43004 1 43239 -1 -1 -1 0 0
+M 1 43009 1 43242 -1 -1 -1 0 0
+M 1 43017 1 43243 -1 -1 -1 0 0
+M 1 43002 1 43247 -1 -1 -1 0 0
+M 1 43002 1 43247 -1 -1 -1 0 0
+M 1 43002 1 43247 -1 -1 -1 0 0
+M 1 43016 1 43249 -1 -1 -1 0 0
+M 1 43016 1 43249 -1 -1 -1 0 0
+M 1 43023 1 43251 -1 -1 -1 0 0
+M 1 43016 1 43251 -1 -1 -1 0 0
+M 1 43008 1 43253 -1 -1 -1 0 0
+M 1 43016 1 43255 -1 -1 -1 0 0
+M 1 43016 1 43255 -1 -1 -1 0 0
+M 1 43016 1 43255 -1 -1 -1 0 0
+M 1 43016 1 43255 -1 -1 -1 0 0
+M 1 43023 1 43256 -1 -1 -1 0 0
+M 1 43016 1 43257 -1 -1 -1 0 0
+M 1 43016 1 43257 -1 -1 -1 0 0
+M 1 43016 1 43259 -1 -1 -1 0 0
+M 1 43016 1 43259 -1 -1 -1 0 0
+M 1 43023 1 43261 -1 -1 -1 0 0
+M 1 43017 1 43264 -1 -1 -1 0 0
+M 1 43016 1 43264 -1 -1 -1 0 0
+D 0 43269 3 2
+M 1 43016 1 43204 -1 -1 -1 0 0
+M 1 43016 1 43204 -1 -1 -1 0 0
+M 1 43016 1 43204 -1 -1 -1 0 0
+M 1 43027 1 43205 -1 -1 -1 1118411537 7200
+D 0 43205 1 2
+M 1 43022 1 43189 -1 -1 -1 1123854162 3600
+D 0 43189 1 2
+M 1 43024 1 43245 -1 -1 -1 1123854442 7200
+E 1 21058 1 7 21127 0 0
+D 0 43245 2 2
+M 1 43025 1 43265 -1 -1 -1 1123804766 7200
+E 1 21054 1 9 21129 0 0
+D 0 43265 0 2
+M 1 43026 1 43227 -1 -1 -1 1123854588 7200
+E 1 21034 1 14 21131 0 0
+E 1 21034 2 13 21131 0 0
+D 0 43227 0 2
+M 1 43028 1 43228 -1 -1 -1 0 0
+D 0 43228 2 2
+M 1 43029 1 43206 -1 -1 -1 0 0
+D 0 43206 3 2
+M 1 43030 1 43266 -1 -1 -1 0 0
+D 0 43266 2 2
+M 1 43031 1 43246 -1 -1 -1 0 0
+D 0 43246 0 2
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

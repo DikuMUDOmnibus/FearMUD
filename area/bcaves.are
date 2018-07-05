@@ -1,0 +1,1687 @@
+#AREA   Blood Caves~
+
+
+
+#VERSION 53
+#AUTHOR Corellon~
+
+#RANGES
+30 50 1 75 0 0 0 0 0
+$
+
+#RESETMSG The sounds of flowing blood can be heard in the distance.~
+
+#FLAGS
+512
+
+#ECONOMY 0 4097189 0
+
+#MOBILES
+#3100
+Xa'teth skeleton~
+&RX&ra&R'&rt&Re&rt&Rh&w~
+&RX&ra&R'&rt&Re&rt&Rh &Wstands here emitting an aura of pure evil 
+~
+Xa'teth stands before you shrouded in his dark robes and an aura of 
+blackness. His face is the only part of his body not shrouded and it is 
+that of a skull. His mere gaze invokes fear in your mind. Maybe this 
+wasn't such a good idea after all... 
+~
+3&1048576 0 0 -1000 C
+0 0 33 35 35 35
+8d33+20000 1d19+300 0 45 75
+2000000 0
+112 112 0
+23 24 24 25 25 9 18 102
+0 0 0 0 0
+60 0 0 0 1 1 102
+0 0 0 0 0 0 0 0 0 0 0 0 0
+200 100 100 100 100 40 20 100 100 -1 100 100 200 -1 100
+82 0 70 0 0 0 0 65792 524550
+> fight_prog 60~
+say I tire of you puny mortal!
+mea $n &RX&ra&R'&rt&Re&rt&Rh &Wextends a finger toward you....
+mea $n &WA &Bblue &Wbeam shoots from his finger and pierces your body!
+mpdamage $n 600
+~
+> greet_prog 100~
+say Another victim walks into my lair, what a sad day it is for you.
+c 'dispel magic' $n
+c 'quantum' $n
+mpdamage $n 400
+stun $n
+disarm
+disarm
+~
+> rand_prog 35~
+say You cannot kill that which is already dead!
+mprestore self 400
+~
+> fight_prog 40~
+say I think your weapons will add nicely to my collection.
+disarm
+disarm
+get all
+wear Berikith
+~
+> death_prog 12~
+mea $n As you deal the final blow, a ring slips off of his finger.
+mpoload 3108
+~
+|
+#3101
+dark priest relkor~
+&RD&rar&Rk P&rries&Rt, R&relko&Rr&w~
+&RD&rar&Rk P&rries&Rt, R&relko&Rr &wstands here chanting to the dark gods
+~
+This form of Relkor seems to be by far the most deadly. The power of the 
+dark gods flow through him and surround him in a protective aura. His body 
+phases in and out as the power his gods have given him fluctuates. 
+~
+35 0 37748864 0 C
+0 0 35 0 0 0
+22000d1+389 15d3+75 0 0 0
+0 0
+112 112 0
+16 18 14 16 15 9 15 100
+0 0 0 0 0
+0 0 0 0 1 1 100
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+72 65 54 2105344 0 18 0 295232 524295
+> death_prog 100~
+mpoload 3101 50
+if rand(20)
+mpecho A small gem is expelled from his body and lands next to it.
+mpoload 3102 50
+endif
+~
+> speech_prog yet!~
+mpoload 3104 50
+wear tooth
+cast fireball $i
+~
+> rand_prog 35~
+mprestore self 350
+~
+> fight_prog 15~
+say Death will not become me today, you must die instead.
+c 'dispel magic' $n
+c 'gas breath' $n
+~
+|
+#3102
+demon relkor~
+&cD&zemo&Wn &WR&zelko&cr&w~
+&cD&zemo&Wn &WR&zelko&cr&W hovers here surrounded by demonic essence.
+~
+~
+3 0 4718720 0 C
+0 0 31 0 0 0
+60d90+10000 15d4+30 0 0 0
+0 0
+112 112 0
+19 18 16 13 17 13 13 100
+0 0 0 0 0
+84 0 0 0 1 1 100
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 60 100 100 100 100 100 200 -1 100
+0 0 295938 16 512 2 0 33554691 524289
+> death_prog 100~
+mpmload 3101
+say You have not finished with me yet!
+~
+> speech_prog power~
+cast fireball $i
+~
+|
+#3103
+shaman relkor~
+&CS&Whaman &CR&Welkor&w~
+&CS&Whaman &CR&Welkor stands here making sacrifices to the gods
+~
+~
+35 0 71303168 0 C
+0 0 25 21 21 21
+60d90+3750 1d19+27 0 45 75
+9360 0
+112 112 0
+15 18 17 23 13 13 21 102
+0 0 0 0 0
+0 0 0 0 1 1 102
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+16 0 0 0 0 0 0 576 2
+> death_prog 100~
+cackle
+mpmload 3102
+mpecho Relkor begins to change...his skin becomes charcoal black..wings sprout from his back..claws extend from his hands and feet..Relkor is a Demon!
+say I have not yet begun to show my true power $n!
+~
+|
+#3104
+skeleton~
+&zS&Wkeleton &zW&Warrior&w~
+&zA S&Wkeleton &zW&Warrior &zs&Wtands &zh&Were &zd&Wefending &zh&Wis &zr&Wealm
+~
+This undead warrior has long been a servant of Xa'teth. His bones are 
+nicked, cut, broken, and scratched. He wears a plate of broken armor to 
+protect his undead soul.. 
+~
+1 0 0 0 C
+0 0 22 21 21 21
+8d32+1474 1d19+27 0 45 75
+9360 0
+112 112 0
+25 16 16 24 13 13 23 102
+0 0 0 0 0
+0 0 0 0 1 1 102
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+12 0 0 0 0 0 0 704 2
+#3105
+warg~
+&zM&Wist &zW&Warg&w~
+&zA f&Werocious &zM&Wist &zW&Warg&z i&Ws &zh&Wunting &zh&Were.
+~
+This creature seems to be an extremely large wolf. Its fangs are visible 
+even when it's mouth is shut and it's fur is thick and a silver-gray. This 
+animal is always alert and on the prowl. 
+~
+33 0 0 0 C
+0 0 22 21 21 22
+8d33+1523 1d19+27 0 45 75
+0 0
+112 112 0
+17 25 23 24 13 13 22 102
+0 0 0 0 0
+69 0 0 0 1 1 102
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+15 0 327684 0 0 0 0 624 1
+#3106
+mist ferret~
+&zM&Wist &zF&Werret&w~
+&zA M&Wist &zF&Werret scurries around looking for toes.
+~
+This being appears as though the mist decided to coalesce and take the 
+form of a small ferret. It constantly moves around looking for spare toes 
+to add to its nest. Every once in a while its body will phase out and a 
+few toes drop out. 
+~
+33 0 0 0 C
+0 0 19 19 19 19
+7d28+1312 1d16+23 0 17 28
+7040 0
+112 112 0
+24 15 20 23 13 13 20 84
+0 0 0 0 0
+0 0 0 0 1 1 84
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+16 0 0 0 0 0 0 240 2
+#3107
+zombie warrior~
+&zZ&Wombie &zW&Warrior~
+&zA Z&Wombie &zW&Warrior stumbles around looking for his missing toes.
+~
+This is reanimated corpse of a recently killed warrior. Bits of flesh hang 
+off of his body and his arms have rotted to the bone . The remnants of his 
+once great armor hang about his body in shreds. 
+~
+1 0 0 0 C
+0 0 -146 0 0 0
+15d18+1575 4d6+12 0 0 0
+1292 0
+112 112 0
+13 13 13 13 13 13 13 3
+0 0 0 0 0
+0 0 0 0 1 1 3
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 -1 100
+14 0 38 0 0 0 0 0 3
+#3108
+blood ferret~
+&RB&rloo&Rd &RF&rerre&Rt~
+&RA B&rloo&Rd &RF&rerre&Rt roams around looking for fresh fingers
+~
+This being appears as though the blood decided to coalesce and take the 
+form of a small ferret. It constantly moves around looking for spare 
+fingers to add to its nest. It leaves a trail of blood wherever it goes so 
+that it can follow it back to its nest. 
+~
+33 0 0 0 C
+0 0 21 20 20 21
+8d33+1521 1d18+25 0 27 45
+8160 0
+112 112 0
+23 22 22 21 13 13 25 93
+0 0 0 0 0
+0 0 0 0 1 1 93
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+13 0 0 0 0 0 0 608 2
+#3109
+Mist ghoul~
+&zM&Wist &zG&Whoul~
+&GA &zM&Wist &zG&Whoul&G is here looking to feed on flesh of the living.
+~
+A strange looking ghoul that seems to be formed out of mist, but when it
+moves through the air the ghoul seems to phase in and out meaning it can
+atleast be chopped down.  Also, by the looks of it, something is keeping
+its cursed soul behind in this life.
+~
+1 0 0 -1000 C
+0 0 22 22 23 21
+7d30+1443 1d19+27 0 45 75
+0 0
+112 112 1
+25 25 22 22 13 13 24 102
+0 0 0 0 0
+36 0 0 0 1 1 102
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 200 -1 100 100 100 100 100 100 100 100
+12 0 0 0 0 0 0 266753 2
+> death_prog 15~
+mpe _whi As the ghoul falls dead, the gauntlet breaks open and with the magical
+mpe _whi release of the ghoul's soul, the gauntlet becomes a wristguard.
+mpjunk gauntlet
+mpoload 3107 35
+~
+|
+#3149
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#3100
+soul anklet~
+&CS&Wo&Cu&Wl &CA&Wn&Ck&Wl&Ce&Wt&C~
+A wispy anklet sits here emitting a bright light~
+~
+9 0 33
+8 8 0 1000 0 50 49 0 0 0 20 0 0 0
+1.000000 35000 0 0 0 0 0
+E
+soul anklet~
+This anklet glows with an inner light that warms your body. The souls of 
+many beings are trapped within and lend power to the wearer. They souls 
+are kept in small gems that adorn the silver chain. 
+~
+A
+13 65 0
+A
+12 65 0
+#3101
+iron key~
+an iron key~
+A rusted iron key lays on the ground here~
+~
+18 0 1
+3123 0 0 0
+1.000000 0 0 0 0 0 0
+E
+iron key~
+This is a small, rusty iron key. By the look of it, it seems to fit a 
+rather large gate of some sort. 
+~
+#3102
+soul gem~
+&CS&Wo&Cu&Wl &CG&We&Cm~
+&CA S&Wo&Cu&Wl &CG&We&Cm lays here on the ground~
+~
+75 0 16385
+13 8 75 80 26 0 268435456 268435456 12 0 50 50 -1 0
+1.000000 50000 0 0 0 0 0
+E
+soul gem~
+This is a large multicolored gem that Xa'teth himself used to collect 
+souls. He would channel the power of its magic into other items to improve 
+them and make room for more souls in the gem. A small, swirling vortex can 
+be seen in the very center. 
+~
+#3103
+Berikith~
+&wB&Re&wr&Ri&wk&Ri&wt&Rh~
+&GA massive looking club called &wB&Re&wr&Ri&wk&Ri&wt&Rh&G is here.~
+~
+5 262464 513
+0 4 23 6 9 -1 0 30 0 0 25 0 35 0
+15.000000 15000 0 0 0 0 0
+'antimagic shell'
+E
+berikith~
+A very strange looking club named after the human name of the ogre that
+use to wield it in battle.  The Berikith is just a massive club that is
+blessed with powers to make it strike the enemy with even more force.
+~
+A
+13 70 0
+A
+12 50 0
+A
+1 2 0
+#3104
+belt tooth~
+&CT&Wo&Co&Wt&Ch &WB&Ce&Wl&Ct~
+A belt made of various teeth lays here~
+~
+9 17039360&32 257 6
+12 12 0 1000 0 0 49 0 0 0 0 0 0 0
+1.000000 20000 0 0 0 0 0
+E
+tooth belt~
+This is a large, leather belt adorned with teeth of various shapes and 
+sizes. All these teeth were from beings unfortunate enough to be spared by 
+Xa'teth himself, only to be turned over to the hands of Relkor. 
+~
+A
+13 40 0
+A
+12 50 0
+#3105
+broken plate~
+&zB&Wroken &zP&Wlate~
+A broken piece of plate mail lays here in the dirt~
+~
+9 0 9
+0 0 0 1000 0 0 35 0 0 0 8 0 0 0
+1.000000 2000 0 0 0 0 0
+E
+broken plate~
+This broken piece of armor is used by the fallen warriors of Xa'teth to 
+protect their vulnerable undead soul from harm and to hold it in the body. 
+It is made of various materials enchanted with the souls of the donors. 
+One other side affect of the armor is that it gives the warriors increased 
+endurance in battle. 
+~
+A
+13 35 0
+A
+79 2 0
+#3106
+mist gauntlets~
+&zM&Wist &zG&Wauntlets~
+&GA pair of &zM&Wist &zG&Wauntlets&G lies here before you.~
+~
+9 524608 65
+0 0 0 1000 0 0 0 0 0 0 15 0 0 0
+5.000000 1200 0 0 0 0 0
+E
+mist gauntlets~
+The gauntlets seem to have the same phased matter that a lot of the
+enemies in the area seem to have.  It appears that the gauntlet is
+not solid, but by putting you hand on it you can feel that it is formed
+out of a strong enough metal to do the job.
+~
+A
+13 30 0
+A
+12 30 0
+#3107
+mist wristguard~
+&zM&Wist &zW&Wristguard~
+A &zM&Wist &zW&Wristguard lies here for the taking.~
+~
+9 0 4097
+0 0 0 1000 0 0 0 0 0 0 16 0 0 0
+4.000000 2000 0 0 0 0 0
+E
+mist wristguard~
+A magical wristguard that appears to be blessed/cursed by the trapped soul
+of the previous owner.  Not only is the wristguard made out of a strong
+protective metals, it is also protected by the remaining aura of the poor
+soul.
+~
+A
+13 20 0
+A
+12 40 0
+A
+2 1 0
+A
+24 -3 0
+A
+22 -3 0
+#3108
+Ekirum~
+&GE&Wk&Gi&Wr&Gu&Wm~
+A strange looking ring is here before you.~
+~
+9 2880 3
+0 0 0 1000 0 0 0 0 0 0 23 0 0 0
+3.000000 100000 0 0 0 0 0
+E
+Ekirum~
+A magical ring that is said to possess the power of resistance and
+improve the ability to hold on to ones weapon.  A very powerful ring, but
+slightly cursed since it last fell into the hands of those whose hearts
+are evil.
+~
+A
+13 65 0
+A
+12 65 0
+A
+4 1 0
+A
+22 -3 0
+A
+21 -3 0
+A
+20 -3 0
+A
+23 -3 0
+A
+24 -3 0
+A
+53 1 0
+#3149
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#0
+
+
+#ROOMS
+#3100
+&R[ &WA Damp Cave &R]~
+&RYou are in the mouth of a very damp cave. The floor is covered in mud 
+and your feet sink straight down with each step. A few bones lay here 
+sticking out of the mud. 
+~
+0&66
+0 1
+0
+0
+D0
+~
+~
+0 -1 3133
+0 0
+D2
+~
+~
+0 -1 3101
+0 0
+S
+#3101
+&R[ &WA Dark Tunnel &R]~
+&RThe cave is noticeably thinner here and there is an awful odor emitted 
+from a freshly slain corpse hung on the wall of the cave. There is a large 
+pile of bones in the corner. Suddenly, they come to life and they don't 
+look very happy. 
+~
+0&66
+0 1
+0
+0
+D0
+~
+~
+0 -1 3100
+0 0
+D8
+~
+~
+0 -1 3102
+0 0
+S
+#3102
+&R[ &WFurther Along The Tunnel &R]~
+&RThe tunnel continues on here and the mold and fungus growing from the 
+cave wall is like an underground forest. Moans of anguish are heard off in 
+the distance but are abruptly ended by a loud cracking sound. Footsteps 
+are heard as well. The tunnel bends to the southwest and the mouth of the 
+cave is to the north. 
+~
+0&66
+0 1
+0
+0
+D7
+~
+~
+0 -1 3101
+0 0
+D9
+~
+~
+0 -1 3103
+0 0
+S
+#3103
+&R[ &WDeeper Into The Cavern &R]~
+&RYou are at a sharp turn in the tunnel and a few random bones litter the 
+floor. The sounds of what appears to be rushing water can be heard near 
+the south. A small black door leads southeast and appears to be almost too
+small to fit through.
+~
+0&66
+0 1
+0
+0
+D6
+~
+~
+0 -1 3102
+0 0
+D8
+~
+~
+3 -1 3106
+0 0
+S
+#3104
+Floating in a void~
+~
+4&64
+0 1
+0
+0
+S
+#3105
+Floating in a void~
+~
+4&64
+0 1
+0
+0
+S
+#3106
+&R[ &WA River of Bone &R]~
+&RFinally! You have discovered the source of the noise. A large river 
+flows through the cave here. It consists of bits and pieces of flesh, 
+decapitated heads, and lots of bones. A stench hovers over the river and 
+seems to go on forever. Menacing stalactites cover the ceiling. 
+~
+0&66
+0 1
+0
+0
+D1
+~
+~
+0 -1 3107
+0 0
+D7
+~
+~
+0 -1 3103
+0 0
+S
+#3107
+&R[ &WA River of Bone &R]~
+&RA large river flows through the cave here. It consists of bits and 
+pieces of flesh, decapitated heads, and lots of bones. A stench hovers 
+over the river and seems to go on forever. Menacing stalactites cover the 
+ceiling. 
+~
+0&66
+0 1
+0
+0
+D1
+~
+~
+0 -1 3108
+0 0
+D3
+~
+~
+0 -1 3106
+0 0
+S
+#3108
+&R[ &WA River of Bone &R]~
+&RSplashing blood coats your clothes as you speed down the river. You must 
+constantly dodge bits of arms, toes, bones and other body parts to keep 
+healthy. You also feel as if you are being watched from just beyond the 
+banks. 
+~
+0&66
+0 1
+0
+0
+D3
+~
+~
+0 -1 3107
+0 0
+D8
+~
+~
+0 -1 3109
+0 0
+S
+#3109
+&R[ &WA River of Bone &R]~
+&RA large river flows through the cave here. It consists of bits and 
+pieces of flesh, decapitated heads, and lots of bones. A stench hovers 
+over the river and seems to go on forever. Menacing stalactites cover the 
+ceiling. 
+~
+0&66
+0 1
+0
+0
+D2
+~
+~
+0 -1 3110
+0 0
+D7
+~
+~
+0 -1 3108
+0 0
+S
+#3110
+&R[ &WA River of Bone &R]~
+&RSplashing blood coats your clothes as you speed down the river. You must 
+constantly dodge bits of arms, toes, bones and other body parts to keep 
+healthy. You also feel as if you are being watched from just beyond the 
+banks. 
+~
+0&66
+0 1
+0
+0
+D0
+~
+~
+0 -1 3109
+0 0
+D9
+~
+~
+0 -1 3111
+0 0
+S
+#3111
+&R[ &WA River of Bone &R]~
+&RA large river flows through the cave here. It consists of bits and 
+pieces of flesh, decapitated heads, and lots of bones. A stench hovers 
+over the river and seems to go on forever. Menacing stalactites cover the 
+ceiling. 
+~
+0&66
+0 1
+0
+0
+D2
+~
+~
+0 -1 3112
+0 0
+D6
+~
+~
+0 -1 3110
+0 0
+S
+#3112
+&R[ &WA River of Bone &R]~
+&RSplashing blood coats your clothes as you speed down the river. You must 
+constantly dodge bits of arms, toes, bones and other body parts to keep 
+healthy. You also feel as if you are being watched from just beyond the 
+banks. 
+~
+0&66
+0 1
+0
+0
+D0
+~
+~
+0 -1 3111
+0 0
+D2
+~
+~
+0 -1 3113
+0 0
+S
+#3113
+&R[ &WA River of Bone &R]~
+&RA large river flows through the cave here. It consists of bits and 
+pieces of flesh, decapitated heads, and lots of bones. A stench hovers 
+over the river and seems to go on forever. Menacing stalactites cover the 
+ceiling. 
+~
+0&66
+0 1
+0
+0
+D0
+~
+~
+0 -1 3112
+0 0
+D2
+~
+~
+0 -1 3114
+0 0
+S
+#3114
+&R[ &WA River of Bone &R]~
+&RSplashing blood coats your clothes as you speed down the river. You must 
+constantly dodge bits of arms, toes, bones and other body parts to keep 
+healthy. You also feel as if you are being watched from just beyond the 
+banks. 
+~
+0&66
+0 1
+0
+0
+D0
+~
+~
+0 -1 3113
+0 0
+D9
+~
+~
+0 -1 3115
+0 0
+S
+#3115
+&R[ &WA River of Bone &R]~
+&RA large river flows through the cave here. It consists of bits and 
+pieces of flesh, decapitated heads, and lots of bones. A stench hovers 
+over the river and seems to go on forever. Menacing stalactites cover the 
+ceiling. 
+~
+0&66
+0 1
+0
+0
+D2
+~
+~
+0 -1 3116
+0 0
+D6
+~
+~
+0 -1 3114
+0 0
+S
+#3116
+&R[ &WA River of Bone &R]~
+&RSplashing blood coats your clothes as you speed down the river. You must 
+constantly dodge bits of arms, toes, bones and other body parts to keep 
+healthy. You also feel as if you are being watched from just beyond the 
+banks. 
+~
+0&66
+0 1
+0
+0
+D0
+~
+~
+0 -1 3115
+0 0
+D8
+~
+~
+0 -1 3117
+0 0
+S
+#3117
+&R[ &WA River of Bone &R]~
+&RA large river flows through the cave here. It consists of bits and 
+pieces of flesh, decapitated heads, and lots of bones. A stench hovers 
+over the river and seems to go on forever. Menacing stalactites cover the 
+ceiling. 
+~
+0&66
+0 1
+0
+0
+D2
+~
+~
+0 -1 3118
+0 0
+D6
+~
+~
+0 -1 3120
+0 0
+D7
+~
+~
+0 -1 3116
+0 0
+S
+#3118
+&R[ &WA River of Bone &R]~
+&RSplashing blood coats your clothes as you speed down the river. You must 
+constantly dodge bits of arms, toes, bones and other body parts to keep 
+healthy. You also feel as if you are being watched from just beyond the 
+banks. 
+~
+0&66
+0 1
+0
+0
+D0
+~
+~
+0 -1 3117
+0 0
+D9
+~
+~
+0 -1 3119
+0 0
+S
+#3119
+&R[ &WA River of Bone &R]~
+&RA large river flows through the cave here. It consists of bits and 
+pieces of flesh, decapitated heads, and lots of bones. A stench hovers 
+over the river and seems to go on forever. Menacing stalactites cover the 
+ceiling. 
+~
+0&66
+0 1
+0
+0
+D6
+~
+~
+0 -1 3118
+0 0
+S
+#3120
+&R[ &WA Black Tunnel &R]~
+&R This tunnel appears to have been literally burnt out of the rock. 
+Arches made of bleached, white bones tied together with sinew hold the 
+enormous weight of the ceiling. There is obviously magic at work for no 
+normal bones would be able to support the rock overhead. 
+~
+0&66
+0 1
+0
+0
+D1
+~
+~
+0 -1 3121
+0 0
+D9
+~
+~
+0 -1 3117
+0 0
+S
+#3121
+&R[ &WA Black Tunnel &R]~
+&RThe tunnel veers to the south and west here. The same arches are in 
+place here but are now twice as wide. This is probably to provide greater 
+support or perhaps the creator could not obtain strong bone to use. 
+~
+0&66
+0 1
+0
+0
+D3
+~
+~
+0 -1 3120
+0 0
+D8
+~
+~
+0 -1 3122
+0 0
+S
+#3122
+&R[ &WA Gruesome Procession &R]~
+&RA path starts here, formed by ebony colored pikes topped with skulls 
+line the tunnel on either side. The skulls are in all different sizes. 
+Most of them look humanoid although a few are obviously from large beasts. 
+You spot an apparently fresh pike from the blood still running down the 
+handle. 
+~
+0&66
+0 1
+0
+0
+D6
+~
+~
+0 -1 3123
+0 0
+D7
+~
+~
+0 -1 3121
+0 0
+S
+#3123
+&R[ &WThe Tunnel Splits &R]~
+&RThe path splits here with the line of skulls continuing to the west 
+while a small path heads northeast. The path is blocked by a heavy iron 
+gate. An evil cackle echoes throughout the cave... 
+~
+0&66
+0 1
+0
+0
+D1
+~
+~
+0 -1 3128
+0 0
+D6
+~
+gate~
+8389671 3101 3124
+0 0
+D9
+~
+~
+0 -1 3122
+0 0
+S
+#3124
+&R[ &WHall of Xa'teth &R]~
+&RThe hallway here is covered in various tapestries that depict Xa'teth in 
+various victories. A very large tapestry covers one wall and depicts his 
+war with the conquered kobold kingdoms. A few busts of himself sit upon 
+marble pillars as well. 
+~
+0&66
+0 1
+0
+0
+D6
+~
+~
+0 -1 3125
+0 0
+D9
+~
+gate~
+8389665 3101 3123
+0 0
+S
+#3125
+&R[ &WHall of Xa'teth &R]~
+&RThis section is covered by hunting trophies. A dagger from one of the 
+former elf-lords sits prominantly in a glass case. Momentos of other 
+victories adorn the walls, such as the official herald of the noble 
+dwarven family R'ekra. 
+~
+0&66
+0 1
+0
+0
+D1
+~
+~
+0 -1 3126
+0 0
+D9
+~
+~
+0 -1 3124
+0 0
+S
+#3126
+&R[ &WThe Edge of A Cave &R]~
+&RThis large cave serves as lair of the lord of undead, Xa'teth. From here 
+he commands his armies of undead and terrorizes surface races, which only 
+enlarge his army. In the distance a large throne sits upon a raised section 
+of the floor. Elite guardsman flank him on both sides. 
+~
+0&66
+0 1
+0
+0
+D0
+~
+~
+0 -1 3127
+0 0
+D3
+~
+~
+0 -1 3125
+0 0
+S
+#3127
+&R[ &WLair of Xa'teth &R]~
+&RA large throne sits here upon a dais. Surprisingly the throne seems to be 
+carved right out of the rock and not made of bone like everything else. 
+Bits of flesh are scattered about and a small table sits beside the 
+throne. Upon it sits a bowl filled with writhing maggots.
+~
+4&66
+0 1
+0
+0
+D2
+~
+~
+0 -1 3126
+0 0
+S
+#3128
+&R[ &WA Gruesome Procession &R]~
+&RA path starts here, formed by ebony colored pikes topped with skulls 
+line the tunnel on either side. The skulls are in all different sizes. 
+Most of them look humanoid although a few are obviously from large beasts. 
+You spot an apparently fresh pike from the blood still running down the 
+handle. 
+~
+0&66
+0 1
+0
+0
+D3
+~
+~
+0 -1 3123
+0 0
+D6
+~
+~
+0 -1 3129
+0 0
+S
+#3129
+&R[ &WA Gruesome Procession &R]~
+&RA path starts here, formed by ebony colored pikes topped with skulls 
+line the tunnel on either side. The skulls are in all different sizes. 
+Most of them look humanoid although a few are obviously from large beasts. 
+You spot an apparently fresh pike from the blood still running down the 
+handle. 
+~
+0&66
+0 1
+0
+0
+D1
+~
+~
+0 -1 3130
+0 0
+D9
+~
+~
+0 -1 3128
+0 0
+S
+#3130
+&R[ &WA Gruesome Procession &R]~
+&RA path starts here, formed by ebony colored pikes topped with skulls 
+line the tunnel on either side. The skulls are in all different sizes. 
+Most of them look humanoid although a few are obviously from large beasts. 
+You spot an apparently fresh pike from the blood still running down the 
+handle. 
+~
+0&66
+0 1
+0
+0
+D2
+~
+~
+0 -1 3131
+0 0
+D3
+~
+~
+0 -1 3129
+0 0
+S
+#3131
+&R[ &WNear A Large Chasm &R]~
+&RThe grim path has lead you near a large chasm. Various slaves that 
+appear to be dead shuffle around bringing in caged animals of all sorts. 
+The smell of death hangs in the air and you hear the screams and noises of 
+dozens about to die. 
+~
+0&66
+0 1
+0
+0
+D0
+~
+~
+0 -1 3130
+0 0
+D1
+~
+~
+0 -1 3132
+0 0
+S
+#3132
+&R[ &WAn Unholy Altar &R]~
+&RThis unholy altar sits on the edge of a large chasm. It is made entirely 
+of skull and bone. On each skull a small symbol is carved in the
+forehead. The top appears to be made of bone powder blessed by some unholy 
+force. 
+~
+0&66
+0 1
+0
+0
+D3
+~
+~
+0 -1 3131
+0 0
+S
+#3133
+&c[ &zA Misty Forest &c]~
+A thick fog covers the forest here. Vision is obscured to no more than 4 
+or 5 feet ahead. The trees grow close together and obscure almost all 
+light even at noon. The sound of wolves can be heard in the distance and 
+the smell of death hangs in the air. A small opening can be seen to the 
+south.
+~
+0&66
+0 3
+0
+0
+D0
+~
+~
+0 -1 3138
+0 0
+D1
+~
+~
+0 -1 3134
+0 0
+D2
+~
+~
+0 -1 3100
+0 0
+S
+#3134
+&c[ &zA Misty Forest &c]~
+A thick fog covers the forest here. Vision is obscured to no more than 4 
+or 5 feet ahead. The trees grow close together and obscure almost all 
+light even at noon. The sound of wolves can be heard in the distance and 
+the smell of death hangs in the air. 
+~
+0&66
+0 3
+0
+0
+D0
+~
+~
+0 -1 3137
+0 0
+D1
+~
+~
+0 -1 3135
+0 0
+D3
+~
+~
+0 -1 3133
+0 0
+S
+#3135
+&c[ &zA Misty Forest &c]~
+A thick fog covers the forest here. Vision is obscured to no more than 4 
+or 5 feet ahead. The trees grow close together and obscure almost all 
+light even at noon. The sound of wolves can be heard in the distance and 
+the smell of death hangs in the air. 
+~
+0&66
+0 3
+0
+0
+D0
+~
+~
+0 -1 3136
+0 0
+D2
+~
+~
+134217728 -1 16000
+135 169
+D3
+~
+~
+0 -1 3134
+0 0
+S
+#3136
+&c[ &zA Misty Forest &c]~
+A thick fog covers the forest here. Vision is obscured to no more than 4 
+or 5 feet ahead. The trees grow close together and obscure almost all 
+light even at noon. The sound of wolves can be heard in the distance and 
+the smell of death hangs in the air. 
+~
+0&66
+0 3
+0
+0
+D0
+~
+~
+0 -1 3141
+0 0
+D2
+~
+~
+0 -1 3135
+0 0
+D3
+~
+~
+0 -1 3137
+0 0
+S
+#3137
+&c[ &zAn Abandoned Graveyard &c]~
+This area of the forest seems to be a graveyard of sorts. It is surrounded 
+by a low, cast iron fence. Only about 20 graves dot the area, but you do 
+notice something else very strange. All the graves seem to have been dug 
+up and their markers broken and turned over. A few bits of bone litter the 
+area as well. 
+~
+0&66
+0 3
+0
+0
+D0
+~
+~
+0 -1 3140
+0 0
+D1
+~
+~
+0 -1 3136
+0 0
+D2
+~
+~
+0 -1 3134
+0 0
+D3
+~
+~
+0 -1 3138
+0 0
+S
+#3138
+&c[ &zA Misty Forest &c]~
+A thick fog covers the forest here. Vision is obscured to no more than 4 
+or 5 feet ahead. The trees grow close together and obscure almost all 
+light even at noon. The sound of wolves can be heard in the distance and 
+the smell of death hangs in the air. 
+~
+0&66
+0 3
+0
+0
+D0
+~
+~
+0 -1 3139
+0 0
+D1
+~
+~
+0 -1 3137
+0 0
+D2
+~
+~
+0 -1 3133
+0 0
+S
+#3139
+&c[ &zA Burnt Hut &c]~
+All that is left of the hut that once stood here is a pile of burnt wood 
+and other assorted items. Blood is spattered about the area showing that 
+the people didn't just die in the fire. A broken lamp sits here, the most 
+obvious cause of the fire, leaking a dark, black substance. The remains 
+have the people who once lived here have been picked clean. 
+~
+0&66
+0 0
+0
+0
+D0
+~
+~
+0 -1 3144
+0 0
+D1
+~
+~
+0 -1 3140
+0 0
+D2
+~
+~
+0 -1 3138
+0 0
+S
+#3140
+&c[ &zA Misty Forest &c]~
+A thick fog covers the forest here. Vision is obscured to no more than 4 
+or 5 feet ahead. The trees grow close together and obscure almost all 
+light even at noon. The sound of wolves can be heard in the distance and 
+the smell of death hangs in the air. 
+~
+0&66
+0 3
+0
+0
+D0
+~
+~
+0 -1 3143
+0 0
+D1
+~
+~
+0 -1 3141
+0 0
+D2
+~
+~
+0 -1 3137
+0 0
+D3
+~
+~
+0 -1 3139
+0 0
+S
+#3141
+&c[ &zA Misty Forest &c]~
+A thick fog covers the forest here. Vision is obscured to no more than 4 
+or 5 feet ahead. The trees grow close together and obscure almost all 
+light even at noon. The sound of wolves can be heard in the distance and 
+the smell of death hangs in the air. 
+~
+0&66
+0 3
+0
+0
+D0
+~
+~
+0 -1 3142
+0 0
+D2
+~
+~
+0 -1 3136
+0 0
+D3
+~
+~
+0 -1 3140
+0 0
+S
+#3142
+&c[ &zThe Ruins of a Hut &c]~
+The inside of this abandoned hut are strewn with all sorts of items. 
+Forks, spoons, pans, books, blankets, plates and other household items lay 
+about broken and tattered. A small shrine to some animistic god sits near 
+the far end. A bloody knife sits atop the altar, indicating sacrifices 
+were a normal occurance. 
+~
+0&66
+0 3
+0
+0
+D0
+~
+~
+0 -1 3147
+0 0
+D2
+~
+~
+0 -1 3141
+0 0
+D3
+~
+~
+0 -1 3143
+0 0
+S
+#3143
+&c[ &zA Misty Forest &c]~
+A thick fog covers the forest here. Vision is obscured to no more than 4 
+or 5 feet ahead. The trees grow close together and obscure almost all 
+light even at noon. The sound of wolves can be heard in the distance and 
+the smell of death hangs in the air. 
+~
+0&66
+0 3
+0
+0
+D0
+~
+~
+0 -1 3146
+0 0
+D1
+~
+~
+0 -1 3142
+0 0
+D2
+~
+~
+0 -1 3140
+0 0
+D3
+~
+~
+0 -1 3144
+0 0
+S
+#3144
+&c[ &zA Misty Forest &c]~
+A thick fog covers the forest here. Vision is obscured to no more than 4 
+or 5 feet ahead. The trees grow close together and obscure almost all 
+light even at noon. The sound of wolves can be heard in the distance and 
+the smell of death hangs in the air. 
+~
+0&66
+0 3
+0
+0
+D0
+~
+~
+0 -1 3145
+0 0
+D1
+~
+~
+0 -1 3143
+0 0
+D2
+~
+~
+0 -1 3139
+0 0
+S
+#3145
+&c[ &zA Misty Forest &c]~
+A thick fog covers the forest here. Vision is obscured to no more than 4 
+or 5 feet ahead. The trees grow close together and obscure almost all 
+light even at noon. The sound of wolves can be heard in the distance and 
+the smell of death hangs in the air. 
+~
+0&66
+0 3
+0
+0
+D1
+~
+~
+0 -1 3146
+0 0
+D2
+~
+~
+0 -1 3144
+0 0
+S
+#3146
+&c[ &zA Misty Forest &c]~
+A thick fog covers the forest here. Vision is obscured to no more than 4 
+or 5 feet ahead. The trees grow close together and obscure almost all 
+light even at noon. The sound of wolves can be heard in the distance and 
+the smell of death hangs in the air. 
+~
+0&66
+0 3
+0
+0
+D1
+~
+~
+0 -1 3147
+0 0
+D2
+~
+~
+0 -1 3143
+0 0
+D3
+~
+~
+0 -1 3145
+0 0
+S
+#3147
+&c[ &zA Misty Forest &c]~
+A thick fog covers the forest here. Vision is obscured to no more than 4 
+or 5 feet ahead. The trees grow close together and obscure almost all 
+light even at noon. The sound of wolves can be heard in the distance and 
+the smell of death hangs in the air.
+~
+0&66
+0 3
+0
+0
+D2
+~
+~
+0 -1 3142
+0 0
+D3
+~
+~
+0 -1 3146
+0 0
+S
+#3149
+Floating in a void~
+~
+4&64
+0 1
+0
+0
+S
+#0
+
+
+#RESETS
+M 1 3105 1 3143 -1 -1 -1 0 0
+M 1 3105 1 3143 -1 -1 -1 0 0
+M 1 3105 1 3135 -1 -1 -1 0 0
+M 1 3105 1 3140 -1 -1 -1 0 0
+M 1 3105 1 3147 -1 -1 -1 0 0
+D 0 3103 8 1
+D 0 3123 6 2
+M 1 3105 1 3145 -1 -1 -1 0 0
+M 1 3106 1 3145 -1 -1 -1 0 0
+M 1 3106 1 3142 -1 -1 -1 0 0
+M 1 3106 1 3142 -1 -1 -1 0 0
+M 1 3106 1 3136 -1 -1 -1 0 0
+M 1 3107 1 3106 -1 -1 -1 0 0
+M 1 3107 1 3109 -1 -1 -1 0 0
+M 1 3107 1 3109 -1 -1 -1 0 0
+M 1 3107 1 3117 -1 -1 -1 0 0
+M 1 3108 1 3116 -1 -1 -1 0 0
+M 1 3108 1 3107 -1 -1 -1 0 0
+M 1 3103 1 3132 -1 -1 -1 0 0
+M 1 3100 1 3127 -1 -1 -1 0 0
+E 1 3100 1 24 -1 0 0
+E 1 3103 1 16 -1 0 0
+M 1 3109 1 3139 -1 -1 -1 0 0
+G 1 3106 1 -1 -1 0 0
+M 1 3106 1 3137 -1 -1 -1 0 0
+M 1 3106 1 3137 -1 -1 -1 0 0
+M 1 3104 1 3137 -1 -1 -1 0 0
+E 1 3105 1 5 -1 0 0
+M 1 3104 1 3101 -1 -1 -1 0 0
+E 1 3105 1 5 -1 0 0
+M 1 3104 1 3110 -1 -1 -1 0 0
+E 1 3105 1 5 -1 0 0
+M 1 3107 1 3112 -1 -1 -1 0 0
+M 1 3108 1 3112 -1 -1 -1 0 0
+M 1 3104 1 3112 -1 -1 -1 0 0
+E 1 3105 1 5 -1 0 0
+M 1 3104 1 3114 -1 -1 -1 0 0
+E 1 3105 1 5 -1 0 0
+M 1 3108 1 3118 -1 -1 -1 0 0
+M 1 3104 1 3118 -1 -1 -1 0 0
+E 1 3105 1 5 -1 0 0
+M 1 3107 1 3119 -1 -1 -1 0 0
+M 1 3104 1 3119 -1 -1 -1 0 0
+E 1 3105 1 5 -1 0 0
+M 1 3104 1 3121 -1 -1 -1 0 0
+E 1 3105 1 5 -1 0 0
+M 1 3104 1 3126 -1 -1 -1 0 0
+E 1 3105 1 5 -1 0 0
+M 1 3104 1 3126 -1 -1 -1 0 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  3101 spec_cast_undead
+S
+
+
+#$

@@ -1,0 +1,1420 @@
+#AREA   Land of the Firenewts~
+
+
+
+#VERSION 53
+#AUTHOR Rafermand/?~
+
+#RANGES
+10 20 0 65 0 0 0 0 0
+$
+
+#RESETMSG The sounds of the newts taking shelter in the mountain can only mean one thing...~
+
+#FLAGS
+1 9
+
+#ECONOMY 0 44857306 0
+
+#MOBILES
+#2901
+black mountain goat~
+a mountain goat~
+A mountain goat is standing here.
+~
+It looks hungry and searches for food.
+~
+3 0 0 0 C
+0 0 2 3 1 2
+1d5+13 1d2+1 0 0 0
+0 0
+112 112 1
+14 6 6 11 13 13 14 37
+0 0 0 0 0
+108 0 0 0 1 1 37
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#2902
+black mountain ewe~
+a mountain ewe~
+A mountain ewe is standing here.
+~
+The ewe is watching her young.
+~
+3 0 0 0 C
+0 0 2 3 1 2
+1d5+12 1d2+1 0 0 0
+0 0
+112 112 2
+12 6 6 13 13 13 12 37
+0 0 0 0 0
+109 0 0 0 1 1 37
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#2903
+black mountain kid~
+a mountain kid~
+A mountain kid is standing here.
+~
+The kid is playing with its siblings.
+~
+3 0 0 300 C
+0 0 2 1 2 1
+1d5+11 1d2+1 0 0 0
+110 0
+112 112 0
+13 6 6 15 13 13 11 37
+0 0 0 0 0
+0 0 0 0 1 1 37
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#2904
+fire newt worker~
+a fire newt worker~
+A fire newt worker is standing here.
+~
+The fire newt worker looks hot and sweaty.
+~
+101 0 0 -300 C
+0 0 3 3 2 4
+1d5+24 1d2+1 0 0 0
+150 0
+112 112 1
+14 6 6 11 13 13 15 38
+0 0 0 0 0
+107 0 0 0 1 1 38
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 16 0
+#2905
+fire newt guard~
+a fire newt guard~
+A fire newt guard is standing here.
+~
+The fire newt guard thinks you would be better dead.
+~
+35 0 0 -450 C
+0 0 4 5 3 4
+1d5+44 1d2+2 0 0 0
+250 0
+112 112 1
+13 12 12 15 13 13 13 39
+0 0 0 0 0
+107 0 0 0 1 1 39
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 48 0
+#2906
+fire newt worker~
+a fire newt worker~
+A fire newt worker is standing here.
+~
+The fire newt worker looks hot and sweaty.
+~
+3 0 8 -400 C
+0 0 3 4 3 3
+1d5+23 1d2+1 0 0 0
+150 0
+112 112 2
+11 6 6 11 13 13 14 38
+0 0 0 0 0
+107 0 0 0 1 1 38
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 32 0
+#2907
+fire newt guard~
+fire newt guard~
+A fire newt guard is standing here.
+~
+The fire newt guard wants to kill you!
+~
+97 0 0 -450 C
+0 0 4 4 4 3
+1d5+40 1d2+2 0 0 0
+250 0
+112 112 2
+12 13 11 14 13 13 14 39
+0 0 0 0 0
+107 0 0 0 1 1 39
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 48 0
+#2908
+fire newt mother~
+a fire newt mother~
+A fire newt mother is standing here.
+~
+The fire newt mother is watching her kids.
+~
+3 0 0 -100 C
+0 0 3 2 3 3
+1d5+20 1d2+1 0 0 0
+150 0
+112 112 2
+15 6 6 15 13 13 11 37
+0 0 0 0 0
+107 0 0 0 1 1 37
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#2909
+fire newt baby~
+a fire newt baby~
+A fire newt baby is crawling here.
+~
+The fire newt baby is crawling and drooling here.
+~
+7 0 0 -350 C
+0 0 1 0 2 0
+1d5+4 1d1+0 0 0 0
+0 0
+112 112 0
+15 6 6 14 13 13 12 35
+0 0 0 0 0
+107 0 0 0 1 1 35
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#2910
+fire newt sergeant~
+a fire newt sergeant~
+A fire newt sergeant patrols this area.
+~
+He's just found something that doesn't belong here!
+~
+35 0 0 -500 C
+0 0 5 4 6 4
+2d7+52 1d3+2 0 0 0
+1000 0
+112 112 1
+16 12 16 16 13 17 16 41
+0 0 0 0 0
+107 0 0 0 1 1 41
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+9 0 2047 257 0 0 0 64 2
+#2911
+fire newt general~
+a fire newt general~
+A fire newt general is standing here.
+~
+The fire newt general grins evilly at you.
+~
+35 0 0 -700 C
+0 0 5 4 6 4
+2d7+53 1d3+2 0 0 0
+0 0
+112 112 1
+13 14 13 15 13 13 15 41
+0 0 0 0 0
+107 0 0 0 1 1 41
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 2047 4353 0 0 0 32 524290
+#2912
+fire newt leader~
+a fire newt leader~
+A fire newt leader is standing here.
+~
+The fire newt leader screams, 'I'm going to hose you!'
+~
+35 0 136 -1000 C
+0 0 7 8 8 8
+4d12+110 1d4+4 0 0 0
+0 0
+112 112 1
+14 15 15 13 15 13 13 45
+0 0 0 0 0
+107 0 0 0 1 1 45
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 5377 0 0 64 524322
+#2913
+fire newt priest~
+a fire newt priest~
+A fire newt priest is standing here.
+~
+The fire newt priest is preparing for worship.
+~
+35 0 8 -1000 C
+0 0 7 7 8 7
+4d11+105 1d4+4 0 0 0
+0 0
+112 112 1
+16 17 16 13 13 17 13 46
+0 0 0 0 0
+107 0 0 0 1 1 46
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 7433 0 0 0 1090781248 289
+> death_prog 35~
+mpe _whi As the corpse of the priest falls, a ray from the heavens
+mpe _whi strikes the corpse and creates a gift from the heavens.
+mpoload 2917
+~
+|
+#2914
+fire lizard~
+a fire lizard~
+A fire lizard is crawling here.
+~
+The fire lizard flicks its tongue at you.
+~
+35 0 8 -100 C
+0 0 4 4 5 4
+2d6+48 1d2+2 0 0 0
+500 0
+112 112 0
+15 16 12 12 14 12 13 40
+0 0 0 0 0
+107 0 0 0 1 1 40
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 5377 0 0 68 1
+#2915
+Jesse~
+Jesse~
+Jesse sits against the wall relaxed, but does look surprised to see you.
+~
+Jesse sits back against the wall and practices a few magic spells on a
+few mice that wander around.  He isn't a fancy child, but has the
+ability to use some clerical and vampire related magic.  He might be
+staying here by choice or by mistake.
+~
+67112979&4 0 4194304 0 S
+0 0 0 0 0 0
+10000d0+0 0d0+0 0 0 0
+100 0
+112 112 1
+> speech_prog p What skills do you teach Jesse~
+tell $n I teach
+tell $n ----------------------------------
+tell $n 187.  Novice Evil
+tell $n 188.  Novice Vampire
+tell $n ----------------------------------
+~
+> speech_prog p learn 2 187~
+mpteach $n 2 Evil
+~
+> speech_prog p learn 2 188~
+mpteach $n 2 Vampire
+~
+> speech_prog p learn 1 187~
+mpteach $n 1 Evil
+~
+> speech_prog p learn 1 188~
+mpteach $n 1 Vampire
+~
+|
+#2999
+end~
+a newly created end~
+Some god abandoned a newly created end here.
+~
+~
+1073741825 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+108 108 0
+#0
+
+
+#OBJECTS
+#2901
+horns~
+horns~
+A set of horns lies here.~
+~
+5 0&0&256 513
+1000 1 3 2 -1 -1 0 1 1 2 3 0 20 2
+0.500000 50 0 0 0 0 1
+'NONE'
+#2902
+bladder milk~
+milk bladder~
+A milk bladder lies here.~
+~
+17 0 1
+20 20 10 0
+1.000000 2 0 0 0 0 0
+#2903
+fire newt shovel~
+fire newt shovel~
+A fire newt shovel lies here.~
+~
+5 0&0&2048 513
+1000 3 5 3 -1 -1 0 4 4 3 5 0 10 8
+3.000000 600 0 0 0 0 2
+'NONE'
+A
+13 1 0
+A
+12 1 0
+#2904
+fire newt short sword~
+fire newt short sword~
+A fire newt short sword lies here.~
+~
+5 524288&0&64 513
+1000 3 4 2 -1 -1 0 2 3 3 5 0 5 2
+3.000000 800 0 0 0 0 2
+'NONE'
+A
+13 2 0
+A
+12 2 0
+A
+82 1 0
+#2905
+fire newt hand axe~
+fire newt hand axe~
+A fire newt hand axe lies here.~
+~
+5 524288&0&128 513
+1000 2 4 2 -1 -1 0 3 4 2 5 0 5 4
+4.000000 1000 0 0 0 0 0
+'NONE'
+A
+13 2 0
+A
+12 2 0
+A
+82 1 0
+#2906
+fire newt chainmail~
+fire newt chainmail~
+A fire newt chainmail shirt lies here.~
+~
+9 0 9
+5 5 5 1000 5 2 0 0 0 0 0 0 0 0
+5.000000 2000 0 0 0 0 2
+A
+13 5 0
+A
+12 5 0
+#2907
+fire newt pick~
+fire newt pick~
+A fir newt pick lies here.~
+~
+5 0&0&128 513
+1000 5 7 11 -1 -1 0 5 6 4 7 0 15 12
+5.000000 2500 0 0 0 0 3
+'NONE'
+A
+13 3 0
+A
+12 3 0
+A
+82 1 0
+#2911
+fire newt broad axe~
+fire newt broad axe~
+A fire newt broad axe lies here.~
+~
+5 64&0&128 513
+1000 6 7 4 -1 -1 0 5 7 4 8 0 20 6
+7.000000 4500 0 0 0 0 4
+'NONE'
+A
+13 5 0
+A
+12 5 0
+A
+82 1 0
+A
+81 1 0
+#2912
+leather suit~
+leather suit~
+A leather suit lies here.~
+~
+9 65 1
+4 0 0 0
+3.000000 250 0 0 0 0 0
+A
+2 1 0
+#2913
+fire newt mace~
+fire newt mace~
+A fire newt mace lies here.~
+~
+5 66&0&2048 513
+1000 8 9 3 -1 -1 0 6 5 4 7 0 5 10
+4.000000 3000 0 0 0 0 3
+'NONE'
+A
+13 7 0
+A
+12 7 0
+A
+82 1 0
+A
+81 1 0
+#2915
+egg newt~
+a newt egg~
+A newt egg lies here.~
+~
+19 0 1
+10 0 0 0
+1.000000 1 0 0 0 0 0
+#2916
+fire sword~
+A &rFire&G sword~
+A &rFire&G sword lies here burning on the ground.~
+~
+5 524289&0&80 513
+1000 12 13 4 -1 -1 0 6 8 8 10 0 30 12
+9.000000 5500 0 0 0 0 4
+'NONE'
+A
+13 6 0
+A
+12 5 0
+A
+82 2 0
+A
+81 1 0
+A
+1 1 0
+#2917
+fire armor~
+&rFire&G armor~
+A small &rfire&G can be seen blazing on the ground.~
+~
+9 524545 9
+11 11 11 1000 11 3 0 0 0 0 0 0 0 0
+10.000000 8000 0 0 0 0 3
+A
+13 10 0
+A
+12 8 0
+A
+80 1 0
+A
+79 3 0
+A
+96 75 0
+> wear_prog 100~
+mea $n _red As you put on the armor, a magical blaze starts to protect you
+~
+> remove_prog 100~
+mea $n _red As you remove the armor, the blaze disappears
+~
+|
+#2999
+end~
+a newly created end~
+Some god dropped a newly created end here.~
+~
+13 1073741824 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#0
+
+
+#ROOMS
+#2900
+Obsidian hills~
+You see before you some shiny black hills. There is very little vegetation
+here. The hills appear to lead to a high mountain to the south east
+~
+4&2
+0 1
+0
+0
+D0
+~
+~
+134217728 -1 16000
+788 364
+D2
+You see some more hills.  They continue south.
+~
+~
+0 0 2901
+0 0
+E
+hills~
+The hills are a very shiny black color.
+~
+S
+#2901
+Obsidian hills~
+You see before you some shiny black hills. There is very little vegetation
+here. The hills appear to lead to a high mountain to the south east
+~
+4&2
+0 3
+0
+0
+D0
+You see some hills to the north.
+~
+~
+0 0 2900
+0 0
+D2
+You see some more hills to the south.
+~
+~
+0 0 2902
+0 0
+E
+hills~
+The hills are a very shiny black color.
+~
+S
+#2902
+Obsidian hills~
+You see before you some shiny black hills. There is very little vegetation
+here. The hills appear to lead to a high mountain to the south east
+~
+4&2
+0 3
+0
+0
+D0
+You see some hills to the north.
+~
+~
+0 0 2901
+0 0
+D1
+You see the side of the mountain to the east.
+~
+~
+0 0 2903
+0 0
+E
+hills~
+They are a very shiny black color.
+~
+S
+#2903
+Mountain side~
+The mountain is very high and looks to be quite old. There are a few cracks
+in the side of the mountain
+~
+0&2
+0 4
+0
+0
+D2
+The mountain continues.
+~
+~
+0 0 2904
+0 0
+D3
+You see some hills to the west.
+~
+~
+0 0 2902
+0 0
+E
+mountain~
+The mountain looks like it was formed from something sliding down and stopping.
+~
+S
+#2904
+Mountain side~
+The mountain is very high and looks to be quite old. There is smoke coming
+from the top of the mountain.
+~
+0&2
+0 4
+0
+0
+D0
+You see mountains to the north.
+~
+~
+0 0 2903
+0 0
+D2
+The mountain continues.
+~
+~
+0 0 2905
+0 0
+E
+smoke~
+The smoke is grey and puffs out of the top of the mountain.
+~
+S
+#2905
+Mountain top~
+You've reached the top of the mountain. You can see more smoke from up here.
+The smoke seems to come from a hole to the south.
+~
+4&2
+0 4
+0
+0
+D0
+You see the side of the mountain to the north.
+~
+~
+0 0 2904
+0 0
+D2
+You see a hole to the south. It looks like an entrance.
+~
+~
+0 0 2906
+0 0
+E
+top of mountain~
+The top of the mountain is a large area with a hole in the middle.
+~
+E
+smoke~
+The smoke is grey and is coming from the hole.
+~
+S
+#2906
+Entrance to the mountain~
+The smoke comes from inside the hole.  It also looks like there is a path
+that leads down.
+~
+4&2
+0 4
+0
+0
+D0
+You see the top of the mountain to the north.
+~
+~
+0 0 2905
+0 0
+D1
+You see the top of the mountain to the east.
+~
+~
+0 0 2907
+0 0
+D2
+You see the top of the mountain to the south.
+~
+~
+0 0 2909
+0 0
+D3
+You see the top of the mountain to the west.
+~
+~
+0 0 2908
+0 0
+D5
+You can see down inside the mountain.
+~
+~
+0 0 2910
+0 0
+S
+#2907
+Mountain top~
+You are standing at the top of the mountain. The mountain looks like it has
+been ravaged by something.
+~
+4&2
+0 4
+0
+0
+D3
+You see the entrance to the mountain to the west.
+~
+~
+0 0 2906
+0 0
+S
+#2908
+Mountain top~
+You are standing at the top of the mountain. There are several cracks in the
+ground and you don't feel safe!
+~
+4&2
+0 4
+0
+0
+D1
+You see the entrance to the mountain to the north.
+~
+~
+0 0 2906
+0 0
+S
+#2909
+Mountain top~
+You are standing on the top of the mountain and think you should move north.
+~
+4&2
+0 4
+0
+0
+D0
+You see the entrance to the mountain to the north.
+~
+~
+0 0 2906
+0 0
+S
+#2910
+Inside the mountain~
+You are standing inside the mountain.
+~
+9&2
+0 2
+0
+0
+D1
+You see guard barracks.
+~
+~
+0 0 2911
+0 0
+D3
+You see guard barracks.
+~
+~
+0 0 2912
+0 0
+D4
+Entrance to the mountain.
+~
+~
+0 0 2906
+0 0
+D5
+The shaft continues down.
+~
+~
+0 0 2913
+0 0
+S
+#2911
+Guard room~
+You are standing in a room with beds, tables, and fire newts!
+There are paintings on the wall.  They show battle scenes.
+~
+9&2
+0 2
+0
+0
+D3
+You see the dark tunnel shaft.
+~
+~
+0 0 2910
+0 0
+E
+beds~
+The beds are made of metal and rock.
+~
+E
+chairs~
+The chairs are made of stone and look very heavy.
+~
+E
+tables~
+The tables are long and wide.  They are made of stone and obviously too heavy
+to move.
+~
+S
+#2912
+Guard room~
+You are standing in a room with beds, chairs, tables, and fire newts!
+There are paintings on the wall that show great leaders.
+~
+9&2
+0 2
+0
+0
+D1
+You see the shaft in the mountain.
+~
+~
+0 0 2910
+0 0
+E
+beds~
+The beds are made of metal and rock.
+~
+E
+chairs~
+The chairs are made of stone and look very heavy.
+~
+E
+tables~
+The tables are long and wide.  They are made of stone and are obviously to
+heavy to move.
+~
+S
+#2913
+Inside the mountain~
+You are standing inside the mountain.
+~
+9&2
+0 2
+0
+0
+D0
+You see a large storage room.
+~
+~
+0 0 2914
+0 0
+D2
+You see workers' quarters.
+~
+~
+0 0 2915
+0 0
+D4
+You see the dark mountain shaft.
+~
+~
+0 0 2910
+0 0
+D5
+The shaft continues down.
+~
+~
+0 0 2916
+0 0
+S
+#2914
+Store room~
+You are seeing nothing special in this room.  There are some boxes and fire newt
+workers here.
+~
+9&2
+0 2
+0
+0
+D0
+~
+HOLE~
+8391723 -1 2932
+0 0
+D2
+You see the dark mountain shaft.
+~
+~
+0 0 2913
+0 0
+E
+trash~
+Behind the trash is a small HOLE in which looks like it can be open
+to access what ever is behind it.
+~
+S
+#2915
+Workers' quarters~
+You are standing in the workers' quarters.  There are several workers here.  
+The room is messy and has nothing of value in it.  The party the night before
+must have destroyed everything.
+~
+9&2
+0 2
+0
+0
+D0
+You see the dark mountain shaft.
+~
+~
+0 0 2913
+0 0
+S
+#2916
+Bottom of the mountain~
+You are standing at the bottom of the shaft.
+~
+9&2
+0 2
+0
+0
+D0
+You see the dark tunnel.
+~
+~
+0 0 2917
+0 0
+D4
+You see the mountain shaft.
+~
+~
+0 0 2913
+0 0
+S
+#2917
+The tunnel~
+You are standing in a dry, dark tunnel.
+~
+9&2
+0 2
+0
+0
+D0
+You see a bend in the tunnel.
+~
+~
+0 0 2918
+0 0
+D2
+You see the bottom of the shaft.
+~
+~
+0 0 2916
+0 0
+S
+#2918
+Bend in the tunnel~
+You are standing in a dark tunnel.
+~
+9&2
+0 2
+0
+0
+D1
+The tunnel continues into the dark.
+~
+~
+0 0 2919
+0 0
+D2
+You see that the tunnel leads back.
+~
+~
+0 0 2917
+0 0
+S
+#2919
+The tunnel~
+You are standing in a dark tunnel.
+~
+9&2
+0 2
+0
+0
+D0
+The tunnel continues into the dark.
+~
+~
+0 0 2921
+0 0
+D1
+You see a small fire newt house.
+~
+~
+0 0 2920
+0 0
+D3
+You see a bend in the tunnel.
+~
+~
+0 0 2918
+0 0
+S
+#2920
+Fire Newt House~
+You are standing in a fire newt house.  There is a mother fire newt here
+playing with her children.  The room is full of newt toys- they look very
+boring.
+~
+9&2
+0 2
+0
+0
+D3
+You see the dark tunnel.
+~
+~
+0 0 2919
+0 0
+S
+#2921
+The tunnel~
+You are standing in a dark tunnel.
+~
+9&2
+0 2
+0
+0
+D0
+The tunnel continues on.
+~
+~
+0 0 2923
+0 0
+D2
+The dark tunnel.
+~
+~
+0 0 2919
+0 0
+D3
+You see a fire newt house.
+~
+~
+0 0 2922
+0 0
+S
+#2922
+Fire Newt House~
+You are standing in a fire newt house.  There is a fire newt mother here
+playing with her children.  The room has several torn baby newt diapers here
+... how disgusting!
+~
+9&2
+0 2
+0
+0
+D1
+You see the dark tunnel.
+~
+~
+0 0 2921
+0 0
+S
+#2923
+The tunnel~
+You are standing in the dark tunnel.
+~
+9&2
+0 2
+0
+0
+D1
+You see a fire newt temple.
+~
+~
+0 0 2927
+0 0
+D2
+You see the dark tunnel.
+~
+~
+0 0 2921
+0 0
+D3
+You see the entrance to the town hall.
+~
+~
+0 0 2924
+0 0
+S
+#2924
+Entrance to the town hall~
+You are standing in the entrance to the town hall.  The room is large and
+ornate.
+~
+9&2
+0 2
+0
+0
+D1
+You see the dark tunnel.
+~
+~
+0 0 2923
+0 0
+D3
+You see a waiting room. 
+~
+~
+0 0 2925
+0 0
+S
+#2925
+The Waiting Room~
+You are standing in the waiting room of the town hall.  There is a big door
+to the west.  The room has pictures of the villages history.
+~
+9&2
+0 2
+0
+0
+D1
+You see the entrance to the town hall.
+~
+~
+0 0 2924
+0 0
+D3
+You see a large office.
+~
+door~
+3 0 2926
+0 0
+S
+#2926
+The Leader's Office~
+You are standing in the fire newt leader's office.
+~
+9&2
+0 2
+0
+0
+D1
+You see the waiting room.
+~
+door~
+3 0 2925
+0 0
+S
+#2927
+Outside the temple~
+You are standing outside the fire newt temple.  The temple has some very
+large arches and towers.
+~
+9&2
+0 2
+0
+0
+D1
+You see the entrance to the fire newt temple.
+~
+~
+0 0 2928
+0 0
+D3
+You see the dark tunnel.
+~
+~
+0 0 2923
+0 0
+S
+#2928
+Entrance to the temple~
+You are standing at the entrance to the temple.  The temple is very neat. 
+The sates are set in straight rows and the alter is very large.
+~
+9&2
+0 2
+0
+0
+D1
+You see the door, that leads to the inside of the temple.
+~
+door~
+3 -1 2929
+0 0
+D3
+You see the outside of the temple.
+~
+~
+0 0 2927
+0 0
+S
+#2929
+Inside the Temple~
+You are standing inside the fire newt temple.
+~
+9&2
+0 2
+0
+0
+D3
+You see the door that leads to the temple entrance.
+~
+door~
+3 -1 2928
+0 0
+D5
+You see a large trap door.
+~
+~
+0 0 2930
+0 0
+S
+#2930
+The room before the doors~
+You are standing before a pair of huge doors.
+~
+9
+0 2
+0
+0
+D1
+You see two large doors.
+~
+doors~
+1 -1 2931
+0 0
+D4
+You see the inside of the temple.
+~
+~
+0 0 2929
+0 0
+S
+#2931
+The Egg Room~
+You are standing in a room that has several dozen piles of eggs.  There is
+a chest on the floor also.
+~
+13
+0 2
+0
+0
+D3
+You see two large doors.
+~
+doors~
+1 -1 2930
+0 0
+S
+#2932
+Secret Area~
+An unarmed human has been hiding behind the pile of garbage and appears
+to be living a nice life.  Against the wall is a small pile of food and
+what the newts thought was garbage, but he found ways to use it for
+other means.
+~
+1073741824
+0 1
+0
+0
+D2
+~
+HOLE~
+8391723 -1 2914
+0 0
+S
+#0
+
+
+#RESETS
+M 0 2908 1 2920 -1 -1 -1 0 0
+M 0 2909 1 2920 -1 -1 -1 0 0
+M 0 2909 1 2920 -1 -1 -1 0 0
+M 0 2909 1 2920 -1 -1 -1 0 0
+M 0 2909 1 2920 -1 -1 -1 0 0
+M 0 2909 1 2920 -1 -1 -1 0 0
+M 0 2909 1 2920 -1 -1 -1 0 0
+M 0 2908 1 2922 -1 -1 -1 0 0
+M 0 2909 1 2922 -1 -1 -1 0 0
+M 0 2909 1 2922 -1 -1 -1 0 0
+M 0 2909 1 2922 -1 -1 -1 0 0
+M 0 2909 1 2922 -1 -1 -1 0 0
+M 0 2909 1 2922 -1 -1 -1 0 0
+M 0 2909 1 2922 -1 -1 -1 0 0
+M 0 2914 1 2930 -1 -1 -1 0 0
+M 0 2914 1 2930 -1 -1 -1 0 0
+O 0 2915 100 2931 -1 -1 -1 -1 0 0
+M 1 2915 1 2932 -1 -1 -1 0 0
+D 0 2932 2 1
+M 1 2903 1 2908 -1 -1 -1 0 0
+M 1 2903 1 2906 -1 -1 -1 0 0
+M 1 2903 1 2909 -1 -1 -1 0 0
+M 1 2902 1 2905 -1 -1 -1 0 0
+G 1 2902 1 0 -1 0 0
+M 1 2903 1 2905 -1 -1 -1 0 0
+M 1 2901 1 2904 -1 -1 -1 0 0
+G 1 2901 1 0 -1 0 0
+M 1 2902 1 2904 -1 -1 -1 0 0
+G 1 2902 1 0 -1 0 0
+M 1 2901 1 2903 -1 -1 -1 0 0
+G 1 2901 1 0 -1 0 0
+M 1 2905 1 2911 -1 -1 -1 0 0
+E 1 2904 1 13 -1 0 0
+M 1 2905 1 2911 -1 -1 -1 0 0
+E 1 2904 1 13 -1 0 0
+M 1 2905 1 2911 -1 -1 -1 0 0
+E 1 2904 1 13 -1 0 0
+M 1 2905 1 2912 -1 -1 -1 0 0
+E 1 2905 1 13 -1 0 0
+M 1 2905 1 2912 -1 -1 -1 0 0
+E 1 2904 1 13 -1 0 0
+M 1 2905 1 2912 -1 -1 -1 0 0
+E 1 2905 1 13 -1 0 0
+M 1 2906 1 2915 -1 -1 -1 0 0
+G 1 2903 1 0 -1 0 0
+M 1 2906 1 2915 -1 -1 -1 0 0
+G 1 2903 1 0 -1 0 0
+M 1 2906 1 2915 -1 -1 -1 0 0
+M 1 2906 1 2915 -1 -1 -1 0 0
+M 1 2904 1 2915 -1 -1 -1 0 0
+G 1 2906 1 0 -1 0 0
+M 1 2904 1 2914 -1 -1 -1 0 0
+D 0 2914 0 1
+M 1 2904 1 2913 -1 -1 -1 0 0
+M 1 2907 1 2918 -1 -1 -1 0 0
+E 1 2904 1 13 -1 0 0
+M 1 2904 1 2918 -1 -1 -1 0 0
+M 1 2911 1 2928 -1 -1 -1 0 0
+E 1 2906 1 5 -1 0 0
+E 1 2911 1 13 -1 0 0
+M 1 2911 1 2928 -1 -1 -1 0 0
+G 1 2907 1 0 -1 0 0
+E 1 2906 1 5 -1 0 0
+E 1 2911 1 13 -1 0 0
+M 1 2907 1 2928 -1 -1 -1 0 0
+G 1 2904 1 0 -1 0 0
+M 1 2904 1 2928 -1 -1 -1 0 0
+G 1 2903 1 0 -1 0 0
+D 0 2928 1 1
+M 1 2904 1 2919 -1 -1 -1 0 0
+M 1 2910 1 2919 -1 -1 -1 0 0
+G 1 2907 1 0 -1 0 0
+E 1 2906 1 5 -1 0 0
+E 1 2911 1 13 -1 0 0
+M 1 2911 1 2925 -1 -1 -1 0 0
+G 1 2907 1 0 -1 0 0
+E 1 2906 1 5 -1 0 0
+E 1 2911 1 13 -1 0 0
+M 1 2904 1 2925 -1 -1 -1 0 0
+D 0 2925 3 1
+M 1 2907 1 2924 -1 -1 -1 0 0
+M 1 2904 1 2924 -1 -1 -1 0 0
+M 1 2907 1 2924 -1 -1 -1 0 0
+M 1 2911 1 2924 -1 -1 -1 0 0
+E 1 2906 1 5 -1 0 0
+E 1 2911 1 13 -1 0 0
+O 1 10 1 2924 -1 -1 -1 -1 0 0
+M 1 2904 1 2927 -1 -1 -1 0 0
+M 1 2911 1 2927 -1 -1 -1 0 0
+E 1 2906 1 5 -1 0 0
+E 1 2911 1 13 -1 0 0
+M 1 2910 1 2921 -1 -1 -1 0 0
+G 1 2907 1 0 -1 0 0
+E 1 2906 1 5 -1 0 0
+E 1 2911 1 13 -1 0 0
+M 1 2904 1 2916 -1 -1 -1 0 0
+M 1 2904 1 2917 -1 -1 -1 0 0
+M 1 2907 1 2917 -1 -1 -1 0 0
+E 1 2904 1 13 -1 0 0
+M 1 2904 1 2917 -1 -1 -1 0 0
+O 1 17 1 2917 -1 -1 -1 -1 0 0
+M 1 2913 1 2929 -1 -1 -1 0 0
+E 1 2913 1 13 -1 0 0
+D 0 2929 3 1
+M 1 2912 1 2926 -1 -1 -1 0 0
+E 1 2916 1 13 -1 0 0
+D 0 2926 1 1
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  2913 spec_cast_cleric
+M  2914 spec_breath_fire
+S
+
+
+#$

@@ -1,0 +1,53 @@
+#DEITY
+Filename		../deity/varl~
+Name		Varl~
+Description	Lord over the balance of nature, Varl seeks out followers who keep themselves
+balanced and neutral as well.  He despises orcs for their corrupt and wicked
+ways.  Their destruction of nature causes him to work even harder than he has to
+in order to keep balance.  Varl accepts all classes who choose to worship him.
+He is fond of all types of magic for the mana used in spells comes from nature
+itself.  However, he does not discriminate against those who use brute force.
+Otherwise the balance would be disrupted.  Loyal followers of Varl are imbued
+with a protection from nature's greatest powers: cold and heat.  They are also
+granted the sight of hidden and invisible things.
+~
+Alignment		0
+Worshippers	12
+Flee		-2
+Flee_npcrace	0
+Flee_npcfoe	-4
+Kill		3
+Kill_npcrace	0
+Kill_npcfoe	6
+Kill_magic	2
+Sac		2
+Bury_corpse	2
+Aid_spell		4
+Aid		2
+Steal		0
+Backstab		0
+Die		-7
+Die_npcrace	0
+Die_npcfoe	-10
+Spell_aid		2
+Dig_corpse	-2
+Scorpse		250
+Savatar		300
+Sdeityobj		450
+Srecall		175
+Race		-1
+Class		-1
+Element		3
+Sex		-1
+Affected		40
+Npcrace		0
+Npcfoe		53
+Suscept		512
+Race2		-1
+Susceptnum	0
+Elementnum	1500
+Affectednum	1250
+Objstat		2
+End
+
+#END

@@ -1,0 +1,252 @@
+#PLAYER
+Version      5
+Name         Admin~
+LastName     Superadmin~
+SLastName    1
+Pid	     14433
+Sex          1
+Race         1
+Languages    -1 1
+Level        7
+Played       529
+Room         16000
+HpManaMove   24 24 78 78 1000 1000
+Limbs        1000 1000 1000 1000
+HitCount    0
+ManaCount    0
+Righthanded  1
+Gold         13080
+Height          45
+Weight          87
+Act          570426952&138412544
+AffectedBy   16
+Grip         1
+Position     112
+Style     2
+Practice     0
+MoveR	     30
+Train        0
+Resource     0
+Resourcetype 0
+TwinkPoints  0
+SavingThrows 0 0 0 0 0
+Alignment    0
+Favor	       0
+Balance      0
+GPrompt      0
+LastInterest 1130100054
+LastIntroCheck 1130105731
+Caste        2
+SPoints      3
+PowerRanking 24
+FLevel       1
+HomeTown     0
+KingdomPid   0
+TimeoutLogin 720
+TimeoutNotes 2400
+TimeoutIdle  4800
+Banksize     100
+LostCon      0
+Speed        6
+Tone         ~
+MoveMessage  ~
+Incr         0
+GtRemort     0
+Tier         1
+Lore         7
+Whonum       1
+Mapdir       2
+Stable       0
+Stablenum    0
+Stablecurr   0
+Glory        0
+MGlory       0
+Reward       0
+Reward_Accum 0
+Quest_Wins   0
+Quest_Loss   0
+Job          0
+Hitroll      0
+Damroll      0
+Target       1
+Target_Limb  0
+Armor        0
+Skincolor    1
+Haircolor    1
+Hairlength   1
+Hairstyle    1
+Eyecolor     1
+Cheight      1
+Cweight      1
+DOffer_time     0
+DReceive_time   0
+DOffier_name    -1
+DReceive_name   -1
+DOffer_prank    0
+DReceive_prank  0
+SOffier_name    -1
+SReceive_name   -1
+PLevel          12
+Sworth          6105
+EWorth          3200
+ICEListen ~
+Elements     8
+Mentalstate  -6
+Title        ~
+Pretit       ~
+AuthedBy     Auto~
+CameFrom     hell~
+Boards       12 OOC 0 Ideas 0 Announce 0 ToImmortal 0 Immortals 0 Complaints 0 Staff 0 Bugs 0 Kingdom 0 IC 0 Story 0 History 0 
+WizInvis     7
+Flags        32768
+PKills       0
+PDeaths      0
+PRanking     0
+LastPRankingCheck 1130100055
+Fame	     1
+PkPower      0
+MKills       1
+MDeaths      0
+IllegalPK    0
+AttrPer      2961 2970 3092 3008 2970 6155 349
+HpMpMvPer    313 300 413AttrPerm     13 15 15 15 13 14 15 40
+AttrMod      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+NewResists   75 150 100 100 100 100 100 100 100 100 100 100 100 100 100
+NewResists1  100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+NewResists2  150 100 100 100 100 100 100 100 100 100 100 100 100 100 8
+Condition    0 48 48 10
+Site         192.168.1.100
+Tongue       0 20 6 'common'
+Tongue       0 20 6 'elvish'
+Killed       21310 1
+CHISTORY
+-1 14433 0 0 -1 Admin~ play~
+CHISTORY
+-1 14433 0 0 -1 Admin~ agree~
+Coordinates	784 318 0
+MaxColors    81
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 25 7 7 14 14 10 15 15 14 11 9 31 25 12 7 7 10 6 11 9 10 1 15 11 15 14 10 13 12 10 11 12 10 3 12 9 15 11 15 2 2 5 15 9 11 9 3 10 10 2 10 11 7 7 8 12 12 12 10 10 11 14 8 12 8 
+End
+
+#OBJECT
+Version       5
+Vnum         21241
+ExtraFlags   262144&16777728
+WearLoc      20
+Sworthrestrict 0
+Imbueslots   2
+Coords	0 784 318
+End
+
+#OBJECT
+Version       5
+Vnum         21211
+ExtraFlags   0&512
+WearLoc      0
+Sworthrestrict 0
+Coords	0 784 318
+Values       0 0 118 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Version       5
+Vnum         21221
+ExtraFlags   0&512
+Sworthrestrict 0
+Coords	0 784 318
+Values       80 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Version       5
+Nest         1
+Count        10
+Vnum         21218
+ExtraFlags   0&512
+Sworthrestrict 0
+Coords	0 784 318
+Values       14 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Version       5
+Nest         1
+Vnum         21212
+ExtraFlags   0&512
+Sworthrestrict 0
+Coords	0 784 318
+Values       10 10 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Version       5
+Name         Copper Elven Katana~
+ShortDescr   A Copper Elven Katana~
+Description  Someone has left their Copper Elven Katana here~
+Vnum         21010
+ExtraFlags   0&8704
+Weight       8.500000
+Sworthrestrict 0
+Imbueslots   3
+Coords	0 784 318
+Values       1000 2 6 5 -1 -1 0 1 3 3 6 0 20 8
+End
+
+#OBJECT
+Version       5
+Name         Copper Elven Hammer~
+ShortDescr   A Copper Elven Hammer~
+Description  Someone has left their Copper Elven Hammer here~
+Vnum         21031
+ExtraFlags   0&8704
+Weight       8.500000
+Sworthrestrict 0
+Imbueslots   3
+Coords	0 784 318
+Values       1000 2 7 5 -1 -1 0 3 1 1 3 0 4 8
+End
+
+#OBJECT
+Version       5
+Name         Copper Elven Kris~
+ShortDescr   A Copper Elven Kris~
+Description  Someone has left their Copper Elven Kris here~
+Vnum         21019
+ExtraFlags   0&8704
+Weight       6.800000
+Sworthrestrict 0
+Imbueslots   2
+Coords	0 784 318
+Values       1000 3 4 4 -1 -1 0 1 2 3 3 0 25 8
+End
+
+#OBJECT
+Version       5
+Name         Copper Elven Round Shield~
+ShortDescr   A Copper Elven Round Shield~
+Description  Someone has left their Copper Elven Round Shield here~
+Vnum         21068
+ExtraFlags   0&8704
+Weight       6.800000
+Sworthrestrict 0
+Imbueslots   2
+Coords	0 784 318
+Values       100 100 20 1 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Version       5
+Name         Copper Elven Chain Mail~
+ShortDescr   Some Copper Elven Chain Mail~
+Description  Someone has left their Copper Elven Chain Mail here!~
+Vnum         21045
+ExtraFlags   0&8704
+WearLoc      5
+Weight       11.900000
+Sworthrestrict 0
+Imbueslots   2
+Coords	0 784 318
+Values       4 4 4 1000 4 2 0 0 0 0 0 0 0 0
+End
+
+#END

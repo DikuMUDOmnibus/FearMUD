@@ -1,0 +1,55 @@
+/*****************************************************/
+/* DEVIL_FEMALE.nam                                  */
+/* Namnfil f”r namn fr†n Deverry (kvinnor)           */
+/* av Johan Danforth                                 */
+/* rader som b”rjar med / „r kommentar-rader         */
+/* varje section b”rjar med [xxx] enlig filen nedan  */
+/*****************************************************/
+/* Used for Undead                                   */
+/*****************************************************/
+[start]
+Al
+Br
+C
+Cl
+D
+El
+Gw
+J
+L
+M
+N
+Mer
+S
+R
+Ys
+[middle]
+a
+ae
+e
+ea
+i
+o
+u
+y
+w
+[end]
+brylla
+cla
+dda
+ll
+lla
+llyra
+lonna
+lyan
+na
+ngwen
+niver
+noic
+ra
+rka
+ryan
+ssa
+vyan
+[stop]
+/* The end, comment needed for file to work*/

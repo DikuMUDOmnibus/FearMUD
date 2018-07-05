@@ -1,0 +1,4598 @@
+#Version 2
+
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     30000
+Vnum      16234
+MinCaste  0
+Flags     16
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     60000
+Vnum      16235
+MinCaste  0
+Flags     16
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     70000
+Vnum      16236
+MinCaste  0
+Flags     16
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      200
+Gold      0
+Stone     0
+Coins     125000
+Vnum      16237
+MinCaste  0
+Flags     32
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      500
+Gold      0
+Stone     0
+Coins     200000
+Vnum      16238
+MinCaste  0
+Flags     64
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     125000
+Vnum      16252
+MinCaste  0
+Flags     16
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     5000
+Vnum      16301
+MinCaste  0
+Flags     66570
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     9000
+Vnum      16302
+MinCaste  0
+Flags     572523530
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     12000
+Vnum      16303
+MinCaste  0
+Flags     1049610
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     15000
+Vnum      16304
+MinCaste  0
+Flags     573309962
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     20000
+Vnum      16305
+MinCaste  0
+Flags     573309962
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     30000
+Vnum      16306
+MinCaste  0
+Flags     1145578506
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     45000
+Vnum      16307
+MinCaste  0
+Flags     -2004212726
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     70000
+Vnum      16308
+MinCaste  0
+Flags     -2004212726
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     100000
+Vnum      16309
+MinCaste  0
+Flags     286417930&1
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     200000
+Vnum      16310
+MinCaste  0
+Flags     286450826&401
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     16000
+Vnum      16299
+MinCaste  0
+Flags     260
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     30000
+Vnum      16253
+MinCaste  0
+Flags     16
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     8000
+Vnum      16311
+MinCaste  0
+Flags     138&32770
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     12000
+Vnum      16312
+MinCaste  0
+Flags     138&32898
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     17000
+Vnum      16313
+MinCaste  0
+Flags     138&32902
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     25000
+Vnum      16314
+MinCaste  0
+Flags     138&65676
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     35000
+Vnum      16315
+MinCaste  0
+Flags     138&67724
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     45000
+Vnum      16316
+MinCaste  0
+Flags     138&24588
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     65000
+Vnum      16317
+MinCaste  0
+Flags     138&133272
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     90000
+Vnum      16318
+MinCaste  0
+Flags     138&134328
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     135000
+Vnum      16319
+MinCaste  0
+Flags     138&162992
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     500000
+Vnum      16320
+MinCaste  0
+Flags     138&31968
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     10000
+Vnum      16321
+MinCaste  0
+Flags     4106&33587200
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     15000
+Vnum      16322
+MinCaste  0
+Flags     4106&33587456
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     20000
+Vnum      16323
+MinCaste  0
+Flags     4106&34111744
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     30000
+Vnum      16324
+MinCaste  0
+Flags     4106&102269184
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     40000
+Vnum      16325
+MinCaste  0
+Flags     4106&68976896
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     50000
+Vnum      16326
+MinCaste  0
+Flags     4106&209846784
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     70000
+Vnum      16327
+MinCaste  0
+Flags     4106&146604800
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     100000
+Vnum      16328
+MinCaste  0
+Flags     4106&150799104
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     150000
+Vnum      16329
+MinCaste  0
+Flags     135178&419234560
+End       
+#MOB
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     500000
+Vnum      16330
+MinCaste  0
+Flags     135178&301728512
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     3000
+Vnum      16121
+MinCaste  0
+Flags     64
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     3000
+Vnum      16122
+MinCaste  0
+Flags     64
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     3000
+Vnum      16123
+MinCaste  0
+Flags     64
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     2500
+Vnum      16124
+MinCaste  0
+Flags     64
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     2500
+Vnum      16125
+MinCaste  0
+Flags     64
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     2500
+Vnum      16126
+MinCaste  0
+Flags     64
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     7000
+Vnum      16127
+MinCaste  0
+Flags     64
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     500
+Vnum      16071
+MinCaste  0
+Flags     64
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     500
+Vnum      16119
+MinCaste  0
+Flags     64
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     500
+Vnum      16120
+MinCaste  0
+Flags     64
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     1200
+Vnum      16070
+MinCaste  0
+Flags     64
+End       
+#OBJECT
+Tree      500
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     1000
+Vnum      16101
+MinCaste  0
+Flags     160
+End       
+#OBJECT
+Tree      1000
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     3000
+Vnum      16102
+MinCaste  0
+Flags     160
+End       
+#OBJECT
+Tree      2500
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     10000
+Vnum      16103
+MinCaste  0
+Flags     160
+End       
+#OBJECT
+Tree      3500
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     30000
+Vnum      16104
+MinCaste  0
+Flags     160
+End       
+#OBJECT
+Tree      6000
+Corn      0
+Grain     0
+Iron      2000
+Gold      1000
+Stone     0
+Coins     150000
+Vnum      16100
+MinCaste  0
+Flags     160
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     1000
+Coins     5000
+Vnum      16105
+MinCaste  0
+Flags     160
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     2000
+Coins     8000
+Vnum      16106
+MinCaste  0
+Flags     160
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     2000
+Coins     10000
+Vnum      16107
+MinCaste  0
+Flags     160
+End       
+#OBJECT
+Tree      2000
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     20000
+Vnum      16113
+MinCaste  0
+Flags     36
+End       
+#OBJECT
+Tree      4000
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     50000
+Vnum      16114
+MinCaste  0
+Flags     36
+End       
+#OBJECT
+Tree      7000
+Corn      0
+Grain     0
+Iron      1000
+Gold      0
+Stone     0
+Coins     100000
+Vnum      16115
+MinCaste  0
+Flags     36
+End       
+#OBJECT
+Tree      10000
+Corn      0
+Grain     0
+Iron      2500
+Gold      0
+Stone     0
+Coins     300000
+Vnum      16116
+MinCaste  0
+Flags     36
+End       
+#OBJECT
+Tree      15000
+Corn      0
+Grain     0
+Iron      5000
+Gold      1500
+Stone     0
+Coins     800000
+Vnum      16117
+MinCaste  0
+Flags     36
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     100000
+Vnum      16118
+MinCaste  0
+Flags     176
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      1000
+Gold      0
+Stone     0
+Coins     50000
+Vnum      16108
+MinCaste  0
+Flags     72
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     40000
+Vnum      16134
+MinCaste  0
+Flags     290
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     40000
+Vnum      16135
+MinCaste  0
+Flags     290
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     40000
+Vnum      16136
+MinCaste  0
+Flags     290
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     40000
+Vnum      16137
+MinCaste  0
+Flags     290
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     70000
+Vnum      16130
+MinCaste  0
+Flags     290
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     70000
+Vnum      16131
+MinCaste  0
+Flags     290
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     70000
+Vnum      16132
+MinCaste  0
+Flags     290
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     70000
+Vnum      16133
+MinCaste  0
+Flags     290
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     100000
+Vnum      16109
+MinCaste  0
+Flags     290
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     100000
+Vnum      16110
+MinCaste  0
+Flags     290
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     100000
+Vnum      16111
+MinCaste  0
+Flags     290
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     100000
+Vnum      16112
+MinCaste  0
+Flags     290
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     800000
+Vnum      16138
+MinCaste  0
+Flags     290
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     800000
+Vnum      16139
+MinCaste  0
+Flags     290
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     800000
+Vnum      16140
+MinCaste  0
+Flags     290
+End       
+#OBJECT
+Tree      0
+Corn      0
+Grain     0
+Iron      0
+Gold      0
+Stone     0
+Coins     800000
+Vnum      16141
+MinCaste  0
+Flags     290
+End       
+#TRAINER
+Name      Robert~
+Sn1       'armor'
+Sn2       'jagged spike'
+Sn3       'jagged stone'
+Sn4       'faerie fire'
+Sn5       'fire arrow'
+Sn6       'fire blast'
+Sn7       'detect magic'
+Sn8       'wind chill'
+Sn9       'wind gust'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  5
+Mastery9  5
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      10000
+Pid       1
+End       
+#TRAINER
+Name      John~
+Sn1       'armor'
+Sn2       'jagged spike'
+Sn3       'jagged stone'
+Sn4       'faerie fire'
+Sn5       'fire arrow'
+Sn6       'fire blast'
+Sn7       'detect magic'
+Sn8       'wind chill'
+Sn9       'wind gust'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  6
+Mastery9  6
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      25000
+Pid       2
+End       
+#TRAINER
+Name      William~
+Sn1       'cold ball'
+Sn2       'create water'
+Sn3       'frozen dart'
+Sn4       'wizardry style'
+Sn5       'energy blast'
+Sn6       'power drain'
+Sn7       'weaken'
+Sn8       'energy blast'
+Sn9       'power drain'
+Sn10      'weaken'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  5
+Mastery9  5
+Mastery10 5
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      10000
+Pid       3
+End       
+#TRAINER
+Name      Jane~
+Sn1       'cold ball'
+Sn2       'create water'
+Sn3       'frozen dart'
+Sn4       'wizardry style'
+Sn5       'energy blast'
+Sn6       'power drain'
+Sn7       'weaken'
+Sn8       'energy blast'
+Sn9       'power drain'
+Sn10      'weaken'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  6
+Mastery9  6
+Mastery10 6
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      25000
+Pid       4
+End       
+#TRAINER
+Name      Jamie~
+Sn1       'blindness'
+Sn2       'earthquake'
+Sn3       'create fire'
+Sn4       'create food'
+Sn5       'minor invocation'
+Sn6       'word of recall'
+Sn7       'create spring'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      10000
+Pid       5
+End       
+#TRAINER
+Name      Ryan~
+Sn1       'blindness'
+Sn2       'earthquake'
+Sn3       'create fire'
+Sn4       'create food'
+Sn5       'minor invocation'
+Sn6       'word of recall'
+Sn7       'create spring'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      25000
+Pid       6
+End       
+#TRAINER
+Name      Nrion~
+Sn1       'cure light'
+Sn2       'divine style'
+Sn3       'cause light'
+Sn4       'refresh'
+Sn5       'cause light'
+Sn6       'refresh'
+Sn7       'bless'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      10000
+Pid       7
+End       
+#TRAINER
+Name      Criya~
+Sn1       'cure light'
+Sn2       'divine style'
+Sn3       'cause light'
+Sn4       'refresh'
+Sn5       'cause light'
+Sn6       'refresh'
+Sn7       'bless'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      25000
+Pid       8
+End       
+#TRAINER
+Name      Joni~
+Sn1       'defensive style'
+Sn2       'evasive style'
+Sn3       'standard style'
+Sn4       'aid'
+Sn5       'doorbash'
+Sn6       'reserved'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  0
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      10000
+Pid       9
+End       
+#TRAINER
+Name      Floyd~
+Sn1       'defensive style'
+Sn2       'evasive style'
+Sn3       'standard style'
+Sn4       'aid'
+Sn5       'doorbash'
+Sn6       'reserved'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  0
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      25000
+Pid       10
+End       
+#TRAINER
+Name      George~
+Sn1       'taunt'
+Sn2       'shieldblock'
+Sn3       'combat art'
+Sn4       'enhanced damage'
+Sn5       'rescue'
+Sn6       'reserved'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  0
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      10000
+Pid       11
+End       
+#TRAINER
+Name      Greg~
+Sn1       'taunt'
+Sn2       'shieldblock'
+Sn3       'combat art'
+Sn4       'enhanced damage'
+Sn5       'rescue'
+Sn6       'reserved'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  0
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      25000
+Pid       12
+End       
+#TRAINER
+Name      Philicia~
+Sn1       'elbowjab'
+Sn2       'blitz'
+Sn3       'neckpinch'
+Sn4       'sidekick'
+Sn5       'roundhouse'
+Sn6       'featherfoot'
+Sn7       'limber'
+Sn8       'cleansing'
+Sn9       'pranayama'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  5
+Mastery9  5
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      10000
+Pid       13
+End       
+#TRAINER
+Name      Becky~
+Sn1       'elbowjab'
+Sn2       'blitz'
+Sn3       'neckpinch'
+Sn4       'sidekick'
+Sn5       'roundhouse'
+Sn6       'featherfoot'
+Sn7       'limber'
+Sn8       'cleansing'
+Sn9       'pranayama'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  6
+Mastery9  6
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      25000
+Pid       14
+End       
+#TRAINER
+Name      Grace~
+Sn1       'begging'
+Sn2       'peek'
+Sn3       'steal'
+Sn4       'climb'
+Sn5       'reserved'
+Sn6       'reserved'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  0
+Mastery6  0
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      10000
+Pid       15
+End       
+#TRAINER
+Name      Grien~
+Sn1       'begging'
+Sn2       'peek'
+Sn3       'steal'
+Sn4       'climb'
+Sn5       'reserved'
+Sn6       'reserved'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  0
+Mastery6  0
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      25000
+Pid       16
+End       
+#TRAINER
+Name      Zion~
+Sn1       'escapism'
+Sn2       'hide'
+Sn3       'sneak'
+Sn4       'daggers'
+Sn5       'forage'
+Sn6       'forage'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      10000
+Pid       17
+End       
+#TRAINER
+Name      Holly~
+Sn1       'escapism'
+Sn2       'hide'
+Sn3       'sneak'
+Sn4       'daggers'
+Sn5       'forage'
+Sn6       'forage'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      25000
+Pid       18
+End       
+#TRAINER
+Name      Bill~
+Sn1       'acid blast'
+Sn2       'acidic ball'
+Sn3       'remove trap'
+Sn4       'sagacity'
+Sn5       'shield'
+Sn6       'continual light'
+Sn7       'faerie fog'
+Sn8       'fire bolt'
+Sn9       'identify'
+Sn10      'kindred strength'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  5
+Mastery9  5
+Mastery10 5
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      25000
+Pid       19
+End       
+#TRAINER
+Name      Bill~
+Sn1       'acid blast'
+Sn2       'acidic ball'
+Sn3       'remove trap'
+Sn4       'sagacity'
+Sn5       'shield'
+Sn6       'continual light'
+Sn7       'faerie fog'
+Sn8       'fire bolt'
+Sn9       'identify'
+Sn10      'kindred strength'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  6
+Mastery9  6
+Mastery10 6
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      75000
+Pid       20
+End       
+#TRAINER
+Name      Luke~
+Sn1       'scolding blast'
+Sn2       'detect hidden'
+Sn3       'detect traps'
+Sn4       'funnel'
+Sn5       'remove invis'
+Sn6       'slink'
+Sn7       'wind spike'
+Sn8       'wizardeye'
+Sn9       'detect invis'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  5
+Mastery9  5
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      25000
+Pid       21
+End       
+#TRAINER
+Name      Caleb~
+Sn1       'scolding blast'
+Sn2       'detect hidden'
+Sn3       'detect traps'
+Sn4       'funnel'
+Sn5       'remove invis'
+Sn6       'slink'
+Sn7       'wind spike'
+Sn8       'wizardeye'
+Sn9       'detect invis'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  6
+Mastery9  6
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      75000
+Pid       22
+End       
+#TRAINER
+Name      Jacob~
+Sn1       'dragon wit'
+Sn2       'frozen ball'
+Sn3       'frozen spike'
+Sn4       'locate object'
+Sn5       'web'
+Sn6       'trance'
+Sn7       'electric blast'
+Sn8       'energy drain'
+Sn9       'knock'
+Sn10      'trollish vigor'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  5
+Mastery9  5
+Mastery10 5
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      25000
+Pid       23
+End       
+#TRAINER
+Name      Amy~
+Sn1       'dragon wit'
+Sn2       'frozen ball'
+Sn3       'frozen spike'
+Sn4       'locate object'
+Sn5       'web'
+Sn6       'trance'
+Sn7       'electric blast'
+Sn8       'energy drain'
+Sn9       'knock'
+Sn10      'trollish vigor'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  6
+Mastery9  6
+Mastery10 6
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      75000
+Pid       24
+End       
+#TRAINER
+Name      Niomi~
+Sn1       'cure poison'
+Sn2       'poison'
+Sn3       'revitalize spirit'
+Sn4       'charm person'
+Sn5       'healing light'
+Sn6       'nohunger'
+Sn7       'cure light'
+Sn8       'hpgen'
+Sn9       'major invocation'
+Sn10      'alertness'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  5
+Mastery9  5
+Mastery10 5
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      25000
+Pid       25
+End       
+#TRAINER
+Name      Liz~
+Sn1       'cure poison'
+Sn2       'poison'
+Sn3       'revitalize spirit'
+Sn4       'charm person'
+Sn5       'healing light'
+Sn6       'nohunger'
+Sn7       'cure light'
+Sn8       'hpgen'
+Sn9       'major invocation'
+Sn10      'alertness'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  6
+Mastery9  6
+Mastery10 6
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      75000
+Pid       26
+End       
+#TRAINER
+Name      Mandy~
+Sn1       'cure serious'
+Sn2       'managen'
+Sn3       'nothirst'
+Sn4       'cause serious'
+Sn5       'detect poison'
+Sn6       'sleep'
+Sn7       'harm'
+Sn8       'heal'
+Sn9       'revitalize limb'
+Sn10      'meditate'
+Sn11      'lesser resurrection'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  5
+Mastery9  5
+Mastery10 5
+Mastery11 5
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      25000
+Pid       27
+End       
+#TRAINER
+Name      Priya~
+Sn1       'cure serious'
+Sn2       'managen'
+Sn3       'nothirst'
+Sn4       'cause serious'
+Sn5       'detect poison'
+Sn6       'sleep'
+Sn7       'harm'
+Sn8       'heal'
+Sn9       'revitalize limb'
+Sn10      'meditate'
+Sn11      'lesser resurrection'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  6
+Mastery9  6
+Mastery10 6
+Mastery11 6
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      75000
+Pid       28
+End       
+#TRAINER
+Name      Wheria~
+Sn1       'aggressive style'
+Sn2       'berserk style'
+Sn3       'draw aggression'
+Sn4       'dual wield'
+Sn5       'grip'
+Sn6       'parry'
+Sn7       'repair'
+Sn8       'roar'
+Sn9       'scan'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  5
+Mastery9  5
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      25000
+Pid       29
+End       
+#TRAINER
+Name      Xentha~
+Sn1       'aggressive style'
+Sn2       'berserk style'
+Sn3       'draw aggression'
+Sn4       'dual wield'
+Sn5       'grip'
+Sn6       'parry'
+Sn7       'repair'
+Sn8       'roar'
+Sn9       'scan'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  6
+Mastery9  6
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      75000
+Pid       30
+End       
+#TRAINER
+Name      Thorndia~
+Sn1       'axes'
+Sn2       'blunt'
+Sn3       'hitall'
+Sn4       'polearms'
+Sn5       'projectiles'
+Sn6       'staves'
+Sn7       'swords'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      25000
+Pid       31
+End       
+#TRAINER
+Name      Horace~
+Sn1       'axes'
+Sn2       'blunt'
+Sn3       'hitall'
+Sn4       'polearms'
+Sn5       'projectiles'
+Sn6       'staves'
+Sn7       'swords'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      75000
+Pid       32
+End       
+#TRAINER
+Name      Vian~
+Sn1       'elbowstab'
+Sn2       'spear'
+Sn3       'neckchop'
+Sn4       'kneestrike'
+Sn5       'spinkick'
+Sn6       'featherback'
+Sn7       'nervepinch'
+Sn8       'pumpup'
+Sn9       'speedup'
+Sn10      'concentration'
+Sn11      'fasting'
+Sn12      'manafuse'
+Sn13      'relaxation'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  5
+Mastery9  5
+Mastery10 5
+Mastery11 5
+Mastery12 5
+Mastery13 5
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      25000
+Pid       33
+End       
+#TRAINER
+Name      Andrew~
+Sn1       'elbowstab'
+Sn2       'spear'
+Sn3       'neckchop'
+Sn4       'kneestrike'
+Sn5       'spinkick'
+Sn6       'featherback'
+Sn7       'nervepinch'
+Sn8       'pumpup'
+Sn9       'speedup'
+Sn10      'concentration'
+Sn11      'fasting'
+Sn12      'manafuse'
+Sn13      'relaxation'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  6
+Mastery9  6
+Mastery10 6
+Mastery11 6
+Mastery12 6
+Mastery13 6
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      75000
+Pid       34
+End       
+#TRAINER
+Name      Myra~
+Sn1       'backstab'
+Sn2       'detrap'
+Sn3       'gouge'
+Sn4       'haggling'
+Sn5       'pick lock'
+Sn6       'track'
+Sn7       'mountain climbing'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      25000
+Pid       35
+End       
+#TRAINER
+Name      Amanda~
+Sn1       'backstab'
+Sn2       'detrap'
+Sn3       'gouge'
+Sn4       'haggling'
+Sn5       'pick lock'
+Sn6       'track'
+Sn7       'mountain climbing'
+Sn8       'track'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      75000
+Pid       36
+End       
+#TRAINER
+Name      Clara~
+Sn1       'prawl'
+Sn2       'retreat'
+Sn3       'shadowfoot'
+Sn4       'swimming'
+Sn5       'lore'
+Sn6       'dodge'
+Sn7       'daggerstudy'
+Sn8       'kickdirt'
+Sn9       'startfire'
+Sn10      'stalk'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  5
+Mastery9  5
+Mastery10 5
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      25000
+Pid       37
+End       
+#TRAINER
+Name      Claude~
+Sn1       'prawl'
+Sn2       'retreat'
+Sn3       'shadowfoot'
+Sn4       'swimming'
+Sn5       'lore'
+Sn6       'dodge'
+Sn7       'daggerstudy'
+Sn8       'kickdirt'
+Sn9       'startfire'
+Sn10      'stalk'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  6
+Mastery9  6
+Mastery10 6
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      75000
+Pid       38
+End       
+#TRAINER
+Name      Lian~
+Sn1       'acidic blast'
+Sn2       'earth clamp'
+Sn3       'scry'
+Sn4       'stone skin'
+Sn5       'scribe'
+Sn6       'astral walk'
+Sn7       'blazing burst'
+Sn8       'fireball'
+Sn9       'fireshield'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  5
+Mastery9  5
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      70000
+Pid       39
+End       
+#TRAINER
+Name      Wendy~
+Sn1       'acidic blast'
+Sn2       'earth clamp'
+Sn3       'scry'
+Sn4       'stone skin'
+Sn5       'scribe'
+Sn6       'astral walk'
+Sn7       'blazing burst'
+Sn8       'fireball'
+Sn9       'fireshield'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  6
+Mastery9  6
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      200000
+Pid       40
+End       
+#TRAINER
+Name      Bryan~
+Sn1       'manatap'
+Sn2       'blitzing wave'
+Sn3       'magic bane'
+Sn4       'portal'
+Sn5       'summon'
+Sn6       'tornado'
+Sn7       'farsight'
+Sn8       'frigid ball'
+Sn9       'frozen blast'
+Sn10      'word of nyiji'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  5
+Mastery9  5
+Mastery10 5
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      70000
+Pid       41
+End       
+#TRAINER
+Name      Ethan~
+Sn1       'manatap'
+Sn2       'blitzing wave'
+Sn3       'magic bane'
+Sn4       'portal'
+Sn5       'summon'
+Sn6       'tornado'
+Sn7       'farsight'
+Sn8       'frigid ball'
+Sn9       'frozen blast'
+Sn10      'word of nyiji'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  6
+Mastery9  6
+Mastery10 6
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      200000
+Pid       42
+End       
+#TRAINER
+Name      Kudav~
+Sn1       'iceshield'
+Sn2       'unravel defense'
+Sn3       'deanimation'
+Sn4       'enchant weapon'
+Sn5       'jolting burst'
+Sn6       'pass door'
+Sn7       'recharge'
+Sn8       'shockshield'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  5
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      70000
+Pid       43
+End       
+#TRAINER
+Name      Natos~
+Sn1       'iceshield'
+Sn2       'unravel defense'
+Sn3       'deanimation'
+Sn4       'enchant weapon'
+Sn5       'jolting burst'
+Sn6       'pass door'
+Sn7       'recharge'
+Sn8       'shockshield'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  6
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      200000
+Pid       44
+End       
+#TRAINER
+Name      Valif~
+Sn1       'animate dead'
+Sn2       'cure blindness'
+Sn3       'divine protection'
+Sn4       'gurori'
+Sn5       'fortify'
+Sn6       'furori'
+Sn7       'sanctuary'
+Sn8       'brew'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  5
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      70000
+Pid       45
+End       
+#TRAINER
+Name      Rirel~
+Sn1       'animate dead'
+Sn2       'cure blindness'
+Sn3       'divine protection'
+Sn4       'gurori'
+Sn5       'fortify'
+Sn6       'furori'
+Sn7       'sanctuary'
+Sn8       'brew'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  0
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  6
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      200000
+Pid       46
+End       
+#TRAINER
+Name      Tatolij~
+Sn1       'aurori'
+Sn2       'fleetarms'
+Sn3       'greater hpgen'
+Sn4       'remove curse'
+Sn5       'uplift'
+Sn6       'aqua breath'
+Sn7       'cure critical'
+Sn8       'greater managen'
+Sn9       'wurori'
+Sn10      'holy cleansing'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  5
+Mastery9  5
+Mastery10 5
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      70000
+Pid       47
+End       
+#TRAINER
+Name      Tyto~
+Sn1       'aurori'
+Sn2       'fleetarms'
+Sn3       'greater hpgen'
+Sn4       'remove curse'
+Sn5       'uplift'
+Sn6       'aqua breath'
+Sn7       'cure critical'
+Sn8       'greater managen'
+Sn9       'wurori'
+Sn10      'holy cleansing'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  6
+Mastery9  6
+Mastery10 6
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      200000
+Pid       48
+End       
+#TRAINER
+Name      Kudav~
+Sn1       'cause critical'
+Sn2       'eurori'
+Sn3       'resurrection'
+Sn4       'true sight'
+Sn5       'divinity'
+Sn6       'indignation'
+Sn7       'necromantic touch'
+Sn8       'restore limb'
+Sn9       'shield of the gods'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  5
+Mastery9  5
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      70000
+Pid       49
+End       
+#TRAINER
+Name      Sidag~
+Sn1       'cause critical'
+Sn2       'eurori'
+Sn3       'resurrection'
+Sn4       'true sight'
+Sn5       'divinity'
+Sn6       'indignation'
+Sn7       'necromantic touch'
+Sn8       'restore limb'
+Sn9       'shield of the gods'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  6
+Mastery9  6
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      200000
+Pid       50
+End       
+#TRAINER
+Name      Mimin~
+Sn1       'krundo style'
+Sn2       'rwundo style'
+Sn3       'berserk'
+Sn4       'counter attack'
+Sn5       'deshield'
+Sn6       'disarm'
+Sn7       'drive'
+Sn8       'greater draw aggression'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  5
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      70000
+Pid       51
+End       
+#TRAINER
+Name      Birus~
+Sn1       'krundo style'
+Sn2       'rwundo style'
+Sn3       'berserk'
+Sn4       'counter attack'
+Sn5       'deshield'
+Sn6       'disarm'
+Sn7       'drive'
+Sn8       'greater draw aggression'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  6
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      200000
+Pid       52
+End       
+#TRAINER
+Name      Ronos~
+Sn1       'renewal'
+Sn2       'bash'
+Sn3       'daze'
+Sn4       'deadly accuracy'
+Sn5       'perfect shot'
+Sn6       'pincer'
+Sn7       'powerslice'
+Sn8       'weaponbreak'
+Sn9       'battle knowledge'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  5
+Mastery9  5
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      70000
+Pid       53
+End       
+#TRAINER
+Name      Kaseb~
+Sn1       'renewal'
+Sn2       'bash'
+Sn3       'daze'
+Sn4       'deadly accuracy'
+Sn5       'perfect shot'
+Sn6       'pincer'
+Sn7       'powerslice'
+Sn8       'weaponbreak'
+Sn9       'battle knowledge'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  6
+Mastery9  6
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      200000
+Pid       54
+End       
+#TRAINER
+Name      Rusole~
+Sn1       'elbowbreak'
+Sn2       'ribpuncture'
+Sn3       'neckrupture'
+Sn4       'kneecrusher'
+Sn5       'tornadokick'
+Sn6       'arrowcatch'
+Sn7       'bracing'
+Sn8       'hardening'
+Sn9       'weaponclamp'
+Sn10      'manashell'
+Sn11      'manashield'
+Sn12      'manashot'
+Sn13      'trueeye'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  5
+Mastery9  5
+Mastery10 5
+Mastery11 5
+Mastery12 5
+Mastery13 5
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      70000
+Pid       55
+End       
+#TRAINER
+Name      Annye~
+Sn1       'elbowbreak'
+Sn2       'ribpuncture'
+Sn3       'neckrupture'
+Sn4       'kneecrusher'
+Sn5       'tornadokick'
+Sn6       'arrowcatch'
+Sn7       'bracing'
+Sn8       'hardening'
+Sn9       'weaponclamp'
+Sn10      'manashell'
+Sn11      'manashield'
+Sn12      'manashot'
+Sn13      'trueeye'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  6
+Mastery9  6
+Mastery10 6
+Mastery11 6
+Mastery12 6
+Mastery13 6
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      200000
+Pid       56
+End       
+#TRAINER
+Name      Iradi~
+Sn1       'circle'
+Sn2       'cutpurse'
+Sn3       'grab'
+Sn4       'swindling'
+Sn5       'reserved'
+Sn6       'reserved'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  0
+Mastery6  0
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      70000
+Pid       57
+End       
+#TRAINER
+Name      Cludarris~
+Sn1       'circle'
+Sn2       'cutpurse'
+Sn3       'grab'
+Sn4       'swindling'
+Sn5       'reserved'
+Sn6       'reserved'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  0
+Mastery6  0
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      200000
+Pid       58
+End       
+#TRAINER
+Name      Nyban~
+Sn1       'thiefeye'
+Sn2       'climbwall'
+Sn3       'gag'
+Sn4       'nightprawl'
+Sn5       'strongfoot'
+Sn6       'tumble'
+Sn7       'daggerstrike'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      70000
+Pid       59
+End       
+#TRAINER
+Name      Enthvor~
+Sn1       'thiefeye'
+Sn2       'climbwall'
+Sn3       'gag'
+Sn4       'nightprawl'
+Sn5       'strongfoot'
+Sn6       'tumble'
+Sn7       'daggerstrike'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      200000
+Pid       60
+End       
+#TRAINER
+Name      Nalim~
+Sn1       'acidic oblivion'
+Sn2       'antimagic shell'
+Sn3       'demolic blast '
+Sn4       'dancing fire'
+Sn5       'eradication'
+Sn6       'reserved'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      200000
+Pid       61
+End       
+#TRAINER
+Name      Untsul~
+Sn1       'acidic oblivion'
+Sn2       'antimagic shell'
+Sn3       'demolic blast '
+Sn4       'dancing fire'
+Sn5       'eradication'
+Sn6       'reserved'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      600000
+Pid       62
+End       
+#TRAINER
+Name      Kelrden~
+Sn1       'heavenly blast'
+Sn2       'meteor'
+Sn3       'frigid death'
+Sn4       'snare'
+Sn5       'reserved'
+Sn6       'reserved'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  0
+Mastery6  0
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      200000
+Pid       63
+End       
+#TRAINER
+Name      Hoash~
+Sn1       'heavenly blast'
+Sn2       'meteor'
+Sn3       'frigid death'
+Sn4       'snare'
+Sn5       'reserved'
+Sn6       'reserved'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  0
+Mastery6  0
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      600000
+Pid       64
+End       
+#TRAINER
+Name      Lodeni~
+Sn1       'tidal wave'
+Sn2       'extradimensional portal'
+Sn3       'molecular degeneration'
+Sn4       'quantum spike'
+Sn5       'reserved'
+Sn6       'reserved'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  0
+Mastery6  0
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      200000
+Pid       65
+End       
+#TRAINER
+Name      Aron~
+Sn1       'tidal wave'
+Sn2       'extradimensional portal'
+Sn3       'molecular degeneration'
+Sn4       'quantum spike'
+Sn5       'reserved'
+Sn6       'reserved'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  0
+Mastery6  0
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      600000
+Pid       66
+End       
+#TRAINER
+Name      Ishino~
+Sn1       'eye of god'
+Sn2       'guroro'
+Sn3       'bless weapon'
+Sn4       'furoro'
+Sn5       'holy food'
+Sn6       'auroro'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      200000
+Pid       67
+End       
+#TRAINER
+Name      Ardden~
+Sn1       'eye of god'
+Sn2       'guroro'
+Sn3       'bless weapon'
+Sn4       'furoro'
+Sn5       'holy food'
+Sn6       'auroro'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      600000
+Pid       68
+End       
+#TRAINER
+Name      Crousk~
+Sn1       'divine hpgen'
+Sn2       'know enemy'
+Sn3       'divine managen'
+Sn4       'divine rain'
+Sn5       'wuroro'
+Sn6       'euroro'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      150000
+Pid       69
+End       
+#TRAINER
+Name      Nalkel~
+Sn1       'divine hpgen'
+Sn2       'know enemy'
+Sn3       'divine managen'
+Sn4       'divine rain'
+Sn5       'wuroro'
+Sn6       'euroro'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      600000
+Pid       70
+End       
+#TRAINER
+Name      Tanpol~
+Sn1       'greater resurrection'
+Sn2       'sanctify'
+Sn3       'aura of the gods'
+Sn4       'power heal'
+Sn5       'sacred blast'
+Sn6       'summon corpse'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      200000
+Pid       71
+End       
+#TRAINER
+Name      Broikmor~
+Sn1       'greater resurrection'
+Sn2       'sanctify'
+Sn3       'aura of the gods'
+Sn4       'power heal'
+Sn5       'sacred blast'
+Sn6       'summon corpse'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      600000
+Pid       72
+End       
+#TRAINER
+Name      Untril~
+Sn1       'krundi style'
+Sn2       'rwundi style'
+Sn3       'attack frenzy'
+Sn4       'reserved'
+Sn5       'reserved'
+Sn6       'reserved'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  0
+Mastery5  0
+Mastery6  0
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      200000
+Pid       73
+End       
+#TRAINER
+Name      Syleci~
+Sn1       'krundi style'
+Sn2       'rwundi style'
+Sn3       'attack frenzy'
+Sn4       'reserved'
+Sn5       'reserved'
+Sn6       'reserved'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  0
+Mastery5  0
+Mastery6  0
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      600000
+Pid       74
+End       
+#TRAINER
+Name      Kelen~
+Sn1       'critical strike'
+Sn2       'focus aggression'
+Sn3       'inhuman strength'
+Sn4       'kickback'
+Sn5       'stun'
+Sn6       'reserved'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  0
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      200000
+Pid       75
+End       
+#TRAINER
+Name      Ilddan~
+Sn1       'critical strike'
+Sn2       'focus aggression'
+Sn3       'inhuman strength'
+Sn4       'kickback'
+Sn5       'stun'
+Sn6       'reserved'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  0
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      600000
+Pid       76
+End       
+#TRAINER
+Name      Tiahat~
+Sn1       'amberio'
+Sn2       'timmuru'
+Sn3       'emeru'
+Sn4       'lembecu'
+Sn5       'niburo'
+Sn6       'nervestrike'
+Sn7       'quickcombo'
+Sn8       'manaburn'
+Sn9       'manaburst'
+Sn10      'managuard'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  5
+Mastery5  5
+Mastery6  5
+Mastery7  5
+Mastery8  5
+Mastery9  5
+Mastery10 5
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      200000
+Pid       77
+End       
+#TRAINER
+Name      Omsera~
+Sn1       'amberio'
+Sn2       'timmuru'
+Sn3       'emeru'
+Sn4       'lembecu'
+Sn5       'niburo'
+Sn6       'nervestrike'
+Sn7       'quickcombo'
+Sn8       'manaburn'
+Sn9       'manaburst'
+Sn10      'managuard'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  6
+Mastery5  6
+Mastery6  6
+Mastery7  6
+Mastery8  6
+Mastery9  6
+Mastery10 6
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      600000
+Pid       78
+End       
+#TRAINER
+Name      Essther~
+Sn1       'assassinate'
+Sn2       'lightprawl'
+Sn3       'vanish'
+Sn4       'reserved'
+Sn5       'reserved'
+Sn6       'reserved'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  5
+Mastery2  5
+Mastery3  5
+Mastery4  0
+Mastery5  0
+Mastery6  0
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      200000
+Pid       79
+End       
+#TRAINER
+Name      Narchis~
+Sn1       'assassinate'
+Sn2       'lightprawl'
+Sn3       'vanish'
+Sn4       'reserved'
+Sn5       'reserved'
+Sn6       'reserved'
+Sn7       'reserved'
+Sn8       'reserved'
+Sn9       'reserved'
+Sn10      'reserved'
+Sn11      'reserved'
+Sn12      'reserved'
+Sn13      'reserved'
+Sn14      'reserved'
+Sn15      'reserved'
+Sn16      'reserved'
+Sn17      'reserved'
+Sn18      'reserved'
+Sn19      'reserved'
+Sn20      'reserved'
+Mastery1  6
+Mastery2  6
+Mastery3  6
+Mastery4  0
+Mastery5  0
+Mastery6  0
+Mastery7  0
+Mastery8  0
+Mastery9  0
+Mastery10 0
+Mastery11 0
+Mastery12 0
+Mastery13 0
+Mastery14 0
+Mastery15 0
+Mastery16 0
+Mastery17 0
+Mastery18 0
+Mastery19 0
+Mastery20 0
+Cost      600000
+Pid       80
+End  
+#Bin
+Name      Small Silo~
+Stone     100
+Coins     20000
+Hold      10000
+MinCaste  0
+End
+#Bin
+Name      Moderate Silo~
+Stone     300
+Coins     50000
+Hold      20000
+MinCaste  0
+End
+#Bin
+Name      Large Silo~
+Stone     1000
+Coins     100000
+Hold      50000
+MinCaste  0
+End
+#Bin
+Name      Huge Silo~
+Stone     3000
+Coins     300000
+Hold      100000
+MinCaste  0
+End
+#Bin
+Name      Giant Silo~
+Stone     5000
+Coins     1000000
+Hold      200000
+MinCaste  0
+End
+#END

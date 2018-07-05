@@ -1,0 +1,83 @@
+/*****************************************************/
+/* HUMAN_MALE.NAM                                    */
+/* Namnfil f”r namn med Albion-klang                 */
+/* Johan Danforth                                    */
+/* rader som b”rjar med / „r kommentar-rader         */
+/* varje section b”rjar med [xxx] enlig filen nedan  */
+/*****************************************************/
+/*****************************************************/
+/* ALVER.NAM                                         */
+/* Namnfil f”r alv-namn                              */
+/* av Johan Danforth                                 */
+/* rader som b”rjar med / „r kommentar-rader         */
+/* varje section b”rjar med [xxx] enlig filen nedan  */
+/*****************************************************/
+[start]
+An
+Am
+Bel
+Cel
+C
+Cal
+Del
+El
+Elr
+Elv
+Eow
+Ear
+F
+G
+Gal
+Gl
+H
+Is
+Leg
+Lom
+M
+N
+P
+R
+S
+T
+Thr
+Tin
+Ur
+Un
+V
+[middle]
+a
+adrie
+ara
+e
+ebri
+i
+io
+ithra
+ilma
+o
+orfi
+u
+y
+[end]
+l
+las
+lad
+ldor
+ldur
+lith
+mir
+n
+nd
+ndel
+ndil
+ndir
+nduil
+ng
+mbor
+r
+ril
+riand
+rion
+wyn
+[stop]
+/* Leave comment after stop, it is looking for empty space */

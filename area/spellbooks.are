@@ -1,0 +1,3259 @@
+#AREA   SpellBooks~
+
+
+
+#VERSION 53
+#AUTHOR Xerves~
+
+#RANGES
+1 5 1 75 0 0 0 0 0
+$
+
+#KOWNER xerves~
+
+#RESETMSG A new fresh shipment of spell books arive in the stores.~
+
+#FLAGS
+1032
+
+#ECONOMY 0 26604182 0
+
+#MOBILES
+#4100
+mage book vendor~
+A mage book vendor~
+A mage book vendor is here selling Earth books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4101
+mage book vendor~
+A mage book vendor~
+A mage book vendor is here selling Water books.
+~
+A simple man with a large collections of books for sale.
+~
+67110915 0 0 0 C
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+13 13 13 20 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#4102
+mage book vendor~
+A mage book vendor~
+A mage book vendor is here selling Air books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4103
+mage book vendor~
+A mage book vendor~
+A mage book vendor is here selling Energy books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4104
+mage book vendor~
+A mage book vendor~
+A mage book vendor is here selling Fire books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4105
+cleric book vendor~
+A cleric book vendor~
+A cleric book vendor is here selling Body books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4106
+cleric book vendor~
+A cleric book vendor~
+A cleric book vendor is here selling Spirit books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4107
+cleric book vendor~
+A cleric book vendor~
+A cleric book vendor is here selling Mind books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4108
+cleric book vendor~
+A cleric book vendor~
+A cleric book vendor is here selling Energy books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4109
+cleric book vendor~
+A cleric book vendor~
+A cleric book vendor is here selling Holy books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4110
+cleric book vendor~
+A cleric book vendor~
+A cleric book vendor is here selling Evil books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4111
+vampire book vendor~
+A vampire book vendor~
+A vampire book vendor is here selling Survival books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4112
+vampire book vendor~
+A vampire book vendor~
+A vampire book vendor is here selling Knowledge books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4113
+vampire book vendor~
+A vampire book vendor~
+A vampire book vendor is here selling Teleportation books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4114
+druid book vendor~
+A druid book vendor~
+A druid book vendor is here selling Hope books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4115
+druid book vendor~
+A druid book vendor~
+A druid book vendor is here selling Land books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4116
+druid book vendor~
+A druid book vendor~
+A druid book vendor is here selling Destruction books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4117
+druid book vendor~
+A druid book vendor~
+A druid book vendor is here selling Humanity books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4118
+ranger book vendor~
+A ranger book vendor~
+A ranger book vendor is here selling Water books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4119
+ranger book vendor~
+A ranger book vendor~
+A ranger book vendor is here selling Earth books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4120
+ranger book vendor~
+A ranger book vendor~
+A ranger book vendor is here selling Air books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4121
+ranger book vendor~
+A ranger book vendor~
+A ranger book vendor is here selling Fire books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4122
+ranger book vendor~
+A ranger book vendor~
+A ranger book vendor is here selling Energy books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4123
+augurer book vendor~
+An augurer book vendor~
+An augurer book vendor is here selling Water books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4124
+augurer book vendor~
+An augurer book vendor~
+An augurer book vendor is here selling Earth books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4125
+augurer book vendor~
+An augurer book vendor~
+An augurer book vendor is here selling Air books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4126
+augurer book vendor~
+An augurer book vendor~
+An augurer book vendor is here selling Fire books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4127
+augurer book vendor~
+An augurer book vendor~
+An augurer book vendor is here selling Energy books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4128
+paladin book vendor~
+A paladin book vendor~
+A paladin book vendor is here selling Beneficial books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4129
+paladin book vendor~
+A paladin book vendor~
+A paladin book vendor is here selling Detection books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4130
+paladin book vendor~
+A paladin book vendor~
+A paladin book vendor is here selling Healing books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4131
+monk book vendor~
+A monk book vendor~
+A monk book vendor is here selling Offensive books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4132
+monk book vendor~
+A monk book vendor~
+A monk book vendor is here selling Defensive books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4133
+chaplain book vendor~
+A chaplain book vendor~
+A chaplain book vendor is here selling Body books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4134
+chaplain book vendor~
+A chaplain book vendor~
+A chaplain book vendor is here selling Spirit books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4135
+chaplain book vendor~
+A chaplain book vendor~
+A chaplain book vendor is here selling Mind books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4136
+chaplain book vendor~
+A chaplain book vendor~
+A chaplain book vendor is here selling Energy books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4137
+chaplain book vendor~
+A chaplain book vendor~
+A chaplain book vendor is here selling Holy books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4138
+chaplain book vendor~
+A chaplain book vendor~
+A chaplain book vendor is here selling Evil books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4139
+msytic book vendor~
+A mystic book vendor~
+A mystic book vendor is here selling Water books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 C
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+13 13 13 20 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#4140
+mystic book vendor~
+A mystic book vendor~
+A mystic book vendor is here selling Earth books
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4141
+mystic book vendor~
+A mystic book vendor~
+A mystic book vendor is here selling Air books
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4142
+mystic book vendor~
+A mystic book vendor~
+A mystic book vendor is here selling Fire books
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4143
+mystic book vendor~
+A mystic book vendor~
+A mystic book vendor is here selling Energy books.
+~
+A simple man with a large collections of books for sale.
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+10000 0d0+0 0 0 0
+150000 0
+112 112 0
+#4144
+jeremy old man vendor~
+Jeremy~
+Jeremy is standing near the northern wall watching the shop.
+~
+Jeremy is a rather odd looking man.  He is dressed in normal citizen
+clothing, but he has a beard that drops all the way down to his belt.  He
+appears to be a mage, but found it more profitable to sell books instead.
+~
+67108867&8192 0 0 0 C
+0 0 0 0 0 0
+5d5+5000 0d0+0 0 0 0
+0 0
+112 112 0
+15 13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+1 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#4399
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#4100
+spbook~
+a book of~
+A book of awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 0 0 0 0 0 0
+'NONE'
+#4101
+spbook book of possess~
+a book of possess~
+A book of possess awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 0 0 4100 0 0 0
+'possess'
+#4102
+spbook book of acid blast~
+a book of acid blast~
+A book of acid blast awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 11000 0 4100 0 0 0
+'acid blast'
+#4103
+spbook book of acid breath~
+a book of acid breath~
+A book of acid breath awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 15000 0 4100 0 0 0
+'acid breath'
+#4104
+spbook book of acidic ball~
+a book of acidic ball~
+A book of acidic ball awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 13000 0 4100 0 0 0
+'acidic ball'
+#4105
+spbook book of acidic blast~
+a book of acidic blast~
+A book of acidic blast awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 65000 0 4100 0 0 0
+'acidic blast'
+#4106
+spbook book of acidic oblivion~
+a book of acidic oblivion~
+A book of acidic oblivion awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 700000 0 4100 0 0 0
+'acidic oblivion'
+#4107
+spbook book of alertness~
+a book of alertness~
+A book of alertness awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 9000 0 4100 0 0 0
+'alertness'
+#4108
+spbook book of animate dead~
+a book of animate dead~
+A book of animate dead awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 80000 0 4100 0 0 0
+'animate dead'
+#4109
+spbook book of antimagic shell~
+a book of antimagic shell~
+A book of antimagic shell awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 800000 0 4100 0 0 0
+'antimagic shell'
+#4110
+spbook book of aqua breath~
+a book of aqua breath~
+A book of aqua breath awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 55000 0 4100 0 0 0
+'aqua breath'
+#4111
+spbook book of armor~
+a book of armor~
+A book of armor awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 4000 0 4100 0 0 0
+'armor'
+#4112
+spbook book of astral walk~
+a book of astral walk~
+A book of astral walk awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 70000 0 4100 0 0 0
+'astral walk'
+#4113
+spbook book of benediction~
+a book of benediction~
+A book of benediction awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 4000 0 4100 0 0 0
+'NONE'
+#4114
+spbook book of blazing burst~
+a book of blazing burst~
+A book of blazing burst awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 65000 0 4100 0 0 0
+'blazing burst'
+#4115
+spbook book of bless~
+a book of bless~
+A book of bless awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 3000 0 4100 0 0 0
+'bless'
+#4116
+spbook book of blindness~
+a book of blindness~
+A book of blindness awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 2000 0 4100 0 0 0
+'blindness'
+#4117
+spbook book of blitzing wave~
+a book of blitzing wave~
+A book of blitzing wave awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 65000 0 4100 0 0 0
+'blitzing wave'
+#4118
+spbook book of cause critical~
+a book of cause critical~
+A book of cause critical awaits its next reader.~
+~
+67 -2147483648 1
+0 -1 0 0
+3.000000 45000 0 4100 0 0 0
+'cause critical'
+#4119
+spbook book of cause light~
+a book of cause light~
+A book of cause light awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 2500 0 4100 0 0 0
+'cause light'
+#4120
+spbook book of cause serious~
+a book of cause serious~
+A book of cause serious awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 8000 0 4100 0 0 0
+'cause serious'
+#4121
+spbook book of charm person~
+a book of charm person~
+A book of charm person awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 12000 0 4100 0 0 0
+'charm person'
+#4122
+spbook book of cold ball~
+a book of cold ball~
+A book of cold ball awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 3000 0 4100 0 0 0
+'cold ball'
+#4123
+spbook book of continual light~
+a book of continual light~
+A book of continual light awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 14000 0 4100 0 0 0
+'continual light'
+#4124
+spbook book of create fire~
+a book of create fire~
+A book of create fire awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 1000 0 4100 0 0 0
+'create fire'
+#4125
+spbook book of create food~
+a book of create food~
+A book of create food awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 2500 0 4100 0 0 0
+'create food'
+#4126
+spbook book of create spring~
+a book of create spring~
+A book of create spring awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 2500 0 4100 0 0 0
+'create spring'
+#4127
+spbook book of create water~
+a book of create water~
+A book of create water awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 2000 0 4100 0 0 0
+'create water'
+#4128
+spbook book of cure blindness~
+a book of cure blindness~
+A book of cure blindness awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 55000 0 4100 0 0 0
+'cure blindness'
+#4129
+spbook book of cure critical~
+a book of cure critical~
+A book of cure critical awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 55000 0 4100 0 0 0
+'cure critical'
+#4130
+spbook book of cure light~
+a book of cure light~
+A book of cure light awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 3500 0 4100 0 0 0
+'cure light'
+#4131
+spbook book of cure poison~
+a book of cure poison~
+A book of cure poison awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 11000 0 0 0 0 0
+'cure poison'
+#4132
+spbook book of cure serious~
+a book of cure serious~
+A book of cure serious awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 11000 0 4100 0 0 0
+'cure serious'
+#4133
+spbook book of curse~
+a book of curse~
+A book of curse awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 13000 0 4100 0 0 0
+'curse'
+#4134
+spbook book of dancing fire~
+a book of dancing fire~
+A book of dancing fire awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 750000 0 4100 0 0 0
+'dancing fire'
+#4135
+spbook book of deanimation~
+a book of deanimation~
+A book of deanimation awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 65000 0 4100 0 0 0
+'deanimation'
+#4136
+spbook book of demolic blast~
+a book of demolic blast~
+A book of demolic blast awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 650000 0 4100 0 0 0
+'demolic blast '
+#4137
+spbook book of detect hidden~
+a book of detect hidden~
+A book of detect hidden awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 12000 0 4100 0 0 0
+'detect hidden'
+#4138
+spbook book of detect invis~
+a book of detect invis~
+A book of detect invis awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 12000 0 4100 0 0 0
+'detect invis'
+#4139
+spbook book of detect magic~
+a book of detect magic~
+A book of detect magic awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 2000 0 4100 0 0 0
+'detect magic'
+#4140
+spbook book of detect poison~
+a book of detect poison~
+A book of detect poison awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 12000 0 4100 0 0 0
+'detect poison'
+#4141
+spbook book of detect traps~
+a book of detect traps~
+A book of detect traps awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 12000 0 4100 0 0 0
+'detect traps'
+#4142
+spbook book of divine protection~
+a book of divine protection~
+A book of divine protection awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 70000 0 4100 0 0 0
+'divine protection'
+#4143
+spbook book of divine rain~
+a book of divine rain~
+A book of divine rain awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 700000 0 4100 0 0 0
+'divine rain'
+#4144
+spbook book of divinity~
+a book of divinity~
+A book of divinity awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 80000 0 4100 0 0 0
+'divinity'
+#4145
+spbook book of dragon wit~
+a book of dragon wit~
+A book of dragon wit awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 15000 0 4100 0 0 0
+'dragon wit'
+#4146
+spbook book of earth clamp~
+a book of earth clamp~
+A book of earth clamp awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 65000 0 4100 0 0 0
+'earth clamp'
+#4147
+spbook book of earthquake~
+a book of earthquake~
+A book of earthquake awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 3000 0 4100 0 0 0
+'earthquake'
+#4148
+spbook book of electric blast~
+a book of electric blast~
+A book of electric blast awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 11000 0 4100 0 0 0
+'electric blast'
+#4149
+spbook book of enchant weapon~
+a book of enchant weapon~
+A book of enchant weapon awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 80000 0 4100 0 0 0
+'enchant weapon'
+#4150
+spbook book of energy blast~
+a book of energy blast~
+A book of energy blast awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 2500 0 4100 0 0 0
+'energy blast'
+#4151
+spbook book of energy drain~
+a book of energy drain~
+A book of energy drain awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 11000 0 4100 0 0 0
+'energy drain'
+#4152
+spbook book of eradication~
+a book of eradication~
+A book of eradication awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 700000 0 4100 0 0 0
+'eradication'
+#4153
+spbook book of extradimensional portal~
+a book of extradimensional portal~
+A book of extradimensional portal awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 500000 0 4100 0 0 0
+'extradimensional portal'
+#4154
+spbook book of faerie fire~
+a book of faerie fire~
+A book of faerie fire awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 2000 0 4100 0 0 0
+'faerie fire'
+#4155
+spbook book of faerie fog~
+a book of faerie fog~
+A book of faerie fog awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 9500 0 4100 0 0 0
+'faerie fog'
+#4156
+spbook book of farsight~
+a book of farsight~
+A book of farsight awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 70000 0 4100 0 0 0
+'farsight'
+#4157
+spbook book of fire arrow~
+a book of fire arrow~
+A book of fire arrow awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 2500 0 4100 0 0 0
+'fire arrow'
+#4158
+spbook book of fire blast~
+a book of fire blast~
+A book of fire blast awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 3000 0 4100 0 0 0
+'fire blast'
+#4159
+spbook book of fire bolt~
+a book of fire bolt~
+A book of fire bolt awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 11000 0 4100 0 0 0
+'fire bolt'
+#4160
+spbook book of fire breath~
+a book of fire breath~
+A book of fire breath awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 120000 0 4100 0 0 0
+'fire breath'
+#4161
+spbook book of fireball~
+a book of fireball~
+A book of fireball awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 75000 0 4100 0 0 0
+'fireball'
+#4162
+spbook book of fireshield~
+a book of fireshield~
+A book of fireshield awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 75000 0 4100 0 0 0
+'fireshield'
+#4163
+spbook book of fletch~
+a book of fletch~
+A book of fletch awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 2000 0 4100 0 0 0
+'fletch'
+#4164
+spbook book of float~
+a book of float~
+A book of float awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 0 0 4100 0 0 0
+'float'
+#4165
+spbook book of fly~
+a book of fly~
+A book of fly awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 1200 0 4100 0 0 0
+'fly'
+#4166
+spbook book of fortify~
+a book of fortify~
+A book of fortify awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 70000 0 4100 0 0 0
+'fortify'
+#4167
+spbook book of frigid ball~
+a book of frigid ball~
+A book of frigid ball awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 75000 0 4100 0 0 0
+'frigid ball'
+#4168
+spbook book of frigid death~
+a book of frigid death~
+A book of frigid death awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 650000 0 4100 0 0 0
+'frigid death'
+#4169
+spbook book of frost breath~
+a book of frost breath~
+A book of frost breath awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 20000 0 4100 0 0 0
+'frost breath'
+#4170
+spbook book of frozen ball~
+a book of frozen ball~
+A book of frozen ball awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 13000 0 4100 0 0 0
+'frozen ball'
+#4171
+spbook book of frozen blast~
+a book of frozen blast~
+A book of frozen blast awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 65000 0 4100 0 0 0
+'frozen blast'
+#4172
+spbook book of frozen dart~
+a book of frozen dart~
+A book of frozen dart awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 2500 0 4100 0 0 0
+'frozen dart'
+#4173
+spbook book of frozen spike~
+a book of frozen spike~
+A book of frozen spike awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 11000 0 4100 0 0 0
+'frozen spike'
+#4174
+spbook book of funnel~
+a book of funnel~
+A book of funnel awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 13000 0 4100 0 0 0
+'funnel'
+#4175
+spbook book of gas breath~
+a book of gas breath~
+A book of gas breath awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 12000 0 4100 0 0 0
+'gas breath'
+#4176
+spbook book of harm~
+a book of harm~
+A book of harm awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 15000 0 4100 0 0 0
+'harm'
+#4177
+spbook book of heal~
+a book of heal~
+A book of heal awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 15000 0 4100 0 0 0
+'heal'
+#4178
+spbook book of heavenly blast~
+a book of heavenly blast~
+A book of heavenly blast awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 700000 0 4100 0 0 0
+'heavenly blast'
+#4179
+spbook book of holy food~
+a book of holy food~
+A book of holy food awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 550000 0 4100 0 0 0
+'holy food'
+#4180
+spbook book of iceshield~
+a book of iceshield~
+A book of iceshield awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 75000 0 4100 0 0 0
+'iceshield'
+#4181
+spbook book of identify~
+a book of identify~
+A book of identify awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 10000 0 4100 0 0 0
+'identify'
+#4182
+spbook book of indignation~
+a book of indignation~
+A book of indignation awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 65000 0 4100 0 0 0
+'indignation'
+#4183
+spbook book of infravision~
+a book of infravision~
+A book of infravision awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 0 0 4100 0 0 0
+'infravision'
+#4184
+spbook book of invis~
+a book of invis~
+A book of invis awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 350 0 4100 0 0 0
+'invis'
+#4185
+spbook book of jagged spike~
+a book of jagged spike~
+A book of jagged spike awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 2500 0 4100 0 0 0
+'jagged spike'
+#4186
+spbook book of jagged stone~
+a book of jagged stone~
+A book of jagged stone awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 3000 0 4100 0 0 0
+'jagged stone'
+#4187
+spbook book of jolting burst~
+a book of jolting burst~
+A book of jolting burst awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 65000 0 4100 0 0 0
+'jolting burst'
+#4188
+spbook book of kindred strength~
+a book of kindred strength~
+A book of kindred strength awaits its next reader.~
+~
+67 -2147483648 1
+0 -1 0 0
+3.000000 15000 0 4100 0 0 0
+'kindred strength'
+#4189
+spbook book of knock~
+a book of knock~
+A book of knock awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 13000 0 4100 0 0 0
+'knock'
+#4190
+spbook book of know enemy~
+a book of know enemy~
+A book of know enemy awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 750000 0 4100 0 0 0
+'know enemy'
+#4191
+spbook book of lightning breath~
+a book of lightning breath~
+A book of lightning breath awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 500 0 4100 0 0 0
+'lightning breath'
+#4192
+spbook book of locate object~
+a book of locate object~
+A book of locate object awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 13000 0 4100 0 0 0
+'locate object'
+#4193
+spbook book of major invocation~
+a book of major invocation~
+A book of major invocation awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 14000 0 4100 0 0 0
+'major invocation'
+#4194
+spbook book of mass invis~
+a book of mass invis~
+A book of mass invis awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 11400 0 4100 0 0 0
+'mass invis'
+#4195
+spbook book of meteor~
+a book of meteor~
+A book of meteor awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 750000 0 4100 0 0 0
+'meteor'
+#4196
+spbook book of minor invocation~
+a book of minor invocation~
+A book of minor invocation awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 2000 0 4100 0 0 0
+'minor invocation'
+#4197
+spbook book of molecular degeneration~
+a book of molecular degeneration~
+A book of molecular degeneration awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 650000 0 4100 0 0 0
+'molecular degeneration'
+#4198
+spbook book of necromantic touch~
+a book of necromantic touch~
+A book of necromantic touch awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 75000 0 4100 0 0 0
+'necromantic touch'
+#4199
+spbook book of pass door~
+a book of pass door~
+A book of pass door awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 80000 0 4100 0 0 0
+'pass door'
+#4200
+spbook book of poison~
+a book of poison~
+A book of poison awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 12000 0 4100 0 0 0
+'poison'
+#4201
+spbook book of polymorph~
+a book of polymorph~
+A book of polymorph awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 250000 0 4100 0 0 0
+'polymorph'
+#4202
+spbook book of portal~
+a book of portal~
+A book of portal awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 75000 0 4100 0 0 0
+'portal'
+#4203
+spbook book of possess~
+a book of possess~
+A book of possess awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 0 0 4100 0 0 0
+'possess'
+#4204
+spbook book of power drain~
+a book of power drain~
+A book of power drain awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 5000 0 4100 0 0 0
+'power drain'
+#4205
+spbook book of power heal~
+a book of power heal~
+A book of power heal awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 750000 0 4100 0 0 0
+'power heal'
+#4206
+spbook book of quantum spike~
+a book of quantum spike~
+A book of quantum spike awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 650000 0 4100 0 0 0
+'quantum spike'
+#4207
+spbook book of recharge~
+a book of recharge~
+A book of recharge awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 80000 0 4100 0 0 0
+'NONE'
+#4208
+spbook book of refresh~
+a book of refresh~
+A book of refresh awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 2500 0 4100 0 0 0
+'refresh'
+#4209
+spbook book of remove curse~
+a book of remove curse~
+A book of remove curse awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 55000 0 4100 0 0 0
+'remove curse'
+#4210
+spbook book of remove invis~
+a book of remove invis~
+A book of remove invis awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 11000 0 4100 0 0 0
+'remove invis'
+#4211
+spbook book of remove trap~
+a book of remove trap~
+A book of remove trap awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 11000 0 4100 0 0 0
+'remove trap'
+#4212
+spbook book of restore mana~
+a book of restore mana~
+A book of restore mana awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 19000 0 4100 0 0 0
+'restore mana'
+#4213
+spbook book of sacred blast~
+a book of sacred blast~
+A book of sacred blast awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 750000 0 4100 0 0 0
+'sacred blast'
+#4214
+spbook book of sagacity~
+a book of sagacity~
+A book of sagacity awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 15000 0 4100 0 0 0
+'sagacity'
+#4215
+spbook book of sanctify~
+a book of sanctify~
+A book of sanctify awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 800000 0 4100 0 0 0
+'sanctify'
+#4216
+spbook book of sanctuary~
+a book of sanctuary~
+A book of sanctuary awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 80000 0 4100 0 0 0
+'sanctuary'
+#4217
+spbook book of scolding blast~
+a book of scolding blast~
+A book of scolding blast awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 11000 0 4100 0 0 0
+'scolding blast'
+#4218
+spbook book of scry~
+a book of scry~
+A book of scry awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 75000 0 4100 0 0 0
+'scry'
+#4219
+spbook book of shield~
+a book of shield~
+A book of shield awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 13000 0 4100 0 0 0
+'shield'
+#4220
+spbook book of shockshield~
+a book of shockshield~
+A book of shockshield awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 75000 0 4100 0 0 0
+'shockshield'
+#4221
+spbook book of sleep~
+a book of sleep~
+A book of sleep awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 10000 0 4100 0 0 0
+'sleep'
+#4222
+spbook book of slink~
+a book of slink~
+A book of slink awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 15000 0 4100 0 0 0
+'slink'
+#4223
+spbook book of stone skin~
+a book of stone skin~
+A book of stone skin awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 75000 0 4100 0 0 0
+'stone skin'
+#4224
+spbook book of summon~
+a book of summon~
+A book of summon awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 70000 0 4100 0 0 0
+'summon'
+#4225
+spbook book of tidal wave~
+a book of tidal wave~
+A book of tidal wave awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 750000 0 4100 0 0 0
+'tidal wave'
+#4226
+spbook book of tornado~
+a book of tornado~
+A book of tornado awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 75000 0 4100 0 0 0
+'tornado'
+#4227
+spbook book of trollish vigor~
+a book of trollish vigor~
+A book of trollish vigor awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 15000 0 4100 0 0 0
+'trollish vigor'
+#4228
+spbook book of true sight~
+a book of true sight~
+A book of true sight awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 80000 0 4100 0 0 0
+'true sight'
+#4229
+spbook book of unknown~
+a book of unknown~
+A book of unknown awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 0 0 4100 0 0 0
+'unknown'
+#4230
+spbook book of unravel defense~
+a book of unravel defense~
+A book of unravel defense awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 75000 0 4100 0 0 0
+'unravel defense'
+#4231
+spbook book of uplift~
+a book of uplift~
+A book of uplift awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 70000 0 4100 0 0 0
+'uplift'
+#4232
+spbook book of vampric touch~
+a book of vampric touch~
+A book of vampric touch awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 900 0 4100 0 0 0
+'vampric touch'
+#4233
+spbook book of weaken~
+a book of weaken~
+A book of weaken awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 2000 0 4100 0 0 0
+'weaken'
+#4234
+spbook book of wind chill~
+a book of wind chill~
+A book of wind chill awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 2500 0 4100 0 0 0
+'wind chill'
+#4235
+spbook book of wind gust~
+a book of wind gust~
+A book of wind gust awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 3000 0 4100 0 0 0
+'wind gust'
+#4236
+spbook book of wind spike~
+a book of wind spike~
+A book of wind spike awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 11000 0 4100 0 0 0
+'wind spike'
+#4237
+spbook book of wizardeye~
+a book of wizardeye~
+A book of wizardeye awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 15000 0 4100 0 0 0
+'wizardeye'
+#4238
+spbook book of word of recall~
+a book of word of recall~
+A book of word of recall awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 1500 0 4100 0 0 0
+'word of recall'
+#4239
+spbook book of furori~
+a book of furori~
+A book of furori awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 65000 0 4238 0 0 0
+'furori'
+#4240
+spbook book of aurori~
+a book of aurori~
+A book of aurori awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 65000 0 4238 0 0 0
+'aurori'
+#4241
+spbook book of gurori~
+a book of gurori~
+A book of gurori awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 65000 0 4238 0 0 0
+'gurori'
+#4242
+spbook book of eurori~
+a book of eurori~
+A book of eurori awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 65000 0 4238 0 0 0
+'eurori'
+#4243
+spbook book of wurori~
+a book of wurori~
+A book of wurori awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 65000 0 4238 0 0 0
+'wurori'
+#4244
+spbook book of furoro~
+a book of furoro~
+A book of furoro awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 650000 0 4238 0 0 0
+'furoro'
+#4245
+spbook book of auroro~
+a book of auroro~
+A book of auroro awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 650000 0 4238 0 0 0
+'auroro'
+#4246
+spbook book of guroro~
+a book of guroro~
+A book of guroro awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 650000 0 4238 0 0 0
+'guroro'
+#4247
+spbook book of euroro~
+a book of euroro~
+A book of euroro awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 650000 0 4238 0 0 0
+'euroro'
+#4248
+spbook book of wuroro~
+a book of wuroro~
+A book of wuroro awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 650000 0 4238 0 0 0
+'wuroro'
+#4249
+spbook book of eye of god~
+a book of eye of god~
+A book of eye of god awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 800000 0 4238 0 0 0
+'eye of god'
+#4250
+spbook book of fleetarms~
+a book of fleetarms~
+A book of fleetarms awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 70000 0 4238 0 0 0
+'fleetarms'
+#4251
+spbook book of restore limb~
+a book of restore limb~
+A book of restore limb awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 80000 0 4238 0 0 0
+'restore limb'
+#4252
+spbook book of revitialize limb~
+a book of revitialize limb~
+A book of revitialize limb awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+2.000000 80000 0 4238 0 0 0
+'revitalize limb'
+#4253
+spbook book of magic bane~
+a book of magic bane~
+A book of magic bane awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 80000 0 4238 0 0 0
+'magic bane'
+#4254
+spbook book of nothirst~
+a book of nothirst~
+A book of nothirst awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 9000 0 4238 0 0 0
+'nothirst'
+#4255
+spbook book of nohunger~
+a book of nohunger~
+A book of nohunger awaits its next reader.~
+~
+67 -2147475456 1
+0 -1 0 0
+3.000000 9000 0 4238 0 0 0
+'nohunger'
+#4256
+spbook book of managen~
+a book of managen~
+A book of managen awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 15000 0 0 0 0 0
+'managen'
+#4257
+spbook book of greater managen~
+a book of greater managen~
+A book of greater managen awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 75000 0 0 0 0 0
+'greater managen'
+#4258
+spbook book of divine managen~
+a book of divine managen~
+A book of divine managen awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 700000 0 0 0 0 0
+'divine managen'
+#4259
+spbook book of hpgen~
+a book of hpgen~
+A book of hpgen awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 15000 0 0 0 0 0
+'hpgen'
+#4260
+spbook book of greater hpgen~
+a book of greater hpgen~
+A book of greater hpgen awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 75000 0 0 0 0 0
+'greater hpgen'
+#4261
+spbook book of divine hpgen~
+a book of divine hpgen~
+A book of divine hpgen awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 700000 0 0 0 0 0
+'divine hpgen'
+#4262
+spbook book of resurrection~
+a book of resurrection~
+A book of resurrection awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 100000 0 0 0 0 0
+'resurrection'
+#4263
+spbook book of greater resurrection~
+a book of greater resurrection~
+A book of greater resurrection awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 1000000 0 0 0 0 0
+'greater resurrection'
+#4264
+spbook book of healing light~
+a book of healing light~
+A book of healing light awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 11000 0 0 0 0 0
+'healing light'
+#4265
+spbook book of revitalize spirit~
+a book of revitalize spirit~
+A book of revitalize spirit awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 12000 0 0 0 0 0
+'revitalize spirit'
+#4266
+spbook book of shield of the gods~
+a book of shield of the gods~
+A book of shield of the gods awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 100000 0 0 0 0 0
+'shield of the gods'
+#4267
+spbook book of aura of the gods~
+a book of aura of the gods~
+A book of aura of the gods awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 1000000 0 0 0 0 0
+'aura of the gods'
+#4268
+spbook book of bless weapon~
+a book of bless weapon~
+A book of bless weapon awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 1000000 0 0 0 0 0
+'bless weapon'
+#4269
+spbook book of summon corpse~
+a book of summon corpse~
+A book of summon corpse awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 1500000 0 0 0 0 0
+'summon corpse'
+#4290
+spbook book of holy cleansing~
+a book of holy cleansing~
+A book of holy cleansing awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 85000 0 4100 0 0 0
+'holy cleansing'
+#4291
+spbook book of word of nyiji~
+a book of word of nyiji~
+A book of word of nyiji awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 85000 0 4100 0 0 0
+'word of nyiji'
+#4292
+spbook book of infravision~
+a book of infravision~
+A book of infravision awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 2000 0 4100 0 0 0
+'infravision'
+#4293
+spbook book of lesser resurrection~
+a book of lesser resurrection~
+A book of lesser resurrection awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 15000 0 4100 0 0 0
+'lesser resurrection'
+#4294
+spbook book of minor healing rain~
+a book of minor healing rain~
+A book of minor healing rain awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 3000 0 4100 0 0 0
+'minor healing rain'
+#4295
+spbook book of healing rain~
+a book of healing rain~
+A book of healing rain awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 11000 0 4100 0 0 0
+'healing rain'
+#4296
+spbook book of major healing rain~
+a book of major healing rain~
+A book of major healing rain awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 90000 0 4100 0 0 0
+'major healing rain'
+#4297
+spbook~
+a book of~
+A book of awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 0 0 4100 0 0 0
+'NONE'
+#4298
+spbook~
+a book of~
+A book of awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 0 0 4100 0 0 0
+'NONE'
+#4299
+spbook~
+a book of~
+A book of awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 0 0 4100 0 0 0
+'NONE'
+#4365
+spbook book of web~
+a book of web~
+A book of web awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 14000 0 0 0 0 0
+'web'
+#4366
+spbook book of snare~
+a book of snare~
+A book of snare awaits its next reader.~
+~
+67 0 1
+0 -1 0 0
+3.000000 750000 0 0 0 0 0
+'snare'
+#4399
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#0
+
+
+#ROOMS
+#4100
+Rafermand Spell Book Center~
+Every square inch of this rather large room is full of stacks and stacks
+of spellbooks.  Most of the books are stacked nicely on the ground, on a
+table, or on a bookself, but a few are scattered around on a few display
+tables near the front.  In the northern most part of the room, a small man
+with a beard that drops all the way down to his belt is watching over the
+whole shop, and assisting those who need assistance in the magical arts.
+~
+4
+0 1
+0
+0
+S
+#4101
+Monk Store~
+~
+0
+0 1
+0
+0
+D1
+~
+~
+0 -1 4140
+0 0
+D2
+~
+~
+0 -1 4100
+0 0
+S
+#4102
+Baywin Street~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4108
+0 0
+D1
+~
+~
+0 -1 4109
+0 0
+D3
+~
+~
+0 -1 4100
+0 0
+S
+#4103
+Baywin Street~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4104
+0 0
+D1
+~
+~
+0 -1 4100
+0 0
+D3
+~
+~
+0 -1 4105
+0 0
+S
+#4104
+Mage Store~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4114
+0 0
+D2
+~
+~
+0 -1 4103
+0 0
+S
+#4105
+Baywin Street~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4106
+0 0
+D1
+~
+~
+0 -1 4103
+0 0
+D2
+~
+~
+0 -1 4107
+0 0
+D3
+~
+~
+0 -1 4112
+0 0
+S
+#4106
+Cleric Store~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4118
+0 0
+D2
+~
+~
+0 -1 4105
+0 0
+S
+#4107
+Druid Store~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4105
+0 0
+D2
+~
+~
+0 -1 4127
+0 0
+S
+#4108
+Ranger Store~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4130
+0 0
+D2
+~
+~
+0 -1 4102
+0 0
+S
+#4109
+East Baywin~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4110
+0 0
+D1
+~
+~
+0 -1 4113
+0 0
+D2
+~
+~
+0 -1 4111
+0 0
+D3
+~
+~
+0 -1 4102
+0 0
+D6
+~
+~
+0 -1 4146
+0 0
+S
+#4110
+Paladin Store~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4134
+0 0
+D2
+~
+~
+0 -1 4109
+0 0
+S
+#4111
+Augurer Store~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4109
+0 0
+D2
+~
+~
+0 -1 4136
+0 0
+S
+#4112
+Baywin Street West~
+~
+0
+0 14
+0
+0
+D0
+~
+~
+0 -1 4123
+0 0
+D1
+~
+~
+0 -1 4105
+0 0
+D2
+~
+~
+0 -1 4125
+0 0
+D3
+~
+~
+0 -1 4124
+0 0
+S
+#4113
+Chaplain Store~
+~
+0
+0 1
+0
+0
+D1
+~
+~
+0 -1 4135
+0 0
+D3
+~
+~
+0 -1 4109
+0 0
+S
+#4114
+Mage Store~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4115
+0 0
+D2
+~
+~
+0 -1 4104
+0 0
+S
+#4115
+Mage Store~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4116
+0 0
+D1
+~
+~
+0 -1 4117
+0 0
+D2
+~
+~
+0 -1 4114
+0 0
+S
+#4116
+Mage Store~
+~
+0
+0 1
+0
+0
+D2
+~
+~
+0 -1 4115
+0 0
+S
+#4117
+Mage Store~
+~
+0
+0 1
+0
+0
+D3
+~
+~
+0 -1 4115
+0 0
+S
+#4118
+Cleric Store~
+Shurbs and other plantlife linger around this office bringing fresh life
+to this small store. Many books are stacked high and look as if they could
+tumble over at any second. The old cleric vendor smiles and gives a slight nod
+to each holy visitor that enters his store. There is a warm, calm feeling to
+this place. The kind of feeling a person gets when they enter their home.
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4119
+0 0
+D2
+~
+~
+0 -1 4106
+0 0
+D3
+~
+~
+0 -1 4122
+0 0
+S
+#4119
+Cleric Store~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4120
+0 0
+D2
+~
+~
+0 -1 4118
+0 0
+D3
+~
+~
+0 -1 4121
+0 0
+S
+#4120
+Cleric Store~
+~
+0
+0 1
+0
+0
+D2
+~
+~
+0 -1 4119
+0 0
+S
+#4121
+Cleric Store~
+~
+0
+0 1
+0
+0
+D1
+~
+~
+0 -1 4119
+0 0
+S
+#4122
+Cleric Store~
+~
+0
+0 1
+0
+0
+D1
+~
+~
+0 -1 4118
+0 0
+S
+#4123
+Vampire Store~
+~
+0
+0 14
+0
+0
+D2
+~
+~
+0 -1 4112
+0 0
+S
+#4124
+Vampire Store~
+~
+0
+0 14
+0
+0
+D1
+~
+~
+0 -1 4112
+0 0
+S
+#4125
+Vampire Store~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4112
+0 0
+S
+#4126
+Floating in a void~
+~
+4
+0 1
+0
+0
+S
+#4127
+Druid Store~
+~
+4
+0 1
+0
+0
+D0
+~
+~
+0 -1 4107
+0 0
+D2
+~
+~
+0 -1 4128
+0 0
+S
+#4128
+Druid Store~
+~
+4
+0 1
+0
+0
+D0
+~
+~
+0 -1 4127
+0 0
+D3
+~
+~
+0 -1 4129
+0 0
+S
+#4129
+Druid Store~
+~
+4
+0 1
+0
+0
+D1
+~
+~
+0 -1 4128
+0 0
+S
+#4130
+Ranger Store~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4131
+0 0
+D2
+~
+~
+0 -1 4108
+0 0
+S
+#4131
+Ranger Store~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4132
+0 0
+D2
+~
+~
+0 -1 4130
+0 0
+S
+#4132
+Ranger Store~
+~
+0
+0 1
+0
+0
+D2
+~
+~
+0 -1 4131
+0 0
+D3
+~
+~
+0 -1 4133
+0 0
+S
+#4133
+Ranger Store~
+~
+0
+0 1
+0
+0
+D1
+~
+~
+0 -1 4132
+0 0
+S
+#4134
+Paladin Store~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4145
+0 0
+D2
+~
+~
+0 -1 4110
+0 0
+S
+#4135
+Chaplain Store~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4141
+0 0
+D1
+~
+~
+0 -1 4142
+0 0
+D2
+~
+~
+0 -1 4143
+0 0
+D3
+~
+~
+0 -1 4113
+0 0
+S
+#4136
+Augurer Store~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4111
+0 0
+D2
+~
+~
+0 -1 4137
+0 0
+S
+#4137
+Augurer Store~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4136
+0 0
+D1
+~
+~
+0 -1 4139
+0 0
+D3
+~
+~
+0 -1 4138
+0 0
+S
+#4138
+Augurer Store~
+~
+0
+0 1
+0
+0
+D1
+~
+~
+0 -1 4137
+0 0
+S
+#4139
+Augurer Store~
+~
+0
+0 1
+0
+0
+D3
+~
+~
+0 -1 4137
+0 0
+S
+#4140
+Monk Store~
+~
+0
+0 1
+0
+0
+D3
+~
+~
+0 -1 4101
+0 0
+S
+#4141
+Chaplain Store~
+~
+0
+0 1
+0
+0
+D2
+~
+~
+0 -1 4135
+0 0
+S
+#4142
+Chaplain Store~
+~
+0
+0 1
+0
+0
+D1
+~
+~
+0 -1 4144
+0 0
+D3
+~
+~
+0 -1 4135
+0 0
+S
+#4143
+Chaplain Store~
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 4135
+0 0
+S
+#4144
+Chaplain Store~
+~
+0
+0 1
+0
+0
+D3
+~
+~
+0 -1 4142
+0 0
+S
+#4145
+Paladin Store~
+~
+0
+0 1
+0
+0
+D2
+~
+~
+0 -1 4134
+0 0
+S
+#4146
+Mystic Store~
+~
+1073741824
+0 1
+0
+0
+D6
+~
+~
+0 -1 4147
+0 0
+D9
+~
+~
+0 -1 4109
+0 0
+S
+#4147
+Mystic Store~
+~
+1073741824
+0 1
+0
+0
+D0
+~
+~
+0 -1 4148
+0 0
+D1
+~
+~
+0 -1 4149
+0 0
+D9
+~
+~
+0 -1 4146
+0 0
+S
+#4148
+Mystic Store~
+~
+1073741824
+0 1
+0
+0
+D1
+~
+~
+0 -1 4150
+0 0
+D2
+~
+~
+0 -1 4147
+0 0
+S
+#4149
+Mystic Store~
+~
+1073741824
+0 1
+0
+0
+D3
+~
+~
+0 -1 4147
+0 0
+S
+#4150
+Mystic Store~
+~
+1073741824
+0 1
+0
+0
+D3
+~
+~
+0 -1 4148
+0 0
+S
+#4399
+Floating in a void~
+~
+4
+0 1
+0
+0
+S
+#0
+
+
+#RESETS
+M 1 4131 1 4101 -1 -1 -1 0 0
+M 1 4100 1 4104 -1 -1 -1 0 0
+M 1 4105 1 4106 -1 -1 -1 0 0
+M 1 4114 1 4107 -1 -1 -1 0 0
+M 1 4118 1 4108 -1 -1 -1 0 0
+M 1 4128 1 4110 -1 -1 -1 0 0
+M 1 4123 1 4111 -1 -1 -1 0 0
+M 1 4133 1 4113 -1 -1 -1 0 0
+M 1 4104 1 4116 -1 -1 -1 0 0
+M 1 4103 1 4117 -1 -1 -1 0 0
+M 1 4109 1 4121 -1 -1 -1 0 0
+M 1 4111 1 4123 -1 -1 -1 0 0
+M 1 4113 1 4125 -1 -1 -1 0 0
+M 1 4116 1 4128 -1 -1 -1 0 0
+M 1 4117 1 4129 -1 -1 -1 0 0
+M 1 4119 1 4130 -1 -1 -1 0 0
+M 1 4122 1 4133 -1 -1 -1 0 0
+M 1 4129 1 4134 -1 -1 -1 0 0
+M 1 4134 1 4135 -1 -1 -1 0 0
+M 1 4124 1 4136 -1 -1 -1 0 0
+M 1 4127 1 4138 -1 -1 -1 0 0
+M 1 4135 1 4141 -1 -1 -1 0 0
+M 1 4137 1 4142 -1 -1 -1 0 0
+M 1 4136 1 4143 -1 -1 -1 0 0
+M 1 4138 1 4144 -1 -1 -1 0 0
+M 1 4130 1 4145 -1 -1 -1 0 0
+M 1 4121 1 4131 -1 -1 -1 0 0
+M 1 4126 1 4137 -1 -1 -1 0 0
+M 1 4112 1 4124 -1 -1 -1 0 0
+M 1 4106 1 4122 -1 -1 -1 0 0
+M 1 4107 1 4118 -1 -1 -1 0 0
+M 1 4108 1 4119 -1 -1 -1 0 0
+M 1 4110 1 4120 -1 -1 -1 0 0
+M 1 4132 1 4140 -1 -1 -1 0 0
+M 1 4120 1 4132 -1 -1 -1 0 0
+M 1 4125 1 4139 -1 -1 -1 0 0
+M 1 4102 1 4115 -1 -1 -1 0 0
+M 1 4115 1 4127 -1 -1 -1 0 0
+M 1 4101 1 4114 -1 -1 -1 0 0
+M 1 4139 1 4146 -1 -1 -1 0 0
+M 1 4140 1 4147 -1 -1 -1 0 0
+M 1 4141 1 4149 -1 -1 -1 0 0
+M 1 4142 1 4150 -1 -1 -1 0 0
+M 1 4143 1 4148 -1 -1 -1 0 0
+M 1 4144 1 4100 -1 -1 -1 0 0
+M 1 42509 1 42505 -1 -1 -1 0 0
+M 1 21013 1 42505 -1 -1 -1 0 0
+S
+
+
+#SHOPS
+ 4100    0  0  0  0  0   120  90         0 23    ; A mage book vendor
+ 4101    0  0  0  0  0   120  90         0 23    ; A mage book vendor
+ 4102    0  0  0  0  0   120  90         0 23    ; A mage book vendor
+ 4103    0  0  0  0  0   120  90         0 23    ; A mage book vendor
+ 4104    0  0  0  0  0   120  90         0 23    ; A mage book vendor
+ 4105    0  0  0  0  0   120  90         0 23    ; A cleric book vendor
+ 4106    0  0  0  0  0   120  90         0 23    ; A cleric book vendor
+ 4107    0  0  0  0  0   120  90         0 23    ; A cleric book vendor
+ 4108    0  0  0  0  0   120  90         0 23    ; A cleric book vendor
+ 4109    0  0  0  0  0   120  90         0 23    ; A cleric book vendor
+ 4110    0  0  0  0  0   120  90         0 23    ; A cleric book vendor
+ 4111    0  0  0  0  0   160  90         0 23    ; A vampire book vendor
+ 4112    0  0  0  0  0   160  90         0 23    ; A vampire book vendor
+ 4113    0  0  0  0  0   160  90         0 23    ; A vampire book vendor
+ 4114    0  0  0  0  0   160  90         0 23    ; A druid book vendor
+ 4115    0  0  0  0  0   160  90         0 23    ; A druid book vendor
+ 4116    0  0  0  0  0   160  90         0 23    ; A druid book vendor
+ 4117    0  0  0  0  0   160  90         0 23    ; A druid book vendor
+ 4118    0  0  0  0  0   160  90         0 23    ; A ranger book vendor
+ 4119    0  0  0  0  0   160  90         0 23    ; A ranger book vendor
+ 4120    0  0  0  0  0   160  90         0 23    ; A ranger book vendor
+ 4121    0  0  0  0  0   160  90         0 23    ; A ranger book vendor
+ 4122    0  0  0  0  0   160  90         0 23    ; A ranger book vendor
+ 4123    0  0  0  0  0   160  90         0 23    ; An augurer book vendor
+ 4124    0  0  0  0  0   160  90         0 23    ; An augurer book vendor
+ 4125    0  0  0  0  0   160  90         0 23    ; An augurer book vendor
+ 4126    0  0  0  0  0   160  90         0 23    ; An augurer book vendor
+ 4127    0  0  0  0  0   160  90         0 23    ; An augurer book vendor
+ 4128    0  0  0  0  0   160  90         0 23    ; A paladin book vendor
+ 4129    0  0  0  0  0   160  90         0 23    ; A paladin book vendor
+ 4130    0  0  0  0  0   160  90         0 23    ; A paladin book vendor
+ 4131    0  0  0  0  0   160  90         0 23    ; A monk book vendor
+ 4132    0  0  0  0  0   160  90         0 23    ; A monk book vendor
+ 4133    0  0  0  0  0   120  90         0 23    ; A chaplain book vendor
+ 4134    0  0  0  0  0   120  90         0 23    ; A chaplain book vendor
+ 4135    0  0  0  0  0   120  90         0 23    ; A chaplain book vendor
+ 4136    0  0  0  0  0   120  90         0 23    ; A chaplain book vendor
+ 4137    0  0  0  0  0   120  90         0 23    ; A chaplain book vendor
+ 4138    0  0  0  0  0   120  90         0 23    ; A chaplain book vendor
+ 4139    0  0  0  0  0   140  90         0 23    ; A mystic book vendor
+ 4140    0  0  0  0  0   140  90         0 23    ; A mystic book vendor
+ 4141    0  0  0  0  0   140  90         0 23    ; A mystic book vendor
+ 4142    0  0  0  0  0   140  90         0 23    ; A mystic book vendor
+ 4143    0  0  0  0  0   140  90         0 23    ; A mystic book vendor
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

@@ -1,0 +1,2393 @@
+#AREA   Fortress Morgond~
+
+
+
+#VERSION 53
+#AUTHOR Skan~
+
+#RANGES
+20 50 1 75 0 0 0 0 0
+$
+
+#RESETMSG An odd silence settles over the fortress...~
+
+#FLAGS
+0
+
+#ECONOMY 0 2921985 0
+
+#MOBILES
+#3750
+golem~
+a darkstone golem~
+A darkstone golem is here, towering over you.
+~
+The &zdarkstone &wgolem is basically a boulder with arms and legs...
+a very deadly boulder that is.
+~
+65 0 128 0 C
+0 0 9 9 9 10
+6d27+248 1d6+7 0 0 0
+0 0
+112 112 0
+17 17 16 15 20 12 15 63
+0 0 0 0 0
+40 0 0 0 1 1 63
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 992 524289
+> fight_prog 30~
+mpecho _cha A piece of the golem cracks off and explodes showering you
+mpecho _cha with sharp stone shards!
+mpechoat $r _cha Several pieces of sharp rock slash you savagely!
+mpechoaround $r _cha Several pieces of the sharp rock slash $r savagely!
+mpdamage $r 35
+~
+> death_prog 100~
+mpecho _cha The golem shudders and falls to pieces!
+~
+|
+#3751
+weed killer killerweed~
+a killer weed~
+A huge weed is here, growing up the wall...
+~
+The huge, green weed looks like something straight out of a nightmare.
+Long thorny tentacles, a huge, toothed mouth like an oversized fly trap...
+just hope it doesnt mistake you for the fly.
+~
+35 0 0 0 C
+0 0 12 11 12 11
+11d49+324 1d9+11 0 0 0
+0 0
+112 112 0
+17 18 18 17 11 13 16 70
+0 0 0 0 0
+85 0 0 0 1 1 70
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+11 0 0 0 0 0 0 768 2
+> fight_prog 30~
+mpechoat $r _gre The weed whips at you with thorny vines, ripping clothes
+mpechoat $r _gre armor and flesh!
+mpechoaround $r _gre The weed whips $r with it's thorny vines!
+mpdamage $r 40
+~
+|
+#3752
+golem~
+a greater darkstone golem~
+A greater darkstone golem is here, looking like a small mountain.
+~
+A gigantic &zdarkstone &wgolem stands before you. Much larger than the
+golems in the courtyard this is more like a mountain than a boulder...
+~
+97 0 4194304 0 C
+0 0 12 11 11 11
+11d48+322 1d8+11 0 0 0
+0 0
+112 112 0
+19 17 17 20 20 13 19 70
+0 0 0 0 0
+40 0 0 0 1 1 70
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+15 0 0 0 0 0 0 8389600 524289
+> death_prog 100~
+mpecho _cha The golem explodes into tiny fragments!
+mpdamage $r 30
+if rand(15)
+mpecho _cha A small shard - larger than the other pieces - catches your eye
+mpecho _cha as it smolders faintly on the ground.
+mpoload 3761
+endif
+~
+|
+#3753
+enchanter darkstone~
+&PThe &zdarkstone &Penchanter~
+A funny little... something... made of &zdarkstone &Pstands here.
+~
+The little figure is actually a &zdarkstone &wenchanter! He has a strange
+glint in his eye...
+~
+65 0 0 0 C
+0 0 15 16 16 14
+8d32+686 1d11+15 0 0 0
+0 0
+112 112 0
+18 20 20 19 15 13 17 77
+0 0 0 0 0
+85 0 0 0 1 1 77
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+17 0 0 0 8 0 0 1476395248 2097174
+> death_prog 100~
+mpecho _cha As the killing blow is made, the little darkstone figure
+mpecho _cha crumbles away.
+~
+> fight_prog 20~
+if rand(50)
+say See how good this feels against your skin!
+c 'deanimation' $r
+cackle
+else
+say This is going to hurt!
+c 'jolting burst' $r
+evil
+endif
+~
+> death_prog 100~
+if rand(85)
+mppurge staff
+endif
+~
+|
+#3754
+guard darkstone figure~
+&cthe &zdarkstone &cguard~
+&cA menacing figure, heavily armed and made of &zdarkstone &cpaces here.
+~
+The &zdarkstone &wguard grits his teeth and grumbles as you stare at him...
+~
+65 0 0 0 C
+0 0 15 16 14 16
+10d41+832 1d12+16 0 0 0
+0 0
+112 112 0
+19 20 19 19 18 13 19 81
+0 0 0 0 0
+85 0 0 0 1 1 81
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+17 0 0 0 0 0 0 67109824 2621447
+> all_greet_prog 100~
+scowl $n
+~
+> fight_prog 15~
+say You can never defeat me!
+muhaha
+mpdamage $r 65
+~
+> death_prog 100~
+if rand(10)
+mpecho _red As the guard slumps to the ground, the falchion falls from his hand.
+else
+mpecho _red The guard gasps for breath...
+say You... beat... me...
+mpecho _red With his last ounce of strength, the guard smashes his
+mpecho _red falchion on the ground.
+mppurge falchion
+endif
+~
+|
+#3755
+wurm darkstone~
+the &zdarkstone &Pwurm~
+A &zdarkstone &Pwurm slithers here.
+~
+The wurm is a huge &zdarkstone &wdragon, that has somehow managed to live
+beyond it's landwalker stage... very rare indeed.
+~
+97 0 0 0 C
+0 0 16 17 17 16
+10d40+811 1d12+16 0 0 0
+0 0
+112 112 0
+20 19 22 18 16 10 18 82
+0 0 0 0 0
+31 0 0 0 1 1 82
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+20 0 0 0 0 0 0 132032 524294
+#3756
+Green wurm~
+&ga Green Wurm~
+&gA Green Wurm slithers around looking for prey.
+~
+A strange looking creature that is simply looking for one thing, food.
+~
+1 0 0 -500 C
+0 0 10 9 10 10
+8d33+269 1d7+8 0 0 0
+0 0
+112 112 0
+18 18 19 17 13 13 18 65
+0 0 0 0 0
+31 0 0 0 1 1 65
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+9 0 0 0 0 0 0 592 1
+#3757
+darkstone thief~
+&BThe &zdarkstone &Bthief~
+&BA &zdarkstone &Bthief is here looking for some loot.
+~
+A strange looking thief from the local area.  By the look that he is
+giving you and his weapon in hand, kill you is only one of the ways to
+get your gold.
+~
+1 0 98304 -800 C
+0 0 15 14 16 16
+9d39+817 1d12+16 0 0 0
+4678 0
+112 112 1
+20 22 18 18 13 13 20 81
+0 0 0 0 0
+0 0 0 0 1 1 81
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+10 0 0 0 0 0 0 576 1
+#3758
+darkstone protector~
+&c&wa &w&zdarkstone&c&w protector~
+&c&wA &w&zdarkstone&c&w protector is here to stop you!
+~
+~
+35 0 369098880 0 C
+0 0 16 16 15 15
+10d43+883 1d13+17 0 0 0
+5040 0
+112 112 0
+22 19 20 19 18 13 20 85
+0 0 0 0 0
+85 0 0 0 1 1 85
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 134218496 524295
+> death_prog 100~
+if rand(75)
+mppurge arm-guard
+endif
+~
+> all_greet_prog 100~
+if ispc($n)
+evil $n
+say You will advance no further!
+mpkill $n
+endif
+~
+> fight_prog 25~
+say You will not best me, I am the protector of this fort!
+mpdamage $r 50
+c 'fireball'
+~
+|
+#3799
+infernal golem~
+&GThe &RI&rnfernal &RG&rolem&G~
+The &RI&rnfernal &RG&rolem &pis smoldering here.
+~
+The &RI&rnfernal &RG&rolem &wstands before you, and it is quite amazing
+that it can even fit in these caves... It stands about 12 feet high, and
+is composed of what seems to be &zdarkstone. &wAs you look at it, it seems
+to smolder and burn angrily.
+~
+16777281 0 104857728 0 C
+0 0 25 23 23 23
+25d25+8500 2d10+39 0 0 0
+100000 0
+112 112 0
+24 25 25 22 21 13 22 95
+-10 -10 -10 -10 -10
+40 0 0 0 1 1 95
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+20 0 0 8196 2104577 0 0 8640 524295
+> death_prog 100~
+if rand(75)
+mpjunk collar
+endif
+if rand(75)
+mpjunk helm
+endif
+~
+> fight_prog 10~
+mpecho _cha The golem gets a nasty grin on it's stoney face, and suddenly
+mpecho _cha acid sprays the whole room!
+c 'acidic blast' $r
+c 'acidic blast' $r
+c 'acidic blast' $r
+~
+> fight_prog 5~
+mpe _cha The golem roars and releases total hell on the whole room!
+c 'acidic blast' $r
+c 'acidic blast' $r
+c 'earth clamp' $r
+c 'earth clamp' $r
+c 'acidic oblivion' $r
+c 'acidic oblivion' $r
+mprestore self 800
+~
+> all_greet_prog 100~
+if ispc($n)
+emote chuckles
+tell $n Wrong place wrong time $n.
+c 'acidic blast' $n
+endif
+~
+> fight_prog 10~
+mpecho _red The golem flares violently engulfing the room in a blistering
+mpecho _red inferno.
+mpdamage $r 75
+mpdamage $r 75
+mpdamage $r 75
+mprestore self 400
+~
+> act_prog p flees~
+if rand(25)
+mpat $n tell $n You cannot get away that easily $n, prepare to die!
+mptransfer $n
+c 'acidic blast' $n
+endif
+~
+|
+#0
+
+
+#OBJECTS
+#3750
+sconce~
+the sconce~
+A corroded, steel sconce is hanging on the wall.~
+~
+37 0 1
+0 0 0 0
+1.000000 0 0 3799 0 0 0
+E
+sconce~
+The sconce is small and made of bronze.
+~
+#3751
+rocks stones~
+some large pieces of the wall.~
+Some large, dark, stones lie here.~
+~
+12 134217728 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+stones boulders rocks~
+Some large pieces of the wall lie crumbled and broken here.
+~
+#3752
+infernal collar~
+an &RI&rnfernal &RC&rollar~
+A ring of &rsmoldering &zdarkstone &Glies here~
+~
+9 -2146959360 5
+24 24 24 1000 24 3 0 0 0 0 0 0 0 0
+3.000000 350000 0 0 0 0 3
+E
+collar~
+The &RI&rnfernal &RC&rollar &w is made of a ring of &zdarkstone. It looks
+to be &rsmoldering &wfaintly
+~
+A
+13 25 0
+A
+12 25 0
+A
+86 10 0
+A
+79 8 0
+A
+80 1 0
+A
+81 2 0
+A
+82 2 0
+A
+27 4 0
+#3753
+leg-guards slabs slab~
+&zdarkstone leg-guards~
+A pair of iron-bound &zdarkstone slabs &Glie here.~
+~
+9 -2146959359 33
+16 16 16 1000 16 3 0 0 0 0 0 0 0 0
+10.000000 75000 0 0 0 0 3
+E
+slab slabs leg-guards~
+The iron-bound slabs of &zdarkstone &wlook like they are actually leg
+armor! They seem to have a light of their own...
+~
+A
+13 5 0
+A
+12 2 0
+A
+1 1 0
+A
+82 1 0
+#3754
+infernal helm~
+an &RI&rnfernal &RH&relm~
+A rounded, spikey shell of faintly &rsmoldering &zdarkstone &Glies here.~
+~
+9 -2146959360 17
+23 23 23 1000 24 3 0 0 0 0 0 0 0 0
+5.000000 250000 0 0 0 0 3
+E
+helm~
+The &RI&rnfernal &RH&relm &wis the hollowed shell of the &RI&rnfernal
+&RG&rolem &witself! It seems to smoke and smolder before your eyes...
+~
+A
+13 20 0
+A
+12 20 0
+A
+27 1 0
+A
+80 2 0
+A
+82 2 0
+A
+81 1 0
+A
+90 20 0
+#3755
+portcullis~
+the portcullis~
+A great, rusted portcullis hangs here... it seems to be stuck.~
+~
+12 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+portcullis~
+The portcullis is a huge, rusted iron affair. It looks like it must
+weigh several tons, and would not be a pleasant thing to have dropped on
+you... It seems to be stuck most of the way open.
+~
+#3756
+falchion darkstone~
+&Ga &zdarkstone &Gfalchion~
+Long A huge, &zdarkstone &Gfalchion lies here.~
+~
+5 -2146959360&0&64 513
+1000 18 23 6 -1 -1 0 8 12 12 14 0 23 12
+5.000000 55000 0 0 0 0 3
+'NONE'
+E
+falchion~
+The &zdarkstone &wfalchion is about the same size as an &zAn&wti&zpa&wla&zdin
+&zGr&wea&zt-S&wwo&zrd&w...
+~
+A
+13 5 0
+A
+12 3 0
+A
+2 1 0
+A
+81 1 0
+#3757
+darkstone staff~
+a &zdarkstone &Gstaff~
+A small, &zdarkstone &Gstaff lies here.~
+~
+5 524288&0&1024 513
+1000 22 23 6 7 1005 0 12 10 9 17 0 14 11
+9.000000 85000 0 0 0 0 5
+'animate dead'
+E
+staff~
+The staff is made entirely from &zdarkstone&w, and is about 4 feet in length.
+~
+A
+12 10 0
+A
+13 2 0
+A
+4 1 0
+A
+3 1 0
+#3758
+platform slab~
+a &zdarkstone &Gslab~
+A cracked &zdarkstone &Gslab lies here, covered in dead leaves.~
+~
+12 0 0
+4 0 577 15000 15000 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+slab~
+The slab is large, and made of &zdarkstone&w. It is also very old, very
+cracked, and grows weeds better than a flower bed ;)
+~
+#3759
+darkstone fragment~
+a &zdarkstone &Gfragment~
+A small &zdarkstone &Gfragment is lying here.~
+~
+8 524289 32769
+0 0 0 0
+0.150000 20000 0 0 0 0 5
+E
+fragment~
+&c&wThis small, &w&zdarkstone&c&w fragment looks like it would fit nicely around
+your neck
+~
+A
+13 5 0
+A
+12 5 0
+A
+80 1 0
+#3760
+belt vine~
+&Oa thorny vine~
+&OA thorned vine lies here.~
+~
+9 262144 257
+0 0 0 1000
+0.800000 27000 0 0 0 0 2
+E
+vine~
+The length of vine is broad, and covered in large thorns.
+~
+A
+13 4 0
+A
+12 3 0
+A
+80 1 0
+> wear_prog 100~
+mea $n As you wrap the vine around your waste, some of the thorns scratch you.
+mpdamage $n 20
+~
+|
+#3761
+shard~
+a &zdarkstone &Gshard~
+A tiny &zdarkstone &Gshard lies here.~
+~
+9 524288 1
+0 0 0 1000
+0.080000 4000 0 0 0 0 0
+E
+shard~
+It is a small &zdarkstone &wshard, and it is very sharp!
+~
+#3762
+darkstone scale~
+a &zdarkstone &Gscale~
+The scale of a &zdarkstone &Gwurm lies here.~
+~
+9 0 5
+17 17 17 1000 16 2 0 0 0 0 0 0 0 0
+5.000000 55000 0 0 0 0 2
+E
+scale~
+&c&wThis huge &w&zdarkstone&c&w scale looks like it could fit around your neck.
+The scales appear to have a very odd quality that make them good as any of the
+stronger metals.
+~
+A
+13 5 0
+A
+12 3 0
+A
+5 1 0
+#3763
+darkstone arm-guards~
+&w&Ga &w&zdarkstone &w&Garm-guard~
+&w&GA &w&zdarkstone &w&Garm-guard is here for you to pick up.~
+~
+9 0 65
+16 16 16 1000 16 3 0 0 0 0 0 0 0 0
+9.000000 65000 0 0 0 0 3
+A
+13 5 0
+A
+12 3 0
+A
+77 5 0
+#3798
+key darkstone~
+&za key-shaped darkstone~
+&zA key-shaped darkstone is lying on the floor here.~
+~
+18 0 1
+3797 0 0 0
+1.000000 0 0 0 0 0 0
+E
+key~
+It is a small, key-shaped flake of &zdarkstone.
+~
+#3799
+sconce~
+the sconce~
+A corroded, steel sconce is hanging on the wall.~
+~
+37 0 0
+1 0 0 0
+1.000000 0 0 0 0 0 0
+E
+sconce~
+The sconce is small and made of bronze.
+~
+> pull_prog 100~
+mpechoat $n _gre As you pull the sconce the floor goes all wavy and you fall down.
+mpechoaround $n As $n pulls the sconce, $e falls through the floor!
+mptrans $n 3787
+~
+|
+#0
+
+
+#ROOMS
+#3750
+&cA &cM&zisty &cD&zraw &cB&zridge~
+&cA&zn ancient-looking drawbridge lies here, across a dark, 
+&zmisty moat. &cT&zhe moat is so misty in fact, that at times, it 
+&zis hard to see what lies beyond the bridge. &cW&zhen the mist is 
+&zthick enough to see through, however, a huge, dark shape looms 
+&zout from the moat...
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 3751
+0 0
+D2
+~
+~
+134217728 -1 16000
+967 462
+S
+#3751
+&cA &cM&zisty &cD&zraw &cB&zridge~
+&cT&zhe middle of the drawbridge seems to be mistier than the 
+&zfar bank was. &cV&zisibility ends about ten feet in all 
+&zdirections, and the mist seems to amplify even the smallest 
+&zsounds...
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 3752
+0 0
+D2
+~
+~
+0 -1 3750
+0 0
+> rand_prog 20~
+mpecho _dch A frog croaks somewhere out on the moat...
+~
+> rand_prog 20~
+mpecho _dch A fish jumps, the splash echoing eerily...
+~
+|
+S
+#3752
+&cA &cM&zisty &cD&zraw &cB&zridge~
+&cT&zhe portcullis of an ancient dark stoned fortress stands 
+&zopen here. &cT&zhe fortress looks very gloomy, though there 
+&zdoes seem to be activity... &cT&zhrough the archway of the 
+&zbarbican ahead, dark shapes can be seen moving through the mist. 
+&cA &RSIGN &zhas been nailed to the wall next to the portcullis.
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 3754
+0 0
+D2
+~
+~
+0 -1 3751
+0 0
+D3
+~
+~
+0 -1 3753
+0 0
+E
+sign~
+&RWARNING:
+&cT&zhis area is meant for levels 20 and up. &cI&zf you are lower than level
+&z20, it is advised that you do not go past this point.
+~
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3753
+&cT&zhe &cB&zarbican~
+&cI&znside the barbican is no better than outside. &cT&zhe mist 
+&zcoming off of the moat drifts eerily through here, and further 
+&zon into the fortress courtyard.
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 3752
+0 0
+D6
+~
+~
+16777216 -1 3756
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3754
+&cT&zhe &cB&zarbican~
+&cI&znside the barbican is no better than outside. &cT&zhe mist 
+&zcoming off of the moat drifts eerily through here, and further 
+&zon into the fortress courtyard.
+~
+0&2
+0 14
+0
+0
+D3
+~
+~
+0 -1 3752
+0 0
+D7
+~
+~
+16777216 -1 3756
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3755
+&cT&zhe &cF&zortress &cC&zourtyard~
+&cT&zhis is the southwest corner of the fortress' courtyard, and 
+&zseems to be one of the strongest parts of the wall. &cW&zith 
+&zthe barbican to the south, the wall here seems to have 
+&zwithstood the ages better than the rest of it.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 3758
+0 0
+D1
+~
+~
+0 -1 3756
+0 0
+D6
+~
+~
+0 -1 3759
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3756
+&cT&zhe &cF&zortress &cC&zourtyard~
+&cT&zhe fortress courtyard stretches to the north from this 
+&zpoint. &cO&zvergrown weeds, cracked stones, discarded equipment, 
+&zand even some bones litter the place...
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 3759
+0 0
+D1
+~
+~
+0 -1 3757
+0 0
+D3
+~
+~
+0 -1 3755
+0 0
+D6
+~
+~
+0 -1 3760
+0 0
+D7
+~
+~
+0 -1 3758
+0 0
+D8
+~
+~
+16777216 -1 3754
+0 0
+D9
+~
+~
+16777216 -1 3753
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3757
+&cT&zhe &cF&zortress &cC&zourtyard~
+&cT&zhis is the southeast corner of the fortress' courtyard, and 
+&zseems to be one of the strongest parts of the wall. &cW&zith the 
+&zbarbican to the south, the wall here seems to have withstood the 
+&zages better than the rest of it.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 3760
+0 0
+D3
+~
+~
+0 -1 3756
+0 0
+D7
+~
+~
+0 -1 3759
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3758
+&cT&zhe &cF&zortress &cC&zourtyard~
+&cT&zhis section of wall seems to get progressively worse 
+&ztowards the north, where it seems to be overgrown by huge 
+&zweeds. &cJ&zust here though, the wall seems relatively stable.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 3761
+0 0
+D1
+~
+~
+0 -1 3759
+0 0
+D2
+~
+~
+0 -1 3755
+0 0
+D6
+~
+~
+0 -1 3762
+0 0
+D8
+~
+~
+0 -1 3756
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3759
+&cT&zhe &cF&zortress &cC&zourtyard~
+&cT&zhis is the center of the fortress' courtyard. &cI&zn all 
+&zdirections are the signs that this place has been deserted, 
+&zyet there are also things that suggest otherwise.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 3762
+0 0
+D1
+~
+~
+0 -1 3760
+0 0
+D2
+~
+~
+0 -1 3756
+0 0
+D3
+~
+~
+0 -1 3758
+0 0
+D6
+~
+~
+0 -1 3763
+0 0
+D7
+~
+~
+0 -1 3761
+0 0
+D8
+~
+~
+0 -1 3757
+0 0
+D9
+~
+~
+0 -1 3755
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3760
+&cT&zhe &cF&zortress &cC&zourtyard~
+&cS&zomething very large seems to have nearly destroyed this 
+&zsection of wall... &cA &zhole about 10 feet wide, and as high as 
+&zthe top of the wall gapes out onto the moat.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 3763
+0 0
+D2
+~
+~
+0 -1 3757
+0 0
+D3
+~
+~
+0 -1 3759
+0 0
+D7
+~
+~
+0 -1 3762
+0 0
+D9
+~
+~
+0 -1 3756
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3761
+&cT&zhe &cF&zortress &cC&zourtyard~
+&cT&zhis corner of the courtyard has been totally taken over by 
+&zhuge weeds. &cT&zhe giant plants have crown up over the walls 
+&zfrom the moat and threaten to collapse the wall.
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 3762
+0 0
+D2
+~
+~
+0 -1 3758
+0 0
+D8
+~
+~
+0 -1 3759
+0 0
+> rand_prog 20~
+mpechoat $r _ora The crumbling wall seems to give way a little more,
+mpechoat $r _ora raining large chunks of masonry onto you!
+mpechoaround $r _ora The crumbling wall seems to give way a little more,
+mpechoaround $r _ora raining large rocks onto $r!
+mpdamage $r 50
+if rand(30)
+mpoload 3305
+endif
+~
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3762
+&cT&zhe &cF&zortress &cC&zourtyard~
+&cT&zo the north stands the fortress keep, while to the south
+&zlie the courtyard and the barbican. &cS&zome funny noises
+&zseem to be drifting from the north to echo oddly about here.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+16777216 -1 3765
+0 0
+D1
+~
+~
+0 -1 3763
+0 0
+D2
+~
+~
+0 -1 3759
+0 0
+D3
+~
+~
+0 -1 3761
+0 0
+D8
+~
+~
+0 -1 3760
+0 0
+D9
+~
+~
+0 -1 3758
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3763
+&cT&zhe &cF&zortress &cC&zourtyard~
+&cA&zn odd contrast to the rest of the wall in this part of the 
+&zcourtyard, not even the slightest blemish seems to have marred 
+&zthe dark stones here.
+~
+0&2
+0 14
+0
+0
+D2
+~
+~
+0 -1 3760
+0 0
+D3
+~
+~
+0 -1 3762
+0 0
+D9
+~
+~
+0 -1 3759
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3764
+&cO&zuter &cK&zeep &cG&zrounds~
+&cT&zhe guards path runs in a well-worn circle
+&zaround the fortress' keep. &cE&zven though there are signs of
+&zvery recent use of the path, there is no sign of guards...
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 3765
+0 0
+D7
+~
+~
+0 -1 3767
+0 0
+> entry_prog 100~
+if rand(35)
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+endif
+~
+|
+S
+#3765
+&cO&zuter &cK&zeep &cG&zrounds~
+&cA &zguard's path that circles the fortess' keep starts here. 
+&cT&zhe keep &zis to the north, while the courtyard is to the 
+south. &cT&zhe path &zseems to get heavy use... 
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+16777216 -1 3774
+0 0
+D1
+~
+~
+0 -1 3766
+0 0
+D2
+~
+~
+16777216 -1 3762
+0 0
+D3
+~
+~
+0 -1 3764
+0 0
+> entry_prog 100~
+if rand(35)
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+endif
+~
+|
+S
+#3766
+&cO&zuter &cK&zeep &cG&zrounds~
+&cT&zhe guards path runs in a well-worn circle
+&zaround the fortress' keep. &cE&zven though there are signs of
+&zvery recent use of the path, there is no sign of guards...
+~
+0&2
+0 14
+0
+0
+D3
+~
+~
+0 -1 3765
+0 0
+D6
+~
+~
+0 -1 3768
+0 0
+> entry_prog 100~
+if rand(35)
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+endif
+~
+|
+S
+#3767
+&cO&zuter &cK&zeep &cG&zrounds~
+&cT&zhe guards path runs in a well-worn circle
+&zaround the fortress' keep. &cE&zven though there are signs of
+&zvery recent use of the path, there is no sign of guards...
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 3769
+0 0
+D8
+~
+~
+0 -1 3764
+0 0
+> entry_prog 100~
+if rand(35)
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+endif
+~
+|
+S
+#3768
+&cO&zuter &cK&zeep &cG&zrounds~
+&cT&zhe guards path runs in a well-worn circle
+&zaround the fortress' keep. &cE&zven though there are signs of
+&zvery recent use of the path, there is no sign of guards...
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 3770
+0 0
+D9
+~
+~
+0 -1 3766
+0 0
+> entry_prog 100~
+if rand(35)
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+endif
+~
+|
+S
+#3769
+&cO&zuter &cK&zeep &cG&zrounds~
+&cT&zhe guards path runs in a well-worn circle
+&zaround the fortress' keep. &cE&zven though there are signs of
+&zvery recent use of the path, there is no sign of guards...
+~
+0&2
+0 14
+0
+0
+D2
+~
+~
+0 -1 3767
+0 0
+D6
+~
+~
+0 -1 3771
+0 0
+> entry_prog 100~
+if rand(35)
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+endif
+~
+|
+S
+#3770
+&cO&zuter &cK&zeep &cG&zrounds~
+&cT&zhe guards path runs in a well-worn circle
+&zaround the fortress' keep. &cE&zven though there are signs of
+&zvery recent use of the path, there is no sign of guards...
+&w&zAlso, a very strange looking rock formation catches your
+&w&zeye.
+~
+0&2
+0 14
+0
+0
+D2
+~
+~
+0 -1 3768
+0 0
+D5
+~
+latch~
+8391721 3798 3787
+0 0
+D7
+~
+~
+0 -1 3773
+0 0
+E
+rock formation~
+Looking closely at the rocks, you notice they seem to be hiding some
+sort of latch.  It appears to be locked though.
+~
+> entry_prog 100~
+if rand(35)
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+endif
+~
+|
+S
+#3771
+&cO&zuter &cK&zeep &cG&zrounds~
+&cT&zhe guards path runs in a well-worn circle
+&zaround the fortress' keep. &cE&zven though there are signs of
+&zvery recent use of the path, there is no sign of guards...
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 3772
+0 0
+D9
+~
+~
+0 -1 3769
+0 0
+> entry_prog 100~
+if rand(35)
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+endif
+~
+|
+S
+#3772
+&cO&zuter &cK&zeep &cG&zrounds~
+&cT&zhe guards path runs in a well-worn circle
+&zaround the fortress' keep. &cE&zven though there are signs of
+&zvery recent use of the path, there is no sign of guards...
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 3773
+0 0
+D3
+~
+~
+0 -1 3771
+0 0
+> entry_prog 100~
+if rand(35)
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+endif
+~
+|
+S
+#3773
+&cO&zuter &cK&zeep &cG&zrounds~
+&cT&zhe guards path runs in a well-worn circle
+&zaround the fortress' keep. &cE&zven though there are signs of
+&zvery recent use of the path, there is no sign of guards...
+~
+0&2
+0 14
+0
+0
+D3
+~
+~
+0 -1 3772
+0 0
+D8
+~
+~
+0 -1 3770
+0 0
+> entry_prog 100~
+if rand(35)
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+endif
+~
+|
+S
+#3774
+&cO&zutside &cT&zhe &cK&zeep~
+&cT&zhe entrance to the fortress' keep stands open here. &cA 
+&zguard path &zsurrounds the tower in all directions, but no 
+guards can be seen. &cT&zhe sounds of movement can, however, be 
+heard coming from the keep. &cA &zsign hangs near the entrance 
+to the keep. 
+~
+0&2
+0 14
+0
+0
+D2
+~
+~
+16777216 -1 3765
+0 0
+D10
+~
+tower~
+17434624 -1 3775
+0 0
+E
+sign~
+&cENTER &zto enter the keep ;P
+~
+S
+#3775
+&cI&znside &cT&zhe &cK&zeep~
+&cT&zhe fortress' keep is a gloomy affair, although it is lit by 
+wall &zsconces. &cT&zhere don't seem to be any windows on this 
+floor, and the &zonly way out seems to be back through the door. 
+(Type leave to get out)
+~
+4&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 3777
+0 0
+D1
+~
+~
+0 -1 3776
+0 0
+D10
+~
+tower~
+17565696 -1 3774
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3776
+&cI&znside &cT&zhe &cK&zeep~
+&cN&zot much here except darkstone walls and a wall sconce that 
+has a &zflickering light in it. &cT&zo the north a stairwell can 
+be seen. 
+~
+8&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 3778
+0 0
+D3
+~
+~
+0 -1 3775
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3777
+&cI&znside &cT&zhe &cK&zeep~
+&cN&zot much here except darkstone walls and a wall sconce that 
+has a &zflickering light in it. &cT&zo the east a stairwell can 
+be seen. 
+~
+8&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 3778
+0 0
+D2
+~
+~
+0 -1 3775
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3778
+&cI&znside &cT&zhe &cK&zeep~
+&cA &zstairwell that ascends to an upper floor is the only thing 
+that &zdistinguishes this part of the floor from any other... 
+the same wall &zsconce and darkstone bricks comprise the entire 
+tower. 
+~
+8&2
+0 0
+0
+0
+D2
+~
+~
+0 -1 3776
+0 0
+D3
+~
+~
+0 -1 3777
+0 0
+D4
+~
+~
+0 -1 3782
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3779
+&cI&znside &cT&zhe &cK&zeep~
+&cA&zrcher windows line the walls on this floor, letting in what 
+&zlittle daylight can filter in from outside. &cA &zwall sconce 
+&zholds a tiny flickering spark that illuminates almost nothing.
+~
+8&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 3781
+0 0
+D1
+~
+~
+0 -1 3780
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3780
+&cI&znside &cT&zhe &cK&zeep~
+&cA&zrcher windows line the walls on this floor, letting in what 
+&zlittle daylight can filter in from outside. &cA &zwall sconce 
+&zholds a tiny flickering spark that illuminates almost nothing.
+~
+8&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 3782
+0 0
+D3
+~
+~
+0 -1 3779
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3781
+&cI&znside &cT&zhe &cK&zeep~
+&cA&zrcher windows line the walls on this floor, letting in what 
+little &zdaylight can filter in from outside. &cA &zwall sconce 
+holds a tiny &zflickering spark that illuminates almost nothing. 
+&cF&zrom this point a stairwell ascends to the third floor. 
+~
+8&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 3782
+0 0
+D2
+~
+~
+0 -1 3779
+0 0
+D4
+~
+~
+0 -1 3785
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3782
+&cI&znside &cT&zhe &cK&zeep~
+&cA &zstairwell that descends to the ground floor is the only 
+thing &zthat distinguishes this part of the floor from any 
+other... &zthe same wall sconce and darkstone bricks comprise 
+the entire tower. 
+~
+8&2
+0 0
+0
+0
+D2
+~
+~
+0 -1 3780
+0 0
+D3
+~
+~
+0 -1 3781
+0 0
+D5
+~
+~
+0 -1 3778
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3783
+&cI&znside &cT&zhe &cK&zeep~
+&cA&zrcher windows line the walls on this floor, letting in what 
+&zlittle daylight can filter in from outside. &cA &zwall sconce 
+&zholds a tiny flickering spark that illuminates almost nothing.
+~
+8&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 3785
+0 0
+D1
+~
+~
+0 -1 3784
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3784
+&cI&znside &cT&zhe &cK&zeep~
+&cA&zrcher windows line the walls on this floor, letting in what 
+&zlittle daylight can filter in from outside. &cA &zwall sconce 
+&zholds a tiny flickering spark that illuminates almost nothing.
+~
+8&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 3786
+0 0
+D3
+~
+~
+0 -1 3783
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3785
+&cI&znside &cT&zhe &cK&zeep~
+&cA&zrcher windows line the walls on this floor, letting in what 
+&zlittle daylight can filter in from outside. &cA &zwall sconce 
+&zholds a tiny flickering spark that illuminates almost nothing.
+&cF&zrom a hole in the floor a stairwell ascends.
+~
+8&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 3786
+0 0
+D2
+~
+~
+0 -1 3783
+0 0
+D5
+~
+~
+0 -1 3781
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3786
+&cI&znside &cT&zhe &cK&zeep~
+&cA&zrcher windows line the walls on this floor, letting in what 
+&zlittle daylight can filter in from outside. &cA &zwall sconce 
+&zholds a tiny flickering spark that illuminates almost nothing.
+~
+8&2
+0 0
+0
+0
+D2
+~
+~
+0 -1 3784
+0 0
+D3
+~
+~
+0 -1 3785
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3787
+&cD&zank &cC&zaves~
+&cA &zdank, gloomy cavern complex spreads out underneath the
+fortress, &zand beyond this point, there is not much to see. 
+&cF&zrom above, the flicker of fire-born light filters down,
+but does not pierce much of &zthe darkness down here... 
+~
+8&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 3788
+0 0
+D2
+~
+~
+0 -1 3791
+0 0
+D4
+~
+~
+16777216 -1 3770
+0 0
+D8
+~
+~
+0 -1 3792
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3788
+&cD&zank &cC&zaves~
+&cT&zhe gloom in this part of the caves is almost complete. 
+&cT&zhe barely &zvisible light from a candle to the west sheds 
+just enough light to make &zthe caves navicable. 
+~
+8&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 3792
+0 0
+D3
+~
+~
+0 -1 3787
+0 0
+D8
+~
+~
+0 -1 3793
+0 0
+D9
+~
+~
+0 -1 3791
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3789
+&cD&zank &cC&zaves~
+&cI&zt is so dark here that the only discernable feature of the 
+&zcaves are exits...
+~
+9&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 3790
+0 0
+D8
+~
+~
+0 -1 3794
+0 0
+D9
+~
+~
+0 -1 3793
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3790
+&cD&zank &cC&zaves~
+&cI&zt is so dark here that the only discernable feature of the 
+&zcaves are exits...
+~
+9&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 3794
+0 0
+D3
+~
+~
+0 -1 3789
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3791
+&cD&zank &cC&zaves~
+&cT&zhe gloom in this part of the caves is almost complete. 
+&cT&zhe barely visible light from a candle to the north sheds 
+&zjust enough light to make the caves navicable. 
+~
+8&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 3787
+0 0
+D1
+~
+~
+0 -1 3792
+0 0
+D6
+~
+~
+0 -1 3788
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3792
+&cD&zank &cC&zaves~
+&cT&zhe gloom in this part of the caves is almost complete. 
+&cT&zhe barely visible light from a candle to the northwest 
+sheds &zjust enough light to make the caves navicable. 
+~
+9&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 3788
+0 0
+D1
+~
+~
+0 -1 3793
+0 0
+D2
+~
+~
+0 -1 3795
+0 0
+D3
+~
+~
+0 -1 3791
+0 0
+D7
+~
+~
+0 -1 3787
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3793
+&cD&zank &cC&zaves~
+&cI&zt is so dark here that the only discernable feature of the 
+caves &zare exits... 
+~
+9&2
+0 13
+0
+0
+D3
+~
+~
+0 -1 3792
+0 0
+D6
+~
+~
+0 -1 3789
+0 0
+D7
+~
+~
+0 -1 3788
+0 0
+D9
+~
+~
+0 -1 3795
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3794
+&cD&zank &cC&zaves~
+&cI&zt is so dark here that the only discernable feature of the 
+&zcaves are exits...
+~
+9&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 3790
+0 0
+D7
+~
+~
+0 -1 3789
+0 0
+D9
+~
+~
+0 -1 3796
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3795
+&cD&zank &cC&zaves~
+&cI&zt is so dark here that the only discernable feature of the 
+&zcaves are exits...
+~
+9&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 3792
+0 0
+D2
+~
+~
+0 -1 3798
+0 0
+D6
+~
+~
+0 -1 3793
+0 0
+D8
+~
+~
+0 -1 3799
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3796
+&cD&zank &cC&zaves~
+&cJ&zust like the rest of the cave complex, this section is very
+dark &zand has the same, steady drip, drip, drip of water 
+echoing around. &cT&zhere is, however, one difference from the 
+rest: there is a long &zcrack in the easter wall that a person 
+&zused to be able to squeeze through... but due to a cave in, that is
+&znow impossible.
+~
+9&2
+0 13
+0
+0
+D6
+~
+~
+0 -1 3794
+0 0
+D9
+~
+~
+0 -1 3799
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3797
+&cD&zank &cC&zaves~
+&cW&zith the exception of two faintly glowing slabs of 
+darkstone, the &zdarkness here is absolutely complete... 
+~
+3145741
+0 13
+0
+0
+S
+#3798
+&cD&zank &cC&zaves~
+&cI&zt is so dark here that the only discernable feature of the 
+&zcaves are exits...
+~
+9&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 3795
+0 0
+D1
+~
+~
+0 -1 3799
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#3799
+&cD&zank &cC&zaves~
+&cI&zt is so dark here that the only discernable feature of the 
+&zcaves are exits...
+~
+9&2
+0 13
+0
+0
+D3
+~
+~
+0 -1 3798
+0 0
+D6
+~
+~
+0 -1 3796
+0 0
+D7
+~
+~
+0 -1 3795
+0 0
+> entry_prog 35~
+if ispc($n)
+mpmload 3752
+mpecho _cha A huge golem erupts from the ground in front of you!
+endif
+~
+|
+S
+#0
+
+
+#RESETS
+O 1 3750 1 3777 -1 -1 -1 -1 0 0
+O 1 3750 1 3778 -1 -1 -1 -1 0 0
+O 1 3750 1 3780 -1 -1 -1 -1 0 0
+O 1 3750 1 3781 -1 -1 -1 -1 0 0
+O 1 3750 1 3783 -1 -1 -1 -1 0 0
+O 1 3750 1 3786 -1 -1 -1 -1 0 0
+O 1 3755 1 3752 -1 -1 -1 -1 0 0
+O 1 3758 1 3759 -1 -1 -1 -1 0 0
+M 1 3756 1 3764 -1 -1 -1 0 0
+M 1 3756 1 3769 -1 -1 -1 0 0
+M 1 3756 1 3768 -1 -1 -1 0 0
+M 1 3756 1 3774 -1 -1 -1 0 0
+O 1 3799 1 3775 -1 -1 -1 -1 0 0
+D 0 3770 5 2
+M 1 3758 1 3784 -1 -1 -1 0 0
+E 1 3763 1 9 -1 0 0
+G 1 3798 1 0 -1 0 0
+O 1 3750 1 3784 -1 -1 -1 -1 0 0
+M 1 3754 1 3754 -1 -1 -1 0 0
+E 1 3756 1 13 -1 0 0
+O 1 3756 1 3754 -1 -1 -1 -1 0 0
+M 1 3754 1 3753 -1 -1 -1 0 0
+E 1 3756 1 13 -1 0 0
+M 1 3753 1 3785 -1 -1 -1 0 0
+E 1 3757 1 13 -1 0 0
+O 1 3750 1 3785 -1 -1 -1 -1 0 0
+M 1 3753 1 3782 -1 -1 -1 0 0
+E 1 3757 1 13 -1 0 0
+O 1 3750 1 3782 -1 -1 -1 -1 0 0
+M 1 3753 1 3779 -1 -1 -1 0 0
+E 1 3757 1 13 -1 0 0
+O 1 3750 1 3779 -1 -1 -1 -1 0 0
+M 1 3753 1 3776 -1 -1 -1 0 0
+E 1 3757 1 13 -1 0 0
+O 1 3750 1 3776 -1 -1 -1 -1 0 0
+M 1 3750 1 3757 -1 -1 -1 0 0
+E 1 3759 1 4 -1 0 0
+M 1 3750 1 3758 -1 -1 -1 0 0
+E 1 3759 1 4 -1 0 0
+M 1 3750 1 3762 -1 -1 -1 0 0
+E 1 3759 1 4 -1 0 0
+M 1 3750 1 3763 -1 -1 -1 0 0
+E 1 3759 1 4 -1 0 0
+M 1 3755 1 3792 -1 -1 -1 0 0
+E 1 3762 1 3 -1 0 0
+M 1 3755 1 3789 -1 -1 -1 0 0
+E 1 3762 1 3 -1 0 0
+M 1 3751 1 3761 -1 -1 -1 0 0
+E 1 3760 1 12 -1 0 0
+O 1 3751 1 3761 -1 -1 -1 -1 0 0
+M 1 3757 1 3765 -1 -1 -1 0 0
+E 1 3753 1 7 -1 0 0
+M 1 3757 1 3756 -1 -1 -1 0 0
+E 1 3753 1 7 -1 0 0
+M 1 3757 1 3755 -1 -1 -1 0 0
+E 1 3753 1 7 -1 0 0
+M 1 3799 1 3796 -1 -1 -1 1111638019 43200
+E 1 3752 1 3 -1 0 0
+E 1 3754 1 6 -1 0 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  3753 spec_cast_mage
+M  3757 spec_thief
+S
+
+
+#$

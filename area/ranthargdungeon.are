@@ -1,0 +1,1666 @@
+#AREA   rantharg dungeon~
+
+
+
+#VERSION 48
+#AUTHOR Xerves~
+
+#RANGES
+0 7 0 7 -1 0 0 0 0
+$
+
+#FLAGS
+0 30
+
+#ECONOMY 0 0 0
+
+#MOBILES
+#200000
+a fledgling sprite~
+a fledgling sprite~
+a fledgling sprite is here and likes the SMELL OF DEATH!
+~
+~
+131105 0 4194816 0 C
+0 0 3 4 4 3
+1d9+20 1d2+1 1000
+0 0
+112 112 0
+14 10 15 13 13 13 14 38
+0 0 0 0 0
+85 0 0 0 0 0 38
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+#200001
+a young hobgoblin~
+a young hobgoblin~
+a young hobgoblin has a taste for DEATH today
+~
+~
+131105 0 512 0 C
+0 0 4 5 5 3
+1d7+19 1d2+1 1000
+0 0
+112 112 0
+14 10 15 11 13 13 12 38
+0 0 0 0 0
+43 0 0 0 0 0 38
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+#200002
+a large snake~
+a large snake~
+a large snake is here looking for a fight.
+~
+~
+131105 0 512 0 C
+0 0 2 3 1 2
+1d5+12 1d2+1 1000
+0 0
+112 112 0
+11 10 11 15 13 13 12 37
+0 0 0 0 0
+62 0 0 0 0 0 37
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+#200020
+Rivera~
+Rivera~
+Rivera is here looking for lunch
+~
+~
+131105 0 4194816 0 C
+0 0 4 7 5 5
+1d25+54 1d2+2 1000
+1962 0
+112 112 0
+16 13 14 14 13 13 13 40
+0 0 0 0 0
+1 0 0 0 0 0 40
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 2
+#0
+
+
+#OBJECTS
+#200000
+Copper Dwarven Tower Shield~
+&w&CA Copper Dwarven Tower Shield&w~
+Someone has left their Copper Dwarven Tower Shield here~
+~
+9 0&8192&32 129
+350 350 55 5
+28.799999 12000 0 0 0
+A
+4 1
+#200001
+Bronze Elven Ring Greave~
+A Bronze Elven Ring Greave~
+Someone has left their Bronze Elven Ring Greave here!~
+~
+9 0&8192 33
+7 7 7 1000 7 3 0 0 0 0 0 0 0 0
+13.089999 8000 0 0 0
+#200002
+Bronze Elven Ring Greave~
+A Bronze Elven Ring Greave~
+Someone has left their Bronze Elven Ring Greave here!~
+~
+9 0&8192 33
+7 7 7 1000 7 3 0 0 0 0 0 0 0 0
+13.089999 8000 0 0 0
+#200003
+Bronze Elven Ring Gauntlet~
+A Bronze Elven Ring Gauntlet~
+Someone has left their Bronze Elven Ring Gauntlet here!~
+~
+9 0&8192 65
+7 7 7 1000 7 3 0 0 0 0 0 0 0 0
+11.220000 7000 0 0 0
+#200004
+Bronze Elven Ring Gauntlet~
+A Bronze Elven Ring Gauntlet~
+Someone has left their Bronze Elven Ring Gauntlet here!~
+~
+9 0&8192 65
+7 7 7 1000 7 3 0 0 0 0 0 0 0 0
+11.220000 7000 0 0 0
+#200005
+Bronze Elven Chain Hauberk~
+Some Bronze Elven Chain Hauberk~
+Someone has left their Bronze Elven Chain Hauberk here!~
+~
+9 0&8192 9
+6 5 5 1000 5 2 0 0 0 0 0 0 0 0
+14.960000 15000 0 0 0
+#200006
+Bronze Elven Coif~
+Some Bronze Elven Coif~
+Someone has left their Bronze Elven Coif here!~
+~
+9 0&8192 5
+8 8 8 1000 8 3 0 0 0 0 0 0 0 0
+7.480000 2400 0 0 0
+#200007
+steel repair hammer~
+steel repair hammer~
+steel repair hammer is here growing old.~
+~
+70 0 1
+10 10 35 35
+5.000000 2200 0 0 0
+#200008
+coins gold~
+248 gold coins~
+A pile of gold coins.~
+~
+20 0 1
+248 0 0 0
+1.000000 248 0 3 0
+#200049
+sign~
+a sign~
+A sign with big bold letters, perhaps you should read it!~
+~
+8 0 0
+0 0 0 0
+100.000000 1 0 0 0
+E
+sign~
+This is static generated example of the quest system.  Rafermand uses
+both hand-made areas along with static areas created by the quest
+system.  These areas are considered to be very dangerious since all
+creatures are aggressive.  On the other side, there is a Captain in this
+area with some nice loot if you choose to challenge her.  You have been
+warned of the danger, proceed if you wish or use the "leave" command
+to climb back up.
+
+--Management
+~
+#0
+
+
+#ROOMS
+#200000
+Rantharg Dungeon~
+You have found yourself even deeper under Rantharg.  The air
+is cold and stale leaving a very undesired foul smell.  If the
+smell doesn't warn you, the dead bodies in this room should.  You
+have entered a very unsafe area, proceed with caution.
+If you so choose to flee, type the "leave" command to leave.
+~
+1073741828&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 200016
+0 0
+D1
+~
+~
+0 -1 21414
+0 0
+D3
+~
+~
+0 -1 200001
+0 0
+D7
+~
+~
+0 -1 200002
+0 0
+D10
+~
+~
+264200 -1 21414
+0 0
+S
+#200001
+A path into darkness.~
+The path quickly starts to turn very dark here for
+really no good reason.  Light almost seems to be eaten
+at this point.  Whatever is down this path does
+not want to be seen by anyone.
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200002
+0 0
+D1
+~
+~
+0 -1 200000
+0 0
+D3
+~
+~
+0 -1 200032
+0 0
+D6
+~
+~
+0 -1 200016
+0 0
+D7
+~
+~
+0 -1 200012
+0 0
+D9
+~
+~
+0 -1 200033
+0 0
+S
+#200002
+A strange light from above.~
+A small bit of light shines in from above.  The light offers
+a small amount of relaxation in a normally horid situation, but
+whenever there is calm there is always a
+nasty storm to follow, better be prepared
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200003
+0 0
+D1
+~
+~
+0 -1 200016
+0 0
+D2
+~
+~
+0 -1 200001
+0 0
+D3
+~
+~
+0 -1 200012
+0 0
+D8
+~
+~
+0 -1 200000
+0 0
+D9
+~
+~
+0 -1 200032
+0 0
+S
+#200003
+The sounds of battle can be hard nearby.~
+The grunting of the enemy echoes loudly here.  Just a short
+distance the enemy is preparing to delivery you the bloody death that
+the vacation guide mentioned before arriving here.
+Might be a good time to get ready for battle.
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200004
+0 0
+D2
+~
+~
+0 -1 200002
+0 0
+D8
+~
+~
+0 -1 200016
+0 0
+D9
+~
+~
+0 -1 200012
+0 0
+S
+#200004
+The sounds of battle can be hard nearby.~
+The grunting of the enemy echoes loudly here.  Just a short
+distance the enemy is preparing to delivery you the bloody death that
+the vacation guide mentioned before arriving here.
+Might be a good time to get ready for battle.
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200005
+0 0
+D2
+~
+~
+0 -1 200003
+0 0
+S
+#200005
+A small path that winds into oblivion.~
+This room just oozes with bad intentions.  Evil seems to
+pulsating from every direction and death is the only thing
+certain in all of those directions.  Now would
+be a good time to prey to whatever you beleive in.
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200006
+0 0
+D2
+~
+~
+0 -1 200004
+0 0
+D7
+~
+~
+0 -1 200025
+0 0
+S
+#200006
+A path full of blood.~
+Blood seems to pour out of the ground here.  All around
+blood just drips from every corner and wall.  It almost
+even looks like it is a slive in the way it is
+moving.  Might be a good idea to start moving again.
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200007
+0 0
+D2
+~
+~
+0 -1 200005
+0 0
+D3
+~
+~
+0 -1 200025
+0 0
+S
+#200007
+A small path that winds into oblivion.~
+This room just oozes with bad intentions.  Evil seems to
+pulsating from every direction and death is the only thing
+certain in all of those directions.  Now would
+be a good time to prey to whatever you beleive in.
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200008
+0 0
+D2
+~
+~
+0 -1 200006
+0 0
+D7
+~
+~
+0 -1 200023
+0 0
+D9
+~
+~
+0 -1 200025
+0 0
+S
+#200008
+A strange light from above.~
+A small bit of light shines in from above.  The light offers
+a small amount of relaxation in a normally horid situation, but
+whenever there is calm there is always a
+nasty storm to follow, better be prepared
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200009
+0 0
+D2
+~
+~
+0 -1 200007
+0 0
+D3
+~
+~
+0 -1 200023
+0 0
+S
+#200009
+The sounds of battle can be hard nearby.~
+The grunting of the enemy echoes loudly here.  Just a short
+distance the enemy is preparing to delivery you the bloody death that
+the vacation guide mentioned before arriving here.
+Might be a good time to get ready for battle.
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200010
+0 0
+D2
+~
+~
+0 -1 200008
+0 0
+D9
+~
+~
+0 -1 200023
+0 0
+S
+#200010
+A path into darkness.~
+The path quickly starts to turn very dark here for
+really no good reason.  Light almost seems to be eaten
+at this point.  Whatever is down this path does
+not want to be seen by anyone.
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200011
+0 0
+D2
+~
+~
+0 -1 200009
+0 0
+S
+#200011
+The sounds of battle can be hard nearby.~
+The grunting of the enemy echoes loudly here.  Just a short
+distance the enemy is preparing to delivery you the bloody death that
+the vacation guide mentioned before arriving here.
+Might be a good time to get ready for battle.
+~
+1076895745&2
+0 44
+0
+0
+D2
+~
+~
+0 -1 200010
+0 0
+S
+#200012
+A strange light from above.~
+A small bit of light shines in from above.  The light offers
+a small amount of relaxation in a normally horid situation, but
+whenever there is calm there is always a
+nasty storm to follow, better be prepared
+~
+1076895745&2
+0 44
+0
+0
+D1
+~
+~
+0 -1 200002
+0 0
+D2
+~
+~
+0 -1 200032
+0 0
+D6
+~
+~
+0 -1 200003
+0 0
+D7
+~
+~
+0 -1 200013
+0 0
+D8
+~
+~
+0 -1 200001
+0 0
+S
+#200013
+A strange light from above.~
+A small bit of light shines in from above.  The light offers
+a small amount of relaxation in a normally horid situation, but
+whenever there is calm there is always a
+nasty storm to follow, better be prepared
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200027
+0 0
+D7
+~
+~
+0 -1 200014
+0 0
+D8
+~
+~
+0 -1 200012
+0 0
+S
+#200014
+The sounds of battle can be hard nearby.~
+The grunting of the enemy echoes loudly here.  Just a short
+distance the enemy is preparing to delivery you the bloody death that
+the vacation guide mentioned before arriving here.
+Might be a good time to get ready for battle.
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200028
+0 0
+D1
+~
+~
+0 -1 200027
+0 0
+D6
+~
+~
+0 -1 200026
+0 0
+D7
+~
+~
+0 -1 200015
+0 0
+D8
+~
+~
+0 -1 200013
+0 0
+S
+#200015
+A path into darkness.~
+The path quickly starts to turn very dark here for
+really no good reason.  Light almost seems to be eaten
+at this point.  Whatever is down this path does
+not want to be seen by anyone.
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200029
+0 0
+D1
+~
+~
+0 -1 200028
+0 0
+D8
+~
+~
+0 -1 200014
+0 0
+S
+#200016
+A strange light from above.~
+A small bit of light shines in from above.  The light offers
+a small amount of relaxation in a normally horid situation, but
+whenever there is calm there is always a
+nasty storm to follow, better be prepared
+~
+1076895745&2
+0 44
+0
+0
+D2
+~
+~
+0 -1 200000
+0 0
+D3
+~
+~
+0 -1 200002
+0 0
+D7
+~
+~
+0 -1 200003
+0 0
+D8
+~
+~
+0 -1 200017
+0 0
+D9
+~
+~
+0 -1 200001
+0 0
+S
+#200017
+The sounds of battle can be hard nearby.~
+The grunting of the enemy echoes loudly here.  Just a short
+distance the enemy is preparing to delivery you the bloody death that
+the vacation guide mentioned before arriving here.
+Might be a good time to get ready for battle.
+~
+1076895745&2
+0 44
+0
+0
+D3
+~
+~
+0 -1 200000
+0 0
+D7
+~
+~
+0 -1 200016
+0 0
+D8
+~
+~
+0 -1 200018
+0 0
+S
+#200018
+A path full of blood.~
+Blood seems to pour out of the ground here.  All around
+blood just drips from every corner and wall.  It almost
+even looks like it is a slive in the way it is
+moving.  Might be a good idea to start moving again.
+~
+1076895745&2
+0 44
+0
+0
+D2
+~
+~
+0 -1 200035
+0 0
+D7
+~
+~
+0 -1 200017
+0 0
+D8
+~
+~
+0 -1 200019
+0 0
+S
+#200019
+A strange light from above.~
+A small bit of light shines in from above.  The light offers
+a small amount of relaxation in a normally horid situation, but
+whenever there is calm there is always a
+nasty storm to follow, better be prepared
+~
+1076895745&2
+0 44
+0
+0
+D3
+~
+~
+0 -1 200035
+0 0
+D7
+~
+~
+0 -1 200018
+0 0
+D8
+~
+~
+0 -1 200020
+0 0
+D9
+~
+~
+0 -1 200036
+0 0
+S
+#200020
+A strange light from above.~
+A small bit of light shines in from above.  The light offers
+a small amount of relaxation in a normally horid situation, but
+whenever there is calm there is always a
+nasty storm to follow, better be prepared
+~
+1076895745&2
+0 44
+0
+0
+D7
+~
+~
+0 -1 200019
+0 0
+D8
+~
+~
+0 -1 200021
+0 0
+S
+#200021
+A little bit of water sprinkles down the path.~
+A small bit of water runs down the path here.  A small amount
+of grass can be seen growing in this area, but not enough to really
+have any affect.  It is nice to stand around
+and look at the water and dream, but it is better to live.
+~
+1076895745&2
+0 44
+0
+0
+D7
+~
+~
+0 -1 200020
+0 0
+D8
+~
+~
+0 -1 200022
+0 0
+S
+#200022
+A small path that winds into oblivion.~
+This room just oozes with bad intentions.  Evil seems to
+pulsating from every direction and death is the only thing
+certain in all of those directions.  Now would
+be a good time to prey to whatever you beleive in.
+~
+1076895745&2
+0 44
+0
+0
+D7
+~
+~
+0 -1 200021
+0 0
+S
+#200023
+A small path that winds into oblivion.~
+This room just oozes with bad intentions.  Evil seems to
+pulsating from every direction and death is the only thing
+certain in all of those directions.  Now would
+be a good time to prey to whatever you beleive in.
+~
+1076895745&2
+0 44
+0
+0
+D1
+~
+~
+0 -1 200008
+0 0
+D6
+~
+~
+0 -1 200009
+0 0
+D8
+~
+~
+0 -1 200007
+0 0
+D9
+~
+~
+0 -1 200024
+0 0
+S
+#200024
+A little bit of water sprinkles down the path.~
+A small bit of water runs down the path here.  A small amount
+of grass can be seen growing in this area, but not enough to really
+have any affect.  It is nice to stand around
+and look at the water and dream, but it is better to live.
+~
+1076895745&2
+0 44
+0
+0
+D6
+~
+~
+0 -1 200023
+0 0
+D8
+~
+~
+0 -1 200025
+0 0
+S
+#200025
+A path full of blood.~
+Blood seems to pour out of the ground here.  All around
+blood just drips from every corner and wall.  It almost
+even looks like it is a slive in the way it is
+moving.  Might be a good idea to start moving again.
+~
+1076895745&2
+0 44
+0
+0
+D1
+~
+~
+0 -1 200006
+0 0
+D6
+~
+~
+0 -1 200007
+0 0
+D7
+~
+~
+0 -1 200024
+0 0
+D8
+~
+~
+0 -1 200005
+0 0
+D9
+~
+~
+0 -1 200026
+0 0
+S
+#200026
+A path full of blood.~
+Blood seems to pour out of the ground here.  All around
+blood just drips from every corner and wall.  It almost
+even looks like it is a slive in the way it is
+moving.  Might be a good idea to start moving again.
+~
+1076895745&2
+0 44
+0
+0
+D2
+~
+~
+0 -1 200027
+0 0
+D3
+~
+~
+0 -1 200028
+0 0
+D6
+~
+~
+0 -1 200025
+0 0
+D9
+~
+~
+0 -1 200014
+0 0
+S
+#200027
+A path into darkness.~
+The path quickly starts to turn very dark here for
+really no good reason.  Light almost seems to be eaten
+at this point.  Whatever is down this path does
+not want to be seen by anyone.
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200026
+0 0
+D2
+~
+~
+0 -1 200013
+0 0
+D3
+~
+~
+0 -1 200014
+0 0
+D7
+~
+~
+0 -1 200028
+0 0
+S
+#200028
+A little bit of water sprinkles down the path.~
+A small bit of water runs down the path here.  A small amount
+of grass can be seen growing in this area, but not enough to really
+have any affect.  It is nice to stand around
+and look at the water and dream, but it is better to live.
+~
+1076895745&2
+0 44
+0
+0
+D1
+~
+~
+0 -1 200026
+0 0
+D2
+~
+~
+0 -1 200014
+0 0
+D3
+~
+~
+0 -1 200015
+0 0
+D7
+~
+~
+0 -1 200029
+0 0
+D8
+~
+~
+0 -1 200027
+0 0
+S
+#200029
+A strange light from above.~
+A small bit of light shines in from above.  The light offers
+a small amount of relaxation in a normally horid situation, but
+whenever there is calm there is always a
+nasty storm to follow, better be prepared
+~
+1076895745&2
+0 44
+0
+0
+D2
+~
+~
+0 -1 200015
+0 0
+D7
+~
+~
+0 -1 200030
+0 0
+D8
+~
+~
+0 -1 200028
+0 0
+S
+#200030
+A strange light from above.~
+A small bit of light shines in from above.  The light offers
+a small amount of relaxation in a normally horid situation, but
+whenever there is calm there is always a
+nasty storm to follow, better be prepared
+~
+1076895745&2
+0 44
+0
+0
+D7
+~
+~
+0 -1 200031
+0 0
+D8
+~
+~
+0 -1 200029
+0 0
+S
+#200031
+The sounds of battle can be hard nearby.~
+The grunting of the enemy echoes loudly here.  Just a short
+distance the enemy is preparing to delivery you the bloody death that
+the vacation guide mentioned before arriving here.
+Might be a good time to get ready for battle.
+~
+1076895745&2
+0 44
+0
+0
+D8
+~
+~
+0 -1 200030
+0 0
+S
+#200032
+The sounds of battle can be hard nearby.~
+The grunting of the enemy echoes loudly here.  Just a short
+distance the enemy is preparing to delivery you the bloody death that
+the vacation guide mentioned before arriving here.
+Might be a good time to get ready for battle.
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200012
+0 0
+D1
+~
+~
+0 -1 200001
+0 0
+D2
+~
+~
+0 -1 200033
+0 0
+D6
+~
+~
+0 -1 200002
+0 0
+S
+#200033
+A path full of blood.~
+Blood seems to pour out of the ground here.  All around
+blood just drips from every corner and wall.  It almost
+even looks like it is a slive in the way it is
+moving.  Might be a good idea to start moving again.
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200032
+0 0
+D2
+~
+~
+0 -1 200034
+0 0
+D6
+~
+~
+0 -1 200001
+0 0
+S
+#200034
+A little bit of water sprinkles down the path.~
+A small bit of water runs down the path here.  A small amount
+of grass can be seen growing in this area, but not enough to really
+have any affect.  It is nice to stand around
+and look at the water and dream, but it is better to live.
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200033
+0 0
+S
+#200035
+A path into darkness.~
+The path quickly starts to turn very dark here for
+really no good reason.  Light almost seems to be eaten
+at this point.  Whatever is down this path does
+not want to be seen by anyone.
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200018
+0 0
+D1
+~
+~
+0 -1 200019
+0 0
+D2
+~
+~
+0 -1 200036
+0 0
+S
+#200036
+A small path that winds into oblivion.~
+This room just oozes with bad intentions.  Evil seems to
+pulsating from every direction and death is the only thing
+certain in all of those directions.  Now would
+be a good time to prey to whatever you beleive in.
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200035
+0 0
+D2
+~
+~
+0 -1 200037
+0 0
+D6
+~
+~
+0 -1 200019
+0 0
+D9
+~
+~
+0 -1 200049
+0 0
+S
+#200037
+A strange light from above.~
+A small bit of light shines in from above.  The light offers
+a small amount of relaxation in a normally horid situation, but
+whenever there is calm there is always a
+nasty storm to follow, better be prepared
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200036
+0 0
+D2
+~
+~
+0 -1 200038
+0 0
+D3
+~
+~
+0 -1 200049
+0 0
+D9
+~
+~
+0 -1 200047
+0 0
+S
+#200038
+A little bit of water sprinkles down the path.~
+A small bit of water runs down the path here.  A small amount
+of grass can be seen growing in this area, but not enough to really
+have any affect.  It is nice to stand around
+and look at the water and dream, but it is better to live.
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200037
+0 0
+D2
+~
+~
+0 -1 200039
+0 0
+D3
+~
+~
+0 -1 200047
+0 0
+D7
+~
+~
+0 -1 200049
+0 0
+S
+#200039
+The sounds of battle can be hard nearby.~
+The grunting of the enemy echoes loudly here.  Just a short
+distance the enemy is preparing to delivery you the bloody death that
+the vacation guide mentioned before arriving here.
+Might be a good time to get ready for battle.
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200038
+0 0
+D7
+~
+~
+0 -1 200047
+0 0
+D9
+~
+~
+0 -1 200040
+0 0
+S
+#200040
+A path into darkness.~
+The path quickly starts to turn very dark here for
+really no good reason.  Light almost seems to be eaten
+at this point.  Whatever is down this path does
+not want to be seen by anyone.
+~
+1076895745&2
+0 44
+0
+0
+D6
+~
+~
+0 -1 200039
+0 0
+D9
+~
+~
+0 -1 200041
+0 0
+S
+#200041
+A strange light from above.~
+A small bit of light shines in from above.  The light offers
+a small amount of relaxation in a normally horid situation, but
+whenever there is calm there is always a
+nasty storm to follow, better be prepared
+~
+1076895745&2
+0 44
+0
+0
+D6
+~
+~
+0 -1 200040
+0 0
+D9
+~
+~
+0 -1 200042
+0 0
+S
+#200042
+A small path that winds into oblivion.~
+This room just oozes with bad intentions.  Evil seems to
+pulsating from every direction and death is the only thing
+certain in all of those directions.  Now would
+be a good time to prey to whatever you beleive in.
+~
+1076895745&2
+0 44
+0
+0
+D6
+~
+~
+0 -1 200041
+0 0
+D9
+~
+~
+0 -1 200043
+0 0
+S
+#200043
+A little bit of water sprinkles down the path.~
+A small bit of water runs down the path here.  A small amount
+of grass can be seen growing in this area, but not enough to really
+have any affect.  It is nice to stand around
+and look at the water and dream, but it is better to live.
+~
+1076895745&2
+0 44
+0
+0
+D3
+~
+~
+0 -1 200045
+0 0
+D6
+~
+~
+0 -1 200042
+0 0
+D7
+~
+~
+0 -1 200046
+0 0
+D9
+~
+~
+0 -1 200044
+0 0
+S
+#200044
+A strange light from above.~
+A small bit of light shines in from above.  The light offers
+a small amount of relaxation in a normally horid situation, but
+whenever there is calm there is always a
+nasty storm to follow, better be prepared
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200045
+0 0
+D6
+~
+~
+0 -1 200043
+0 0
+S
+#200045
+A small path that winds into oblivion.~
+This room just oozes with bad intentions.  Evil seems to
+pulsating from every direction and death is the only thing
+certain in all of those directions.  Now would
+be a good time to prey to whatever you beleive in.
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200046
+0 0
+D1
+~
+~
+0 -1 200043
+0 0
+D2
+~
+~
+0 -1 200044
+0 0
+S
+#200046
+A path full of blood.~
+Blood seems to pour out of the ground here.  All around
+blood just drips from every corner and wall.  It almost
+even looks like it is a slive in the way it is
+moving.  Might be a good idea to start moving again.
+~
+1076895745&2
+0 44
+0
+0
+D2
+~
+~
+0 -1 200045
+0 0
+D8
+~
+~
+0 -1 200043
+0 0
+S
+#200047
+A strange light from above.~
+A small bit of light shines in from above.  The light offers
+a small amount of relaxation in a normally horid situation, but
+whenever there is calm there is always a
+nasty storm to follow, better be prepared
+~
+1076895745&2
+0 44
+0
+0
+D0
+~
+~
+0 -1 200049
+0 0
+D1
+~
+~
+0 -1 200038
+0 0
+D3
+~
+~
+0 -1 200048
+0 0
+D6
+~
+~
+0 -1 200037
+0 0
+D8
+~
+~
+0 -1 200039
+0 0
+S
+#200048
+A strange light from above.~
+A small bit of light shines in from above.  The light offers
+a small amount of relaxation in a normally horid situation, but
+whenever there is calm there is always a
+nasty storm to follow, better be prepared
+~
+1076895745&2
+0 44
+0
+0
+D1
+~
+~
+0 -1 200047
+0 0
+D6
+~
+~
+0 -1 200049
+0 0
+S
+#200049
+The sounds of battle can be hard nearby.~
+The grunting of the enemy echoes loudly here.  Just a short
+distance the enemy is preparing to delivery you the bloody death that
+the vacation guide mentioned before arriving here.
+Might be a good time to get ready for battle.
+~
+1076895745&2
+0 44
+0
+0
+D1
+~
+~
+0 -1 200037
+0 0
+D2
+~
+~
+0 -1 200047
+0 0
+D6
+~
+~
+0 -1 200036
+0 0
+D8
+~
+~
+0 -1 200038
+0 0
+D9
+~
+~
+0 -1 200048
+0 0
+S
+#0
+
+
+#RESETS
+M 1 200000 1 200002 -1 -1 -1 0 0
+M 1 200000 2 200003 -1 -1 -1 0 0
+M 1 200002 1 200005 -1 -1 -1 0 0
+M 1 200001 1 200006 -1 -1 -1 0 0
+M 1 200002 2 200007 -1 -1 -1 0 0
+M 1 200001 2 200009 -1 -1 -1 0 0
+M 1 200002 3 200010 -1 -1 -1 0 0
+M 1 200001 3 200011 -1 -1 -1 0 0
+M 1 200001 4 200013 -1 -1 -1 0 0
+M 1 200001 5 200014 -1 -1 -1 0 0
+M 1 200000 3 200015 -1 -1 -1 0 0
+M 1 200001 6 200017 -1 -1 -1 0 0
+M 1 200000 4 200018 -1 -1 -1 0 0
+M 1 200000 5 200020 -1 -1 -1 0 0
+G 1 200000 1 0 -1 0 0
+M 1 200000 6 200021 -1 -1 -1 0 0
+M 1 200000 7 200022 -1 -1 -1 0 0
+M 1 200002 4 200025 -1 -1 -1 0 0
+M 1 200000 8 200026 -1 -1 -1 0 0
+M 1 200001 7 200028 -1 -1 -1 0 0
+M 1 200000 9 200029 -1 -1 -1 0 0
+M 1 200000 10 200030 -1 -1 -1 0 0
+M 1 200001 8 200033 -1 -1 -1 0 0
+M 1 200000 11 200035 -1 -1 -1 0 0
+M 1 200001 9 200036 -1 -1 -1 0 0
+M 1 200001 10 200037 -1 -1 -1 0 0
+M 1 200002 5 200040 -1 -1 -1 0 0
+M 1 200000 12 200041 -1 -1 -1 0 0
+O 1 200008 1 200042 -1 -1 -1 -1 0 0
+M 1 200002 6 200043 -1 -1 -1 0 0
+M 1 200000 13 200044 -1 -1 -1 0 0
+M 1 200002 1 200047 -1 -1 -1 0 0
+M 1 200000 14 200048 -1 -1 -1 0 0
+M 1 200000 15 200049 -1 -1 -1 0 0
+M 1 200000 16 200045 -1 -1 -1 0 0
+M 1 200020 1 200045 -1 -1 -1 0 0
+E 1 200001 1 7 -1 0 0
+E 1 200003 1 9 -1 0 0
+E 1 200005 1 5 -1 0 0
+G 1 200007 1 0 -1 0 0
+O 1 200049 1 200000 -1 -1 -1 -1 0 0
+M 1 200001 1 200032 -1 -1 -1 0 0
+G 1 200002 1 0 -1 0 0
+M 1 200000 17 200039 -1 -1 -1 0 0
+G 1 200004 1 0 -1 0 0
+M 1 200000 1 200024 -1 -1 -1 0 0
+G 1 200006 1 0 -1 0 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

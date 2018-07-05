@@ -1,0 +1,2430 @@
+#AREA   The Wolf Forest~
+
+
+
+#VERSION 53
+#AUTHOR Xerves~
+
+#RANGES
+10 20 1 75 0 0 0 0 0
+$
+
+#RESETMSG The wolves howl in unison.~
+
+#FLAGS
+0 25
+
+#ECONOMY 0 1092378 0
+
+#MOBILES
+#2251
+brown wolf~
+a brown wolf~
+A brown wolf is here protecting his land.
+~
+An average size wolf with a thick brown coat of fur.  The wolf doesn't
+appear to be domesticated, and by the size of those teeth and the
+growling, he is not looking for a friend either.
+~
+97 0 0 -350 C
+0 0 4 4 3 3
+2d6+44 1d2+2 0 0 0
+0 0
+112 112 1
+13 12 13 13 13 13 14 39
+0 0 0 0 0
+69 0 0 0 1 1 39
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+5 0 0 0 0 0 0 5 1
+> death_prog 5~
+mea $n _red Your final blow scalps the wolf, leaving a corpse and a hide.
+mpoload 2266 11
+~
+> rand_prog 2~
+mpasound The howling of a wolf echoes throughout the forest.
+~
+|
+#2252
+black wolf~
+a black wolf~
+A black wolf is here protecting her territory.
+~
+Just a bit bigger in size than their male counterparts, the black wolf
+tends to be more dominant than the males.  This culture of wolves is
+odd, and quite violent in nature.
+~
+97 0 0 -600 C
+0 0 5 4 5 6
+2d6+49 1d3+2 0 0 0
+0 0
+112 112 2
+13 15 16 15 13 13 15 41
+0 0 0 0 0
+69 0 0 0 1 1 41
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+8 0 0 0 0 0 0 69 1
+> death_prog 5~
+mea $n _red  The last swing of your weapon dislodged a bundle of the
+mpoload 2267 14
+mpoload 2267
+~
+> rand_prog 2~
+mpasound The howling of a wolf echoes throughout the forest.
+~
+|
+#2253
+fire wolf~
+a wolf made of &Rf&ri&Rr&re~
+A being of &Rf&ri&Rr&re&P is here waiting for LUNCH.
+~
+A very unique looking wolf, one not made of fur, but of a blazing coat
+of molten hot fire.  The wolf appears to be in little pain, and it has
+accepted its state of physical being.  A creature of this sort of
+degree can only mean one thing, magical powers are somewhere in this
+area.
+~
+99 0 0 -1000 C
+0 0 7 6 6 6
+4d12+135 1d4+7 0 0 0
+0 0
+112 112 1
+17 16 13 17 13 13 13 47
+0 0 0 0 0
+69 0 0 0 1 1 47
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+8 0 0 0 0 0 0 8263 1
+> death_prog 100~
+if rand(5)
+mpe _red The fire wolf explodes in a brilliant display of colors and
+mpe _red the only thing remaining is a shield of equal energy.
+mpoload 2259 21
+else
+if rand(35)
+mpe _red The fire wolf takes a undelightful turn as it dies and rips
+mpe _red a huge chunk of flesh from its body before death.
+mpoload 2257 21
+else
+if rand(25)
+mpe _red The final blow to the wolf dislodges a very strange looking
+mpe _red bone from the wolf.  It looks very similar to a mask.
+mpoload 2258 21
+else
+mpe _red Upon the last strike, the fire wolf explodes right before
+mpe _red the unlucky victim to strike the last blow.
+mpdamage $n 65
+endif
+endif
+endif
+~
+|
+#2254
+head male wolf~
+a massive looking wolf~
+A massive looking wolf is here growling at YOU.
+~
+The wolf is the most massive of all the wolves in the area.  He has
+a very thick and excellently groomed brown fur, and stands a bit
+taller than most male wolves of this pack.  In addition, his teeth
+are bigger, sharper, and nastier than the other male wolves.
+~
+227 0 0 -550 C
+0 0 6 5 6 6
+4d10+84 1d3+3 0 0 0
+0 0
+112 112 0
+16 14 13 17 13 13 17 44
+0 0 0 0 0
+69 0 0 0 1 1 44
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+10 0 0 0 0 0 0 199 1
+> death_prog 50~
+mpe _red $n's last strike slices a huge chunk of fur from the wolf.
+mpoload 2266 20
+~
+|
+#2255
+head female wolf~
+a dominant female wolf~
+A strong looking female wolf is here protecting her cubs.
+~
+The primary mating wolf of the pack.  She has been chosen by the pack
+to be the most fit to bare children.  In arriving to this point, she
+has become the strongest female wolf around, and even has bigger legs
+~
+99 0 0 550 C
+0 0 6 7 5 6
+5d12+97 1d4+4 0 0 0
+0 0
+112 112 0
+17 16 15 15 13 13 13 45
+0 0 0 0 0
+69 0 0 0 1 1 45
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+9 0 0 0 0 0 0 103 9
+> death_prog 50~
+mpe _whi The female wolf takes a very vicious blow and it slices off
+mpe _whi a huge chunk of fur in the shape of a necklace.
+mpoload 2267 18
+~
+|
+#2256
+Warshar thief~
+Warshar the Thief~
+A small little man is here waiting to loot your corpse.
+~
+A very short halfling, Warshar has the fitting of a typical thief.
+He is wearing just a bit of armor, but is carrying a huge coin purse, and
+a bit of loot.  As soon as he laid eyes on you, he just got the image of
+making that purse even bigger.
+~
+35 0 98826 -1000 C
+0 0 7 7 8 8
+6d17+121 1d4+5 0 0 0
+1049 0
+112 112 0
+15 15 16 16 13 13 16 47
+0 0 0 0 0
+4 0 0 0 1 1 47
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 608 9
+> all_greet_prog 100~
+if isfight($i)
+say Another victim
+evil
+else
+if ispc($n)
+mpe A shadow appears from nowhere and lands a surprising blow!
+mpdamage $n 50
+endif
+endif
+~
+|
+#2257
+Balma mage~
+Balma the mage~
+Balma is here looking very irritated because you disturbed his sleep.
+~
+A tall lanky man, Balma looks to be as old as some of the trees that
+inhabit this strange forest.  Even his close, the sparkling, the
+glowing, seem to indicate a much brighter time then these days.
+However, his ranting and screaming and his violent behavior seem to
+differ from his clothing.
+~
+1 0 128 -850 C
+0 0 8 7 7 8
+7d19+130 1d5+5 0 0 0
+1190 0
+112 112 2
+14 15 14 17 13 13 15 49
+-10 -8 -8 -8 -15
+0 0 0 0 1 1 49
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1376026624 10753
+> fight_prog 2~
+say You should of never awoken me you FOOL!
+c 'quantum' $n
+c 'acid breath' $n
+~
+|
+#2258
+cub small wolf~
+a small cub~
+A small little cub is here playing around in the forest.
+~
+A small little wolf, not much bigger than a little dog.  The little
+wolf doesn't appear to be frightened by you, nor does it really wish
+to rip your leg off.  What a cute little cub!
+~
+193 0 0 200 C
+0 0 3 3 2 3
+1d5+19 1d2+1 0 0 0
+0 0
+112 112 0
+14 6 6 15 13 13 12 37
+0 0 0 0 0
+69 0 0 0 1 1 37
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+3 0 0 0 0 0 0 1 0
+#2259
+brown wolf~
+a brown wolf~
+A brown wolf is here protecting his land.
+~
+An average size wolf with a thick brown coat of fur.  The wolf doesn't
+appear to be domesticated, and by the size of those teeth and the
+growling, he is not looking for a friend either.
+~
+97 0 0 -350 C
+0 0 4 5 3 5
+1d5+41 1d2+2 0 0 0
+0 0
+112 112 1
+15 15 13 14 13 13 16 39
+0 0 0 0 0
+69 0 0 0 1 1 39
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 5 1
+> death_prog 5~
+mea $n _red Your final blow scalps the wolf, leaving a corpse and a hide.
+mpoload 2266 11
+~
+> rand_prog 2~
+mpasound The howling of a wolf echoes throughout the forest.
+~
+|
+#2260
+black wolf~
+a black wolf~
+A black wolf is here protecting her territory.
+~
+Just a bit bigger in size than their male counterparts, the black wolf
+tends to be more dominant than the males.  This culture of wolves is
+odd, and quite violent in nature.
+~
+97 0 0 -600 C
+0 0 5 5 5 5
+2d7+52 1d3+2 0 0 0
+0 0
+112 112 2
+16 14 13 14 13 13 12 41
+0 0 0 0 0
+69 0 0 0 1 1 41
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 69 1
+> death_prog 5~
+mpasound The howling of a wolf echoes throughout the forest.
+mea $n _red  wolf's fur.
+mpoload 2267 14
+~
+> rand_prog 2~
+mpasound The howling of a wolf echoes throughout the forest.
+~
+|
+#2261
+black wolf special~
+a black wolf~
+A black wolf is here protecting her territory.
+~
+Just a bit bigger in size than their male counterparts, the black wolf
+tends to be more dominant than the males.  This culture of wolves is
+odd, and quite violent in nature.
+~
+97 0 0 -600 C
+0 0 5 4 5 4
+2d7+50 1d3+2 0 0 0
+0 0
+112 112 2
+14 13 15 13 13 13 14 41
+0 0 0 0 0
+69 0 0 0 1 1 41
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 69 1
+> death_prog 5~
+mpe _whi The gods smile upon you as you strike the deadly blow to the
+mpe _whi evil wolf.
+mpoload 2268 10
+~
+> rand_prog 2~
+mpasound The howling of a wolf echoes throughout the forest.
+~
+|
+#2262
+cub small wolf~
+a small cub~
+A small little cub is here playing around in the forest.
+~
+A small little wolf, not much bigger than a little dog.  The little
+wolf doesn't appear to be frightened by you, nor does it really wish
+to rip your leg off.  What a cute little cub!
+~
+193 0 0 200 C
+0 0 3 2 2 4
+1d5+17 1d2+1 0 0 0
+0 0
+112 112 0
+11 6 6 14 13 13 13 37
+0 0 0 0 0
+69 0 0 0 1 1 37
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1 0
+#2263
+guard wolf~
+a guardian wolf~
+A wolf is here guarding its post.
+~
+A slightly stronger and quicker blend of the wolves in this location,
+these wolves must be the offspring from the direct mating of the
+head male and female wolves.  They have a very strong sense of
+protection for their parents and siblings
+~
+99 0 0 -140 C
+0 0 5 5 4 4
+2d8+61 1d3+2 0 0 0
+0 0
+112 112 1
+13 12 15 13 13 13 13 42
+0 0 0 0 0
+69 0 0 0 1 1 42
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+5 0 0 0 0 0 0 193 1
+> rand_prog 2~
+mpasound The howling of a wolf echoes throughout the forest.
+~
+|
+#2264
+guard wolf~
+a guardian wolf~
+A wolf is here guarding its post.
+~
+A slightly stronger and quicker blend of the wolves in this location,
+these wolves much be the offspring from the direct mating of the 
+head male and female wolves.  They have a very strong sense of
+protection for their parents and siblings.
+~
+99 0 0 -140 C
+0 0 5 5 5 4
+2d8+62 1d3+2 0 0 0
+0 0
+112 112 1
+15 16 12 16 13 13 14 42
+0 0 0 0 0
+69 0 0 0 1 1 42
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 193 1
+> rand_prog 2~
+mpasound The howling of a wolf echoes throughout the forest.
+~
+|
+#2265
+Dilbert crazy barbarian~
+Dilbert the Barbarian~
+A Crazed barbarian is running straight at you with a HUGE axe.
+~
+A very hairy, very big, very dumb man.  All that bulk looks really
+funny, but that huge axe with blood dripping off of it really doesn't
+look quite as entertaining as him.
+~
+35 0 0 -550 C
+0 0 7 6 7 8
+8d20+126 1d4+5 0 0 0
+1049 0
+112 112 1
+14 16 15 13 13 13 15 47
+0 0 0 0 0
+0 0 0 0 1 1 47
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+2 0 0 0 0 0 0 1073742193 528386
+> fight_prog 8~
+say I Crush YOU!
+rupture $n
+say POUND
+kick $n
+~
+|
+#2266
+Carter Rithroy~
+Carter Rithroy~
+Carter sits here and watches you as he stays in a peaceful state.
+~
+Carter is a type of person that really doesn't belong to a particular
+class.  He appears to study a few of them by the looks of the weaponry
+hanging around and the other stuff he carries on him.  He can probably
+be a great teacher to those in need.
+~
+67112979&4 0 4194304 0 S
+0 0 0 0 0 0
+10000d0+0 0d0+0 0 0 0
+100 0
+112 112 1
+> speech_prog p What skills do you teach Carter~
+tell $n I teach
+tell $n ----------------------------------
+tell $n 114.  Expert Offensive
+tell $n 115.  Novice Stun
+tell $n 116.  Novice Attack Frenzy
+tell $n 117.  Expert Stealth
+tell $n 118.  Novice Disarm
+tell $n ----------------------------------
+~
+> speech_prog p learn 3 114~
+mpteach $n 3 Offensive
+~
+> speech_prog p learn 2 115~
+mpteach $n 2 stun
+~
+> speech_prog p learn 2 116~
+mpteach $n 2 attack frenzy
+~
+> speech_prog p learn 3 117~
+mpteach $n 3 stealth
+~
+> speech_prog p learn 2 118~
+mpteach $n 2 disarm
+~
+> speech_prog p learn 1 114~
+mpteach $n 1 Offensive
+~
+> speech_prog p learn 1 115~
+mpteach $n 1 stun
+~
+> speech_prog p learn 1 116~
+mpteach $n 1 attack frenzy
+~
+> speech_prog p learn 1 117~
+mpteach $n 1 stealth
+~
+> speech_prog p learn 1 118~
+mpteach $n 1 disarm
+~
+|
+#2267
+Fur Trapper~
+a Fur Trapper~
+A careful Fur Trapper is here hunting the perfect wolf.
+~
+~
+1 0 2 -250 C
+0 0 7 8 7 6
+5d13+99 1d4+4 0 0 0
+831 0
+112 112 0
+14 17 14 13 13 13 17 45
+0 0 0 0 0
+0 0 0 0 1 1 45
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+5 0 0 0 0 0 0 32 1
+#2299
+Hmob~
+Hmob~
+A Hmob is here
+~
+~
+1 0 0 0 C
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#2251
+curverd huge axe~
+&RC&Bu&Rr&Bv&Re&Br&Rd~
+A mysterious axe lies here on the ground.~
+~
+5 524289&131072&128 513
+1000 13 18 8 -1 -1 0 8 9 5 12 0 30 24
+12.000000 40000 0 0 0 0 7
+'NONE'
+E
+curverd huge axe~
+The axe you are looking at is a massive axe, and it appears to be much
+lighter than it looks.  The axe also has an inscription on the broad
+size of the axe-head and it says "Curverd".  Apparently, this is just
+not a typical run of the mill axe.
+~
+A
+1 1 0
+A
+77 3 0
+A
+13 5 0
+#2252
+fur leggings~
+A pair of wolf-fur leggings~
+A pair of carefully crafted leggings are here.~
+~
+9 262144 33
+7 7 7 1000 4 3 0 0 0 0 0 0 0 0
+9.000000 10000 0 0 0 0 3
+E
+fur leggings~
+The leggings are made of a light metallic like substance and covered
+with wolf fur.  Makes for very warm leg guards, and has extra support
+to take damage from weapons and kicks.
+~
+A
+77 2 0
+A
+13 2 0
+#2253
+tarnished helmet~
+a tarnished helmet~
+A helmet tarnished from time past is here before you.~
+~
+9 524289 17
+11 11 11 1000 10 4 0 0 0 0 0 0 0 0
+15.000000 10000 0 0 0 0 3
+E
+tarnished helmet~
+~
+E
+tarnished helmet~
+A helmet carefully crafted for the barbarian's head, and it also appears
+it has saved his life quite frequently because of all the dents and the
+paint missing from it.  That or he had an obsession with trying to knock
+himself out with his own axe.
+~
+A
+13 2 0
+A
+31 -1 0
+#2254
+glowing gauntlets~
+&c&wa &G&WGlowing &c&wgauntlet~
+&c&wA gauntlet is here on the ground giving off &G&Wenergy&c&w.~
+~
+9 524291 65
+10 10 10 1000 10 3 0 0 0 0 0 0 0 0
+17.000000 10000 0 0 0 0 3
+E
+glowing gauntlets~
+The gauntlets seem to imbued with a light color that seems to almost
+glow, even in broad daylight.  Either the item is blessed with a
+magical power, or the one who crafted the gauntlet had a very special
+skill with colors and light.
+~
+A
+13 2 0
+A
+82 1 0
+#2256
+reinforced chainmail~
+some reinforced chainmail~
+A sturdy looking set of chainmail is here before you.~
+~
+9 524289 9
+6 6 6 1000 8 2 0 0 0 0 0 0 0 0
+13.000000 10000 0 0 0 0 2
+E
+reinforced chainmail~
+Looking closer at the chainmail, you can tell that the chainmail was
+made to allow more movement than selecting a heavier armor, and it will
+take more damage than average chainmail.  What the armorer did was put
+a special leather on both sides of the chainmail that would take more
+blunt and sharp attacks than normal chainmail, and would also add very
+little weight to the armor.
+~
+A
+13 2 0
+A
+80 1 0
+#2257
+fire hide~
+&RF&ri&Rr&re&G hide~
+A hide made of &RF&ri&Rr&re is here burning on the ground.~
+~
+9 262147&16777216 131073
+0 0 0 0 0 19 0 0 0 0 0 0 0 0
+3.000000 13000 0 0 0 0 2
+E
+fire hide~
+Not much can be said about this item because of just the oddness of
+it.  By some magical power, the hide is able to continue burning and
+actually stay thick enough to be useful as armor, not to mention the
+look of you walking down the road on fire has to be pretty damn cool.
+~
+A
+13 2 0
+A
+12 5 0
+A
+3 1 0
+A
+24 -3 0
+#2258
+molten mask~
+a molten mask~
+A mask molded from fire is here.~
+~
+9 262147 17
+12 12 12 1000 11 4 0 0 0 0 0 0 0 0
+9.000000 12500 0 0 0 0 2
+E
+molten mask~
+A very odd looking extract of the wolf's skeletal system.  A few bones
+of the wolf that were cut off seemed to connected together right as it
+died and formed something that might be useful as a mask, well that is
+when it cools down.
+~
+A
+13 2 0
+A
+12 3 0
+A
+4 1 0
+A
+83 160 0
+#2259
+radiant shield~
+&G&Wa &G&WR&Ya&G&Wd&Yi&G&Wa&Yn&G&Wt shield~
+&G&WA shield is here &G&Wr&Ya&G&Wd&Yi&G&Wa&Yt&G&Wi&Yn&G&Wg &Ye&G&Wn&Ye&G&Wr&Yg&G&Wy.~
+~
+9 3 129
+800 800 40 0
+10.000000 15000 0 0 0 0 3
+E
+radiant shield~
+A VERY VERY unique mistake.  The shield actually contains some of the
+magic that seemed to make the wolf be able to live while its body was
+burning from the file, this shield takes the same energy and uses it
+to give off light.  It almost looks like a shield made from a mirror,
+but has the sturdiness of steel.
+~
+A
+13 3 0
+A
+12 5 0
+A
+77 5 0
+A
+81 1 0
+#2260
+Morvere~
+&c&wM&po&c&wr&pv&c&we&pr&c&we~
+A strange looking dagger is here on the ground.~
+~
+5 0&0&256 513
+1000 7 9 4 -1 -1 0 4 5 7 8 0 40 4
+3.000000 20000 0 0 0 0 2
+'NONE'
+E
+Morvere~
+This dagger is a very screwed up looking dagger.  Instead of having a 
+straight blade like most daggers, the blade is twisted at certain points, 
+which are cleverly located at certain points of the blade.  Upon looking 
+even closer you can tell that those points line up pretty close to wear a 
+few major organs would be if you shove this into certain points.  A really
+nasty weapon, well, if you are being attacked with it.
+~
+A
+13 3 0
+A
+12 2 0
+A
+77 5 0
+A
+82 1 0
+#2262
+magic ring~
+a magical influenced ring~
+A ring that has been blessed with magic is here before you.~
+~
+8 524289 3
+0 0 0 0
+1.000000 12000 0 0 0 0 3
+E
+magic ring~
+A very interesting looking ring.  Most rings that are blessed with
+magic can only be seen by those who have that skill, but this one
+just has the presence that says it is magical.  What a strange feeling
+coming from this here ring.
+~
+A
+3 1 0
+A
+12 8 0
+#2263
+Morphere~
+&OM&Yo&Or&Yp&Oh&Ye&Or&Ye~
+A strange looking ring is here right before you.~
+~
+8 524291 3
+0 0 0 0
+0.100000 20000 0 0 0 0 3
+E
+Morphere~
+A strange looking ring compared to most typical rings.  The ring, instead
+of being a perfect circle, twists around as it completes the circle.
+~
+A
+12 10 0
+A
+13 3 0
+A
+83 180 0
+#2264
+glitter robe~
+a robe full of &Yglitter~
+A &Yglittery&G robe is here on the ground collecting dust.~
+~
+9 3&16777216 131073
+0 0 0 0
+2.000000 20000 0 0 0 0 2
+E
+glitter robe~
+A very bright looking robe (literally).  The robe has a massive amount
+of material that glitters in the light.  The rest of the robe is made out
+of a soft inside, and a rough outside that will take most blows without
+ripping in half.
+~
+A
+12 5 0
+A
+13 5 0
+A
+24 -2 0
+A
+22 -2 0
+#2265
+obsidian staff~
+a staff made out of Obsidian~
+A staff made out of black crystal is here on the ground.~
+~
+5 1&0&1024 513
+1000 10 11 7 32 1005 0 6 6 5 10 0 10 8
+8.000000 20000 0 0 0 0 6
+'cure critical'
+E
+obsidian staff~
+A staff made out of the substance known as "black glass".  The staff
+is quite an eye candy to look at, and it also makes for a nice weapon.
+Somehow, the crafter found a way to make the obsidian hold up just
+a bit better, and it seems to have an endurance that is almost as
+equal as a wooden staff.
+~
+A
+12 5 0
+A
+13 3 0
+#2266
+fur hide~
+a fur hide~
+A huge chunk of wolf fur is here on the ground.~
+~
+9 262144 9
+5 5 5 1000 3 1 0 0 0 0 0 0 0 0
+10.000000 650 0 0 0 0 1
+E
+fur hide~
+A useful slice of a hide of a wolf.  Makes for a decent form of
+protection, and can fetch a decent price if decided to be sold.
+~
+A
+77 2 0
+#2267
+fur bundle~
+a bundle of fur~
+A bundle of fur, in the shape of a necklace, is here before your feet.~
+~
+9 262144 5
+5 5 5 1000 3 1 0 0 0 0 0 0 0 0
+4.000000 600 0 0 0 0 1
+E
+fur bundle~
+A very odd looking hide of a wolf.  Somehow, when it was removed from
+the wolf, it started to curl up and take the form very simular to that
+of a necklace.
+~
+#2268
+torava~
+&cT&Co&cr&Ca&cv&Ca~
+&CA very rare &cT&Co&cr&Ca&cv&Ca is on the ground.~
+~
+8 131&2&16 3
+0 0 0 0
+0.100000 50000 0 0 0 0 5
+E
+torava~
+A very special ring.  According to legend, the gods bless a special
+hunter that delivers a death blow to the animal most hated by the
+gods, a wolf.  The wolf was knowledged to land a fatal blow to a
+young child that was the offspring of one of the gods lovers.  Since
+then, the gods have put a curse on that animal and its offspring.
+~
+A
+13 7 0
+A
+12 7 0
+A
+81 1 0
+A
+80 1 0
+A
+84 180 0
+A
+82 1 0
+A
+26 16 0
+#2269
+dwarf corpse~
+dwarf corpse~
+A decaying corpse of a dwarf is here rotting on the ground.~
+~
+23 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+dwarf corpse~
+The corpse appears to be of the dwarven race.  By the look of it, the
+corpse has been dead for quite awhile, and it also looks like it was
+charred and bitten to death.  Not an excellent way to go!
+~
+#2270
+dwarf corpse~
+dwarf corpse~
+A decaying corpse of a dwarf is here rotting on the ground.~
+~
+23 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+dwarf corpse~
+The corpse appears to be of the dwarven race.  By the look of it, the
+corpse has been dead for quite awhile, and it also looks like it was
+charred and bitten to death.  Not an excellent way to go!
+~
+#2271
+dwarf corpse~
+dwarf corpse~
+A mutilated corpse of a dwarf is here rotting on the ground.~
+~
+23 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+dwarf corpse~
+The corpse appears to be of the dwarven race.  By the look of it, the
+corpse has been dead for quite awhile, and it also looks like it was
+charred and bitten to death.  Not an excellent way to go!
+~
+#2272
+an arm~
+an arm~
+A sliced off arm of a poor hapless fool is here before you.~
+~
+23 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+arm~
+It is really hard to tell whom the arm came from, but it appears to
+be wripped off with a lot of force.
+~
+#2273
+head~
+a head~
+A ripped off head is here bleeding all over the ground.~
+~
+23 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+head~
+The head appears to be ripped directly off of the poor guys neck.  The
+head still looks to be full of expression and the expression on its
+race right now is one of fear and panic.
+~
+#2274
+leg~
+leg~
+A seperated arm is here far away from its corpse.~
+~
+23 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+leg~
+A very nasty wound this one looks like.  The attacked bit right through
+the bicept of the poor guys arm.  What a nasty attack, what could of
+done this?
+~
+#2275
+human corpse~
+a human corpse~
+A corpse of a human is here bleeding on the ground.~
+~
+23 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+human corpse~
+The corpse appears to be assaulted and stabbed to death.  By the look
+of the wounds, the weapon was a dagger, and a very strange one at that.
+~
+#2276
+human corpse~
+a human corpse~
+A corpse of a human is here bleeding on the ground.~
+~
+23 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+human corpse~
+The corpse appears to be assaulted and stabbed to death.  By the look
+of the wounds, the weapon was a dagger, and a very strange one at that.
+~
+#2277
+elf corpse~
+elf corpse~
+A mutilated corpse of an elf is here bleeding on the ground.~
+~
+23 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+human corpse~
+The corpse appears to be assaulted and stabbed to death.  By the look
+of the wounds, the weapon was a dagger, and a very strange one at that.
+~
+#2278
+elf corpse~
+elf corpse~
+A mutilated corpse of an elf is here bleeding on the ground.~
+~
+23 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+human corpse~
+The corpse appears to be assaulted and stabbed to death.  By the look
+of the wounds, the weapon was a dagger, and a very strange one at that.
+~
+#2279
+gnome corpse~
+gnome corpse~
+A disfigured corpse of an gnome is here right before you.~
+~
+23 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+human corpse~
+The corpse appears to be assaulted and stabbed to death.  By the look
+of the wounds, the weapon was a dagger, and a very strange one at that.
+~
+#2280
+halfling corpse~
+a human corpse~
+A mangled corpse is hunched up near the corner of the room.~
+~
+23 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+human corpse~
+The corpse appears to be assaulted and stabbed to death.  By the look
+of the wounds, the weapon was a dagger, and a very strange one at that.
+~
+#2281
+an arm~
+an arm~
+A sliced off arm of a poor hapless fool is here before you.~
+~
+23 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+arm~
+It is really hard to tell whom the arm came from, but it appears to
+be wripped off with a lot of force.
+~
+#2282
+head~
+a head~
+A ripped off head is here bleeding all over the ground.~
+~
+23 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+head~
+The head appears to be ripped directly off of the poor guys neck.  The
+head still looks to be full of expression and the expression on its
+race right now is one of fear and panic.
+~
+#2283
+leg~
+leg~
+A seperated arm is here far away from its corpse.~
+~
+23 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+leg~
+A very nasty wound this one looks like.  The attacked bit right through
+the bicept of the poor guys arm.  What a nasty attack, what could of
+done this?
+~
+#2284
+blood droplets~
+blood droplets~
+A bunch of blood droplets are here staining the grass~
+~
+27 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+blood droplets~
+A small little pool of blood, it appears something has came through
+here and has left a bit of blood on its way through.
+~
+#2285
+pool of blood~
+a pool of blood~
+A pool of blood about ankle deep is here soaking into the ground.~
+~
+27 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+pool of blood~
+A very huge pool of blood.  Even though compared to water this pool
+is not deep, just the fact that this much blood has collected before
+it has soaked into the ground is not a good thing.
+~
+#2286
+key~
+A wooden key~
+A key is here on the ground.~
+~
+18 524288 1
+0 0 0 0
+1.000000 20 0 0 0 0 0
+E
+key~
+The key looks like a typical key (well besides that it is made out
+of wood instead of a metal).  The key also has a small little pciture
+of an OBJECT giving off great light.
+~
+#2287
+a tree~
+a tree~
+A huge tree is here blocking the path.~
+~
+13 -2147483648&4 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+> rand_prog 3~
+if rand(50)
+mpmload 2251
+else
+if rand(50)
+mpmload 2252
+else
+if rand(50)
+mpmload 2259
+else
+mpmload 2260
+endif
+endif
+endif
+~
+|
+#2288
+a tree~
+a tree~
+A huge tree is here blocking the path.~
+~
+13 -2147483648&4 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+> rand_prog 3~
+if rand(50)
+mpmload 2260
+else
+if rand(50)
+mpmload 2259
+else
+if rand(50)
+mpmload 2252
+else
+mpmload 2251
+endif
+endif
+endif
+~
+|
+#2289
+sword broke~
+a newly created sword broke~
+A broken sword lies here on the ground.~
+~
+13 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+broken sword~
+A simple little sword, however, it is quite useless now because it
+has been broken in to many places.
+~
+#2290
+broken gauntlets~
+a pair of broken gauntlets~
+A pair of broken gauntlets are here before you.~
+~
+13 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+broken gauntlets~
+The gaunlets look old, used, and worn out.  Not to mention they are
+now broken and unuseable.
+~
+#2291
+Long Bow~
+a Long Bow~
+A Long Bow has been left right here.~
+~
+56 0 2049
+1000 4 7 6 6 0 0 1 0 2 9 0 0 0
+10.000000 12000 0 0 0 0 3
+#2292
+iron arrow~
+an iron arrow~
+A carefully crafted iron arrow is here before you.~
+~
+57 524288 65537
+1000 4 7 0 0 0 0 1 0 3 0 0 0 0
+1.000000 55 0 0 0 0 0
+E
+iron arrow~
+A carefully crafted part wood, part iron arrow.  It contains mostly wood
+for creating a lightweight arrow, plus uses iron to allow it to hit the
+target with force, not to mention the iron tip.  Very good for killing
+wild beasts.
+~
+#2294
+large quiver~
+a large quiver~
+An oddly large looking quiver is here before you.~
+~
+58 0 1
+30 0 0 12
+1.000000 8000 0 0 0 0 0
+E
+large quiver~
+A large quiver that can contain about a dozen and a half arrows.  A
+much better capacity for those who want to carry many arrows.
+~
+#2299
+A Hobj~
+a Hobj~
+A Hobj is here on the ground.
+
+
+
+
+
+
+
+
+
+~
+~
+0 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#0
+
+
+#ROOMS
+#2251
+Start of a path.~
+Taking a quick dive away from the main road, the path winds eastward and
+toward a small forest that can be seen in the distance.  The ground
+appears to be lightly worn and small leaves that appear to have been
+laying around for only a few days.  Apparently, only a few have tried to 
+venture into this area.  Lastly, a few &RWORDS&C have been etched into
+a near by tree.  It might be who of you to READ it.
+~
+4&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 2252
+0 0
+D3
+~
+~
+134217728 -1 16000
+831 381
+E
+words~
+These forests are infested with creatures who only want to hunt you
+down and kill you.  Not to mention the other hazards that are deeper
+in the forest.  Caution friend, for many bad things happen in these
+forests.
+ 
+~
+S
+#2252
+The path continues eastward.~
+The path continues to travel in an eastern direction.  The small scent 
+of urine fills the before unscented air.  Toward the east, a small tree
+can be seen hogging the rest of the path, but it uneagerly allows
+a path to cut toward the north and the south.  Back to the west, the 
+walls of Rafermand and the road that branches around it can be seen.
+~
+4&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 2253
+0 0
+D3
+~
+~
+0 -1 2251
+0 0
+S
+#2253
+Before a tree~
+Directly to the east, a huge tree blocks the path that was leading
+to the east.  Instead, now only the path back to the west, and the paths
+to the north and the south exist.  Both of those paths seem to get just
+a bit darker as the trees attempt to swallow as much light as they can.
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 2254
+0 0
+D2
+~
+~
+0 -1 2274
+0 0
+D3
+~
+~
+0 -1 2252
+0 0
+S
+#2254
+A Turn in the path.~
+The path divides and starts to branch out to the east and to the south.
+To the east, light seems to almost evaporate as the canopy of trees try
+to digest every little bit they can get their hands on.  Toward the
+south, a small path can be seen reaching out to the west.
+~
+0&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 2255
+0 0
+D2
+~
+~
+0 -1 2253
+0 0
+S
+#2255
+Right before a small cove.~
+Directly to the north, a small breach of land disrupts the ever growing
+canopy of trees.  The land looks like it was dug by a humanoid race, but
+it doesn't smell like one is living there.  The scent smells of wolves,
+and it smells very strong.  Directly to the east, the path starts to
+slim toward a very uncomfortable size.
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 2256
+0 0
+D1
+~
+~
+0 -1 2257
+0 0
+D3
+~
+~
+0 -1 2254
+0 0
+S
+#2256
+A small cove.~
+The small path quickly becomes a humanoid built hole in the ground.  
+However, it is not being occupied by humans anymore.  All around the
+area, the remains of a few humans and one huge dwarf can be seen, and
+surrounding these corpses are a small group of wolves and their little
+cubs just waiting for their next visitors, eh, meals.
+~
+0&2
+0 3
+0
+0
+D2
+~
+~
+0 -1 2255
+0 0
+S
+#2257
+A small bend in the path.~
+The path takes a small turn and branches out to the north and to the
+west.  To the north, another bend can be seen, and also the look of
+what appears to be a corpse of something, and to the west, a small
+path appears to continue on in that direction.
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 2258
+0 0
+D3
+~
+~
+0 -1 2255
+0 0
+S
+#2258
+A Decaying Corpse.~
+Pushed in the northwest corner of the area, a decayed corpse is hunched
+against a blood stained tree.  The corpse appears to be eaten cleanly
+of all meat, but all the equipment on the adventurer seems to be still
+around, however, it is broken and useless.  Besides the sight of the
+dead, a path can be seen to the south and to the east.
+~
+0&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 2259
+0 0
+D2
+~
+~
+0 -1 2257
+0 0
+S
+#2259
+The path turns in a few directions.~
+The path quickly turns into a T-section with exits going toward the north,
+west, and to the east.  From here, the faint sounds of wolves howling echoes
+around all the trees and right into the ears of all in these woods.  Also,
+the smell of death seems to get a bit more potent the further into the
+woods you travel.
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 2260
+0 0
+D1
+~
+~
+0 -1 2263
+0 0
+D3
+~
+~
+0 -1 2258
+0 0
+S
+#2260
+Another bend in the path~
+The path starts to loop around in its attempt to head northward.  In
+the distant north, the sounds of wolves howling back and forth to
+each other blanket all the typical forest sounds.  To the east has
+to lie the obvious, wolves, and back to the south is a small path
+around the forest.
+~
+0&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 2262
+0 0
+D2
+~
+~
+0 -1 2259
+0 0
+S
+#2261
+Another T-section in the forest.~
+Upon traveling even farther, it is noticeable that almost all light has
+been vanquished from this area, and darkness engulfs all but the smallest
+patches of the earth.  In addition, the sounds of wolves become even
+louder, and it seems they are getting closer and closer to your location
+in the forest.  To explore to the east or west, or to head south to
+escape this vile looking area.
+~
+1&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 2281
+0 0
+D2
+~
+~
+0 -1 2262
+0 0
+D3
+~
+~
+0 -1 2276
+0 0
+S
+#2262
+A turn in the path.~
+The path twists and points out to the north and to the west.  Directly
+to the north all but the faintest light has been captured by the hate
+of darkness, and where there is darkness there can only be trouble.  
+Toward the west, a small, slightly lit path starts to make itself south
+in direction.
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 2261
+0 0
+D3
+~
+~
+0 -1 2260
+0 0
+S
+#2263
+The path starts to loop around.~
+The path that was heading east and west in general direction now takes
+a new spin toward the south.  To the west, the outline of a small
+path can vaguely be seen through all of the trees who take a strong
+objection to travelers trying to see into their domain.  To the south,
+the path offers a few small detours to the east while it continues to
+run to the south.
+~
+0&2
+0 3
+0
+0
+D2
+~
+~
+0 -1 2264
+0 0
+D3
+~
+~
+0 -1 2259
+0 0
+S
+#2264
+Before a small den.~
+To the east just a short walking distance, what appears to be a small
+den of the local animals.  By the sounds of it, the den is probably
+just full of the little ones as they mature into savage killers and
+learn how to protect this very forest.  To the south and the north,
+the path continues to run its direction till it branches back out
+to the west.
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 2263
+0 0
+D1
+~
+~
+0 -1 2265
+0 0
+D2
+~
+~
+0 -1 2266
+0 0
+S
+#2265
+A small den.~
+As it appeared to be, this small section in the forest is a den made
+by the wolves for their cubs.  A few of the cubs seem to be only the
+size of small puppies, while others are just a bit bigger and running
+around playful.  Wow, how cute, well besides that huge one in the
+corner about ready to pounce on you!
+~
+0&2
+0 3
+0
+0
+D3
+~
+~
+0 -1 2264
+0 0
+S
+#2266
+The path continues.~
+Traveling down the path takes you to this point.  It seems fairly
+vacant and is welcomed from all the maneuvering the forest seems to
+do.  All that is available to see are just a few more trees in the
+area, and the path that goes north and south.
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 2264
+0 0
+D2
+~
+~
+0 -1 2267
+0 0
+S
+#2267
+Before a small hut.~
+Oddly enough, a small humanoid hut is standing strong in the forest
+that is inhabited only by animals.  The hut isn't of ingenious design,
+but only of a few finely connect pieces of lumber and some webbed armor
+of leaves to create a roof for protection from the weather.  There also
+appears to be a door, so hopefully something inhabits this dwelling.
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 2266
+0 0
+D1
+~
+door~
+3 -1 2268
+0 0
+D3
+~
+~
+0 -1 2269
+0 0
+S
+#2268
+Inside a small hut.~
+Walking away from the path, you enter inside the strange hut that just
+caught of eye of anyone who would of passed by.  Inside, the hut retains
+it original design plan, bland, but used for survival.  Nothing much to
+show of design, just a simple starkness all around.  However, there is
+something remotely interesting about the place, the deranged human
+running directly at your with a HUGE axe that just seems to be calling
+out to your flesh!
+~
+0&2
+0 3
+0
+0
+D3
+~
+door~
+3 -1 2267
+0 0
+S
+#2269
+The path bends once again.~
+The path breaks to the north and to the east because of a massive tree
+blocking entry to the path which you can see to the west.  To the north, 
+the path can be seen to loop around a bit more and it shoots back out 
+to the west, while to the east, a strange hut can be seen directly east 
+of here, how odd, a hut in the middle of a forest that is inhabited by 
+animals.
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 2270
+0 0
+D1
+~
+~
+0 -1 2267
+0 0
+S
+#2270
+The path starts to U-Turn.~
+The path is trying to look around as it attempts to move from east to
+west.  Apparently, the stubborn tree blocking the path would just not
+give out to travelers who wanted to go through it, so they decided to
+go around it.  One path heads south and quickly turns toward the east,
+while the one to the west heads south, then back to the west.
+~
+0&2
+0 3
+0
+0
+D2
+~
+~
+0 -1 2269
+0 0
+D3
+~
+~
+0 -1 2271
+0 0
+S
+#2271
+In a U-Turn.~
+The path is taking a small detour around a stubborn tree which is blocking
+a direct path from east to west.  In order to continue, the path just 
+goes around it, and feeds back west or east.  In the distant east, a 
+strange looking hut can be seen at the end of the eastern path, while 
+to the west, a small little detour runs south from the main path.
+~
+0
+0 3
+0
+0
+D1
+~
+~
+0 -1 2270
+0 0
+D2
+~
+~
+0 -1 2272
+0 0
+S
+#2272
+Before a huge tree.~
+Against the east side of the path, a huge tree blocks direct entrance
+to the trail that is running eastern, and in order to get around it, a
+small man-made path runs to the north.  Back to the west, the path
+continues, but a small little detour can be seen just a bit down the
+path.
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 2271
+0 0
+D3
+~
+~
+0 -1 2273
+0 0
+S
+#2273
+Before a small detour.~
+Directly to the south, there is a small man-made hole that digs into 
+the ground.  Oddly enough, it seems to be vacant of any humanoid tools
+or equipment, such as lights, water, etc.  It appears just to be a hole
+in the ground, how odd.  To the east, a huge tree is standing erect and
+blocking the path from running directly east to west.  To the west, the
+path ends and starts to run back to the north.
+~
+0&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 2272
+0 0
+D2
+~
+~
+0 -1 2275
+0 0
+D3
+~
+~
+0 -1 2274
+0 0
+S
+#2274
+The path takes another turn.~
+The path once again cuts into new directions, this time going north and 
+east.  To the north, what appears to be the exit out of the woods and 
+the other path that was cut so others can roam around the area.  To the
+east, the path runs directly to the east, well, besides that it is
+cut off by a massive tree.  Furthermore, there is a small little
+hole just south of the path that is an eyesore in the forest.
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 2253
+0 0
+D1
+~
+~
+0 -1 2273
+0 0
+S
+#2275
+A small hole in the ground.~
+Stepping carefully into the hole right of the path, you find yourself
+in a small little cove.  It appears to be dug by some dwarves who were
+exploring the area, however, those dwarves appear to be scattered all
+over the ground now.  Probably by this massive wolf that appears to
+be lit on fire.  It seems not to be in pain because it is gaining
+ground on you VERY quickly.
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 2273
+0 0
+S
+#2276
+A small dark path.~
+All light seems to just disappear at this point, nothing but darkness
+from here on to the north.  Luckily, you have a light and you can see
+at least around you.  The path that runs north doesn't appear to
+be to friendly.  Blood drops can be seen scattered around all over the
+ground, and small chunks of flesh are scattered all over the ground.
+Whatever lives up north isn't friendly, and likes to gnaw on legs.
+~
+1&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 2277
+0 0
+D1
+~
+~
+0 -1 2261
+0 0
+S
+#2277
+A small dark path.~
+The small path continues to branch north and south.  To the north, the
+small path is blocked by trees, and changes direction.  Also, unless you
+are seeing things, it seems like a shadow can be seen moving back and
+forth up there, and it doesn't appear to talking either.  Back to the
+south, the little path turns back toward the east.
+~
+1&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 2278
+0 0
+D2
+~
+~
+0 -1 2276
+0 0
+S
+#2278
+Another turn in the path.~
+The path changes direction again, now it is being shoved toward the east,
+and the main path runs back to the south.  To the east, you can not only
+hear the howling of the wolves, but the sounds of them roaming around
+can also be heard.  Maybe going any further up this path might not be
+a good idea if you are not prepared.
+~
+1&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 2279
+0 0
+D2
+~
+~
+0 -1 2277
+0 0
+S
+#2279
+The path turns once again.~
+The path turns once again.  This time, it heads to the north, and to the
+west.  To the north, right in the light, a few wolves can be seen walking
+around, luckily, the wind is fanning southward so they haven't smelled
+you quite yet.  To the west, the path winds around again, but takes a
+quick spin back to the south.
+~
+1&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 2280
+0 0
+D3
+~
+~
+0 -1 2278
+0 0
+S
+#2280
+Inside the wolf's domain.~
+Gently walking around, you arrive in the southern part of the wolf's
+living area.  Most of the wolves in the area live around here, and
+wander around the area to guard and protect it.  Just like the few
+around here, and they don't look like they are taking your arriving
+as a motion of peace.
+~
+1&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 2290
+0 0
+D1
+~
+object~
+2286 -1 2287
+0 0
+D2
+~
+~
+0 -1 2279
+0 0
+S
+#2281
+The path takes a strange turn.~
+The path once again splits into two directions, west and south.  To the
+west, there is a path that leads out of the deeper parts of the forest, and a
+small path which runs even deeper into the forest.  To the south, the path
+continues to bend around until it starts to turn to the north.  Also, a small
+tree to the east looks out of place, might want to check it out.
+~
+1&2
+0 3
+0
+0
+D2
+~
+~
+0 -1 2282
+0 0
+D3
+~
+~
+0 -1 2261
+0 0
+S
+#2282
+The path continues to bend.~
+The path continues to bend around as it tries to find its true direction.
+To the east, the path starts to turn toward the north, and to the north,
+the path leads right back to the west.
+~
+1&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 2281
+0 0
+D1
+~
+~
+0 -1 2283
+0 0
+S
+#2283
+Before a lighted path.~
+Strangely enough, at this point, the light returns to the area.  Just a
+few steps to the west, the light totally disappears, without even creating
+a small scar on the darkness.  The light seems to get slightly brighter the
+more north you look.  What could be up there, and secondly, why is it up
+there?
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 2284
+0 0
+D3
+~
+~
+0 -1 2282
+0 0
+S
+#2284
+Upon the lighted path.~
+The strange path runs north to south.  To the south, the light which
+lights up the whole area abruptly stops as the path turns to the west,
+while to the north, the whole area seems to much more brighter, and it
+seems to be radiating from a room and not the sun.  Very odd, for a
+typical forest near a city.
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 2285
+0 0
+D2
+~
+~
+0 -1 2283
+0 0
+S
+#2285
+Before a strange house.~
+To the east, a house stands oddly in this forest domain.  The house is
+made entirely of bricks, and it appears to be crafted very finely and
+even the bricks seem to be the same exact size and shape.  Also, since
+being in these parts of the forest, a strange sense of calming from the
+lack of wildlife moving around seems almost to peaceful.
+~
+0&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 2286
+0 0
+D1
+~
+~
+0 -1 2288
+0 0
+D2
+~
+~
+0 -1 2284
+0 0
+S
+#2286
+The end of the path.~
+The path takes an abrupt end at this very point.  There is always the
+exit back to the south.  How odd of it to just end here.
+~
+0&2
+0 3
+0
+0
+D1
+~
+object~
+3119 2286 2287
+0 0
+D2
+~
+~
+0 -1 2285
+0 0
+S
+#2287
+The secret domain.~
+Apon finding the secret entrance you find yourself in a very magical
+dwelling and in the presence of a wolf looking mage.  He seems to have
+been in slumber for a very long time, and your finding him has awoken
+him from his sleep and made him VERY cranky!
+~
+0&2
+0 3
+0
+0
+D3
+~
+object~
+3119 2286 2286
+0 0
+S
+#2288
+The House of HORRORS!~
+You open the door and enter into the house.  The calmness of the whole
+area brushes you very strongly, and it almost appeals you to sit down
+and take a nap in the area.  Well, till when you look a bit farther
+and you see there are corpses scattered all over the place and blood
+stains the far eastern wall.  Then suddenly, from the shadows, a man
+appears and assaults YOU!
+~
+0&2
+0 3
+0
+0
+D3
+~
+~
+0 -1 2285
+0 0
+S
+#2289
+The Head Male Wolf's living Grounds~
+Butchering your way through the wolf's home ground, you find yourself in
+the grounds of the head male wolf.  He hardly moves from this area
+unless there is an emergency, and it appears that you might be the
+emergency the wolf is looking for!
+~
+1&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 2290
+0 0
+S
+#2290
+Middle Grounds~
+Wolves are EVERYWHERE, they quickly move around and protect their lands.
+They come till they all die, and they are coming for you!  Before 
+getting assaulted by the wolves, you notice there are exits to the
+west, east, and south, and well, retreating to the south might be
+one of the safest ideas at this point.
+~
+1&2
+0 3
+0
+0
+D1
+~
+~
+0 -1 2291
+0 0
+D2
+~
+~
+0 -1 2280
+0 0
+D3
+~
+~
+0 -1 2289
+0 0
+S
+#2291
+The head Female's Living Ground.~
+Taking another few steps around, you find yourself in the living ground
+of the head female.  All the wolves in the area are competing with
+each other to show how powerful they are so they can attempt to mate
+with her.  Well, they were competing till you stepped in and disturbed
+their little fun and games.
+~
+1&2
+0 3
+0
+0
+D2
+~
+~
+0 -1 2292
+0 0
+D3
+~
+~
+0 -1 2290
+0 0
+S
+#2292
+Breeding Grounds.~
+This is where most of the female wolves go to have their cubs, and the
+male wolves go to look for females.  Also, the females tend to come
+back here to have their children so they can be protected by the pack
+of wolves that guard this area, kinda like the few males in the corner
+who are looking at you with VERY bad intentions.
+~
+1&2
+0 3
+0
+0
+D0
+~
+~
+0 -1 2291
+0 0
+S
+#2293
+A small clearing in the forest~
+Clearly, this area was part of the orginal forest and was cleared out
+by humans, probably the one that is sitting near the far east side
+of the clearing.  The grass around the area looks cleanly cut and
+the enhabitant has kept it very clean.
+~
+1073741828
+0 1
+0
+0
+D3
+~
+tree~
+1035 -1 2281
+0 0
+S
+#2299
+Floating in a void~
+~
+4
+0 1
+0
+0
+S
+#0
+
+
+#RESETS
+M 1 2259 1 2261 -1 -1 -1 0 0
+M 1 2260 1 2261 -1 -1 -1 0 0
+M 1 2259 1 2274 -1 -1 -1 0 0
+M 1 2258 1 2274 -1 -1 -1 0 0
+M 1 2260 1 2282 -1 -1 -1 0 0
+M 1 2260 1 2282 -1 -1 -1 0 0
+M 1 2261 1 2282 -1 -1 -1 0 0
+M 1 2258 1 2284 -1 -1 -1 0 0
+M 1 2258 1 2284 -1 -1 -1 0 0
+M 1 2260 1 2284 -1 -1 -1 0 0
+M 1 2264 1 2292 -1 -1 -1 0 0
+M 1 2264 1 2292 -1 -1 -1 0 0
+M 1 2258 1 2256 -1 -1 -1 0 0
+M 1 2258 1 2256 -1 -1 -1 0 0
+M 1 2262 1 2256 -1 -1 -1 0 0
+M 1 2263 1 2256 -1 -1 -1 0 0
+M 1 2264 1 2256 -1 -1 -1 0 0
+O 1 2284 1 2256 -1 -1 -1 -1 0 0
+O 1 2277 1 2256 -1 -1 -1 -1 0 0
+O 1 2280 1 2256 -1 -1 -1 -1 0 0
+O 1 2272 1 2256 -1 -1 -1 -1 0 0
+O 1 2274 1 2256 -1 -1 -1 -1 0 0
+O 1 2283 1 2256 -1 -1 -1 -1 0 0
+M 1 2258 1 2265 -1 -1 -1 0 0
+M 1 2258 1 2265 -1 -1 -1 0 0
+M 1 2262 1 2265 -1 -1 -1 0 0
+M 1 2263 1 2265 -1 -1 -1 0 0
+O 1 2278 1 2265 -1 -1 -1 -1 0 0
+O 1 2272 1 2265 -1 -1 -1 -1 0 0
+O 1 2281 1 2265 -1 -1 -1 -1 0 0
+O 1 2283 1 2265 -1 -1 -1 -1 0 0
+O 1 2284 1 2265 -1 -1 -1 -1 0 0
+O 1 2284 1 2276 -1 -1 -1 -1 0 0
+O 1 2283 1 2276 -1 -1 -1 -1 0 0
+O 1 2272 1 2276 -1 -1 -1 -1 0 0
+M 1 2261 1 2277 -1 -1 -1 0 0
+M 1 2263 1 2277 -1 -1 -1 0 0
+O 1 2284 1 2277 -1 -1 -1 -1 0 0
+O 1 2281 1 2277 -1 -1 -1 -1 0 0
+O 1 2282 1 2277 -1 -1 -1 -1 0 0
+O 1 2284 1 2278 -1 -1 -1 -1 0 0
+O 1 2281 1 2278 -1 -1 -1 -1 0 0
+O 1 2272 1 2278 -1 -1 -1 -1 0 0
+O 1 2284 1 2279 -1 -1 -1 -1 0 0
+O 1 2273 1 2279 -1 -1 -1 -1 0 0
+O 1 2274 1 2279 -1 -1 -1 -1 0 0
+M 1 2263 1 2280 -1 -1 -1 0 0
+O 1 2284 1 2280 -1 -1 -1 -1 0 0
+O 1 2281 1 2280 -1 -1 -1 -1 0 0
+O 1 2272 1 2280 -1 -1 -1 -1 0 0
+O 1 2283 1 2280 -1 -1 -1 -1 0 0
+M 1 2251 1 2290 -1 -1 -1 0 0
+M 1 2252 1 2290 -1 -1 -1 0 0
+M 1 2262 1 2290 -1 -1 -1 0 0
+M 1 2262 1 2290 -1 -1 -1 0 0
+M 1 2263 1 2290 -1 -1 -1 0 0
+M 1 2264 1 2290 -1 -1 -1 0 0
+O 1 2285 1 2290 -1 -1 -1 -1 0 0
+O 1 2275 1 2290 -1 -1 -1 -1 0 0
+O 1 2277 1 2290 -1 -1 -1 -1 0 0
+O 1 2272 1 2290 -1 -1 -1 -1 0 0
+O 1 2273 1 2290 -1 -1 -1 -1 0 0
+O 1 2274 1 2290 -1 -1 -1 -1 0 0
+O 1 2282 1 2290 -1 -1 -1 -1 0 0
+O 1 2283 1 2290 -1 -1 -1 -1 0 0
+M 1 2254 1 2289 -1 -1 -1 0 0
+M 1 2252 1 2289 -1 -1 -1 0 0
+M 1 2252 1 2289 -1 -1 -1 0 0
+O 1 2284 1 2289 -1 -1 -1 -1 0 0
+O 1 2275 1 2289 -1 -1 -1 -1 0 0
+O 1 2283 1 2289 -1 -1 -1 -1 0 0
+M 1 2255 1 2291 -1 -1 -1 0 0
+M 1 2251 1 2291 -1 -1 -1 0 0
+O 1 2282 1 2291 -1 -1 -1 -1 0 0
+O 1 2280 1 2291 -1 -1 -1 -1 0 0
+O 1 2283 1 2291 -1 -1 -1 -1 0 0
+O 1 2281 1 2253 -1 -1 -1 -1 0 0
+M 1 2259 1 2259 -1 -1 -1 0 0
+M 1 2259 1 2259 -1 -1 -1 0 0
+M 1 2260 1 2259 -1 -1 -1 0 0
+O 1 2281 1 2259 -1 -1 -1 -1 0 0
+M 1 2251 1 2266 -1 -1 -1 0 0
+M 1 2260 1 2266 -1 -1 -1 0 0
+O 1 2282 1 2266 -1 -1 -1 -1 0 0
+M 1 2253 1 2275 -1 -1 -1 0 0
+G 1 2286 1 -1 -1 0 0
+O 1 2269 1 2275 -1 -1 -1 -1 0 0
+O 1 2270 1 2275 -1 -1 -1 -1 0 0
+O 1 2271 1 2275 -1 -1 -1 -1 0 0
+O 1 2272 1 2275 -1 -1 -1 -1 0 0
+O 1 2273 1 2275 -1 -1 -1 -1 0 0
+O 1 2283 1 2275 -1 -1 -1 -1 0 0
+O 1 2281 1 2275 -1 -1 -1 -1 0 0
+O 1 2285 1 2275 -1 -1 -1 -1 0 0
+O 1 2287 1 2272 -1 -1 -1 -1 0 0
+M 1 2258 1 2269 -1 -1 -1 0 0
+M 1 2262 1 2269 -1 -1 -1 0 0
+M 1 2252 1 2269 -1 -1 -1 0 0
+O 1 2288 1 2269 -1 -1 -1 -1 0 0
+M 1 2252 1 2258 -1 -1 -1 0 0
+M 1 2259 1 2258 -1 -1 -1 0 0
+M 1 2258 1 2258 -1 -1 -1 0 0
+O 1 2277 1 2258 -1 -1 -1 -1 0 0
+O 1 2282 1 2258 -1 -1 -1 -1 0 0
+O 1 2284 1 2258 -1 -1 -1 -1 0 0
+O 1 2283 1 2258 -1 -1 -1 -1 0 0
+O 1 2289 1 2258 -1 -1 -1 -1 0 0
+O 1 2290 1 2258 -1 -1 -1 -1 0 0
+D 0 2286 1 2
+M 1 2265 1 2268 -1 -1 -1 0 0
+E 1 2256 1 5 -1 0 0
+E 1 2254 1 9 -1 0 0
+E 1 2253 1 6 -1 0 0
+E 1 2252 1 7 -1 0 0
+E 1 2251 1 13 -1 0 0
+O 1 2284 1 2268 -1 -1 -1 -1 0 0
+O 1 2273 1 2268 -1 -1 -1 -1 0 0
+O 1 2282 1 2268 -1 -1 -1 -1 0 0
+D 0 2268 3 1
+M 1 2256 1 2288 -1 -1 -1 0 0
+E 1 2262 1 1 -1 0 0
+E 1 2260 1 13 -1 0 0
+M 1 2258 1 2288 -1 -1 -1 0 0
+O 1 2269 1 2288 -1 -1 -1 -1 0 0
+O 1 2270 1 2288 -1 -1 -1 -1 0 0
+O 1 2271 1 2288 -1 -1 -1 -1 0 0
+O 1 2272 1 2288 -1 -1 -1 -1 0 0
+O 1 2273 1 2288 -1 -1 -1 -1 0 0
+O 1 2274 1 2288 -1 -1 -1 -1 0 0
+O 1 2275 1 2288 -1 -1 -1 -1 0 0
+O 1 2276 1 2288 -1 -1 -1 -1 0 0
+O 1 2277 1 2288 -1 -1 -1 -1 0 0
+O 1 2278 1 2288 -1 -1 -1 -1 0 0
+O 1 2279 1 2288 -1 -1 -1 -1 0 0
+O 1 2280 1 2288 -1 -1 -1 -1 0 0
+O 1 2281 1 2288 -1 -1 -1 -1 0 0
+O 1 2282 1 2288 -1 -1 -1 -1 0 0
+O 1 2283 1 2288 -1 -1 -1 -1 0 0
+O 1 2285 1 2288 -1 -1 -1 -1 0 0
+M 1 2257 1 2287 -1 -1 -1 0 0
+E 1 2265 1 13 -1 0 0
+E 1 2264 1 20 -1 0 0
+E 1 2263 1 1 -1 0 0
+D 0 2287 3 2
+D 0 2293 3 1
+M 1 2267 1 2267 -1 -1 -1 0 0
+E 1 2291 1 15 -1 0 0
+G 1 2294 1 0 -1 0 0
+P 0 2292 29 0 -1 0 0
+M 1 2251 1 2267 -1 -1 -1 0 0
+M 1 2260 1 2267 -1 -1 -1 0 0
+D 0 2267 1 1
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  2256 spec_thief
+M  2257 spec_cast_mage
+S
+
+
+#$

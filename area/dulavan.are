@@ -1,0 +1,3017 @@
+#AREA   Dula'Van~
+
+
+
+#VERSION 53
+#AUTHOR Nevon~
+
+#RANGES
+1 75 1 75 0 0 0 0 0
+$
+
+#RESETMSG A magical wind rejuvenates each living being of Dula'Van.~
+
+#FLAGS
+1033
+
+#ECONOMY 0 68377724 0
+
+#MOBILES
+#5250
+swamp troll~
+&gSwa&Omp &gTro&Oll~
+&gA Swa&Omp &gTro&Oll has wandered into Dula'Van looking for trouble.
+~
+The small troll is a short and stocky beast with a human-like face
+but with the eyes and fangs of a wild beast.
+~
+7 0 4194856 -900 C
+0 0 7 0 0 0
+1d50+350 4d2+3 0 0 0
+254 0
+112 112 1
+16 13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 263919 0 3072 0 0 2 2
+#5277
+young lady~
+A young lady~
+A quiet young lady walks down the street.
+~
+This young maiden is dressed in all white. She appears to be in a
+hurry and weaves in between the crowd of people that have come to
+enjoy Dula'Van.
+~
+1 0 4 1000 C
+0 0 10 0 0 0
+7d5+400 2d2+10 0 0 0
+3000 0
+112 112 0
+13 13 13 13 13 13 13 58
+0 0 0 0 0
+1 0 0 0 1 1 58
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 576 1
+#5278
+altar boy~
+an altar boy~
+An altar boy stops to clean his robes.
+~
+A small altar boy is here making sure that his robes are clean for
+worshiping in the temple. He gives you a haughty look as to warn you
+not to get his robes dirty.
+~
+65 0 4 1000 C
+0 0 10 0 0 0
+2d10+290 1d5+7 0 0 0
+600 0
+112 112 1
+15 13 13 13 13 13 13 54
+0 0 0 0 0
+1 0 0 0 1 1 54
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 64 2
+#5279
+Morese~
+Morese the undertaker~
+Morese the undertaker is here tending to the rotting corpses.
+~
+Morese the undertaker is an old man that was once a powerful priest.
+Yet he tried to take over the city one day but was defeated by Nevon.
+Nevon reduced Morese' rank down to undertaker and is now cursed to
+stay in this dead room for eternity. Morese watches over the corpses
+and has been known to chew on the remains of dead animals.
+~
+67108867 0 128 0 C
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+1 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#5280
+wandering priest~
+a wandering priest~
+A wandering priest is here mumbling today's teachings to himself.
+~
+A common priest is here dressed in purple robes of the Ancients. The
+priests in Dula'Van all look the same since the hoods on their robes
+cover their face. They do not talk much except for a slight mutter of
+words that cannot be understood.
+~
+16777217 0 524288 1000 C
+0 0 12 0 0 0
+5d5+400 2d2+10 0 0 0
+1000 0
+112 112 0
+13 18 18 14 18 13 13 58
+0 0 0 0 0
+1 0 0 0 1 1 58
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+11 0 0 0 0 0 0 1073741888 2
+#5281
+A town guard~
+a town guard~
+A large stone guard is here keeping the visitors in order.
+~
+These large stone guards stand tall and mighty. They are here to keep
+a watchful eye on the visitors that enter Dula'Van. Erected years ago
+by a magical spell they are formed from the very stone that make up
+Dula'Van.
+~
+65 0 0 1000 C
+0 0 -110 0 0 0
+9d13+875 5d9+14 0 0 0
+50 0
+112 112 0
+13 13 13 13 13 13 13 4
+0 0 0 0 0
+1 0 0 0 1 1 4
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1074004096 8192
+#5282
+Fisherman man~
+a fisherman~
+An old fisherman is sitting here, trying to catch a meal.
+~
+Dressed in old scraggly clothes has a few fish sticking out of his
+many pockets that line his vest. There is a sign on his back that
+says, Will Fish for Money.
+~
+67108867 0 0 1000 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#5283
+Iklander~
+Iklander~
+Iklander the bartender is here wiping off the counter.
+~
+With is bar apron around his waist Iklander watches over the guests
+that visit his bar. He has a long mustache and his hair is black with
+a dark shade of green down the middle.
+~
+67108867 0 0 1000 C
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 1
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+1 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#5284
+Macklan~
+Macklan~
+Macklan the town elder wanders up and down the streets.
+~
+Macklan, the oldest mortal in Dula'Van is here greeting new visitors
+to this town. He is dressed in the black and purple robes that are
+unique to the Ancients and only bestowed to special mortals. From
+is weathered brow shows the markings of many battles and his face
+is wrinkled from the hours of strong meditation.
+~
+67108929 0 0 1000 C
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 1
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+1 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#5285
+Earl~
+Earl~
+Earl the bartender is here washing some glasses.
+~
+Earl is the only overweight augurer in Dula'Van. He is constantly
+cleaning the bar and will sometimes converse with the more frequent
+visitors.
+~
+67108867 0 0 1000 C
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 1
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+1 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#5286
+Devoted One man~
+Devoted One~
+A tall slender man dressed in purple robes meditates here.
+~
+This secret priest has dedicated its life to the study of the Ancients
+and their many teachings. This devoted follower never leave this temple
+for it has cast a powerful spell so it does not require food or water.
+~
+67108867 0 0 1000 C
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+1 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#5287
+Iglas~
+Iglas the merchant~
+Iglas the merchant is here polishing her weapons
+~
+Iglas the merchant is sitting behind her desk polishing her weapons.
+She glances at each new visitor as they enter her shop.
+~
+67108867 0 0 1000 C
+0 0 -230 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 2
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+1 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#5288
+Yukla~
+Yukla the herbist~
+Yukla the local herbist is here tending to his garden.
+~
+Yukla is the local herbist here in Dula'Van. He loves his different
+types of herbs that he has collected from the many lands of Rafermand.
+Yukla has tended to these herbs for so long, that when he leaves his
+shop the smell of the herbs erupts from his body.
+~
+67108867 0 0 1000 C
+0 0 -230 0 0 0
+0d0+0 6d7+8 0 0 0
+0 0
+112 112 0
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+1 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#5289
+Josian~
+Josian the Baker~
+Josian is here baking fresh foods.
+~
+This flour covered person is Josian the town baker. She makes fresh
+goods and has even created a very special food that has a taste like
+no other.
+~
+67108867 0 0 1000 C
+0 0 -230 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 2
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+1 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#5290
+Rythal~
+Rythal the Blacksmith~
+Rythal is here mending damaged equipment.
+~
+Even though this shop is covered in smut from the hot fires that help
+Rythal repair the damaged equipment that visitors have brought in.
+~
+67108867 0 0 1000 C
+0 0 -230 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+1 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#5291
+Brunack~
+Brunack~
+Brunack is here polishing his equipment.
+~
+Brunack is here covered in the different armor that he sells at his
+shop. Other than a strange colored shirt, brunack is dressed in the
+standard work clothes.
+~
+67108867 0 37748736 1000 C
+0 0 -230 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+1 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#5292
+Suakle~
+Suakle the Magician~
+Suakle is here tending to her magic potions.
+~
+This elder magician is dressed in blue and purple robes that give
+off a mystic glow whenever a new visitor enters Suakle's shop. Her
+skin is the color of night and her eyes are as white as snow.
+~
+67108867 0 373293184 1000 C
+0 0 -230 0 0 0
+0d0+0 6d7+8 0 0 0
+0 0
+112 112 2
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+1 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#5250
+loaf bread~
+a loaf of bread~
+A scrumptious loaf of bread lies here, making your taste buds swirl.~
+~
+19 0 1
+4 0 0 0
+2.000000 50 0 21021 0 0 0
+#5251
+chocolate chip cookie~
+a chocolate-chip cookie~
+The most tasty-looking cookie you have ever seen lies on the ground here.~
+%s eat$q $p and proclaim$q it THE BEST COOKIE EVER!~
+19 0 1
+35 0 0 0
+1.000000 8 0 24851 0 0 0
+#5252
+cake~
+a chocolate cake~
+A large chocolate cake awaits someone to eat it.~
+~
+19 0 16385
+10 0 0 0
+1.000000 60 0 21020 0 0 0
+#5253
+chocolate cake~
+a sinful chocolate cake~
+A chocolate cake sits here, beckoning you to eat it.~
+%s throw$q health to the wind and eat$q $p.~
+19 0 1
+90 0 0 0
+3.000000 20 0 24855 0 0 0
+#5254
+Josian's Delightful Cookie~
+&OJosian's Delightful Cookie~
+&OJosian's Delightful Cookie rests here on the ground.~
+~
+19 0 1
+99 0 0 0
+1.000000 1500 0 0 0 0 0
+> use_prog 100~
+cast 'sanctify' $n
+cast 'iceshield' $n
+cast 'detect good' $n
+~
+|
+#5255
+chair~
+a chair~
+A leather chair is here for you to sit on.~
+~
+12 0 1
+0 0 1 0
+25.000000 30000 0 9010 0 0 0
+E
+chair~
+It is a leather chair.  Just a bland normal leather chair.
+~
+#5256
+clear potion~
+a clear potion~
+A clear potion is here on the ground.~
+~
+10 8513 1
+28 -1 -1 -1
+1.000000 3000 0 0 0 0 0
+'heal' 'NONE' 'NONE'
+E
+clear~
+&WThis perfect clear potion was created by Suakle in the village of
+Dula'Van. Small writing on the outside of the potion has the words
+"Healing of the Body".
+~
+#5260
+Elven Sword~
+&G&WElven Sword~
+&G&WAn Elven Sword is lying here~
+~
+5 532480&0&64 513
+1000 8 10 1 -1 -1 0 4 7 6 8 0 35 10
+5.000000 4000 0 2503 0 0 0
+'NONE'
+E
+elven sword~
+A sword created with the best of elven blacksmithing skill.
+~
+#5261
+Elven Blade~
+&G&WElven Blade~
+&G&WAn Elven Blade is lying here~
+~
+5 532480 513
+1000 3 6 1 -1 -1 0 2 4 4 6 0 35 8
+5.000000 900 0 2507 0 0 0
+'NONE'
+E
+elven blade~
+A sword created with the best of elven blacksmithing skill.
+~
+A
+18 4 0
+A
+19 3 0
+#5262
+sword thin two two-handed~
+a thin two-handed sword~
+A heavy yet thinly bladed two-handed sword lies here.~
+slash~
+5 8256 513
+1000 7 10 2 -1 -1 0 3 5 5 7 0 25 13
+16.000000 300 0 809 0 0 0
+'NONE'
+E
+sword thin two two-handed~
+The sword is forged from a strange silvery metal.  It barely measures two
+inches across at its widest point, yet it is totally inflexible and razor
+sharp.  It could probably cut through stone.
+~
+#5263
+short sword~
+short sword~
+A short sword lies here.~
+~
+5 8192 1
+0 1 6 11 3 -1 0 0 0 0 0 0 0 0
+3.000000 30 0 2904 0 0 0
+'acid breath'
+#5264
+cowhide whip~
+a cowhide whip~
+A long whip made of cowhide lies on the ground.~
+~
+5 8659968 8193
+12 2 6 4 3 -1 0 0 0 0 0 0 0 0
+2.000000 560 0 2428 0 0 0
+'acid breath'
+E
+whip~
+A cowhide whip.
+~
+A
+18 2 0
+#5265
+hand axe~
+hand axe~
+A hand axe lies here.~
+~
+5 8192 1
+0 1 6 3 3 -1 0 0 0 0 0 0 0 0
+3.000000 30 0 2905 0 0 0
+'acid breath'
+E
+axe~
+A small hand axe.
+~
+#5266
+a short sword~
+a short sword~
+There lies a short sword.~
+~
+5 8192 8193
+0 2 4 3 3 -1 0 0 0 0 0 0 0 0
+4.000000 60 0 7211 0 0 0
+'acid breath'
+E
+sword~
+A powerful short sword that has seen many battles.
+~
+A
+18 1 0
+#5267
+Lavender potion~
+lavender potion~
+A lavender potion lies motionless on the ground before you.~
+~
+10 0 1
+50 -1 -1 -1
+1.000000 6500 0 0 0 0 0
+'sanctify' 'NONE' 'NONE'
+#5268
+cloudy potion~
+a cloudy potion~
+A cloudy potion lies here on the ground.~
+~
+10 0 1
+20 -1 -1 -1
+1.000000 1000 0 0 0 0 0
+'fly' 'NONE' 'NONE'
+#5269
+aqua potion~
+a aqua potion~
+A aqua potion lies calmly on the ground before you.~
+~
+10 0 1
+20 -1 -1 -1
+1.000000 1000 0 0 0 0 0
+'aqua breath' 'NONE' 'NONE'
+#5270
+wand faerie fire~
+a pink wand~
+A pink wand lies here~
+~
+3 64 1
+3 3 3 -1
+10.000000 200 0 31379 0 0 0
+'NONE'
+#5271
+crystal wand~
+a sparkling crystal wand~
+A sparkling crystal wand has been left lying here.~
+~
+3 65 16385
+12 3 3 -1
+1.000000 200 0 21045 0 0 0
+'NONE'
+#5272
+wand armor~
+a wand of oak~
+A wand of oak lies here.~
+~
+3 64 1
+5 10 10 -1
+10.000000 275 0 31378 0 0 0
+'NONE'
+#5273
+Hero Armor~
+Hero Armor~
+The armor of a legendary hero, lays on the ground forgotten.~
+~
+9 8914241&8 9
+0 0 0 0 0 25 25 0 0 0 0 0 0 0
+20.000000 12000 0 2767 0 0 0
+E
+Hero Armor~
+&gFaintly glowing &Bblue, and &c&wsilver&g runes on it.  It is truly a
+magnificent piece of armor, and only one is worthy of it, a hero.
+~
+A
+17 -15 0
+A
+18 5 0
+A
+19 5 0
+A
+13 40 0
+A
+12 40 0
+A
+2 1 0
+A
+5 1 0
+#5274
+standard issue orc armor~
+some orc body armor~
+Body armor crafted for orcs is here before you.~
+~
+9 524288 9
+0 0 0 0 0 15 0 0 0 0 0 0 0 0
+20.000000 450 0 28001 0 0 0
+E
+standard issue orc armor~
+The armor appears to be typically body armor, but a small mark inside
+indicated that it is orc issued armor.
+~
+A
+13 10 0
+A
+19 1 0
+A
+18 1 0
+#5275
+iron visor~
+an iron visor~
+An iron visor has fallen here.~
+~
+9 0 131073
+3 4 0 0 0 15 0 0 0 0 0 0 0 0
+1.000000 200 0 21066 0 0 0
+E
+visor~
+A plain iron visor.
+~
+#5276
+shadow helm~
+&wS&Wh&wa&Wd&wo&Ww &wH&We&wl&Wm~
+&w&WA dark-colored &wH&We&wl&Wm&we&Wt lies here.~
+~
+9 0 17
+12 14 0 0 0 16 0 0 0 0 0 0 0 0
+7.000000 6000 0 1607 0 0 0
+E
+helmet shadow~
+This helmet looks as though it has endured many fights in its lifetime.
+~
+A
+13 10 0
+A
+19 1 0
+A
+18 1 0
+#5277
+Stradoff's Boots~
+&G&WSteel boots~
+&G&WSome steel boots are lying here~
+~
+9 0 65
+5 5 0 12 0 16 0 0 0 0 0 0 0 0
+10.000000 1200 0 2551 0 0 0
+E
+stradoff boots steel~
+These are Stradoff Bluehaven's steel boots.
+~
+#5278
+iron helm~
+an iron helm~
+An iron helm has fallen here.~
+~
+9 0 17
+5 5 0 0 0 15 0 0 0 0 0 0 0 0
+8.000000 250 0 21059 0 0 0
+E
+helm~
+A plain iron helm.
+~
+#5279
+visor clear~
+a clear visor~
+A flimsy-looking visor lies here crumpled on the ground.~
+~
+9 0 17
+7 7 0 0 0 15 0 0 0 0 0 0 0 0
+1.000000 1000 0 24894 0 0 0
+E
+visor~
+A flimsy clear visor that has a light grey tent.
+~
+A
+4 2 0
+#5280
+red potion~
+red potion~
+A yellow potion is here.~
+~
+10 1024 1
+30 -1 -1 -1
+1.000000 1500 0 3008 0 0 0
+'invis' 'NONE' 'NONE'
+E
+red~
+Wonder what this lil potion will do...
+~
+#5281
+yellow potion~
+yellow potion~
+A red potion is here.~
+~
+10 1024 1
+30 -1 -1 -1
+1.000000 1500 0 3009 0 0 0
+'NONE' 'NONE' 'NONE'
+E
+yellow~
+Wonder what this lil potion will do...
+~
+#5282
+pink potion~
+pink potion~
+A pink potion is here.~
+~
+10 1024 1
+30 -1 -1 -1
+1.000000 1500 0 3010 0 0 0
+'fly' 'NONE' 'NONE'
+E
+pink~
+Wonder what this lil potion will do...
+~
+#5283
+white potion~
+white potion~
+A white potion is here.~
+~
+10 1024 1
+30 -1 -1 -1
+1.000000 2800 0 3011 0 0 0
+'sanctuary' 'NONE' 'NONE'
+E
+white~
+Wonder what this lil potion will do...
+~
+#5284
+green potion~
+green potion~
+A green potion is here.~
+~
+10 1024 1
+30 -1 -1 -1
+1.000000 1500 0 3012 0 0 0
+'bless' 'NONE' 'NONE'
+E
+green~
+Wonder what this lil potion will do...
+~
+#5285
+blue potion~
+blue potion~
+A blue potion is here.~
+~
+10 1024 1
+30 -1 -1 -1
+1.000000 1500 0 3013 0 0 0
+'armor' 'NONE' 'NONE'
+E
+blue~
+Wonder what this lil potion will do...
+~
+#5286
+orange potion~
+orange potion~
+An orange potion is here.~
+~
+10 1024 1
+30 -1 -1 -1
+1.000000 1500 0 3014 0 0 0
+'cure serious' 'NONE' 'NONE'
+E
+orange~
+Wonder what this lil potion will do...
+~
+#5287
+ankle band leather~
+a leather ankle band~
+A leather ankle band lies on the ground.~
+~
+9 0 2097153
+5 5 0 0 0 15 0 0 0 0 0 0 0 0
+2.000000 4000 0 523 0 0 0
+E
+ankle band leather~
+The band of leather tapers at each end into leather strings used to tie
+the band ends together.
+A small ankle band.
+~
+A
+13 15 0
+A
+12 10 0
+A
+18 1 0
+#5288
+life boat~
+&Oa small wooden boat~
+&OA small wooden boat is anchored here.~
+~
+12 64 0
+0 0 1666 50000 50000 0 0 0 0 0 0 0 0 0
+1.000000 10000 0 0 0 0 0
+#5289
+frozen finger~
+&CA Frozen Finger~
+&CA Frozen Finger lies here~
+~
+9 -2146959104 3
+10 10 0 0
+1.000000 500 0 0 0 0 0
+A
+56 221 0
+A
+56 89 0
+#5290
+bluish herbs~
+some bluish herbs~
+Some bluish herbs are scattered here.~
+~
+26 0 1
+15 -1 -1 17
+1.000000 10 0 8913 0 0 0
+'NONE' 'NONE' 'bless'
+#5291
+purplish herbs~
+some purplish herbs~
+Some purplish herbs are scattered here.~
+~
+26 0 1
+15 -1 -1 -1
+1.000000 20 0 8914 0 0 0
+'NONE' 'NONE' 'NONE'
+E
+herbs~
+H4w!  34t m3, 3y3 t45t3 l33t!~
+#5292
+blackish herbs~
+some blackish herbs~
+Some blackish herbs are scattered here.~
+~
+26 0 1
+5 -1 -1 19
+1.000000 18 0 8915 0 0 0
+'NONE' 'NONE' 'blindness'
+#5293
+grayish herbs~
+some grayish herbs~
+Some grayish herbs are scattered here.~
+~
+26 0 1
+5 -1 110 127
+1.000000 18 0 8916 0 0 0
+'NONE' 'kindred strength' 'poison'
+#5294
+reddish herbs~
+some reddish herbs~
+Some reddish herbs are scattered here.~
+~
+26 0 1
+15 -1 -1 42
+1.000000 10 0 8917 0 0 0
+'NONE' 'NONE' 'detect magic'
+#5295
+orangish herbs~
+some orangish herbs~
+Some orangish herbs are scattered here.~
+~
+26 0 1
+5 -1 -1 33
+1.000000 20 0 8918 0 0 0
+'NONE' 'NONE' 'cure light'
+#5296
+pinkish herbs~
+some pinkish herbs~
+Some pinkish herbs are scattered here.~
+~
+26 0 1
+5 -1 34 127
+1.000000 20 0 8919 0 0 0
+'NONE' 'cure poison' 'poison'
+#5297
+chalice of Teslon~
+&WC&Yhalic&We o&Yf &WT&Yeslo&Wn~
+&WThe C&Yhalic&We o&Yf &WT&Yeslo&Wn stands tall here on the ground.~
+~
+15 -2147483199&258 1024 1
+750 0 30 0
+1.000000 3000 0 0 0 0 0
+E
+chalice~
+&YThis perfect cup was created for King Teslon by his most gifted
+Alchemist. More of a artist than a wizard, Ulan was had a unique
+ability that allowed him to craft almost anything out of almost all
+types of materials. But what is so special about this chalice is
+that is may look small, but can hold an almost unlimited amount
+of objects, and still retain its static weight. 
+~
+#5298
+crystal dragon eyes~
+&WCrystal Eyes~
+The eyes of a &WCrystal Dragon&G rest here.~
+~
+9 524544 131073
+4 3 0 0
+1.000000 200 0 2432 0 0 0
+A
+3 1 0
+A
+4 2 0
+A
+12 8 0
+A
+26 4194304 0
+A
+26 1048576 0
+#5299
+Mystical Sleeves~
+&zP&Rerfect &zM&Rystical &zS&Rleeves&g~
+&zN&Revon's &zM&Rystical &zS&Rleeves &zh&Rave &zb&Reen &zp&Rlaced &zh&Rere.~
+~
+9 -2146955967&258 257
+5 5 0 0
+1.000000 2000000 0 0 0 0 0
+A
+1 5 0
+A
+2 3 0
+A
+18 20 0
+A
+19 20 0
+A
+31 2 0
+A
+3 4 0
+A
+25 1 0
+A
+26 67108864 0
+A
+26 8192 0
+A
+26 16777216 0
+A
+26 4194304 0
+A
+26 524288 0
+A
+26 4 0
+A
+26 8 0
+A
+26 16 0
+A
+26 32 0
+A
+26 512 0
+A
+13 1000 0
+A
+12 1000 0
+A
+14 1000 0
+A
+22 -10 0
+A
+21 -10 0
+A
+20 -10 0
+A
+23 -10 0
+A
+24 -10 0
+#5301
+beer bottle Herbal ale~
+Bottle of Herbal Ale~
+A bottle of Herbal Ale is floating here for your enjoyment.~
+~
+17 0 1
+20 20 7 0
+10.000000 20 0 31372 0 0 0
+#5302
+detect invisible potion~
+a detect invisible potion~
+A detect invisible potion lies here.~
+~
+10 0 16385
+51 -1 -1 -1 0 2 0 0 0 0 0 0 0 0
+1.000000 1600 0 0 0 0 0
+'detect hidden' 'NONE' 'NONE'
+#5303
+a clouded ring~
+&WA clo&wuded &Wri&wng~
+&WA clo&wuded &Wri&wng hovers above the ground here.~
+~
+9 256 3
+2 2 0 0 0 5 0 0 0 0 0 0 0 0
+1.000000 71 0 0 0 0 0
+A
+4 1 0
+A
+3 1 0
+A
+31 1 0
+#5304
+a iron ring~
+&ziron ring~
+&zAn iron ring lies on the ground here.~
+~
+9 524544 3
+2 2 0 0 0 5 0 0 0 0 0 0 0 0
+1.000000 75 0 0 0 0 0
+A
+1 1 0
+A
+2 1 0
+A
+5 1 0
+#5305
+mage dagger~
+&wa ma&pge's &pdagg&wer~
+&wA ma&pge's &pdagg&wer floats above the ground here.~
+~
+5 562790667&120 8193
+12 15 5 2 2 -1 0 0 0 0 0 0 0 0
+1.000000 256 0 0 0 0 0
+'acid blast'
+E
+mage~
+&pThis dagger was made to help young mages battle the evils that have
+spread across the land.
+~
+A
+12 64 0
+A
+13 21 0
+A
+56 19 0
+#5306
+Elystic Dagger~
+&wEl&zys&Btic &wDag&wg&Ber~
+&wAn El&zys&Btic &wDag&wg&Ber is stuck in a rock here.~
+~
+5 -1073217271 8193
+12 4 9 2 2 -1 0 0 0 0 0 0 0 0
+1.000000 359 0 0 0 0 0
+'acid blast'
+A
+13 100 0
+A
+19 3 0
+A
+18 6 0
+A
+12 120 0
+#5307
+Elystic Bow~
+&BE&zlysti&Wc &BB&zo&Ww~
+&BAn E&zlysti&Wc &BB&zo&Ww floats above the ground here.~
+~
+13 1073741824 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#5308
+Elystic Quiver~
+a newly created Elystic Quiver~
+Some god dropped a newly created Elystic Quiver here.~
+~
+13 1073741824 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#5311
+finger~
+&RA&r &RB&rloody &RF&ringer~
+&RA&r &RB&rloody &RF&ringer &Rg&rrows &Rf&rrom &Ro&rut &Ro&rf &Rt&rhe &Rg&rround &RH&rere.~
+~
+18 262183 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+desc~
+&BA nasty finger covered in blood sprouts from the ground here. It
+twitches when a mortal comes near it and stands erect when an
+immortal enters the room. How could anyone even touch this disgusting
+artifact of human remains.
+~
+E
+look~
+~
+E
+finger~
+&RA nasty finger covered in blood sprouts from the ground here. It
+twitches when a mortal comes near it and stands erect when an
+immortal enters the room. How could anyone even touch this disgusting
+artifact of human remains.
+~
+#5312
+fountain~
+&BThe crystal clear fountain of Dula'Van.~
+&BThe crystal clear fountain of Dula'Van.~
+~
+25 65 0
+5000000 5000000 0 0
+1000.000000 0 0 0 0 0 0
+E
+fountain~
+&cThis ancient stone fountain was the first object created in Dula'Van.
+The fountain is the center of the town and supplies every living
+being with an endless flow of cool spring water. There are carvings
+along the sides of the fountain that show the story of how this town
+came to be and a picture of Dula'Van's founder: Nevon
+~
+#5313
+flaming fists of fury~
+&RFlaming fists of fury~
+Some red gloves are on the ground here.~
+~
+5 257 8193
+12 4 10 17 4 -1 0 0 0 0 0 0 0 0
+1.000000 531 0 0 0 0 0
+'acidic ball'
+A
+19 3 0
+A
+13 80 0
+A
+18 3 0
+A
+40 1 0
+#0
+
+
+#ROOMS
+#5250
+Northern Entrance to Dula'Van~
+Each entrance into Dula'Van is guarded by two ancient stone
+sentinels. At the northern entrance the guards resemble the
+older more wise augurers that helped create this city. When
+the sun hits the statue's eyes, the light blue color seems
+to blink at the adventurers that enter Dula'Van.
+~
+4&2
+0 14
+0
+0
+D0
+~
+~
+134217728 -1 16000
+207 297
+D2
+~
+~
+0 -1 5251
+0 0
+S
+#5251
+Main Street~
+The cobblestones that make up this busy street are worn from the
+many people that pass through this city. Even though these streets
+are old, they are very tidy and there is not a single piece of litter
+resting on the ground. Many races of people pass by but most of them
+resemble the local augurer but it is hard to tell from the steady
+movement of people.
+~
+4&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 5250
+0 0
+D2
+~
+~
+0 -1 5252
+0 0
+D3
+~
+~
+0 -1 5278
+0 0
+S
+#5252
+Main Street~
+The cobblestones that make up this busy street are worn from the
+many people that pass through this city. Even though these streets
+are old, they are very tidy and there is not a single piece of litter
+resting on the ground. Many races of people pass by but most of them
+resemble the local augurer but it is hard to tell from the steady
+movement of people.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 5251
+0 0
+D1
+~
+~
+0 -1 5281
+0 0
+D2
+~
+~
+0 -1 5253
+0 0
+S
+#5253
+Main Street~
+The cobblestones that make up this busy street are worn from the
+many people that pass through this city. Even though these streets
+are old, they are very tidy and there is not a single piece of litter
+resting on the ground. Many races of people pass by but most of them
+resemble the local augurer but it is hard to tell from the steady
+movement of people.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 5252
+0 0
+D2
+~
+~
+0 -1 5254
+0 0
+S
+#5254
+Main Street~
+The cobblestones that make up this busy street are worn from the
+many people that pass through this city. Even though these streets
+are old, they are very tidy and there is not a single piece of litter
+resting on the ground. Many races of people pass by but most of them
+resemble the local augurer but it is hard to tell from the steady
+movement of people.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 5253
+0 0
+D2
+~
+~
+0 -1 5255
+0 0
+S
+#5255
+Destiny Fountain~
+The four corners of Dula'Van come together in a kaleidoscope of
+different colored stones form this exquisite fountain that appears
+to have been carefully handcrafted many centuries ago. An endless
+flow of pure, crystal clear water, flow from the stone faces that
+have seen the many different visitors travel through Dula'Van.
+~
+0&34
+0 10
+0
+0
+D0
+~
+~
+0 -1 5254
+0 0
+D1
+~
+~
+0 -1 5264
+0 0
+D2
+~
+~
+0 -1 5256
+0 0
+D3
+~
+~
+0 -1 5260
+0 0
+S
+#5256
+Main Street~
+The cobblestones that make up this busy street are worn from the
+many people that pass through this city. Even though these streets
+are old, they are very tidy and there is not a single piece of litter
+resting on the ground. Many races of people pass by but most of them
+resemble the local augurer but it is hard to tell from the steady
+movement of people.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 5255
+0 0
+D2
+~
+~
+0 -1 5257
+0 0
+S
+#5257
+Main Street~
+The cobblestones that make up this busy street are worn from the
+many people that pass through this city. Even though these streets
+are old, they are very tidy and there is not a single piece of litter
+resemble the local augurer but it is hard to tell from the steady
+movement of people.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 5256
+0 0
+D1
+~
+~
+0 -1 5271
+0 0
+D2
+~
+~
+0 -1 5258
+0 0
+D3
+~
+~
+0 -1 5268
+0 0
+S
+#5258
+Main Street~
+The cobblestones that make up this busy street are worn from the
+many people that pass through this city. Even though these streets
+are old, they are very tidy and there is not a single piece of litter
+resemble the local augurer but it is hard to tell from the steady
+movement of people.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 5257
+0 0
+D2
+~
+~
+0 -1 5259
+0 0
+D3
+~
+~
+0 -1 5297
+0 0
+S
+#5259
+Southern Entrance to Dula'Van~
+Each entrance into Dula'Van is guarded by two ancient stone
+sentinels. The southern guards represent the wise and magical
+elder augurers that have ruled over this area since its start.
+Their eyes are pure ivory that symbolize the deep meditation
+that augurers go through to help them become one with the
+magical essence that flows over the lands of Rafermand.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 5258
+0 0
+D1
+~
+~
+0 -1 5301
+0 0
+D2
+~
+~
+134217728 -1 16000
+207 301
+S
+#5260
+Zulic Avenue~
+The beige, sandstone buildings line Zulic Avenue and appear to have
+mild damage from the winds that wisp through Rafermand. Many people
+scurry past each other, entering and exiting the several shops that
+line the streets of Dula'Van. Zulic Avenue's road, however is a dark
+purple color that is also used by the Mystic's during their ceremony.
+~
+4&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 5255
+0 0
+D2
+~
+~
+0 -1 5292
+0 0
+D3
+~
+~
+0 -1 5261
+0 0
+S
+#5261
+Zulic Avenue~
+The beige, sandstone buildings line Zulic Avenue and appear to have
+mild damage from the winds that wisp through Rafermand. Many people
+scurry past each other, entering and exiting the several shops that
+line the streets of Dula'Van. Zulic Avenue's road, however is a dark
+purple color that is also used by the Mystic's during their ceremony.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 5287
+0 0
+D1
+~
+~
+0 -1 5260
+0 0
+D2
+~
+~
+0 -1 5291
+0 0
+D3
+~
+~
+0 -1 5262
+0 0
+S
+#5262
+Zulic Avenue~
+The beige, sandstone buildings line Zulic Avenue and appear to have
+mild damage from the winds that wisp through Rafermand. Many people
+scurry past each other, entering and exiting the several shops that
+line the streets of Dula'Van. Zulic Avenue's road, however is a dark
+purple color that is also used by the Mystic's during their ceremony.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 5288
+0 0
+D1
+~
+~
+0 -1 5261
+0 0
+D3
+~
+~
+0 -1 5263
+0 0
+S
+#5263
+Western Entrance to Dula'Van~
+Each entrance into Dula'Van is guarded by two ancient stone
+sentinels. The western guards represent the caretakers that
+have over several generations, have tended to the wildlife
+that grows in Dula'Van. Their emerald eyes represent the
+power of nature and the spiritual learning that comes from
+studying nature.
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 5262
+0 0
+D3
+~
+~
+134217728 -1 16000
+205 299
+S
+#5264
+Zulic Avenue~
+The beige, sandstone buildings line Zulic Avenue and appear to have
+mild damage from the winds that wisp through Rafermand. Many people
+scurry past each other, entering and exiting the several shops that
+line the streets of Dula'Van. Zulic Avenue's road, however is a dark
+purple color that is also used by the Mystic's during their ceremony.
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 5265
+0 0
+D2
+~
+~
+0 -1 5293
+0 0
+D3
+~
+~
+0 -1 5255
+0 0
+S
+#5265
+Zulic Avenue~
+The beige, sandstone buildings line Zulic Avenue and appear to have
+mild damage from the winds that wisp through Rafermand. Many people
+scurry past each other, entering and exiting the several shops that
+line the streets of Dula'Van. Zulic Avenue's road, however is a dark
+purple color that is also used by the Mystic's during their ceremony.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 5289
+0 0
+D1
+~
+~
+0 -1 5266
+0 0
+D3
+~
+~
+0 -1 5264
+0 0
+S
+#5266
+Zulic Avenue~
+The beige, sandstone buildings line Zulic Avenue and appear to have
+mild damage from the winds that wisp through Rafermand. Many people
+scurry past each other, entering and exiting the several shops that
+line the streets of Dula'Van. Zulic Avenue's road, however is a dark
+purple color that is also used by the Mystic's during their ceremony.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 5290
+0 0
+D1
+~
+~
+0 -1 5267
+0 0
+D2
+~
+~
+0 -1 5300
+0 0
+D3
+~
+~
+0 -1 5265
+0 0
+S
+#5267
+Eastern Entrance to Dula'Van~
+Each entrance into Dula'Van is guarded by two ancient stone
+sentinels. At the eastern entrance the guards represent the
+backbone of Dula'Van. Their multi gemmed eyes emit a rainbow
+of colors that dance across each visitor's armor.
+~
+4&2
+0 14
+0
+0
+D1
+~
+~
+134217728 -1 16000
+209 299
+D3
+~
+~
+0 -1 5266
+0 0
+S
+#5268
+Wisdale Avenue~
+The buildings along this slightly smaller street are not as elegant
+as the rest of the town's buildings. They resemble tiny houses that
+have seen many different types of people pass by on their personal
+journey. The wind blowing in from Lake Iotopal rustles small pieces
+of discarded material on the tan colored road.
+~
+4&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 5257
+0 0
+D3
+~
+~
+0 -1 5269
+0 0
+S
+#5269
+Wisdale Avenue~
+The buildings along this slightly smaller street are not as elegant
+as the rest of the town's buildings. They resemble tiny houses that
+have seen many different types of people pass by on their personal
+journey. Small birds dive for fish that inhabit Lake Iotopal and
+eat their catch on the side of the dock.
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 5268
+0 0
+D3
+~
+~
+0 -1 5270
+0 0
+S
+#5270
+Wisdale Avenue~
+The buildings along this slightly smaller street are not as elegant
+as the rest of the town's buildings. They resemble tiny houses that
+have seen many different types of people pass by on their personal
+journey. To the south the sounds of horses can be heard and the
+familiar smell that comes only from stables itches your nose.
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 5269
+0 0
+D2
+~
+~
+0 -1 5295
+0 0
+S
+#5271
+Wisdale Avenue~
+The buildings along this slightly smaller street are not as elegant
+as the rest of the town's buildings. They resemble tiny houses that
+have seen many different types of people pass by on their personal
+journey. The local trade shop is south of here and to the east an
+interesting smell floats in from that direction.
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 5272
+0 0
+D2
+~
+~
+0 -1 5294
+0 0
+D3
+~
+~
+0 -1 5257
+0 0
+S
+#5272
+Wisdale Avenue~
+The buildings along this slightly smaller street are not as elegant
+as the rest of the town's buildings. They resemble tiny houses that
+have seen many different types of people pass by on their personal
+journey. Towards the west many people can be seen entering and
+exiting the trade shop, while turning to the east a few warriors
+look battered and tired from a battle.
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 5273
+0 0
+D3
+~
+~
+0 -1 5271
+0 0
+S
+#5273
+Wisdale Avenue~
+The buildings along this slightly smaller street are not as elegant
+as the rest of the town's buildings. They resemble tiny houses that
+have seen many different types of people pass by on their personal
+journey. To the south is a small office like building that seems
+to attract the more tougher person. Towards the east the slight
+smell of dead bodies and rotting flesh can be sensed. Back towards
+the west you can hear the voices of people scurrying along Wisdale
+Avenue.
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 5274
+0 0
+D2
+~
+~
+0 -1 5311
+0 0
+D3
+~
+~
+0 -1 5272
+0 0
+S
+#5274
+The Morgue~
+The smell of dead bodies engulf your nostrils. Skulls and rusted
+armor line the walls and coffins are used for the rats to feast
+upon the rotten flesh. A small amount of light gives off a spooky
+glow that makes the shadows seem alive. Moans and howls echo
+throughout the halls and makes the hairs on your head stand on
+end. Truly this is no place for the living.
+~
+1049732&2
+0 0
+0
+0
+D3
+~
+~
+0 -1 5273
+0 0
+S
+#5275
+Temple of Nevon~
+The smell of different fragrances engulf each visitor's nose as they
+continue through the temple. The wealth of the town's highest ranking
+officials has been donated to keep this temple beautiful and respectful
+just as Nevon had originally created. Polished brass lanterns produce
+the holy light that aids in the reading of the Great Passages of Nevon.
+~
+1036&2
+0 0
+0
+0
+D2
+~
+~
+0 -1 5278
+0 0
+D3
+~
+~
+0 -1 5276
+0 0
+S
+#5276
+Meditation Room~
+A single black candle is the only source of light in this room. Other
+people are in a deep trance quietly humming as they concentrate on
+certain activities. There are cushiony pillows on the ground for
+visitors to sit on but the regulars have their personal pillow to
+sit on.
+~
+1036&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 5275
+0 0
+D2
+~
+~
+0 -1 5277
+0 0
+S
+#5277
+Temple of Nevon~
+The smell of different fragrances engulf each visitor's nose as they
+continue through the temple. Several handcrafted quits have been
+hung on the wall that tell of great and wondrous creations of many
+augurers. The lanterns produce the holy light that give this room a
+mystical feel.
+~
+1036&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 5276
+0 0
+D1
+~
+~
+0 -1 5278
+0 0
+D2
+~
+~
+0 -1 5279
+0 0
+S
+#5278
+Temple Entrance~
+Centuries old, this magnificent temple has been the a main focal
+point for the augurerian magical force. This temple is composed
+of huge stone blocks sealed together by an unbreakable spell.
+Handcrafted carvings tell the story of the influence that the
+first augurers had on the formation of Rafermand. There is a
+PLAQUE on the wall that you just cant help but LOOK at.
+~
+1036&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 5275
+0 0
+D1
+~
+~
+0 -1 5251
+0 0
+D2
+~
+~
+0 -1 5280
+0 0
+D3
+~
+~
+0 -1 5277
+0 0
+E
+plaque~
+Greetings fellow knowledge seekers. I Nevon founder of Dula'Van
+welcome you to this great temple. Inside you will find many of my
+teachings as well as other great augurers. Feel free to stay as long
+as you want to meditate and increase your spiritual power.
+~
+S
+#5279
+Meditation Room~
+A single black candle is the only source of light in this room. Other
+people are in a deep trance quietly humming as they concentrate on
+certain activities. There are cushiony pillows on the ground for
+visitors to sit on but the regulars have their personal pillow to
+sit on.
+~
+1036&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 5277
+0 0
+D1
+~
+~
+0 -1 5280
+0 0
+S
+#5280
+Temple of Nevon~
+The smell of different fragrances engulf each visitor's nose as they
+continue through the temple. The wealth of the town's highest ranking
+officials has been donated to keep this temple beautiful and respectful
+just as Nevon had originally created. Polished brass lanterns produce
+the holy light that aids in the reading of the Great Passages of Nevon.
+~
+1036&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 5278
+0 0
+D3
+~
+~
+0 -1 5279
+0 0
+S
+#5281
+Mystical Patterns~
+&BA floating &RSIGN&B with glowing words is here in front of you.
+~
+3146764&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 5282
+0 0
+D1
+~
+~
+0 -1 5285
+0 0
+D3
+~
+~
+0 -1 5252
+0 0
+D6
+~
+~
+0 -1 5283
+0 0
+E
+sign~
+&R*****&rGreetings fellow Augurers&R*****&r
+&pDula'Van would not be here today without your mystical abilities to
+keep its magic alive and strong. Please continue to the north or
+east and do not forget to enjoy the famous Glowing Eyes bar.
+--&BImmortal Augurers
+~
+S
+#5282
+Mystical Patterns~
+&B Mists of different &Rcolors float around your &c body and when stared at
+long enough, &Othe mists move in a &Pformation that seems to form
+&z familar images from &rthe past of each visitor.
+~
+2098188&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 5283
+0 0
+D2
+~
+~
+0 -1 5281
+0 0
+D8
+~
+~
+0 -1 5285
+0 0
+S
+#5283
+Mystical Patterns~
+&B Mists of different &Rcolors float around your &c body and when stared at
+long enough, &Othe mists move in a &Pformation that seems to form
+&z familar images from &rthe past of each visitor.
+~
+3146764&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 5286
+0 0
+D2
+~
+~
+0 -1 5284
+0 0
+D3
+~
+~
+0 -1 5282
+0 0
+D9
+~
+~
+0 -1 5281
+0 0
+S
+#5284
+Mystical Patterns~
+&B Mists of different &Rcolors float around your &c body and when stared at
+long enough, &Othe mists move in a &Pformation that seems to form
+&z familar images from &rthe past of each visitor.
+~
+2098188&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 5283
+0 0
+D2
+~
+~
+0 -1 5285
+0 0
+D3
+~
+~
+0 -1 5281
+0 0
+S
+#5285
+Mystical Patterns~
+&B Mists of different &Rcolors float around your &c body and when stared at
+long enough, &Othe mists move in a &Pformation that seems to form
+&z familar images from &rthe past of each visitor.
+~
+2098188&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 5284
+0 0
+D3
+~
+~
+0 -1 5281
+0 0
+D7
+~
+~
+0 -1 5282
+0 0
+S
+#5286
+The Glowing Eyes Bar~
+As the mists clear you find yourself in The Glowing Eyes Bar.
+The bartender is the only augurer in Rafermand that is a tad overweight.
+Frequent visitors to Dula'Van stop in and talk about new epiphanies
+that they have come across in their meditation. The music playing here
+is organic and soothing. The smell of ancient herbal mixtures fill your
+nostrils and calm your thoughts.
+~
+3146888&2
+0 0
+0
+0
+D3
+~
+~
+0 -1 5283
+0 0
+S
+#5287
+Dula'Van Weapon Supply~
+Blades of all types are found here in the Dula'Van weapon shop. The
+cold steel of the different blades reflect off of each other and
+create a rainbow of colors. There is a list of all the weapons that
+can be bought here on the desk.
+~
+4&2
+0 1
+0
+0
+D2
+~
+~
+0 -1 5261
+0 0
+E
+list~
+Weapon List
+-----------
+short sword              30
+a short sword            60
+a thin two-handed sword  300
+a cowhide whip           560
+hand axe                 30
+Elven Sword              275
+Elven Blade              900
+~
+S
+#5288
+Herb Shop~
+Upon entering this shop you are greeted by different types of plant
+life. The air in here is very humid and the sounds of little insects
+buzz in your ears. From the ceiling to the floor, every part of this
+shop is covered in plants from every corner of Rafermand. The shop
+keeper is sitting on a giant fern behind a moss covered tree trunk.
+Carved into one of the trees is a price LIST.
+~
+12&2
+0 0
+0
+0
+D2
+~
+~
+0 -1 5262
+0 0
+E
+list~
+Herbal Price List
+-----------------
+Bluish Herbs   10
+Purplish Herbs 20
+Blackish Herbs 18
+Grayish Herbs  18
+Orangish Herbs 12
+Pinkish Herbs  20
+Reddish Herbs  10
+~
+S
+#5289
+Dula'Van Bakery~
+Smells of fresh bread and other various baked goods fills this smaller
+store with life. The baker is a stout fellow that works over his oven
+creating new delicious foods for the world of Rafermand to enjoy.
+The baker has nailed a list of all his goods that can be bought in his
+shop on the wall.
+~
+0&2
+0 1
+0
+0
+D2
+~
+~
+0 -1 5265
+0 0
+E
+list~
+Baked Goods For Sale
+--------------------
+chocolate-chip cookie      8
+a sinful chocolate cake    20
+a chocolate cake           60
+a loaf of bread            50
+Josian's Delightful Cookie 1500
+~
+S
+#5290
+Dula'Van Blacksmith~
+The clanging of the local blacksmith's hammer echoes throughout his
+store. Many people bring their damaged equipment here to get it
+repaired by some of the most skilled hands in Dula'Van. Rythal has
+a special gift to create a fire so hot it can mend every type of
+better equipment.
+~
+0&2
+0 1
+0
+0
+D2
+~
+~
+0 -1 5266
+0 0
+S
+#5291
+Dula'Van Armory~
+Brunack's shop is covered with different types of body armor. Everything
+from helms to ankle wear, are here for sale. Other objects can also
+be purchased here but mainly the basic equipment. There is a sign
+on the wall that has some writing on it.
+~
+12&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 5261
+0 0
+E
+sign~
+Equipment for Sale
+------------------
+Hero armor          3000
+Some orc body armor 450
+An iron helm        250
+Shadow helm         6000
+Steel boots         1200
+Iron visor          200
+Clear visor         1000
+Leather ankle band  4000
+~
+E
+sigh~
+~
+S
+#5292
+Dula'Van Magic Shop~
+The magic shop is kept by an elder by the name of Suakle, who glances
+at each person who enters his shop. A few magic potions and other
+mixtures rest on the shelves and some look like they are hovering above
+the others. Other magical artifacts hang on the opposite wall.
+Floating in front of Suakle's desk is a list of what can be purchased
+at his shop.
+~
+12&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 5260
+0 0
+E
+list~
+~
+S
+#5293
+The Dancing Skeleton Bar~
+The place is in fair condition.  With booths near the windows and
+faded leather stools lining the bar and two scraggly looking thieves
+in the corner playing cards. There is a piano across the room with
+four empty pitchers and a wooden pipe lined with dust. The bartender,
+a fat hairy man gives you a haughty look as he puts his cleaning rag
+down.
+~
+0&2
+0 1
+0
+0
+D0
+~
+~
+0 -1 5264
+0 0
+S
+#5294
+Dula'Van Trade Shop~
+This building houses all the equipment that is needed for a successful
+trade run. You may purchase a variety of goods buy choosing what you
+need from the board on the wall.
+~
+0&2
+0 1
+0
+0
+D0
+~
+~
+0 -1 5271
+0 0
+E
+board~
+&OPlease come back at another time. The Dula'Van Trade Shop is not
+&Oopen for business yet. Thank you.
+&O--Dula'Van Construction Guild
+~
+S
+#5295
+Mystical Stables~
+A quiet and well kept shop has been built here.  An old man sweeps
+the front entrance while he whistles to himself. The stables are
+clean and the sounds of mystical unicorns. The old man introduces
+himself as Timvolt and then goes about his business. There is a sign
+on the wall that reads "Pull Rope for a ride."
+~
+0&2
+0 1
+0
+0
+D0
+~
+~
+0 -1 5270
+0 0
+S
+#5296
+Lake Chunteal~
+Lake Chunteal is a beautiful getaway for people that wish to relax.
+The crystal clear water surrounds the dock as many different types of
+fish and other freshwater animals swim throughout these waters. Other
+people can be seen swimming in the cool water, children playing on 
+the shore, and horses sipping calmly from the lake.
+~
+0&2
+0 7
+0
+0
+D1
+~
+~
+0 -1 5297
+0 0
+D2
+~
+~
+0 -1 5298
+0 0
+D8
+~
+~
+0 -1 5299
+0 0
+S
+#5297
+Southside Dock~
+The large dock appears to be old, but is very sturdy. The lake is
+jumping with fish and in the distance the stables can be seen. Many
+elder fisherman are sitting on the edge of the dock trying to catch
+a quick meal.
+~
+4&2
+0 1
+0
+0
+D1
+~
+~
+0 -1 5258
+0 0
+D2
+~
+~
+0 -1 5299
+0 0
+D3
+~
+~
+0 -1 5296
+0 0
+D9
+~
+~
+0 -1 5298
+0 0
+S
+#5298
+Lake Chunteal~
+Lake Chunteal is a beautiful getaway for people that wish to relax.
+The crystal clear water surrounds the dock as many different types of
+fish and other freshwater animals swim throughout these waters. Other
+people can be seen swimming in the cool water, children playing on 
+the shore, and horses sipping calmly from the lake.
+~
+3145732&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5296
+0 0
+D1
+~
+~
+0 -1 5299
+0 0
+D2
+~
+~
+0 -1 5309
+0 0
+D6
+~
+~
+0 -1 5297
+0 0
+D8
+~
+~
+0 -1 5310
+0 0
+S
+#5299
+Lake Chunteal~
+Lake Chunteal is a beautiful getaway for people that wish to relax.
+The crystal clear water surrounds the dock as many different types of
+fish and other freshwater animals swim throughout these waters. Other
+people can be seen swimming in the cool water, children playing on 
+the shore, and horses sipping calmly from the lake.
+~
+3145732&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5297
+0 0
+D2
+~
+~
+0 -1 5310
+0 0
+D3
+~
+~
+0 -1 5298
+0 0
+D7
+~
+~
+0 -1 5296
+0 0
+D9
+~
+~
+0 -1 5309
+0 0
+S
+#5300
+Dula'van Forge~
+A big hulky dwarf is in the back of the room with his hammer hammering
+away at a few slabs and ores, looking to forge them into a weapon.  He
+sees you, but continues to work hard.  A small sign hangs up high in
+the forge and it reads "Use the FORGE command to create, break, sell,
+and do other commands."
+~
+4&2050
+0 1
+0
+0
+D0
+~
+~
+0 -1 5266
+0 0
+S
+#5301
+Elystic Stones~
+'&zThese four &Bmystic&z stones have been formed from the heart of Rafermand.
+&zThe &Benscriptions&z can only be read by The &BAncients&z who created these
+&zstones. The writings are glowing &Bblue&z that hum louder each time an
+&zaugurer studies them. The stones have not weathered from the years of harsh
+&zwind and rain that have &Btested&z the rest of this town. The only &Bwritings&z
+that can be &Bread&z by the common player only say one word: &BHope&z
+~
+0&2
+0 1
+0
+0
+D1
+~
+~
+0 -1 5302
+0 0
+D2
+~
+~
+0 -1 5303
+0 0
+D3
+~
+~
+0 -1 5259
+0 0
+D8
+~
+~
+0 -1 5304
+0 0
+E
+hope~
+~
+E
+stone~
+&BXula Utrials Kial siun Nevon Esnuto Groto misirtuc Gai.
+~
+S
+#5302
+Elystic Stones~
+'&zThese four &Bmystic&z stones have been formed from the heart of Rafermand.
+&zThe &Benscriptions&z can only be read by The &BAncients&z who created these
+&zstones. The writings are glowing &Bblue&z that hum louder each time an
+&zaugurer studies them. The stones have not weathered from the years of harsh
+&zwind and rain that have &Btested&z the rest of this town. The only &Bwritings&z
+that can be &Bread&z by the common player only say one word: &BHope&z
+~
+0&2
+0 10
+0
+0
+D2
+~
+~
+0 -1 5304
+0 0
+D3
+~
+~
+0 -1 5301
+0 0
+D9
+~
+~
+0 -1 5303
+0 0
+E
+hope~
+&BXula Utrails Kial siun Nevon Esnuto Groto Misirtuc Gai.
+~
+E
+stone~
+&BXula Utrials Kial siun Nevon Esnuto Groto misirtuc Gai.
+~
+S
+#5303
+Elystic Stones~
+'&zThese four &Bmystic&z stones have been formed from the heart of Rafermand.
+&zThe &Benscriptions&z can only be read by The &BAncients&z who created these
+&zstones. The writings are glowing &Bblue&z that hum louder each time an
+&zaugurer studies them. The stones have not weathered from the years of harsh
+&zwind and rain that have &Btested&z the rest of this town. The only &Bwritings&z
+that can be &Bread&z by the common player only say one word: &BHope&z
+~
+0&2
+0 1
+0
+0
+D0
+~
+~
+0 -1 5301
+0 0
+D1
+~
+~
+0 -1 5304
+0 0
+D6
+~
+~
+0 -1 5302
+0 0
+E
+stone~
+&BXula Utrials Kial siun Nevon Esnuto Groto misirtuc Gai.
+~
+S
+#5304
+Elystic Stones~
+'&zThese four &Bmystic&z stones have been formed from the heart of Rafermand.
+&zThe &Benscriptions&z can only be read by The &BAncients&z who created these
+&zstones. The writings are glowing &Bblue&z that hum louder each time an
+&zaugurer studies them. The stones have not weathered from the years of harsh
+&zwind and rain that have &Btested&z the rest of this town. The only &Bwritings&z
+that can be &Bread&z by the common player only say one word: &BHope&z
+~
+0&2
+0 1
+0
+0
+D0
+~
+~
+0 -1 5302
+0 0
+D3
+~
+~
+0 -1 5303
+0 0
+D7
+~
+~
+0 -1 5301
+0 0
+E
+stone~
+&BXula Utrials Kial siun Nevon Esnuto Groto misirtuc Gai.
+~
+S
+#5305
+A Bloody Path~
+&RT&rhe &Rb&rlood &Rs&rtained &Rp&rath &Rh&ras &Rd&reep &Rp&ruddles &Ro&rf &Rf&rresh &Rb&rlood &Rt&rhat &Rc&rlench
+&Ro&rn &Rt&rhe &Re&rdges &Ro&rf &Ry&rour &Rf&rootwear. &RT&rhe &Rd&read &Rt&rrees &Ra&rre &ra &Rd&rark &Rb&rrown &Rt&rhat
+&Rg&ret &Re&rven &Rd&rarker &Rw&rith &Rt&rhe &Rl&rayers &Ro&rf &Rd&rried &Rb&rlood &Rt&rhat &Rh&rave &Rb&reen &Rs&rplat
+tered &Ro&rn &Rt&rhem. &RA &Rf&rew &Rd&read &Rr&remains &Rr&rot &Ra&rlong &Rs&ride &Ro&rther &Ra&rnimals &Rt&rhat
+&Rh&rave &Rc&rrept &Rt&rhere &Rw&ray &Ri&rnto &Rt&rhis &Rl&rifeless &Rd&romain. &RT&rhe &Rf&roul &Rs&rtench &Ri&rs
+&Ra&rlmost &Rt&ro &Rm&ruch &Rt&ro &Rb&rare, &Ra&rnd &Rt&rhe &Ro&rnly &Rs&round &Ri&rs &Rt&rhe &Rs&round &Ro&rf &Ry&rour
+&Re&rnemy &Ra&rs &Rh&re &Rs&rtalks &Ry&rou, &Rh&ris &Rp&rrey.
+~
+3153920&2
+0 0
+0
+0
+D1
+~
+~
+0 -1 5306
+0 0
+D2
+~
+~
+0 -1 5312
+0 0
+S
+#5306
+A Bloody Path~
+&RT&rhe &Rb&rlood &Rs&rtained &Rp&rath &Rh&ras &Rd&reep &Rp&ruddles &Ro&rf &Rf&rresh &Rb&rlood &Rt&rhat &Rc&rlench
+&Ro&rn &Rt&rhe &Re&rdges &Ro&rf &Ry&rour &Rf&rootwear. &RT&rhe &Rd&read &Rt&rrees &Ra&rre &ra &Rd&rark &Rb&rrown &Rt&rhat
+&Rg&ret &Re&rven &Rd&rarker &Rw&rith &Rt&rhe &Rl&rayers &Ro&rf &Rd&rried &Rb&rlood &Rt&rhat &Rh&rave &Rb&reen &Rs&rplat
+tered &Ro&rn &Rt&rhem. &RA &Rf&rew &Rd&read &Rr&remains &Rr&rot &Ra&rlong &Rs&ride &Ro&rther &Ra&rnimals &Rt&rhat
+&Rh&rave &Rc&rrept &Rt&rhere &Rw&ray &Ri&rnto &Rt&rhis &Rl&rifeless &Rd&romain. &RT&rhe &Rf&roul &Rs&rtench &Ri&rs
+&Ra&rlmost &Rt&ro &Rm&ruch &Rt&ro &Rb&rare, &Ra&rnd &Rt&rhe &Ro&rnly &Rs&round &Ri&rs &Rt&rhe &Rs&round &Ro&rf &Ry&rour
+&Re&rnemy &Ra&rs &Rh&re &Rs&rtalks &Ry&rou, &Rh&ris &Rp&rrey.
+~
+3153920&2
+0 0
+0
+0
+D2
+~
+~
+0 -1 5308
+0 0
+D3
+~
+~
+0 -1 5305
+0 0
+S
+#5307
+Floating in a void~
+~
+4
+0 1
+0
+0
+S
+#5308
+A Bloody Path~
+&RT&rhe &Rb&rlood &Rs&rtained &Rp&rath &Rh&ras &Rd&reep &Rp&ruddles &Ro&rf &Rf&rresh &Rb&rlood &Rt&rhat &Rc&rlench
+&Ro&rn &Rt&rhe &Re&rdges &Ro&rf &Ry&rour &Rf&rootwear. &RT&rhe &Rd&read &Rt&rrees &Ra&rre &ra &Rd&rark &Rb&rrown &Rt&rhat
+&Rg&ret &Re&rven &Rd&rarker &Rw&rith &Rt&rhe &Rl&rayers &Ro&rf &Rd&rried &Rb&rlood &Rt&rhat &Rh&rave &Rb&reen &Rs&rplat
+tered &Ro&rn &Rt&rhem. &RA &Rf&rew &Rd&read &Rr&remains &Rr&rot &Ra&rlong &Rs&ride &Ro&rther &Ra&rnimals &Rt&rhat
+&Rh&rave &Rc&rrept &Rt&rhere &Rw&ray &Ri&rnto &Rt&rhis &Rl&rifeless &Rd&romain. &RT&rhe &Rf&roul &Rs&rtench &Ri&rs
+&Ra&rlmost &Rt&ro &Rm&ruch &Rt&ro &Rb&rare, &Ra&rnd &Rt&rhe &Ro&rnly &Rs&round &Ri&rs &Rt&rhe &Rs&round &Ro&rf &Ry&rour
+&Re&rnemy &Ra&rs &Rh&re &Rs&rtalks &Ry&rou, &Rh&ris &Rp&rrey.
+~
+3153920&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 5306
+0 0
+D3
+~
+~
+0 -1 5312
+0 0
+S
+#5309
+Lake Chunteal~
+Lake Chunteal is a beautiful getaway for people that wish to relax.
+The crystal clear water surrounds the dock as many different types of
+fish and other freshwater animals swim throughout these waters. Other
+people can be seen swimming in the cool water, children playing on 
+the shore, and horses sipping calmly from the lake.
+~
+3145732&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5298
+0 0
+D1
+~
+~
+0 -1 5310
+0 0
+D6
+~
+~
+0 -1 5299
+0 0
+S
+#5310
+Lake Chunteal~
+Lake Chunteal is a beautiful getaway for people that wish to relax.
+The crystal clear water surrounds the dock as many different types of
+fish and other freshwater animals swim throughout these waters. Other
+people can be seen swimming in the cool water, children playing on 
+the shore, and horses sipping calmly from the lake.
+~
+3145732&2
+0 7
+0
+0
+D0
+~
+~
+0 -1 5299
+0 0
+D3
+~
+~
+0 -1 5309
+0 0
+D7
+~
+~
+0 -1 5298
+0 0
+S
+#5311
+Waiting Room~
+This is the waiting room for players that wish to risk it all in a
+one on one battle with another person. To begin a duel you must
+tell an Immortal to set it up. After that all bets are off so no
+complaining if you loose. You must have read the rules on the
+&YP&GLAQUE&C and tell the immortal that is setting this fight up
+that you &YA&GGREE&C with those rules.
+~
+0&2
+0 1
+0
+0
+D0
+~
+~
+0 -1 5273
+0 0
+D2
+~
+~
+2055 5311 5305
+0 0
+E
+plaque~
+&RHEED THE DULA'VAN PK RULES
+&Y1. &RY&rou must have an immortal approve the battle.
+&Y2. &RT&rhe match will not end unless one of the two players are dead.
+&Y3. &RO&rnly an Immortal that is level 60 or higher can stop the match
+&Y4. &RI&rmmortals will &RNOT&r aid any mortal during a match so do
+   not even ask.
+&Y5. &RT&rhe winner of the match has the right to loot the looser's
+   corpse.
+&Y6. &RT&rhere will be &RNO&r complaining about loosing your equipment
+   and do &RNOT&r ask an Immortal to give you some replacement equipment.
+&Y7. &RA&rny mortal can challenge another mortal to PK but &RBOTH&r
+   mortals have to accept the challenge.
+&Y8. &RB&roth players must agree to these rules before the fight begins.
+~
+E
+desc~
+~
+S
+#5312
+A Bloody Path~
+&RT&rhe &Rb&rlood &Rs&rtained &Rp&rath &Rh&ras &Rd&reep &Rp&ruddles &Ro&rf &Rf&rresh &Rb&rlood &Rt&rhat &Rc&rlench
+&Ro&rn &Rt&rhe &Re&rdges &Ro&rf &Ry&rour &Rf&rootwear. &RT&rhe &Rd&read &Rt&rrees &Ra&rre &ra &Rd&rark &Rb&rrown &Rt&rhat
+&Rg&ret &Re&rven &Rd&rarker &Rw&rith &Rt&rhe &Rl&rayers &Ro&rf &Rd&rried &Rb&rlood &Rt&rhat &Rh&rave &Rb&reen &Rs&rplat
+tered &Ro&rn &Rt&rhem. &RA &Rf&rew &Rd&read &Rr&remains &Rr&rot &Ra&rlong &Rs&ride &Ro&rther &Ra&rnimals &Rt&rhat
+&Rh&rave &Rc&rrept &Rt&rhere &Rw&ray &Ri&rnto &Rt&rhis &Rl&rifeless &Rd&romain. &RT&rhe &Rf&roul &Rs&rtench &Ri&rs
+&Ra&rlmost &Rt&ro &Rm&ruch &Rt&ro &Rb&rare, &Ra&rnd &Rt&rhe &Ro&rnly &Rs&round &Ri&rs &Rt&rhe &Rs&round &Ro&rf &Ry&rour
+&Re&rnemy &Ra&rs &Rh&re &Rs&rtalks &Ry&rou, &Rh&ris &Rp&rrey.
+~
+3153920&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 5305
+0 0
+D1
+~
+~
+0 -1 5308
+0 0
+S
+#5313
+&zO&Rrder &zF&Rrom &zS&Rwirling &zC&Rhaos&C~
+&zT&Rhere &zi&Rs &za &zP&Rlaque &zO&Rn &zT&Rhe &zW&Rall.
+~
+36741252
+0 1
+0
+0
+D2
+~
+~
+0 -1 5314
+0 0
+E
+plaque~
+&YCongradulations! You have found my hidden room! The equipment on
+the ground is special and will increase your stats greatly. To exit
+this room you must go south.
+--&zN&Revon
+~
+S
+#5314
+&RTHE ONLY WAY OUT OF HERE IS DEATH!~
+&RT&Yhis &Ri&Ys &Rw&Yhat &Ry&You &Rg&Yet &Rf&Yor &Rb&Yeing &Rg&Yreedy! &RN&Yow &Ry&You &Rl&Yoose &Ra&Yll &Ro&Yf &Ry&Your
+&Re&Yquipment! &RM&Yuhahahaha!
+~
+19931140
+0 1
+0
+0
+S
+#5315
+Floating in a void~
+~
+4
+0 1
+0
+0
+S
+#0
+
+
+#RESETS
+M 1 5288 1 5288 -1 -1 -1 0 0
+G 1 5292 1 -1 -1 0 0
+G 1 5290 1 -1 -1 0 0
+G 1 5293 1 -1 -1 0 0
+G 1 5295 1 -1 -1 0 0
+G 1 5296 1 -1 -1 0 0
+G 1 5291 1 -1 -1 0 0
+G 1 5294 1 -1 -1 0 0
+M 1 5289 1 5289 -1 -1 -1 0 0
+G 1 5254 1 -1 -1 0 0
+G 1 5250 1 -1 -1 0 0
+G 1 5253 1 -1 -1 0 0
+G 1 5252 1 -1 -1 0 0
+G 1 5251 1 -1 -1 0 0
+M 1 5290 1 5290 -1 -1 -1 0 0
+M 1 5286 1 5279 -1 -1 -1 0 0
+M 1 5286 1 5279 -1 -1 -1 0 0
+M 1 5286 1 5279 -1 -1 -1 0 0
+M 1 5283 1 5293 -1 -1 -1 0 0
+M 1 5282 1 5297 -1 -1 -1 0 0
+M 1 5281 1 5258 -1 -1 -1 0 0
+M 1 5280 1 5257 -1 -1 -1 0 0
+M 1 5281 1 5253 -1 -1 -1 0 0
+M 1 5281 1 5261 -1 -1 -1 0 0
+M 1 5280 1 5261 -1 -1 -1 0 0
+O 1 5311 1 5311 -1 -1 -1 -1 0 0
+D 0 5311 2 2
+M 1 5277 1 5269 -1 -1 -1 0 0
+M 1 5285 1 5286 -1 -1 -1 0 0
+O 1 5255 1 5286 -1 -1 -1 -1 0 0
+O 1 5301 1 5286 -1 -1 -1 -1 0 0
+O 1 5301 1 5286 -1 -1 -1 -1 0 0
+O 1 5299 1 5313 -1 -1 -1 -1 0 0
+M 1 5281 1 5252 -1 -1 -1 0 0
+M 1 5278 1 5252 -1 -1 -1 0 0
+O 1 5288 1 5310 -1 -1 -1 -1 0 0
+M 1 5291 1 5291 -1 -1 -1 0 0
+G 1 5273 1 -1 -1 0 0
+G 1 5277 1 -1 -1 0 0
+G 1 5276 1 -1 -1 0 0
+G 1 5279 1 -1 -1 0 0
+G 1 5287 1 -1 -1 0 0
+G 1 5278 1 -1 -1 0 0
+G 1 5275 1 -1 -1 0 0
+G 1 5274 1 -1 -1 0 0
+G 1 5304 1 -1 -1 0 0
+M 1 5278 1 5302 -1 -1 -1 0 0
+M 1 5287 1 5287 -1 -1 -1 0 0
+G 1 5313 1 -1 -1 0 0
+G 1 5261 1 -1 -1 0 0
+G 1 5266 1 -1 -1 0 0
+G 1 5260 1 -1 -1 0 0
+G 1 5264 1 -1 -1 0 0
+G 1 5262 1 -1 -1 0 0
+G 1 5265 1 -1 -1 0 0
+M 1 5281 1 5255 -1 -1 -1 0 0
+O 1 5312 1 5255 -1 -1 -1 -1 0 0
+M 1 9130 1 9130 -1 -1 -1 0 0
+O 1 9130 1 9130 -1 -1 -1 -1 0 0
+M 1 5279 1 5274 -1 -1 -1 0 0
+M 1 5292 1 5292 -1 -1 -1 0 0
+G 1 5289 1 -1 -1 0 0
+G 1 5282 1 -1 -1 0 0
+G 1 5271 1 -1 -1 0 0
+G 1 5286 1 -1 -1 0 0
+G 1 5270 1 -1 -1 0 0
+G 1 5272 1 -1 -1 0 0
+G 1 5285 1 -1 -1 0 0
+G 1 5268 1 -1 -1 0 0
+G 1 5302 1 -1 -1 0 0
+G 1 5269 1 -1 -1 0 0
+G 1 5281 1 -1 -1 0 0
+G 1 5284 1 -1 -1 0 0
+G 1 5267 1 -1 -1 0 0
+G 1 5303 1 -1 -1 0 0
+G 1 5304 1 -1 -1 0 0
+G 1 5283 1 -1 -1 0 0
+G 1 5280 1 -1 -1 0 0
+G 1 5256 1 -1 -1 0 0
+M 0 21000 1 5300 -1 -1 -1 0 0
+S
+
+
+#SHOPS
+ 5287    0  0  0  0  0   120  90         0 23    ; Iglas the merchant
+ 5288    0 32 32 33  0   120  90         1 23    ; Yukla the herbist
+ 5289    0 19  0  0  0   120  90         1 23    ; Josian the Baker
+ 5291    0  9  5  0  0   120  90         0 23    ; Brunack
+ 5292    0  3 10  0  0   120  90         1 23    ; Suakle the Magician
+0
+
+
+#REPAIRS
+ 5290    0  9  5         120   1         1 23    ; Rythal the Blacksmith
+0
+
+
+#SPECIALS
+M  5280 spec_cast_cleric
+S
+
+
+#$

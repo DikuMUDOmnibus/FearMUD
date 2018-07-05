@@ -1,0 +1,216 @@
+First thanks for reading this file, it helps when people first read
+before I get contacted for help.  With this program, there are a few
+things you will need to add to the files, and check for before you
+will be able to use it.  Below are sections over the program and changes
+you need to make to the file.  Last, please read over the GPL license if
+you have not read it before.
+
+------------->Version 1.0 HOWTO<---------------------
+
+
+------------------
+INSTALL
+------------------
+First unzip the file using unzip -a insertskill.zip in a directory
+of your choice.  Once you have done that, type this.
+   ./install or csh -f ./install
+This will compile the program insertskill.  All the script does is
+send a gcc command to the computer, so make sure gcc will work.  A
+binary file will not be provided on the page, nor will I compile
+it for you.
+
+-------------------
+SECURITY
+-------------------
+The program will create a backup of the header and table file.
+It is possible to change this by changing a few things in the
+central.h file.  
+
+-------------------
+NEEDED ADDITIONS
+-------------------
+In order for the program to work, a few things needed to be
+added to the header and table files.  In SMAUG (which this
+program was mainly written for), there are three entries
+for the do_skill.  They are
+
+	if ( !str_cmp( name, "do_yell" ))		return do_yell;
+	if ( skill == do_yell )		return "do_yell";
+	DECLARE_DO_FUN(	do_yell		);
+	
+The first two are in the tables file (typically tables.c).  And
+the last one is in the header file (you might need to change the
+header file name in the code, more over this later).  In order
+for the code to know what to search through, you need to put comments
+like this in the code.
+
+/*//T1*/
+
+The first set in the tables file starts with /*//T1*/ and ends with /*//T2*/
+The second set in the tables file starts with /*//T3*/ and ends with /*//T4*/
+The DECLARE_DO_FUN set in header file starts with /*//T5*/ and ends with /*//T6*/
+
+See the next section on EXACTLY WHERE to place these comments.
+
+--------------------
+PLACEMENT RULES OF ADDITIONS
+--------------------
+
+The comments have to be placed correctly for the code to work.  Below explains
+how to place them, or you can look at the tables.c and mud.h file to see how
+I placed them.
+
+The first set in the tables file, you need to add the comment like this
+
+ {
+ /*//T1*/
+   case 'a'
+      if ( skill == "do_aassign"                   )    return do_aassign;
+     
+Then place the final comment like this
+
+   if ( skill == "do_zones"                     )    return do_zones;
+      break;
+	/*//T2*/
+    }
+    
+In the next set in the tables file, you need to add the comment as such
+
+   if ( skill == NULL )		return "reserved";
+    /*//T3*/
+      if ( skill == do_aassign                     )    return "do_aassign";
+      
+***IT IS VERY IMPORTANT to place any thing that does not have a do_ in it before
+   the comment, otherwise the code will remove it from the tables file *********
+   
+Then place the final comment like this
+
+     if ( skill == do_zones                       )    return "do_zones";
+    /*//T4*/
+
+    sprintf( buf, "(%p)", skill );
+    
+Next the header file, it works like the 2nd set in the tables file.  You do...
+
+DECLARE_DO_FUN( skill_notfound	);
+/*//T5*/
+DECLARE_DO_FUN( do_aassign                     );
+DECLARE_DO_FUN( do_accept                      );
+
+***AGAIN important to place anything that is not a do_ command outside the comments***
+
+Then the final comment
+
+DECLARE_DO_FUN( do_zap                         );
+DECLARE_DO_FUN( do_zones                       );
+/*//T6*/
+
+
+***A LAST REMINDER, do not place anything that is not a do_ command between the
+   comments, it will delete them from your file.  So do not add spell_ , etc***
+    
+-------------------
+USAGE
+-------------------
+insertskill sort
+insertskill <new skill>
+insertskill version
+
+Note: the skill has to start with do_ and it will search to make
+sure it is not already listed within the scope of the searching
+routine.
+
+--------------------
+HEADER VARIABLES
+--------------------
+TABLE_FILE   "tables.c"      HEADER_FILE  "mud.h"       TEMPFILE     "temp1.c"
+TEMPFILE2    "temp2.c"       CSTART       "/*//T1*/"    CEND         "/*//T2*/"
+BSTART       "/*//T3*/"      BEND         "/*//T4*/"    DOSTART      "/*//T5*/"
+DOEND        "/*//T6*/"      DOBACKUP     1             BSUFFIX      ".bak" 
+
+The above following variables are configurable in the central.h file.  For
+most parts, you will onlt want to touch the TABLES_FILE, HEADER_FILE, TEMPFILES,
+and DOBACKUP.  The default tables and header file is setup for ->SMAUG<- codebase,
+so those who do not have a mud.h or tables.c file, need to change their file
+names in the central.h file and RECOMPILE.  All you will have to do is place the
+comments (/*//T5*/ etc) in the header or table file of your choice.  If you have
+your DECLARE_DO_FUNs spread allover the header files, you might want to place
+them all in one header file and use that perhaps only for your DECLARES.  Just
+make sure to put the comments in.
+
+As for the TEMPFILES, these do not need changed unless you are using temp1.c and
+temp2.c for something else.  As for DOBACKUP, this will toggle backup on or off.
+1 is on, 0 is off.  It is wise to leave it on, but it can be removed if you wish.
+BSUFFIX stands for the backup suffix used (.bak).  If you want to change this
+to something else so you are not overwriting backup files you have, you may do
+so.  It will accept just about anything.
+
+As for the location of the header and tables file, standardly, you will use the
+program IN THE DIRECTORY of the header and tables file.  It is possible to place
+the program in a directory in your code directory called insertskill and change
+the header/table file to something like this  (TABLE_FILE   "insertskil/tables.c".)
+Note, this is for Cygwin/Linux systems, if you get this to work in VC++ you will
+not to change that to \\ so it will use the windows directory switch instead.
+
+LASTLY, if you need to change the comments for some reason, you can change them
+in the file too.  Just make sure to add those comments instead of the normal ones
+provided in the distibution.
+
+-------------------------
+BUGS and COMMENTS
+-------------------------
+If you get everything moving smoothly and you see something like this.
+
+make cleantables.o: In function `skill_function':
+/root/dist/code/tables.c:579: undefined reference to `do_opentourney'
+tables.o: In function `skill_name':
+/root/dist/code/tables.c:1332: undefined reference to `do_opentourney'
+
+Mainly the undefined reference to do_xxxxxxx, you will have to put a
+comment around it.  Now, if you already have it commented, a thing to
+know about how comments are parsed in my code.
+
+
+It is easiest for the code to read and know a // style of comment.  For
+those totally foreign to coding, // will comment the line of code that it is
+on.  So
+
+//var x
+int x = 0;
+
+So only var x will be commented (won't get compiled).  If you want to
+comment out parts in the tables and header files, you need to put a //
+before the name.  A feature might come later to automatically add this
+in, but that will be later, keep checking back to the page for such
+an addition.
+
+#ifdef USE_IMC
+    if ( skill == do_rbeep )		return "do_rbeep";
+    if ( skill == do_rchannels )	return "do_rchannels";
+    if ( skill == do_rchanset )		return "do_rchanset";
+    if ( skill == do_rconnect )		return "do_rconnect";
+#endif
+
+Lastly, using ifdef like those above will also be removed by the program, so
+if you want to have these commands kept in or not, you either need to
+comment them out to keep them out, or don't worry about it if you are
+using them.
+
+-------------------------
+FINAL AUTHOR COMMENTS
+-------------------------
+There is no way this program is 100 percent bug proof and it is possible it can
+trash your header and tables file, so in sort, create more backups than what the
+code creates, that is mainly to go back to your old file if you put in the wrong
+do_ or place a comment inproperly.  As the license clearly states, there are no
+warranties, and I am not liable for any damage.  If such a thing does occur, I would
+like to know so I can try to fix the problem.  My email address as of this writing
+is        
+         rafermand@home.net.
+You can always find my most recent email address by visiting my webpage at
+         www.rafermand.com
+Or visiting my mud at
+         stormbringer.sysconn.com 3002
+         
+I hope you enjoy using the program, and if you do, tell someone else about it.  Also,
+please read the REQUESTS file for other license related information.  Thanks

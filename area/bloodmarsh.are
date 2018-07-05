@@ -1,0 +1,4353 @@
+#AREA   Blood Marshes~
+
+
+
+#VERSION 53
+#AUTHOR Copenhaygen~
+
+#RANGES
+0 20 0 75 0 0 0 0 0
+$
+
+#RESETMSG The ghosts of the Blood Marshes can be heard throughout the land.~
+
+#FLAGS
+0 25
+
+#ECONOMY 0 1569932 0
+
+#MOBILES
+#200
+orc barb~
+&w&pAn Orc Barbarians ghost~
+&pAn Orc Barbarian's ghost is here.
+~
+&rA very large, quite villanous beast, obviously the spiritual remains of 
+an orc barbarian, is here before you. 
+~
+1 0 0 0 C
+0 0 4 3 5 3
+1d5+43 1d2+2 0 0 0
+0 0
+112 112 0
+14 13 11 13 13 13 12 39
+0 0 0 0 0
+84 0 0 0 1 1 39
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#201
+An Elven Archers ghost~
+&w&pAn Elven Archers ghost~
+&w&pAn Elven Archer's ghost is here.
+~
+&rThe spiritual remains of a once fair and kindly elvish archer float 
+solemnly by here. 
+~
+1 0 0 1000 C
+0 0 4 3 4 4
+1d5+25 1d2+2 0 0 0
+0 0
+112 112 0
+13 6 6 11 13 13 11 39
+0 0 0 0 0
+84 0 0 0 1 1 39
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#202
+Orc Archer~
+&w&pAn Orc ARchers ghost~
+&pAn Orc Archer's ghost is here
+~
+&rThe spiritual remains of a vicious orc archer sneers and curses as it 
+floats by. 
+~
+1 0 0 -1000 C
+0 0 4 3 3 4
+1d5+44 1d2+2 0 0 0
+0 0
+112 112 0
+16 13 15 12 13 13 12 39
+0 0 0 0 0
+84 0 0 0 1 1 39
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#203
+Elvish Swordsman~
+&w&pAn Elvish Swordsmans ghost~
+&pAn Elvish Swordsman's ghost is here
+~
+&rThe ghost of a fair elf, carrying the resemblance of a swordsman, is 
+here before you, wishing his life had been better fulfilled. 
+~
+1 0 0 1000 C
+0 0 4 5 3 5
+2d6+44 1d2+2 0 0 0
+0 0
+112 112 0
+14 12 16 16 13 13 14 40
+0 0 0 0 0
+84 0 0 0 1 1 40
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#204
+minion~
+&RA Minion of Braxus~
+&RA Minion of Braxus is here
+~
+&rThis one of the lower servants of hell, one of the minions of Braxus. 
+~
+33 0 0 -1000 C
+0 0 9 10 10 10
+8d21+126 1d5+6 0 0 0
+0 0
+112 112 0
+18 14 17 14 13 13 14 51
+0 0 0 0 0
+84 0 0 0 1 1 51
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#205
+demon~
+&RA Demon of Braxus~
+&RA Demon of Braxus is here
+~
+&rThis is a slightly higher level servant of hell, and one left to the 
+post of Braxus. 
+~
+33 0 0 -1000 C
+0 0 10 9 9 10
+5d23+228 1d7+8 0 0 0
+0 0
+112 112 0
+18 19 18 17 13 13 15 55
+0 0 0 0 0
+84 0 0 0 1 1 55
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#206
+Braxus~
+&RBraxus~
+&RBraxus is here
+~
+&rBraxus, one of the Lords of Hell, stands rather tall and quite orcish. 
+His eyes blaze and scars kris-kross all over his visible body. 
+~
+35 0 0 -1000 C
+0 0 17 15 14 16
+7d30+720 1d11+15 0 0 0
+15000 0
+112 112 0
+17 19 20 20 13 13 20 90
+0 0 0 0 0
+84 0 0 0 1 1 90
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 8192 3328 0 0 402653440 538374
+> fight_prog 15~
+mea $n &RBraxus screams with all of hell's furor and blasts at you 
+mea $n &Rwith hell's might of magic.
+cast 'fireball' $n
+mprestore self 65
+~
+|
+#207
+lost soul~
+&pA lost soul~
+&pA lost soul is here
+~
+&rThis lost soul is quite translucent, and very remorseful, for it was 
+taken from the the mortal too soon and before it could accomplish any 
+meaninful goals. 
+~
+1 0 0 -1000 C
+0 0 5 4 5 6
+2d8+56 1d3+2 0 0 0
+0 0
+112 112 0
+15 16 16 14 13 13 15 42
+0 0 0 0 0
+84 0 0 0 1 1 42
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#208
+orc axeman~
+&pAn Orc Axeman~
+&pAn Orc Axeman's ghost is here.
+~
+&rThe orc axemen of the mortal realm were known to be the worst about 
+pillaging cities, raping innocent women, and murdering helpless 
+babies....even their own. 
+~
+1 0 0 -1000 C
+0 0 8 8 9 7
+7d18+121 1d5+5 0 0 0
+0 0
+112 112 0
+17 15 16 15 13 13 14 49
+0 0 0 0 0
+84 0 0 0 1 1 49
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+> death_prog 5~
+mpoload 231
+~
+|
+#209
+orc footsoldier~
+&pOrc Footsoldier~
+&pAn Orc Footsoldier's ghost is here
+~
+&rThis wretched creature was forced into battle against it's will, and is 
+trapped between life and death, trying to recitfy its soul. 
+~
+1 0 0 -1000 C
+0 0 7 6 7 6
+7d18+118 1d4+5 0 0 0
+0 0
+112 112 0
+15 16 17 13 13 13 15 48
+0 0 0 0 0
+84 0 0 0 1 1 48
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+> death_prog 3~
+mpoload 231
+~
+|
+#210
+hades~
+&RHades~
+&RHades governs his realm
+~
+Hades, the god of Hell. Strong, powerful, dreadful, all are very 
+applicable names for this being. He is covered in a scaly skin, with 
+narrow, catlike, red eyes. Muscles ripple all over his body, and small 
+knobs and spikes protrude from his body in numerous different places, and 
+stick out in an innumerable number of directions. Large fangs protrude 
+from his mouth, dripping with saliva and blood. 
+~
+1 0 0 -1000 C
+0 0 7 6 8 6
+4d11+97 1d4+5 0 0 0
+0 0
+112 112 0
+19 16 17 14 13 13 13 47
+0 0 0 0 0
+84 0 0 0 1 1 47
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+> fight_prog 12~
+cast 'fireball' $n
+cast 'poison' $n
+cast 'blindness' $n
+~
+|
+#211
+Dwarven soul~
+&pDwarven soul~
+&pDwarven soul moans and groans
+~
+The dead soul of a Dwarven warrior from the Great War of Halugrath
+~
+1 0 0 1000 C
+0 0 4 5 5 5
+1d6+45 1d2+2 0 0 0
+0 0
+112 112 0
+13 13 13 14 13 13 12 39
+0 0 0 0 0
+84 0 0 0 1 1 39
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+> rand_prog 50~
+say 'Ro ho ho, a life to live for beer!
+~
+> rand_prog 50~
+say I need a keg of beer, or whiskey would be nice,
+say ale's even better, by twice times thrice!
+~
+|
+#212
+Tultan~
+&RTultan~
+&RTultan wanders around, serving Hades
+~
+Tultan is the servant of Hades, and does Hades' every bidding. Tultan 
+lacks eyes, but in his sockets are the faces of tortured souls who have 
+passed on the depth of Hell. Just like his eye sockets, his soul is just 
+as empty, and now carries nothing more than the deprived moans of lost 
+souls. 
+~
+1 0 0 -1000 C
+0 0 6 5 5 6
+5d12+95 1d4+4 0 0 0
+0 0
+112 112 0
+17 16 14 13 13 13 16 45
+0 0 0 0 0
+84 0 0 0 1 1 45
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#213
+Elven Mage~
+&pAn Elven Mage&G~
+&pAn elven mage wanders about forever, looking for fallen elves to resurect.&G
+~
+&pThis mage of elven race also fought in the Great War that took 
+the lives of the other ghosts here in the bloody marsh. His 
+purpose was to heal and resurrect the injured or fallen warrios 
+of Tree Village. He too lost his life in that war, and now, he 
+forever roams this marsh trying to resurect his fallen 
+companions. 
+~
+1 0 0 0 C
+0 0 6 5 7 7
+4d10+83 1d3+3 0 0 0
+633 0
+112 112 1
+16 13 14 15 13 13 15 43
+0 0 0 0 0
+1 0 0 0 1 1 43
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+1 0 0 0 0 0 0 256 2
+> death_prog 70~
+mea $n The elven mage suddenly disappear, and the magic that kept him here, and then took him from here, took all of his equipment with him.
+remove all
+mpjunk all
+~
+> fight_prog 15~
+if ispc($n)
+if rand(50)
+cackle
+cast 'cause light' $n
+else
+c 'fire bolt' $n
+endif
+endif
+~
+|
+#214
+orc mage~
+&w&pAn Orc Mages Ghost~
+&pThe ghost of an orc mage passes here.&G
+~
+~
+1 0 0 0 C
+0 0 7 6 6 8
+4d11+93 1d4+4 0 0 0
+0 0
+112 112 0
+13 16 15 16 13 13 14 46
+0 0 0 0 0
+53 0 0 0 1 1 46
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+4 0 0 0 0 0 0 640 2
+> fight_prog 25~
+if ispc($n)
+if rand(50)
+cast 'cause serious' $n
+else
+cast 'fireball' $n
+endif
+endif
+~
+> death_prog 70~
+mea $n The ghost of the orc mage leers at you and grins evilly as it takes his equipment with him beyond the grave.
+remove all
+mpjunk all
+~
+|
+#215
+dwarven warrior~
+&w&pA Dwarven Warriors Spirit~
+&pThe spirit of a dwarven warrior passes here.&G
+~
+&pWhile this dwarven warrior's ghost was still alive it fought 
+in the Great War. The soul that is here now used to be a brave 
+warrior. 
+~
+1 0 0 0 C
+0 0 5 6 5 5
+2d8+58 1d3+2 0 0 0
+489 0
+112 112 1
+14 14 14 14 13 13 13 42
+0 0 0 0 0
+2 0 0 0 1 1 42
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+3 0 0 0 0 0 0 512 2
+#216
+dwarven axer~
+&pDwarven Axeman&g~
+&pA dwarven axeman wanders here eternally.&G
+~
+&pThis dwarven axeman, or Saq`grawhari in the elven tongue, 
+fought against the orcs and ogres in the Great War of 
+Halugrath.&G 
+~
+1 0 0 0 C
+0 0 5 4 5 4
+2d7+50 1d3+2 0 0 0
+455 0
+112 112 0
+14 14 16 16 13 13 12 41
+0 0 0 0 0
+2 0 0 0 1 1 41
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+1 0 0 0 0 0 0 608 2
+> fight_prog 25~
+cackle
+mprestore self 25
+~
+> death_prog 30~
+if ispc($n)
+mea $n Thank you for releasing me $n, but I fear all I can leave you is my gold...the armor is mine.
+bow $n
+remove all
+mpjunk all
+endif
+~
+|
+#217
+ogre swordsman~
+&pOgre Swordsman&G~
+&pAn ogre swordsman wanders the bloody marsh forever.&G
+~
+&pThis ogre swordsman, or Gurgonol in the elven tongue, fought 
+against the elves and dwarves in the Great War and roams this 
+marsh eternally now.&G 
+~
+1 0 0 0 C
+0 0 6 6 6 6
+2d8+57 1d3+3 0 0 0
+560 0
+112 112 0
+12 12 15 12 13 13 16 43
+0 0 0 0 0
+3 0 0 0 1 1 43
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+4 0 0 0 0 0 0 256 2
+#299
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#200
+blood puddle~
+&RA puddle of blood~
+&C &RA puddle of blood lies here perpetually.~
+~
+12 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+puddle~
+&rA red, deep, puddle of blood.
+~
+#201
+archers token~
+&pArcher's Token~
+&pThe Archer's Token is lying here.~
+~
+8 0 3
+0 0 0 0 0 1 0 0 0 0 0 0 0 0
+1.000000 350 0 0 0 0 1
+E
+token~
+&rThe treasured newbie gift, which has a very powerful gift bestowed upon 
+it. 
+~
+A
+13 1 0
+A
+12 1 0
+> get_prog 100~
+if ispc($n)
+if level($n) > 15
+mea $n _cya You are too high a level for this item.
+mpforce $n junk token
+else
+mea $n _cya You have gained a treasured item among newbies to this realm.
+endif
+endif
+~
+> wear_prog 100~
+if ispc($n)
+if level($n) > 15
+mea $n _cya You are too high a level to wear this item.
+mpforce $n remove token
+mpforce $n junk token
+else
+mea $n _cya You wear a special item, treasure by newbies.
+endif
+endif
+~
+|
+#202
+Whip of Braxus~
+&rWhip of Braxus~
+&rThe Whip of Braxus is lying here~
+~
+5 524288 513
+1000 20 23 6 -1 -1 0 10 9 8 12 0 1 2
+5.000000 55000 0 0 0 0 4
+'NONE'
+E
+whip of braxus~
+&rThis is the whip of the lower Lord of Hell, named Braxus. 
+~
+A
+13 5 0
+A
+12 5 0
+A
+81 1 0
+A
+77 5 0
+#203
+Shield of Braxus~
+&rShield of Braxus~
+&rThe Shield of Braxus is lying here~
+~
+9 524288 129
+1800 1800 45 0 3 0 0 0 0 0 0 0 0 0
+5.000000 45000 0 0 0 0 3
+E
+shield of braxus~
+&rThe ornate, and powerful shield of the lower Lord of Hell, Braxus. 
+~
+A
+13 5 0
+A
+12 4 0
+A
+79 2 0
+A
+80 1 0
+#204
+Vest of Braxus~
+&rVest of Braxus~
+&rThe Vest of Braxus lying here~
+~
+9 0 9
+11 11 11 1000 11 1 0 0 0 0 0 0 0 0
+3.000000 85000 0 0 0 0 3
+E
+vest of braxus~
+&rThe vest of the lower Lord of Hell, Braxus.
+~
+A
+13 10 0
+A
+12 3 0
+A
+79 3 0
+A
+80 2 0
+A
+24 -2 0
+A
+20 -2 0
+A
+23 -2 0
+A
+22 -2 0
+#205
+Guards of Braxus~
+&rGuard of Braxus~
+&rThe Guards of Braxus are lying here~
+~
+9 524288 65
+12 12 0 1000 12 1 0 0 0 0 0 0 0 0
+7.000000 45000 0 0 0 0 2
+E
+guards of braxus~
+&rThese are the arm guards of the lower Lord of Hell, Braxus.
+~
+A
+40 1 0
+A
+13 5 0
+A
+12 4 0
+A
+79 2 0
+A
+24 -2 0
+#206
+hades trident~
+&RH&zades' &RT&zrident~
+&RA&z long, &Rt&zhree &Rp&zronged &Rs&zpear is stuck in the &Rg&zround.~
+&RT&zhe &Rb&zowels of &RH&zell &Rt&zremor in &Rh&zorror~
+5 524300&131072&512 513
+1000 16 19 8 -1 -1 0 4 5 10 6 0 25 0
+12.000000 15000 0 0 0 0 9
+'NONE'
+E
+trident~
+This is the trident of Hades, the three pronged spear that the god of hell 
+uses to torture the lost souls in his realm. The points are covered with 
+blood and bits of flesh. 
+~
+A
+13 3 0
+A
+12 3 0
+A
+82 1 0
+#207
+Hellspawn~
+&RH&zellspawn~
+&RH&zellspawn &Rw&zas &Rl&zeft &Rh&zere.~
+~
+9 524295 9
+11 10 10 1000 13 4 0 0 0 0 0 0 0 0
+23.000000 25000 0 0 0 0 4
+E
+hellspawn~
+Hellspawn is the breatplate of Hades. Cryptic runes cover the plate of 
+armor, and in the center, where the heart would be, is the twisted face of 
+a soul screaming in absolute agony. The armor itself is made of a black, 
+shining steal that seems to glow in its own horrific glory. 
+~
+A
+13 5 0
+A
+12 3 0
+A
+1 1 0
+A
+24 -3 0
+A
+20 -3 0
+A
+23 -3 0
+A
+21 -3 0
+A
+22 -3 0
+> wear_prog 100~
+mea $n You feel your soul rend in agony as you wear the armor of Hades.
+mer $n The bowels of Hell shake in fear as a mortal dons the armor of Hades.
+~
+|
+#208
+Blaspheme~
+&RB&zlaspheme~
+&RB&zlaspheme was dropped here~
+~
+9 524292 131073
+0 0 0 0
+1.000000 15000 0 0 0 0 2
+E
+blaspheme~
+This is the cloak of Hades. It is made of a shining black metal that, 
+uppon close inspection, visibly holds many lost souls within it's 
+material. The material itself, although made of metal, is very flexible, 
+and capable of being worn as clothing. 
+~
+A
+13 5 0
+A
+12 3 0
+A
+24 -2 0
+A
+20 -2 0
+> wear_prog 100~
+mea $n You feel your heart turn to the blackest of stone as you don the cloak of Hades.
+mer $n Millions of lost souls cry in horror as a mortal gains control of the cloak of Hades.
+~
+|
+#209
+Tultan Guard~
+&w&RT&w&zultan &w&RG&w&zuard~
+&w&RT&w&zultan &w&RG&w&zuard were lost here.~
+~
+9 524300 65
+11 11 11 1000 13 2 0 0 0 0 0 0 0 0
+9.000000 8500 0 0 0 0 2
+E
+tultan guard~
+The arm protectors of the great Tultan.
+~
+A
+13 3 0
+A
+12 2 0
+#210
+Tultan Legs~
+&RT&zultan &RL&zegs~
+&RT&zultan &RL&zegs were left here.~
+~
+9 524300 33
+11 11 11 1000 13 2 0 0 0 0 0 0 0 0
+10.000000 8500 0 0 0 0 2
+E
+legs~
+The leg plates of Tultan.
+~
+A
+13 3 0
+A
+12 2 0
+#211
+Flame of Satan~
+&rFl&Ram&Ye&W of&Y Sa&Rta&rn~
+A fiery sword was dropped here~
+~
+5 524292&0&256 513
+1000 10 11 5 -1 -1 0 4 5 8 10 0 43 10
+1.000000 11000 0 0 0 0 3
+'NONE'
+A
+32 1 0
+A
+13 3 0
+A
+12 2 0
+A
+81 1 0
+#212
+keg~
+&zCope's Keg~
+&zCope's Keg is here, tapped, chilled, and ready to drink from.~
+~
+17 0 0
+1000000 1000000 1 0
+1.000000 0 0 0 0 0 0
+#213
+big flame of satan~
+&rFl&Ram&Ye&W of&Y Sa&Rta&rn~
+A fiery sword was dropped here~
+~
+5 524300 8193
+12 6 2 3 6 -1 0 0 0 0 0 0 0 0
+1.000000 500 0 211 0 0 0
+'acidic oblivion'
+A
+13 10 0
+A
+17 -10 0
+A
+31 1 0
+A
+10 5 0
+A
+11 5 0
+A
+18 3 0
+A
+19 3 0
+#214
+vwahiri mace~
+&zA &pV&zw&pa&zh&pi&zr&pi &zM&pa&zc&pe&G~
+&zA &pV&zw&pa&zh&pi&zr&pi &zM&pa&zc&pe&z i&ps &zl&py&zi&pn&zg &ph&ze&pr&ze.&G~
+~
+5 524288 513
+1000 9 10 5 -1 -1 0 6 5 4 10 0 5 10
+1.000000 5000 0 0 0 0 3
+'NONE'
+E
+vwahiri mace~
+&pThe Vwahiri Mace was the battle weapon of the mages in the 
+Great War. Almost every mage that stepped foot on the 
+battlefield carried one of these maces. The head of the mace is 
+set with four long spikes, which radiate from the center point 
+of the handle, and one long spike sprouts forth off the top of 
+the head of the mace. 
+~
+A
+13 2 0
+A
+12 3 0
+#216
+vwahiri chain mail tunic~
+&zA &pV&zw&pa&zh&pi&zr&pi &zC&ph&za&pi&zn &pM&za&pi&zl &pT&zu&pn&zi&pc&G~
+&zA &pV&zw&pa&zh&pi&zr&pi &zC&ph&za&pi&zn &pM&za&pi&zl &pT&zu&pn&zi&pc&z w&pa&zs &pl&ze&pf&zt &ph&ze&pr&ze.&G~
+~
+9 524288 9
+7 7 7 1000 9 2 9 0 0 0 0 0 0 0
+6.000000 5500 0 0 0 0 2
+E
+vwahiri chain mail tunic~
+&pThis is a Vwahiri Chain Mail Tunic, part of the Vwahiri line 
+of equipment designed, made, and blessed especially for the 
+battle mages of the Great War. 
+~
+A
+13 3 0
+A
+12 5 0
+A
+24 -5 0
+A
+23 -3 0
+A
+21 -3 0
+A
+20 -3 0
+A
+22 -4 0
+A
+3 1 0
+A
+83 150 0
+#217
+vwahiri coif~
+&zA &pV&zw&pa&zh&pi&zr&pi &zC&ph&za&pi&zn &pC&zo&pi&zf&G~
+&zA &pV&zw&pa&zh&pi&zr&pi &zC&ph&za&pi&zn &pC&zo&pi&zf &pw&za&ps &zl&pe&zf&pt &zh&pe&zr&pe.&G~
+~
+9 524288 5
+10 10 10 1000 13 2 9 0 0 0 0 0 0 0
+4.000000 8000 0 0 0 0 0
+E
+vwahiri chain coif~
+&pThis is a Vwahiri Chain Coif, designed, created, and blessed 
+especially for the battle mages of the Great War. 
+~
+A
+4 1 0
+A
+13 2 0
+A
+12 5 0
+#218
+sign~
+&YA Sign&G~
+&YA Sign was set here.&G~
+~
+12 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#219
+yrchulgi kryss~
+&OY&gr&Oc&gh&Ou&gl&Og&gi &OK&gr&Oy&gs&Os&G~
+&OA&gn &OY&gr&Oc&gh&Ou&gl&Og&gi &OK&gr&Oy&gs&Os &gw&Oa&gs &Ol&ge&Of&gt &Oh&ge&Or&ge.&G~
+~
+5 524288&0&256 513
+1000 9 10 4 -1 -1 18 4 5 7 8 0 27 10
+3.000000 12000 0 0 0 0 2
+'NONE'
+E
+yrchulgi kryss~
+&pThe Yrchulgi Kryss was carried by the orc mages, or the 
+Yrchulgi in the elven tongue, during the Great War.&G 
+~
+A
+12 7 0
+A
+13 2 0
+A
+81 1 0
+#220
+yrchulgi pendant~
+&OY&gr&Oc&gh&Ou&gl&Og&gi &OP&ge&On&gd&Oa&gn&Ot&G~
+&OA&gn &OY&gr&Oc&gh&Ou&gl&Og&gi &OP&ge&On&gd&Oa&gn&Ot &gw&Oa&gs &Ol&ge&Of&gt &Oh&ge&Or&ge.&G~
+~
+9 0&0&16 32769
+0 0 0 0
+5.000000 9000 0 0 0 0 3
+E
+yrchulgi pendant~
+&pThis pendant was worn by the orc mages, or Yrchulgi in the 
+elven tongue, during the Great War.&G 
+~
+A
+4 1 0
+A
+3 1 0
+A
+12 5 0
+#221
+saqwari sword~
+&bS&ga&bq&gw&ba&gr&bi &gS&bw&go&br&gd&G~
+&gA &bS&ga&bq&gw&ba&gr&bi &gS&bw&go&br&gd &bw&ga&bs &gl&be&gf&bt &gh&be&gr&be.&G~
+~
+5 524288&131072&64 513
+1000 13 15 9 -1 -1 0 7 8 5 10 0 30 18
+20.000000 8000 0 0 0 0 3
+'NONE'
+E
+saqwari sword~
+&pThis sword was carried by the Saqwari, or the dwarven warriors 
+in the common tongue. 
+~
+A
+13 2 0
+A
+5 1 0
+#222
+saqwari helmet~
+&gS&ba&gq&bw&ga&br&gi &bH&ge&bl&gm&be&gt&G~
+&gS&ba&gq&bw&ga&br&gi &bH&ge&bl&gm&be&gt &bw&ga&bs &gl&be&gf&bt &gh&be&gr&be.&G~
+~
+9 524288 17
+12 12 12 1000 14 4 17 0 0 0 0 0 0 0
+18.000000 8000 0 0 0 0 2
+E
+saqwari helmet~
+&pThis helmet was worn by the dwarven warriors, or Saqwari in 
+the elven tongue, during the Great War.&G 
+~
+A
+13 3 0
+A
+80 1 0
+#223
+saqgrawhari axe~
+&rS&pa&rq&p`&rg&pr&ra&pw&rh&pa&rr&pi &rA&px&re&G~
+&pA &rS&pa&rq&p`&rg&pr&ra&pw&rh&pa&rr&pi &rA&px&re &ph&ra&ps &rb&pe&re&pn &rl&pe&rf&pt &rh&pe&rr&pe&r.&G~
+~
+5 524288&0&128 513
+1000 9 11 8 -1 -1 0 5 7 4 10 0 20 0
+15.000000 8000 0 0 0 0 4
+'NONE'
+E
+saq`grawhari axe saq~
+&pThis axe was carried by the dwarven axemen, or Saq`grawhari in 
+the elven tongue, during the Great War.&G 
+~
+A
+13 3 0
+A
+82 1 0
+#224
+saqgrawhari gauntlets~
+&rS&pa&rq&p`&rg&pr&ra&pw&rh&pa&rr&pi &rG&pa&ru&pn&rt&pl&re&pt&rs&G~
+&rS&po&rm&pe &rS&pa&rq&p`&rg&pr&ra&pw&rh&pa&rr&pi &rG&pa&ru&pn&rt&pl&re&pt&rs &pw&re&pr&re &pl&re&pf&rt &ph&re&pr&re.&G~
+~
+9 524288 65
+10 10 10 1000 10 3 12 0 0 0 0 0 0 0
+18.000000 8000 0 0 0 0 2
+E
+saq`grawhari gauntlets saq~
+&pThese guantlets were worn by the dwarven axemen, or 
+Saq`grawhari in the elven tongue, during the Great War.&G 
+~
+A
+13 2 0
+#225
+saqgrawhari crown~
+&rS&pa&rq&p`&rg&pr&ra&pw&rh&pa&rr&pi &rC&pr&ro&pw&rn&G~
+&pA &rS&pa&rq&p`&rg&pr&ra&pw&rh&pa&rr&pi &rC&pr&ro&pw&rn &pw&ra&ps &pl&re&pf&rt &ph&re&pr&re.&G~
+~
+9 540672 17
+9 9 9 1000 9 3 12 0 0 0 0 0 0 0
+9.000000 8000 0 0 0 0 1
+E
+saq`grawhari crown saq~
+&pThis crown was worn by the dwarven axemen, or Saq`grawhari in 
+the elven tongue, during the Great War. The Saq`grawhari were 
+princes and other like royalty of the dwarves of Bluehaven, and 
+thusly wore their crowns into battle.&G 
+~
+A
+13 3 0
+#226
+saqgrawhari tunic~
+&rS&pa&rq&p`&rg&pr&ra&pw&rh&pa&rr&pi &rT&pu&rn&pi&rc&G~
+&pA &rS&pa&rq&p`&rg&pr&ra&pw&rh&pa&rr&pi &rT&pu&rn&pi&rc &pw&ra&ps &pl&re&pf&rt &ph&re&pr&re.&G~
+~
+9 540672 9
+8 8 8 1000 8 2 12 0 0 0 0 0 0 0
+25.000000 11000 0 0 0 0 2
+E
+saq`grawhari tunic saq~
+&pThis chain mail tunic was worn by the dwarven axemen, or 
+Saq`grawhari in the elven tongue, during the Great War.&G 
+~
+A
+1 1 0
+A
+13 8 0
+A
+24 -3 0
+A
+23 -2 0
+A
+21 -2 0
+A
+20 -3 0
+A
+22 -2 0
+#227
+gurgonol sword~
+&RGurgonol Sword&G~
+&RA Gurgonol Sword was left here.&G~
+~
+5 524288&0&64 513
+1000 12 15 9 -1 -1 0 5 8 7 9 0 25 10
+13.000000 500 0 0 0 0 4
+'NONE'
+E
+gurgonol sword gurg~
+&RThis sword was carried by the ogre swordsman, or Gugonol in 
+the elven tongue, during the Great War.&G 
+~
+A
+13 3 0
+A
+12 1 0
+#228
+gurgonol mail tunic~
+&RGurgonol Mail Tunic&G~
+&RA Gurgonol mail tunic is lying here.&G~
+~
+9 524288 9
+8 8 8 1000 9 2 19 0 0 0 0 0 0 0
+20.000000 12000 0 0 0 0 3
+E
+gurgonol mail tunic gurg~
+&RThis mail tunic was worn by the ogre swordsmen, or Gurgonol in 
+the elven tongue, during the Great War. &G 
+~
+A
+13 7 0
+A
+12 3 0
+A
+80 1 0
+A
+24 -2 0
+A
+22 -1 0
+A
+21 -1 0
+A
+20 -1 0
+A
+23 -1 0
+#229
+gurgonol ring~
+&RG&wu&Rr&wg&Ro&wn&Ro&wl &RR&wi&Rn&wg&G~
+&wA &RG&wu&Rr&wg&Ro&wn&Ro&wl &RR&wi&Rn&wg &Rw&wa&Rs&w l&Re&wf&Rt &wg&Re&wr&Re&w,&G~
+~
+8 524288&0&16 3
+1 0 12 0 0 19 19 0 0 0 0 0 0 0
+0.100000 13000 0 0 0 0 3
+E
+gurgonol ring~
+&pThis ring was worn by the ogre swordsmen, or Gurgonol in the 
+elven tongue, during the Great War.&G 
+~
+A
+5 1 0
+A
+80 1 0
+#230
+gurgonol shield~
+&RG&wu&Rr&wg&Ro&wn&Ro&wl &RS&wh&Ri&we&Rl&wd&G~
+&wA &RG&wu&Rr&wg&Ro&wn&Ro&wl &RS&wh&Ri&we&Rl&wd &Rw&wa&Rs&w l&Re&wf&Rt &wh&Re&wr&Re&w.&G~
+~
+9 524288 129
+1100 1100 55 5 0 19 19 0 0 0 0 0 0 0
+20.000000 11000 0 0 0 0 4
+E
+gurgonol shield gurg~
+&pThis shield was carried by the ogre swordsmen, or Gurgonol in 
+the elven tongue, during the Great War.&G 
+~
+A
+13 4 0
+A
+79 2 0
+#231
+ogre ceremonial necklace~
+ogre ceremonial necklace~
+Someone has left behind a nicely crafted ogre ceremonial necklace behind.~
+~
+8 0&0&16 5
+0 0 0 0
+10.000000 25000 0 0 0 0 3
+A
+13 10 0
+A
+1 1 0
+A
+50 1 0
+A
+81 1 0
+#232
+gulwyle gem~
+&WA &CG&Wu&Cl&Ww&Cy&Wl&Ce&W G&Ce&Wm&w~
+A stunningly beautiful and immaculately cut gem is laying here.~
+~
+8 1073741825&256 5
+0 0 0 0
+1.000000 5000 0 0 0 0 0
+A
+56 -1 0
+> wear_prog 100~
+if ispc($n)
+cast 'managen' $n
+endif
+~
+|
+#233
+wind sword~
+&WBlade of the Wind&W~
+It appears the a wind sword has been left here.~
+~
+5 0&0&64 513
+1000 70 100 3 -1 -1 0 5 35 30 20 0 20 20
+2.000000 0 0 0 0 0 0
+'NONE'
+A
+77 2 0
+#234
+steel sleeve~
+&zA steel sleeve.&W~
+A steel sleeve has been dropped here.~
+~
+9 524288 129
+30000 30000 60 1 0 3 3 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+A
+77 2 0
+A
+13 10 0
+#235
+dragon scale pouch~
+&gA dragon scale pouch&W~
+A pouch made of scaled hide is laying here.~
+~
+15 0&256 257 16
+100000 0 0 0
+1.000000 0 0 0 0 0 0
+A
+11 100 0
+#236
+steelsap backing~
+&OSome steelsap backing&W~
+An odd looking piece of hardened leather is lying here.~
+~
+9 0&256 131073
+5 25 15 1000 1000 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+A
+2 1 0
+A
+13 10 0
+#237
+copenhaygen siglas~
+&OCopenhaygen's Siglas&W~
+&OCopenhaygen's siglas is lying here.&W~
+~
+8 0&256 32769
+0 0 0 0
+1.000000 0 0 0 0 0 0
+A
+3 2 0
+A
+12 50 0
+A
+2 1 0
+A
+77 1 0
+> get_prog 100~
+if ispc ($n)
+mptransfer $n 9150
+endif
+~
+|
+#238
+gulwyle sword~
+&BThe Tree Village Sword of Magnificent Lake Gulwyle&W~
+The holy blade of Tree Village has been lost here.~
+~
+5 524289&256&64 513
+1000 100 120 3 -1 -1 0 10 45 30 30 0 40 40
+4.000000 0 0 0 0 0 0
+'NONE'
+#239
+steelsap femal armor~
+&OSteelsap female armor&W~
+Some rather feminine leather armor is laying here.~
+~
+9 0&256 9 4
+12 13 11 1000 100 1 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+steelsap female armor~
+&OThe steelsap female leather armor looks hardly to be armor at all.
+The leather is surprisingly soft on the inside, and is covered with 
+sections of extremely hard sap squares on the outside. It is 
+designed with two cups for the womans chest and two straps which 
+go over the shoulder. The bottom of the top could go no further 
+than a couple of inches beneath the bustline, and the straps
+look hardly wide enough to keep the top from slipping down the
+torso of the wearer. If this item truly provides any real protection
+it must be from a magical source.
+&W
+~
+#240
+steelsap choker~
+&OSteelsap choker&W~
+A leather choker has been dropped here.~
+~
+9 0&256 5
+10 15 13 1000 100 1 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+steelsap choker~
+&OThe leather choker is rather plain in basic appearance. 
+The inside of the leather piece is very soft and supple, 
+yet the outside is covered in patches of the sap of the 
+steel tree. The design of the piece of armor is rather 
+basic as well. It is designed to reach from the top of the 
+wearer's shoulders to point of the jaw. In front there is a 
+point which drops down to touch the place where the two 
+collar bones meet, and there are also two points which 
+raise up slightly behind each ear. 
+&W
+~
+#241
+halubrearu token~
+&OH&za&Ol&zu&Ob&zr&Oe&za&Or&zu&O I&zn&Os&zi&Og&zn&Oi&za&W~
+The insignia of the Halubrearu has been left here.~
+~
+8 8&256 3
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+halubrearu insignia~
+&zThis ring is worn by the elite warriors of Tree Village 
+trained to protect the elven civilation and community...to 
+maintain its peace and serenity. The ring itself is 
+weightless and rather plain except for the Steel Cypress 
+Tree symbol which is carved in the top of the ring. 
+&W
+
+~
+A
+18 10 0
+A
+19 10 0
+A
+26 4 0
+#242
+steelsap braids~
+&OSteelsap braids&W~
+Some strips of steelsap coated leather have been left here.~
+~
+9 0&256 17
+5 8 5 1000 100 1 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+steelsap braids~
+&OThese strips of leather are used to braid into the locks 
+of those with longer hair. The strips provide the hair with 
+added rigidity, to help keep them from blowing in the wind 
+and getting caught in brush. They also provide some minor 
+protection from weapons. 
+&W
+~
+A
+18 10 0
+A
+4 1 0
+A
+2 1 0
+A
+77 1 0
+#243
+steelsap boots~
+&OSteelsap thigh length boots&w~
+Some steelsap coated leather boots are lying here.~
+~
+9 0&256 33
+19 24 21 1000 100 1 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+steelsap thigh boots~
+&OThese leather boots are very soft and supple on the 
+inside, but the outside of the boots, except for the soles, 
+are covered with small square patches of dried steelsap. 
+The boots are designed to go up to mid thigh on the wearer 
+and appear to be worn rather tightly. Along the part of the 
+boot designed to cover the outer leg there is a strip of 
+the leather that was cut out and in its place was put an 
+intricate, if rather holey, woven pattern. It certainly 
+appears that these boots were more stylish than practical, 
+but a strong magical presence is about the boots. Perhaps 
+they are more protective than they appear. 
+&W
+~
+A
+2 1 0
+A
+77 1 0
+#245
+steelsap gloves~
+&OSteelsap gloves&W~
+Some steelsap coated gloves are lying here~
+~
+9 0&256 65
+14 21 19 1000 100 1 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+steelsap gloves~
+&OThese leather gloves are soft and supple on the inside, 
+but the exterior of the glove is coated with small squares 
+of dried steelsap. They are not exceptionally long, 
+reaching just behind the palm and back of the hand. Also, 
+the palm of the gloves appears to have had sand mixed with 
+the steelsap during the coating process which aids in a 
+better grip for the wearer. 
+&W
+~
+A
+53 2 0
+#246
+steelsap skirt~
+&OSteelsap skirt&W~
+A steelsap coated leather skirt has been left here.~
+~
+9 0&256 257 4
+20 28 19 1000 100 1 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+steelsap skirt~
+&OThis leather skirt is essentially a belt about four 
+inches from top to bottom, and hanging from the bottom of 
+the belt in sections two inches wide are strips of leather. 
+Each strip has a small black, round piece of metal riveted 
+in place at the tip, and the entire thing is coated in 
+small squares of steelsap. 
+&W
+~
+#247
+steel cypress dagger~
+&gD&za&gg&zg&ge&zr&g o&zf&g t&zh&ge&z S&gt&ze&ge&zl&g-&zC&gy&zp&gr&ze&gs&zs&W~
+A magical dagger is lying here.~
+~
+5 0&256&256 513
+1000 100 150 20 -1 -1 0 5 20 30 0 0 100 100
+3.000000 0 0 0 0 0 0
+'NONE'
+A
+2 1 0
+A
+77 1 0
+#299
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#0
+
+
+#ROOMS
+#200
+&YHalugra Planari~
+These are the Halugrath Plains.  A beautiful, wide expanse
+of land that spans the distance from the northern shores of
+Lake Gulwyle to the southern arms of the Alenxanth Mountain
+Range.  The grass grows tall year round, taller than most 
+a peaceful whisper as it rushes through the grass and travels
+men.  The shortest blades are at least four feet tall while
+the tallest are almost double that. The wind constantly makes
+across the plain.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 213
+0 0
+D1
+~
+~
+0 -1 201
+0 0
+D2
+~
+~
+134217728 -1 16000
+742 324
+E
+sign~
+Welcome to Blood Marsh, the famed newbie grounds of 1.x.  To the east
+of the fenced area exists the Blood Marshes.  All sorts of adventure can
+be found here for those who are willing to take on a low-medium to medium
+difficulty area.  Just beware the lord of the underground, he has been known
+to eat newbies.
+
+--Xerves
+(Modified from Copen's original area just slightly)
+~
+S
+#201
+&YHalugra Planari~
+These are the Halugrath Plains.  A beautiful, wide expanse
+of land that spans the distance from the northern shores of
+Lake Gulwyle to the southern arms of the Alenxanth Mountain
+Range.  The grass grows tall year round, taller than most 
+a peaceful whisper as it rushes through the grass and travels
+men.  The shortest blades are at least four feet tall while
+the tallest are almost double that. The wind constantly makes
+across the plain.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 212
+0 0
+D1
+~
+fence~
+167 -1 202
+0 0
+D3
+~
+~
+0 -1 200
+0 0
+S
+#202
+&RBlood Marshes~
+&GT&Chese are the Blood Marshes.  A &Gs&Cection of marsh lands
+created &Gu&Cpon the finish of the&GF&Cour Corners War.  Most
+of the &Gb&Clood that was spilled in that battle &Gd&Crained
+here.  &GT&Che ghosts of that massive &Gb&Cattle still haunt
+the lands wit&Gh&Cin the fences, which marks &Gt&Che boundaries
+of the Blood &GM&Carshes.
+            
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 211
+0 0
+D1
+~
+~
+0 -1 203
+0 0
+D3
+~
+fence~
+167 -1 201
+0 0
+S
+#203
+&RBlood Marshes~
+&GT&Che pools of bloody mud lie &Ga&Cround on the ground in hordes. 
+&GI&Cn each pool remains the faces of fallen &Gw&Carriors, their 
+haunting visages chilling the &Gl&Civing to the bone. &GA&Cll around,
+those same ghosts can be &Gv&Caguely seen wandering around, 
+taking &Gw&Cispy strides through the thick &Ga&Cir. 
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 210
+0 0
+D1
+~
+~
+0 -1 204
+0 0
+D3
+~
+~
+0 -1 202
+0 0
+S
+#204
+&RBlood Marshes~
+&GH&Ceart stopping screams and cries of &Gm&Cercy echo off every
+speck of dust, mixed &Gw&Cith the horrific battle cries and &Go&Cld
+ghastly moans.  The figures of fallen orc &Gb&Carbarians and 
+archers still fight in ghostly &Gb&Cattles with &Gt&Che dead elven
+swordsmen and dwarven &Ga&Cxemen that fought in the Great
+Battle.  &GD&Crops of blood can still be heard, &Gc&Chillingly
+dripping into the &Gp&Cools.
+               
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 209
+0 0
+D1
+~
+~
+0 -1 205
+0 0
+D3
+~
+~
+0 -1 203
+0 0
+S
+#205
+&RBlood Marshes~
+&GT&Che spirits of the deceased warriors of the &GG&Creat War of
+Halugrath &Gp&Clague this area and their &Gn&Cumbers grow thicker
+and thicker towards the &Ge&Cast.  The ghosts' faces are quite
+&Gv&Cisible when looked upon closely, or &Ga&Ct least what is left
+of those &Gf&Caces.  &GM&Cany of the faces are greatly scarred,
+&Gm&Cissing ears, or with an eye dangling from its &Gs&Cocket.
+Crushed skulls or jaws &Gs&Cway freely from the side that &Gr&Cemains
+attached.  &GG&Cruesome.
+                
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 208
+0 0
+D1
+~
+~
+0 -1 206
+0 0
+D3
+~
+~
+0 -1 204
+0 0
+S
+#206
+&RBlood Marshes~
+&GH&Cere the ghosts are thickest.  &GT&Cheir haunting faces search
+constantly for &Gn&Cew blood to quench their thirst.  &GA&Cmongst
+the most dangerous of the ghosts are the dead &GO&Crc barbarians,
+constantly looking for revenge &Ga&Cgainst the living.  &GT&Che
+ghosts of the orcs are especially &Gv&Ciolent toward elvish or
+dwarven &Gr&Caces, so be warned.  Make sure &Gy&Cou are prepared
+and capable in case of a chance &Gm&Ceeting with one of these
+wretched spirits &Go&Cccurs.
+                
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 207
+0 0
+D3
+~
+~
+0 -1 205
+0 0
+S
+#207
+&RBlood Marshes~
+&GH&Cere the ghosts are thickest.  &GT&Cheir haunting faces search
+constantly for &Gn&Cew blood to quench their thirst.  &GA&Cmongst
+the most dangerous of the ghosts are the dead &GO&Crc barbarians,
+constantly looking for revenge &Ga&Cgainst the living.  &GT&Che
+ghosts of the orcs are especially &Gv&Ciolent toward elvish or
+dwarven &Gr&Caces, so be warned.  Make sure &Gy&Cou are prepared
+and capable in case of a chance &Gm&Ceeting with one of these
+wretched spirits &Go&Cccurs.
+                
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 220
+0 0
+D2
+~
+~
+0 -1 206
+0 0
+D3
+~
+~
+0 -1 208
+0 0
+S
+#208
+&RBlood Marshes~
+&GT&Che spirits of the deceased warriors of the &GG&Creat War of
+Halugrath &Gp&Clague this area and their &Gn&Cumbers grow thicker
+and thicker towards the &Ge&Cast.  The ghosts' faces are quite
+&Gv&Cisible when looked upon closely, or &Ga&Ct least what is left
+of those &Gf&Caces.  &GM&Cany of the faces are greatly scarred,
+&Gm&Cissing ears, or with an eye dangling from its &Gs&Cocket.
+Crushed skulls or jaws &Gs&Cway freely from the side that &Gr&Cemains
+attached.  &GG&Cruesome.
+                
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 219
+0 0
+D1
+~
+~
+0 -1 207
+0 0
+D2
+~
+~
+0 -1 205
+0 0
+D3
+~
+~
+0 -1 209
+0 0
+S
+#209
+&RBlood Marshes~
+&GH&Ceart stopping screams and cries of &Gm&Cercy echo off every
+speck of dust, mixed &Gw&Cith the horrific battle cries and &Go&Cld
+ghastly moans.  The figures of fallen orc &Gb&Carbarians and 
+archers still fight in ghostly &Gb&Cattles with &Gt&Che dead elven
+swordsmen and dwarven &Ga&Cxemen that fought in the Great
+Battle.  &GD&Crops of blood can still be heard, &Gc&Chillingly
+dripping into the &Gp&Cools.
+               
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 218
+0 0
+D1
+~
+~
+0 -1 208
+0 0
+D2
+~
+~
+0 -1 204
+0 0
+D3
+~
+~
+0 -1 210
+0 0
+S
+#210
+&RBlood Marshes~
+&GT&Che pools of bloody mud lie &Ga&Cround on the ground in hordes. 
+&GI&Cn each pool remains the faces of fallen &Gw&Carriors, their 
+haunting visages chilling the &Gl&Civing to the bone. &GA&Cll around,
+those same ghosts can be &Gv&Caguely seen wandering around, 
+taking &Gw&Cispy strides through the thick &Ga&Cir. 
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 217
+0 0
+D1
+~
+~
+0 -1 209
+0 0
+D2
+~
+~
+0 -1 203
+0 0
+D3
+~
+~
+0 -1 211
+0 0
+S
+#211
+&RBlood Marshes~
+&GT&Chese are the Blood Marshes.  A &Gs&Cection of marsh lands
+created &Gu&Cpon the finish of the&GF&Cour Corners War.  Most
+of the &Gb&Clood that was spilled in that battle &Gd&Crained
+here.  &GT&Che ghosts of that massive &Gb&Cattle still haunt
+the lands wit&Gh&Cin the fences, which marks &Gt&Che boundaries
+of the Blood &GM&Carshes.
+            
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 216
+0 0
+D1
+~
+~
+0 -1 210
+0 0
+D2
+~
+~
+0 -1 202
+0 0
+D3
+~
+~
+3 -1 212
+0 0
+S
+#212
+&YHalugra Planari~
+These are the Halugrath Plains.  A beautiful, wide expanse
+of land that spans the distance from the northern shores of
+Lake Gulwyle to the southern arms of the Alenxanth Mountain
+Range.  The grass grows tall year round, taller than most 
+a peaceful whisper as it rushes through the grass and travels
+men.  The shortest blades are at least four feet tall while
+the tallest are almost double that. The wind constantly makes
+across the plain.
+~
+4&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 215
+0 0
+D1
+~
+~
+3 -1 211
+0 0
+D2
+~
+~
+0 -1 201
+0 0
+D3
+~
+~
+0 -1 213
+0 0
+S
+#213
+&YHalugra Planari~
+These are the Halugrath Plains.  A beautiful, wide expanse
+of land that spans the distance from the northern shores of
+Lake Gulwyle to the southern arms of the Alenxanth Mountain
+Range.  The grass grows tall year round, taller than most 
+a peaceful whisper as it rushes through the grass and travels
+men.  The shortest blades are at least four feet tall while
+the tallest are almost double that. The wind constantly makes
+across the plain.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 214
+0 0
+D1
+~
+~
+0 -1 212
+0 0
+D2
+~
+~
+0 -1 200
+0 0
+S
+#214
+&YHalugra Planari~
+These are the Halugrath Plains.  A beautiful, wide expanse
+of land that spans the distance from the northern shores of
+Lake Gulwyle to the southern arms of the Alenxanth Mountain
+Range.  The grass grows tall year round, taller than most 
+a peaceful whisper as it rushes through the grass and travels
+men.  The shortest blades are at least four feet tall while
+the tallest are almost double that. The wind constantly makes
+across the plain.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 227
+0 0
+D1
+~
+~
+0 -1 215
+0 0
+D2
+~
+~
+0 -1 213
+0 0
+S
+#215
+&YHalugra Planari~
+East of here is an old, rusted iron gate, across which lies
+a haunted bloody marshland.  Along the fence to the north
+a gate can be seen, though why anyone would desire passage
+into this land is unknown.  West, north and south all hold
+the same peaceful and tranquil setting.  A scene which even
+the bloody marshes cannot deface from this vantage.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 226
+0 0
+D1
+~
+fence~
+161 -1 216
+0 0
+D2
+~
+~
+0 -1 212
+0 0
+D3
+~
+~
+0 -1 214
+0 0
+S
+#216
+&RBlood Marshes~
+&GT&Chese are the Blood Marshes.  A &Gs&Cection of marsh lands
+created &Gu&Cpon the finish of the&GF&Cour Corners War.  Most
+of the &Gb&Clood that was spilled in that battle &Gd&Crained
+here.  &GT&Che ghosts of that massive &Gb&Cattle still haunt
+the lands wit&Gh&Cin the fences, which marks &Gt&Che boundaries
+of the Blood &GM&Carshes.
+            
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 225
+0 0
+D1
+~
+~
+0 -1 217
+0 0
+D2
+~
+~
+0 -1 211
+0 0
+D3
+~
+fence~
+161 -1 215
+0 0
+S
+#217
+&RBlood Marshes~
+&GT&Che pools of bloody mud lie &Ga&Cround on the ground in hordes. 
+&GI&Cn each pool remains the faces of fallen &Gw&Carriors, their 
+haunting visages chilling the &Gl&Civing to the bone. &GA&Cll around,
+those same ghosts can be &Gv&Caguely seen wandering around, 
+taking &Gw&Cispy strides through the thick &Ga&Cir. 
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 224
+0 0
+D1
+~
+~
+0 -1 218
+0 0
+D2
+~
+~
+0 -1 210
+0 0
+D3
+~
+~
+0 -1 216
+0 0
+S
+#218
+&RBlood Marshes~
+&GH&Ceart stopping screams and cries of &Gm&Cercy echo off every
+speck of dust, mixed &Gw&Cith the horrific battle cries and &Go&Cld
+ghastly moans.  The figures of fallen orc &Gb&Carbarians and 
+archers still fight in ghostly &Gb&Cattles with &Gt&Che dead elven
+swordsmen and dwarven &Ga&Cxemen that fought in the Great
+Battle.  &GD&Crops of blood can still be heard, &Gc&Chillingly
+dripping into the &Gp&Cools.
+               
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 223
+0 0
+D1
+~
+~
+0 -1 219
+0 0
+D2
+~
+~
+0 -1 209
+0 0
+D3
+~
+~
+0 -1 217
+0 0
+D10
+~
+puddle~
+17303552 -1 279
+0 0
+S
+#219
+&RBlood Marshes~
+&GT&Che spirits of the deceased warriors of the &GG&Creat War of
+Halugrath &Gp&Clague this area and their &Gn&Cumbers grow thicker
+and thicker towards the &Ge&Cast.  The ghosts' faces are quite
+&Gv&Cisible when looked upon closely, or &Ga&Ct least what is left
+of those &Gf&Caces.  &GM&Cany of the faces are greatly scarred,
+&Gm&Cissing ears, or with an eye dangling from its &Gs&Cocket.
+Crushed skulls or jaws &Gs&Cway freely from the side that &Gr&Cemains
+attached.  &GG&Cruesome.
+                
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 222
+0 0
+D1
+~
+~
+0 -1 220
+0 0
+D2
+~
+~
+0 -1 208
+0 0
+D3
+~
+~
+0 -1 218
+0 0
+S
+#220
+&RBlood Marshes~
+&GH&Cere the ghosts are thickest.  &GT&Cheir haunting faces search
+constantly for &Gn&Cew blood to quench their thirst.  &GA&Cmongst
+the most dangerous of the ghosts are the dead &GO&Crc barbarians,
+constantly looking for revenge &Ga&Cgainst the living.  &GT&Che
+ghosts of the orcs are especially &Gv&Ciolent toward elvish or
+dwarven &Gr&Caces, so be warned.  Make sure &Gy&Cou are prepared
+and capable in case of a chance &Gm&Ceeting with one of these
+wretched spirits &Go&Cccurs.
+                
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 221
+0 0
+D2
+~
+~
+0 -1 207
+0 0
+D3
+~
+~
+0 -1 219
+0 0
+S
+#221
+&RBlood Marshes~
+&GH&Cere the ghosts are thickest.  &GT&Cheir haunting faces search
+constantly for &Gn&Cew blood to quench their thirst.  &GA&Cmongst
+the most dangerous of the ghosts are the dead &GO&Crc barbarians,
+constantly looking for revenge &Ga&Cgainst the living.  &GT&Che
+ghosts of the orcs are especially &Gv&Ciolent toward elvish or
+dwarven &Gr&Caces, so be warned.  Make sure &Gy&Cou are prepared
+and capable in case of a chance &Gm&Ceeting with one of these
+wretched spirits &Go&Cccurs.
+                
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 234
+0 0
+D2
+~
+~
+0 -1 220
+0 0
+D3
+~
+~
+0 -1 222
+0 0
+S
+#222
+&RBlood Marshes~
+&GT&Che spirits of the deceased warriors of the &GG&Creat War of
+Halugrath &Gp&Clague this area and their &Gn&Cumbers grow thicker
+and thicker towards the &Ge&Cast.  The ghosts' faces are quite
+&Gv&Cisible when looked upon closely, or &Ga&Ct least what is left
+of those &Gf&Caces.  &GM&Cany of the faces are greatly scarred,
+&Gm&Cissing ears, or with an eye dangling from its &Gs&Cocket.
+Crushed skulls or jaws &Gs&Cway freely from the side that &Gr&Cemains
+attached.  &GG&Cruesome.
+                
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 233
+0 0
+D1
+~
+~
+0 -1 221
+0 0
+D2
+~
+~
+0 -1 219
+0 0
+D3
+~
+~
+0 -1 223
+0 0
+S
+#223
+&RBlood Marshes~
+&GH&Ceart stopping screams and cries of &Gm&Cercy echo off every
+speck of dust, mixed &Gw&Cith the horrific battle cries and &Go&Cld
+ghastly moans.  The figures of fallen orc &Gb&Carbarians and 
+archers still fight in ghostly &Gb&Cattles with &Gt&Che dead elven
+swordsmen and dwarven &Ga&Cxemen that fought in the Great
+Battle.  &GD&Crops of blood can still be heard, &Gc&Chillingly
+dripping into the &Gp&Cools.
+               
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 232
+0 0
+D1
+~
+~
+0 -1 222
+0 0
+D2
+~
+~
+0 -1 218
+0 0
+D3
+~
+~
+0 -1 224
+0 0
+S
+#224
+&RBlood Marshes~
+&GT&Che pools of bloody mud lie &Ga&Cround on the ground in hordes. 
+&GI&Cn each pool remains the faces of fallen &Gw&Carriors, their 
+haunting visages chilling the &Gl&Civing to the bone. &GA&Cll around,
+those same ghosts can be &Gv&Caguely seen wandering around, 
+taking &Gw&Cispy strides through the thick &Ga&Cir. 
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 231
+0 0
+D1
+~
+~
+0 -1 223
+0 0
+D2
+~
+~
+0 -1 217
+0 0
+D3
+~
+~
+0 -1 225
+0 0
+S
+#225
+&RBlood Marshes~
+&GT&Chese are the Blood Marshes.  A &Gs&Cection of marsh lands
+created &Gu&Cpon the finish of the&GF&Cour Corners War.  Most
+of the &Gb&Clood that was spilled in that battle &Gd&Crained
+here.  &GT&Che ghosts of that massive &Gb&Cattle still haunt
+the lands wit&Gh&Cin the fences, which marks &Gt&Che boundaries
+of the Blood &GM&Carshes.
+            
+~
+4&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 230
+0 0
+D1
+~
+~
+0 -1 224
+0 0
+D2
+~
+~
+0 -1 216
+0 0
+D3
+~
+fence~
+3 -1 226
+0 0
+S
+#226
+&YHalugra Planari~
+To the east stands a large, rusted metal gate in an iron
+fence.  Across the fence is a bloody pool of marshland.
+These lands have been fenced off from the rest of the plains
+and set with some spell to prevent the ghosts that haunt the
+marshes from wandering all over the realm.  Beware, enter
+with caution.
+~
+4&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 229
+0 0
+D1
+~
+fence~
+3 -1 225
+0 0
+D2
+~
+~
+0 -1 215
+0 0
+D3
+~
+~
+0 -1 227
+0 0
+S
+#227
+&YHalugra Planari~
+These are the Halugrath Plains.  A beautiful, wide expanse
+of land that spans the distance from the northern shores of
+Lake Gulwyle to the southern arms of the Alenxanth Mountain
+Range.  A short distance to the east an old fence and 
+its gate are visible.  On the other side of the fence it
+appears to be a muddy marshland that rests in the middle of
+the plains.  It even appears that the marshes are caused by
+massive amounts of blood which have flowed down and settled
+there.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 228
+0 0
+D1
+~
+~
+0 -1 226
+0 0
+D2
+~
+~
+0 -1 214
+0 0
+S
+#228
+&YHalugra Planari~
+These are the Halugrath Plains.  A beautiful, wide expanse
+of land that spans the distance from the northern shores of
+Lake Gulwyle to the southern arms of the Alenxanth Mountain
+Range.  The grass grows tall year round, taller than most 
+a peaceful whisper as it rushes through the grass and travels
+men.  The shortest blades are at least four feet tall while
+the tallest are almost double that. The wind constantly makes
+across the plain.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 241
+0 0
+D1
+~
+~
+0 -1 229
+0 0
+D2
+~
+~
+0 -1 227
+0 0
+S
+#229
+&YHalugra Planari~
+East of here is an old, rusted iron gate, across which lies
+a haunted bloody marshland.  Along the fence to the north
+a gate can be seen, though why anyone would desire passage
+into this land is unknown.  West, north and south all hold
+the same peaceful and tranquil setting.  A scene which even
+the bloody marshes cannot deface from this vantage.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 240
+0 0
+D1
+~
+fence~
+167 -1 230
+0 0
+D2
+~
+~
+0 -1 226
+0 0
+D3
+~
+~
+0 -1 228
+0 0
+S
+#230
+&RBlood Marshes~
+&GT&Chese are the Blood Marshes.  A &Gs&Cection of marsh lands
+created &Gu&Cpon the finish of the&GF&Cour Corners War.  Most
+of the &Gb&Clood that was spilled in that battle &Gd&Crained
+here.  &GT&Che ghosts of that massive &Gb&Cattle still haunt
+the lands wit&Gh&Cin the fences, which marks &Gt&Che boundaries
+of the Blood &GM&Carshes.
+            
+~
+4&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 239
+0 0
+D1
+~
+~
+0 -1 231
+0 0
+D2
+~
+~
+0 -1 225
+0 0
+D3
+~
+fence~
+167 -1 229
+0 0
+S
+#231
+&RBlood Marshes~
+&GT&Che pools of bloody mud lie &Ga&Cround on the ground in hordes. 
+&GI&Cn each pool remains the faces of fallen &Gw&Carriors, their 
+haunting visages chilling the &Gl&Civing to the bone. &GA&Cll around,
+those same ghosts can be &Gv&Caguely seen wandering around, 
+taking &Gw&Cispy strides through the thick &Ga&Cir. 
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 238
+0 0
+D1
+~
+~
+0 -1 232
+0 0
+D2
+~
+~
+0 -1 224
+0 0
+D3
+~
+~
+0 -1 230
+0 0
+D10
+~
+puddle~
+17303552 -1 250
+0 0
+S
+#232
+&RBlood Marshes~
+&GH&Ceart stopping screams and cries of &Gm&Cercy echo off every
+speck of dust, mixed &Gw&Cith the horrific battle cries and &Go&Cld
+ghastly moans.  The figures of fallen orc &Gb&Carbarians and 
+archers still fight in ghostly &Gb&Cattles with &Gt&Che dead elven
+swordsmen and dwarven &Ga&Cxemen that fought in the Great
+Battle.  &GD&Crops of blood can still be heard, &Gc&Chillingly
+dripping into the &Gp&Cools.
+               
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 237
+0 0
+D1
+~
+~
+0 -1 233
+0 0
+D2
+~
+~
+0 -1 223
+0 0
+D3
+~
+~
+0 -1 231
+0 0
+S
+#233
+&RBlood Marshes~
+&GT&Che spirits of the deceased warriors of the &GG&Creat War of
+Halugrath &Gp&Clague this area and their &Gn&Cumbers grow thicker
+and thicker towards the &Ge&Cast.  The ghosts' faces are quite
+&Gv&Cisible when looked upon closely, or &Ga&Ct least what is left
+of those &Gf&Caces.  &GM&Cany of the faces are greatly scarred,
+&Gm&Cissing ears, or with an eye dangling from its &Gs&Cocket.
+Crushed skulls or jaws &Gs&Cway freely from the side that &Gr&Cemains
+attached.  &GG&Cruesome.
+                
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 236
+0 0
+D1
+~
+~
+0 -1 234
+0 0
+D2
+~
+~
+0 -1 222
+0 0
+D3
+~
+~
+0 -1 232
+0 0
+D10
+~
+puddle~
+526336 -1 274
+0 0
+S
+#234
+&RBlood Marshes~
+&GH&Cere the ghosts are thickest.  &GT&Cheir haunting faces search
+constantly for &Gn&Cew blood to quench their thirst.  &GA&Cmongst
+the most dangerous of the ghosts are the dead &GO&Crc barbarians,
+constantly looking for revenge &Ga&Cgainst the living.  &GT&Che
+ghosts of the orcs are especially &Gv&Ciolent toward elvish or
+dwarven &Gr&Caces, so be warned.  Make sure &Gy&Cou are prepared
+and capable in case of a chance &Gm&Ceeting with one of these
+wretched spirits &Go&Cccurs.
+                
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 235
+0 0
+D2
+~
+~
+0 -1 221
+0 0
+D3
+~
+~
+0 -1 233
+0 0
+S
+#235
+&RBlood Marshes~
+&GH&Cere the ghosts are thickest.  &GT&Cheir haunting faces search
+constantly for &Gn&Cew blood to quench their thirst.  &GA&Cmongst
+the most dangerous of the ghosts are the dead &GO&Crc barbarians,
+constantly looking for revenge &Ga&Cgainst the living.  &GT&Che
+ghosts of the orcs are especially &Gv&Ciolent toward elvish or
+dwarven &Gr&Caces, so be warned.  Make sure &Gy&Cou are prepared
+and capable in case of a chance &Gm&Ceeting with one of these
+wretched spirits &Go&Cccurs.
+                
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 248
+0 0
+D2
+~
+~
+0 -1 234
+0 0
+D3
+~
+~
+0 -1 236
+0 0
+S
+#236
+&RBlood Marshes~
+&GT&Che spirits of the deceased warriors of the &GG&Creat War of
+Halugrath &Gp&Clague this area and their &Gn&Cumbers grow thicker
+and thicker towards the &Ge&Cast.  The ghosts' faces are quite
+&Gv&Cisible when looked upon closely, or &Ga&Ct least what is left
+of those &Gf&Caces.  &GM&Cany of the faces are greatly scarred,
+&Gm&Cissing ears, or with an eye dangling from its &Gs&Cocket.
+Crushed skulls or jaws &Gs&Cway freely from the side that &Gr&Cemains
+attached.  &GG&Cruesome.
+                
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 247
+0 0
+D1
+~
+~
+0 -1 235
+0 0
+D2
+~
+~
+0 -1 233
+0 0
+D3
+~
+~
+0 -1 237
+0 0
+S
+#237
+&RBlood Marshes~
+&GH&Ceart stopping screams and cries of &Gm&Cercy echo off every
+speck of dust, mixed &Gw&Cith the horrific battle cries and &Go&Cld
+ghastly moans.  The figures of fallen orc &Gb&Carbarians and 
+archers still fight in ghostly &Gb&Cattles with &Gt&Che dead elven
+swordsmen and dwarven &Ga&Cxemen that fought in the Great
+Battle.  &GD&Crops of blood can still be heard, &Gc&Chillingly
+dripping into the &Gp&Cools.
+               
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 246
+0 0
+D1
+~
+~
+0 -1 236
+0 0
+D2
+~
+~
+0 -1 232
+0 0
+D3
+~
+~
+0 -1 238
+0 0
+S
+#238
+&RBlood Marshes~
+&GT&Che pools of bloody mud lie &Ga&Cround on the ground in hordes. 
+&GI&Cn each pool remains the faces of fallen &Gw&Carriors, their 
+haunting visages chilling the &Gl&Civing to the bone. &GA&Cll around,
+those same ghosts can be &Gv&Caguely seen wandering around, 
+taking &Gw&Cispy strides through the thick &Ga&Cir. 
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 245
+0 0
+D1
+~
+~
+0 -1 237
+0 0
+D2
+~
+~
+0 -1 231
+0 0
+D3
+~
+~
+0 -1 239
+0 0
+S
+#239
+&RBlood Marshes~
+&GT&Chese are the Blood Marshes.  A &Gs&Cection of marsh lands
+created &Gu&Cpon the finish of the&GF&Cour Corners War.  Most
+of the &Gb&Clood that was spilled in that battle &Gd&Crained
+here.  &GT&Che ghosts of that massive &Gb&Cattle still haunt
+the lands wit&Gh&Cin the fences, which marks &Gt&Che boundaries
+of the Blood &GM&Carshes.
+            
+~
+0&2
+0 11
+0
+0
+D0
+~
+~
+0 -1 244
+0 0
+D1
+~
+~
+0 -1 238
+0 0
+D2
+~
+~
+0 -1 230
+0 0
+D3
+~
+fence~
+167 -1 240
+0 0
+S
+#240
+&YHalugra Planari~
+These are the Halugrath Plains.  A beautiful, wide expanse
+of land that spans the distance from the northern shores of
+Lake Gulwyle to the southern arms of the Alenxanth Mountain
+Range.  The grass grows tall year round, taller than most 
+a peaceful whisper as it rushes through the grass and travels
+men.  The shortest blades are at least four feet tall while
+the tallest are almost double that. The wind constantly makes
+across the plain.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 243
+0 0
+D1
+~
+fence~
+167 -1 239
+0 0
+D2
+~
+~
+0 -1 229
+0 0
+D3
+~
+~
+0 -1 241
+0 0
+S
+#241
+&YHalugra Planari~
+These are the Halugrath Plains.  A beautiful, wide expanse
+of land that spans the distance from the northern shores of
+Lake Gulwyle to the southern arms of the Alenxanth Mountain
+Range.  The grass grows tall year round, taller than most 
+a peaceful whisper as it rushes through the grass and travels
+men.  The shortest blades are at least four feet tall while
+the tallest are almost double that. The wind constantly makes
+across the plain.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 242
+0 0
+D1
+~
+~
+0 -1 240
+0 0
+D2
+~
+~
+0 -1 228
+0 0
+S
+#242
+&YHalugra Planari~
+These are the Halugrath Plains.  A beautiful, wide expanse
+of land that spans the distance from the northern shores of
+Lake Gulwyle to the southern arms of the Alenxanth Mountain
+Range.  The grass grows tall year round, taller than most 
+a peaceful whisper as it rushes through the grass and travels
+men.  The shortest blades are at least four feet tall while
+the tallest are almost double that. The wind constantly makes
+across the plain.
+~
+0&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 243
+0 0
+D2
+~
+~
+0 -1 241
+0 0
+S
+#243
+&YHalugra Planari~
+These are the Halugrath Plains.  A beautiful, wide expanse
+of land that spans the distance from the northern shores of
+Lake Gulwyle to the southern arms of the Alenxanth Mountain
+Range.  The grass grows tall year round, taller than most 
+a peaceful whisper as it rushes through the grass and travels
+men.  The shortest blades are at least four feet tall while
+the tallest are almost double that. The wind constantly makes
+across the plain.
+~
+0&2
+0 2
+0
+0
+D1
+~
+fence~
+167 -1 244
+0 0
+D2
+~
+~
+0 -1 240
+0 0
+D3
+~
+~
+0 -1 242
+0 0
+S
+#244
+&RBlood Marshes~
+&GT&Chese are the Blood Marshes.  A &Gs&Cection of marsh lands
+created &Gu&Cpon the finish of the&GF&Cour Corners War.  Most
+of the &Gb&Clood that was spilled in that battle &Gd&Crained
+here.  &GT&Che ghosts of that massive &Gb&Cattle still haunt
+the lands wit&Gh&Cin the fences, which marks &Gt&Che boundaries
+of the Blood &GM&Carshes.
+            
+~
+0&2
+0 11
+0
+0
+D1
+~
+~
+0 -1 245
+0 0
+D2
+~
+~
+0 -1 239
+0 0
+D3
+~
+fence~
+167 -1 243
+0 0
+S
+#245
+&RBlood Marshes~
+&GT&Che pools of bloody mud lie &Ga&Cround on the ground in hordes. 
+&GI&Cn each pool remains the faces of fallen &Gw&Carriors, their 
+haunting visages chilling the &Gl&Civing to the bone. &GA&Cll around,
+those same ghosts can be &Gv&Caguely seen wandering around, 
+taking &Gw&Cispy strides through the thick &Ga&Cir. 
+~
+0&2
+0 11
+0
+0
+D1
+~
+~
+0 -1 246
+0 0
+D2
+~
+~
+0 -1 238
+0 0
+D3
+~
+~
+0 -1 244
+0 0
+S
+#246
+&RBlood Marshes~
+&GH&Ceart stopping screams and cries of &Gm&Cercy echo off every
+speck of dust, mixed &Gw&Cith the horrific battle cries and &Go&Cld
+ghastly moans.  The figures of fallen orc &Gb&Carbarians and 
+archers still fight in ghostly &Gb&Cattles with &Gt&Che dead elven
+swordsmen and dwarven &Ga&Cxemen that fought in the Great
+Battle.  &GD&Crops of blood can still be heard, &Gc&Chillingly
+dripping into the &Gp&Cools.
+               
+~
+0&2
+0 11
+0
+0
+D1
+~
+~
+0 -1 247
+0 0
+D2
+~
+~
+0 -1 237
+0 0
+D3
+~
+~
+0 -1 245
+0 0
+S
+#247
+&RBlood Marshes~
+&GT&Che spirits of the deceased warriors of the &GG&Creat War of
+Halugrath &Gp&Clague this area and their &Gn&Cumbers grow thicker
+and thicker towards the &Ge&Cast.  The ghosts' faces are quite
+&Gv&Cisible when looked upon closely, or &Ga&Ct least what is left
+of those &Gf&Caces.  &GM&Cany of the faces are greatly scarred,
+&Gm&Cissing ears, or with an eye dangling from its &Gs&Cocket.
+Crushed skulls or jaws &Gs&Cway freely from the side that &Gr&Cemains
+attached.  &GG&Cruesome.
+                
+~
+0&2
+0 11
+0
+0
+D1
+~
+~
+0 -1 248
+0 0
+D2
+~
+~
+0 -1 236
+0 0
+D3
+~
+~
+0 -1 246
+0 0
+S
+#248
+&RBlood Marshes~
+&GH&Cere the ghosts are thickest.  &GT&Cheir haunting faces search
+constantly for &Gn&Cew blood to quench their thirst.  &GA&Cmongst
+the most dangerous of the ghosts are the dead &GO&Crc barbarians,
+constantly looking for revenge &Ga&Cgainst the living.  &GT&Che
+ghosts of the orcs are especially &Gv&Ciolent toward elvish or
+dwarven &Gr&Caces, so be warned.  Make sure &Gy&Cou are prepared
+and capable in case of a chance &Gm&Ceeting with one of these
+wretched spirits &Go&Cccurs.
+                
+~
+0&2
+0 11
+0
+0
+D2
+~
+~
+0 -1 235
+0 0
+D3
+~
+~
+0 -1 247
+0 0
+S
+#249
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#250
+&RInside a Puddle of Blood~
+&GH&Cere, beneath, or inside, the puddle of &Gb&Clood, one would 
+surely die without the ability to &Gb&Creathe underwater. This 
+grotesquely blood filled &Gc&Cave goes southward from here, but 
+&Gt&Chat is about all that is perceivable due to &Gc&Copious amounts 
+of blood. The walls appear not to &Gb&Ce made of sod and earth, 
+but rather of old bones and &Gb&Croken, shattered armor. Screams 
+still echo &Gt&Chroughout the area, even through the deep &Gb&Clood. 
+~
+0&2
+0 8
+0
+0
+D4
+~
+~
+16777216 -1 231
+0 0
+D7
+~
+~
+0 -1 251
+0 0
+D9
+~
+~
+0 -1 252
+0 0
+S
+#251
+&RA Blood Filled Cave~
+&GH&Cere, beneath, or inside, the puddle of &Gb&Clood, one would 
+surely die without the ability to &Gb&Creathe underwater. This 
+grotesquely blood filled &Gc&Cave goes southward from here, but 
+&Gt&Chat is about all that is perceivable due to &Gc&Copious amounts 
+of blood. The walls appear not to &Gb&Ce made of sod and earth, 
+but rather of old bones and &Gb&Croken, shattered armor. Screams 
+still echo &Gt&Chroughout the area, even through the deep &Gb&Clood. 
+~
+0&2
+0 8
+0
+0
+D7
+~
+~
+0 -1 253
+0 0
+D8
+~
+~
+0 -1 250
+0 0
+S
+#252
+&RA Blood Filled Cave~
+&GH&Cere, beneath, or inside, the puddle of &Gb&Clood, one would 
+surely die without the ability to &Gb&Creathe underwater. This 
+grotesquely blood filled &Gc&Cave goes southward from here, but 
+&Gt&Chat is about all that is perceivable due to &Gc&Copious amounts 
+of blood. The walls appear not to &Gb&Ce made of sod and earth, 
+but rather of old bones and &Gb&Croken, shattered armor. Screams 
+still echo &Gt&Chroughout the area, even through the deep &Gb&Clood. 
+~
+0&2
+0 8
+0
+0
+D6
+~
+~
+0 -1 250
+0 0
+D9
+~
+~
+0 -1 254
+0 0
+S
+#253
+&RA Blood Filled Cave~
+&GH&Cere, beneath, or inside, the puddle of &Gb&Clood, one would 
+surely die without the ability to &Gb&Creathe underwater. This 
+grotesquely blood filled &Gc&Cave goes southward from here, but 
+&Gt&Chat is about all that is perceivable due to &Gc&Copious amounts 
+of blood. The walls appear not to &Gb&Ce made of sod and earth, 
+but rather of old bones and &Gb&Croken, shattered armor. Screams 
+still echo &Gt&Chroughout the area, even through the deep &Gb&Clood. 
+~
+0&2
+0 8
+0
+0
+D0
+~
+~
+0 -1 255
+0 0
+D8
+~
+~
+0 -1 251
+0 0
+S
+#254
+&RA Blood Filled Cave~
+This room is much like the rest of the cave, filled with 
+blood, and an extremely evil aura emanating throughout. 
+The floors, walls, and ceiling are made of stone, the 
+cracks filled with clotted blood. In the west wall there 
+seems to be an opening, but it is hard to tell since the 
+crack seems to be so small and filled with clotted blood.
+~
+0&2
+0 8
+0
+0
+D6
+~
+~
+0 -1 252
+0 0
+D10
+~
+crack~
+17303552 -1 257
+0 0
+S
+#255
+&RA Blood Filled Cave~
+This room is much like the rest of the cave, filled with 
+blood, and an extremely evil aura emanating throughout. 
+The floors, walls, and ceiling are made of stone, the 
+cracks filled with clotted blood. In the west wall there 
+seems to be an opening, but it is hard to tell since there
+is a skeleton set in the wall.
+~
+0&2
+0 8
+0
+0
+D2
+~
+~
+0 -1 253
+0 0
+D10
+~
+skeleton~
+17303552 -1 256
+0 0
+S
+#256
+&RA Hidden Section of the Cave~
+This is a hidden part of the cave, that few mortals know
+exist.  A few souls roam these parts and those that do are
+rather timid and shy of those that still live in the plain
+they wish to return to.  That being the plain of the living.
+Most of these souls would take kindly to being set free.
+~
+0&2
+0 8
+0
+0
+D1
+~
+~
+16777216 -1 255
+0 0
+D3
+~
+~
+0 -1 259
+0 0
+S
+#257
+&RA Hidden Section of the Cave~
+This is a hidden part of the cave, that few mortals know
+exist.  A few souls roam these parts and those that do are
+rather timid and shy of those that still live in the plain
+they wish to return to.  That being the plain of the living.
+Most of these souls would take kindly to being set free.
+~
+0&2
+0 8
+0
+0
+D1
+~
+~
+16777216 -1 254
+0 0
+D3
+~
+~
+0 -1 258
+0 0
+S
+#258
+&RA Hidden Section of the Cave~
+This is a hidden part of the cave, that few mortals know
+exist.  A few souls roam these parts and those that do are
+rather timid and shy of those that still live in the plain
+they wish to return to.  That being the plain of the living.
+Most of these souls would take kindly to being set free.
+~
+0&2
+0 8
+0
+0
+D0
+~
+~
+0 -1 263
+0 0
+D1
+~
+~
+0 -1 257
+0 0
+S
+#259
+&RA Hidden Section of the Cave~
+This is a hidden part of the cave, that few mortals know
+exist.  A few souls roam these parts and those that do are
+rather timid and shy of those that still live in the plain
+they wish to return to.  That being the plain of the living.
+Most of these souls would take kindly to being set free.
+~
+0&2
+0 8
+0
+0
+D1
+~
+~
+0 -1 256
+0 0
+D2
+~
+~
+0 -1 260
+0 0
+S
+#260
+&RA Hidden Section of the Cave~
+This is a hidden part of the cave, that few mortals know
+exist.  A few souls roam these parts and those that do are
+rather timid and shy of those that still live in the plain
+they wish to return to.  That being the plain of the living.
+Most of these souls would take kindly to being set free.
+~
+0&2
+0 8
+0
+0
+D0
+~
+~
+0 -1 259
+0 0
+D2
+~
+~
+0 -1 261
+0 0
+S
+#261
+&RA Hidden Section of the Cave~
+This is a hidden part of the cave, that few mortals know
+exist.  A few souls roam these parts and those that do are
+rather timid and shy of those that still live in the plain
+they wish to return to.  That being the plain of the living.
+Most of these souls would take kindly to being set free.
+~
+0&2
+0 8
+0
+0
+D0
+~
+~
+0 -1 260
+0 0
+D2
+~
+~
+0 -1 262
+0 0
+S
+#262
+&RA Hidden Section of the Cave~
+This section of the hidden cave varies slightly from what
+the rest looks like.  Set in the west wall is an ancient set
+of armor, now rusted and useless.  It seems that the armor
+actually covers up a hole in the wall.  Perhaps there is more
+to this hidden cave behind that armor.  The only way to find
+out is to try.
+~
+0&2
+0 8
+0
+0
+D0
+~
+~
+0 -1 261
+0 0
+D2
+~
+~
+0 -1 263
+0 0
+D10
+~
+armor~
+17303552 -1 264
+0 0
+S
+#263
+&RA Hidden Section of the Cave~
+This is a hidden part of the cave, that few mortals know
+exist.  A few souls roam these parts and those that do are
+rather timid and shy of those that still live in the plain
+they wish to return to.  That being the plain of the living.
+Most of these souls would take kindly to being set free.
+~
+0&2
+0 8
+0
+0
+D0
+~
+~
+0 -1 262
+0 0
+D2
+~
+~
+0 -1 258
+0 0
+S
+#264
+&ROrc Lair~
+This is the entrance to the hidden lairs of the orc
+footsoliders and orc axemen.  To the northwest is the
+lair of orc footsoldiers, the common grunts of the
+orc army.  Southwest leads to the lair of the orc
+axeman, the truer warriors of the orc armies.  They
+were once some of the more vicious and cruel members
+of the legions.
+~
+0&2
+0 8
+0
+0
+D1
+~
+~
+16777216 -1 262
+0 0
+D7
+~
+~
+0 -1 267
+0 0
+D9
+~
+~
+0 -1 265
+0 0
+S
+#265
+&RLair of Orc Axemen~
+This is the lair of the orc axeman, who were once some of
+the most lethal fighters on the battlefield.  They were cruel, 
+vicious and heartless, killing whatever crossed their path,
+even there own fellow warriors.  Their rage has prevented them
+passing into the afterlife, and therefore they reside here,
+struggling to reach the mortal plane once again.
+~
+0&2
+0 8
+0
+0
+D2
+~
+~
+0 -1 272
+0 0
+D3
+~
+~
+0 -1 271
+0 0
+D6
+~
+~
+16777216 -1 264
+0 0
+S
+#266
+&RLair of Orc Axemen~
+This is the lair of the orc axeman, who were once some of
+the most lethal fighters on the battlefield.  They were cruel, 
+vicious and heartless, killing whatever crossed their path,
+even there own fellow warriors.  Their rage has prevented them
+passing into the afterlife, and therefore they reside here,
+struggling to reach the mortal plane once again.
+~
+0&2
+0 8
+0
+0
+D0
+~
+~
+0 -1 271
+0 0
+D1
+~
+~
+0 -1 272
+0 0
+S
+#267
+&RLair of Orc Footsoldiers~
+This is the lair of orc footsoldiers. Many of the orc
+footsoldiers were poor fighters, and some were even
+more peaceful orcs, meaning those that did not care
+to get involved in fighting, but were forced to do so
+anyways.  A few of those lost souls now reside here,
+stuck somewhere between the living and the dead.
+~
+0&2
+0 8
+0
+0
+D0
+~
+~
+0 -1 269
+0 0
+D3
+~
+~
+0 -1 270
+0 0
+D8
+~
+~
+0 -1 264
+0 0
+S
+#268
+&RLair of Orc Footsoldiers~
+This is the lair of orc footsoldiers. Many of the orc
+footsoldiers were poor fighters, and some were even
+more peaceful orcs, meaning those that did not care
+to get involved in fighting, but were forced to do so
+anyways.  A few of those lost souls now reside here,
+stuck somewhere between the living and the dead.
+~
+0&2
+0 8
+0
+0
+D1
+~
+~
+0 -1 269
+0 0
+D2
+~
+~
+0 -1 270
+0 0
+S
+#269
+&RLair of Orc Footsoldiers~
+This is the lair of orc footsoldiers. Many of the orc
+footsoldiers were poor fighters, and some were even
+more peaceful orcs, meaning those that did not care
+to get involved in fighting, but were forced to do so
+anyways.  A few of those lost souls now reside here,
+stuck somewhere between the living and the dead.
+~
+0&2
+0 8
+0
+0
+D2
+~
+~
+0 -1 267
+0 0
+D3
+~
+~
+0 -1 268
+0 0
+S
+#270
+&RLair of Orc Footsoldiers~
+This is the lair of orc footsoldiers. Many of the orc
+footsoldiers were poor fighters, and some were even
+more peaceful orcs, meaning those that did not care
+to get involved in fighting, but were forced to do so
+anyways.  A few of those lost souls now reside here,
+stuck somewhere between the living and the dead.
+~
+0&2
+0 8
+0
+0
+D0
+~
+~
+0 -1 268
+0 0
+D1
+~
+~
+0 -1 267
+0 0
+S
+#271
+&RLair of Orc Axemen~
+This is the lair of the orc axeman, who were once some of
+the most lethal fighters on the battlefield.  They were cruel, 
+vicious and heartless, killing whatever crossed their path,
+even there own fellow warriors.  Their rage has prevented them
+passing into the afterlife, and therefore they reside here,
+struggling to reach the mortal plane once again.
+~
+0&2
+0 8
+0
+0
+D1
+~
+~
+0 -1 265
+0 0
+D2
+~
+~
+0 -1 266
+0 0
+S
+#272
+&RLair of Orc Axemen~
+This is the lair of the orc axeman, who were once some of
+the most lethal fighters on the battlefield.  They were cruel, 
+vicious and heartless, killing whatever crossed their path,
+even there own fellow warriors.  Their rage has prevented them
+passing into the afterlife, and therefore they reside here,
+struggling to reach the mortal plane once again.
+~
+0&2
+0 8
+0
+0
+D0
+~
+~
+0 -1 265
+0 0
+D3
+~
+~
+0 -1 266
+0 0
+S
+#273
+&RA Dark, Blood Filled Cave~
+&GT&Che blood here is thick, and without the &Ga&Cbility to breathe
+underwater, one will surely drown &Gd&Cown here.  The entire area
+under the &Gp&Cuddle of blood is filled with &Gt&Chick liquid that
+courses through the veins of the &Gl&Civing.  &GI&Ct might be hard to
+imagine, for many, what could &Gp&Cossibly live down here.  But
+once crossing into this realm, it is easy to see that this is
+&Gp&Cart of the home of demons and lost &Gs&Cpirits.
+~
+0&2
+0 8
+0
+0
+D0
+~
+~
+0 -1 274
+0 0
+D1
+~
+~
+0 -1 276
+0 0
+S
+#274
+&RInside a Puddle of Blood~
+&GT&Che blood here is thick, and without the &Ga&Cbility to breathe
+underwater, one will surely drown &Gd&Cown here.  The entire area
+under the &Gp&Cuddle of blood is filled with &Gt&Chick liquid that
+courses through the veins of the &Gl&Civing.  &GI&Ct might be hard to
+imagine, for many, what could &Gp&Cossibly live down here.  But
+once crossing into this realm, it is easy to see that this is
+&Gp&Cart of the home of demons and lost &Gs&Cpirits.
+~
+0&2
+0 8
+0
+0
+D1
+~
+~
+0 -1 275
+0 0
+D2
+~
+~
+0 -1 273
+0 0
+D4
+~
+~
+16777216 -1 233
+0 0
+S
+#275
+&RA Dark, Blood Filled Cave~
+&GT&Che blood here is thick, and without the &Ga&Cbility to breathe
+underwater, one will surely drown &Gd&Cown here.  The entire area
+under the &Gp&Cuddle of blood is filled with &Gt&Chick liquid that
+courses through the veins of the &Gl&Civing.  &GI&Ct might be hard to
+imagine, for many, what could &Gp&Cossibly live down here.  But
+once crossing into this realm, it is easy to see that this is
+&Gp&Cart of the home of demons and lost &Gs&Cpirits.
+~
+0&2
+0 8
+0
+0
+D2
+~
+~
+0 -1 276
+0 0
+D3
+~
+~
+0 -1 274
+0 0
+S
+#276
+&RA Dark, Blood Filled Cave~
+&GT&Che blood here is thick, and without the &Ga&Cbility to breathe
+underwater, one will surely drown &Gd&Cown here.  The entire area
+under the &Gp&Cuddle of blood is filled with &Gt&Chick liquid that
+courses through the veins of the &Gl&Civing.  &GI&Ct might be hard to
+imagine, for many, what could &Gp&Cossibly live down here.  But
+once crossing into this realm, it is easy to see that this is
+&Gp&Cart of the home of demons and lost &Gs&Cpirits.
+~
+0&2
+0 8
+0
+0
+D0
+~
+~
+0 -1 275
+0 0
+D2
+~
+~
+0 -1 277
+0 0
+D3
+~
+~
+0 -1 273
+0 0
+S
+#277
+&RA Dark, Blood Filled Cave~
+&GT&Che blood here is thick, and without the &Ga&Cbility to breathe
+underwater, one will surely drown &Gd&Cown here.  The entire area
+under the &Gp&Cuddle of blood is filled with &Gt&Chick liquid that
+courses through the veins of the &Gl&Civing.  &GI&Ct might be hard to
+imagine, for many, what could &Gp&Cossibly live down here.  But
+once crossing into this realm, it is easy to see that this is
+&Gp&Cart of the home of demons and lost &Gs&Cpirits.
+~
+0&2
+0 8
+0
+0
+D0
+~
+~
+0 -1 276
+0 0
+D8
+~
+~
+0 -1 278
+0 0
+S
+#278
+&RA Dark, Blood Filled Cave~
+&GT&Che blood here is thick, and without the &Ga&Cbility to breathe
+underwater, one will surely drown &Gd&Cown here.  The entire area
+under the &Gp&Cuddle of blood is filled with &Gt&Chick liquid that
+courses through the veins of the &Gl&Civing.  &GI&Ct might be hard to
+imagine, for many, what could &Gp&Cossibly live down here.  But
+once crossing into this realm, it is easy to see that this is
+&Gp&Cart of the home of demons and lost &Gs&Cpirits.
+~
+0&2
+0 8
+0
+0
+D7
+~
+~
+0 -1 277
+0 0
+S
+#279
+&RInside a Puddle of Blood~
+&GH&Cere, beneath, or inside, the puddle of &Gb&Clood, one would 
+surely die without the ability to &Gb&Creathe underwater. This 
+grotesquely blood filled &Gc&Cave goes southward from here, but 
+&Gt&Chat is about all that is perceivable due to &Gc&Copious amounts 
+of blood. The walls appear not to &Gb&Ce made of sod and earth, 
+but rather of old bones and &Gb&Croken, shattered armor. Screams 
+still echo &Gt&Chroughout the area, even through the deep &Gb&Clood. 
+~
+0&2
+0 8
+0
+0
+D2
+~
+~
+0 -1 280
+0 0
+D4
+~
+~
+16777216 -1 218
+0 0
+S
+#280
+&RA Blood Filled Cave~
+&GH&Cere, beneath, or inside, the puddle of &Gb&Clood, one would 
+surely die without the ability to &Gb&Creathe underwater. This 
+grotesquely blood filled &Gc&Cave goes southward from here, but 
+&Gt&Chat is about all that is perceivable due to &Gc&Copious amounts 
+of blood. The walls appear not to &Gb&Ce made of sod and earth, 
+but rather of old bones and &Gb&Croken, shattered armor. Screams 
+still echo &Gt&Chroughout the area, even through the deep &Gb&Clood. 
+~
+0&2
+0 8
+0
+0
+D0
+~
+~
+0 -1 279
+0 0
+D2
+~
+~
+0 -1 281
+0 0
+S
+#281
+&RA Blood Filled Cave~
+&GH&Cere, beneath, or inside, the puddle of &Gb&Clood, one would 
+surely die without the ability to &Gb&Creathe underwater. This 
+grotesquely blood filled &Gc&Cave goes southward from here, but 
+&Gt&Chat is about all that is perceivable due to &Gc&Copious amounts 
+of blood. The walls appear not to &Gb&Ce made of sod and earth, 
+but rather of old bones and &Gb&Croken, shattered armor. Screams 
+still echo &Gt&Chroughout the area, even through the deep &Gb&Clood. 
+~
+0&2
+0 8
+0
+0
+D0
+~
+~
+0 -1 280
+0 0
+D5
+~
+~
+0 -1 282
+0 0
+S
+#282
+&RDeeper Down in the Cave~
+&GT&Chese caves are so deep that &Ge&Cven the blood, which still
+totally fills the tunnels, holds a &Gm&Custy smell.  The walls
+are no longer made of &Gt&Che rotting remains of fallen &Gw&Carriors,
+but instead consist of screaming &Gs&Couls, eternally trapped by
+some invisible barrier, perhaps &Gs&Come spell held in the blood,
+&Gw&Chich grows warmer and warmer with each &Gl&Cower level.
+~
+0&2
+0 8
+0
+0
+D1
+~
+~
+0 -1 283
+0 0
+D4
+~
+~
+0 -1 281
+0 0
+S
+#283
+&RDeeper Down in the Cave~
+&GT&Chese caves are so deep that &Ge&Cven the blood, which still
+totally fills the tunnels, holds a &Gm&Custy smell.  The walls
+are no longer made of &Gt&Che rotting remains of fallen &Gw&Carriors,
+but instead consist of screaming &Gs&Couls, eternally trapped by
+some invisible barrier, perhaps &Gs&Come spell held in the blood,
+&Gw&Chich grows warmer and warmer with each &Gl&Cower level.
+~
+0&2
+0 8
+0
+0
+D1
+~
+~
+0 -1 284
+0 0
+D3
+~
+~
+0 -1 282
+0 0
+S
+#284
+&RDeeper Down in the Cave~
+&GT&Chese caves are so deep that &Ge&Cven the blood, which still
+totally fills the tunnels, holds a &Gm&Custy smell.  The walls
+are no longer made of &Gt&Che rotting remains of fallen &Gw&Carriors,
+but instead consist of screaming &Gs&Couls, eternally trapped by
+some invisible barrier, perhaps &Gs&Come spell held in the blood,
+&Gw&Chich grows warmer and warmer with each &Gl&Cower level.
+~
+0&2
+0 8
+0
+0
+D3
+~
+~
+0 -1 283
+0 0
+D5
+~
+~
+0 -1 285
+0 0
+S
+#285
+&RFar Beneath the Surface of the Earth~
+&GT&Chis tunnel is quite deep beneath ground &Gl&Cevel and the heat
+grows higher and higher.  The temperature is &Gh&Cigh enough
+that the walls are now made of &Gc&Clotted blood, as well as
+the floor and &Gc&Ceiling.  The moans and screams of the dead,
+&Gs&Cuffering in agony, can be heard all &Ga&Cround.  The sounds of
+those voices are soul shattering &Ga&Cnd heart wavering.  The
+amount of &Ga&Cgony that can be heard can only &Ge&Cxist in Hell.
+Could this be that &Gp&Clace?
+~
+0&2
+0 8
+0
+0
+D0
+~
+~
+0 -1 286
+0 0
+D4
+~
+~
+0 -1 284
+0 0
+S
+#286
+&RFar Beneath the Surface of the Earth~
+&GT&Chis tunnel is quite deep beneath ground &Gl&Cevel and the heat
+grows higher and higher.  The temperature is &Gh&Cigh enough
+that the walls are now made of &Gc&Clotted blood, as well as
+the floor and &Gc&Ceiling.  The moans and screams of the dead,
+&Gs&Cuffering in agony, can be heard all &Ga&Cround.  The sounds of
+those voices are soul shattering &Ga&Cnd heart wavering.  The
+amount of &Ga&Cgony that can be heard can only &Ge&Cxist in Hell.
+Could this be that &Gp&Clace?
+~
+0&2
+0 8
+0
+0
+D0
+~
+~
+0 -1 287
+0 0
+D2
+~
+~
+0 -1 285
+0 0
+S
+#287
+&RFar Beneath the Surface of the Earth~
+&GT&Chis tunnel is quite deep beneath ground &Gl&Cevel and the heat
+grows higher and higher.  The temperature is &Gh&Cigh enough
+that the walls are now made of &Gc&Clotted blood, as well as
+the floor and &Gc&Ceiling.  The moans and screams of the dead,
+&Gs&Cuffering in agony, can be heard all &Ga&Cround.  The sounds of
+those voices are soul shattering &Ga&Cnd heart wavering.  The
+amount of &Ga&Cgony that can be heard can only &Ge&Cxist in Hell.
+Could this be that &Gp&Clace?
+~
+0&2
+0 8
+0
+0
+D2
+~
+~
+0 -1 286
+0 0
+D5
+~
+~
+0 -1 288
+0 0
+S
+#288
+&RHall of Paranoia~
+&GT&Che screams of lost souls grows louder &Ga&Cnd the sounds of
+whips lashing and metal clashing &Ge&Ccho through this hall.
+Loud, harsh sounding &Gc&Curses and orders ring out above the
+screams and cries &Go&Cf terror.  &GT&Che smell of burning sulphur
+permeates the &Gb&Clood now, and sizzling sounds of burning &Gf&Clesh 
+now seem very close at &Gh&Cand.
+~
+0&2
+0 8
+0
+0
+D3
+~
+~
+0 -1 289
+0 0
+D4
+~
+~
+0 -1 287
+0 0
+S
+#289
+&RHall of Paranoia~
+&G T&zhe screams of lost souls grow louder, &Ga&znd the sounds of whips 
+lashing and metal clashing &Ge&zcho through this hall. Loud, harsh 
+sounding &Gc&zurses and orders ring out above the screams and cries &Go&zf 
+terror. &GT&zhe smell of burning sulphur permeates the &Gb&zlood now, and 
+sizzling sounds of burning &Gf&zlesh now seem very close at &Gh&zand. 
+~
+0&2
+0 8
+0
+0
+D1
+~
+~
+0 -1 288
+0 0
+D3
+~
+~
+0 -1 290
+0 0
+S
+#290
+&RHall of Paranoia~
+&G T&zhe screams of lost souls grow louder, &Ga&znd the sounds of whips 
+lashing and metal clashing &Ge&zcho through this hall. Loud, harsh 
+sounding &Gc&zurses and orders ring out above the screams and cries &Go&zf 
+terror. &GT&zhe smell of burning sulphur permeates the &Gb&zlood now, and 
+sizzling sounds of burning &Gf&zlesh now seem very close at &Gh&zand. 
+~
+0&2
+0 8
+0
+0
+D1
+~
+~
+0 -1 289
+0 0
+D5
+~
+~
+0 -1 291
+0 0
+S
+#291
+&RDomain of Braxus~
+&r This definitely seems to be the very bowels of Hell. Fires leap and 
+hiss all around, and pools of sulphur stand, bubbling and boiling, all 
+over. East, there appears to be some strange thing, almost like a portal 
+or door, standing there. On that door is marked the word, "Domains". South 
+is a very similar object, but marked with the word, "Demons". West, a 
+large fire curls up and around, forming the name of, "Braxus". 
+~
+64&2
+0 8
+0
+0
+D1
+~
+~
+16779264 -1 292
+0 0
+D2
+~
+~
+16779264 -1 293
+0 0
+D4
+~
+~
+0 -1 290
+0 0
+D10
+~
+Braxus~
+17303552 -1 294
+0 0
+S
+#292
+&RMinions of Braxus~
+&r This is the domain of the minions of Braxus, where the weaker demons 
+under his control stay until summoned out by him. There area is not that 
+large, but Braxus does not have the power to control many minions, 
+currently, he only has two demons at the minion level under his control. 
+Be warned, these are demons, and mortals in their realm are always killed 
+on sight. 
+~
+64&2
+0 8
+0
+0
+D1
+~
+~
+0 -1 297
+0 0
+D3
+~
+~
+16777216 -1 291
+0 0
+S
+#293
+&RDemons of Braxus~
+&r This is the holding area for Braxus's upper level minions, those 
+classified as full fledged demons. Braxus, being a lower level lord of 
+Hell has only the power to control one demon, but this is that demon's 
+holding area, and where he stays until summoned by Braxus. The demon is 
+quite aggressive towards mortals, and even lower level servants of Hell, 
+so be warned. 
+~
+64&2
+0 8
+0
+0
+D0
+~
+~
+16777216 -1 291
+0 0
+D2
+~
+~
+0 -1 296
+0 0
+S
+#294
+&RLair of Braxus~
+&r This is the Lair of Braxus, the lord of this realm of Hell. He resides 
+a little farther west, but be warned, he is much more powerful than any of 
+his followers and deciples, and would kill a mortal as soon as have them 
+follow him. It is rumored though that Braxus wears some armor that is 
+quite nice for mortals, if one happens to vanquish him. 
+~
+64&2
+0 8
+0
+0
+D1
+~
+~
+16777216 -1 291
+0 0
+D3
+~
+~
+0 -1 295
+0 0
+S
+#295
+&RLair of Braxus~
+&r This is where Braxus lives and from whence he rules his realm. He is a 
+lower lord of Hell, but still has a few servants of hell at his disposal. 
+Being a demon, he doesn't favor a fair fight, so if one should wish to 
+challenge him, it would be risky, for his servants may just end up helping 
+out in the fight. 
+~
+64&2
+0 8
+0
+0
+D1
+~
+~
+0 -1 294
+0 0
+S
+#296
+&RDemons of Braxus~
+&r This is the holding area for Braxus's upper level minions, those 
+classified as full fledged demons. Braxus, being a lower level lord of 
+Hell has only the power to control one demon, but this is that demon's 
+holding area, and where he stays until summoned by Braxus. The demon is 
+quite aggressive towards mortals, and even lower level servants of Hell, 
+so be warned. 
+~
+64&2
+0 8
+0
+0
+D0
+~
+~
+0 -1 293
+0 0
+D1
+~
+~
+0 -1 299
+0 0
+S
+#297
+&RMinions of Braxus~
+&r This is the domain of the minions of Braxus, where the weaker demons 
+under his control stay until summoned out by him. There area is not that 
+large, but Braxus does not have the power to control many minions, 
+currently, he only has two demons at the minion level under his control. 
+Be warned, these are demons, and mortals in their realm are always killed 
+on sight. 
+~
+64&2
+0 8
+0
+0
+D2
+~
+~
+0 -1 298
+0 0
+D3
+~
+~
+0 -1 292
+0 0
+S
+#298
+&RMinions of Braxus~
+&r This is the domain of the minions of Braxus, where the weaker demons 
+under his control stay until summoned out by him. There area is not that 
+large, but Braxus does not have the power to control many minions, 
+currently, he only has two demons at the minion level under his control. 
+Be warned, these are demons, and mortals in their realm are always killed 
+on sight. 
+~
+64&2
+0 8
+0
+0
+D0
+~
+~
+0 -1 297
+0 0
+S
+#299
+&RDemons of Braxus~
+&r This is the holding area for Braxus's upper level minions, those 
+classified as full fledged demons. Braxus, being a lower level lord of 
+Hell has only the power to control one demon, but this is that demon's 
+holding area, and where he stays until summoned by Braxus. The demon is 
+quite aggressive towards mortals, and even lower level servants of Hell, 
+so be warned. 
+~
+68&2
+0 8
+0
+0
+D3
+~
+~
+0 -1 296
+0 0
+S
+#0
+
+
+#RESETS
+M 1 200 1 231 -1 -1 -1 0 0
+O 1 200 1 231 -1 -1 -1 -1 0 0
+M 1 200 1 236 -1 -1 -1 0 0
+M 1 200 1 234 -1 -1 -1 0 0
+M 1 201 1 232 -1 -1 -1 0 0
+M 1 201 1 203 -1 -1 -1 0 0
+M 1 202 1 246 -1 -1 -1 0 0
+M 1 203 1 222 -1 -1 -1 0 0
+M 1 203 1 247 -1 -1 -1 0 0
+M 1 204 1 297 -1 -1 -1 0 0
+M 1 204 1 298 -1 -1 -1 0 0
+M 1 205 1 296 -1 -1 -1 0 0
+M 1 201 1 208 -1 -1 -1 0 0
+E 1 201 1 1 -1 0 0
+M 1 207 1 285 -1 -1 -1 0 0
+M 1 207 1 290 -1 -1 -1 0 0
+M 1 207 1 284 -1 -1 -1 0 0
+M 1 207 1 279 -1 -1 -1 0 0
+M 1 208 1 265 -1 -1 -1 0 0
+M 1 208 1 272 -1 -1 -1 0 0
+M 1 208 1 266 -1 -1 -1 0 0
+M 1 209 1 267 -1 -1 -1 0 0
+M 1 209 1 269 -1 -1 -1 0 0
+M 1 209 1 268 -1 -1 -1 0 0
+M 1 207 1 262 -1 -1 -1 0 0
+M 1 207 1 258 -1 -1 -1 0 0
+M 1 207 1 259 -1 -1 -1 0 0
+M 1 207 1 250 -1 -1 -1 0 0
+M 1 207 1 278 -1 -1 -1 0 0
+M 1 207 1 275 -1 -1 -1 0 0
+M 1 211 1 221 -1 -1 -1 0 0
+O 1 17 1 221 -1 -1 -1 -1 0 0
+M 1 211 1 220 -1 -1 -1 0 0
+M 1 200 1 218 -1 -1 -1 0 0
+M 1 200 1 218 -1 -1 -1 0 0
+M 1 211 1 218 -1 -1 -1 0 0
+O 1 218 1 200 -1 -1 -1 -1 0 0
+D 0 226 1 1
+D 0 212 1 1
+D 0 225 3 1
+M 1 206 1 295 -1 -1 -1 1111301531 21600
+E 1 203 1 11 -1 0 0
+E 1 204 1 5 -1 0 0
+E 1 205 1 9 -1 0 0
+E 1 202 1 13 -1 0 0
+M 1 210 1 233 -1 -1 -1 0 0
+E 1 206 1 13 -1 0 0
+E 1 207 1 5 -1 0 0
+E 1 208 1 20 -1 0 0
+M 1 203 1 233 -1 -1 -1 0 0
+O 1 200 1 233 -1 -1 -1 -1 0 0
+M 1 212 1 223 -1 -1 -1 0 0
+E 1 209 1 9 -1 0 0
+E 1 210 1 7 -1 0 0
+E 1 211 1 13 -1 0 0
+M 1 200 1 223 -1 -1 -1 0 0
+M 1 214 1 239 -1 -1 -1 0 0
+E 1 219 1 13 -1 0 0
+E 1 220 1 3 -1 0 0
+D 0 239 3 2
+M 1 215 1 209 -1 -1 -1 0 0
+E 1 221 1 13 -1 0 0
+E 1 222 1 6 -1 0 0
+M 1 216 1 207 -1 -1 -1 0 0
+E 1 223 1 13 -1 0 0
+E 1 224 1 9 -1 0 0
+E 1 225 1 6 -1 0 0
+E 1 226 1 5 -1 0 0
+M 1 201 1 206 -1 -1 -1 0 0
+E 1 201 1 1 -1 0 0
+M 1 217 1 248 -1 -1 -1 0 0
+E 1 227 1 13 -1 0 0
+E 1 228 1 5 -1 0 0
+E 1 229 1 1 -1 0 0
+E 1 230 1 11 -1 0 0
+D 0 211 3 1
+M 1 213 1 202 -1 -1 -1 0 0
+E 1 217 1 3 -1 0 0
+E 1 216 1 5 -1 0 0
+E 1 214 1 13 -1 0 0
+D 0 202 3 2
+M 1 203 1 205 -1 -1 -1 0 0
+M 1 200 1 205 -1 -1 -1 0 0
+M 1 211 1 204 -1 -1 -1 0 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

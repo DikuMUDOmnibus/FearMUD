@@ -1,0 +1,11 @@
+1051601159  Declare          Gauss Strauss is declaring Peace toward you
+1052323017  Declare          Schischk Schtonk is declaring Peace toward you
+1058644345  Declare          Marton Dene is declaring Peace toward you
+1076598338  Declare          King Draco Setan is declaring Peace toward you
+1083117269  Declare          King Draco Setar is declaring Neutral toward you
+1084521096  Declare          King Kaizoku Olbaid is declaring Peace toward you
+1093252065  Declare          King Draco Setar is declaring Peace toward you
+1098792780  Declare          King Kaizoku Olbaid is declaring Neutral toward you
+1108350449  Declare          Malthros Zenobia is declaring Peace toward you
+1108350502  Declare          Malthros Zenobia is declaring Trading toward you
+1108358550  Declare          Malthros Zenobia is declaring Neutral toward you

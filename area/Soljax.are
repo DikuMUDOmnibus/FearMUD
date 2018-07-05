@@ -1,0 +1,1393 @@
+#AREA   Rolen_government.are~
+
+
+
+#VERSION 46
+#AUTHOR Soljax~
+
+#RANGES
+0 0 0 0 0 0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0 0
+
+#MOBILES
+#40000
+doorman~
+a doorman~
+A doorman greets customers to the Golden Chalice.
+~
+~
+1 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0
+0 0
+112 112 0
+> greet_prog 100~
+mpecho A doorman tips his hat at you.
+mpechoat $n A doorman says, '&CGood day, $n&z'
+~
+|
+#40001
+shade~
+a newly created shade~
+Some god abandoned a newly created shade here.
+~
+~
+8388609 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0
+0 0
+112 112 0
+> speech_prog go~
+cast 'quantum spike' gauss
+mprestore gauss 200
+mptransfer gauss 21051
+~
+|
+#40002
+Bilfer Bombertrust man halfling receptionist~
+Bilfer Bombertrust~
+A halfling receptionist is here sitting on a tall stool.
+~
+This staunch little figure is quite portly. His simple surcoat holds a 
+pocket watch on a chain. His tophat has a red ribbon about the base. He 
+smokes profusely. 
+~
+1 0 0 0 C
+0 0 0 0 0 0
+0d0+0 0d0+0 0
+0 0
+112 112 1
+13 13 13 13 13 13 13 15
+0 0 0 0 0
+4 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+#41999
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#40000
+carmine innkey one key~
+&wA simple innkey labled, "&Wone&w".~
+A simple key is here.~
+~
+18 8192 1
+0 0 0 0
+1 0 0 0 0
+#40001
+blah~
+a newly created blah~
+Some god dropped a newly created blah here.~
+~
+13 0 1
+0 0 0 0
+1 0 0 0 0
+#40002
+blah~
+a newly created blah~
+Some god dropped a newly created blah here.~
+~
+13 0 1
+0 0 0 0
+1 0 0 0 0
+#40003
+blah~
+a newly created blah~
+Some god dropped a newly created blah here.~
+~
+13 0 1
+0 0 0 0
+1 0 0 0 0
+#40004
+blah~
+a newly created blah~
+Some god dropped a newly created blah here.~
+~
+13 0 1
+0 0 0 0
+1 0 0 0 0
+#40005
+blah~
+a newly created blah~
+Some god dropped a newly created blah here.~
+~
+13 0 1
+0 0 0 0
+1 0 0 0 0
+#40006
+blah~
+a newly created blah~
+Some god dropped a newly created blah here.~
+~
+13 0 1
+0 0 0 0
+1 0 0 0 0
+#41999
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 1
+0 0 0 0
+1 0 0 0 0
+#0
+
+
+#ROOMS
+#40000
+&YAmbassador Street&w~
+&yThe expanse of Rolen's government district stretches out to the north. 
+The small rise you are on allows you to look down upon it. There are all 
+sorts of buildings around a strange looking city block. The bigger 
+buildings are to the north. &w 
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 40001
+0 0
+S
+#40001
+&YCarmine Square&w~
+The square is relatively empty of traffic. There are only a few people 
+sitting around on benches. The one prominant building on the square, is 
+the one for which it shares a namesake: The Carmine Inn. 
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 40002
+0 0
+D2
+~
+~
+0 -1 40000
+0 0
+D3
+~
+~
+0 -1 40004
+0 0
+S
+#40002
+&YCarmine Square&w~
+The Carmine Inn has a large wooden sign hanging down from a cantilever 
+post. A doorman stands under a canopy, waiting to greet guests. The smell 
+of breads and confections wafts out of the open doorway. 
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 40005
+0 0
+D2
+~
+~
+0 -1 40001
+0 0
+D3
+~
+~
+0 -1 40003
+0 0
+S
+#40003
+&YCarmine Square&w~
+The a cobblestone pattern turns into a street crowded in with buildings to 
+the west. The street is boxxed in by many buildings, and turns abrubtly. 
+The sounds of pigeons talking comes from the rooftops. 
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 40002
+0 0
+D2
+~
+~
+0 -1 40004
+0 0
+D3
+~
+~
+0 -1 40006
+0 0
+S
+#40004
+&YCarmine Square&w~
+Birds take sips out of the drinking fountain here. The fountain is well 
+maintained, and made of carved stone. Several people are here drawing 
+water. 
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 40003
+0 0
+D1
+~
+~
+0 -1 40001
+0 0
+S
+#40005
+&YCarmine Inn&w~
+This room is quite stuffy. The ceiling is quite low, and a very narrow 
+staircase leads up to the rooms upstairs. A small receptionist sits behind 
+a very tall desk smoking a pipe. Behind the receptionist is a wall of 
+keys. 
+~
+0&2
+0 1
+0
+0
+D3
+~
+~
+0 -1 40002
+0 0
+S
+#40006
+&YAmbassador Street&w~
+Wooden houses crowd each side of the street. Many have fake fronts, which 
+have ornate and overly tall roofs. Behind the facade are simple flat tops. 
+Apparently the locals like to dine up there. 
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 40003
+0 0
+D3
+~
+~
+0 -1 40007
+0 0
+S
+#40007
+&YAmbassador Street&w~
+The street makes a sudden turn. Down the straight avenue of the east, one 
+can see the large structure of the Carmine Inn. To the north, it is a 
+short walk to the vaunted Golden Chalice. 
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 40008
+0 0
+D1
+~
+~
+0 -1 40006
+0 0
+S
+#40008
+&YAmbassador Street&w~
+The street is a three-way intersection right here. The smell of cooking 
+bread, sausage, and other delicacies wafts in from the north. 
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 40009
+0 0
+D2
+~
+~
+0 -1 40007
+0 0
+D3
+~
+~
+0 -1 40036
+0 0
+S
+#40009
+&YAmbassador Street&w~
+The venerable Golden Chalice is to the north. A maroon canopy with golden 
+tassles extends out onto the street. Underneath the canopy is a red 
+carpet, on which a doorman stands.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 40044
+0 0
+D1
+~
+~
+0 -1 40010
+0 0
+D2
+~
+~
+0 -1 40008
+0 0
+S
+#40010
+&YAmbassador Street&w~
+The plaster and wood side of the Golden Chalice walls in the road to the 
+north. There are various opaque stained glass windows along that wall. The 
+south is enclosed by some residential buildings. 
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 40011
+0 0
+D3
+~
+~
+0 -1 40009
+0 0
+S
+#40011
+&YAmbassador Street&w~
+The plaster and wood side of the Golden Chalice walls in the road to the 
+north. There are various opaque stained glass windows along that wall. The 
+south is enclosed by some residential buildings. 
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 40012
+0 0
+D3
+~
+~
+0 -1 40010
+0 0
+S
+#40012
+&YAmbassador and Second&w~
+Boisterous laughter spills out of the tavern to the east. The small 
+intersection of streets is otherwise quiet. 
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 40013
+0 0
+D1
+~
+~
+0 -1 40041
+0 0
+D3
+~
+~
+0 -1 40011
+0 0
+S
+#40013
+&YSecond Street&w~
+The plaster and wood side of the Golden Chalice walls in the road to the 
+west. To the east is a small empty lot. 
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 40014
+0 0
+D2
+~
+~
+0 -1 40012
+0 0
+S
+#40014
+&YCongress and Second&w~
+Congress road ends here at the door of a stately building. Several stout 
+figures look at the crowd with piercing eyes. You can hear laughter coming 
+from a tavern not far to the south. 
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 40042
+0 0
+D2
+~
+~
+0 -1 40013
+0 0
+D3
+~
+~
+0 -1 40015
+0 0
+S
+#40015
+&YCongress Street&w~
+The sound of songbirds and laughter comes from the west. The sweet smell 
+of grass and cherry blossoms fills the air. A row of trees lines the 
+street for the entire length. To the south is the white plaster wall of 
+the Golden Chalice. 
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 40014
+0 0
+D3
+~
+~
+0 -1 40016
+0 0
+S
+#40016
+&YCongress Street&w~
+The sound of songbirds and laughter comes from the west. The sweet smell 
+of grass and cherry blossoms fills the air. A row of trees lines the 
+street for the entire length. To the south is the white plaster wall of 
+the Golden Chalice. 
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 40015
+0 0
+D3
+~
+~
+0 -1 40017
+0 0
+S
+#40017
+&YCongress Street&w~
+The Government Mall opens up to the north. It is a rolling lawn with park 
+benches with a simple path circling it. To the south is the backdoor of 
+the Golden Chalice. Congress Street leads east and west. 
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 40023
+0 0
+D1
+~
+~
+0 -1 40016
+0 0
+D2
+~
+~
+0 -1 40044
+0 0
+D3
+~
+~
+0 -1 40018
+0 0
+S
+#40018
+&YCongress Street&w~
+The Government Mall opens up to the north. It is a rolling lawn with park 
+benches with a simple path circling it. To the south is a wall of 
+residential buildings. Congress Street leads west and east. 
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 40026
+0 0
+D1
+~
+~
+0 -1 40017
+0 0
+D3
+~
+~
+0 -1 40019
+0 0
+S
+#40019
+&YCongress Street&w~
+The sounds of songbirds and laughter comes from the east, followed closely 
+by the pungent smell of freshly cut grass. A row of cherry trees line the 
+street for the entire length. The south is a wall of residential houses. 
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 40018
+0 0
+D3
+~
+~
+0 -1 40020
+0 0
+S
+#40020
+&YCongress Street&w~
+The sounds of songbirds and laughter comes from the east, followed closely 
+by the pungent smell of freshly cut grass. A row of cherry trees line the 
+street for the entire length. The south is a wall of residential houses.
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 40019
+0 0
+D3
+~
+~
+0 -1 40021
+0 0
+S
+#40021
+&YCongress Street&w~
+The sounds of songbirds and laughter comes from the east, followed closely 
+by the pungent smell of freshly cut grass. A row of cherry trees line the 
+street for the entire length. The south is a wall of residential houses. 
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 40020
+0 0
+D3
+~
+~
+0 -1 40022
+0 0
+S
+#40022
+&YFirst and Congress&w~
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 40021
+0 0
+D2
+~
+~
+0 -1 40029
+0 0
+S
+#40023
+&YThe Green&w~
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 40024
+0 0
+D2
+~
+~
+0 -1 40017
+0 0
+D3
+~
+~
+0 -1 40026
+0 0
+S
+#40024
+&YThe Green&w~
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 40028
+0 0
+D2
+~
+~
+0 -1 40023
+0 0
+D3
+~
+~
+0 -1 40025
+0 0
+S
+#40025
+&YThe Green&w~
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 40027
+0 0
+D1
+~
+~
+0 -1 40024
+0 0
+D2
+~
+~
+0 -1 40026
+0 0
+D3
+~
+~
+0 -1 40040
+0 0
+S
+#40026
+&YThe Green&w~
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 40025
+0 0
+D1
+~
+~
+0 -1 40023
+0 0
+D2
+~
+~
+0 -1 40018
+0 0
+S
+#40027
+&YThe Green&w~
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 40038
+0 0
+D1
+~
+~
+0 -1 40028
+0 0
+D2
+~
+~
+0 -1 40025
+0 0
+S
+#40028
+&YThe Green&w~
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 40039
+0 0
+D2
+~
+~
+0 -1 40024
+0 0
+D3
+~
+~
+0 -1 40027
+0 0
+S
+#40029
+&YFirst Street&w~
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 40022
+0 0
+D2
+~
+~
+0 -1 40030
+0 0
+S
+#40030
+&YFirst Street&w~
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 40029
+0 0
+D2
+~
+~
+0 -1 40031
+0 0
+S
+#40031
+&YAmbassador and First&w~
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 40030
+0 0
+D1
+~
+~
+0 -1 40033
+0 0
+D3
+~
+~
+0 -1 40032
+0 0
+S
+#40032
+&YElven Embassy&w~
+~
+0&2
+0 1
+0
+0
+D1
+~
+~
+0 -1 40031
+0 0
+S
+#40033
+&YAmbassador Street&w~
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 40034
+0 0
+D3
+~
+~
+0 -1 40031
+0 0
+S
+#40034
+&YAmbassador Street&w~
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 40037
+0 0
+D1
+~
+~
+0 -1 40035
+0 0
+D3
+~
+~
+0 -1 40033
+0 0
+S
+#40035
+&YAmbassador Street&w~
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 40036
+0 0
+D3
+~
+~
+0 -1 40034
+0 0
+S
+#40036
+&YAmbassador Street&w~
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 40008
+0 0
+D3
+~
+~
+0 -1 40035
+0 0
+S
+#40037
+&YHobbit Embassy&w~
+~
+0&2
+0 1
+0
+0
+D2
+~
+~
+0 -1 40034
+0 0
+S
+#40038
+&YGovernors Mansion&w~
+~
+0&2
+0 1
+0
+0
+D2
+~
+~
+0 -1 40027
+0 0
+S
+#40039
+&YGovernment Building&w~
+~
+0&2
+0 1
+0
+0
+D3
+~
+~
+0 -1 40028
+0 0
+S
+#40040
+&YHigh Court&w~
+~
+0&2
+0 1
+0
+0
+D1
+~
+~
+0 -1 40025
+0 0
+S
+#40041
+&YTop Hat Tavern&w~
+~
+0
+0 1
+0
+0
+D3
+~
+~
+0 -1 40012
+0 0
+S
+#40042
+&YDwarven Embassy&w~
+~
+0
+0 1
+0
+0
+D3
+~
+~
+0 -1 40014
+0 0
+S
+#40043
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40044
+&YThe Golden Chalice&w~
+The fine, wood paneled walls have many hooks to hang hats and coats. The 
+carpet underfoot shows the passage of many feet by the faded blue and gold 
+design. Oil lamps line the walls, casting a warm, golden glow. The main 
+room opens up into raucous laughter and music to the east. 
+~
+0
+0 1
+0
+0
+D0
+~
+~
+0 -1 40017
+0 0
+D2
+~
+~
+0 -1 40009
+0 0
+S
+#40045
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40046
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40047
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40048
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40049
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40050
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40051
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40052
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40053
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40054
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40055
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40056
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40057
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40058
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40059
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40060
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40061
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40062
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40063
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40064
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40065
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40066
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40067
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40068
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40069
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40070
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40071
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40072
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40073
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40074
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40075
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40076
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40077
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40078
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40079
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#40080
+Floating in a void~
+~
+4&2
+0 14
+0
+0
+S
+#41999
+Floating in a void~
+~
+4
+0 1
+0
+0
+S
+#0
+
+
+#RESETS
+M 1 40000 1 40009 -1 -1 -1 0 0
+M 1 40002 1 40005 -1 -1 -1 0 0
+S
+
+
+#SHOPS
+ 40002   18  0  0  0  0   120  90         0 23    ; Bilfer Bombertrust
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  40002 spec_janitor
+S
+
+
+#$

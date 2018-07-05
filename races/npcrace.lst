@@ -1,0 +1,2312 @@
+MAXQUESTDIFF     13
+Racenum          0
+Racename         human~
+Willload         1 1 1 1 1 1 1 1 1 1 1 1 1
+Description 0 a sneaky~
+Description 1 a violent~
+Description 2 a crafy pirate~
+Description 3 a deranged pirate~
+Description 4 an enraged pirate~
+Description 5 a renegade human soldier~
+Description 6 a skilled human vigilante~
+Description 7 a corrupt human solidier~
+Description 8 a warhungry~
+Description 9 a bloodthirsty~
+Description 10 a human warlord~
+Description 11 a favored human warlord~
+Description 12 an elite human warlord~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0&0&0&1048576 0 2 0 0 0&49153 0 0 4194305&1048576&0&131072 0 276889624&923271234&0&1050627 0 0
+NFlags           0 0 0 0 0 0 0 0 0&32768 0 0 0 0
+Fulldescription  0 0 1 1 1 1 1 1 0 0 1 1 1
+End
+Racenum          1
+Racename         elf~
+Willload         1 1 1 1 1 1 1 1 1 1 1 1 1
+Description 0 an angry~
+Description 1 a disgruntled~
+Description 2 a lost elven soldier~
+Description 3 a deranged elven soldier~
+Description 4 a veteran elven soldier~
+Description 5 a demonic elven priestess~
+Description 6 a cursed demonic elven priestess~
+Description 7 a radiating demonic elven priestess~
+Description 8 a lost and demented~
+Description 9 a crazed bloodthirsty~
+Description 10 an elven spirit~
+Description 11 a greater elven spirit~
+Description 12 an demonic elven spirit~
+Sex              0 0 0 0 0 2 2 2 0 0 0 0 0
+Flags            16 0 5 0 0 33554432&524288&320&3 0 0 4194310&536887296&144&1048576 0 276889609&1627390018&8192&1054721 0 0
+NFlags           0 0 0 0 0 5 0 0 33554432&0&0&3 0 0&0&144 0 0
+Fulldescription  0 0 1 1 1 1 1 1 0 0 1 1 1
+End
+Racenum          2
+Racename         dwarf~
+Willload         1 1 1 1 1 1 1 1 1 1 1 1 1
+Description 0 a scared~
+Description 1 an angry~
+Description 2 a battle-tested~
+Description 3 a ravaging battle-tested~
+Description 4 a dwarven commando~
+Description 5 a mutated dwarven miner~
+Description 6 a zombie-like dwarven miner~
+Description 7 a possessed dwarven miner~
+Description 8 a possessed~
+Description 9 a demonic~
+Description 10 a lost dwarven king~
+Description 11 a demented dwarven king~
+Description 12 a dwarven war machine~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            4 0 4194305&32769 0 0 67108928&604012544 0 0 2&269041664 0 1073872936&906100738&2368&1054736 0 0
+NFlags           0 0 0 0 0 0 0 0 64 0 0&32768 0 0
+Fulldescription  0 0 0 0 1 1 1 1 0 0 1 1 1
+End
+Racenum          3
+Racename         ogre~
+Willload         1 1 1 1 1 1 1 1 1 1 1 1 1
+Description 0 a violent~
+Description 1 an angry~
+Description 2 a brown~
+Description 3 an angry brown~
+Description 4 a bloodthirsty brown~
+Description 5 a forceful green~
+Description 6 a massive green brute of an~
+Description 7 a chieftan green~
+Description 8 a power mongering~
+Description 9 a massive brute of an~
+Description 10 an ogre hero~
+Description 11 a fallen ogre hero~
+Description 12 an all-powerful ogre hero~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            278597&1&1048576&1 0 0 0 0 8388617&637550657&0&1 0 0 2&402653184 0 75497472&609484834&256&1054720 0 0
+NFlags           0 0 0 0 0 0 0 0 0&64 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 1 1 1
+End
+Racenum          4
+Racename         hobbit~
+Willload         1 1 1 1 1 1 1 1 1 1 1 1 1
+Description 0 a lost~
+Description 1 an angry~
+Description 2 a hobbit swindler~
+Description 3 a hobbit swashbuckler~
+Description 4 a hobbit journeyman~
+Description 5 a battle tested hobbit~
+Description 6 a hobbit warlord~
+Description 7 a hobbit master warlord~
+Description 8 a loot seeking~
+Description 9 a pilfering~
+Description 10 a hobbit swashbuckler~
+Description 11 a hobbit master warrior~
+Description 12 a hobbit elite~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            4199426&16384 0 1073741824 0 0 1&872415232&256 0 0 16&32768&0&1048576 0 1078067240&-33030142&192&1054723 0 0
+NFlags           0 0 0 0 0 1024 0 0 0&268435456 0 0&32768 0 0
+Fulldescription  0 0 1 1 1 1 1 1 0 0 1 1 1
+End
+Racenum          5
+Racename         fairy~
+Willload         1 1 1 1 1 1 1 1 1 1 1 1 1
+Description 0 a lost~
+Description 1 a puzzled~
+Description 2 a novice fairy mage~
+Description 3 an angry novice fairy mage~
+Description 4 an intermediate fairy mage~
+Description 5 a lost tribal~
+Description 6 a renegade tribal~
+Description 7 a possessed tribal~
+Description 8 a blood seeking~
+Description 9 a chaotic battle crazed~
+Description 10 an arcane fairy~
+Description 11 an elite arcane fairy~
+Description 12 a god-like fairy~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            66834&4&524288&2 0 0&0&192 0 0&2097152 131104&1572864&448&1048576 0 0 0&12632064&512 0 -1442840576&18874432&2&6144 0 0
+NFlags           0 0 0 0 0 0 0 0 256 0 0&0&524288 0 0
+Fulldescription  0 0 1 1 1 0 0 0 0 0 1 1 1
+End
+Racenum          6
+Racename         half-ogre~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          7
+Racename         half-orc~
+Willload         0 0 1 1 1 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 a lost~
+Description 3 a rampaging~
+Description 4 a bloodthirsty~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          8
+Racename         half-troll~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          9
+Racename         half-elf~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          10
+Racename         gith~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          11
+Racename         drow~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          12
+Racename         sea-elf~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          13
+Racename         lizardman~
+Willload         0 0 0 0 0 1 1 1 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 a~
+Description 6 a crazed~
+Description 7 a battle ready~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 276824064&81921 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          14
+Racename         gnome~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          15
+Racename         gnoll~
+Willload         0 0 0 0 0 1 1 1 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 a warrior~
+Description 6 a battle hardened~
+Description 7 a chieftan~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 4194307&268451841 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          16
+Racename         gnome~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          17
+Racename         goblin~
+Willload         1 1 1 1 1 0 0 0 0 0 0 0 0
+Description 0 a runt goblin~
+Description 1 a mean, runt goblin~
+Description 2 a goblin renegade~
+Description 3 a bloodthirsty goblin renegade~
+Description 4 an elite goblin renegade~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  1 1 1 1 1 0 0 0 0 0 0 0 0
+End
+Racenum          18
+Racename         kobold~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          19
+Racename         troll~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          20
+Racename         minotaur~
+Willload         0 0 1 1 1 1 1 1 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 a young~
+Description 3 a violent young~
+Description 4 an angry young~
+Description 5 a~
+Description 6 a crazed~
+Description 7 a veteran~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            268435456&1 0 0 0 0 8&81922 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          21
+Racename         skeleton~
+Willload         1 1 0 0 0 1 1 1 1 1 1 1 1
+Description 0 a deformed~
+Description 1 a~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 a large menacing~
+Description 6 a large violent~
+Description 7 a giant meanacing~
+Description 8 a battle ready~
+Description 9 a battle tested~
+Description 10 a war-o-bone~
+Description 11 a bloodied war-o-bone~
+Description 12 a blood thisrty war-o-bone~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 4194816&67256320&1280 0 0 7&570425346 0 268439568&404230144&0&1054720 0 0
+NFlags           0 0 0 0 0 0 0 0 512&131072 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 1 1 1
+End
+Racenum          22
+Racename         baboon~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          23
+Racename         bat~
+Willload         1 1 0 0 0 0 0 0 0 0 0 0 0
+Description 0 a deformed~
+Description 1 a blood-thirsty deformed~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          24
+Racename         bear~
+Willload         0 0 1 1 1 1 1 1 1 1 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 a small brown~
+Description 3 a brown~
+Description 4 a large brown~
+Description 5 a black~
+Description 6 a hungry black~
+Description 7 a massive black~
+Description 8 a grizzly~
+Description 9 an angry grizzly~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            5 0 0 0 0 9&16386 0 0 67108864&738197504&0&1 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          25
+Racename         bee~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          26
+Racename         beetle~
+Willload         1 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          27
+Racename         boar~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          28
+Racename         bugbear~
+Willload         0 0 0 0 0 1 1 1 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 a~
+Description 6 an enraged~
+Description 7 a haunting~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 36&16385&768&1081344 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          29
+Racename         cat~
+Willload         1 1 0 0 0 0 0 0 0 0 0 0 0
+Description 0 a stray~
+Description 1 a deranged stray~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          30
+Racename         dog~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          31
+Racename         dragon~
+Willload         0 0 1 1 1 1 1 1 1 1 1 1 1
+Description 0 ~
+Description 1 ~
+Description 2 a baby~
+Description 3 a destructive baby~
+Description 4 a hungry baby~
+Description 5 a fledgling blue~
+Description 6 a hungry fledgling blue~
+Description 7 a bloodied fledgling blue~
+Description 8 a young green~
+Description 9 an aging young green~
+Description 10 a black~
+Description 11 a large black~
+Description 12 an alpha black~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            4194324&1&128&1048579 0 0 0 0 8388610&16384&1032&1048608 0 0 1&524288&16&16384 0 131104&5767168&0&6144 0&2 0
+NFlags           0 0 0 0 0 0&0&128 0 0 0&0&1032 0 0&0&16&32 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          32
+Racename         ferret~
+Willload         1 1 0 0 0 0 0 0 0 0 0 0 0
+Description 0 a hungry~
+Description 1 a VERY hungry~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          33
+Racename         fly~
+Willload         1 1 0 0 0 0 0 0 0 0 0 0 0
+Description 0 a mutated fruit~
+Description 1 a deranged, mutated fruit~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          34
+Racename         gargoyle~
+Willload         0 0 0 0 0 1 1 1 0 0 1 1 1
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 a stone~
+Description 6 a crazed stone~
+Description 7 a glowing stone~
+Description 8 ~
+Description 9 ~
+Description 10 a titanium~
+Description 11 a tungsten~
+Description 12 a mithril~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 4194305&16384&0&1 0 0 0 0 8388616&16908289&64&1054720 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          35
+Racename         gelatin~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          36
+Racename         ghoul~
+Willload         0 0 1 1 1 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 a decrepit~
+Description 3 a massive decrepit~
+Description 4 a battle-hardened decrepit~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          37
+Racename         r5~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          38
+Racename         r6~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          39
+Racename         r7~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          40
+Racename         golem~
+Willload         0 0 1 1 1 0 0 0 0 0 1 1 1
+Description 0 ~
+Description 1 ~
+Description 2 a young~
+Description 3 a disturbed young~
+Description 4 a ruthless young~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 a radiant~
+Description 11 a large radiant~
+Description 12 a mithril~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            4194304&0&0&1 0 0 0 0 0 0 0 0 0 8388617&873775104&64&1054722 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          41
+Racename         gorgon~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          42
+Racename         harpy~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          43
+Racename         hobogoblin~
+Willload         1 1 0 0 0 0 0 0 0 0 0 0 0
+Description 0 a young~
+Description 1 a violent young~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          44
+Racename         r8~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          45
+Racename         r9~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          46
+Racename         locust~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          47
+Racename         lycanthrope~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          48
+Racename         ant~
+Willload         1 1 0 0 0 0 0 0 0 0 0 0 0
+Description 0 a large fire~
+Description 1 a massive fire~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          49
+Racename         mold~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          50
+Racename         mule~
+Willload         1 1 0 0 0 0 0 0 0 0 0 0 0
+Description 0 a deranged~
+Description 1 an aggressive, deranged~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          51
+Racename         neanderthal~
+Willload         0 0 1 1 1 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 a filthy apeman~
+Description 3 a big filthy apeman~
+Description 4 a big, nasty, filthy apeman~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 1 1 1 0 0 0 0 0 0 0 0
+End
+Racenum          52
+Racename         ooze~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          53
+Racename         orc~
+Willload         1 1 1 1 1 0 0 0 0 0 0 0 0
+Description 0 a young~
+Description 1 an angry young~
+Description 2 a bloodthirsty~
+Description 3 a cutthroad~
+Description 4 a ruthless~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          54
+Racename         rat~
+Willload         1 1 0 0 0 0 0 0 0 0 0 0 0
+Description 0 a large~
+Description 1 a vicious looking large~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          55
+Racename         rustmonster~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          56
+Racename         shadow~
+Willload         0 0 0 0 0 0 0 0 0 0 1 1 1
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 a ~
+Description 11 a white~
+Description 12 a red~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 4194560&-2144845823&128&1071105 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          57
+Racename         shapeshifter~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          58
+Racename         shrew~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          59
+Racename         shrieker~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          60
+Racename         ape~
+Willload         1 1 1 1 1 1 1 1 1 1 1 1 1
+Description 0 an~
+Description 1 an~
+Description 2 an~
+Description 3 an~
+Description 4 an~
+Description 5 an~
+Description 6 an~
+Description 7 an~
+Description 8 an~
+Description 9 an~
+Description 10 an~
+Description 11 an~
+Description 12 an~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          61
+Racename         slime~
+Willload         0 0 1 1 1 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 a green~
+Description 3 a large green~
+Description 4 an aggressive large green~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0&0&1048576&1048577 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          62
+Racename         snake~
+Willload         1 1 1 1 1 1 1 1 0 0 0 0 0
+Description 0 a large~
+Description 1 a vicious looking large~
+Description 2 a massive python~
+Description 3 an angry massive python~
+Description 4 a violent massive python~
+Description 5 a boa~
+Description 6 a crazed boa~
+Description 7 a massive boa~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 1&138428417&256 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 1 1 1 1 1 1 0 0 0 0 0
+End
+Racenum          63
+Racename         spider~
+Willload         1 1 1 1 1 0 0 0 0 0 0 0 0
+Description 0 a large~
+Description 1 a vicious looking large~
+Description 2 a large venomous~
+Description 3 a gigantic venomous~
+Description 4 a man-eating venomous~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0&0&512 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          64
+Racename         stirge~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          65
+Racename         thoul~
+Willload         0 0 0 0 0 0 0 0 1 1 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 a ~
+Description 9 a blood craving~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 4194306&604028928&4194304&1048576 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          66
+Racename         troglodyte~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          67
+Racename         undead~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          68
+Racename         wight~
+Willload         0 0 0 0 0 1 1 1 1 1 1 1 1
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 a~
+Description 6 a terrifying~
+Description 7 an enraged~
+Description 8 an elder~
+Description 9 a powerful~
+Description 10 a dred-wight ~
+Description 11 a superior dred-wight~
+Description 12 an alpha dred-wight~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 131104&133120&0&1048576 0 0 4194305&1064961&0&131072 0 67108866&872939520&768&6144 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 1 1 1
+End
+Racenum          69
+Racename         wolf~
+Willload         1 1 1 1 1 1 1 1 0 0 0 0 0
+Description 0 a wolf pup~
+Description 1 an older wolf pup~
+Description 2 a red~
+Description 3 a black~
+Description 4 a large black~
+Description 5 a large blazing~
+Description 6 an angry large blazing~
+Description 7 a bloodthirsty large blazing~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 274&2097152&2176&16 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  1 1 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          70
+Racename         worm~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          71
+Racename         zombie~
+Willload         0 0 0 0 0 1 1 1 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 a drunk looking~
+Description 6 a bloodcraving~
+Description 7 a braincraving~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 65&-2080358400&256 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          72
+Racename         bovine~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          73
+Racename         canine~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          74
+Racename         feline~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          75
+Racename         porcine~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          76
+Racename         mammal~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          77
+Racename         rodent~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          78
+Racename         avis~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          79
+Racename         reptile~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          80
+Racename         amphibian~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          81
+Racename         fish~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          82
+Racename         crustacean~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          83
+Racename         insect~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          84
+Racename         spirit~
+Willload         0 0 0 0 0 0 0 0 0 0 1 1 1
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 a radiant~
+Description 11 a shrieking~
+Description 12 an arch~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 1073872928&553926656&336&1071105 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          85
+Racename         magical~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          87
+Racename         animal~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          88
+Racename         humanoid~
+Willload         0 0 0 0 0 0 0 0 1 1 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 an angry giant~
+Description 9 a choatic giant~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 5&872431617&1048576&1048577 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 1 1 0 0 0
+End
+Racenum          89
+Racename         monster~
+Willload         0 0 0 0 0 1 1 1 0 0 1 1 1
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 a grotesque~
+Description 6 a large grotesque~
+Description 7 an abomination~
+Description 8 ~
+Description 9 ~
+Description 10 a massive abomination~
+Description 11 a demonic enchantment~
+Description 12 Behemoth~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 577&67125249 0 0 0 0 8454168&3670016&2176&1052689 0 0&0&4&2
+NFlags           0 0 0 0 0 0 0 0 0 0 576 0 0
+Fulldescription  0 0 0 0 0 0 0 1 0 0 1 1 1
+End
+Racenum          90
+Racename         god~
+Willload         0 0 0 0 0 0 0 0 0 0 1 1 1
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 a small~
+Description 11 a minor~
+Description 12 a lesser~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 1082261513&70795266&64&1054723 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          91
+Racename         wyvern~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          86
+Racename         horse~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          92
+Racename         beaver~
+Willload         1 1 0 0 0 0 0 0 0 0 0 0 0
+Description 0 an angry~
+Description 1 a ruffled angry~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          93
+Racename         sprite~
+Willload         1 1 0 0 0 1 1 1 0 0 0 0 0
+Description 0 a fledgling~
+Description 1 an angry fledgling ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 a vibrant glowing~
+Description 6 a battle-crazed vibrant glowing~
+Description 7 a bloodied vibrant glowing~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            256&4&0&16384 0 0 0 0 0&540672&64 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          94
+Racename         griffin~
+Willload         0 0 0 0 0 0 0 0 1 1 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 a~
+Description 9 a prowd~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 1077936130&604291072&4194304&1048576 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          95
+Racename         unicorn~
+Willload         0 0 0 0 0 0 0 0 1 1 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 a brown~
+Description 9 a black~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 1073741858&1589249&64&1048579 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          96
+Racename         cyclops~
+Willload         0 0 0 0 0 0 0 0 1 1 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 a festering~
+Description 9 a deranged~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 8388613&335560706&1048576&1048577 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          97
+Racename         roc~
+Willload         0 0 0 0 0 0 0 0 1 1 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 a dangerious~
+Description 9 a hungry~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 16777218&637714432&256&1048576 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          98
+Racename         fire elemental~
+Willload         0 0 0 0 0 0 0 0 1 1 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 a~
+Description 9 a blazing~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0&16384&2052&1048592 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          99
+Racename         water elemental~
+Willload         0 0 0 0 0 0 0 0 1 1 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 a ~
+Description 9 a gushing~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 16777218&16384&1032&1048608 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          100
+Racename         air elemental~
+Willload         0 0 0 0 0 0 0 0 1 1 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 an~
+Description 9 a gusting~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 8388610&16384&4098&1114112 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          101
+Racename         earth elemental~
+Willload         0 0 0 0 0 0 0 0 1 1 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 a~
+Description 9 an angry~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 8388608&16384&4194320&1048641 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          102
+Racename         energy elemental~
+Willload         0 0 0 0 0 0 0 0 1 1 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 a~
+Description 9 a fluxing~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 1&16384&524289&1048704 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          103
+Racename         vampire~
+Willload         0 0 0 0 0 0 0 0 0 0 1 1 1
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 a ~
+Description 11 a blood-drenched~
+Description 12 a blood-crazed~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 4259856&1879588865&1840&1071104 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          104
+Racename         demon~
+Willload         0 0 0 0 0 0 0 0 0 0 1 1 1
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 a ~
+Description 11 a greater~
+Description 12 an alpha~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 276889621&907298817&896&1054720 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          105
+Racename         shade~
+Willload         0 0 0 0 0 0 0 0 0 0 1 1 1
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 a ~
+Description 11 a black~
+Description 12 a nightmere~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0&1073233921&784&1054723 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          106
+Racename         wraith~
+Willload         0 0 0 0 0 0 0 0 0 0 1 1 1
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 a dred-wraith~
+Description 11 a superior dred-wraith~
+Description 12 an alpha dred-wraith~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 75563035&874006530&768&1054723 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 1 1 1
+End
+Racenum          107
+Racename         fire newt~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          108
+Racename         goat~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Racenum          109
+Racename         ewe~
+Willload         0 0 0 0 0 0 0 0 0 0 0 0 0
+Description 0 ~
+Description 1 ~
+Description 2 ~
+Description 3 ~
+Description 4 ~
+Description 5 ~
+Description 6 ~
+Description 7 ~
+Description 8 ~
+Description 9 ~
+Description 10 ~
+Description 11 ~
+Description 12 ~
+Sex              0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags            0 0 0 0 0 0 0 0 0 0 0 0 0
+NFlags           0 0 0 0 0 0 0 0 0 0 0 0 0
+Fulldescription  0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+Stop

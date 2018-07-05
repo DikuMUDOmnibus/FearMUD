@@ -1,0 +1,2795 @@
+Name		   Project Command Update~
+Owner		   Xerves~
+Coder		    Xerves~
+Type             5
+Time             1087172620
+Status		   Done~
+Date		   06-13-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         The project command was updated (as noted by this first project).  Please
+look at (HELP PROJECT) for more information on how this command can
+be used.  I would ask that you now please use it to report bugs/typos
+and the sort.  If you wish to use the command to quickly record something
+that is acceptable, but please don't use the gboards now that this
+is now available.  Thanks
+~
+End
+Name		   Quest Obj Changes~
+Owner		   Xerves~
+Coder		    Xerves~
+Type             5
+Time             1087172794
+Status		   Half Done~
+Date		   06-13-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         This will be added in soon (probably by next week).  The following changes
+will be coming your way.
+
+1.  Some quest objects will be marked "minor" including all potions.  This
+    will mean a minor object will be allowed to pop with another object that
+    is not flagged minor.  Minor objects will mostly be potions/scrolls/repair
+    and a few other catagories.
+2.  Gold will start to load randomly on the ground.  There is a chance that instead
+    of gold there might be an unique object (item loaded by a captain) or even slighter
+    chance of a rare item (object loaded by a boss).
+3.  Going to make all necklaces/cyan equipment load up affects.  There will be some other
+    changes with higher end equipment (possible multiple effects, etc)
+4.  Going to add new values to regular area objects that will allow them to be used in
+    quests.
+
+If you have any suggestions, leave a note on the subject.
+
+--X
+~
+Log
+Sender Xerves~
+Date Mon Jun 14 20:06:32 2004~
+Subject Area Objects Left~
+Text Everything should be in besides the Area Object code where it would
+pluck objects from areas.  Should see more cyan equipment and necklaces/
+rings should always load up affects.
+
+Will also see gold floating around on the ground along with a chance
+of an object (mostly common sometimes unique).
+
+Also minor objects (potions/scrolls/food/drink) will load a major
+object if the minor object is loaded first.
+~
+Endlog
+Log
+Sender Xerves~
+Date Wed Jun 16 19:41:17 2004~
+Subject More Bugs Fixed~
+Text Fixed some more bugs reguarding this code.  Had some bad looping problems
+along with some loot loading more often than it should.  Also fixed the
+problem with gold on the ground loading incorrectly and adjusted the
+affects on the cyan equipment.  
+~
+Endlog
+End
+Name		   "Light of Harlequin" object doesn't work as a light~
+Owner		   Magius~
+Coder		    Xerves~
+Type             1
+Time             1087432411
+Status		   Done~
+Date		   06-16-2004~
+Rewardee     magius~
+Points       2
+Rewardedpoints  2
+Description         (subject)
+~
+Log
+Sender Xerves~
+Date Thu Jun 17 17:14:31 2004~
+Subject Fixed~
+Text Fixed - Minor Bug
+2 pts
+~
+Endlog
+End
+Name		   The scribe skill will not let you scribe spells you should be able to, because it is checking the player skill in the brew skill and not the scribe skill.~
+Owner		   Kaizoku~
+Coder		    Xerves~
+Type             1
+Time             1087436987
+Status		   Done~
+Date		   06-16-2004~
+Rewardee     atreyu~
+Points       2
+Rewardedpoints  2
+Description         project add bug The scribe skill will not let you scribe spells you should be able to, because it is checking the player skill in the brew skill and not the scribe skill.
+~
+Log
+Sender Xerves~
+Date Thu Jun 17 17:21:23 2004~
+Subject Fixed~
+Text Fixed - Minor Bug
+~
+Endlog
+End
+Name		   Quest time and no. of mobs~
+Owner		   Biff~
+Coder		    Xerves~
+Type             1
+Time             1087451359
+Status		   Done~
+Date		   06-17-2004~
+Rewardee     biff~
+Points       2
+Rewardedpoints  0
+Description         I think the number of mobs assigned is based on the time as well? Might be 
+meant to be this way, but I tried a 13 6 1 -1 and got about 10 mobs per 
+room. 
+~
+Log
+Sender Xerves~
+Date Thu Jun 17 18:03:37 2004~
+Subject Fixed~
+Text Fixed - Minor Bug
+2 pnts
+~
+Endlog
+End
+Name		   Xaffected eq bug~
+Owner		   Kaizoku~
+Coder		    Xerves~
+Type             1
+Time             1087512123
+Status		   Done~
+Date		   06-17-2004~
+Rewardee     atreyu~
+Points       2
+Rewardedpoints  2
+Description         This is an old bug, but still very annoying.  Any time you are wearing an item
+with an xaffected flag, and you change any piece of eq around, the xaffects are cancelled.
+This also happens when entering a zone.
+~
+Log
+Sender Xerves~
+Date Thu Jun 17 18:25:33 2004~
+Subject Fixed~
+Text Minor Bug
+~
+Endlog
+End
+Name		   Reward field color in score~
+Owner		   Kaizoku~
+Coder		    Xerves~
+Type             6
+Time             1087512921
+Status		   Done~
+Date		   06-17-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Is there any way you can set this field to white like everything else is?  The
+dark green color is very very hard to see.
+~
+Log
+Sender Xerves~
+Date Thu Jun 17 18:25:58 2004~
+Subject Changed~
+Text No Rewards
+~
+Endlog
+End
+Name		   Another scribe bug~
+Owner		   Kaizoku~
+Coder		    Xerves~
+Type             1
+Time             1087515867
+Status		   Done~
+Date		   06-17-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Attempting to scribe a spell gets me "You must have a blank scroll in your inventory to
+scribe it."  I have a blank red scroll in my inventory, the game just isn't seeing it.
+~
+Log
+Sender Xerves~
+Date Tue Jun 22 17:39:01 2004~
+Subject Fixed~
+Text No Reward (Grouped with first bug report of scribe)
+~
+Endlog
+End
+Name		   Guroro/Gurori~
+Owner		   Teric~
+Coder		    Xerves~
+Type             1
+Time             1087517036
+Status		   Done~
+Date		   06-17-2004~
+Rewardee     teric~
+Points       2
+Rewardedpoints  0
+Description         ~
+Log
+Sender Xerves~
+Date Tue Jun 22 17:41:26 2004~
+Subject Fixed~
+Text Minor Bug - The dammsg was saying Gurori not Guroro.  Deleted next
+project note, was the same bug
+~
+Endlog
+End
+Name		   ~
+Owner		   Teric~
+Coder		    Xerves~
+Type             1
+Time             1087517563
+Status		   Done~
+Date		   06-17-2004~
+Rewardee     teric~
+Points       2
+Rewardedpoints  0
+Description         Scribe and brew do not go up through use.  Not sure if that is a bug or not because of the way lore is designed.
+~
+Log
+Sender Xerves~
+Date Tue Jun 22 17:44:13 2004~
+Subject Fixed~
+Text Difficulty was a tad high, lowered (it does work though)
+Minor Bug
+~
+Endlog
+End
+Name		   Wilderness Bank~
+Owner		   Teric~
+Coder		    Xerves~
+Type             1
+Time             1087518430
+Status		   Done~
+Date		   06-17-2004~
+Rewardee     teric~
+Points       2
+Rewardedpoints  0
+Description         The wilderness banks still need fixed so that you can't withdraw from anywhere in the wilderness.
+~
+Log
+Sender Xerves~
+Date Tue Jun 22 17:46:25 2004~
+Subject Fixed~
+Text Fixed - Minor Bug
+~
+Endlog
+End
+Name		   Kingdom tax problem~
+Owner		   Atreyu~
+Coder		    Xerves~
+Type             1
+Time             1087656564
+Status		   Done~
+Date		   06-19-2004~
+Rewardee     atreyu~
+Points       5
+Rewardedpoints  5
+Description         I have Sithicus's poptax set at 300, but evidently there is a bug in the math.  The
+following is what happened with the poptax set at 300.
+
+[523] Jun 19 03:51:44 2004  [tax]  _____TAX_____  City of Sithicus made -193046 gold.
+
+Please correct this bug, figure out what our taxes should have been, and adjust our
+kingdom gold to reflect this -193,000 being readded, as well as the amount we should
+have collected.
+
+Points for this bug, and everything Kaizoku has turned in, should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Tue Jun 22 17:37:11 2004~
+Subject Fixed~
+Text Moderate Bug
+
+--Tell much how much I owe your kingdom and I will add it (should get
+an idea after first successful taxing)
+~
+Endlog
+End
+Name		   consent~
+Owner		   Teric~
+Coder		    Xerves~
+Type             1
+Time             1087689467
+Status		   Done~
+Date		   06-19-2004~
+Rewardee     teric~
+Points       2
+Rewardedpoints  0
+Description         Consent doesn't work.  When you type it you are prompted with "huh?"
+~
+Log
+Sender Xerves~
+Date Tue Jun 22 17:47:05 2004~
+Subject Fixed~
+Text Failed to add the command :-)
+Minor Bug
+~
+Endlog
+End
+Name		   Auction bug~
+Owner		   Atreyu~
+Coder		    Xerves~
+Type             1
+Time             1087873667
+Status		   Done~
+Date		   06-21-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         After auctioning a weak potion of sanctify, both me and Ramah are unable to auction
+ANY item.  It says "Such an item has been auctioned recently, try again later", even
+when the potion and the other item have NOTHING in common.
+~
+Log
+Sender Xerves~
+Date Tue Jun 22 17:47:43 2004~
+Subject Adjusting~
+Text This is a vnum check, since all quest objects are the same vnum....
+
+I am going to change the way this works so you can auction anything
+you want, but I will add a short timer (something like 30 seconds) so
+if people want to auction they aren't spamming things over and over.  I
+am also going to make a mandatory requirement of item cost or higher
+on any auctioned items.  
+~
+Endlog
+Log
+Sender Xerves~
+Date Tue Jun 22 17:49:15 2004~
+Subject No Reward~
+Text No Reward (not a bug)
+~
+Endlog
+End
+Name		   Recall bug~
+Owner		   Atreyu~
+Coder		    Xerves~
+Type             1
+Time             1087890352
+Status		   Done~
+Date		   06-22-2004~
+Rewardee     atreyu~
+Points       2
+Rewardedpoints  2
+Description         Casting the word of recall spell takes away movement points as if you were walking
+a room instead of casting.
+
+Points should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Tue Jun 22 17:53:53 2004~
+Subject ?????~
+Text Not getting this offline, when I recall no movement points are used
+(I gain some from the tick actually)
+
+~
+Endlog
+Log
+Sender Xerves~
+Date Tue Jun 22 19:25:59 2004~
+Subject Fixed~
+Text Was a problem with recalling in the wilderness, no movement loss now under
+any situation.
+Minor Bug
+~
+Endlog
+End
+Name		   noloads~
+Owner		   Xerves~
+Coder		    Xerves~
+Type             1
+Time             1087949736
+Status		   Done~
+Date		   06-22-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Fixed the problem, there shouldn't be anymore noloads out in the wilderness.
+I testing about 100 or so battle attempts and see no problems now, I beleive
+I fixed the strange characters earlier by emptying out the buffer before
+using it.  I plan on adding a increased/decreased chance spell sometime soon
+for those who actually want to do some battle out there *l*
+~
+End
+Name		   Allowjoin troubles~
+Owner		   Atreyu~
+Coder		    Xerves~
+Type             1
+Time             1087951061
+Status		   Done~
+Date		   06-22-2004~
+Rewardee     atreyu~
+Points       2
+Rewardedpoints  2
+Description         When setting your kingdom to allowjoin 1, it will not let a character from the newbie
+kingdom join your kingdom.
+~
+Log
+Sender Xerves~
+Date Tue Jun 22 19:44:04 2004~
+Subject Fixed~
+Text Fixed, variable was incorrect.
+Minor Bug
+~
+Endlog
+End
+Name		   Aggro Mobs not attacking~
+Owner		   Xerves~
+Coder		    Xerves~
+Type             1
+Time             1087951646
+Status		   Done~
+Date		   06-22-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Aggro mobs were not attacking when it got dark in quests if you had
+infravision or truelight (imm).  Added dark to all rooms in the
+quests and added infravision to the mobs.
+~
+End
+Name		   Astral walk/summon bug~
+Owner		   Kaizoku~
+Type             1
+Time             1088039285
+Status		   Done~
+Date		   06-23-2004~
+Rewardee     atreyu~
+Points       2
+Rewardedpoints  2
+Description         When either astral walking to a target, or being summoned to it, your inventory shows
+as nothing.  You have to walk in and out of the room to see your inventory again.
+
+Points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Thu Sep  2 17:50:16 2004~
+Subject Fixed~
+Text Fixed summon/astral/resurrect.
+
+Minor
+~
+Endlog
+End
+Name		   Locate object~
+Owner		   Kaizoku~
+Type             1
+Time             1088039433
+Status		   Done~
+Date		   06-23-2004~
+Rewardee     atreyu~
+Points       5
+Rewardedpoints  5
+Description         Locate object currently will not locate objects in zones if you are in the wilderness,
+and only locates wilderness objects if you are in the same room as the item.
+It also seems to be looping, because items show on locate multiple times when only
+one exists in the game world.  This is easily seen by using obscure objects
+from the forge to test with.
+
+Points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Thu Sep  2 18:06:47 2004~
+Subject Fixed~
+Text Hope it is fixed.  If there is any looping let me know.
+~
+Endlog
+End
+Name		   Possible problem with adamant forge items~
+Owner		   Atreyu~
+Type             1
+Time             1088690558
+Status		   Done~
+Date		   07-01-2004~
+Rewardee     atreyu~
+Points       2
+Rewardedpoints  2
+Description         I'm not sure if this is intended or not, but all armor forged from adamant does not
+have the same nobreak flag that adamant forged weapons receive.  I am thinking the
+armor pieces should also be nobreak, since it is the same ore.
+
+Points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Sun Jul 11 16:19:05 2004~
+Subject Fixed~
+Text Fixed, all other forge objects with adamant will be nobreak
+~
+Endlog
+End
+Name		   revamping track~
+Owner		   Ramah~
+Coder		    Xerves~
+Type             3
+Time             1088798292
+Status		   Implemented~
+Date		   07-02-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         I've been kicking around the idea that it would be fun and extremely
+useful to be able to tell how far away from a target you are when 
+you track it.  You could use pcolors to colorcode the result of a 
+successful track to give you a ballpark idea of how far away a
+target is, i.e. blue=target is 100 rooms away, bright flaming neon
+pink means it's 5 or fewer, etc
+~
+Log
+Sender Xerves~
+Date Fri Sep  3 17:37:28 2004~
+Subject Added~
+Text Was added awhile back
+~
+Endlog
+End
+Name		   Problem with fumbling weapons~
+Owner		   Atreyu~
+Type             1
+Time             1089019725
+Status		   Done~
+Date		   07-05-2004~
+Rewardee     atreyu~
+Points       2
+Rewardedpoints  2
+Description         When you get the message about damaging youe weapon with your lousy attack, the code
+makes no check to see if the item is nobreak, and will damage adamant ore weapons.
+
+Points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Thu Sep  2 18:08:41 2004~
+Subject Fixed~
+Text Fixed
+
+Minor
+~
+Endlog
+End
+Name		   Nodrop items~
+Owner		   Atreyu~
+Type             1
+Time             1089019828
+Status		   Done~
+Date		   07-05-2004~
+Rewardee     atreyu~
+Points       2
+Rewardedpoints  2
+Description         I was in a quest, and had my left arm severed.  Both my Bloody Wristband and my
+Blade of Twilight are nodrop items, but they still fell to the floor.
+
+Points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Sun Jul 11 16:04:58 2004~
+Subject Fixed~
+Text Should of been fixed
+
+minor
+~
+Endlog
+End
+Name		   Off-hand problem~
+Owner		   Atreyu~
+Type             1
+Time             1089019906
+Status		   Done~
+Date		   07-05-2004~
+Rewardee     atreyu~
+Points       2
+Rewardedpoints  2
+Description         I was doing a quest, and had my left arm slashed off.  My Jewel Encrusted Gloves
+came off, but my khelekir katana stayed in the severed hand slot and did not fall off.
+
+Points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Sun Jul 11 16:14:15 2004~
+Subject Fixed~
+Text Off hand should pop out your dual wield now along with any shield you
+are wearing.  Same rules apply as any other item.
+
+Minor
+~
+Endlog
+End
+Name		   avtalk improvements~
+Owner		   Ramah~
+Type             6
+Time             1089161027
+Status		   Done~
+Date		   07-06-2004~
+Rewardee     ramah~
+Points       2
+Rewardedpoints  2
+Description         please look into adding avtalk to the chistory command.  another 
+thing I noticed is that avtalk takes up rounds in combat as well
+i.e. it'll tell you you can't move that fast! when you try to avtalk
+in combat and miss the round/l
+~
+Log
+Sender Xerves~
+Date Sun Jul 11 16:02:06 2004~
+Subject Fixed/Added~
+Text Fixed this awhile back (as noted to Ramah) and added avtalk to chistory
+on 7/11/04
+
+2 pnts
+~
+Endlog
+End
+Name		   reimp weather!~
+Owner		   Ramah~
+Type             3
+Time             1089247847
+Status		   Scheduled~
+Date		   07-07-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         please make revamping the weather code at least a moderate priority.
+it would be a great way to make kingdoms fairly interesting, as 
+rainfall, drought, blizzards, etc could all affect resources 
+available to the kingdoms
+it would also allow I think for the fire code to be tossed back in,
+making brush fires another aspect.
+~
+End
+Name		   Not able to enter my quest~
+Owner		   Atreyu~
+Type             1
+Time             1090422662
+Status		   Done~
+Date		   07-21-2004~
+Rewardee     atreyu~
+Points       2
+Rewardedpoints  2
+Description         I did a difficulty 5 quest..  accidentally walked to the wrong entry, then came back
+to the proper one.  Attempting to enter it just gives me a blank line, and my quest
+status appears that I have already entered it
+
+Points for this should go to Atreyu
+~
+Log
+Sender Xerves~
+Date Wed Jul 21 20:15:48 2004~
+Subject Fixed~
+Text Fixed
+Minor Bug
+~
+Endlog
+End
+Name		   piggyback crash!~
+Owner		   Ramah~
+Type             1
+Time             1091200423
+Status		   Done~
+Date		   07-30-2004~
+Rewardee     ramah~
+Points       2
+Rewardedpoints  2
+Description         piggyback causes the mud to crash when you try to enter an area 
+while carrying someone on your back.  
+~
+Log
+Sender Xerves~
+Date Thu Sep  2 18:11:15 2004~
+Subject Fixed~
+Text Think I fixed this earlier.
+
+Minor
+~
+Endlog
+End
+Name		   Being piggybacked and recalling~
+Owner		   Atreyu~
+Type             1
+Time             1091299881
+Status		   Done~
+Date		   07-31-2004~
+Rewardee     atreyu~
+Points       2
+Rewardedpoints  2
+Description         Being the person riding on another, and having that person recall, will show you
+a room in the wilderness that says "Shouldn't see this room", and has like 50 bins
+of every kind in it.
+
+Points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Thu Sep  2 18:24:36 2004~
+Subject Fixed~
+Text Fixed
+
+Small
+~
+Endlog
+End
+Name		   New mastery levels~
+Owner		   Kaizoku~
+Type             1
+Time             1091325642
+Status		   Done~
+Date		   07-31-2004~
+Rewardee     atreyu~
+Points       5
+Rewardedpoints  5
+Description         I am almost positive that skills trained to elite or flawless are no longer advancing
+through use.  I tested dual wield and some styles on Atreyu, and none of them were
+raising, no matter how much I used them.  The only skills doing this are ones trained
+to Elite or higher mastery.
+
+Points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Sun Aug  1 13:59:06 2004~
+Subject Fixed~
+Text Fixed
+
+--Medium Bug
+~
+Endlog
+End
+Name		   Eq affects not working~
+Owner		   Kaizoku~
+Type             1
+Time             1091415895
+Status		   Done~
+Date		   08-01-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         All of a sudden, the nohunger and nothirst off my ToW eq stopped affecting me.  I
+have tried rewearing it several times, but still no dice.  It's only happened in the
+last hour, so maybe a recent change had this side affect.
+
+Points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Fri Aug  6 23:16:56 2004~
+Subject Fixed~
+Text Fixed
+
+--Minor
+~
+Endlog
+End
+Name		   Clarification on xaffects bug earlier~
+Owner		   Atreyu~
+Type             1
+Time             1091471839
+Status		   Done~
+Date		   08-02-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         I had bug logged with Kaizoku that the nohunger/nothirst affects on eq were not
+working right.  In fact, it is the nohunger/nothirst spellls themselves that are not
+working.
+
+All points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Fri Aug  6 23:16:27 2004~
+Subject Fixed~
+Text Fixed 
+
+--No Points (same as 38)
+~
+Endlog
+End
+Name		   pranayama~
+Owner		   Draco~
+Type             1
+Time             1091586114
+Status		   Done~
+Date		   08-03-2004~
+Rewardee     draco~
+Points       2
+Rewardedpoints  2
+Description         In the gnote, it is stated that pranayama is supposed to be less powerful than
+renewal, yet at only 3.5 beginner, pranayama restored about 190hp, where
+renewal, at 15 master, restores around 22 hp.
+gsc
+sc
+~
+Log
+Sender Xerves~
+Date Fri Aug  6 23:15:36 2004~
+Subject Fixed~
+Text Fixed
+
+--Minor
+~
+Endlog
+End
+Name		   Kremove acting funny~
+Owner		   Kaizoku~
+Type             1
+Time             1091930336
+Status		   Done~
+Date		   08-07-2004~
+Rewardee     atreyu~
+Points       2
+Rewardedpoints  2
+Description         I was using kremove to move some trainers around, and it seems like sometimes I have
+to type it two or three times for the game to actually remove the trainer.
+
+Points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Thu Sep  2 18:48:17 2004~
+Subject Fixed~
+Text Was still doing old school checking.  You probably deleted someone else's
+trainer.
+
+Minor
+~
+Endlog
+End
+Name		   Kingdom trainer costs~
+Owner		   Atreyu~
+Type             1
+Time             1091934842
+Status		   Cannot find~
+Date		   08-07-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Learning beginner from a kingdom trainer seems to be costing me 400,000 at the
+moment, which seems very expensive for a beginner skill. :)
+
+All points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Fri Sep  3 17:36:31 2004~
+Subject Cannot duplicate~
+Text Costing me normal coinage.  It might be your kingdom settings
+~
+Endlog
+End
+Name		   ~
+Owner		   Malakai~
+Type             1
+Time             1092539238
+Status		   Done~
+Date		   08-14-2004~
+Rewardee     malakai~
+Points       2
+Rewardedpoints  2
+Description         Fix the command talel in relation to: talent (stat) spend
+as it drops the stat back down to 0 stars regardless of how many were there before
+~
+Log
+Sender Xerves~
+Date Fri Sep  3 17:17:17 2004~
+Subject Fixed~
+Text Fixed the problem
+
+Minor
+~
+Endlog
+End
+Name		   Manashell~
+Owner		   Biff~
+Type             1
+Time             1092635644
+Status		   Done~
+Date		   08-16-2004~
+Rewardee     biff~
+Points       2
+Rewardedpoints  0
+Description         It seems to be going off when it shouldn't, like with stealth hobbits, and 
+also it triggers when I shiver and suffer from poison. 
+~
+Log
+Sender Xerves~
+Date Fri Sep  3 17:24:26 2004~
+Subject Fixed~
+Text I Fixed the poison part and put in a tighter define for the damage.
+
+Not sure about the stealth hobbit part.
+
+--X
+
+Minor
+~
+Endlog
+End
+Name		   Manashield~
+Owner		   Biff~
+Type             1
+Time             1092648433
+Status		   Done~
+Date		   08-16-2004~
+Rewardee     biff~
+Points       2
+Rewardedpoints  0
+Description         Doesn't seem to be triggering.
+~
+Log
+Sender Xerves~
+Date Fri Sep  3 17:29:13 2004~
+Subject Fixed~
+Text Was looking for ch instead of victim.  Fixed
+
+Minor
+~
+Endlog
+End
+Name		   Scan~
+Owner		   Biff~
+Type             1
+Time             1092648792
+Status		   Done~
+Date		   08-16-2004~
+Rewardee     biff~
+Points       2
+Rewardedpoints  0
+Description         There don't seem to be any entries for elite (and probably flawless)? 
+Elite scan only goes 3 rooms, but master went 6 or so. 
+~
+Log
+Sender Xerves~
+Date Fri Sep  3 17:35:41 2004~
+Subject Fixed~
+Text Fixed, was missing the new masteries
+
+--X
+
+Minor
+~
+Endlog
+End
+Name		   a bad stone sector~
+Owner		   Draco~
+Type             1
+Time             1093120246
+Status		   Cannot find~
+Date		   08-21-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         It seems one of the stone sectors in my city "Perdition" has gone bad, it has
+a value of -1
+~
+Log
+Sender Xerves~
+Date Wed Sep  1 19:25:19 2004~
+Subject Cannot find the problem~
+Text I checked all the sectors near the town and they are all reporting some
+level of resource.
+~
+Endlog
+End
+Name		   Slab selling price~
+Owner		   Malakai~
+Type             1
+Time             1094465108
+Status		   Done~
+Date		   09-06-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         ~
+Log
+Sender Xerves~
+Date Mon Dec  6 17:32:13 2004~
+Subject Not a Bug~
+Text Slabs fixed up to what they should be.
+
+no Points
+~
+Endlog
+End
+Name		   climbwall/piggyback booboo~
+Owner		   Ramah~
+Type             1
+Time             1094496154
+Status		   Fixed~
+Date		   09-06-2004~
+Rewardee     ramah~
+Points       2
+Rewardedpoints  2
+Description         if someone is piggybacking on you and you successfully climb over
+a wall, they get left behind.
+~
+Log
+Sender Xerves~
+Date Sat Dec 18 12:35:15 2004~
+Subject Fixed~
+Text Fixed.  Also updated the inventory so it works right.
+~
+Endlog
+End
+Name		   Insult not raising~
+Owner		   Atreyu~
+Type             1
+Time             1095161316
+Status		   Done~
+Date		   09-14-2004~
+Rewardee     atreyu~
+Points       2
+Rewardedpoints  2
+Description         The insult skill is not raising with use.
+
+Please give the reward points for this to Atreyu.
+~
+Log
+Sender Xerves~
+Date Mon Dec  6 17:33:16 2004~
+Subject Fixed~
+Text Insult wasn't properly mapped.  Fixed
+
+Minor Bug
+~
+Endlog
+End
+Name		   I think I broke Berum's zone~
+Owner		   Atreyu~
+Type             1
+Time             1095432909
+Status		   Done~
+Date		   09-17-2004~
+Rewardee     atreyu~
+Points       2
+Rewardedpoints  2
+Description         I killed the assassin commander, and buried his badge at the altar, so I could finish
+the zone run later.  I didn't get to retrieve it, and since then, his badge refuses
+to load.  I have killed him twice without any load of his badge since I buried it.
+Can you check this out and see what is broken?
+
+All points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Mon Dec  6 17:33:53 2004~
+Subject Fixed~
+Text Not sure what I did, remember there being a problem.
+
+Minor
+~
+Endlog
+End
+Name		   Bags falling apart from age~
+Owner		   Atreyu~
+Type             1
+Time             1095766382
+Status		   Fixed~
+Date		   09-21-2004~
+Rewardee     atreyu~
+Points       2
+Rewardedpoints  2
+Description         The bags from stores are rotting at a very high pace, and the items inside when the
+bag rots disappear forever.  Losing 10 divine idols this way truly, truly sucked ass.
+
+Points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Sat Dec 18 12:35:54 2004~
+Subject Fixed~
+Text Removed the timer function, agree with you on this being stupid.
+
+--Minor
+~
+Endlog
+End
+Name		   "Immune to Energy" bug~
+Owner		   Atreyu~
+Type             1
+Time             1096331231
+Status		   Done~
+Date		   09-27-2004~
+Rewardee     atreyu~
+Points       5
+Rewardedpoints  5
+Description         The Energy Plate item lists "Immune to Energy" as one of its properties, but it is
+functioning instead as being immune to the water sphere.  I can be hit by energy quite
+well, but my water sphere spells have no affect on me.  Can you fix this so the Immune
+to Energy actually makes me immune to the energy sphere?
+
+All points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Mon Dec  6 17:34:30 2004~
+Subject Fixed~
+Text Had some serious problems there and they were fixed.
+
+Moderate Bug
+~
+Endlog
+End
+Name		   PK (A) bug~
+Owner		   Atreyu~
+Type             1
+Time             1096331394
+Status		   Cannot find~
+Date		   09-27-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         It is less than half the time now, but dying to a mob in PK (A) still causes an item
+to pop off of your corpse at times.  This was fixed once, but it seems to still be
+happening, albeit a bit less often now.
+
+All points for this should go to Atreyu.
+~
+End
+Name		   Inventory/Rune bug~
+Owner		   Atreyu~
+Type             1
+Time             1096331527
+Status		   Fixed~
+Date		   09-27-2004~
+Rewardee     atreyu~
+Points       2
+Rewardedpoints  2
+Description         When using a rune to move between portals, your inventory appears as nothing when
+you arrive at the other side.  This also happens with the climbwall skill.
+
+All points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Sat Dec 18 12:36:36 2004~
+Subject Fixed~
+Text Inventory now updated.
+
+--Minor
+~
+Endlog
+End
+Name		   Weightmod not working~
+Owner		   Kaizoku~
+Type             1
+Time             1096413838
+Status		   Fixed~
+Date		   09-28-2004~
+Rewardee     atreyu~
+Points       2
+Rewardedpoints  2
+Description         The weightmod stat on some eq is not working as intended.
+
+Points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Sat Dec 18 12:54:59 2004~
+Subject Fixed~
+Text It is fixed, remove your equipment and reequip, it should fix itself.
+
+This might be a bit quarky due to how it layers out.  If you have say an
+80 and a 50 wmod item, if you remove the 50 (the better one) you will have
+a 0 wmod (no affect).  You will have to reequip the 80 wmod to get it to
+affect.  
+
+--Medium
+~
+Endlog
+End
+Name		   More Energy Plate madness~
+Owner		   Atreyu~
+Type             1
+Time             1096424750
+Status		   Done~
+Date		   09-28-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         It's also making some Fire spells not hit me, in addition to the water ones.  Only
+Energy should be missing me.
+
+All points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Mon Dec  6 17:35:37 2004~
+Subject Fixed~
+Text Fixed, no points (part of another bug fix)
+~
+Endlog
+End
+Name		   ~
+Owner		   Jaerin~
+Type             6
+Time             1097010299
+Status		   Noted~
+Date		   10-05-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Know Enemy!
+In my humble opinion, know enemy should be combined with 'eye of god', to some degree. I mean, every player has a race, and every race has a vulernability.
+Shouldn't this be seen by know enemy? I think know enemy should also be 'farcastable'. Y'know, like you don't have to be in the same room as the target.
+This would make sense to me, since a lot of mobs are aggressive right off the bat and know enemy seems to me like it's a pre-emptive spell that helps you decide how you want to handle fighting something.
+.s
+~
+End
+Name		   armor bug~
+Owner		   Magius~
+Type             1
+Time             1097205222
+Status		   Done~
+Date		   10-07-2004~
+Rewardee     magius~
+Points       2
+Rewardedpoints  2
+Description         I've been getting this message in battle recently:
+
+"There is some problem with your armor, tell an immortal."
+~
+Log
+Sender Xerves~
+Date Mon Dec  6 17:37:46 2004~
+Subject Fixed~
+Text Was a problem with the eq.
+Minor
+~
+Endlog
+End
+Name		   arrowcatch~
+Owner		   Draco~
+Type             1
+Time             1098114758
+Status		   Done~
+Date		   10-18-2004~
+Rewardee     draco~
+Points       2
+Rewardedpoints  2
+Description         Arrowcatch is being triggered by my own projectile attacks.
+~
+Log
+Sender Xerves~
+Date Mon Dec  6 17:40:40 2004~
+Subject Fixed~
+Text Fixed
+
+Minor
+~
+Endlog
+End
+Name		   Sleep bug, forget # 56 :)~
+Owner		   Atreyu~
+Type             1
+Time             1098460048
+Status		   Fixed~
+Date		   10-22-2004~
+Rewardee     atreyu~
+Points       2
+Rewardedpoints  2
+Description         While affected by the sleep spell, you are able to rest, then stand, thus completely
+nullifying the spell.
+
+Points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Sat Dec 18 13:01:56 2004~
+Subject Fixed~
+Text Cannot use stand/sit/rest now.
+
+--Minor
+~
+Endlog
+End
+Name		   Kingdom Trainer #46~
+Owner		   Draco~
+Type             1
+Time             1098511040
+Status		   Fixed~
+Date		   10-23-2004~
+Rewardee     draco~
+Points       2
+Rewardedpoints  2
+Description         A minor issue with trainers #45 and #46..
+#45 is listed as having animate dead at flawless mastery, and #46 has animate
+dead without a mastery setting.
+~
+Log
+Sender Xerves~
+Date Sat Dec 18 13:03:36 2004~
+Subject Fixed~
+Text Now has a mastery.
+
+--Minor
+~
+Endlog
+End
+Name		   Animate dead/quests~
+Owner		   Atreyu~
+Type             1
+Time             1099157349
+Status		   Fixed~
+Date		   10-30-2004~
+Rewardee     atreyu~
+Points       5
+Rewardedpoints  5
+Description         Killing an animated skeleton in your quest counts as a kill towards completing your
+quest goal.
+
+Points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Sat Dec 18 13:08:07 2004~
+Subject Fixed~
+Text No longer get a kill counted toward a mount or charmee.  This could of
+been a rather nasty exploit.
+
+--Medium
+~
+Endlog
+End
+Name		   weaponclamp~
+Owner		   Draco~
+Type             1
+Time             1099493460
+Status		   Fixed~
+Date		   11-03-2004~
+Rewardee     draco~
+Points       2
+Rewardedpoints  2
+Description         I've only had a couple successes with weaponclamp, but each time it's worked,
+the disarmed weapon hasn't appeared on look. It can still be picked up,
+just can't see it :D
+~
+Log
+Sender Xerves~
+Date Sat Dec 18 14:36:43 2004~
+Subject Fixed~
+Text This one was a dandy, finally found it.
+
+--Small
+~
+Endlog
+End
+Name		   elf talents~
+Owner		   Draco~
+Type             6
+Time             1099704330
+Status		   Done~
+Date		   11-05-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Can we have just one more spoint bonus? Please? =D
+~
+End
+Name		   lore~
+Owner		   Areadan~
+Type             1
+Time             1099704480
+Status		   Done~
+Date		   11-05-2004~
+Rewardee     areadan~
+Points       2
+Rewardedpoints  0
+Description         First, it's not going up when used. Second, it gives out poorly formatted, and sometimes incomprehesible output, comparing to identify.
+~
+Log
+Sender Xerves~
+Date Mon Dec  6 17:43:18 2004~
+Subject Fixed~
+Text Lore doesn't go up with use, only through spoints (at this moment).
+Formatting was fixed
+
+Minor Bug
+~
+Endlog
+End
+Name		   Spiritual~
+Owner		   Areadan~
+Type             1
+Time             1099704839
+Status		   Fixed~
+Date		   11-05-2004~
+Rewardee     areadan~
+Points       5
+Rewardedpoints  0
+Description         Well, thanks for the fixes, but hardening still does not increase when you are hit, managuard flares on blocked hits and hunger/thirst, you can use strikes while wearing pavis.
+Also, manaburst and manashot does not give points toward mana. While they are skills, they draw on mana, and should increase it (or I'd have to resort to spells to rise them - like I do :().
+~
+Log
+Sender Xerves~
+Date Sat Dec 18 15:24:13 2004~
+Subject Fixed for the most part~
+Text Hardening is fixed.  Managuard will flare on ANY damage, so damage from
+food is acceptable.  Should not longer flair on shieldblocks.
+
+Removed the ability to do strikes with a pavis (and manablast line)
+
+Added mana additions for manaburst/manashot/scribe/brew/and the other spells
+that use mana to block damage.
+
+--Medium (for multiple post)
+~
+Endlog
+End
+Name		   wilderness..~
+Owner		   Magius~
+Type             1
+Time             1099884317
+Status		   Done~
+Date		   11-07-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         So I was walking southeast of rolen while playing my character "Garos",
+quietly seeking a portal location, when i was greeted by a wall of "inside"
+sectors.
+~
+Log
+Sender Xerves~
+Date Mon Dec  6 17:44:49 2004~
+Subject Fixed~
+Text The great wilderness Error.
+
+No Points.
+~
+Endlog
+End
+Name		   Managuard~
+Owner		   Areadan~
+Type             1
+Time             1099909470
+Status		   Cannot find~
+Date		   11-08-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         When combined with manatap, it burns away all the 'extra' mana instantly.
+~
+Log
+Sender Xerves~
+Date Sat Dec 18 15:28:03 2004~
+Subject Not Seeing the Problem~
+Text manatap does nto trigger managuard.  Sure you had the right spells
+(err skills) here
+~
+Endlog
+End
+Name		   lore~
+Owner		   Areadan~
+Type             1
+Time             1100049031
+Status		   Done~
+Date		   11-09-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Lore output is rather garbled, expecially for items with spells in it.
+~
+Log
+Sender Xerves~
+Date Mon Dec  6 17:45:32 2004~
+Subject Fixed~
+Text Part of another project.
+
+No Points
+~
+Endlog
+End
+Name		   ship~
+Owner		   Draco~
+Type             1
+Time             1100052981
+Status		   Done~
+Date		   11-09-2004~
+Rewardee     draco~
+Points       2
+Rewardedpoints  2
+Description         There are two ships now.
+One of which docks a few squares south of the port..
+~
+Log
+Sender Xerves~
+Date Mon Dec  6 17:45:54 2004~
+Subject Fixed~
+Text Fixed - Minor Bug
+~
+Endlog
+End
+Name		   brandish~
+Owner		   Areadan~
+Type             1
+Time             1100479305
+Status		   fixed~
+Date		   11-14-2004~
+Rewardee     areadan~
+Points       2
+Rewardedpoints  0
+Description         When you brandish your staff in combat, your opponent is healed instead of you.
+~
+Log
+Sender Xerves~
+Date Sat Dec 18 15:37:08 2004~
+Subject Fixed~
+Text Default targets now for offensive and defensive spells.  If you cast a cure
+spell it will default you by default.  You can also use the optional <target>
+in brandish to name a target.  Default for an offensive spell is the enemy
+you are fighting.  Self only spells can only target self, and ignore doesn't
+care.
+
+--Small
+~
+Endlog
+End
+Name		   scan~
+Owner		   Draco~
+Type             1
+Time             1100530595
+Status		   Fixed~
+Date		   11-15-2004~
+Rewardee     draco~
+Points       2
+Rewardedpoints  2
+Description         I went and finally advanced scan to flawless mastery today and now, instead
+of the 3 rooms I could see as a master, I see only 1 room in the direction
+I scan.
+~
+Log
+Sender Xerves~
+Date Sat Dec 18 15:47:41 2004~
+Subject Fixed~
+Text Fixed.  Should see A LOT more rooms.  Also fixed a small error with thiefeye.
+
+--Minor
+~
+Endlog
+End
+Name		   and Bug Fix~
+Owner		   Malthros~
+Type             3
+Time             1100543046
+Status		   Noted~
+Date		   11-15-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         The idea is simple:  A spell, which would fit best as a teir 2 maybe 3 divine
+that would cure most maluses (poison, weaken, blindness, curse).  Also
+perhaps a tier 4(or 3 if the 1st is teir 2) divine spell that would cure all types
+of problems(within reason), such as poison, curse, weaken, blindness, faeire fire,
+unravel defense...etc.
+
+
+The Bug:  Attack effects work even with the attacker misses, or is parried/blocked/dodged.
+An example would be:  You feel very sick
+A bloated corpse swings at you. (MISS)
+Your muscles seem to atrophy.
+You parry/dodge a monster's attack.
+
+
+(Edit)  Some attack typos, such as when I miss, i get the message *She grunts, swings, and misses*,
+but when a monster misses, i get the message "you grunt, swing and miss."  The messages are reversed.
+~
+End
+Name		   hardening~
+Owner		   Areadan~
+Type             1
+Time             1100568299
+Status		   Fixed~
+Date		   11-15-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         It still does not increase when you are hit.
+~
+Log
+Sender Xerves~
+Date Sat Dec 18 16:17:53 2004~
+Subject Fixed~
+Text Part of another project.
+~
+Endlog
+End
+Name		   manashell~
+Owner		   Areadan~
+Type             1
+Time             1100574138
+Status		   Fixed~
+Date		   11-15-2004~
+Rewardee     areadan~
+Points       2
+Rewardedpoints  0
+Description         Manashell also does not get increased when I get hit by slells.
+~
+Log
+Sender Xerves~
+Date Sat Dec 18 16:18:15 2004~
+Subject Fixed~
+Text Ok should work now.
+
+--Minor
+~
+Endlog
+End
+Name		   arrows~
+Owner		   Areadan~
+Type             1
+Time             1100615823
+Status		   Fixed~
+Date		   11-16-2004~
+Rewardee     areadan~
+Points       2
+Rewardedpoints  0
+Description         If enemy will die before he'll dislodge the arrow, the arrow will still have 'lodged' flag and will be unuseable. It should be cleared on death.
+~
+Log
+Sender Xerves~
+Date Sat Dec 18 16:27:23 2004~
+Subject Fixed~
+Text Set to remove the flag when unequiped now.
+
+--Minor
+~
+Endlog
+End
+Name		   Draw Aggression~
+Owner		   Atreyu~
+Type             1
+Time             1100792303
+Status		   Not a Bug~
+Date		   11-18-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         The draw aggression skill seems to stop working once you get the greater draw 
+aggression skill.  It would seem they both should have chances to fire, and not just
+greater draw aggression.
+
+Points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Sat Dec 18 16:49:50 2004~
+Subject Not a Bug~
+Text Going to leave this the way it is.  Reworking it would be a major pain
+just to increase a skill you really don't need anymore.
+~
+Endlog
+End
+Name		   Mobs not aggroing on a miss~
+Owner		   Kaizoku~
+Type             1
+Time             1102513663
+Status		   Cannot find~
+Date		   12-08-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         I noticed this with ToW mobs.  On the non-aggressive mobs, if you type "kill (mob)",
+and your attack misses, then the mob does not initiate combat.  Instead, it sits
+there, waiting for you to try again.
+
+Points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Sat Dec 18 16:58:00 2004~
+Subject Not Finding it~
+Text They seem to be smacking me back.
+
+--X
+~
+Endlog
+End
+Name		   Holy food problems~
+Owner		   Atreyu~
+Type             1
+Time             1102778526
+Status		   Fixed~
+Date		   12-11-2004~
+Rewardee     atreyu~
+Points       2
+Rewardedpoints  2
+Description         About 1/4 of the times you cast holy food, when you try and get the apple, a message
+will say 'A godly force prevents you from getting close to it.', which makes the
+apples from that cast impossible to pick up.
+
+Points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Sat Dec 18 16:59:43 2004~
+Subject Fixed~
+Text One of the apples was prototype.  Fixed
+
+--Minor
+~
+Endlog
+End
+Name		   combat~
+Owner		   Adromar~
+Type             1
+Time             1103535304
+Status		   Fixed~
+Date		   12-20-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         NPCs don't seem to be fighting properly, they attack once and then completely stop.
+The one time this didn't happen was during a fight between my character "Draco", Jaerin (grouped)
+and an Assassin Elite in Berum's Manor. The assassin used stun during the fight, but
+nothing else.
+
+
+Points for this, if any, should go to Draco.
+~
+End
+Name		   stone workers~
+Owner		   Jaerin~
+Type             1
+Time             1103676586
+Status		   Fixed~
+Date		   12-21-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         ~
+End
+Name		   stone workers~
+Owner		   Draco~
+Type             1
+Time             1103690947
+Status		   Fixed~
+Date		   12-21-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         It seems that stone workers seem to have a problem with moving on when their
+current sector is empty.
+~
+End
+Name		   portable furniture~
+Owner		   Draco~
+Type             1
+Time             1103691354
+Status		   Fixed~
+Date		   12-21-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Not sure it's meant to be this way or not, but here goes:
+When i drop my magical cloud and rest on it, I'm able to pick it up without
+first standing.
+~
+End
+Name		   my last name~
+Owner		   Draco~
+Type             1
+Time             1103694865
+Status		   Fixed~
+Date		   12-21-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         my last name and offername don't like each other
+apparently i've offered myself the name? *shrugs*
+~
+End
+Name		   Spellbook goof-up~
+Owner		   Kaizoku~
+Type             1
+Time             1103935448
+Status		   Fixed~
+Date		   12-24-2004~
+Rewardee     atreyu~
+Points       2
+Rewardedpoints  2
+Description         The spellbook for 'word of nyiji' has no labelling in your inventory, so it reads as
+"a book of" with no spell name.
+
+Points for this should go to Atreyu.
+~
+Log
+Sender Xerves~
+Date Wed Dec 29 13:39:40 2004~
+Subject Fixed~
+Text Fixed, forgot to foldarea.
+
+--Minor
+~
+Endlog
+End
+Name		   spellbooks (the new spells)~
+Owner		   Aeldric~
+Type             1
+Time             1104165654
+Status		   Fixed~
+Date		   12-27-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         The books for "word of nyiji" and "holy cleansing" sell for 0 coins each, and I'm not sure about the
+holy cleansing book, but the word of nyiji book is missing the spell name in the short desc
+
+Points for this, if any, should go to Draco.
+~
+End
+Name		   Rojectiles??~
+Owner		   Dalvin~
+Type             2
+Time             1104235588
+Status		   Fixed~
+Date		   12-28-2004~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         wake
+c locate gurgonol
+c locate gurgonol
+c locate gurgonol
+c locate gurgonol
+drink fou
+sle bed
+Don't know if it may have been purposeful but it seems odd having a lot
+wake
+c locate gurgonol
+c locate gurgonol
+c locate gurgonol
+c locate gurgonol
+drink fou
+sle bed
+of the projectile information listed under a help file named rojectiles.
+Thought I would bring it up incase it was a typo.
+~
+Log
+Sender Xerves~
+Date Mon Mar 21 13:10:21 2005~
+Subject Fixed~
+Text Helpfiles changed.
+~
+Endlog
+End
+Name		   Resistances~
+Owner		   Aven~
+Type             6
+Time             1104677778
+Status		   Fixed~
+Date		   01-02-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Not sure if you may of already thought about this. Since Minor and Major 
+invocation are supposed affect your spell resistance you may want to show 
+this in some form on score more. I am also wondering if they are really 
+having any affect at the moment since you modified the way the resistances 
+work. 
+~
+End
+Name		   Combat???~
+Owner		   Aven~
+Type             1
+Time             1104710868
+Status		   Fixed~
+Date		   01-02-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         On wilderness mobs you can sit there swinging at them for forever and barely
+scratch the things. Is this a bug or did you alter the combat system.
+~
+End
+Name		   Consumption~
+Owner		   Aven~
+Type             1
+Time             1104742670
+Status		   Fixed~
+Date		   01-03-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Not sure whether the helpfile is out of date or it is a bug in the townvalues
+but it says you can only change the consumption rate on an item once a month
+in the helpfile but the game lets you switch it multiple times.
+~
+End
+Name		   ship(s) stuck~
+Owner		   Draco~
+Type             1
+Time             1104949218
+Status		   Private~
+Date		   01-05-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         At the time of this writing, I can see 2 ships between the main and east
+continents if I scan. I've been sitting here watching for movement, but so far
+nothing. Either they're really slow now, or they're both stuck. Just thought
+you might like to know about them.
+
+Points, if any, go to this character.
+~
+End
+Name		   Mob regen/resists ROYALLY fucked~
+Owner		   Atreyu~
+Type             1
+Time             1104974121
+Status		   Fixed~
+Date		   01-05-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Right now, me and Ramah cannot even put a dent in a difficulty quest 13 mob.
+Something with resists or regen has been broken in the last few days.
+
+Points for this should go to Atreyu.
+~
+End
+Name		   fun scan bug~
+Owner		   Draco~
+Type             1
+Time             1105031300
+Status		   Fixed~
+Date		   01-06-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         This has probably been reported by now, but here goes:
+If, while standing in an area, you scan towards an exit to the wilderness,
+you'll instantly be transferred to the last room before the wilder.
+~
+End
+Name		   orb of weapons~
+Owner		   Draco~
+Type             1
+Time             1106784380
+Status		   Fixed~
+Date		   01-26-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         It's supposed to be a light, but doesn't work as a light.
+~
+End
+Name		   trainer prices~
+Owner		   Draco~
+Type             1
+Time             1107250239
+Status		   Fixed~
+Date		   02-01-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         I know I'm going to hate myself for this in the morning, but here goes:
+
+It seems that the cost of some (or all) of the tier 4 trainers available through
+buycaste are less expensive than the trainers for the tier 3 trainers.
+
+Let it be known that I will have kickback, but not by cheating =D
+~
+End
+Name		   Stack clearing at odd times~
+Owner		   Bolo~
+Type             1
+Time             1107498242
+Status		   Fixed~
+Date		   02-04-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         I use the stack a lot, and lately it's seemed to be clearing for no 
+apparent reason. I thought at first it was because of some change to 
+target, since I tended to notice it happening when I did 'target off' and 
+then 'target stab', but just now it happene 
+~
+Log
+Sender Bolo~
+Date Fri Feb  4 00:26:23 2005~
+Subject ~
+Text happened without me doing anything. Is it just me or is something weird 
+going on? 
+~
+Endlog
+Log
+Sender Bolo~
+Date Fri Feb  4 19:41:27 2005~
+Subject ~
+Text Ok, it seems to clear when I flee. Is that supposed to happen?
+~
+Endlog
+End
+Name		   twohanded status on forge~
+Owner		   Waelan~
+Type             3
+Time             1107638960
+Status		   Fixed~
+Date		   02-05-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Just put a (1) or (2) after the name of each weapon on forge list for number of hands
+Thank you :)
+~
+End
+Name		   Sign in Bloodmarshes~
+Owner		   Bolo~
+Type             1
+Time             1107953888
+Status		   Fixed~
+Date		   02-09-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         I could sac it but you can still look at it afterwards anyway. Maybe this 
+is a typo instead. 
+~
+End
+Name		   Rich kingdom guards~
+Owner		   Bolo~
+Type             1
+Time             1108017638
+Status		   Fixed~
+Date		   02-10-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Dunno if it's really a bug, but I made some of the cheapest kingdom 
+guards, and each one I killed had a container that held from 250k to over 
+a million coins. 
+~
+End
+Name		   selling mithril~
+Owner		   Tereth~
+Type             1
+Time             1108356632
+Status		   Fixed~
+Date		   02-13-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Don't get money when you sell mithril.
+
+Tereth
+~
+End
+Name		   trainer taxes~
+Owner		   Draco~
+Type             1
+Time             1108364949
+Status		   Fixed~
+Date		   02-14-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Okay, Malthros wanted to try out his trainer taxes, so I learned beginner rescue
+from his flawless trainer. Malthros claimed to have set the tax to 100, but
+when i learned the skill, instead of costing the usual 500 coins, it instead cost 13500
+gold. A little bit too high? =P
+~
+End
+Name		   alias problem~
+Owner		   Cecil~
+Type             1
+Time             1108584924
+Status		   Fixed~
+Date		   02-16-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         For some reason after in-game aliases are used for a while the game stops letting you use them. A message appears when this starts to happen and it says something to the effect of 'message recurses too much' or something to that effect.
+~
+End
+Name		   town size drop~
+Owner		   Draco~
+Type             1
+Time             1108878181
+Status		   Fixed~
+Date		   02-19-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Not sure if this is a bug or not, but here goes:
+
+I had my town's poptax set to 300 a day or two ago to raise a little money
+for trainers and workers and whatnot, and forgot I had set it that high.
+When I realized my error, I quickly reset my tax to its usual 75, but it was too
+late. My town lost a size (was size 7). But instead of just losing the one size,
+I dropped from 41 moral to 28, which lowered it by another town size.
+Pretty evil :(
+Just thinking the moral drop is a bit high, with the new moral requirements set as low as they are.
+~
+End
+Name		   strbonus~
+Owner		   Draco~
+Type             1
+Time             1109071298
+Status		   Fixed~
+Date		   02-22-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         I recently purchased the talent "strbonus 1" and spent the spoint cost of raising it up a point,
+but when i I logged out and back in, my str was dropped back down to 17 again
+with the same number of stars on gscore as i had before the logout.
+~
+End
+Name		   strbonus 3~
+Owner		   Draco~
+Type             1
+Time             1109121046
+Status		   Fixed~
+Date		   02-22-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Has no spoint cost
+13> STRBONUS 3                    -1
+~
+End
+Name		   target helpfile~
+Owner		   Draco~
+Type             6
+Time             1109304269
+Status		   Fixed~
+Date		   02-24-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Just a quick suggestion:
+Add "Stack" to the "See also" line.
+~
+End
+Name		   armmilitary~
+Owner		   Draco~
+Type             1
+Time             1109345736
+Status		   Fixed~
+Date		   02-25-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Fun bug here:
+While trying to equip a fighter with mithril armor/weapon using the armmilitary command, I've found that
+it's checking my slab count for cobalt instead of mithril and failing because i only have
+24 slabs of cobalt in my depo :(
+~
+End
+Name		   "rolen tier 4" eq~
+Owner		   Garos~
+Type             1
+Time             1109596858
+Status		   Fixed~
+Date		   02-28-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         When trying to "forge appraise" the equipment I looted from Rivera, I was greeted with this message:
+Error:  Error with the weapon/armor, tell an immotal.
+
+Points, if any, go to Draco.
+~
+End
+Name		   my stats~
+Owner		   Draco~
+Type             1
+Time             1109651584
+Status		   Fixed~
+Date		   02-28-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         My stats seem to have gone all funky.
+When I last logged out, I had 17 base in all of them except luck, which was 25. Now they're all over the place.
+Strength jumped to 19, wisdom dropped to 12, dexterity jumped to 19, and constitution skyrocketed to 25.
+This can't be normal, can it?
+~
+End
+Name		   website ranking~
+Owner		   Draco~
+Type             1
+Time             1110097029
+Status		   Fixed~
+Date		   03-06-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         My name has disappeared from the list :(
+~
+End
+Name		   Fight Recall Timer~
+Owner		   Noran~
+Type             3
+Time             1110652769
+Status		   Fixed~
+Date		   03-12-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Could make it so that there is a prompt token showing how long till you can
+recall.  Maybe just an astericks that changed color or something.
+~
+End
+Name		   Qps buying idea~
+Owner		   Zereth~
+Type             3
+Time             1110660352
+Status		   Private~
+Date		   03-12-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Maybe you could make the recall skill something that can be bought w/ qps. 
+That would be awesome. 
+
+Zereth
+~
+End
+Name		   mobs in burel dungeon~
+Owner		   Zereth~
+Type             1
+Time             1110827992
+Status		   Fixed~
+Date		   03-14-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         messed up... went and looked. all resistant to everything 1 instead of 
+100.. laugh 
+Zereth
+~
+End
+Name		   skill points in prompt~
+Owner		   Locke~
+Type             3
+Time             1110931642
+Status		   Fixed~
+Date		   03-15-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         How's about making it so that skill points can be seen in your prompt?
+Uh, that's it.
+~
+End
+Name		   token of nevon~
+Owner		   Draco~
+Type             1
+Time             1110953550
+Status		   Fixed~
+Date		   03-16-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         stats didn't save on it =(
+~
+End
+Name		   Dodge skill for Spiritual group.~
+Owner		   Olain~
+Type             3
+Time             1111000295
+Status		   Private~
+Date		   03-16-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Well, pretty much like 'wizard style' for mages. After all, it makes sence for 'monk' style classes to have one.
+~
+End
+Name		   Lore is not training with use.~
+Owner		   Olain~
+Type             1
+Time             1111064420
+Status		   Fixed~
+Date		   03-17-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         And it's really annoying. I'd say - make a 2-3 secons of cooldown after each lore (makes sence), but make it possible to train it by usage, pretty please? I don't think that it should be THAT hard - a lot of skill share same routine.
+~
+End
+Name		   Bug with mastery in Spiritual group.~
+Owner		   Olain~
+Type             1
+Time             1111074386
+Status		   fixed~
+Date		   03-17-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         "Clear mastery" does not become active when you have above 50% in spiritual group - it gives out "You will learn the skills at above percentages listed" instead. Fix it, please.
+~
+End
+Name		   problem w/ haggling~
+Owner		   Locke~
+Type             1
+Time             1111087930
+Status		   Fixed~
+Date		   03-17-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         If your inv is full it still brings up haggling if you try to buy something.
+Just seems like I should bring it to your attention.
+~
+End
+Name		   Lore bug.~
+Owner		   Olain~
+Type             1
+Time             1111105308
+Status		   Fixed~
+Date		   03-17-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Lore does not allow to ID gems of any kind... looks like it's not updated for them.
+~
+End
+Name		   Bug with drinking potions in combat.~
+Owner		   Olain~
+Type             1
+Time             1111143136
+Status		   Fixed~
+Date		   03-18-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         When you drink a potion in combat, you get a response - you are too buzy in combat to do that for each affect that was about to affect you. In effect, potions are nerfed.
+~
+End
+Name		   ~
+Owner		   Zereth~
+Type             1
+Time             1111173155
+Status		   Fixed~
+Date		   03-18-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Damnit i did it again no subject... oh well.. Hardening bonus stops at +4 
+not sure if this is on purpose. But it makes it useless to raise the 
+skill.. I have it at 10 master and i get +60 but don't get to use it. 
+
+-Zereth
+~
+End
+Name		   ~
+Owner		   Locke~
+Type             1
+Time             1111250316
+Status		   Private~
+Date		   03-19-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         The eastern university agent trainer has two tumble slots and no poison weapon.
+~
+End
+Name		   Managuard/burn~
+Owner		   Malthros~
+Type             1
+Time             1111294659
+Status		   Fixed~
+Date		   03-19-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Perhaps Managuard and Manashell should not affect mana burn or 
+the ability to raise mana, as it cannot be turned off.  Also
+manashell can cause manburn extremely fast if you are fighting a target
+with fire/shock/ice/mana shields.
+~
+End
+Name		   combat~
+Owner		   Malthros~
+Type             3
+Time             1111339145
+Status		   Fixed~
+Date		   03-20-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Perhaps for combat, a parry/dodged attack should not cause the
+attacker to be hit by the target's shields.
+~
+End
+Name		   trainers~
+Owner		   Zeratul~
+Type             4
+Time             1111444318
+Status		   Private~
+Date		   03-21-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Spiritual mind and body spheres need trainers 1st to 4th tier.
+~
+End
+Name		   Thief-Flag~
+Owner		   Malthros~
+Type             1
+Time             1111557719
+Status		   Private~
+Date		   03-23-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Flags such as thief need to be fixed so that only the person they were
+triggered on can pardon them.  currently, anyone can pardon a thief.
+~
+End
+Name		   Old Mobs(slayers0~
+Owner		   Malthros~
+Type             1
+Time             1111559232
+Status		   Private~
+Date		   03-23-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Short and sweet:  remove the slay progs from mobs, and replace them
+with high-damage progs, if needed.  Some mobs are strong enough
+and just need to lose slay (assassin commander for example).  Other
+mobs might need buffed, some won't.
+~
+End
+Name		   stalk~
+Owner		   Zeratul~
+Type             5
+Time             1111580195
+Status		   Private~
+Date		   03-23-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         stalk lets people logon completely invis on who and otherwise...itd
+be cool if it faded whenever you logoff
+~
+End
+Name		   Item Stats~
+Owner		   Malthros~
+Type             3
+Time             1111602023
+Status		   Private~
+Date		   03-23-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         For item stats, rather than showing something has 2 tohit, and 1 tohit,
+have it sow just 3 tohit.  Combine the effects that can stack, and for
+things such as gens or monkskills, have it only show the stat that gets used.
+~
+End
+Name		   Quest Items~
+Owner		   Malthros~
+Type             1
+Time             1111809786
+Status		   Private~
+Date		   03-25-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Quest items such as rings/necklaces of the arcane/vicious/etc need
+to be changed to work with the new resistance system.
+~
+End
+Name		   Undead Curing~
+Owner		   Malthros~
+Type             1
+Time             1111814650
+Status		   Private~
+Date		   03-25-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         An alpha dred-wight mutters a few incantations...and looks a bit better.
+An alpha dred-wight is DEAD!!
+An alpha dred-wight hits the ground ... DEAD.
+
+Undeads now can kill themselves because they still cure themselves.
+~
+End
+Name		   armmilitary~
+Owner		   Draco~
+Type             1
+Time             1112710481
+Status		   Private~
+Date		   04-05-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Okay, last night I was bored, so i tried to outfit one of my new knights in adamant
+armor, and was greeted with the usual message that it wouldn't work because
+it was checking the slab count of my default ore (i'm guessing).
+Anyway, I checked my klog this morning and I find that the kingdom thinks I actually did
+gear that knight up in adamant, and it cost 50 slabs, but when i looked at the knight
+he was naked.
+~
+End
+Name		   worker list~
+Owner		   Garves~
+Type             3
+Time             1112830841
+Status		   Private~
+Date		   04-06-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         How's about a command for kingdoms that lists all workers and what they're currently extracting?
+~
+End
+Name		   stalk + track~
+Owner		   Locke~
+Type             3
+Time             1112972249
+Status		   Private~
+Date		   04-08-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         A stalking player shouldn't be detectable by track.
+~
+End
+Name		   poison~
+Owner		   Draco~
+Type             1
+Time             1115248123
+Status		   Private~
+Date		   05-04-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         both times i've been poisoned this round the duration has been negative and never runs out
+~
+End
+Name		   funnel/tornado spells~
+Owner		   Draco~
+Type             1
+Time             1115516390
+Status		   Private~
+Date		   05-07-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         I've trained both of these spells up to 15 master and have found that both spells
+seem to cap at 5 bright green damage. Tornado, being a higher tier spell and having
+over twice the mana cost, should probably be doing more damage than funnel.
+~
+End
+Name		   undead mobs healing~
+Owner		   Draco~
+Type             1
+Time             1115560133
+Status		   Private~
+Date		   05-08-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         With the somewhat recent change to the way healing affects undead/spirit
+type mobs, I think it's time they gave up the healing defenses, since they're
+useless now anyway.
+~
+End
+Name		   castevalues irontax~
+Owner		   Draco~
+Type             1
+Time             1115664632
+Status		   Private~
+Date		   05-09-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         "castevalues irontax <whatever>" appears to change goldtax instead of irontax
+~
+End
+Name		   rune identification~
+Owner		   Draco~
+Type             6
+Time             1115701530
+Status		   Private~
+Date		   05-10-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Thinking identify/lore could be modified to display the number of uses a
+rune has.
+~
+End
+Name		   makeroom~
+Owner		   Arkon~
+Type             1
+Time             1115861069
+Status		   Private~
+Date		   05-11-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         makeroom needs to be changed from 20000 to 40000
+~
+End
+Name		   workerunit~
+Owner		   Arkon~
+Type             1
+Time             1115861148
+Status		   Private~
+Date		   05-11-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         add reference to placemob and buycaste helpfiles
+~
+End
+Name		   makeroom~
+Owner		   Arkon~
+Type             1
+Time             1115861187
+Status		   Private~
+Date		   05-11-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         correction 20000 to 4000
+~
+End
+Name		   HELP ELBOWJAB, last sentence, it says "Howerver" instead of "However"~
+Owner		   Demortes~
+Type             2
+Time             1119727967
+Status		   Private~
+Date		   06-25-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         HELP ELBOWJAB, last sentence, it says "Howerver" instead of "However"
+~
+End
+Name		   Player controled limitations (Kingdoms)~
+Owner		   Demortes~
+Type             3
+Time             1119921234
+Status		   Private~
+Date		   06-27-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         I think it would be great if you would add like boundries for workers to go. Perhaps to make sure that toes arn't stepped on when extracting. 
+Also, might be a good idea to put a way to tell where your workers and other units are, so you can dispose of them.
+
+~
+End
+Name		   Book Sellers (KINGDOMS)~
+Owner		   Demortes~
+Type             1
+Time             1120798223
+Status		   Private~
+Date		   07-07-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Looks like all the book sellers sell Tier 3 books, instead of Novice being tier 1, beginner tier 2, etc.
+
+Is this intentional?
+~
+End
+Name		   ~
+Owner		   Demortes~
+Type             1
+Time             1121583535
+Status		   Private~
+Date		   07-17-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         ~
+End
+Name		   Bag disappeared, along with everything~
+Owner		   Demortes~
+Type             1
+Time             1121583585
+Status		   Private~
+Date		   07-17-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Bag decayed, but what was in it (about 15 brass slabs) are no where to be found.
+~
+End
+Name		   monk weapons~
+Owner		   Tomkir~
+Type             6
+Time             1122675312
+Status		   Private~
+Date		   07-29-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Instead of having monk weapons as actual weapons, perhaps set damage values
+on the arm, leg, body and head equipment. At the time of this writing, the only
+monk weapons I know of are the hand weapons in Field of Combat.
+
+Another possibility might be to base the damage of certain strike attacks on the
+user's current weight and armor size. Could even reduce the damage dealt if the person isn't
+skilled or strong enough to effectively strike while in heavier armor (don't need any newbie
+monks running around in the heaviest gear without a little training.
+~
+End
+Name		   Newbie school thing~
+Owner		   Garos~
+Type             6
+Time             1124782430
+Status		   Private~
+Date		   08-23-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         The entry prog in the first room of the school isn't being triggered
+when new characters first appear, only after they've moved. Maybe add the message
+into the code where it sends the "enters this world from within a column of blinding light!"
+Just a minor fix that might help with those newbies who have absolutely no
+idea what it is they're doing (or getting in to, this place would be scary as a first mud)
+~
+End
+Name		   auto-auth~
+Owner		   Garos~
+Type             6
+Time             1126479626
+Status		   Private~
+Date		   09-11-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         Auto-authorize is being triggered too quickly, sometimes before people
+are even out of the "Say play" room. Could the timer be delayed until
+they're in the sword room?
+~
+End
+Name		   Power drain and similar~
+Owner		   Radsris~
+Type             1
+Time             1128753014
+Status		   Private~
+Date		   10-08-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         When casting power drain or similar spells which transfer hp from the target to yourself, if you cast them at yourself you will actually increase your current hp.
+It does not go over your maximum hp, and it does take mana, but it can be used almost like a minor healing spell. So, for myself, if I 'cast "power drain' radsris" I gain a few hp. Not much, of course, but the stronger spells would, I think, provide more
+It does not go over your maximum hp, and it does take mana, but it can be used almost like a minor healing spell.
+So, for myself, if I 'cast "power drain' radsris" I gain a few hp. Not much, of course, but the stronger spells would, I think, provide more health.
+~
+End
+Name		   Morgue and questing~
+Owner		   Radsris~
+Type             1
+Time             1128930824
+Status		   Private~
+Date		   10-10-2005~
+Rewardee     None~
+Points       0
+Rewardedpoints  0
+Description         I died on a quest, and went to the morgue to wait for my corpse to return. Eventually my quest ran out, and a corpse did appear, but it was Emeth's corpse, and did not contain my equipment.
+All it contained was a vase of flowers. Morgue retrieve yes reported that 'No corpse could be found.' both before and after my quest ended.
+I am not sure exactly what was in my corpse, but it was a gauntlet quest which I died on, with this character (Radsris). It contained some iron, steel and cobalt, a 'hoop of flowing water', a ring, a bag, and a backpack which was not worn, as well as any
+quest keys that were still there, at least. Both the bag and the backpack contained items, including looted gems.
+~
+Log
+Sender Radsris~
+Date Mon Oct 10 05:48:10 2005~
+Subject Sorry, wasn't a bug~
+Text The corpse turned up later. I probably wouldn't have projected this, except that there were no imms on, and the corpse appeared when the quest timer ran out.
+Anyway, I had to leave, so I logged off, and when I logged back in, my corpse was there. It must have reappeared sometime later. Sorry about this.
+~
+Endlog
+End

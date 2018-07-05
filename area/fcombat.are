@@ -1,0 +1,2670 @@
+#AREA   Field of Combat~
+
+
+
+#VERSION 53
+#AUTHOR Ely~
+
+#RANGES
+20 30 2 75 0 0 0 0 0
+$
+
+#RESETMSG The field clears as they prepare for another round.~
+
+#FLAGS
+0 45
+
+#ECONOMY 0 263706 0
+
+#MOBILES
+#2800
+master events~
+&zM&wa&Wster &zo&wf &zE&wv&Wents&w~
+The &zM&wa&Wster &zo&wf &zE&wv&Wents&P stands here.
+~
+The Master of Events is a fairly tall and robust individual, it would
+appear that the honour of his position isn't appointed, but earned in
+the field.
+~
+67 0 0 0 C
+0 0 15 14 14 15
+10d40+822 1d12+16 0 0 0
+20000 0
+112 112 1
+19 20 20 20 19 13 19 75
+0 0 0 0 0
+0 0 0 0 1 1 75
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1207960000 538885
+> rand_prog 1~
+yell Welcome, all ye, to the Field of Combat!
+~
+> rand_prog 1~
+yell Just wait till you see what we've got in store for you!
+~
+|
+#2801
+chaplain guard~
+&BC&wh&za&Bp&wl&za&Bi&wn &zGuard&w~
+&wThe &BC&wh&za&Bp&wl&za&Bi&wn &zGuard &wis here.
+~
+The tournament guard stands quietly here, eyeing the crowd.  The
+continued efforts of the onlookers to sneak past him seem to have
+put him in a rather foul mood.  Leaving him be would be a wise choice.
+~
+67 0 0 0 C
+0 0 9 8 9 10
+5d24+229 1d5+6 0 0 0
+4000 0
+112 112 1
+16 18 18 17 17 13 16 51
+0 0 0 0 0
+0 0 0 0 1 1 51
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1074003968 17
+> death_prog 7~
+mpoload 2801
+mpe _red A key slips out as the guard falls dead.
+~
+|
+#2802
+ranger guard~
+&GR&wa&zn&Gg&we&zr &zGuard&w~
+&wThe &GR&wa&zn&Gg&we&zr &zGuard&w is here.
+~
+The tournament guard stands quietly here, eyeing the crowd.  The
+continued efforts of the onlookers to sneak past him seem to have
+put him in a rather foul mood.  Leaving him be would be a wise choice.
+~
+16777283 0 0 0 C
+0 0 9 8 9 8
+5d21+211 1d5+6 0 0 0
+4000 0
+112 112 1
+17 18 18 19 13 13 16 51
+0 0 0 0 0
+0 0 0 0 1 1 51
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 268435456 8193
+> death_prog 7~
+mpoload 2801
+mpe _red A key slips out as the guard falls dead.
+~
+|
+#2803
+vampire guard~
+&rV&wa&zm&rp&wi&zr&re &zGuard&w~
+&wThe &rV&wa&zm&rp&wi&zr&re &zGuard&w is here.
+~
+The tournament guard stands quietly here, eyeing the crowd.  The
+continued efforts of the onlookers to sneak past him seem to have
+put him in a rather foul mood.  Leaving him be would be a wise choice.
+~
+16777283 0 0 0 C
+0 0 9 8 8 9
+6d25+229 1d5+6 0 0 0
+4000 0
+112 112 1
+17 18 18 17 17 13 16 51
+0 0 0 0 0
+0 0 0 0 1 1 51
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1107558400 17
+> death_prog 7~
+mpoload 2801
+mpe _red A key slips out as the guard falls dead.
+~
+|
+#2804
+augurer guard~
+&pA&wu&zg&pu&wr&ze&pr &zGuard&w~
+&wThe &pA&wu&zg&pu&wr&ze&pr &zGuard&w is here.
+~
+The tournament guard stands quietly here, eyeing the crowd.  The
+continued efforts of the onlookers to sneak past him seem to have
+put him in a rather foul mood.  Leaving him be would be a wise choice.
+~
+16777283 0 0 0 C
+0 0 9 8 8 8
+6d26+237 1d5+6 0 0 0
+1492 0
+112 112 1
+18 15 16 18 13 13 18 51
+0 0 0 0 0
+0 0 0 0 1 1 51
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 142606464 528401
+> death_prog 7~
+mpoload 2801
+mpe _red A key slips out as the guard falls dead.
+~
+|
+#2805
+thief guard~
+&cT&wh&zi&ce&wf &zGuard&w~
+&wThe &cT&wh&zi&ce&wf &zGuard&w is here.
+~
+The tournament guard stands quietly here, eyeing the crowd.  The
+continued efforts of the onlookers to sneak past him seem to have
+put him in a rather foul mood.  Leaving him be would be a wise choice.
+~
+16777283 0 0 0 C
+0 0 9 8 10 8
+5d23+223 1d5+6 0 0 0
+4000 0
+112 112 1
+16 18 18 21 13 13 20 58
+0 0 0 0 0
+0 0 0 0 1 1 58
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1107558912 1
+> death_prog 7~
+mpoload 2801
+mpe _red A key slips out as the guard falls dead.
+~
+|
+#2806
+mage guard~
+&RM&wa&zg&Re &zGuard&w~
+&wThe &RM&wa&zg&Re &zGuard&w is here.
+~
+The tournament guard stands quietly here, eyeing the crowd.  The
+continued efforts of the onlookers to sneak past him seem to have
+put him in a rather foul mood.  Leaving him be would be a wise choice.
+~
+67 0 4194304 0 C
+0 0 9 10 8 10
+5d22+195 1d5+6 0 0 0
+4000 0
+112 112 1
+16 20 20 16 15 13 16 48
+0 0 0 0 0
+0 0 0 0 1 1 48
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 268566528 10753
+> death_prog 7~
+mpoload 2801
+mpe _red A key slips out as the guard falls dead.
+~
+|
+#2807
+cleric guard~
+&BC&wl&ze&Br&wi&zc &zGuard&w~
+&wThe &BC&wl&ze&Br&wi&zc &zGuard&w is here.
+~
+The tournament guard stands quietly here, eyeing the crowd.  The
+continued efforts of the onlookers to sneak past him seem to have
+put him in a rather foul mood.  Leaving him be would be a wise choice.
+~
+16777283 0 4194344 0 C
+0 0 9 10 10 9
+5d23+230 1d5+6 0 0 0
+4000 0
+112 112 1
+16 18 18 17 17 13 16 51
+0 0 0 0 0
+0 0 0 0 1 1 51
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1208221696 4385
+> death_prog 7~
+mpoload 2801
+mpe _red A key slips out as the guard falls dead.
+~
+|
+#2808
+warrior guard~
+&rW&wa&zr&rr&wi&zo&rr &zGuard&w~
+&wThe &rW&wa&zr&rr&wi&zo&rr &zGuard&w is here.
+~
+The tournament guard stands quietly here, eyeing the crowd.  The
+continued efforts of the onlookers to sneak past him seem to have
+put him in a rather foul mood.  Leaving him be would be a wise choice.
+~
+16777283 0 4194304 0 C
+0 0 9 10 10 10
+5d22+240 1d5+8 0 0 0
+4000 0
+112 112 1
+20 18 18 19 19 13 17 60
+0 0 0 0 0
+0 0 0 0 1 1 60
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 640 524289
+> death_prog 7~
+mpoload 2801
+mpe _red A key slips out as the guard falls dead.
+~
+|
+#2809
+monk guard~
+&OM&wo&zn&Ok &zGuard&w~
+&wThe &OM&wo&zn&Ok &zGuard&w is here.
+~
+The tournament guard stands quietly here, eyeing the crowd.  The
+continued efforts of the onlookers to sneak past him seem to have
+put him in a rather foul mood.  Leaving him be would be a wise choice.
+~
+16777283 0 4194304 0 C
+0 0 9 10 10 10
+5d22+217 1d5+6 0 0 0
+4000 0
+112 112 1
+17 18 18 18 16 13 17 65
+0 0 0 0 0
+0 0 0 0 1 1 65
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 134218368 6161
+> death_prog 7~
+mpoload 2801
+mpe _red A key slips out as the guard falls dead.
+~
+|
+#2810
+paladin guard~
+&WP&wa&zl&Wa&wd&zi&Wn &zGuard&w~
+&wThe &WP&wa&zl&Wa&wd&zi&Wn &zGuard&w is here.
+~
+The tournament guard stands quietly here, eyeing the crowd.  The
+continued efforts of the onlookers to sneak past him seem to have
+put him in a rather foul mood.  Leaving him be would be a wise choice.
+~
+67 0 4194304 0 C
+0 0 9 8 10 8
+5d23+235 1d5+7 0 0 0
+4000 0
+112 112 1
+18 18 18 17 17 13 17 55
+0 0 0 0 0
+0 0 0 0 1 1 55
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 134217856 289
+> death_prog 7~
+mpoload 2801
+mpe _red A key slips out as the guard falls dead.
+~
+|
+#2811
+druid guard~
+&GD&wr&zu&Gi&wd &zGuard&w~
+&wThe &GD&wr&zu&Gi&wd &zGuard&w is here.
+~
+The tournament guard stands quietly here, eyeing the crowd.  The
+continued efforts of the onlookers to sneak past him seem to have
+put him in a rather foul mood.  Leaving him be would be a wise choice.
+~
+16777283 0 4194304 0 C
+0 0 9 9 8 9
+6d26+235 1d5+6 0 0 0
+4000 0
+112 112 1
+16 20 20 16 16 13 16 50
+0 0 0 0 0
+0 0 0 0 1 1 50
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1207959552 4113
+> death_prog 7~
+mpoload 2801
+mpe _red A key slips out as the guard falls dead.
+~
+|
+#2812
+swordsman guard~
+&rS&ww&zo&rr&wd&zs&rm&wa&zn &zGuard&w~
+&wThe &rS&ww&zo&rr&wd&zs&rm&wa&zn &zGuard&w is here.
+~
+The tournament guard stands quietly here, eyeing the crowd.  The
+continued efforts of the onlookers to sneak past him seem to have
+put him in a rather foul mood.  Leaving him be would be a wise choice.
+~
+16777283 0 4194304 0 C
+0 0 9 9 9 8
+6d25+250 1d5+8 0 0 0
+5000 0
+112 112 1
+21 18 18 18 18 13 16 70
+0 0 0 0 0
+0 0 0 0 1 1 70
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 256 524545
+> death_prog 7~
+mpoload 2801
+mpe _red A key slips out as the guard falls dead.
+~
+|
+#2813
+swordsman champion~
+&wThe &rS&ww&zo&rr&wd&zs&rm&wa&zn &zChampion&w~
+&wThe &rS&ww&zo&rr&wd&zs&rm&wa&zn &zChampion&w stands here.
+~
+Before you stands one of the contestants.  They seem to be rather
+occupied with beating the crap out of each other, so any attempt at
+polite conversation would be a waste of time.
+~
+16859201 0 0 0 C
+0 0 13 12 14 13
+11d47+350 1d10+15 0 0 0
+10000 0
+112 112 1
+20 19 19 19 19 13 19 75
+0 0 0 0 0
+0 0 0 0 1 1 75
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 384 17
+> death_prog 80~
+mpjunk hardened
+~
+|
+#2814
+druid champion~
+&wThe &gD&wr&zu&gi&wd &zChampion&w~
+&wThe &gD&wr&zu&gi&wd &zChampion &wstands here.
+~
+Before you stands one of the contestants.  They seem to be rather
+occupied with beating the crap out of each other, so any attempt at
+polite conversation would be a waste of time.
+~
+16859201 0 0 0 C
+0 0 13 12 12 14
+13d54+304 1d10+13 0 0 0
+10000 0
+112 112 1
+17 20 20 18 18 13 19 63
+0 0 0 0 0
+0 0 0 0 1 1 63
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1074003968 8197
+> death_prog 80~
+mpjunk hardened
+~
+|
+#2815
+paladin champion~
+&wThe &WP&wa&zl&Wa&wd&zi&Wn &zChampion&w~
+&wThe &WP&wa&zl&Wa&wd&zi&Wn &zChampion &wstands here.
+~
+Before you stands one of the contestants.  They seem to be rather
+occupied with beating the crap out of each other, so any attempt at
+polite conversation would be a waste of time.
+~
+16859201 0 0 0 C
+0 0 13 14 13 12
+12d51+330 1d10+14 0 0 0
+10000 0
+112 112 1
+20 20 20 18 18 13 18 69
+0 0 0 0 0
+0 0 0 0 1 1 69
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 960 5
+> death_prog 80~
+mpjunk hardened
+~
+|
+#2816
+monk champion~
+&wThe &OM&wo&zn&Ok &zChampion&w~
+&wThe &OM&wo&zn&Ok &zChampion&w stands here.
+~
+Before you stands one of the contestants.  They seem to be rather
+occupied with beating the crap out of each other, so any attempt at
+polite conversation would be a waste of time.
+~
+16859201 0 0 0 C
+0 0 13 14 14 13
+11d47+309 1d10+13 0 0 0
+10000 0
+112 112 1
+19 20 20 19 13 13 18 75
+0 0 0 0 0
+0 0 0 0 1 1 75
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1073742528 3077
+> death_prog 80~
+mpjunk hardened
+~
+|
+#2817
+warrior champion~
+&wThe &rW&wa&zr&rr&wi&zo&rr &zChampion&w~
+&wThe &rW&wa&zr&rr&wi&zo&rr &zChampion&w stands here.
+~
+Before you stands one of the contestants.  They seem to be rather
+occupied with beating the crap out of each other, so any attempt at
+polite conversation would be a waste of time.
+~
+16859201 0 0 0 C
+0 0 13 13 12 13
+12d53+340 1d10+14 0 0 0
+10000 0
+112 112 1
+20 20 20 17 19 13 18 70
+0 0 0 0 0
+0 0 0 0 1 1 70
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 896 524305
+> death_prog 80~
+mpjunk hardened
+~
+|
+#2818
+cleric champion~
+&wThe &BC&wl&ze&Br&wi&zc &zChampion&w~
+&wThe &BC&wl&ze&Br&wi&zc &zChampion&w stands here.
+~
+Before you stands one of the contestants.  They seem to be rather
+occupied with beating the crap out of each other, so any attempt at
+polite conversation would be a waste of time.
+~
+16859201 0 0 0 C
+0 0 13 14 12 12
+12d50+308 1d10+13 0 0 0
+10000 0
+112 112 1
+17 20 20 17 17 13 18 63
+0 0 0 0 0
+0 0 0 0 1 1 63
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1208221696 261
+> death_prog 80~
+mpjunk hardened
+~
+|
+#2819
+mage champion~
+&wThe &RM&wa&zg&Re &zChampion&w~
+&wThe &RM&wa&zg&Re &zChampion&w stands here.
+~
+Before you stands one of the contestants.  They seem to be rather
+occupied with beating the crap out of each other, so any attempt at
+polite conversation would be a waste of time.
+~
+16859201 0 0 0 C
+0 0 13 14 14 13
+11d48+318 1d10+13 0 0 0
+10000 0
+112 112 0
+17 20 20 17 17 13 18 63
+0 0 0 0 0
+0 0 0 0 1 1 63
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1342308352 11777
+> death_prog 80~
+mpjunk hardened
+~
+|
+#2820
+thief champion~
+&wThe &cT&wh&zi&ce&wf &zChampion&w~
+&wThe &cT&wh&zi&ce&wf &zChampion&w stands here.
+~
+Before you stands one of the contestants.  They seem to be rather
+occupied with beating the crap out of each other, so any attempt at
+polite conversation would be a waste of time.
+~
+16859201 0 0 0 C
+0 0 13 13 13 12
+13d54+301 1d10+13 0 0 0
+20000 0
+112 112 1
+17 20 20 22 19 13 17 85
+0 0 0 0 0
+0 0 0 0 1 1 85
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1728 3
+> death_prog 80~
+mpjunk hardened
+~
+|
+#2821
+augurer champion~
+&wThe &pA&wu&zg&pe&wr&ze&pr &zChampion&w~
+&wThe &pA&wu&zg&pe&wr&ze&pr &zChampion&w stands here.
+~
+Before you stands one of the contestants.  They seem to be rather
+occupied with beating the crap out of each other, so any attempt at
+polite conversation would be a waste of time.
+~
+16859201 0 0 0 C
+0 0 13 14 12 12
+13d54+306 1d10+13 0 0 0
+10000 0
+112 112 1
+18 20 20 19 18 13 18 68
+0 0 0 0 0
+0 0 0 0 1 1 68
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 960 8197
+> death_prog 80~
+mpjunk hardened
+~
+|
+#2822
+ranger champion~
+&wThe &GR&wa&zn&Gg&we&zr &zChampion&w~
+&wThe &GR&wa&zn&Gg&we&zr &zChampion&w stands here.
+~
+Before you stands one of the contestants.  They seem to be rather
+occupied with beating the crap out of each other, so any attempt at
+polite conversation would be a waste of time.
+~
+16859201 0 0 0 C
+0 0 13 12 12 14
+13d55+305 1d10+13 0 0 0
+3360 0
+112 112 1
+18 20 20 17 18 13 19 70
+0 0 0 0 0
+0 0 0 0 1 1 70
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 134218688 533505
+> death_prog 80~
+mpjunk hardened
+~
+|
+#2823
+vampire champion~
+&wThe &rV&wa&zm&rp&wi&zr&re &zChampion&w~
+&wThe &rV&wa&zm&rp&wi&zr&re &zChampion&w stands here.
+~
+Before you stands one of the contestants.  They seem to be rather
+occupied with beating the crap out of each other, so any attempt at
+polite conversation would be a waste of time.
+~
+16859201 0 0 0 C
+0 0 13 13 12 12
+13d54+390 1d10+13 0 0 0
+10000 0
+112 112 1
+19 20 20 18 18 13 18 69
+0 0 0 0 0
+0 0 0 0 1 1 69
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 1476395840 540417
+> death_prog 80~
+mpjunk hardened
+~
+|
+#2824
+chaplain champion~
+&wThe &BC&wh&za&Bp&wl&za&Bi&wn &zChampion&w~
+&wThe &BC&wh&za&Bp&wl&za&Bi&wn &zChampion&w stands here.
+~
+Before you stands one of the contestants.  They seem to be rather
+occupied with beating the crap out of each other, so any attempt at
+polite conversation would be a waste of time.
+~
+16859201 0 128 0 C
+0 0 13 14 14 14
+13d54+303 1d10+13 0 0 0
+3360 0
+112 112 1
+18 20 20 17 18 13 17 63
+0 0 0 0 0
+0 0 0 0 1 1 63
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 136323648 14341
+> death_prog 80~
+mpjunk hardened
+~
+|
+#2825
+drunk peasant~
+The Drunken Peasant&w~
+A drunk peasant is here shouting and waving his hands wildly.
+~
+~
+16777281 0 0 0 C
+0 0 4 3 4 4
+1d5+38 1d2+2 0 0 0
+268 0
+112 112 1
+13 11 13 11 13 13 15 39
+0 0 0 0 0
+0 0 0 0 1 1 39
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+> rand_prog 5~
+burp
+~
+|
+#2826
+child~
+The Child~
+Someone's child is wandering around here.
+~
+Before you stands a rather smallish child, apparantly lost, or just
+in a daze from all the events.
+~
+16777281 0 0 0 C
+0 0 2 2 2 3
+1d5+15 1d2+1 0 0 0
+134 0
+112 112 2
+12 6 6 11 13 13 15 37
+0 0 0 0 0
+0 0 0 0 1 1 37
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#2827
+man~
+The Old Man~
+An old man stands here, oggling everything in sight.
+~
+This old peasant wanders about aimlessly, gaping in wide-eyed wonder
+the whole time.  His gaze isn't barred by anything, he stares at the
+tents, contestants, and young ladies with equal ferver.
+~
+16777281 0 0 0 C
+0 0 3 3 4 4
+1d5+21 1d2+1 0 0 0
+185 0
+112 112 1
+11 6 6 15 13 13 14 38
+0 0 0 0 0
+0 0 0 0 1 1 38
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#2828
+woman~
+The Peasant Woman~
+A peasant woman tries to catch a glimpse of the contestants.
+~
+The peasant woman seems to e lost in a daze here, wandering around
+aimlessly, trying to take everything in at once.  Apparantly she doesn't
+get out much.
+~
+16777281 0 0 0 C
+0 0 4 5 3 5
+1d5+21 1d2+1 0 0 0
+212 0
+112 112 2
+15 6 6 12 13 13 15 38
+0 0 0 0 0
+0 0 0 0 1 1 38
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#2829
+king~
+&wThe &PK&pi&Pn&pg~
+&wThe &PK&pi&Pn&pg &wsits here, &wd&Ge&gv&wo&Gu&gr&wi&Gn&gg&w everything within reach.
+~
+The king is quite a bit on the rotund side.  It would seem that his
+tournament days are far behind him, and that he has decided to enjoy
+everything his office has to offer.
+~
+67 0 4194304 0 C
+0 0 15 16 16 14
+9d39+819 1d12+16 0 0 0
+30000 0
+112 112 1
+19 20 20 19 13 13 22 80
+0 0 0 0 0
+0 0 0 0 1 1 80
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 134226176 258
+> greet_prog 100~
+say Hi there, you must be strong to have made it this far.  If you bring
+say me all of the weapons out in the field I will give you a special
+say prize for you!
+say You need just to speek 'give me a prize' when you are ready.
+~
+> speech_prog p give me a prize~
+mpvalue $n 0
+if iscarrying($n) == 2816
+mpvalue $n +1
+endif
+if iscarrying($n) == 2817
+mpvalue $n +1
+endif
+if iscarrying($n) == 2818
+mpvalue $n +1
+endif
+if iscarrying($n) == 2819
+mpvalue $n +1
+endif
+if iscarrying($n) == 2820
+mpvalue $n +1
+endif
+if iscarrying($n) == 2821
+mpvalue $n +1
+endif
+if iscarrying($n) == 2822
+mpvalue $n +1
+endif
+if iscarrying($n) == 2823
+mpvalue $n +1
+endif
+if iscarrying($n) == 2824
+mpvalue $n +1
+endif
+if iscarrying($n) == 2825
+mpvalue $n +1
+endif
+if iscarrying($n) == 2826
+mpvalue $n +1
+endif
+if iscarrying($n) == 2827
+mpvalue $n +1
+endif
+if iscarrying($n) == 2828
+mpvalue $n +1
+endif
+if checkmpvalue($n) == 13
+say You have indeed collected everything, here is your prize!
+mpoload 2830
+mptake 2816 $n
+mptake 2817 $n
+mptake 2818 $n
+mptake 2819 $n
+mptake 2820 $n
+mptake 2821 $n
+mptake 2822 $n
+mptake 2823 $n
+mptake 2824 $n
+mptake 2825 $n
+mptake 2826 $n
+mptake 2827 $n
+mptake 2828 $n
+mpgive 2830 $n
+mpjunk all
+mpvalue $n 0
+break
+endif
+mpvalue $n 0
+~
+|
+#2830
+queen~
+&wThe &PQ&pu&Pe&pe&Pn&w~
+&wThe &PQ&pu&Pe&pe&Pn&w lounges here, fanning herself.
+~
+The look of tolerance on the queen's face is evident.  It would seem
+that this is not her idea of a good time.
+~
+67 0 0 0 C
+0 0 15 14 14 16
+11d44+866 1d11+15 0 0 0
+22000 0
+112 112 2
+18 20 20 18 18 13 18 68
+0 0 0 0 0
+0 0 0 0 1 1 68
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 268436352 258
+#2831
+archbishop bishop~
+&wThe &BA&br&Bc&bh&BB&bi&Bs&bh&Bo&bp&w~
+&wThe &BA&br&Bc&bh&BB&bi&Bs&bh&Bo&bp&w sits here, casting a critical eye over the field.
+~
+The archbishop seems to be not at all pleased with the spectacle, and
+is most likely here to try and discover some wrong-doer to give a
+sound lectureing.
+~
+67 0 0 0 C
+0 0 15 14 15 14
+9d37+783 1d11+15 0 0 0
+20000 0
+112 112 1
+18 17 17 17 18 13 17 67
+0 0 0 0 0
+0 0 0 0 1 1 67
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 134218688 258
+#2832
+vendor~
+A Vendor~
+A vendor is here, heckling everyone that looks his way.
+~
+Meeting the vendor's gaze would peobably be a bad idea, as you notice
+that every time he sees that someone is paying attention to him, he
+proceeds into a tirade about his wares.
+~
+83886147 0 0 0 C
+0 0 6 5 5 7
+2d9+65 1d3+3 0 0 0
+560 0
+112 112 1
+13 16 16 12 13 13 14 43
+0 0 0 0 0
+0 0 0 0 1 1 43
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+> rand_prog 1~
+yell Ale!  Cold, frosty ale for sale!
+~
+|
+#2849
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#2800
+royalty key~
+The Royalty Key~
+The Royalty Key is here.~
+~
+18 0 1
+2846 0 0 0
+1.000000 0 0 0 0 0 0
+E
+description~
+~
+E
+key~
+It is a small, brass key.  It has the word Royalty engraved on it.
+~
+#2801
+field key~
+The Field Key~
+The Field Key lies here.~
+~
+18 0 1
+2844 0 0 0
+1.000000 0 0 0 0 0 0
+E
+key~
+It is a small, brass key.  It appears to open up the doors to the field.
+~
+#2813
+ale~
+&wA cup of &OA&zl&Oe&w~
+&wA cup of &OA&zl&Oe&w is here.~
+~
+17 0 1
+2 2 3 0
+1.000000 10 0 0 0 0 0
+E
+ale cup~
+The cup is nearly full with a brownish liquid.
+~
+#2814
+steak~
+&rS&Ot&re&Oa&rk &won a &OStake&w~
+&wA &rS&Ot&re&Oa&rk &won a &OStake&w is here.~
+~
+19 0 1
+4 0 0 0
+1.000000 40 0 0 0 0 0
+E
+steak stake~
+You see a wooden stake with a large hunk of meat on it.
+~
+#2815
+turkey leg~
+&wA &OT&ru&Or&rk&Oe&ry &OLeg~
+&wA &OT&ru&Or&rk&Oe&ry &OLeg &wis here.~
+~
+19 0 1
+4 0 0 0
+1.000000 40 0 0 0 0 0
+E
+turkey leg~
+You see a unusually large turkey leg.
+~
+#2816
+hardened steel broadsword~
+&wA &zH&wa&zr&wd&ze&wn&ze&wd &zSt&we&Wel &rB&wr&zo&ra&wd&zs&rw&wo&zr&rd&w~
+&wA &zH&wa&zr&wd&ze&wn&ze&wd &zSt&we&Wel &rB&wr&zo&ra&wd&zs&rw&wo&zr&rd&w is here.~
+~
+5 0&0&64 513
+1000 20 22 6 -1 -1 0 9 12 12 12 0 25 10
+7.000000 75000 0 0 0 0 4
+'NONE'
+E
+swordsman broadsword~
+You see a gleaming sword here, glowing with the aura of magic.
+~
+A
+81 2 0
+A
+82 2 0
+A
+1 1 0
+#2817
+hardened steel flail~
+&wA &zH&wa&zr&wd&ze&wn&ze&wd &zSt&we&Wel &GF&zl&wa&Gi&wl~
+&wA &zH&wa&zr&wd&ze&wn&ze&wd &zSt&we&Wel &GF&zl&wa&Gi&wl is here.~
+~
+5 0&0&2048 513
+1000 24 26 7 -1 -1 0 13 10 8 14 0 10 20
+10.000000 75000 0 0 0 0 4
+'NONE'
+E
+druid flail~
+You see a gleaming flail here, glowing with the aura of magic.
+~
+A
+12 10 0
+A
+82 1 0
+A
+81 1 0
+#2818
+hardened steel claymore~
+&wA &zH&wa&zr&wd&ze&wn&ze&wd &zSt&we&Wel &WC&wl&za&Wy&wm&zo&Wr&we&w~
+&wA &zH&wa&zr&wd&ze&wn&ze&wd &zSt&we&Wel &WC&wl&za&Wy&wm&zo&Wr&we&w is here.~
+~
+5 0&131072&64 513
+1000 24 27 7 -1 -1 0 12 14 10 15 0 30 18
+12.000000 100000 0 0 0 0 7
+'NONE'
+E
+paladin claymore sword~
+You see a gleaming sword here, glowing with the aura of magic.
+~
+A
+13 10 0
+A
+82 2 0
+A
+81 1 0
+A
+1 1 0
+#2819
+hardened hand of god~
+&wThe &zH&wa&zn&wd &zo&Wf &OG&wo&zd&w~
+&wThe &zH&wa&zn&wd &zo&Wf &OG&wo&zd&w is here.~
+~
+5 0&0&8192 513
+1000 3 6 5 -1 -1 0 3 3 3 13 0 0 0
+0.750000 75000 0 0 0 0 3
+'NONE'
+E
+monk hand god~
+You see a gauntlet glowing with a bright, white aura.
+~
+A
+81 1 0
+A
+1 1 0
+A
+82 1 0
+#2820
+hardened steel executioner axe~
+&wA &zH&wa&zr&wd&ze&wn&ze&wd &zSt&we&Wel &rE&wx&ze&rc&wu&zt&ri&wo&zn&re&wr&z'&rs &wA&zx&re&w~
+&wA &zH&wa&zr&wd&ze&wn&ze&wn&ze&wd &zSt&we&Wel &rE&wx&ze&rc&wu&zt&ri&wo&zn&re&wr&z'&rs &wA&zx&re&w is here.~
+~
+5 0&131072 513
+1000 25 29 7 -1 -1 0 13 14 10 17 0 30 24
+13.000000 100000 0 0 0 0 7
+'NONE'
+E
+warrior axe executioner~
+You see a gigantic, gleaming war-axe, glowing with the aura of magic.
+~
+A
+82 2 0
+A
+81 2 0
+A
+1 1 0
+A
+13 10 0
+#2821
+hardened steel battle-mace~
+&wA &zH&wa&zr&wd&ze&wn&ze&wd &zSt&we&Wel &BB&wa&zt&Bt&wl&ze&B-&wM&za&Bc&we&w~
+&wA &zH&wa&zr&wd&ze&wn&ze&wd &zSt&we&Wel &BB&wa&zt&Bt&wl&ze&B-&wM&za&Bc&we&w is here.~
+~
+5 0&0&2048 513
+1000 20 23 5 -1 -1 0 11 9 8 12 0 5 10
+6.000000 75000 0 0 0 0 4
+'NONE'
+E
+cleric battle mace~
+You see a gleaming mace, glowing with the aura of magic.
+~
+A
+81 1 0
+A
+82 1 0
+A
+13 10 0
+A
+12 10 0
+A
+4 1 0
+#2822
+hardened steel-tipped quarter staff~
+&wA &zSt&we&Wel&w-&zTi&wp&Wped &RQ&wu&za&Rr&wt&ze&Rr &wS&zt&Ra&wf&zf~
+&wA &zSt&we&Wel&w-&zTi&wp&Wed &RQ&wu&za&Rr&wt&ze&Rr&w S&zt&Ra&wf&zf&w is here.~
+~
+5 0&131072 513
+1000 22 23 6 -1 -1 0 12 10 9 18 0 14 11
+9.000000 100000 0 0 0 0 7
+'NONE'
+E
+mage staff~
+You see a 5' quarter staff, with a steel cap at each end.
+~
+A
+82 1 0
+A
+81 1 0
+A
+79 10 0
+A
+3 1 0
+#2823
+hardened steel dagger~
+&wA &zH&wa&zr&wd&ze&wn&ze&wd &zSt&we&Wel &cD&wa&zg&cg&we&zr&w~
+&wA &zH&wa&zr&wd&ze&wn&ze&wd &zSt&we&Wel &cD&wa&zg&cg&we&zr&w is here.~
+~
+5 0&0&256 513
+1000 18 20 4 -1 -1 0 8 8 10 12 0 20 2
+1.000000 30000 0 0 0 0 2
+'NONE'
+E
+thief dagger~
+You see a gleaming dagger, glowing with the aura of magic.
+~
+A
+82 1 0
+A
+81 2 0
+A
+1 1 0
+A
+2 1 0
+#2824
+hardened steel trident~
+&wA &zH&wa&zr&wd&ze&wn&ze&wd &zSt&we&Wel &pT&wr&zi&pd&we&zn&pt&w~
+&wA &zH&wa&zr&wd&ze&wn&ze&wd &zSt&we&Wel &pT&wr&zi&pd&we&zn&pt&w is here.~
+~
+5 0&0&512 513
+1000 26 29 8 -1 -1 0 8 9 15 12 0 25 15
+15.000000 100000 0 0 0 0 9
+'NONE'
+E
+augurer trident~
+You see a gleaming trident, glowing with the aura of magic.
+~
+A
+13 10 0
+A
+12 10 0
+A
+3 1 0
+A
+1 1 0
+A
+82 2 0
+A
+81 1 0
+#2825
+hardened steel hunting knife~
+&wA &zH&wa&zr&wd&ze&wn&ze&wd &zSt&we&Wel &GH&wu&zn&Gt&wi&zn&Gg &wK&zn&Gi&wf&ze&w~
+&wA &zH&wa&zr&wd&ze&wn&ze&wd &zSt&we&Wel &GH&wu&zn&Gt&wi&zn&Gg &wK&zn&Gi&wf&ze&w is here.~
+~
+5 0&0&256 513
+1000 19 22 5 -1 -1 0 8 9 12 13 0 40 4
+5.000000 75000 0 0 0 0 1
+'NONE'
+E
+ranger hunting knife~
+You see a gleaming knife, glowing with the aura of magic.
+~
+A
+1 1 0
+A
+82 1 0
+A
+81 1 0
+A
+13 10 0
+#2826
+hardened vampire barbed whip~
+&wA &zB&wa&zr&wb&ze&wd-&zCh&wa&Win &rW&wh&zi&rp&w~
+&wA &zB&wa&zr&wb&ze&wd-&zCh&wa&Win &rW&wh&zi&rp&w is here.~
+~
+5 0&0&2048 513
+1000 22 24 6 -1 -1 0 12 12 7 11 0 3 1
+3.000000 75000 0 0 0 0 4
+'NONE'
+E
+vampire barbed whip~
+You see a whip composed entirelly of chain links, which have sharp
+spines protruding from each one.
+~
+A
+82 1 0
+A
+81 1 0
+A
+3 1 0
+A
+13 10 0
+A
+12 10 0
+#2827
+hardened holy hand~
+&wA &BH&wo&zl&By &wH&za&Bn&wd~
+&wA &BH&wo&zl&By &wH&za&Bn&wd is here.~
+~
+5 0&0&8192 513
+1000 2 7 7 -1 -1 0 3 3 3 13 0 0 0
+0.750000 75000 0 0 0 0 3
+'NONE'
+E
+chaplain holy hand~
+You see an unasuming pair of white gloves, which are surrounded by a
+strong white aura.
+~
+A
+81 1 0
+A
+82 1 0
+A
+79 2 0
+#2828
+master girth~
+&wThe &WM&wa&zs&Wt&we&zr &WG&wi&zr&Wt&wh&w~
+&wThe &WM&wa&zs&Wt&we&zr &WG&wi&zr&Wt&wh&w is here.~
+~
+9 0 257 1
+0 0 0 1000
+1.000000 100000 0 0 0 0 2
+E
+master girth~
+You see a thick leather girth, with arcane symbols decorating it.
+~
+A
+13 15 0
+A
+12 15 0
+A
+82 2 0
+A
+81 2 0
+A
+85 85 0
+#2829
+guard sword~
+A Tournament-Issue Guard Sword~
+A Tournament-Issue Guard Sword is here.~
+~
+5 0 513
+1000 13 15 6 -1 -1 0 6 9 8 10 0 25 10
+11.000000 30000 0 0 0 0 4
+'NONE'
+E
+guard sword~
+You see a rather average looking longsword.
+~
+A
+13 2 0
+A
+12 2 0
+A
+82 1 0
+#2830
+Fighters Ring~
+&w&RF&w&Bighters &w&RR&w&Bing~
+Someone has left behind a powerful &w&RF&w&Bighters &w&RR&w&Bing&w&C behind.~
+~
+8 0&0&16 3
+0 0 0 0
+1.000000 250000 0 0 0 0 5
+A
+13 15 0
+A
+81 2 0
+A
+80 1 0
+A
+84 220 0
+A
+82 2 0
+A
+28 256 0
+#2849
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#0
+
+
+#ROOMS
+#2800
+&gThe Beginning of the Field~
+&GYou are standing at the edge of a large field.  Beyond the entrance
+&Gyou see a collection of large tents, and a great many people wandering
+&Gbetween them.
+
+&GYou notice a &WFlyer&G tacked to a nearby tree.
+~
+4&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 2801
+0 0
+D3
+~
+~
+134217728 -1 16000
+1082 404
+E
+Flyer~
+Welcome to the Field of Combat!
+     Events will be taking place around the clock.
+We would ask that you please not interact with the contestants.
+                     Enjoy!
+~
+S
+#2801
+&gInside the Entrance~
+&GContinuing toward the playing field, you begin to notice that each
+&Gof the tents have distinctive banners waving from the top of them.
+&GTo your north-east and west you see the two closest tents, beyond
+&Gthem, the playing field and royalty stage on the far side.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 2802
+0 0
+D2
+~
+~
+0 -1 2800
+0 0
+D6
+~
+~
+0 -1 2803
+0 0
+D7
+~
+~
+0 -1 2817
+0 0
+S
+#2802
+&gBetween the Cleric and Mage Tents.~
+&GTo either side of you stand one of the twelve tents which surround the
+playing field.  Directly to your north are the stands, and beyond those
+the field itself.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 2816
+0 0
+D1
+~
+~
+0 -1 2803
+0 0
+D2
+~
+~
+0 -1 2801
+0 0
+D3
+~
+~
+0 -1 2817
+0 0
+S
+#2803
+&gIn Front of the Mage Tent~
+&GTo your north stands the tent which is dedicated to the mage class.
+&GApparantly the organizers of the tournament want to be very sure that
+&Gevery comfort is provided for the competitors, the tent is the size
+&Gof a small house.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 2804
+0 0
+D3
+~
+~
+0 -1 2802
+0 0
+D6
+~
+~
+0 -1 2805
+0 0
+D9
+~
+~
+0 -1 2801
+0 0
+S
+#2804
+&gInside the &RM&wa&zg&Re &gTent~
+&GApon entering this tent, the nose is swiftly assaulted by a wide
+variety of scents, most of them unpleasent.  The source of the odors
+would appear to be the large cabinet of spell components which occupies
+the eastern wall of the tent.
+~
+0&2
+0 1
+0
+0
+D0
+~
+~
+8389671 2801 2832
+0 0
+D2
+~
+~
+0 -1 2803
+0 0
+S
+#2805
+&gAlong the Eastern Green~
+&GFurther to your northeast lies the eastern green.  Sounds of the
+crowd fill the area, along with the noise from the field.  People pass
+by as they hurry to their destination.
+~
+0&2
+0 14
+0
+0
+D6
+~
+~
+0 -1 2807
+0 0
+D9
+~
+~
+0 -1 2803
+0 0
+S
+#2806
+&gInside the &cT&wh&zi&ce&wf &gTent~
+&GDarkness seems to fill this tent, as if it's occupants feel more
+at home in it's presence than in the light.  It would be highly
+recommended to hold tightly to your belongings, and move on.
+~
+4&2
+0 1
+0
+0
+D1
+~
+~
+8389664 2801 2807
+0 0
+D3
+~
+~
+8389671 2801 2832
+0 0
+S
+#2807
+&gBy the Thief Tent~
+&GThe tent of the thief class stands to your west.  This area is fairly
+uncrowded; apparantly the onlookers have no desire to give the thieves
+anyone to ply their trade on.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 2809
+0 0
+D3
+~
+~
+0 -1 2806
+0 0
+D9
+~
+~
+0 -1 2805
+0 0
+S
+#2808
+&gInside the &pA&wu&zg&pu&wr&ze&pr &gTent~
+&GThe Augurer tent is occupied by a wide variety of items, seeming to
+signify their having a fair amount of skill in a great many areas, but
+no real degree of mastery in any one thing.
+~
+4&2
+0 1
+0
+0
+D1
+~
+~
+0 2801 2809
+0 0
+D3
+~
+~
+8389671 2801 2833
+0 0
+S
+#2809
+&gBy the Augurer Tent~
+&GTo your west lies the tent of the augerer.  Many people occupy this
+area, as it is contains one of the vendors that frequent the tournament.
+He is apparantly making a fairly good business off of the crowd, as the
+line is rather long.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 2811
+0 0
+D2
+~
+~
+0 -1 2807
+0 0
+D3
+~
+~
+0 -1 2808
+0 0
+S
+#2810
+&gInside the &GR&wa&zn&Gg&we&zr &gTent~
+&GThe Ranger tent is mostly dedicated to the practice of archery.
+Against the far wall leans a few backstops with a great many arrows
+protruding from them.  Next to the exit leans a weapon rack containing
+swords.
+~
+4&2
+0 1
+0
+0
+D1
+~
+~
+8389664 2801 2811
+0 0
+D3
+~
+~
+8389671 2801 2838
+0 0
+S
+#2811
+&gBy the Ranger Tent~
+&GMuch like the druid tent, the ranger's tent emits a tranquil aura
+which has inspired many of the patrons to rest in this area, exchanging
+information about the goings-on in the tournament.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 2813
+0 0
+D2
+~
+~
+0 -1 2809
+0 0
+D3
+~
+~
+0 -1 2810
+0 0
+S
+#2812
+&gInside the &rV&wa&zm&rp&wi&zr&re &gTent~
+&GEntering this tent has turned out to be a bad idea.  Although the
+members seem friendly enough, you get the wierd feeling that they are
+eyeing you up in much the same way you would a cup of ale.  Leaving now
+would probably be a good idea.
+~
+4&2
+0 1
+0
+0
+D1
+~
+~
+0 2801 2813
+0 0
+D3
+~
+~
+8389671 2801 2839
+0 0
+S
+#2813
+&gBy the Vampire Tent~
+&GThis area of the green is next to the tent of the vampire class.
+It is, understandably almost entirelly bereft of people, as most
+everyone has no desire to get the blood sucked out of them.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 2815
+0 0
+D2
+~
+~
+0 -1 2811
+0 0
+D3
+~
+~
+0 -1 2812
+0 0
+S
+#2814
+&gInside the &BC&wh&za&Bp&wl&za&Bi&wn &gTent~
+&GThe Chaplain tent is filled with various tomes and potions related
+to the profession of healing.  The largest decoration is that of a
+holy symbol which hangs over the exit.
+~
+4&2
+0 1
+0
+0
+D1
+~
+~
+0 2801 2815
+0 0
+D3
+~
+~
+8389671 2801 2844
+0 0
+S
+#2815
+&gBy the Chaplain Tent~
+&GThe final tent on the eastern green is dedicated to the chaplain class.
+People mill about here, attempting to catch a glance of their champion,
+and doing their best to cause problems for the guard stationed outside
+the entrance.
+~
+0&2
+0 14
+0
+0
+D2
+~
+~
+0 -1 2813
+0 0
+D3
+~
+~
+0 -1 2814
+0 0
+S
+#2816
+&gIn the Stands~
+&GPeople fill the stands almost entirelly.  It is apparant that the events
+are hotly contested both on the field and off, as supporters of different
+contestants argue over who will win.
+~
+0&2
+0 1
+0
+0
+D2
+~
+~
+0 -1 2802
+0 0
+S
+#2817
+&gIn Front of the Cleric Tent~
+&GThe beginning of the western green is filled with spectators trying
+to catch a glimpse of their favorite contestant.  The smell of cooking
+meat fills the air, hinting at vendors.  Directly to the north lies the
+tent of the cleric class.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 2818
+0 0
+D1
+~
+~
+0 -1 2802
+0 0
+D7
+~
+~
+0 -1 2819
+0 0
+D8
+~
+~
+0 -1 2801
+0 0
+S
+#2818
+&gInside the &BC&wl&ze&Br&wi&zc &gTent~
+&GThe Cleric tent is filled with the different elements of their trade.
+The sides of the tent are occupied by shelves which contain a variety
+of potions and holy symbols.  A northern exit leads into the Field.
+~
+4&2
+0 1
+0
+0
+D0
+~
+~
+8389671 2801 2830
+0 0
+D2
+~
+~
+0 -1 2817
+0 0
+S
+#2819
+&gAlong the Western Green~
+&GThe Green serves as an area for the onlookers to catch glimpses of their
+favorites, as well as a means of capitalizing on the hungry crowd with
+a variety of vendors.  Continuing to the northwest is the western green,
+and the tents that run along it.
+~
+0&2
+0 14
+0
+0
+D7
+~
+~
+0 -1 2821
+0 0
+D8
+~
+~
+0 -1 2817
+0 0
+S
+#2820
+&gInside the &rW&wa&zr&rr&wi&zo&rr &gTent~
+&GThe Warrior Tent is occupied by a number of weapons, including
+some exotic pieces that must have been obtained at great cost and
+effort.  Against the far wall stands a rack of training dummies, upon
+which a number of the members are practicing their arms.
+~
+4&2
+0 1
+0
+0
+D1
+~
+~
+8389671 2801 2830
+0 0
+D3
+~
+~
+0 -1 2821
+0 0
+S
+#2821
+&gBy the Warrior Tent~
+&GTo your east lies the warrior tent.  People wander about the area,
+attempting to peer inside.  Others are dissuaded by the guard, and
+exchange banter about the upcoming events.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 2823
+0 0
+D1
+~
+~
+0 -1 2820
+0 0
+D8
+~
+~
+0 -1 2819
+0 0
+S
+#2822
+&gInside the &OM&wo&zn&Ok &gTent~
+&GThis tent is filled with the many students that the monks have
+taken on in their travels.  It would appear that they find the best
+method of teaching their innitiates to be first-hand experience.
+~
+4&2
+0 1
+0
+0
+D1
+~
+~
+8389671 2801 2835
+0 0
+D3
+~
+~
+0 -1 2823
+0 0
+S
+#2823
+&gBy the Monk Tent~
+&GMore people fill the green in this area, as the venders seem to have
+congregated here.  The smell of food fills the air, attempting to entice
+you into making a purchase.  To your east lies the monk tent.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 2825
+0 0
+D1
+~
+~
+0 -1 2822
+0 0
+D2
+~
+~
+0 -1 2821
+0 0
+S
+#2824
+&gInside the &WP&wa&zl&Wa&wd&zi&Wn &gTent~
+&GThe Paladin Tent has very little decoration of any kind.  The far wall
+is occupied by a weapon rack upon which a number of swords rest, and
+a large holy symbol is mounted by the exit.
+~
+4&2
+0 1
+0
+0
+D1
+~
+~
+8389671 2801 2836
+0 0
+D3
+~
+~
+0 -1 2825
+0 0
+S
+#2825
+&gBy the Paladin Tent~
+&GTo your east lies the tent of the holy paladins.  An almost divine
+aura radiats from it, as the holy knights prepare to defend their honor
+on the field of combat.  The crowd is much thinner here, as many of the
+onlookers don't share their righteous views.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 2827
+0 0
+D1
+~
+~
+0 -1 2824
+0 0
+D2
+~
+~
+0 -1 2823
+0 0
+S
+#2826
+&gInside the &GD&wr&zu&Gi&wd &gTent~
+&GThe sense of standing deep in the middle of a forest pervades this
+tent, seeing as how the walls are lined with shelves containing
+various forest-related items.  The druids within smile politely, even
+if they may be rather curious as to how you got past the guard.
+~
+4&2
+0 1
+0
+0
+D1
+~
+~
+8389671 2801 2841
+0 0
+D3
+~
+~
+0 -1 2827
+0 0
+S
+#2827
+&gBy the Druid Tent~
+&GContinuing north you pass the tent of the druids.  People lounge about
+the area, seeming to revel in the peaceful tranquility projected from the
+tent.  Further to your north is the end of the western green, and the
+last tent.
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 2829
+0 0
+D1
+~
+~
+0 -1 2826
+0 0
+D2
+~
+~
+0 -1 2825
+0 0
+S
+#2828
+&gInside the &rS&ww&zo&rr&wd&zs&rm&wa&zn &gTent~
+&GThe inside of the swordsman tent is filled with all manner of
+weapons and armor.  This class being dedicated to the study of arms,
+it would appear that they like to keep a large supply of them on-hand,
+just in case they have to take over a small country of some sort.
+~
+4&2
+0 1
+0
+0
+D1
+~
+~
+8389671 2801 2842
+0 0
+D3
+~
+~
+0 -1 2829
+0 0
+S
+#2829
+&gBy the Swordsman Tent~
+&GTo your east lies the final tent on the western green, occupied by
+the swordsman class.  The smell of cleaning oil and leather is heavy
+in the air, as those within the tent ensure that their equipment is
+properly cleaned and repaired for the competition.
+~
+0&2
+0 14
+0
+0
+D1
+~
+~
+0 -1 2828
+0 0
+D2
+~
+~
+0 -1 2827
+0 0
+S
+#2830
+&gThe Southwestern Corner of the Field~
+&GYou stand in the field.  Sounds of battle fill the air around you.
+Perhaps it would be wise to find somewhere a bit safer to watch the
+events.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 2835
+0 0
+D1
+~
+~
+0 -1 2831
+0 0
+D2
+~
+~
+7 -1 2818
+0 0
+D3
+~
+~
+7 -1 2820
+0 0
+S
+#2831
+&gIn the Field~
+&GYou stand in the field.  Sounds of battle fill the air around you.
+Perhaps it would be wise to find somewhere a bit safer to watch the
+events.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 2834
+0 0
+D1
+~
+~
+0 -1 2832
+0 0
+D3
+~
+~
+0 -1 2830
+0 0
+S
+#2832
+&gThe Southeastern Corner of the Field~
+&GYou stand in the field.  Sounds of battle fill the air around you.
+Perhaps it would be wise to find somewhere a bit safer to watch the
+events.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 2833
+0 0
+D1
+~
+~
+7 -1 2806
+0 0
+D2
+~
+~
+7 -1 2804
+0 0
+D3
+~
+~
+0 -1 2831
+0 0
+S
+#2833
+&gIn the Field~
+&GYou stand in the field.  Sounds of battle fill the air around you.
+Perhaps it would be wise to find somewhere a bit safer to watch the
+events.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 2838
+0 0
+D1
+~
+~
+7 -1 2808
+0 0
+D2
+~
+~
+0 -1 2832
+0 0
+D3
+~
+~
+0 -1 2834
+0 0
+S
+#2834
+&gIn the Field~
+&GYou stand in the field.  Sounds of battle fill the air around you.
+Perhaps it would be wise to find somewhere a bit safer to watch the
+events.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 2837
+0 0
+D1
+~
+~
+0 -1 2833
+0 0
+D2
+~
+~
+0 -1 2831
+0 0
+D3
+~
+~
+0 -1 2835
+0 0
+S
+#2835
+&gIn the Field~
+&GYou stand in the field.  Sounds of battle fill the air around you.
+Perhaps it would be wise to find somewhere a bit safer to watch the
+events.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 2836
+0 0
+D1
+~
+~
+0 -1 2834
+0 0
+D2
+~
+~
+0 -1 2830
+0 0
+D3
+~
+~
+7 -1 2822
+0 0
+S
+#2836
+&gIn the Field~
+&GYou stand in the field.  Sounds of battle fill the air around you.
+Perhaps it would be wise to find somewhere a bit safer to watch the
+events.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 2841
+0 0
+D1
+~
+~
+0 -1 2837
+0 0
+D2
+~
+~
+0 -1 2835
+0 0
+D3
+~
+~
+7 -1 2824
+0 0
+S
+#2837
+&gThe &zM&wa&Wster &zo&wf &zE&wv&Wents' &gPlatform~
+&GHere stands the Master of Events' Platform apon which he calls out
+the contestants which are to battle, and the results of those battles.
+From this point you have a fairly safe view of all the events taking
+place, although from the way the master is eyeing you, it would
+probably be a good idea to go elsewhere.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 2840
+0 0
+D1
+~
+~
+0 -1 2838
+0 0
+D2
+~
+~
+0 -1 2834
+0 0
+D3
+~
+~
+0 -1 2836
+0 0
+S
+#2838
+&gIn the Field~
+&GYou stand in the field.  Sounds of battle fill the air around you.
+Perhaps it would be wise to find somewhere a bit safer to watch the
+events.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 2839
+0 0
+D1
+~
+~
+7 -1 2810
+0 0
+D2
+~
+~
+0 -1 2833
+0 0
+D3
+~
+~
+0 -1 2837
+0 0
+S
+#2839
+&gIn the Field~
+&GYou stand in the field.  Sounds of battle fill the air around you.
+Perhaps it would be wise to find somewhere a bit safer to watch the
+events.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 2844
+0 0
+D1
+~
+~
+7 -1 2812
+0 0
+D2
+~
+~
+0 -1 2838
+0 0
+D3
+~
+~
+0 -1 2840
+0 0
+S
+#2840
+&gIn the Field~
+&GYou stand in the field.  Sounds of battle fill the air around you.
+Perhaps it would be wise to find somewhere a bit safer to watch the
+events.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 2843
+0 0
+D1
+~
+~
+0 -1 2839
+0 0
+D2
+~
+~
+0 -1 2837
+0 0
+D3
+~
+~
+0 -1 2841
+0 0
+S
+#2841
+&gIn the Field~
+&GYou stand in the field.  Sounds of battle fill the air around you.
+Perhaps it would be wise to find somewhere a bit safer to watch the
+events.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+0 -1 2842
+0 0
+D1
+~
+~
+0 -1 2840
+0 0
+D2
+~
+~
+0 -1 2836
+0 0
+D3
+~
+~
+7 -1 2826
+0 0
+S
+#2842
+&gThe Northwestern Corner of the Field~
+&GYou stand in the field.  Sounds of battle fill the air around you.
+Perhaps it would be wise to find somewhere a bit safer to watch the
+events.
+~
+0&2
+0 2
+0
+0
+D1
+~
+~
+0 -1 2843
+0 0
+D2
+~
+~
+0 -1 2841
+0 0
+D3
+~
+~
+7 -1 2828
+0 0
+S
+#2843
+&gIn the Field~
+&GYou stand in the field.  Sounds of battle fill the air around you.
+Perhaps it would be wise to find somewhere a bit safer to watch the
+events.
+~
+0&2
+0 2
+0
+0
+D0
+~
+~
+39 2846 2846
+0 0
+D1
+~
+~
+0 -1 2844
+0 0
+D2
+~
+~
+0 -1 2840
+0 0
+D3
+~
+~
+0 -1 2842
+0 0
+S
+#2844
+&gThe Northeastern Corner of the Field~
+&GYou stand in the field.  Sounds of battle fill the air around you.
+Perhaps it would be wise to find somewhere a bit safer to watch the
+events.
+~
+0&2
+0 2
+0
+0
+D1
+~
+~
+7 -1 2814
+0 0
+D2
+~
+~
+0 -1 2839
+0 0
+D3
+~
+~
+0 -1 2843
+0 0
+S
+#2845
+&pIn the Eastern Royalty Booth~
+&PThe royalty booths are a large change from the field, decorations
+adorn the walls, and servants run from one seat to the next, ensuring
+that everyone viewing the events from here is pleased.
+~
+0&2
+0 1
+0
+0
+D3
+~
+~
+0 -1 2846
+0 0
+S
+#2846
+&pIn the Central Royalty Booth~
+&PThe royalty booths are a large change from the field, decorations
+adorn the walls, and servants run from one seat to the next, ensuring
+that everyone viewing the events from here is pleased.
+~
+4&2
+0 1
+0
+0
+D1
+~
+~
+0 -1 2845
+0 0
+D2
+~
+~
+7 -1 2843
+0 0
+D3
+~
+~
+0 -1 2847
+0 0
+S
+#2847
+&pIn the Western Royalty Booth~
+&PThe royalty booths are a large change from the field, decorations
+adorn the walls, and servants run from one seat to the next, ensuring
+that everyone viewing the events from here is pleased.
+~
+0&2
+0 1
+0
+0
+D1
+~
+~
+0 -1 2846
+0 0
+S
+#2848
+Floating in a void~
+~
+4
+0 1
+0
+0
+S
+#2849
+Floating in a void~
+~
+4
+0 1
+0
+0
+S
+#0
+
+
+#RESETS
+M 1 2825 1 2816 -1 -1 -1 0 0
+M 1 2830 1 2845 -1 -1 -1 0 0
+M 1 2831 1 2847 -1 -1 -1 0 0
+M 1 2829 1 2846 -1 -1 -1 0 0
+D 0 2846 2 2
+M 1 2828 1 2815 -1 -1 -1 0 0
+M 1 2826 1 2815 -1 -1 -1 0 0
+M 1 2828 1 2815 -1 -1 -1 0 0
+M 1 2826 1 2811 -1 -1 -1 0 0
+M 1 2828 1 2811 -1 -1 -1 0 0
+M 1 2832 1 2809 -1 -1 -1 0 0
+G 1 2814 1 0 -1 0 0
+G 1 2815 1 0 -1 0 0
+G 1 2813 1 0 -1 0 0
+M 1 2828 1 2805 -1 -1 -1 0 0
+M 1 2827 1 2802 -1 -1 -1 0 0
+M 1 2828 1 2802 -1 -1 -1 0 0
+M 1 2828 1 2802 -1 -1 -1 0 0
+M 1 2826 1 2819 -1 -1 -1 0 0
+M 1 2827 1 2819 -1 -1 -1 0 0
+M 1 2825 1 2821 -1 -1 -1 0 0
+M 1 2832 1 2823 -1 -1 -1 0 0
+G 1 2814 1 0 -1 0 0
+G 1 2815 1 0 -1 0 0
+G 1 2813 1 0 -1 0 0
+M 1 2828 1 2823 -1 -1 -1 0 0
+M 1 2828 1 2823 -1 -1 -1 0 0
+M 1 2828 1 2825 -1 -1 -1 0 0
+M 1 2827 1 2827 -1 -1 -1 0 0
+M 1 2828 1 2829 -1 -1 -1 0 0
+M 1 2826 1 2829 -1 -1 -1 0 0
+M 1 2825 1 2829 -1 -1 -1 0 0
+M 1 2827 1 2829 -1 -1 -1 0 0
+M 1 2828 1 2801 -1 -1 -1 0 0
+M 1 2827 1 2801 -1 -1 -1 0 0
+M 1 2801 1 2814 -1 -1 -1 0 0
+E 1 2829 1 13 -1 0 0
+D 0 2814 3 2
+M 1 2803 1 2812 -1 -1 -1 0 0
+E 1 2829 1 13 -1 0 0
+D 0 2812 3 2
+M 1 2802 1 2810 -1 -1 -1 0 0
+E 1 2829 1 13 -1 0 0
+D 0 2810 3 2
+M 1 2804 1 2808 -1 -1 -1 0 0
+E 1 2829 1 13 -1 0 0
+D 0 2808 3 2
+M 1 2805 1 2806 -1 -1 -1 0 0
+E 1 2829 1 13 -1 0 0
+D 0 2806 3 2
+M 1 2806 1 2804 -1 -1 -1 0 0
+E 1 2829 1 13 -1 0 0
+D 0 2804 0 2
+M 1 2807 1 2818 -1 -1 -1 0 0
+E 1 2829 1 13 -1 0 0
+D 0 2818 0 2
+M 1 2808 1 2820 -1 -1 -1 0 0
+E 1 2829 1 13 -1 0 0
+D 0 2820 1 2
+M 1 2809 1 2822 -1 -1 -1 0 0
+E 1 2829 1 13 -1 0 0
+D 0 2822 1 2
+M 1 2810 1 2824 -1 -1 -1 0 0
+E 1 2829 1 13 -1 0 0
+D 0 2824 1 2
+M 1 2811 1 2826 -1 -1 -1 0 0
+E 1 2829 1 13 -1 0 0
+D 0 2826 1 2
+M 1 2812 1 2828 -1 -1 -1 0 0
+E 1 2829 1 13 -1 0 0
+D 0 2828 1 2
+M 1 2823 1 2830 -1 -1 -1 0 0
+E 1 2826 1 13 -1 0 0
+D 0 2830 2 2
+D 0 2830 3 2
+M 1 2822 1 2832 -1 -1 -1 0 0
+E 1 2825 1 13 -1 0 0
+D 0 2832 1 2
+D 0 2832 2 2
+D 0 2833 1 2
+M 1 2817 1 2834 -1 -1 -1 0 0
+E 1 2820 1 13 -1 0 0
+M 1 2824 1 2835 -1 -1 -1 0 0
+G 1 2827 1 0 -1 0 0
+M 1 2813 1 2835 -1 -1 -1 0 0
+E 1 2816 1 13 -1 0 0
+D 0 2835 3 2
+D 0 2836 3 2
+M 1 2800 1 2837 -1 -1 -1 0 0
+G 1 2800 1 0 -1 0 0
+E 1 2828 1 12 -1 0 0
+E 1 2820 1 13 -1 0 0
+M 1 2815 1 2837 -1 -1 -1 0 0
+E 1 2818 1 13 -1 0 0
+M 1 2820 1 2838 -1 -1 -1 0 0
+E 1 2823 1 13 -1 0 0
+D 0 2838 1 2
+M 1 2818 1 2839 -1 -1 -1 0 0
+E 1 2821 1 13 -1 0 0
+M 1 2819 1 2839 -1 -1 -1 0 0
+E 1 2822 1 13 -1 0 0
+D 0 2839 1 2
+M 1 2821 1 2841 -1 -1 -1 0 0
+E 1 2824 1 13 -1 0 0
+D 0 2841 3 2
+M 1 2816 1 2842 -1 -1 -1 0 0
+G 1 2819 1 0 -1 0 0
+D 0 2842 3 2
+M 1 2814 1 2843 -1 -1 -1 0 0
+E 1 2817 1 13 -1 0 0
+D 0 2843 0 2
+D 0 2844 1 2
+S
+
+
+#SHOPS
+ 2832    0  0  0  0  0   120  90         0 23    ; A Vendor
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  2805 spec_thief
+M  2806 spec_cast_mage
+M  2814 spec_cast_cleric
+M  2818 spec_cast_cleric
+M  2819 spec_cast_mage
+M  2820 spec_thief
+M  2824 spec_cast_cleric
+M  2830 spec_cast_mage
+M  2831 spec_cast_cleric
+S
+
+
+#$

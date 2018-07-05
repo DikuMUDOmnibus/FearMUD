@@ -1,0 +1,162 @@
+#SLAB
+name        copperslab~
+vnum        21101
+adjective   Copper~
+kmob        0
+qps         4
+End
+#SLAB
+name        bronzeslab~
+vnum        21103
+adjective   Bronze~
+kmob        0
+qps         10
+End
+#SLAB
+name        ironslab~
+vnum        21105
+adjective   Iron~
+kmob        0
+qps         20
+End
+#SLAB
+name        steelslab~
+vnum        21107
+adjective   Steel~
+kmob        1
+qps         40
+End
+#SLAB
+name        dark-steelslab~
+vnum        21109
+adjective   Dark-Steel~
+kmob        2
+qps         100
+End
+#SLAB
+name        brassslab~
+vnum        21115
+adjective   Brass~
+kmob        3
+qps         200
+End
+#SLAB
+name        cobaltslab~
+vnum        21117
+adjective   Cobalt~
+kmob        4
+qps         500
+End
+#SLAB
+name        titaniumslab~
+vnum        21119
+adjective   Titanium~
+kmob        5
+qps         1000
+End
+#SLAB
+name        tungstenslab~
+vnum        21121
+adjective   Tungsten~
+kmob        6
+qps         2000
+End
+#SLAB
+name        mithrillslab~
+vnum        21111
+adjective   Mithril~
+kmob        0
+qps         6000
+End
+#SLAB
+name        darkmithrillslab~
+vnum        21113
+adjective   Dark-Mithril~
+kmob        7
+qps         10000
+End
+#SLAB
+name        maegluin~
+vnum        21123
+adjective   maegluin~
+kmob        0
+qps         30000
+End
+#SLAB
+name        gurthnai~
+vnum        21125
+adjective   gurthnai~
+kmob        8
+qps         30000
+End
+#SLAB
+name        darglin~
+vnum        21127
+adjective   darglin~
+kmob        0
+qps         30000
+End
+#SLAB
+name        valthran~
+vnum        21129
+adjective   valthran~
+kmob        0
+qps         30000
+End
+#SLAB
+name        sarnos~
+vnum        21131
+adjective   sarnos~
+kmob        0
+qps         30000
+End
+#SLAB
+name        anganar~
+vnum        21133
+adjective   anganar~
+kmob        0
+qps         60000
+End
+#SLAB
+name        falasin~
+vnum        21135
+adjective   falasin~
+kmob        9
+qps         60000
+End
+#SLAB
+name        khelekir~
+vnum        21137
+adjective   khelekir~
+kmob        0
+qps         60000
+End
+#SLAB
+name        urvaal~
+vnum        21139
+adjective   urvaal~
+kmob        0
+qps         60000
+End
+#SLAB
+name        raukonar~
+vnum        21141
+adjective   raukonar~
+kmob        0
+qps         60000
+End
+#SLAB
+name        adamant~
+vnum        21143
+adjective   adamant~
+kmob        10
+qps         150000
+End
+#SLAB
+name        ainalear~
+vnum        21145
+adjective   ainalear~
+kmob        0
+qps         300000
+End
+#END

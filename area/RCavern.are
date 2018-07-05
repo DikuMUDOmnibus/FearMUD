@@ -1,0 +1,768 @@
+#AREA   Rat Cavern~
+
+
+
+#VERSION 51
+#AUTHOR Drunsul~
+
+#RANGES
+0 0 0 7 0 0 0 0 0
+$
+
+#RESETMSG &GMore &Orats &Gscurry in from another room~
+
+#FLAGS
+0
+
+#ECONOMY 0 31204000 0
+
+#MOBILES
+#10300
+rat~
+A dirty looking rat~
+&cA &Odirty &clooking &Orat &cis here nibbling on something.
+~
+~
+33 0 0 0 C
+0 0 3 2 2 2
+12d2+7 1d2+1 0
+0 0
+112 112 0
+13 13 13 13 13 13 13 15
+0 0 0 0 0
+54 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 3 0
+#10301
+huge rat~
+A huge rat~
+&cA &whuge &Orat &cis here lookin at you hungrily.
+~
+~
+33 0 0 0 C
+0 0 4 3 3 3
+25d2+10 1d3+1 0
+0 0
+112 112 0
+13 13 13 13 13 13 13 15
+0 0 0 0 0
+54 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 7 0
+#10302
+human king~
+The rat king~
+&CThe &ORat &YKing &Cstands here waiting to kill you.
+~
+~
+35 0 0 0 C
+0 0 6 5 5 5
+50d2+20 3d3+2 0
+1000 0
+112 112 0
+20 18 18 13 13 13 13 15
+0 0 0 0 0
+0 0 0 0 1 1 15
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+> death_prog 24~
+mpoload 10303
+mpecho A large flap of skin is cut from the Rat King's body!
+~
+|
+#10349
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1073741825 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#10300
+moss~
+&YWarmly glowing &cmoss~
+Some &Ywarmly glowing &cmoss &Cis here happily provide light.~
+~
+13 1 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#10302
+pool water~
+&CA refreshing look pool of &Bwater.~
+&CThe water bubbles up from a crack in the &zcave &Cfloor.~
+~
+25 0 0
+100000 100000 0 0
+1.000000 0 0 0 0 0 0
+> use_prog 100~
+c 'cure light' $n
+~
+|
+#10303
+bag rat~
+A &Orat &Pskin &Gbag~
+A &pnasty &Gpiece of &Orat &Pskin &Glies here.~
+~
+15 0 257
+120 0 85 0
+1.000000 6000 0 0 0 0 0
+#10349
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#0
+
+
+#ROOMS
+#10300
+&zCave &WEntrance~
+&GA &zdark cave &Gheads to the north. Spider &Wwebs &Ghang across the 
+entrance, apperantly not many people have been here. Small &Otracks &Gin 
+the &wdust &Ghead into the cave. 
+~
+0&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 10301
+0 0
+D2
+~
+~
+134217728 -1 16000
+869 334
+S
+#10301
+&wInside a &zCave~
+&GHeading further into the &zcave &Gthe warm &Ysunlight &Gis beginning to 
+diminish. There is a &gmusty &Gsmell in the air, as if there is &Bwater 
+&Gwater trapped somewhere. 
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 10302
+0 0
+D2
+~
+~
+0 -1 10300
+0 0
+S
+#10302
+&RDead &zEnd~
+&GThe &zcave &Grounds off here. Although small &Otracks &Gin the &wdust 
+&Gcan be seen dissapearing into the west wall. . . 
+~
+4&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 10301
+0 0
+D3
+~
+wall~
+3 -1 10303
+0 0
+S
+#10303
+&zDark Cave~
+&GThis &zcave &Gappears very unfinished. No &Ylight &Greaches here from 
+the outside.  An undeterminable substance cakes the floor making every step
+result in a &Psquishy &Gnoise that rebounds down the cave. &ODirty rats 
+&Gscurry along the cave making little scratching noises as they move.
+~
+0&2
+0 13
+0
+0
+D1
+~
+wall~
+35 -1 10302
+0 0
+D3
+~
+~
+0 -1 10304
+0 0
+S
+#10304
+&zDark Cave~
+&GThis &zcave &Gappears very unfinished. No &Ylight &Greaches here from 
+the outside.  An undeterminable substance cakes the floor making every step
+result in a &Psquishy &Gnoise that rebounds down the cave. &ODirty rats 
+&Gscurry along the cave making little scratching noises as they move. 
+~
+0&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 10303
+0 0
+D3
+~
+~
+0 -1 10305
+0 0
+S
+#10305
+&zDark Cave~
+&GThis &zcave &Gappears very unfinished. No &Ylight &Greaches here from 
+the outside.  An undeterminable substance cakes the floor making every step
+result in a &Psquishy &Gnoise that rebounds down the cave. &ODirty rats 
+&Gscurry along the cave making little scratching noises as they move. 
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 10306
+0 0
+D1
+~
+~
+0 -1 10304
+0 0
+D3
+~
+~
+0 -1 10307
+0 0
+S
+#10306
+&zDark Cave~
+&GThis &zcave &Gappears very unfinished. No &Ylight &Greaches here from 
+the outside.  An undeterminable substance cakes the floor making every step
+result in a &Psquishy &Gnoise that rebounds down the cave. &ODirty rats 
+&Gscurry along the cave making little scratching noises as they move. 
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 10308
+0 0
+D2
+~
+~
+0 -1 10305
+0 0
+S
+#10307
+Quiet &zAlchove~
+&GWith no rats scurring around, this &zalchove &Gis indeed &Wquite &Gin 
+compairison to the rest of the &zcave&G. Some &Ystrange &cmoss &Gemits a 
+warm light allowing torches to be doused. A small pool of &bwater &Gis 
+here, looking very &Wrefreshing&G. 
+~
+0
+0 0
+0
+0
+D1
+~
+~
+0 -1 10305
+0 0
+S
+#10308
+&zDark Cave~
+&GThis &zcave &Gappears very unfinished. No &Ylight &Greaches here from 
+the outside.  An undeterminable substance cakes the floor making every step
+result in a &Psquishy &Gnoise that rebounds down the cave. &ODirty rats 
+&Gscurry along the cave making little scratching noises as they move. 
+~
+0&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 10309
+0 0
+D2
+~
+~
+0 -1 10306
+0 0
+S
+#10309
+&zDark Cave~
+&GThis &zcave &Gappears very unfinished. No &Ylight &Greaches here from 
+the outside.  An undeterminable substance cakes the floor making every step
+result in a &Psquishy &Gnoise that rebounds down the cave. &ODirty rats 
+&Gscurry along the cave making little scratching noises as they move. 
+~
+0&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 10310
+0 0
+D3
+~
+~
+0 -1 10308
+0 0
+S
+#10310
+&zDark Cave~
+&GThis &zcave &Gappears very unfinished. No &Ylight &Greaches here from 
+the outside.  An undeterminable substance cakes the floor making every step
+result in a &Psquishy &Gnoise that rebounds down the cave. &ODirty rats 
+&Gscurry along the cave making little scratching noises as they move. 
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 10311
+0 0
+D3
+~
+~
+0 -1 10309
+0 0
+S
+#10311
+&zDark Cave~
+&GThis &zcave &Gappears very unfinished. No &Ylight &Greaches here from 
+the outside.  An undeterminable substance cakes the floor making every step
+result in a &Psquishy &Gnoise that rebounds down the cave. &ODirty rats 
+&Gscurry along the cave making little scratching noises as they move. 
+~
+0&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 10310
+0 0
+D5
+~
+~
+0 -1 10312
+0 0
+S
+#10312
+&wTight &WPassage~
+&GThis passage looks as if it were tunneled out by &wclaws&G. Loose &Odirt 
+&Gfalls from the walls and ceiling making the area appear as if it were 
+extremely unstable. 
+~
+0&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 10313
+0 0
+D4
+~
+~
+0 -1 10311
+0 0
+S
+#10313
+&wTight &WPassage~
+&GThis passage looks as if it were tunneled out by &wclaws&G. Loose &Odirt 
+&Gfalls from the walls and ceiling making the area appear as if it were 
+extremely unstable. 
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 10312
+0 0
+D2
+~
+~
+0 -1 10314
+0 0
+S
+#10314
+&wTight &WPassage~
+&GThis passage looks as if it were tunneled out by &wclaws&G. Loose &Odirt 
+&Gfalls from the walls and ceiling making the area appear as if it were 
+extremely unstable. 
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 10313
+0 0
+D2
+~
+~
+0 -1 10315
+0 0
+S
+#10315
+Before a &wCavern~
+&GWhere the tunneled dirt ends a great &glimestone &wcavern &Gbegins. 
+&ORats &Gcan be seen everywhere in the &wcavern &Gclimbing all over each 
+other. The smell of &Od&ge&Oc&ga&Oy &Gpermeates everything making even the 
+strong hearted gag. 
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 10314
+0 0
+D2
+~
+~
+0 -1 10316
+0 0
+S
+#10316
+&ORat &wCavern~
+&GThe walls and ceiling of this &wcavern &Gare made of &glimestone&G. 
+Stalagmites and stalagtites can be seen at random throughout the cave. 
+&ORats &Gare everywhere now. Bigger &Orats &Gcan now be seen along with 
+the smaller ones, grotesque in their size. All the &Orats &Gdo have one 
+thing in common. They are all hungry 
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 10315
+0 0
+D1
+~
+~
+0 -1 10317
+0 0
+D2
+~
+~
+0 -1 10320
+0 0
+D3
+~
+~
+0 -1 10318
+0 0
+S
+#10317
+&ORat &wCavern~
+&GThe walls and ceiling of this &wcavern &Gare made of &glimestone&G. 
+Stalagmites and stalagtites can be seen at random throughout the cave. 
+&ORats &Gare everywhere now. Bigger &Orats &Gcan now be seen along with 
+the smaller ones, grotesque in their size. All the &Orats &Gdo have one 
+thing in common. They are all hungry 
+~
+0&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 10321
+0 0
+D3
+~
+~
+0 -1 10316
+0 0
+S
+#10318
+&ORat &wCavern~
+&GThe walls and ceiling of this &wcavern &Gare made of &glimestone&G. 
+Stalagmites and stalagtites can be seen at random throughout the cave. 
+&ORats &Gare everywhere now. Bigger &Orats &Gcan now be seen along with 
+the smaller ones, grotesque in their size. All the &Orats &Gdo have one 
+thing in common. They are all hungry 
+~
+0&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 10316
+0 0
+D2
+~
+~
+0 -1 10319
+0 0
+S
+#10319
+&ORat &wCavern~
+&GThe walls and ceiling of this &wcavern &Gare made of &glimestone&G. 
+Stalagmites and stalagtites can be seen at random throughout the cave. 
+&ORats &Gare everywhere now. Bigger &Orats &Gcan now be seen along with 
+the smaller ones, grotesque in their size. All the &Orats &Gdo have one 
+thing in common. They are all hungry 
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 10318
+0 0
+D1
+~
+~
+0 -1 10320
+0 0
+S
+#10320
+&ORat &wCavern~
+&GThe walls and ceiling of this &wcavern &Gare made of &glimestone&G. 
+Stalagmites and stalagtites can be seen at random throughout the cave. 
+&ORats &Gare everywhere now. Bigger &Orats &Gcan now be seen along with 
+the smaller ones, grotesque in their size. All the &Orats &Gdo have one 
+thing in common. They are all hungry 
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 10316
+0 0
+D1
+~
+~
+0 -1 10321
+0 0
+D2
+~
+~
+0 -1 10322
+0 0
+D3
+~
+~
+0 -1 10319
+0 0
+S
+#10321
+&ORat &wCavern~
+&GThe walls and ceiling of this &wcavern &Gare made of &glimestone&G. 
+Stalagmites and stalagtites can be seen at random throughout the cave. 
+&ORats &Gare everywhere now. Bigger &Orats &Gcan now be seen along with 
+the smaller ones, grotesque in their size. All the &Orats &Gdo have one 
+thing in common. They are all hungry 
+~
+0&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 10317
+0 0
+D3
+~
+~
+0 -1 10320
+0 0
+S
+#10322
+&ORat &YKing~
+&GA &wragged &Glooking &Whuman &Gsits here on his &Ythrone &Gof &Orefuse 
+&Gand &zdead &Orats&G. In the middle of knawing on some substance he looks 
+up, surprised to see someone entering his &Ythrone &Groom. This room, 
+really more of a hollower out depression in the wall, looks as if the 
+&Orats &Gscratched the face of the &glimestone &Gfor years until it gave 
+way. 
+~
+0&2
+0 0
+0
+0
+D0
+~
+~
+0 -1 10320
+0 0
+S
+#10349
+Floating in a void~
+~
+4
+0 1
+0
+0
+S
+#0
+
+
+#RESETS
+M 1 10300 1 10303 -1 -1 -1 0 0
+M 1 10300 1 10303 -1 -1 -1 0 0
+M 1 10300 1 10304 -1 -1 -1 0 0
+M 1 10300 1 10304 -1 -1 -1 0 0
+M 1 10300 1 10304 -1 -1 -1 0 0
+M 1 10300 1 10305 -1 -1 -1 0 0
+M 1 10300 1 10305 -1 -1 -1 0 0
+M 1 10300 1 10305 -1 -1 -1 0 0
+M 1 10300 1 10306 -1 -1 -1 0 0
+M 1 10300 1 10306 -1 -1 -1 0 0
+M 1 10300 1 10306 -1 -1 -1 0 0
+M 1 10300 1 10306 -1 -1 -1 0 0
+M 1 10300 1 10308 -1 -1 -1 0 0
+M 1 10300 1 10308 -1 -1 -1 0 0
+M 1 10300 1 10308 -1 -1 -1 0 0
+M 1 10300 1 10308 -1 -1 -1 0 0
+M 1 10300 1 10309 -1 -1 -1 0 0
+M 1 10300 1 10309 -1 -1 -1 0 0
+M 1 10300 1 10309 -1 -1 -1 0 0
+M 1 10300 1 10309 -1 -1 -1 0 0
+M 1 10300 1 10310 -1 -1 -1 0 0
+M 1 10300 1 10310 -1 -1 -1 0 0
+M 1 10300 1 10310 -1 -1 -1 0 0
+M 1 10300 1 10310 -1 -1 -1 0 0
+M 1 10300 1 10311 -1 -1 -1 0 0
+M 1 10300 1 10311 -1 -1 -1 0 0
+M 1 10300 1 10311 -1 -1 -1 0 0
+M 1 10300 1 10311 -1 -1 -1 0 0
+M 1 10300 1 10311 -1 -1 -1 0 0
+M 1 10300 1 10312 -1 -1 -1 0 0
+M 1 10300 1 10312 -1 -1 -1 0 0
+M 1 10300 1 10313 -1 -1 -1 0 0
+M 1 10300 1 10313 -1 -1 -1 0 0
+M 1 10300 1 10314 -1 -1 -1 0 0
+M 1 10300 1 10314 -1 -1 -1 0 0
+M 1 10300 1 10315 -1 -1 -1 0 0
+M 1 10300 1 10315 -1 -1 -1 0 0
+M 1 10300 1 10315 -1 -1 -1 0 0
+M 1 10300 1 10315 -1 -1 -1 0 0
+M 1 10300 1 10315 -1 -1 -1 0 0
+M 1 10300 1 10316 -1 -1 -1 0 0
+M 1 10300 1 10316 -1 -1 -1 0 0
+M 1 10300 1 10316 -1 -1 -1 0 0
+M 1 10301 1 10316 -1 -1 -1 0 0
+M 1 10301 1 10316 -1 -1 -1 0 0
+M 1 10300 1 10317 -1 -1 -1 0 0
+M 1 10300 1 10317 -1 -1 -1 0 0
+M 1 10300 1 10317 -1 -1 -1 0 0
+M 1 10301 1 10317 -1 -1 -1 0 0
+M 1 10301 1 10317 -1 -1 -1 0 0
+M 1 10301 1 10318 -1 -1 -1 0 0
+M 1 10301 1 10318 -1 -1 -1 0 0
+M 1 10300 1 10318 -1 -1 -1 0 0
+M 1 10300 1 10318 -1 -1 -1 0 0
+M 1 10300 1 10318 -1 -1 -1 0 0
+M 1 10300 1 10319 -1 -1 -1 0 0
+M 1 10300 1 10319 -1 -1 -1 0 0
+M 1 10300 1 10319 -1 -1 -1 0 0
+M 1 10301 1 10319 -1 -1 -1 0 0
+M 1 10301 1 10319 -1 -1 -1 0 0
+M 1 10301 1 10319 -1 -1 -1 0 0
+M 1 10300 1 10320 -1 -1 -1 0 0
+M 1 10300 1 10320 -1 -1 -1 0 0
+M 1 10300 1 10320 -1 -1 -1 0 0
+M 1 10301 1 10320 -1 -1 -1 0 0
+M 1 10301 1 10320 -1 -1 -1 0 0
+M 1 10301 1 10320 -1 -1 -1 0 0
+M 1 10300 1 10321 -1 -1 -1 0 0
+M 1 10300 1 10321 -1 -1 -1 0 0
+M 1 10300 1 10321 -1 -1 -1 0 0
+M 1 10301 1 10321 -1 -1 -1 0 0
+M 1 10301 1 10321 -1 -1 -1 0 0
+M 1 10301 1 10321 -1 -1 -1 0 0
+O 1 10302 1 10307 -1 -1 -1 -1 0 0
+O 1 10300 1 10307 -1 -1 -1 -1 0 0
+M 1 10300 1 10302 -1 -1 -1 0 0
+D 0 10302 3 1
+M 1 10302 1 10322 -1 -1 -1 0 0
+E 1 21060 1 3 21103 0 0
+E 1 21033 1 13 21105 0 0
+E 1 21064 1 6 21103 0 0
+E 1 21048 1 5 21103 0 0
+E 1 21052 1 9 21103 0 0
+E 1 21056 1 7 21103 0 0
+E 1 21052 1 10 21103 0 0
+E 1 21056 1 8 21103 0 0
+M 1 10300 1 10322 -1 -1 -1 0 0
+M 1 10300 1 10322 -1 -1 -1 0 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

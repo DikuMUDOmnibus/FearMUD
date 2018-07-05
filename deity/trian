@@ -1,0 +1,49 @@
+#DEITY
+Filename		../deity/trian~
+Name		Trian~
+Description	Trian, the God of Creation, is a humbly good natured fellow.  He
+likes to see Humans and Elves create new ideas for the good of 
+their kinds.  He dislikes Orcs and Trolls because they cannot 
+comprehend the term, "intelligence".  He likes to see magical spells
+and inventions, and doesn't really like the idea of weapons.
+~
+Alignment		500
+Worshippers	0
+Flee		-2
+Flee_npcrace	-2
+Flee_npcfoe	-5
+Kill		1
+Kill_npcrace	0
+Kill_npcfoe	15
+Kill_magic	5
+Sac		4
+Bury_corpse	20
+Aid_spell		50
+Aid		10
+Steal		-10
+Backstab		-10
+Die		-25
+Die_npcrace	-50
+Die_npcfoe	-100
+Spell_aid		40
+Dig_corpse	-20
+Scorpse		350
+Savatar		450
+Sdeityobj		200
+Srecall		200
+Race		-1
+Class		-1
+Element		4
+Sex		-1
+Affected		1572864
+Npcrace		0
+Npcfoe		8
+Suscept		2048
+Race2		0
+Susceptnum	500
+Elementnum	900
+Affectednum	500
+Objstat		1
+End
+
+#END

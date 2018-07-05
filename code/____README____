@@ -1,0 +1,50 @@
+Make sure to grab the new race files 
+
+Also
+
+weapons
+v0 - Condition (1 - 100) (also num spells)
+v1 - Low dam
+v2 - Hi dam
+v3 - Weapon size
+v4 - Spell <sn> (for staves)
+v5 - Spell Strength (1001 to 1007)
+v6 - Sets ore for instaroom <vnum>
+v7 - bash mod
+v8 - slash mod
+v9 - stab mod
+v10 - Durability (1 - 20) (also affects wand)
+
+armor
+v0 - bash mod
+v1 - slash mod
+v2 - stab mod
+v3 - Condition (100 tops)
+v4 - Durability (20 tops)
+v6 - Sets ore for instaroom <vnum>
+
+ores
+v0 - Bash Mod
+v1 - Slash Mod
+v2 - Stab Mod
+v3 - Damage Mod
+v4 - Weight Mod
+v5 - Durability
+v6 - Cost Mod
+
+m1-9 values
+--------------
+Extract Mobs
+m1 - Resources on Mob
+m2 - Max Resources that can be on Mob
+m3 - Cost per hour
+m5 - Ore Type
+m6 - Amount taken per round
+
+
+Note, due to weapon changes and eq slot changes, new code will trash the game so it is not
+playable.  However, it will update areas so it shouldn't crash
+
+
+Only magic castable items will be staves, potions, scrolls in 2.0.  All strength values will
+be at v5

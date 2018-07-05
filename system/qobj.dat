@@ -1,0 +1,3934 @@
+#OBJ
+Type         3
+Gold         200
+Weight       0.250000
+Boss         0
+Hidiff       3
+Lowdiff      1
+Name         potion of cure light~
+QPS          5
+Race         0
+Value        0 32 -1 -1 0 1004 0 0 0 0 0 0 0 0
+Scroll       'cure light' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         550
+Weight       0.250000
+Boss         0
+Hidiff       6
+Lowdiff      4
+Name         potion of cure serious~
+QPS          50
+Race         0
+Value        0 34 -1 -1 0 1004 0 0 0 0 0 0 0 0
+Scroll       'cure serious' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         750
+Weight       0.250000
+Boss         1
+Hidiff       6
+Lowdiff      4
+Name         greater potion of cure serious~
+QPS          75
+Race         0
+Value        0 34 -1 -1 0 1007 0 0 0 0 0 0 0 0
+Scroll       'cure serious' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         1350
+Weight       0.250000
+Boss         0
+Hidiff       8
+Lowdiff      7
+Name         potion of cure critical~
+QPS          650
+Race         0
+Value        0 31 -1 -1 0 1004 0 0 0 0 0 0 0 0
+Scroll       'cure critical' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         1800
+Weight       0.250000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         greater potion of cure critical~
+QPS          875
+Race         0
+Value        0 31 -1 -1 0 1007 0 0 0 0 0 0 0 0
+Scroll       'cure critical' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         5000
+Weight       0.250000
+Boss         0
+Hidiff       13
+Lowdiff      9
+Name         potion of heal~
+QPS          2500
+Race         0
+Value        0 94 -1 -1 0 1004 0 0 0 0 0 0 0 0
+Scroll       'heal' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         7000
+Weight       0.250000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         greater potion of heal~
+QPS          3700
+Race         0
+Value        0 94 -1 -1 0 1007 0 0 0 0 0 0 0 0
+Scroll       'heal' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         15000
+Weight       0.250000
+Boss         0
+Hidiff       13
+Lowdiff      11
+Name         potion of divine rain~
+QPS          25000
+Race         0
+Value        0 48 -1 -1 0 1004 0 0 0 0 0 0 0 0
+Scroll       'divine rain' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         100000
+Weight       0.250000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         potion of power heal~
+QPS          50000
+Race         0
+Value        0 139 -1 -1 0 1004 0 0 0 0 0 0 0 0
+Scroll       'power heal' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         550
+Weight       0.250000
+Boss         0
+Hidiff       6
+Lowdiff      4
+Name         potion of armor~
+QPS          50
+Race         0
+Value        0 10 -1 -1 0 1004 0 0 0 0 0 0 0 0
+Scroll       'armor' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         800
+Weight       0.250000
+Boss         1
+Hidiff       6
+Lowdiff      4
+Name         greater potion of armor~
+QPS          75
+Race         0
+Value        0 10 -1 -1 0 1007 0 0 0 0 0 0 0 0
+Scroll       'armor' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         800
+Weight       0.250000
+Boss         0
+Hidiff       6
+Lowdiff      4
+Name         potion of bless~
+QPS          50
+Race         0
+Value        0 16 -1 -1 0 1004 0 0 0 0 0 0 0 0
+Scroll       'bless' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         1100
+Weight       0.250000
+Boss         1
+Hidiff       6
+Lowdiff      4
+Name         greater potion of bless~
+QPS          75
+Race         0
+Value        0 16 -1 -1 0 1007 0 0 0 0 0 0 0 0
+Scroll       'bless' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         450
+Weight       0.250000
+Boss         0
+Hidiff       3
+Lowdiff      1
+Name         potion of refreshment~
+QPS          5
+Race         0
+Value        0 142 -1 -1 0 1004 0 0 0 0 0 0 0 0
+Scroll       'refresh' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         650
+Weight       0.250000
+Boss         1
+Hidiff       3
+Lowdiff      1
+Name         greater potion of refreshment~
+QPS          7
+Race         0
+Value        0 142 -1 -1 0 1007 0 0 0 0 0 0 0 0
+Scroll       'refresh' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         2500
+Weight       0.250000
+Boss         0
+Hidiff       8
+Lowdiff      7
+Name         potion of shield~
+QPS          650
+Race         0
+Value        0 157 -1 -1 0 1004 0 0 0 0 0 0 0 0
+Scroll       'shield' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         3500
+Weight       0.250000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         greater potion of shield~
+QPS          875
+Race         0
+Value        0 157 -1 -1 0 1007 0 0 0 0 0 0 0 0
+Scroll       'shield' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         700
+Weight       0.250000
+Boss         0
+Hidiff       6
+Lowdiff      4
+Name         potion of revitalize spirit~
+QPS          50
+Race         0
+Value        0 150 -1 -1 0 1004 0 0 0 0 0 0 0 0
+Scroll       'revitalize spirit' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         2000
+Weight       0.250000
+Boss         1
+Hidiff       6
+Lowdiff      4
+Name         greater potion of revitalize spirit~
+QPS          75
+Race         0
+Value        0 150 -1 -1 1007 0 0 0 0 0 0 0 0 0
+Scroll       'revitalize spirit' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         7000
+Weight       0.250000
+Boss         0
+Hidiff       10
+Lowdiff      9
+Name         potion of stone skin~
+QPS          2500
+Race         0
+Value        0 163 -1 -1 0 1004 0 0 0 0 0 0 0 0
+Scroll       'stone skin' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         11000
+Weight       0.250000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         greater potion of stone skin~
+QPS          3700
+Race         0
+Value        0 163 -1 -1 0 1007 0 0 0 0 0 0 0 0
+Scroll       'stone skin' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         15000
+Weight       0.250000
+Boss         2
+Hidiff       6
+Lowdiff      4
+Name         weak potion of sanctify~
+QPS          2500
+Race         0
+Value        0 153 -1 -1 0 1002 0 0 0 0 0 0 0 0
+Scroll       'sanctify' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         25000
+Weight       0.250000
+Boss         2
+Hidiff       8
+Lowdiff      7
+Name         potion of sanctify~
+QPS          25000
+Race         0
+Value        0 153 -1 -1 0 1004 0 0 0 0 0 0 0 0
+Scroll       'sanctify' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         40000
+Weight       0.250000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         greater potion of sanctify~
+QPS          50000
+Race         0
+Value        0 153 -1 -1 0 1007 0 0 0 0 0 0 0 0
+Scroll       'sanctify' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         100000
+Weight       0.250000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         weak potion of antimagic shell~
+QPS          25000
+Race         0
+Value        0 8 -1 -1 0 1001 0 0 0 0 0 0 0 0
+Scroll       'antimagic shell' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         200000
+Weight       0.250000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         potion of antimagic shell~
+QPS          50000
+Race         0
+Value        0 8 -1 -1 0 1004 0 0 0 0 0 0 0 0
+Scroll       'antimagic shell' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         300000
+Weight       0.250000
+Boss         2
+Hidiff       13
+Lowdiff      11
+Name         greater potion of antimagic shell~
+QPS          125000
+Race         0
+Value        0 8 -1 -1 0 1007 0 0 0 0 0 0 0 0
+Scroll       'antimagic shell' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         3
+Gold         10000
+Weight       0.250000
+Boss         2
+Hidiff       3
+Lowdiff      1
+Name         potion of divine protection~
+QPS          125
+Race         0
+Value        0 47 -1 -1 1004 0 0 0 0 0 0 0 0 0
+Scroll       'divine protection' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         2500
+Weight       0.100000
+Boss         2
+Hidiff       3
+Lowdiff      1
+Name         azure ring~
+QPS          25
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       0&0&8
+End
+
+#OBJ
+Type         5
+Gold         2500
+Weight       0.150000
+Boss         2
+Hidiff       3
+Lowdiff      1
+Name         azure necklace~
+QPS          25
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       0&0&8
+End
+
+#OBJ
+Type         5
+Gold         2500
+Weight       0.100000
+Boss         1
+Hidiff       6
+Lowdiff      4
+Name         azure ring~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       0&0&8
+End
+
+#OBJ
+Type         5
+Gold         2500
+Weight       0.150000
+Boss         1
+Hidiff       6
+Lowdiff      4
+Name         azure necklace~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       0&0&8
+End
+
+#OBJ
+Type         5
+Gold         7500
+Weight       0.100000
+Boss         2
+Hidiff       6
+Lowdiff      4
+Name         grinlin ring~
+QPS          250
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       0&0&16
+End
+
+#OBJ
+Type         5
+Gold         7500
+Weight       0.150000
+Boss         2
+Hidiff       6
+Lowdiff      4
+Name         grinlin necklace~
+QPS          250
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       0&0&16
+End
+
+#OBJ
+Type         5
+Gold         7500
+Weight       0.100000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         grinlin ring~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       0&0&16
+End
+
+#OBJ
+Type         5
+Gold         7500
+Weight       0.100000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         grinlin ring~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       0&0&16
+End
+
+#OBJ
+Type         5
+Gold         15000
+Weight       0.100000
+Boss         2
+Hidiff       8
+Lowdiff      7
+Name         shimmering ring~
+QPS          10000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       0&0&1040
+End
+
+#OBJ
+Type         5
+Gold         15000
+Weight       0.150000
+Boss         2
+Hidiff       8
+Lowdiff      7
+Name         shimmering necklace~
+QPS          10000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       0&0&1040
+End
+
+#OBJ
+Type         5
+Gold         15000
+Weight       0.100000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         shimmering ring~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       0&0&1040
+End
+
+#OBJ
+Type         5
+Gold         15000
+Weight       0.150000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         shimmering necklace~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       0&0&1040
+End
+
+#OBJ
+Type         5
+Gold         35000
+Weight       0.100000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         translucent ring~
+QPS          50000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       0&0&1056
+End
+
+#OBJ
+Type         5
+Gold         35000
+Weight       0.150000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         translucent necklace~
+QPS          50000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       0&0&1056
+End
+
+#OBJ
+Type         5
+Gold         35000
+Weight       0.100000
+Boss         0
+Hidiff       13
+Lowdiff      11
+Name         translucent ring~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       0&0&1056
+End
+
+#OBJ
+Type         5
+Gold         35000
+Weight       0.150000
+Boss         0
+Hidiff       13
+Lowdiff      11
+Name         translucent necklace~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       0&0&1056
+End
+
+#OBJ
+Type         5
+Gold         100000
+Weight       0.100000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         ring of divine hope~
+QPS          150000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       0&0&2112
+End
+
+#OBJ
+Type         5
+Gold         100000
+Weight       0.150000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         necklace of divine hope~
+QPS          150000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       0&0&2112
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.100000
+Boss         2
+Hidiff       13
+Lowdiff      11
+Name         ring of divine might~
+QPS          500000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       0&0&4224
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.150000
+Boss         2
+Hidiff       13
+Lowdiff      11
+Name         necklace of divine might~
+QPS          500000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       0&0&4224
+End
+
+#OBJ
+Type         5
+Gold         250000
+Weight       0.100000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         stealth ring~
+QPS          35000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       32
+End
+
+#OBJ
+Type         5
+Gold         100000
+Weight       0.100000
+Boss         2
+Hidiff       8
+Lowdiff      7
+Name         blessed ring of detection~
+QPS          6000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       320
+End
+
+#OBJ
+Type         5
+Gold         100000
+Weight       0.100000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         blessing ring of deteciton~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       320
+End
+
+#OBJ
+Type         5
+Gold         50000
+Weight       0.100000
+Boss         2
+Hidiff       6
+Lowdiff      4
+Name         magic ring of detection~
+QPS          800
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       128
+End
+
+#OBJ
+Type         5
+Gold         50000
+Weight       0.100000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         magic ring of detection~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       128
+End
+
+#OBJ
+Type         5
+Gold         750000
+Weight       0.100000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         mighty ring of protection~
+QPS          150000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       512
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.100000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         ring of blowing air~
+QPS          35000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       1024
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.100000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         ring of blowing air~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       1024
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.100000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         ring of phasing~
+QPS          35000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       2048
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.100000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         ring of phasing~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       2048
+End
+
+#OBJ
+Type         5
+Gold         350000
+Weight       0.100000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         ring of pure sight~
+QPS          50000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       8192
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.100000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         ring of viewing~
+QPS          35000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       32768
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.100000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         ring of viewing~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       32768
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.100000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         ring of blazing heat~
+QPS          35000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       65536
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.100000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         ring of blazing heat~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       65536
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.100000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         ring of streaking energy~
+QPS          35000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       131072
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.100000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         ring of streaking energy~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       131072
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.100000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         ring of frosty pain~
+QPS          35000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       262144
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.100000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         ring of frosty pain~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       262144
+End
+
+#OBJ
+Type         5
+Gold         100000
+Weight       0.100000
+Boss         2
+Hidiff       8
+Lowdiff      7
+Name         ring of the ocean~
+QPS          6000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       524288
+End
+
+#OBJ
+Type         5
+Gold         100000
+Weight       0.100000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         ring of the ocean~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       524288
+End
+
+#OBJ
+Type         5
+Gold         100000
+Weight       0.100000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         ring of sight~
+QPS          1000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       1048576
+End
+
+#OBJ
+Type         5
+Gold         250000
+Weight       0.100000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         ring of greater sight~
+QPS          10000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       2097152
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.100000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         ring of greatest sight~
+QPS          35000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       4194304
+End
+
+#OBJ
+Type         5
+Gold         250000
+Weight       0.100000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         ring of endless strength~
+QPS          35000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       0&0&2
+End
+
+#OBJ
+Type         5
+Gold         250000
+Weight       0.100000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         ring of endless strength~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1
+Flags2       0&0&2
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.100000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         ring of percussion~
+QPS          50000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1&0&0&128
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.100000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         ring of percussion~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1&0&0&128
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.100000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         ring of blades~
+QPS          50000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1&0&0&256
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.100000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         ring of blades~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1&0&0&256
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.100000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         ring of daggers~
+QPS          50000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1&0&0&512
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.100000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         ring of daggers~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1&0&0&512
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.100000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         ring of flames~
+QPS          50000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1&0&0&1024
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.100000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         ring of flames~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1&0&0&1024
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.100000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         ring of frost~
+QPS          50000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1&0&0&2048
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.100000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         ring of frost~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1&0&0&2048
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.100000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         ring of stones~
+QPS          50000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1&0&0&4096
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.100000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         ring of stones~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1&0&0&4096
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.100000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         ring of sparks~
+QPS          50000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1&0&0&8192
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.100000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         ring of sparks~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1&0&0&8192
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.100000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         ring of winds~
+QPS          50000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1&0&0&16384
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.100000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         ring of winds~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1&0&0&16384
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         850000
+Weight       0.100000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         ring of the arcane~
+QPS          100000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1&0&0&65536
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         850000
+Weight       0.100000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         ring of the vicious~
+QPS          100000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        1&0&0&32768
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         250000
+Weight       0.150000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         stealth necklace~
+QPS          35000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       32
+End
+
+#OBJ
+Type         5
+Gold         100000
+Weight       0.150000
+Boss         2
+Hidiff       8
+Lowdiff      7
+Name         blessed necklace of detection~
+QPS          6000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       320
+End
+
+#OBJ
+Type         5
+Gold         100000
+Weight       0.150000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         blessing necklace of deteciton~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       320
+End
+
+#OBJ
+Type         5
+Gold         50000
+Weight       0.150000
+Boss         2
+Hidiff       6
+Lowdiff      4
+Name         magic necklace of detection~
+QPS          800
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       128
+End
+
+#OBJ
+Type         5
+Gold         50000
+Weight       0.150000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         magic necklace of detection~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       128
+End
+
+#OBJ
+Type         5
+Gold         750000
+Weight       0.150000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         mighty necklace of protection~
+QPS          150000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       512
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.150000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         necklace of blowing air~
+QPS          35000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       1024
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.150000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         necklace of blowing air~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       1024
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.150000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         necklace of phasing~
+QPS          35000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       2048
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.150000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         necklace of phasing~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       2048
+End
+
+#OBJ
+Type         5
+Gold         350000
+Weight       0.150000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         necklace of pure sight~
+QPS          50000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       8192
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.150000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         necklace of viewing~
+QPS          35000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       32768
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.150000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         necklace of viewing~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       32768
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.150000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         necklace of blazing heat~
+QPS          35000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       65536
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.150000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         necklace of blazing heat~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       65536
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.150000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         necklace of streaking energy~
+QPS          35000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       131072
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.150000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         necklace of streaking energy~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       131072
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.150000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         necklace of frosty pain~
+QPS          35000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       262144
+End
+
+#OBJ
+Type         5
+Gold         200000
+Weight       0.150000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         necklace of frosty pain~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       262144
+End
+
+#OBJ
+Type         5
+Gold         100000
+Weight       0.150000
+Boss         2
+Hidiff       8
+Lowdiff      7
+Name         necklace of the ocean~
+QPS          6000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       524288
+End
+
+#OBJ
+Type         5
+Gold         100000
+Weight       0.150000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         necklace of the ocean~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       524288
+End
+
+#OBJ
+Type         5
+Gold         100000
+Weight       0.150000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         necklace of sight~
+QPS          1000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       1048576
+End
+
+#OBJ
+Type         5
+Gold         250000
+Weight       0.150000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         necklace of greater sight~
+QPS          10000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       2097152
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.150000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         necklace of greatest sight~
+QPS          35000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       4194304
+End
+
+#OBJ
+Type         5
+Gold         250000
+Weight       0.150000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         necklace of endless strength~
+QPS          35000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       0&0&2
+End
+
+#OBJ
+Type         5
+Gold         250000
+Weight       0.150000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         necklace of endless strength~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128
+Flags2       0&0&2
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.150000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         necklace of percussion~
+QPS          50000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128&0&0&128
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.150000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         necklace of percussion~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128&0&0&128
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.150000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         necklace of blades~
+QPS          50000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128&0&0&256
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.150000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         necklace of blades~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128&0&0&256
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.150000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         necklace of daggers~
+QPS          50000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128&0&0&512
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.150000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         necklace of daggers~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128&0&0&512
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.150000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         necklace of flames~
+QPS          50000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128&0&0&1024
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.150000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         necklace of flames~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128&0&0&1024
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.150000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         necklace of frost~
+QPS          50000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128&0&0&2048
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.150000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         necklace of frost~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128&0&0&2048
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.150000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         necklace of stones~
+QPS          50000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128&0&0&4096
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.150000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         necklace of stones~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128&0&0&4096
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.150000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         necklace of sparks~
+QPS          50000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128&0&0&8192
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.150000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         necklace of sparks~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128&0&0&8192
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.150000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         necklace of winds~
+QPS          50000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128&0&0&16384
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         500000
+Weight       0.150000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         necklace of winds~
+QPS          0
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128&0&0&16384
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         850000
+Weight       0.150000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         necklace of the arcane~
+QPS          100000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128&0&0&65536
+Flags2       0
+End
+
+#OBJ
+Type         5
+Gold         850000
+Weight       0.150000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         necklace of the vicious~
+QPS          100000
+Race         0
+Value        0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        128&0&0&32768
+Flags2       0
+End
+
+#OBJ
+Type         11
+Gold         2200
+Weight       5.000000
+Boss         1
+Hidiff       3
+Lowdiff      1
+Name         steel repair hammer~
+QPS          50
+Race         0
+Value        10 10 35 35 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         11
+Gold         2200
+Weight       5.000000
+Boss         0
+Hidiff       6
+Lowdiff      4
+Name         steel repair hammer~
+QPS          0
+Race         0
+Value        10 10 35 35 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         11
+Gold         8000
+Weight       5.000000
+Boss         1
+Hidiff       6
+Lowdiff      4
+Name         tungsten repair hammer~
+QPS          250
+Race         0
+Value        30 30 40 40 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         11
+Gold         8000
+Weight       5.000000
+Boss         0
+Hidiff       8
+Lowdiff      7
+Name         tungsten repair hammer~
+QPS          0
+Race         0
+Value        30 30 40 40 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         11
+Gold         15000
+Weight       5.000000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         mithril repair hammer~
+QPS          1000
+Race         0
+Value        50 50 45 50 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         11
+Gold         15000
+Weight       5.000000
+Boss         0
+Hidiff       10
+Lowdiff      9
+Name         mithril repair hammer~
+QPS          0
+Race         0
+Value        50 50 45 50 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         11
+Gold         50000
+Weight       5.000000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         a masters repair hammer~
+QPS          5000
+Race         0
+Value        150 100 50 70 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         11
+Gold         50000
+Weight       5.000000
+Boss         0
+Hidiff       13
+Lowdiff      11
+Name         a masters repair hammer~
+QPS          0
+Race         0
+Value        150 100 50 70 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         11
+Gold         100000
+Weight       5.000000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         a grandmasters repair hammer~
+QPS          10000
+Race         0
+Value        350 350 60 100 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         11
+Gold         500000
+Weight       5.000000
+Boss         2
+Hidiff       13
+Lowdiff      11
+Name         a perfectly crafted repair hammer~
+QPS          250000
+Race         0
+Value        100000000 100000000 70 150 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         6
+Gold         350
+Weight       3.000000
+Boss         0
+Hidiff       3
+Lowdiff      1
+Name         a leather bag~
+QPS          5
+Race         0
+Value        40 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        256
+Flags2       0
+End
+
+#OBJ
+Type         6
+Gold         1200
+Weight       6.000000
+Boss         1
+Hidiff       3
+Lowdiff      1
+Name         a leather backpack~
+QPS          10
+Race         0
+Value        80 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0&0&65536
+End
+
+#OBJ
+Type         6
+Gold         1200
+Weight       6.000000
+Boss         0
+Hidiff       6
+Lowdiff      4
+Name         a leather backpack~
+QPS          0
+Race         0
+Value        80 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0&0&65536
+End
+
+#OBJ
+Type         6
+Gold         5000
+Weight       8.000000
+Boss         1
+Hidiff       6
+Lowdiff      4
+Name         a reinforced leather backpack~
+QPS          30
+Race         0
+Value        120 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0&0&65536
+End
+
+#OBJ
+Type         6
+Gold         5000
+Weight       8.000000
+Boss         0
+Hidiff       8
+Lowdiff      7
+Name         a reinforced leather backpack~
+QPS          0
+Race         0
+Value        120 0 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0&0&65536
+End
+
+#OBJ
+Type         6
+Gold         15000
+Weight       4.000000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         an enchanted leather backpack~
+QPS          2350
+Race         0
+Value        80 0 90 0 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0&0&65536
+End
+
+#OBJ
+Type         6
+Gold         35000
+Weight       6.000000
+Boss         2
+Hidiff       8
+Lowdiff      7
+Name         an enchanted reinforced leather backpack~
+QPS          3500
+Race         0
+Value        120 0 85 0 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0&0&65536
+End
+
+#OBJ
+Type         6
+Gold         15000
+Weight       4.000000
+Boss         0
+Hidiff       10
+Lowdiff      9
+Name         an enchanted leather backpack~
+QPS          0
+Race         0
+Value        80 0 90 0 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0&0&65536
+End
+
+#OBJ
+Type         6
+Gold         35000
+Weight       6.000000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         an enchanted reinforced leather backpack~
+QPS          0
+Race         0
+Value        120 0 85 0 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0&0&65536
+End
+
+#OBJ
+Type         6
+Gold         75000
+Weight       2.000000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         a rune covered bag~
+QPS          15000
+Race         0
+Value        80 0 70 0 0 0 0 0 0 0 0 0 0 0
+Flags        256
+Flags2       0
+End
+
+#OBJ
+Type         6
+Gold         75000
+Weight       2.000000
+Boss         0
+Hidiff       13
+Lowdiff      11
+Name         a rune covered bag~
+QPS          0
+Race         0
+Value        80 0 70 0 0 0 0 0 0 0 0 0 0 0
+Flags        256
+Flags2       0
+End
+
+#OBJ
+Type         6
+Gold         150000
+Weight       1.000000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         an energy portal~
+QPS          35000
+Race         0
+Value        180 0 55 0 0 0 0 0 0 0 0 0 0 0
+Flags        1073741824
+Flags2       0
+End
+
+#OBJ
+Type         6
+Gold         350000
+Weight       1.000000
+Boss         2
+Hidiff       13
+Lowdiff      11
+Name         an energy void~
+QPS          75000
+Race         0
+Value        500 0 20 0 0 0 0 0 0 0 0 0 0 0
+Flags        1073741824
+Flags2       0
+End
+
+#OBJ
+Type         6
+Gold         450000
+Weight       1.000000
+Boss         2
+Hidiff       13
+Lowdiff      11
+Name         an ethereal capsule~
+QPS          100000
+Race         0
+Value        100 0 5 0 0 0 0 0 0 0 0 0 0 0
+Flags        1073741824
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         6000
+Weight       8.000000
+Boss         1
+Hidiff       6
+Lowdiff      4
+Name         fairy long bow~
+QPS          350
+Race         0
+Value        1000 3 6 4 5 0 0 1 0 2 8 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         6000
+Weight       9.000000
+Boss         1
+Hidiff       6
+Lowdiff      4
+Name         hobbit long bow~
+QPS          350
+Race         0
+Value        1000 4 6 5 5 0 0 1 0 2 8 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         6000
+Weight       10.000000
+Boss         1
+Hidiff       6
+Lowdiff      4
+Name         elven long bow~
+QPS          350
+Race         0
+Value        1000 4 7 6 6 0 0 1 0 2 9 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         6000
+Weight       12.000000
+Boss         1
+Hidiff       6
+Lowdiff      4
+Name         human long bow~
+QPS          350
+Race         0
+Value        1000 4 8 7 6 0 0 1 0 2 10 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         6000
+Weight       14.000000
+Boss         1
+Hidiff       6
+Lowdiff      4
+Name         dwarven long bow~
+QPS          350
+Race         0
+Value        1000 5 8 8 6 0 0 1 0 2 11 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         6000
+Weight       18.000000
+Boss         1
+Hidiff       6
+Lowdiff      4
+Name         ogre long bow~
+QPS          350
+Race         0
+Value        1000 6 9 9 6 0 0 1 0 2 11 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         6000
+Weight       8.000000
+Boss         0
+Hidiff       8
+Lowdiff      7
+Name         fairy long bow~
+QPS          0
+Race         0
+Value        1000 3 6 4 5 0 0 1 0 2 8 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         6000
+Weight       9.000000
+Boss         0
+Hidiff       8
+Lowdiff      7
+Name         hobbit long bow~
+QPS          0
+Race         0
+Value        1000 4 6 5 5 0 0 1 0 2 8 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         6000
+Weight       10.000000
+Boss         0
+Hidiff       8
+Lowdiff      7
+Name         elven long bow~
+QPS          0
+Race         0
+Value        1000 4 7 6 6 0 0 1 0 2 9 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         6000
+Weight       12.000000
+Boss         0
+Hidiff       8
+Lowdiff      7
+Name         human long bow~
+QPS          0
+Race         0
+Value        1000 4 8 7 6 0 0 1 0 2 10 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         6000
+Weight       14.000000
+Boss         0
+Hidiff       8
+Lowdiff      7
+Name         dwarven long bow~
+QPS          0
+Race         0
+Value        1000 5 8 8 6 0 0 1 0 2 11 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         6000
+Weight       18.000000
+Boss         0
+Hidiff       8
+Lowdiff      7
+Name         ogre long bow~
+QPS          0
+Race         0
+Value        1000 6 9 9 6 0 0 1 0 2 11 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       9.000000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         fairy compound bow~
+QPS          2500
+Race         0
+Value        1000 4 7 5 7 0 0 1 0 3 10 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       10.000000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         hobbit compound bow~
+QPS          2500
+Race         0
+Value        1000 5 7 6 7 0 0 1 0 3 10 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       11.000000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         elven compound bow~
+QPS          2500
+Race         0
+Value        1000 5 8 7 8 0 0 1 0 3 11 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       14.000000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         human compound bow~
+QPS          2500
+Race         0
+Value        1000 5 9 8 8 0 0 1 0 3 12 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       16.000000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         dwarven compound bow~
+QPS          2500
+Race         0
+Value        1000 6 9 9 8 0 0 1 0 3 13 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       20.000000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         ogre compound bow~
+QPS          2500
+Race         0
+Value        1000 7 10 10 8 0 0 1 0 3 13 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       9.000000
+Boss         0
+Hidiff       10
+Lowdiff      9
+Name         fairy compound bow~
+QPS          0
+Race         0
+Value        1000 4 7 5 7 0 0 1 0 3 10 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       10.000000
+Boss         0
+Hidiff       10
+Lowdiff      9
+Name         hobbit compound bow~
+QPS          0
+Race         0
+Value        1000 5 7 6 7 0 0 1 0 3 10 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       11.000000
+Boss         0
+Hidiff       10
+Lowdiff      9
+Name         elven compound bow~
+QPS          0
+Race         0
+Value        1000 5 8 7 8 0 0 1 0 3 11 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       14.000000
+Boss         0
+Hidiff       10
+Lowdiff      9
+Name         human compound bow~
+QPS          0
+Race         0
+Value        1000 5 9 8 8 0 0 1 0 3 12 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       16.000000
+Boss         0
+Hidiff       10
+Lowdiff      9
+Name         dwarven compound bow~
+QPS          0
+Race         0
+Value        1000 6 9 9 8 0 0 1 0 3 13 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       20.000000
+Boss         0
+Hidiff       10
+Lowdiff      9
+Name         ogre compound bow~
+QPS          0
+Race         0
+Value        1000 7 10 10 8 0 0 1 0 3 13 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         50000
+Weight       11.000000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         fairy recurve bow~
+QPS          15000
+Race         0
+Value        1000 5 8 5 9 0 0 1 0 4 12 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         50000
+Weight       12.000000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         hobbit recurve bow~
+QPS          15000
+Race         0
+Value        1000 6 8 6 9 0 0 1 0 4 12 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         50000
+Weight       13.000000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         elven recurve bow~
+QPS          15000
+Race         0
+Value        1000 6 9 7 10 0 0 1 0 4 13 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         50000
+Weight       16.000000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         human recurve bow~
+QPS          15000
+Race         0
+Value        1000 6 10 8 10 0 0 1 0 4 14 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         50000
+Weight       18.000000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         dwarven recurve bow~
+QPS          15000
+Race         0
+Value        1000 7 10 9 10 0 0 1 0 4 15 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         50000
+Weight       22.000000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         ogre recurve bow~
+QPS          15000
+Race         0
+Value        1000 8 11 10 10 0 0 1 0 4 15 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         50000
+Weight       11.000000
+Boss         0
+Hidiff       13
+Lowdiff      11
+Name         fairy recurve bow~
+QPS          0
+Race         0
+Value        1000 5 8 5 9 0 0 1 0 4 12 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         50000
+Weight       12.000000
+Boss         0
+Hidiff       13
+Lowdiff      11
+Name         hobbit recurve bow~
+QPS          0
+Race         0
+Value        1000 6 8 6 9 0 0 1 0 4 12 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         50000
+Weight       13.000000
+Boss         0
+Hidiff       13
+Lowdiff      11
+Name         elven recurve bow~
+QPS          0
+Race         0
+Value        1000 6 9 6 10 0 0 1 0 4 13 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         50000
+Weight       16.000000
+Boss         0
+Hidiff       13
+Lowdiff      11
+Name         human recurve bow~
+QPS          0
+Race         0
+Value        1000 6 10 7 10 0 0 1 0 4 14 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         50000
+Weight       18.000000
+Boss         0
+Hidiff       13
+Lowdiff      11
+Name         dwarven recurve bow~
+QPS          0
+Race         0
+Value        1000 7 10 8 10 0 0 1 0 4 15 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         50000
+Weight       22.000000
+Boss         0
+Hidiff       13
+Lowdiff      11
+Name         ogre recurve bow~
+QPS          0
+Race         0
+Value        1000 8 11 9 10 0 0 1 0 4 15 0 0 0
+Flags        16777216
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         150000
+Weight       8.000000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         fairy enchanted recurve bow~
+QPS          50000
+Race         0
+Value        1000 6 9 4 11 0 0 1 0 5 15 0 0 0
+Flags        1090520064
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         150000
+Weight       9.000000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         hobbit enchanted recurve bow~
+QPS          50000
+Race         0
+Value        1000 7 9 5 11 0 0 1 0 5 15 0 0 0
+Flags        1090520064
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         150000
+Weight       10.000000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         elven enchanted recurve bow~
+QPS          50000
+Race         0
+Value        1000 7 10 6 12 0 0 1 0 5 16 0 0 0
+Flags        1090520064
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         150000
+Weight       12.000000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         human enchanted recurve bow~
+QPS          50000
+Race         0
+Value        1000 7 11 7 12 0 0 1 0 5 17 0 0 0
+Flags        1090520064
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         150000
+Weight       14.000000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         dwarven enchanted recurve bow~
+QPS          50000
+Race         0
+Value        1000 8 11 8 12 0 0 1 0 5 18 0 0 0
+Flags        1090520064
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         150000
+Weight       18.000000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         ogre enchanted recurve bow~
+QPS          50000
+Race         0
+Value        1000 9 12 9 12 0 0 1 0 5 18 0 0 0
+Flags        1090520064
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         500000
+Weight       8.000000
+Boss         2
+Hidiff       13
+Lowdiff      11
+Name         elvenwood recurve bow~
+QPS          150000
+Race         0
+Value        1000 9 12 5 15 0 0 1 0 6 22 0 0 0
+Flags        1090520064
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       6.000000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         fairy crossbow~
+QPS          2500
+Race         0
+Value        1000 2 5 3 3 0 0 1 0 1 8 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       7.000000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         hobbit crossbow~
+QPS          2500
+Race         0
+Value        1000 3 5 4 3 0 0 1 0 1 9 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       8.000000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         elven crossbow~
+QPS          2500
+Race         0
+Value        1000 3 6 5 4 0 0 1 0 1 10 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       10.000000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         human crossbow~
+QPS          2500
+Race         0
+Value        1000 3 7 6 4 0 0 1 0 1 11 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       12.000000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         dwarven crossbow~
+QPS          2500
+Race         0
+Value        1000 4 7 7 4 0 0 1 0 1 12 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       14.000000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         ogre crossbow~
+QPS          2500
+Race         0
+Value        1000 5 8 8 4 0 0 1 0 1 13 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       6.000000
+Boss         0
+Hidiff       10
+Lowdiff      9
+Name         fairy crossbow~
+QPS          0
+Race         0
+Value        1000 2 5 3 3 0 0 1 0 1 8 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       7.000000
+Boss         0
+Hidiff       10
+Lowdiff      9
+Name         hobbit crossbow~
+QPS          0
+Race         0
+Value        1000 3 5 4 3 0 0 1 0 1 9 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       8.000000
+Boss         0
+Hidiff       10
+Lowdiff      9
+Name         elven crossbow~
+QPS          0
+Race         0
+Value        1000 3 6 5 4 0 0 1 0 1 10 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       10.000000
+Boss         0
+Hidiff       10
+Lowdiff      9
+Name         human crossbow~
+QPS          0
+Race         0
+Value        1000 3 7 6 4 0 0 1 0 1 11 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       12.000000
+Boss         0
+Hidiff       10
+Lowdiff      9
+Name         dwarven crossbow~
+QPS          0
+Race         0
+Value        1000 4 7 7 4 0 0 1 0 1 12 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         10000
+Weight       14.000000
+Boss         0
+Hidiff       10
+Lowdiff      9
+Name         ogre crossbow~
+QPS          0
+Race         0
+Value        1000 5 8 8 4 0 0 1 0 1 13 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         30000
+Weight       7.000000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         fairy deluxe crossbow~
+QPS          15000
+Race         0
+Value        1000 3 5 4 4 0 0 1 0 2 10 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         30000
+Weight       8.000000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         hobbit deluxe crossbow~
+QPS          15000
+Race         0
+Value        1000 4 5 5 4 0 0 1 0 2 11 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         30000
+Weight       9.000000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         elven deluxe crossbow~
+QPS          15000
+Race         0
+Value        1000 4 6 6 5 0 0 1 0 2 12 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         30000
+Weight       12.000000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         human deluxe crossbow~
+QPS          15000
+Race         0
+Value        1000 4 7 7 5 0 0 1 0 2 13 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         30000
+Weight       14.000000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         dwarven deluxe crossbow~
+QPS          15000
+Race         0
+Value        1000 5 7 8 5 0 0 1 0 2 14 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         30000
+Weight       16.000000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         ogre deluxe crossbow~
+QPS          15000
+Race         0
+Value        1000 6 8 9 5 0 0 1 0 2 15 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         30000
+Weight       7.000000
+Boss         0
+Hidiff       13
+Lowdiff      11
+Name         fairy deluxe crossbow~
+QPS          0
+Race         0
+Value        1000 3 5 4 4 0 0 1 0 2 10 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         30000
+Weight       8.000000
+Boss         0
+Hidiff       13
+Lowdiff      11
+Name         hobbit deluxe crossbow~
+QPS          0
+Race         0
+Value        1000 4 5 5 4 0 0 1 0 2 11 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         30000
+Weight       9.000000
+Boss         0
+Hidiff       13
+Lowdiff      11
+Name         elven deluxe crossbow~
+QPS          0
+Race         0
+Value        1000 4 6 6 5 0 0 1 0 2 12 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         30000
+Weight       12.000000
+Boss         0
+Hidiff       13
+Lowdiff      11
+Name         human deluxe crossbow~
+QPS          0
+Race         0
+Value        1000 4 7 7 5 0 0 1 0 2 13 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         30000
+Weight       14.000000
+Boss         0
+Hidiff       13
+Lowdiff      11
+Name         dwarven deluxe crossbow~
+QPS          0
+Race         0
+Value        1000 5 7 8 5 0 0 1 0 2 14 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         30000
+Weight       16.000000
+Boss         0
+Hidiff       13
+Lowdiff      11
+Name         ogre deluxe crossbow~
+QPS          0
+Race         0
+Value        1000 6 8 9 5 0 0 1 0 2 15 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         100000
+Weight       8.000000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         fairy grand deluxe crossbow~
+QPS          50000
+Race         0
+Value        1000 4 6 4 5 0 0 1 0 3 12 0 0 0
+Flags        1073741824
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         100000
+Weight       9.000000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         hobbit grand deluxe crossbow~
+QPS          50000
+Race         0
+Value        1000 5 6 5 5 0 0 1 0 3 13 0 0 0
+Flags        1073741824
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         100000
+Weight       10.000000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         elven grand deluxe crossbow~
+QPS          50000
+Race         0
+Value        1000 5 7 6 6 0 0 1 0 3 14 0 0 0
+Flags        1073741824
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         100000
+Weight       13.000000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         human grand deluxe crossbow~
+QPS          50000
+Race         0
+Value        1000 5 8 7 6 0 0 1 0 3 15 0 0 0
+Flags        1073741824
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         100000
+Weight       15.000000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         dwarven grand deluxe crossbow~
+QPS          50000
+Race         0
+Value        1000 6 8 8 6 0 0 1 0 3 16 0 0 0
+Flags        1073741824
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         100000
+Weight       17.000000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         ogre grand deluxe crossbow~
+QPS          50000
+Race         0
+Value        1000 7 9 9 6 0 0 1 0 3 17 0 0 0
+Flags        1073741824
+Flags2       0
+End
+
+#OBJ
+Type         7
+Gold         500000
+Weight       12.000000
+Boss         2
+Hidiff       13
+Lowdiff      11
+Name         assassins crossbow~
+QPS          150000
+Race         0
+Value        1000 7 10 6 7 0 0 1 0 4 22 0 0 0
+Flags        1073741824
+Flags2       0
+End
+
+#OBJ
+Type         8
+Gold         10000
+Weight       3.000000
+Boss         1
+Hidiff       6
+Lowdiff      4
+Name         a large backstrap quiver~
+QPS          300
+Race         0
+Value        33 0 0 12 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0&0&65536
+End
+
+#OBJ
+Type         8
+Gold         10000
+Weight       3.000000
+Boss         1
+Hidiff       6
+Lowdiff      4
+Name         a large belt quiver~
+QPS          300
+Race         0
+Value        33 0 0 12 0 0 0 0 0 0 0 0 0 0
+Flags        256
+Flags2       0
+End
+
+#OBJ
+Type         8
+Gold         10000
+Weight       3.000000
+Boss         0
+Hidiff       8
+Lowdiff      7
+Name         a large backstrap quiver~
+QPS          0
+Race         0
+Value        33 0 0 12 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0&0&65536
+End
+
+#OBJ
+Type         8
+Gold         10000
+Weight       3.000000
+Boss         0
+Hidiff       8
+Lowdiff      7
+Name         a large belt quiver~
+QPS          0
+Race         0
+Value        33 0 0 12 0 0 0 0 0 0 0 0 0 0
+Flags        256
+Flags2       0
+End
+
+#OBJ
+Type         8
+Gold         35000
+Weight       5.000000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         a deluxe backstrap quiver~
+QPS          2000
+Race         0
+Value        45 0 0 12 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0&0&65536
+End
+
+#OBJ
+Type         8
+Gold         35000
+Weight       5.000000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         a deluxe belt quiver~
+QPS          2000
+Race         0
+Value        45 0 0 12 0 0 0 0 0 0 0 0 0 0
+Flags        256
+Flags2       0
+End
+
+#OBJ
+Type         8
+Gold         35000
+Weight       5.000000
+Boss         0
+Hidiff       10
+Lowdiff      9
+Name         a deluxe backstrap quiver~
+QPS          0
+Race         0
+Value        45 0 0 12 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0&0&65536
+End
+
+#OBJ
+Type         8
+Gold         35000
+Weight       5.000000
+Boss         0
+Hidiff       10
+Lowdiff      9
+Name         a deluxe belt quiver~
+QPS          0
+Race         0
+Value        45 0 0 12 0 0 0 0 0 0 0 0 0 0
+Flags        256
+Flags2       0
+End
+
+#OBJ
+Type         8
+Gold         75000
+Weight       3.000000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         a marksman backstrap quiver~
+QPS          10000
+Race         0
+Value        63 0 0 12 0 0 0 0 0 0 0 0 0 0
+Flags        1073741824
+Flags2       0&0&65536
+End
+
+#OBJ
+Type         8
+Gold         75000
+Weight       3.000000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         a marksman belt quiver~
+QPS          10000
+Race         0
+Value        63 0 0 12 0 0 0 0 0 0 0 0 0 0
+Flags        1073742080
+Flags2       0
+End
+
+#OBJ
+Type         8
+Gold         75000
+Weight       3.000000
+Boss         0
+Hidiff       13
+Lowdiff      11
+Name         a marksman backstrap quiver~
+QPS          0
+Race         0
+Value        63 0 0 12 0 0 0 0 0 0 0 0 0 0
+Flags        1073741824
+Flags2       0&0&65536
+End
+
+#OBJ
+Type         8
+Gold         75000
+Weight       3.000000
+Boss         0
+Hidiff       13
+Lowdiff      11
+Name         a marksman belt quiver~
+QPS          0
+Race         0
+Value        63 0 0 12 0 0 0 0 0 0 0 0 0 0
+Flags        1073742080
+Flags2       0
+End
+
+#OBJ
+Type         8
+Gold         75000
+Weight       0.700000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         a magical backstrap quiver~
+QPS          70000
+Race         0
+Value        101 0 0 12 0 0 0 0 0 0 0 0 0 0
+Flags        1073741824
+Flags2       0&0&65536
+End
+
+#OBJ
+Type         8
+Gold         75000
+Weight       0.700000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         a magical belt quiver~
+QPS          70000
+Race         0
+Value        101 0 0 12 0 0 0 0 0 0 0 0 0 0
+Flags        1073742080
+Flags2       0
+End
+
+#OBJ
+Type         9
+Gold         50000
+Weight       35.000000
+Boss         2
+Hidiff       8
+Lowdiff      7
+Name         a packable bed~
+QPS          0
+Race         0
+Value        1 1000 585 150 150 0 0 0 0 0 0 0 0 0
+Flags        1073741824
+Flags2       0
+End
+
+#OBJ
+Type         9
+Gold         100000
+Weight       40.000000
+Boss         2
+Hidiff       10
+Lowdiff      9
+Name         a comfortable packable bed~
+QPS          0
+Race         0
+Value        1 1000 585 200 200 0 0 0 0 0 0 0 0 0
+Flags        1073741824
+Flags2       0
+End
+
+#OBJ
+Type         9
+Gold         500000
+Weight       10.000000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         a magical cloud~
+QPS          0
+Race         0
+Value        1 1000 585 300 300 0 0 0 0 0 0 0 0 0
+Flags        1073741824
+Flags2       0
+End
+
+#OBJ
+Type         16
+Gold         30000
+Weight       5.000000
+Boss         0
+Hidiff       8
+Lowdiff      7
+Name         a blessed rune~
+QPS          0
+Race         0
+Value        1 25 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         16
+Gold         50000
+Weight       5.000000
+Boss         0
+Hidiff       10
+Lowdiff      9
+Name         a holy rune~
+QPS          0
+Race         0
+Value        1 50 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         16
+Gold         100000
+Weight       5.000000
+Boss         0
+Hidiff       13
+Lowdiff      11
+Name         a powerful rune~
+QPS          0
+Race         0
+Value        1 100 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         16
+Gold         250000
+Weight       5.000000
+Boss         1
+Hidiff       13
+Lowdiff      11
+Name         a divine rune~
+QPS          0
+Race         0
+Value        1 500 0 0 0 0 0 0 0 0 0 0 0 0
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         4
+Gold         15000
+Weight       0.250000
+Boss         0
+Hidiff       8
+Lowdiff      7
+Name         scroll of minor bless weapon~
+QPS          0
+Race         0
+Value        0 17 -1 -1 0 1001 0 0 0 0 0 0 0 0
+Scroll       'bless weapon' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         4
+Gold         25000
+Weight       0.250000
+Boss         1
+Hidiff       8
+Lowdiff      7
+Name         scroll of bless weapon~
+QPS          0
+Race         0
+Value        0 17 -1 -1 0 1003 0 0 0 0 0 0 0 0
+Scroll       'bless weapon' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         4
+Gold         25000
+Weight       0.250000
+Boss         0
+Hidiff       10
+Lowdiff      9
+Name         scroll of bless weapon~
+QPS          0
+Race         0
+Value        0 17 -1 -1 0 1003 0 0 0 0 0 0 0 0
+Scroll       'bless weapon' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         4
+Gold         55000
+Weight       0.250000
+Boss         1
+Hidiff       10
+Lowdiff      9
+Name         scroll of greater bless weapon~
+QPS          0
+Race         0
+Value        0 17 -1 -1 0 1005 0 0 0 0 0 0 0 0
+Scroll       'bless weapon' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#OBJ
+Type         4
+Gold         55000
+Weight       0.250000
+Boss         0
+Hidiff       13
+Lowdiff      11
+Name         scroll of greater bless weapon~
+QPS          0
+Race         0
+Value        0 17 -1 -1 0 1005 0 0 0 0 0 0 0 0
+Scroll       'bless weapon' 'NONE' 'NONE'
+Flags        0
+Flags2       0
+End
+
+#END

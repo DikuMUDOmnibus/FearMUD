@@ -1,0 +1,63 @@
+Name        Elf~
+Race        1
+Str_Plus    -1
+Dex_Plus    1
+Wis_Plus    1
+Int_Plus    1
+Con_Plus    -1
+Cha_Plus    1
+Lck_Plus    1
+Agi_Plus    105
+Agi_Start   40
+Range_Agi   40
+Range_Str   3
+Range_Dex   3
+Range_Con   2
+Range_Wis   3
+Range_Int   4
+Hit         -2
+Mana        10
+Affected    16
+Resist      0
+Suscept     0
+Language    2
+Align       0
+Min_Align  -1000
+Max_Align	1000
+AC_Plus    0
+Exp_Mult   102
+Attacks    0
+Defenses   0
+Height     63
+Weight     110
+Weaponmin  3
+Weaponmax  9
+RemortRace 0
+Hunger_Mod  0
+Thirst_mod  0
+Mana_Regen  22736
+HP_Regen    2137
+Race_Recall 0
+DodgeBonus  2
+WhereName  <used as light>      ~
+WhereName  <worn on finger>     ~
+WhereName  <worn on finger>     ~
+WhereName  <worn on neck>       ~
+WhereName  <worn around neck>   ~
+WhereName  <worn on body>       ~
+WhereName  <worn on head>       ~
+WhereName  <worn on left leg>   ~
+WhereName  <worn on right leg>  ~
+WhereName  <worn on left arm>   ~
+WhereName  <worn on right arm>  ~
+WhereName  <worn as shield>     ~
+WhereName  <worn about waist>   ~
+WhereName  <wielded>            ~
+WhereName  <dual wielded>       ~
+WhereName  <missile wielded>    ~
+WhereName  <lodged in ribs>     ~
+WhereName  <lodged in arm>      ~
+WhereName  <lodged in leg>      ~
+WhereName  <nocked>             ~
+WhereName  (null)~
+End

@@ -1,0 +1,5332 @@
+#AREA   caverns of duvel~
+
+
+
+#VERSION 51
+#AUTHOR Xerves~
+
+#RANGES
+0 7 0 7 0 0 0 0 0
+$
+
+#FLAGS
+0 240
+
+#ECONOMY 0 910272 0
+
+#MOBILES
+#200400
+an ape~
+an ape~
+An ape is here go rip YOU a new one!
+~
+~
+131105 0 512 0 C
+0 0 10 9 11 9
+8d20+344 1d7+8 0
+0 0
+112 112 0
+19 15 19 19 13 13 16 55
+0 0 0 0 0
+60 0 0 0 1 1 55
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+#200401
+a warrior gnoll~
+a warrior gnoll~
+A warrior gnoll is here looking for souls to STEAL!
+~
+~
+131105 0 512 0 C
+0 0 11 9 10 9
+11d19+444 1d7+8 0
+0 0
+112 112 0
+18 18 17 15 13 13 18 65
+0 0 0 0 0
+15 0 0 0 1 1 65
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 256 2
+#200402
+a black bear~
+a black bear~
+A black bear appears to be hungry for BLOOD!
+~
+~
+131105 0 512 0 C
+0 0 10 10 9 10
+10d20+420 1d7+8 0
+0 0
+112 112 0
+22 16 18 18 13 13 17 55
+0 0 0 0 0
+24 0 0 0 1 1 55
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 2
+#200403
+a wight~
+a wight~
+A wight is here to make you FEEL PAIN!
+~
+~
+131105&1024 0 4194816 0 C
+0 0 10 9 9 11
+7d21+313 1d7+8 0
+0 0
+112 112 0
+15 23 23 16 13 13 18 55
+0 0 0 0 0
+68 0 0 0 1 1 55
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 16
+#200404
+a wight~
+a newly created a wight~
+Some god abandoned a newly created a wight here.
+~
+~
+1073741825 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0
+0 0
+112 112 0
+#200420
+a flux shapeshifter~
+a flux shapeshifter~
+A flux shapeshifter appears to be hungry for BLOOD!
+~
+~
+131105 0 4194816 0 C
+0 0 11 13 15 13
+15d19+612 1d8+11 0
+16248 0
+112 112 0
+22 22 22 18 13 13 18 69
+0 0 0 0 0
+57 0 0 0 1 1 69
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 576 34
+#200421
+Dude~
+Dude~
+Dude has a taste for DEATH today
+~
+~
+131105 0 4194816 0 C
+0 0 12 13 13 15
+11d19+446 1d8+11 0
+24372 0
+112 112 0
+18 21 18 16 13 13 19 69
+0 0 0 0 0
+4 0 0 0 1 1 69
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 2097152 0 0 576 2
+#200422
+a bloodstenched werewolf~
+a bloodstenched werewolf~
+A bloodstenched werewolf is here looking to send you to your next life.
+~
+~
+131105&32768 0 4194816 0 C
+0 0 11 13 13 13
+17d20+717 1d8+11 0
+16248 0
+112 112 0
+17 16 19 18 13 13 16 59
+0 0 0 0 0
+47 0 0 0 1 1 59
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 34
+#200426
+Zimbera the greater demon~
+Zimbera the greater demon~
+Zimbera the greater demon has bad intentions for YOU!
+~
+~
+131105&1024 0 4194816 0 C
+0 0 15 14 14 14
+30d19+1220 1d10+13 0
+51540 0
+112 112 0
+24 22 18 20 13 13 18 63
+0 0 0 0 0
+67 0 0 0 1 1 63
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 2100224 0 0 1342178112 2
+#0
+
+
+#OBJECTS
+#200400
+potion of bless~
+potion of bless~
+Potion of bless has been left here for the next owner~
+~
+10 0 1
+0 -1 -1 -1 0 1004 0 0 0 0 0 0 0 0
+0.250000 800 0 0 0 0 0
+'bless' 'NONE' 'NONE'
+#200401
+steel repair hammer~
+steel repair hammer~
+Steel repair hammer is here for anyone to take~
+~
+70 0 1
+10 10 35 35
+5.000000 2200 0 0 0 0 0
+#200402
+potion of bless~
+potion of bless~
+Potion of bless appears to be looking for a new owner~
+~
+10 0 1
+0 -1 -1 -1 0 1004 0 0 0 0 0 0 0 0
+0.250000 800 0 0 0 0 0
+'bless' 'NONE' 'NONE'
+#200403
+a leather backpack~
+a leather backpack~
+A leather backpack is here for anyone to take~
+~
+15 0 131073
+80 0 0 0
+6.000000 1200 0 0 0 0 0
+#200404
+tungsten repair hammer~
+tungsten repair hammer~
+Tungsten repair hammer has been left behind for anyone to pickup.~
+~
+70 0 1
+30 30 40 40
+5.000000 8000 0 0 0 0 0
+#200405
+potion of revitalize spirit~
+potion of revitalize spirit~
+Potion of revitalize spirit is here collecting dust.~
+~
+10 0 1
+0 -1 -1 -1 0 1004 0 0 0 0 0 0 0 0
+0.250000 700 0 0 0 0 0
+'revitalize spirit' 'NONE' 'NONE'
+#200406
+a leather backpack~
+a leather backpack~
+A leather backpack has been left here for the next owner~
+~
+15 0 131073
+80 0 0 0
+6.000000 1200 0 0 0 0 0
+#200407
+Brass Fairy Hammer~
+&w&CA Brass Fairy Hammer&w~
+Someone has left their Brass Fairy Hammer here~
+~
+5 0&8192&32 513
+1000 6 10 3 -1 -1 0 7 5 5 7 0 4 8
+4.750000 4000 0 0 0 0 0
+'NONE'
+A
+77 2
+#200408
+Cobalt Hobbit Greave~
+A Cobalt Hobbit Greave~
+Someone has left their Cobalt Hobbit Greave here!~
+~
+9 0&8192 33
+13 13 13 1000 13 3 0 0 0 0 0 0 0 0
+10.500000 36000 0 0 0 0 0
+#200409
+Cobalt Hobbit Greave~
+A Cobalt Hobbit Greave~
+Someone has left their Cobalt Hobbit Greave here!~
+~
+9 0&8192 33
+13 13 13 1000 13 3 0 0 0 0 0 0 0 0
+10.500000 36000 0 0 0 0 0
+#200410
+Cobalt Hobbit Weighted-Rod~
+A Cobalt Hobbit Weighted-Rod~
+Someone has left their Cobalt Hobbit Weighted-Rod here~
+~
+5 0&8192 513
+1000 11 12 4 -1 -1 0 8 7 6 11 0 8 6
+6.825000 18000 0 0 0 0 0
+'NONE'
+#200411
+Cobalt Hobbit Stiletto~
+A Cobalt Hobbit Stiletto~
+Someone has left their Cobalt Hobbit Stiletto here~
+~
+5 0&8192 513
+1000 11 12 4 -1 -1 0 6 7 9 10 0 40 4
+5.687500 42000 0 0 0 0 0
+'NONE'
+#200412
+potion of bless~
+potion of bless~
+Potion of bless has been left here for the next owner~
+~
+10 0 1
+0 -1 -1 -1 0 1004 0 0 0 0 0 0 0 0
+0.250000 800 0 0 0 0 0
+'bless' 'NONE' 'NONE'
+#200413
+steel repair hammer~
+steel repair hammer~
+Steel repair hammer has been left behind for another.~
+~
+70 0 1
+10 10 35 35
+5.000000 2200 0 0 0 0 0
+#200414
+fairy long bow~
+fairy long bow~
+Fairy long bow is here for the taking.~
+~
+56 0&131072 2049
+1000 3 6 4 5 0 0 1 0 2 8 0 0 0
+8.000000 6000 0 0 0 0 0
+#200415
+Brass Elven Chain Gauntlet~
+&w&CA Brass Elven Chain Gauntlet&w~
+Someone has left their Brass Elven Chain Gauntlet here!~
+~
+9 0&8192&32 65
+9 9 9 1000 9 2 0 0 0 0 0 0 0 0
+6.460000 10000 0 0 0 0 0
+A
+4 2
+A
+5 1
+A
+80 2
+#200416
+coins gold~
+7069 gold coins~
+A pile of gold coins.~
+~
+20 0 1
+7069 0 0 0
+1.000000 7069 0 3 0 0 0
+#200417
+coins gold~
+6475 gold coins~
+A pile of gold coins.~
+~
+20 0 1
+6475 0 0 0
+1.000000 6475 0 3 0 0 0
+#200418
+coins gold~
+6950 gold coins~
+A pile of gold coins.~
+~
+20 0 1
+6950 0 0 0
+1.000000 6950 0 3 0 0 0
+#0
+
+
+#ROOMS
+#200400
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1073741828&2
+0 14
+0
+0
+D0
+~
+~
+0 -1 200401
+0 0
+D2
+~
+~
+134217728 -1 16000
+985 378
+S
+#200401
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200402
+0 0
+D2
+~
+~
+0 -1 200400
+0 0
+S
+#200402
+A bloodied wall.~
+Blood trickles all over the ground and the dugout walls.  All
+around you is the smell of rotting humanoid creatures
+and monsters only seen in nightmeres of children.
+Now would be a good time to hug your weapon.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200403
+0 0
+D2
+~
+~
+0 -1 200401
+0 0
+D7
+~
+~
+0 -1 200422
+0 0
+S
+#200403
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 200402
+0 0
+D3
+~
+~
+0 -1 200422
+0 0
+D7
+~
+~
+0 -1 200404
+0 0
+S
+#200404
+Shreeks echo through the halls.~
+Shreeks of the living and the soon to be dead can be heard in all directions
+from this point in the dungeon.  The sounds are mostly
+the creatures of the dungeons communicating
+with eachother and the sounds of victory.
+~
+1076895745&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 200422
+0 0
+D7
+~
+~
+0 -1 200405
+0 0
+D8
+~
+~
+0 -1 200403
+0 0
+S
+#200405
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D7
+~
+~
+0 -1 200406
+0 0
+D8
+~
+~
+0 -1 200404
+0 0
+S
+#200406
+A bloodied wall.~
+Blood trickles all over the ground and the dugout walls.  All
+around you is the smell of rotting humanoid creatures
+and monsters only seen in nightmeres of children.
+Now would be a good time to hug your weapon.
+~
+1076895745&2
+0 13
+0
+0
+D6
+~
+~
+0 -1 200421
+0 0
+D7
+~
+~
+0 -1 200407
+0 0
+D8
+~
+~
+0 -1 200405
+0 0
+S
+#200407
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200408
+0 0
+D3
+~
+~
+0 -1 200414
+0 0
+D6
+~
+~
+0 -1 200419
+0 0
+D7
+~
+~
+0 -1 200430
+0 0
+D8
+~
+~
+0 -1 200406
+0 0
+S
+#200408
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200409
+0 0
+D1
+~
+~
+0 -1 200419
+0 0
+D2
+~
+~
+0 -1 200407
+0 0
+D3
+~
+~
+0 -1 200430
+0 0
+D7
+~
+~
+0 -1 200418
+0 0
+D9
+~
+~
+0 -1 200414
+0 0
+S
+#200409
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200410
+0 0
+D2
+~
+~
+0 -1 200408
+0 0
+D3
+~
+~
+0 -1 200418
+0 0
+D7
+~
+~
+0 -1 200411
+0 0
+D8
+~
+~
+0 -1 200419
+0 0
+D9
+~
+~
+0 -1 200430
+0 0
+S
+#200410
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 200409
+0 0
+D3
+~
+~
+0 -1 200411
+0 0
+D7
+~
+~
+0 -1 200423
+0 0
+D9
+~
+~
+0 -1 200418
+0 0
+S
+#200411
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200423
+0 0
+D1
+~
+~
+0 -1 200410
+0 0
+D2
+~
+~
+0 -1 200418
+0 0
+D3
+~
+~
+0 -1 200412
+0 0
+D7
+~
+~
+0 -1 200442
+0 0
+D8
+~
+~
+0 -1 200409
+0 0
+D9
+~
+~
+0 -1 200425
+0 0
+S
+#200412
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200442
+0 0
+D1
+~
+~
+0 -1 200411
+0 0
+D2
+~
+~
+0 -1 200425
+0 0
+D3
+~
+~
+0 -1 200413
+0 0
+D6
+~
+~
+0 -1 200423
+0 0
+D7
+~
+~
+0 -1 200443
+0 0
+D8
+~
+~
+0 -1 200418
+0 0
+D9
+~
+~
+0 -1 200424
+0 0
+S
+#200413
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200443
+0 0
+D1
+~
+~
+0 -1 200412
+0 0
+D2
+~
+~
+0 -1 200424
+0 0
+D6
+~
+~
+0 -1 200442
+0 0
+D7
+~
+~
+0 -1 200431
+0 0
+D8
+~
+~
+0 -1 200425
+0 0
+S
+#200414
+A bloodied wall.~
+Blood trickles all over the ground and the dugout walls.  All
+around you is the smell of rotting humanoid creatures
+and monsters only seen in nightmeres of children.
+Now would be a good time to hug your weapon.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200430
+0 0
+D1
+~
+~
+0 -1 200407
+0 0
+D3
+~
+~
+0 -1 200415
+0 0
+D6
+~
+~
+0 -1 200408
+0 0
+D7
+~
+~
+0 -1 200417
+0 0
+S
+#200415
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200417
+0 0
+D1
+~
+~
+0 -1 200414
+0 0
+D3
+~
+~
+0 -1 200416
+0 0
+D6
+~
+~
+0 -1 200430
+0 0
+D7
+~
+~
+0 -1 200426
+0 0
+S
+#200416
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200426
+0 0
+D1
+~
+~
+0 -1 200415
+0 0
+D3
+~
+~
+0 -1 200427
+0 0
+D6
+~
+~
+0 -1 200417
+0 0
+D7
+~
+~
+0 -1 200428
+0 0
+S
+#200417
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200425
+0 0
+D1
+~
+~
+0 -1 200430
+0 0
+D2
+~
+~
+0 -1 200415
+0 0
+D3
+~
+~
+0 -1 200426
+0 0
+D6
+~
+~
+0 -1 200418
+0 0
+D7
+~
+~
+0 -1 200424
+0 0
+D8
+~
+~
+0 -1 200414
+0 0
+D9
+~
+~
+0 -1 200416
+0 0
+S
+#200418
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200411
+0 0
+D1
+~
+~
+0 -1 200409
+0 0
+D2
+~
+~
+0 -1 200430
+0 0
+D3
+~
+~
+0 -1 200425
+0 0
+D6
+~
+~
+0 -1 200410
+0 0
+D7
+~
+~
+0 -1 200412
+0 0
+D8
+~
+~
+0 -1 200408
+0 0
+D9
+~
+~
+0 -1 200417
+0 0
+S
+#200419
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200420
+0 0
+D3
+~
+~
+0 -1 200408
+0 0
+D7
+~
+~
+0 -1 200409
+0 0
+D8
+~
+~
+0 -1 200421
+0 0
+D9
+~
+~
+0 -1 200407
+0 0
+S
+#200420
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 200421
+0 0
+D3
+~
+~
+0 -1 200419
+0 0
+S
+#200421
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200420
+0 0
+D7
+~
+~
+0 -1 200419
+0 0
+D9
+~
+~
+0 -1 200406
+0 0
+S
+#200422
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200404
+0 0
+D1
+~
+~
+0 -1 200403
+0 0
+D8
+~
+~
+0 -1 200402
+0 0
+S
+#200423
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 200411
+0 0
+D3
+~
+~
+0 -1 200442
+0 0
+D8
+~
+~
+0 -1 200410
+0 0
+D9
+~
+~
+0 -1 200412
+0 0
+S
+#200424
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200413
+0 0
+D1
+~
+~
+0 -1 200425
+0 0
+D2
+~
+~
+0 -1 200426
+0 0
+D6
+~
+~
+0 -1 200412
+0 0
+D8
+~
+~
+0 -1 200417
+0 0
+D9
+~
+~
+0 -1 200428
+0 0
+S
+#200425
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200412
+0 0
+D1
+~
+~
+0 -1 200418
+0 0
+D2
+~
+~
+0 -1 200417
+0 0
+D3
+~
+~
+0 -1 200424
+0 0
+D6
+~
+~
+0 -1 200411
+0 0
+D7
+~
+~
+0 -1 200413
+0 0
+D8
+~
+~
+0 -1 200430
+0 0
+D9
+~
+~
+0 -1 200426
+0 0
+S
+#200426
+A bloodied wall.~
+Blood trickles all over the ground and the dugout walls.  All
+around you is the smell of rotting humanoid creatures
+and monsters only seen in nightmeres of children.
+Now would be a good time to hug your weapon.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200424
+0 0
+D1
+~
+~
+0 -1 200417
+0 0
+D2
+~
+~
+0 -1 200416
+0 0
+D3
+~
+~
+0 -1 200428
+0 0
+D6
+~
+~
+0 -1 200425
+0 0
+D8
+~
+~
+0 -1 200415
+0 0
+D9
+~
+~
+0 -1 200427
+0 0
+S
+#200427
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200428
+0 0
+D1
+~
+~
+0 -1 200416
+0 0
+D6
+~
+~
+0 -1 200426
+0 0
+D7
+~
+~
+0 -1 200429
+0 0
+D9
+~
+~
+0 -1 200433
+0 0
+S
+#200428
+Shreeks echo through the halls.~
+Shreeks of the living and the soon to be dead can be heard in all directions
+from this point in the dungeon.  The sounds are mostly
+the creatures of the dungeons communicating
+with eachother and the sounds of victory.
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200426
+0 0
+D2
+~
+~
+0 -1 200427
+0 0
+D3
+~
+~
+0 -1 200429
+0 0
+D6
+~
+~
+0 -1 200424
+0 0
+D8
+~
+~
+0 -1 200416
+0 0
+S
+#200429
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200428
+0 0
+D3
+~
+~
+0 -1 200473
+0 0
+D7
+~
+~
+0 -1 200472
+0 0
+D8
+~
+~
+0 -1 200427
+0 0
+D9
+~
+~
+0 -1 200474
+0 0
+S
+#200430
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200418
+0 0
+D1
+~
+~
+0 -1 200408
+0 0
+D2
+~
+~
+0 -1 200414
+0 0
+D3
+~
+~
+0 -1 200417
+0 0
+D6
+~
+~
+0 -1 200409
+0 0
+D7
+~
+~
+0 -1 200425
+0 0
+D8
+~
+~
+0 -1 200407
+0 0
+D9
+~
+~
+0 -1 200415
+0 0
+S
+#200431
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200444
+0 0
+D1
+~
+~
+0 -1 200443
+0 0
+D6
+~
+~
+0 -1 200446
+0 0
+D7
+~
+~
+0 -1 200432
+0 0
+D8
+~
+~
+0 -1 200413
+0 0
+S
+#200432
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200444
+0 0
+D3
+~
+~
+0 -1 200469
+0 0
+D7
+~
+~
+0 -1 200468
+0 0
+D8
+~
+~
+0 -1 200431
+0 0
+D9
+~
+~
+0 -1 200470
+0 0
+S
+#200433
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D3
+~
+~
+0 -1 200475
+0 0
+D6
+~
+~
+0 -1 200427
+0 0
+D7
+~
+~
+0 -1 200474
+0 0
+D9
+~
+~
+0 -1 200434
+0 0
+S
+#200434
+Shreeks echo through the halls.~
+Shreeks of the living and the soon to be dead can be heard in all directions
+from this point in the dungeon.  The sounds are mostly
+the creatures of the dungeons communicating
+with eachother and the sounds of victory.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200475
+0 0
+D6
+~
+~
+0 -1 200433
+0 0
+D7
+~
+~
+0 -1 200476
+0 0
+D9
+~
+~
+0 -1 200435
+0 0
+S
+#200435
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D3
+~
+~
+0 -1 200437
+0 0
+D6
+~
+~
+0 -1 200434
+0 0
+D7
+~
+~
+0 -1 200438
+0 0
+D9
+~
+~
+0 -1 200436
+0 0
+S
+#200436
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200437
+0 0
+D6
+~
+~
+0 -1 200435
+0 0
+S
+#200437
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200438
+0 0
+D1
+~
+~
+0 -1 200435
+0 0
+D2
+~
+~
+0 -1 200436
+0 0
+S
+#200438
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200439
+0 0
+D2
+~
+~
+0 -1 200437
+0 0
+D6
+~
+~
+0 -1 200476
+0 0
+D8
+~
+~
+0 -1 200435
+0 0
+S
+#200439
+A bloodied wall.~
+Blood trickles all over the ground and the dugout walls.  All
+around you is the smell of rotting humanoid creatures
+and monsters only seen in nightmeres of children.
+Now would be a good time to hug your weapon.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200440
+0 0
+D1
+~
+~
+0 -1 200476
+0 0
+D2
+~
+~
+0 -1 200438
+0 0
+S
+#200440
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200441
+0 0
+D2
+~
+~
+0 -1 200439
+0 0
+D7
+~
+~
+0 -1 200445
+0 0
+D8
+~
+~
+0 -1 200476
+0 0
+S
+#200441
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 200440
+0 0
+D3
+~
+~
+0 -1 200445
+0 0
+S
+#200442
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200423
+0 0
+D2
+~
+~
+0 -1 200412
+0 0
+D3
+~
+~
+0 -1 200443
+0 0
+D7
+~
+~
+0 -1 200446
+0 0
+D8
+~
+~
+0 -1 200411
+0 0
+D9
+~
+~
+0 -1 200413
+0 0
+S
+#200443
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200446
+0 0
+D1
+~
+~
+0 -1 200442
+0 0
+D2
+~
+~
+0 -1 200413
+0 0
+D3
+~
+~
+0 -1 200431
+0 0
+D7
+~
+~
+0 -1 200444
+0 0
+D8
+~
+~
+0 -1 200412
+0 0
+S
+#200444
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200446
+0 0
+D2
+~
+~
+0 -1 200431
+0 0
+D3
+~
+~
+0 -1 200432
+0 0
+D6
+~
+~
+0 -1 200447
+0 0
+D8
+~
+~
+0 -1 200443
+0 0
+S
+#200445
+Shreeks echo through the halls.~
+Shreeks of the living and the soon to be dead can be heard in all directions
+from this point in the dungeon.  The sounds are mostly
+the creatures of the dungeons communicating
+with eachother and the sounds of victory.
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200441
+0 0
+D8
+~
+~
+0 -1 200440
+0 0
+S
+#200446
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200447
+0 0
+D2
+~
+~
+0 -1 200443
+0 0
+D3
+~
+~
+0 -1 200444
+0 0
+D8
+~
+~
+0 -1 200442
+0 0
+D9
+~
+~
+0 -1 200431
+0 0
+S
+#200447
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200448
+0 0
+D2
+~
+~
+0 -1 200446
+0 0
+D9
+~
+~
+0 -1 200444
+0 0
+S
+#200448
+Shreeks echo through the halls.~
+Shreeks of the living and the soon to be dead can be heard in all directions
+from this point in the dungeon.  The sounds are mostly
+the creatures of the dungeons communicating
+with eachother and the sounds of victory.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200449
+0 0
+D2
+~
+~
+0 -1 200447
+0 0
+S
+#200449
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200450
+0 0
+D2
+~
+~
+0 -1 200448
+0 0
+S
+#200450
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200451
+0 0
+D2
+~
+~
+0 -1 200449
+0 0
+D7
+~
+~
+0 -1 200453
+0 0
+S
+#200451
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200452
+0 0
+D2
+~
+~
+0 -1 200450
+0 0
+D3
+~
+~
+0 -1 200453
+0 0
+S
+#200452
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 200451
+0 0
+D9
+~
+~
+0 -1 200453
+0 0
+S
+#200453
+A bloodied wall.~
+Blood trickles all over the ground and the dugout walls.  All
+around you is the smell of rotting humanoid creatures
+and monsters only seen in nightmeres of children.
+Now would be a good time to hug your weapon.
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200451
+0 0
+D6
+~
+~
+0 -1 200452
+0 0
+D8
+~
+~
+0 -1 200450
+0 0
+D9
+~
+~
+0 -1 200454
+0 0
+S
+#200454
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D6
+~
+~
+0 -1 200453
+0 0
+D9
+~
+~
+0 -1 200455
+0 0
+S
+#200455
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 200467
+0 0
+D6
+~
+~
+0 -1 200454
+0 0
+D9
+~
+~
+0 -1 200456
+0 0
+S
+#200456
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200467
+0 0
+D6
+~
+~
+0 -1 200455
+0 0
+D8
+~
+~
+0 -1 200468
+0 0
+D9
+~
+~
+0 -1 200457
+0 0
+S
+#200457
+A bloodied wall.~
+Blood trickles all over the ground and the dugout walls.  All
+around you is the smell of rotting humanoid creatures
+and monsters only seen in nightmeres of children.
+Now would be a good time to hug your weapon.
+~
+1076895745&2
+0 13
+0
+0
+D6
+~
+~
+0 -1 200456
+0 0
+D9
+~
+~
+0 -1 200458
+0 0
+S
+#200458
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D6
+~
+~
+0 -1 200457
+0 0
+D9
+~
+~
+0 -1 200459
+0 0
+S
+#200459
+Shreeks echo through the halls.~
+Shreeks of the living and the soon to be dead can be heard in all directions
+from this point in the dungeon.  The sounds are mostly
+the creatures of the dungeons communicating
+with eachother and the sounds of victory.
+~
+1076895745&2
+0 13
+0
+0
+D6
+~
+~
+0 -1 200458
+0 0
+D9
+~
+~
+0 -1 200460
+0 0
+S
+#200460
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D6
+~
+~
+0 -1 200459
+0 0
+D9
+~
+~
+0 -1 200461
+0 0
+S
+#200461
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D3
+~
+~
+0 -1 200462
+0 0
+D6
+~
+~
+0 -1 200460
+0 0
+S
+#200462
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200461
+0 0
+D7
+~
+~
+0 -1 200463
+0 0
+S
+#200463
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D3
+~
+~
+0 -1 200465
+0 0
+D7
+~
+~
+0 -1 200464
+0 0
+D8
+~
+~
+0 -1 200462
+0 0
+D9
+~
+~
+0 -1 200466
+0 0
+S
+#200464
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 200465
+0 0
+D3
+~
+~
+0 -1 200477
+0 0
+D8
+~
+~
+0 -1 200463
+0 0
+S
+#200465
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200464
+0 0
+D1
+~
+~
+0 -1 200463
+0 0
+D2
+~
+~
+0 -1 200466
+0 0
+D7
+~
+~
+0 -1 200477
+0 0
+S
+#200466
+Shreeks echo through the halls.~
+Shreeks of the living and the soon to be dead can be heard in all directions
+from this point in the dungeon.  The sounds are mostly
+the creatures of the dungeons communicating
+with eachother and the sounds of victory.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200465
+0 0
+D6
+~
+~
+0 -1 200463
+0 0
+D9
+~
+~
+0 -1 200499
+0 0
+S
+#200467
+Shreeks echo through the halls.~
+Shreeks of the living and the soon to be dead can be heard in all directions
+from this point in the dungeon.  The sounds are mostly
+the creatures of the dungeons communicating
+with eachother and the sounds of victory.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200455
+0 0
+D2
+~
+~
+0 -1 200468
+0 0
+D3
+~
+~
+0 -1 200456
+0 0
+S
+#200468
+A bloodied wall.~
+Blood trickles all over the ground and the dugout walls.  All
+around you is the smell of rotting humanoid creatures
+and monsters only seen in nightmeres of children.
+Now would be a good time to hug your weapon.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200467
+0 0
+D2
+~
+~
+0 -1 200469
+0 0
+D7
+~
+~
+0 -1 200456
+0 0
+D8
+~
+~
+0 -1 200432
+0 0
+S
+#200469
+A bloodied wall.~
+Blood trickles all over the ground and the dugout walls.  All
+around you is the smell of rotting humanoid creatures
+and monsters only seen in nightmeres of children.
+Now would be a good time to hug your weapon.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200468
+0 0
+D1
+~
+~
+0 -1 200432
+0 0
+D2
+~
+~
+0 -1 200470
+0 0
+S
+#200470
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200469
+0 0
+D2
+~
+~
+0 -1 200471
+0 0
+D6
+~
+~
+0 -1 200432
+0 0
+S
+#200471
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200470
+0 0
+D2
+~
+~
+0 -1 200472
+0 0
+S
+#200472
+A bloodied wall.~
+Blood trickles all over the ground and the dugout walls.  All
+around you is the smell of rotting humanoid creatures
+and monsters only seen in nightmeres of children.
+Now would be a good time to hug your weapon.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200471
+0 0
+D2
+~
+~
+0 -1 200473
+0 0
+D8
+~
+~
+0 -1 200429
+0 0
+S
+#200473
+A bloodied wall.~
+Blood trickles all over the ground and the dugout walls.  All
+around you is the smell of rotting humanoid creatures
+and monsters only seen in nightmeres of children.
+Now would be a good time to hug your weapon.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200472
+0 0
+D1
+~
+~
+0 -1 200429
+0 0
+D2
+~
+~
+0 -1 200474
+0 0
+S
+#200474
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200473
+0 0
+D2
+~
+~
+0 -1 200475
+0 0
+D6
+~
+~
+0 -1 200429
+0 0
+D8
+~
+~
+0 -1 200433
+0 0
+D9
+~
+~
+0 -1 200476
+0 0
+S
+#200475
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200474
+0 0
+D1
+~
+~
+0 -1 200433
+0 0
+D2
+~
+~
+0 -1 200434
+0 0
+D3
+~
+~
+0 -1 200476
+0 0
+S
+#200476
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200475
+0 0
+D3
+~
+~
+0 -1 200439
+0 0
+D6
+~
+~
+0 -1 200474
+0 0
+D7
+~
+~
+0 -1 200440
+0 0
+D8
+~
+~
+0 -1 200434
+0 0
+D9
+~
+~
+0 -1 200438
+0 0
+S
+#200477
+A bloodied wall.~
+Blood trickles all over the ground and the dugout walls.  All
+around you is the smell of rotting humanoid creatures
+and monsters only seen in nightmeres of children.
+Now would be a good time to hug your weapon.
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200464
+0 0
+D3
+~
+~
+0 -1 200478
+0 0
+D8
+~
+~
+0 -1 200465
+0 0
+D9
+~
+~
+0 -1 200479
+0 0
+S
+#200478
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200477
+0 0
+D2
+~
+~
+0 -1 200479
+0 0
+S
+#200479
+Shreeks echo through the halls.~
+Shreeks of the living and the soon to be dead can be heard in all directions
+from this point in the dungeon.  The sounds are mostly
+the creatures of the dungeons communicating
+with eachother and the sounds of victory.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200478
+0 0
+D2
+~
+~
+0 -1 200480
+0 0
+D6
+~
+~
+0 -1 200477
+0 0
+S
+#200480
+Shreeks echo through the halls.~
+Shreeks of the living and the soon to be dead can be heard in all directions
+from this point in the dungeon.  The sounds are mostly
+the creatures of the dungeons communicating
+with eachother and the sounds of victory.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200479
+0 0
+D2
+~
+~
+0 -1 200481
+0 0
+D8
+~
+~
+0 -1 200499
+0 0
+S
+#200481
+Shreeks echo through the halls.~
+Shreeks of the living and the soon to be dead can be heard in all directions
+from this point in the dungeon.  The sounds are mostly
+the creatures of the dungeons communicating
+with eachother and the sounds of victory.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200480
+0 0
+D1
+~
+~
+0 -1 200499
+0 0
+D2
+~
+~
+0 -1 200482
+0 0
+D8
+~
+~
+0 -1 200500
+0 0
+D9
+~
+~
+0 -1 200483
+0 0
+S
+#200482
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200481
+0 0
+D1
+~
+~
+0 -1 200500
+0 0
+D3
+~
+~
+0 -1 200483
+0 0
+D6
+~
+~
+0 -1 200499
+0 0
+D8
+~
+~
+0 -1 200501
+0 0
+D9
+~
+~
+0 -1 200530
+0 0
+S
+#200483
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200482
+0 0
+D2
+~
+~
+0 -1 200530
+0 0
+D3
+~
+~
+0 -1 200484
+0 0
+D6
+~
+~
+0 -1 200481
+0 0
+S
+#200484
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200483
+0 0
+D3
+~
+~
+0 -1 200485
+0 0
+D8
+~
+~
+0 -1 200530
+0 0
+S
+#200485
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200484
+0 0
+D3
+~
+~
+0 -1 200486
+0 0
+D9
+~
+~
+0 -1 200487
+0 0
+S
+#200486
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200485
+0 0
+D2
+~
+~
+0 -1 200487
+0 0
+D3
+~
+~
+0 -1 200507
+0 0
+D7
+~
+~
+0 -1 200504
+0 0
+D9
+~
+~
+0 -1 200488
+0 0
+S
+#200487
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200486
+0 0
+D3
+~
+~
+0 -1 200488
+0 0
+D6
+~
+~
+0 -1 200485
+0 0
+D7
+~
+~
+0 -1 200507
+0 0
+S
+#200488
+Shreeks echo through the halls.~
+Shreeks of the living and the soon to be dead can be heard in all directions
+from this point in the dungeon.  The sounds are mostly
+the creatures of the dungeons communicating
+with eachother and the sounds of victory.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200507
+0 0
+D1
+~
+~
+0 -1 200487
+0 0
+D3
+~
+~
+0 -1 200489
+0 0
+D6
+~
+~
+0 -1 200486
+0 0
+S
+#200489
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200488
+0 0
+D3
+~
+~
+0 -1 200490
+0 0
+D6
+~
+~
+0 -1 200507
+0 0
+D9
+~
+~
+0 -1 200491
+0 0
+S
+#200490
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200489
+0 0
+D2
+~
+~
+0 -1 200491
+0 0
+S
+#200491
+A bloodied wall.~
+Blood trickles all over the ground and the dugout walls.  All
+around you is the smell of rotting humanoid creatures
+and monsters only seen in nightmeres of children.
+Now would be a good time to hug your weapon.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200490
+0 0
+D2
+~
+~
+0 -1 200492
+0 0
+D6
+~
+~
+0 -1 200489
+0 0
+S
+#200492
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200491
+0 0
+D2
+~
+~
+0 -1 200493
+0 0
+S
+#200493
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200492
+0 0
+D2
+~
+~
+0 -1 200494
+0 0
+S
+#200494
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200493
+0 0
+D2
+~
+~
+0 -1 200495
+0 0
+S
+#200495
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200494
+0 0
+D2
+~
+~
+0 -1 200496
+0 0
+S
+#200496
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200495
+0 0
+D2
+~
+~
+0 -1 200497
+0 0
+D8
+~
+~
+0 -1 200498
+0 0
+S
+#200497
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200496
+0 0
+D1
+~
+~
+0 -1 200498
+0 0
+S
+#200498
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200541
+0 0
+D3
+~
+~
+0 -1 200497
+0 0
+D6
+~
+~
+0 -1 200513
+0 0
+D7
+~
+~
+0 -1 200496
+0 0
+S
+#200499
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 200500
+0 0
+D3
+~
+~
+0 -1 200481
+0 0
+D6
+~
+~
+0 -1 200466
+0 0
+D7
+~
+~
+0 -1 200480
+0 0
+D9
+~
+~
+0 -1 200482
+0 0
+S
+#200500
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200499
+0 0
+D2
+~
+~
+0 -1 200501
+0 0
+D3
+~
+~
+0 -1 200482
+0 0
+D7
+~
+~
+0 -1 200481
+0 0
+S
+#200501
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200500
+0 0
+D2
+~
+~
+0 -1 200502
+0 0
+D7
+~
+~
+0 -1 200482
+0 0
+S
+#200502
+Shreeks echo through the halls.~
+Shreeks of the living and the soon to be dead can be heard in all directions
+from this point in the dungeon.  The sounds are mostly
+the creatures of the dungeons communicating
+with eachother and the sounds of victory.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200501
+0 0
+D2
+~
+~
+0 -1 200503
+0 0
+D9
+~
+~
+0 -1 200533
+0 0
+S
+#200503
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200502
+0 0
+D3
+~
+~
+0 -1 200533
+0 0
+D9
+~
+~
+0 -1 200534
+0 0
+S
+#200504
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 200507
+0 0
+D3
+~
+~
+0 -1 200508
+0 0
+D7
+~
+~
+0 -1 200505
+0 0
+D8
+~
+~
+0 -1 200486
+0 0
+S
+#200505
+Shreeks echo through the halls.~
+Shreeks of the living and the soon to be dead can be heard in all directions
+from this point in the dungeon.  The sounds are mostly
+the creatures of the dungeons communicating
+with eachother and the sounds of victory.
+~
+1076895745&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 200508
+0 0
+D3
+~
+~
+0 -1 200509
+0 0
+D7
+~
+~
+0 -1 200506
+0 0
+D8
+~
+~
+0 -1 200504
+0 0
+S
+#200506
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200511
+0 0
+D2
+~
+~
+0 -1 200509
+0 0
+D3
+~
+~
+0 -1 200510
+0 0
+D8
+~
+~
+0 -1 200505
+0 0
+S
+#200507
+Shreeks echo through the halls.~
+Shreeks of the living and the soon to be dead can be heard in all directions
+from this point in the dungeon.  The sounds are mostly
+the creatures of the dungeons communicating
+with eachother and the sounds of victory.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200504
+0 0
+D1
+~
+~
+0 -1 200486
+0 0
+D2
+~
+~
+0 -1 200488
+0 0
+D7
+~
+~
+0 -1 200508
+0 0
+D8
+~
+~
+0 -1 200487
+0 0
+D9
+~
+~
+0 -1 200489
+0 0
+S
+#200508
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200505
+0 0
+D1
+~
+~
+0 -1 200504
+0 0
+D7
+~
+~
+0 -1 200509
+0 0
+D8
+~
+~
+0 -1 200507
+0 0
+S
+#200509
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200506
+0 0
+D1
+~
+~
+0 -1 200505
+0 0
+D7
+~
+~
+0 -1 200510
+0 0
+D8
+~
+~
+0 -1 200508
+0 0
+S
+#200510
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200506
+0 0
+D6
+~
+~
+0 -1 200511
+0 0
+D8
+~
+~
+0 -1 200509
+0 0
+S
+#200511
+A bloodied wall.~
+Blood trickles all over the ground and the dugout walls.  All
+around you is the smell of rotting humanoid creatures
+and monsters only seen in nightmeres of children.
+Now would be a good time to hug your weapon.
+~
+1076895745&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 200506
+0 0
+D6
+~
+~
+0 -1 200512
+0 0
+D9
+~
+~
+0 -1 200510
+0 0
+S
+#200512
+A bloodied wall.~
+Blood trickles all over the ground and the dugout walls.  All
+around you is the smell of rotting humanoid creatures
+and monsters only seen in nightmeres of children.
+Now would be a good time to hug your weapon.
+~
+1076895745&2
+0 13
+0
+0
+D9
+~
+~
+0 -1 200511
+0 0
+S
+#200513
+A bloodied wall.~
+Blood trickles all over the ground and the dugout walls.  All
+around you is the smell of rotting humanoid creatures
+and monsters only seen in nightmeres of children.
+Now would be a good time to hug your weapon.
+~
+1076895745&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 200541
+0 0
+D6
+~
+~
+0 -1 200514
+0 0
+D8
+~
+~
+0 -1 200540
+0 0
+D9
+~
+~
+0 -1 200498
+0 0
+S
+#200514
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200515
+0 0
+D6
+~
+~
+0 -1 200545
+0 0
+D9
+~
+~
+0 -1 200513
+0 0
+S
+#200515
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200545
+0 0
+D1
+~
+~
+0 -1 200516
+0 0
+D3
+~
+~
+0 -1 200514
+0 0
+D6
+~
+~
+0 -1 200544
+0 0
+D8
+~
+~
+0 -1 200524
+0 0
+S
+#200516
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200544
+0 0
+D1
+~
+~
+0 -1 200517
+0 0
+D2
+~
+~
+0 -1 200524
+0 0
+D3
+~
+~
+0 -1 200515
+0 0
+D6
+~
+~
+0 -1 200526
+0 0
+D7
+~
+~
+0 -1 200545
+0 0
+S
+#200517
+A bloodied wall.~
+Blood trickles all over the ground and the dugout walls.  All
+around you is the smell of rotting humanoid creatures
+and monsters only seen in nightmeres of children.
+Now would be a good time to hug your weapon.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200526
+0 0
+D1
+~
+~
+0 -1 200518
+0 0
+D3
+~
+~
+0 -1 200516
+0 0
+D6
+~
+~
+0 -1 200520
+0 0
+D7
+~
+~
+0 -1 200544
+0 0
+D8
+~
+~
+0 -1 200521
+0 0
+D9
+~
+~
+0 -1 200524
+0 0
+S
+#200518
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200520
+0 0
+D1
+~
+~
+0 -1 200519
+0 0
+D2
+~
+~
+0 -1 200521
+0 0
+D3
+~
+~
+0 -1 200517
+0 0
+D6
+~
+~
+0 -1 200535
+0 0
+D7
+~
+~
+0 -1 200526
+0 0
+S
+#200519
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200535
+0 0
+D1
+~
+~
+0 -1 200536
+0 0
+D3
+~
+~
+0 -1 200518
+0 0
+D7
+~
+~
+0 -1 200520
+0 0
+D8
+~
+~
+0 -1 200547
+0 0
+D9
+~
+~
+0 -1 200521
+0 0
+S
+#200520
+Shreeks echo through the halls.~
+Shreeks of the living and the soon to be dead can be heard in all directions
+from this point in the dungeon.  The sounds are mostly
+the creatures of the dungeons communicating
+with eachother and the sounds of victory.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200534
+0 0
+D1
+~
+~
+0 -1 200535
+0 0
+D2
+~
+~
+0 -1 200518
+0 0
+D3
+~
+~
+0 -1 200526
+0 0
+D7
+~
+~
+0 -1 200527
+0 0
+D8
+~
+~
+0 -1 200519
+0 0
+D9
+~
+~
+0 -1 200517
+0 0
+S
+#200521
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200518
+0 0
+D6
+~
+~
+0 -1 200519
+0 0
+D7
+~
+~
+0 -1 200517
+0 0
+D8
+~
+~
+0 -1 200548
+0 0
+D9
+~
+~
+0 -1 200522
+0 0
+S
+#200522
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D6
+~
+~
+0 -1 200521
+0 0
+D7
+~
+~
+0 -1 200524
+0 0
+D8
+~
+~
+0 -1 200549
+0 0
+D9
+~
+~
+0 -1 200523
+0 0
+S
+#200523
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D6
+~
+~
+0 -1 200522
+0 0
+D7
+~
+~
+0 -1 200525
+0 0
+S
+#200524
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200516
+0 0
+D6
+~
+~
+0 -1 200517
+0 0
+D7
+~
+~
+0 -1 200515
+0 0
+D8
+~
+~
+0 -1 200522
+0 0
+D9
+~
+~
+0 -1 200525
+0 0
+S
+#200525
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D3
+~
+~
+0 -1 200540
+0 0
+D6
+~
+~
+0 -1 200524
+0 0
+D8
+~
+~
+0 -1 200523
+0 0
+S
+#200526
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200527
+0 0
+D1
+~
+~
+0 -1 200520
+0 0
+D2
+~
+~
+0 -1 200517
+0 0
+D3
+~
+~
+0 -1 200544
+0 0
+D6
+~
+~
+0 -1 200534
+0 0
+D7
+~
+~
+0 -1 200543
+0 0
+D8
+~
+~
+0 -1 200518
+0 0
+D9
+~
+~
+0 -1 200516
+0 0
+S
+#200527
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200528
+0 0
+D1
+~
+~
+0 -1 200534
+0 0
+D2
+~
+~
+0 -1 200526
+0 0
+D3
+~
+~
+0 -1 200543
+0 0
+D6
+~
+~
+0 -1 200533
+0 0
+D7
+~
+~
+0 -1 200542
+0 0
+D8
+~
+~
+0 -1 200520
+0 0
+D9
+~
+~
+0 -1 200544
+0 0
+S
+#200528
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200529
+0 0
+D1
+~
+~
+0 -1 200533
+0 0
+D2
+~
+~
+0 -1 200527
+0 0
+D3
+~
+~
+0 -1 200542
+0 0
+D7
+~
+~
+0 -1 200531
+0 0
+D8
+~
+~
+0 -1 200534
+0 0
+D9
+~
+~
+0 -1 200543
+0 0
+S
+#200529
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200530
+0 0
+D2
+~
+~
+0 -1 200528
+0 0
+D3
+~
+~
+0 -1 200531
+0 0
+D8
+~
+~
+0 -1 200533
+0 0
+D9
+~
+~
+0 -1 200542
+0 0
+S
+#200530
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200483
+0 0
+D2
+~
+~
+0 -1 200529
+0 0
+D6
+~
+~
+0 -1 200482
+0 0
+D7
+~
+~
+0 -1 200484
+0 0
+D9
+~
+~
+0 -1 200531
+0 0
+S
+#200531
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200529
+0 0
+D2
+~
+~
+0 -1 200542
+0 0
+D6
+~
+~
+0 -1 200530
+0 0
+D8
+~
+~
+0 -1 200528
+0 0
+D9
+~
+~
+0 -1 200532
+0 0
+S
+#200532
+Shreeks echo through the halls.~
+Shreeks of the living and the soon to be dead can be heard in all directions
+from this point in the dungeon.  The sounds are mostly
+the creatures of the dungeons communicating
+with eachother and the sounds of victory.
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200542
+0 0
+D6
+~
+~
+0 -1 200531
+0 0
+D8
+~
+~
+0 -1 200543
+0 0
+S
+#200533
+Shreeks echo through the halls.~
+Shreeks of the living and the soon to be dead can be heard in all directions
+from this point in the dungeon.  The sounds are mostly
+the creatures of the dungeons communicating
+with eachother and the sounds of victory.
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200503
+0 0
+D2
+~
+~
+0 -1 200534
+0 0
+D3
+~
+~
+0 -1 200528
+0 0
+D6
+~
+~
+0 -1 200502
+0 0
+D7
+~
+~
+0 -1 200529
+0 0
+D9
+~
+~
+0 -1 200527
+0 0
+S
+#200534
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200533
+0 0
+D2
+~
+~
+0 -1 200520
+0 0
+D3
+~
+~
+0 -1 200527
+0 0
+D6
+~
+~
+0 -1 200503
+0 0
+D7
+~
+~
+0 -1 200528
+0 0
+D8
+~
+~
+0 -1 200535
+0 0
+D9
+~
+~
+0 -1 200526
+0 0
+S
+#200535
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 200519
+0 0
+D3
+~
+~
+0 -1 200520
+0 0
+D7
+~
+~
+0 -1 200534
+0 0
+D8
+~
+~
+0 -1 200536
+0 0
+D9
+~
+~
+0 -1 200518
+0 0
+S
+#200536
+A little light.~
+A little bit of light seems to creep in from above.  Looking up
+toward the light you can see the outside world, well
+atleast small parts of it.  This is probably how
+grass can grow here and a bit of water can be found
+~
+1076895745&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 200547
+0 0
+D3
+~
+~
+0 -1 200519
+0 0
+D7
+~
+~
+0 -1 200535
+0 0
+D8
+~
+~
+0 -1 200537
+0 0
+S
+#200537
+Shreeks echo through the halls.~
+Shreeks of the living and the soon to be dead can be heard in all directions
+from this point in the dungeon.  The sounds are mostly
+the creatures of the dungeons communicating
+with eachother and the sounds of victory.
+~
+1076895745&2
+0 13
+0
+0
+D2
+~
+~
+0 -1 200546
+0 0
+D3
+~
+~
+0 -1 200547
+0 0
+D7
+~
+~
+0 -1 200536
+0 0
+D8
+~
+~
+0 -1 200538
+0 0
+S
+#200538
+A bloodied wall.~
+Blood trickles all over the ground and the dugout walls.  All
+around you is the smell of rotting humanoid creatures
+and monsters only seen in nightmeres of children.
+Now would be a good time to hug your weapon.
+~
+1076895745&2
+0 13
+0
+0
+D3
+~
+~
+0 -1 200546
+0 0
+D7
+~
+~
+0 -1 200537
+0 0
+D8
+~
+~
+0 -1 200539
+0 0
+S
+#200539
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D7
+~
+~
+0 -1 200538
+0 0
+S
+#200540
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200525
+0 0
+D3
+~
+~
+0 -1 200541
+0 0
+D7
+~
+~
+0 -1 200513
+0 0
+S
+#200541
+Shreeks echo through the halls.~
+Shreeks of the living and the soon to be dead can be heard in all directions
+from this point in the dungeon.  The sounds are mostly
+the creatures of the dungeons communicating
+with eachother and the sounds of victory.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200513
+0 0
+D1
+~
+~
+0 -1 200540
+0 0
+D3
+~
+~
+0 -1 200498
+0 0
+S
+#200542
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200531
+0 0
+D1
+~
+~
+0 -1 200528
+0 0
+D2
+~
+~
+0 -1 200543
+0 0
+D3
+~
+~
+0 -1 200532
+0 0
+D6
+~
+~
+0 -1 200529
+0 0
+D8
+~
+~
+0 -1 200527
+0 0
+S
+#200543
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200542
+0 0
+D1
+~
+~
+0 -1 200527
+0 0
+D2
+~
+~
+0 -1 200544
+0 0
+D6
+~
+~
+0 -1 200528
+0 0
+D7
+~
+~
+0 -1 200532
+0 0
+D8
+~
+~
+0 -1 200526
+0 0
+D9
+~
+~
+0 -1 200545
+0 0
+S
+#200544
+Another path underground.~
+As with any direction that you look, it appears this horrid
+dungeon has no end.  Just more and more underground
+paths that lead most certainly to pain and doom.
+Now would be the the time to flee if want!
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200543
+0 0
+D1
+~
+~
+0 -1 200526
+0 0
+D2
+~
+~
+0 -1 200516
+0 0
+D3
+~
+~
+0 -1 200545
+0 0
+D6
+~
+~
+0 -1 200527
+0 0
+D8
+~
+~
+0 -1 200517
+0 0
+D9
+~
+~
+0 -1 200515
+0 0
+S
+#200545
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D1
+~
+~
+0 -1 200544
+0 0
+D2
+~
+~
+0 -1 200515
+0 0
+D6
+~
+~
+0 -1 200543
+0 0
+D8
+~
+~
+0 -1 200516
+0 0
+D9
+~
+~
+0 -1 200514
+0 0
+S
+#200546
+Shreeks echo through the halls.~
+Shreeks of the living and the soon to be dead can be heard in all directions
+from this point in the dungeon.  The sounds are mostly
+the creatures of the dungeons communicating
+with eachother and the sounds of victory.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200537
+0 0
+D1
+~
+~
+0 -1 200538
+0 0
+D7
+~
+~
+0 -1 200547
+0 0
+S
+#200547
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D0
+~
+~
+0 -1 200536
+0 0
+D1
+~
+~
+0 -1 200537
+0 0
+D7
+~
+~
+0 -1 200519
+0 0
+D8
+~
+~
+0 -1 200546
+0 0
+D9
+~
+~
+0 -1 200548
+0 0
+S
+#200548
+Bodies litter the ground.~
+The horrible stench of death runs as putrid as it gets in this little
+alcove.  Bodies are stacked up into the sky as
+perhaps an offering to some evil god or as a sign
+to all who would see it.
+~
+1076895745&2
+0 13
+0
+0
+D6
+~
+~
+0 -1 200547
+0 0
+D7
+~
+~
+0 -1 200521
+0 0
+D9
+~
+~
+0 -1 200549
+0 0
+S
+#200549
+Some small scribles on the cavern walls~
+It is really hard to read and understand, but it appears the creatures that
+inhabit this foul place have left behind some sort of
+horrid looking history.  These creatures sure
+appear to enjoy killing as noted by the last picture of bodies
+spread out everywhere.
+~
+1076895745&2
+0 13
+0
+0
+D6
+~
+~
+0 -1 200548
+0 0
+D7
+~
+~
+0 -1 200522
+0 0
+S
+#0
+
+
+#RESETS
+M 1 200400 1 200402 -1 -1 -1 0 0
+M 1 200401 1 200404 -1 -1 -1 0 0
+M 1 200400 1 200406 -1 -1 -1 0 0
+M 1 200400 1 200408 -1 -1 -1 0 0
+M 1 200400 1 200409 -1 -1 -1 0 0
+M 1 200403 1 200411 -1 -1 -1 0 0
+G 1 200400 1 0 -1 0 0
+G 1 200401 1 0 -1 0 0
+M 1 200400 1 200413 -1 -1 -1 0 0
+M 1 200400 1 200415 -1 -1 -1 0 0
+M 1 200400 1 200417 -1 -1 -1 0 0
+M 1 200402 1 200418 -1 -1 -1 0 0
+M 1 200401 1 200420 -1 -1 -1 0 0
+M 1 200401 1 200422 -1 -1 -1 0 0
+M 1 200402 1 200424 -1 -1 -1 0 0
+M 1 200400 1 200426 -1 -1 -1 0 0
+M 1 200400 1 200427 -1 -1 -1 0 0
+M 1 200400 1 200429 -1 -1 -1 0 0
+M 1 200403 1 200431 -1 -1 -1 0 0
+M 1 200403 1 200433 -1 -1 -1 0 0
+M 1 200403 1 200435 -1 -1 -1 0 0
+M 1 200400 1 200436 -1 -1 -1 0 0
+M 1 200400 1 200438 -1 -1 -1 0 0
+M 1 200400 1 200440 -1 -1 -1 0 0
+M 1 200400 1 200442 -1 -1 -1 0 0
+M 1 200403 1 200444 -1 -1 -1 0 0
+M 1 200400 1 200445 -1 -1 -1 0 0
+M 1 200401 1 200447 -1 -1 -1 0 0
+M 1 200400 1 200449 -1 -1 -1 0 0
+M 1 200403 1 200451 -1 -1 -1 0 0
+M 1 200400 1 200453 -1 -1 -1 0 0
+M 1 200402 1 200454 -1 -1 -1 0 0
+M 1 200400 1 200456 -1 -1 -1 0 0
+M 1 200400 1 200458 -1 -1 -1 0 0
+M 1 200401 1 200460 -1 -1 -1 0 0
+M 1 200400 1 200462 -1 -1 -1 0 0
+O 1 200417 1 200462 -1 -1 -1 -1 0 0
+M 1 200400 1 200463 -1 -1 -1 0 0
+G 1 200402 1 0 -1 0 0
+E 1 200403 1 20 -1 0 0
+M 1 200400 1 200465 -1 -1 -1 0 0
+O 1 200416 1 200466 -1 -1 -1 -1 0 0
+M 1 200403 1 200467 -1 -1 -1 0 0
+M 1 200401 1 200469 -1 -1 -1 0 0
+M 1 200402 1 200471 -1 -1 -1 0 0
+M 1 200402 1 200472 -1 -1 -1 0 0
+M 1 200402 1 200474 -1 -1 -1 0 0
+M 1 200400 1 200476 -1 -1 -1 0 0
+M 1 200402 1 200478 -1 -1 -1 0 0
+G 1 200404 1 0 -1 0 0
+M 1 200400 1 200479 -1 -1 -1 0 0
+M 1 200402 1 200481 -1 -1 -1 0 0
+M 1 200403 1 200483 -1 -1 -1 0 0
+M 1 200400 1 200485 -1 -1 -1 0 0
+M 1 200400 1 200487 -1 -1 -1 0 0
+M 1 200402 1 200488 -1 -1 -1 0 0
+M 1 200400 1 200490 -1 -1 -1 0 0
+M 1 200402 1 200492 -1 -1 -1 0 0
+M 1 200400 1 200494 -1 -1 -1 0 0
+M 1 200401 1 200496 -1 -1 -1 0 0
+M 1 200400 1 200497 -1 -1 -1 0 0
+M 1 200400 1 200499 -1 -1 -1 0 0
+M 1 200402 1 200501 -1 -1 -1 0 0
+M 1 200422 1 200501 -1 -1 -1 0 0
+E 1 200414 1 15 -1 0 0
+M 1 200403 1 200503 -1 -1 -1 0 0
+M 1 200403 1 200505 -1 -1 -1 0 0
+M 1 200400 1 200506 -1 -1 -1 0 0
+M 1 200400 1 200508 -1 -1 -1 0 0
+M 1 200403 1 200510 -1 -1 -1 0 0
+M 1 200400 1 200512 -1 -1 -1 0 0
+M 1 200400 1 200514 -1 -1 -1 0 0
+M 1 200400 1 200515 -1 -1 -1 0 0
+M 1 200400 1 200517 -1 -1 -1 0 0
+M 1 200402 1 200519 -1 -1 -1 0 0
+M 1 200402 1 200521 -1 -1 -1 0 0
+M 1 200403 1 200523 -1 -1 -1 0 0
+M 1 200400 1 200524 -1 -1 -1 0 0
+M 1 200403 1 200526 -1 -1 -1 0 0
+M 1 200400 1 200528 -1 -1 -1 0 0
+M 1 200400 1 200530 -1 -1 -1 0 0
+G 1 200405 1 0 -1 0 0
+E 1 200406 1 20 -1 0 0
+O 1 200418 1 200530 -1 -1 -1 -1 0 0
+M 1 200401 1 200532 -1 -1 -1 0 0
+M 1 200400 1 200533 -1 -1 -1 0 0
+M 1 200403 1 200535 -1 -1 -1 0 0
+M 1 200421 1 200536 -1 -1 -1 0 0
+E 1 200408 1 7 -1 0 0
+E 1 200409 1 8 -1 0 0
+E 1 200410 1 13 -1 0 0
+E 1 200411 1 14 -1 0 0
+G 1 200412 1 0 -1 0 0
+G 1 200413 1 0 -1 0 0
+M 1 200401 1 200537 -1 -1 -1 0 0
+M 1 200400 1 200539 -1 -1 -1 0 0
+M 1 200402 1 200541 -1 -1 -1 0 0
+M 1 200400 1 200542 -1 -1 -1 0 0
+M 1 200400 1 200544 -1 -1 -1 0 0
+M 1 200420 1 200545 -1 -1 -1 0 0
+E 1 200407 1 13 -1 0 0
+M 1 200400 1 200546 -1 -1 -1 0 0
+M 1 200401 1 200548 -1 -1 -1 0 0
+M 1 200400 1 200549 -1 -1 -1 0 0
+M 1 200426 1 200549 -1 -1 -1 0 0
+G 1 200415 1 0 -1 0 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

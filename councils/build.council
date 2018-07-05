@@ -1,0 +1,13 @@
+#COUNCIL
+Name         Building Council~
+Filename     build.council~
+Description  Building Council~
+Head         Nevon~
+Head2        Copenhaygen~
+Members      3
+Board        0
+Meeting      0
+Powers       immtalk holylight invis goto mstat ostat rstat mset oset redit savearea loadarea instaroom minvoke oinvoke shops shopset makerepair makeshop mdelete odelete rdelete repairset repairshops repairset mpstat opstat rpstat~
+End
+
+#END

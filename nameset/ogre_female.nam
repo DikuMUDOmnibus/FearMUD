@@ -1,0 +1,53 @@
+/*****************************************************/
+/* OGRE_FEMALE.NAM                                   */
+/* Namnfil f”r orch-f”rnamn                          */
+/* av Johan Danforth och Tobias Petersson            */
+/* rader som b”rjar med / „r kommentar-rader         */
+/* varje section b”rjar med [xxx] enlig filen nedan  */
+/*****************************************************/
+/* Used for Orcs/Ogres/etc                           */
+/*****************************************************/
+[start]
+Aek
+Auk
+Auv
+Cr
+Dre
+E
+Eiv
+Gre
+Ir
+Nimr
+Nuem
+Pir
+U
+Uev
+[middle]
+a
+i
+o
+u
+[end]
+dasa
+disa
+dusa
+gau
+goe
+gdusa
+loe
+gdisar
+ka
+lga
+naga
+raga
+rbaga
+rgasa
+rka
+nga
+nke
+rta
+ola
+urka
+shnaka
+[stop]
+/* End, comment needed */

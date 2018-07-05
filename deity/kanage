@@ -1,0 +1,51 @@
+#DEITY
+Filename		../deity/kanage~
+Name		Kanage~
+Description	Kanage is an ancient deity of battle and honor.  He leans towards the
+side of Good, but accepts Neutrality just as well.  The followers of
+Kanage are known for strength and courage.  Kanage looks down on those
+who are cowards, and smiles upon a brave warrior who fights to the very
+end.  The haughty and cowardly elves annoy Kanage, and he favors the
+hardy Dwarven race over others.  It is said that favorites of Kanage are
+granted enhanced perception for their servitude.
+~
+Alignment		250
+Worshippers	7
+Flee		-35
+Flee_npcrace	-10
+Flee_npcfoe	-50
+Kill		5
+Kill_npcrace	-10
+Kill_npcfoe	25
+Kill_magic	2
+Sac		5
+Bury_corpse	10
+Aid_spell		10
+Aid		10
+Steal		-25
+Backstab		-5
+Die		25
+Die_npcrace	50
+Die_npcfoe	-50
+Spell_aid		5
+Dig_corpse	-50
+Scorpse		200
+Savatar		500
+Sdeityobj		250
+Srecall		300
+Race		-1
+Class		-1
+Element		1
+Sex		-1
+Affected		33554468
+Npcrace		2
+Npcfoe		1
+Suscept		16
+Race2		-1
+Susceptnum	1200
+Elementnum	500
+Affectednum	2000
+Objstat		0
+End
+
+#END

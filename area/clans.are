@@ -1,0 +1,2013 @@
+#AREA   Clan Halls~
+
+
+
+#VERSION 51
+#AUTHOR Rook~
+
+#RANGES
+1 75 1 75 0 0 0 0 0
+$
+
+#RESETMSG &z.&w.&W..&w.&z.~
+
+#FLAGS
+12
+
+#ECONOMY 0 179483495 0
+
+#MOBILES
+#20000
+oblivion guard~
+a guard of the oblivion~
+A rather lengthy fellow is here guarding the entrance into the Oblivion halls
+~
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+1d1+20000 0d0+0 0
+0 0
+112 112 0
+> all_greet_prog 100~
+if Clan($n) == Oblivion
+or Level($n) >= 51
+Say Hello there fellow member, proceed south to enter.
+else
+say You are not welcome here $n.
+mpforce $n north
+endif
+~
+|
+#20001
+guard highwayman~
+A Highwayman~
+A rather hefty looking man is keeping out the trash from below.
+~
+A simple looking man with big arms.  Messing with him might not be of
+greatest interest of your health.
+~
+4163 0 369098920 1000 S
+0 0 0 0 0 0
+1d1+20000 60d60+60 0
+5000000 0
+112 112 1
+> all_greet_prog 100~
+if name($n) == Wulf
+bow
+say Welcome honored Leader of the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn&C.
+else
+if name($n) == Valek
+bow
+say Welcome honored First of the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn&C.
+else
+if name($n) == Draco
+bow
+say Hail, master swordslinger of the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn&C.
+else
+if name($n) == Hugo
+say &CWelcome back Deputy Hugo to the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn&C; no problems I trust?
+else
+if name($n) == Natasha
+mea $n _cya A Highwayman bows before you.
+mer $n _cya A Highwayman bows to the Lady of the Order.
+say &CWe are pleased to have you among us again, Lady Natasha.
+else
+if name($n) == Nyeddan
+bow $n
+say &CWelcome back from your adventurers, Sir Nyeddan.
+else
+if Clan($n) == Highwaymen
+say Welcome back to the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn&C, $n.
+else
+if Level($n) >= 51
+say Welcome honored Immortal $n to the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn&C.
+else
+if inroom($i) == 20006
+say You are not welcome here $n&C, get the hell out.
+mpforce $n down
+else
+if inroom($i) == 20004
+say We are closed for a while, &W$n&C.  Please leave.
+mpforce $n north
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+~
+> fight_prog 100~
+mpslay $n
+~
+> act_prog p Wulf tells you 'close the bar'~
+salute wulf
+emote heads to the entrance of the Saloon.
+mpgoto 20004
+~
+> act_prog p Wulf tells you 'open the bar'~
+salute wulf
+emote heads back to the balcony.
+mpgoto 20006
+~
+> act_prog p Valek tells you 'close the bar'~
+salute valek
+emote heads to the entrance of the Saloon.
+mpgoto 20004
+~
+> act_prog p Valek tells you 'open the bar'~
+salute valek
+emote heads back to the balcony.
+mpgoto 20006
+~
+> act_prog p Draco tells you 'close the bar'~
+salute draco
+emote heads to the entrance of the Saloon.
+mpgoto 20004
+~
+> act_prog p Draco tells you 'open the bar'~
+salute draco
+emote heads back to the balcony.
+mpgoto 20006
+~
+|
+#20002
+bartender chargar~
+&WChargar&G, the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn &GBartender&W~
+&WChargar&G, the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn &GBartender is here mixing drinks.
+~
+&CA large jovial man, mixing drinks on order and heartily associating with the
+patrons of the bar.  He looks beyond his prime years, but his wit and humor &C
+have gotten better with age, like the wines and alcohols he serves to his
+customers.  &CAt your approach, he smiles warmly and awaits your request for
+your drink of choice.
+&W*&Y-&G We at Rafermand remind our mudders to enjoy their alcohol responsibly&w.
+~
+67113027 0 168 1000 S
+0 0 0 0 0 0
+1d1+20000 0d0+0 0
+200000 0
+112 112 0
+> greet_prog 100~
+if name($n) == Nevon
+say &CWell now, how's about a &OS&wC&YR&wE&OW&YD&WR&Yi&OV&we&YR&C for ya?
+else
+if name($n) == Xerves
+say &CHow's about a &YK&OO&wM&WA&O R&wo&Yo&wt&Ob&we&Ye&wr &Cfor the Admin?
+else
+if name($n) == Wulf
+nod $n
+say &CHey boss, whatcha want me to mix up for ya?
+else
+if name($n) == Valek
+say &zH&wo&Ww &za&wb&Wout &za b&wr&Wewsky &zf&wo&Wr &zy&wa &zl&wa&Wd?
+else
+if name($n) == Draco
+say &CHeya man, how's 'bout a brewsky after a hard day of pilferin'?
+endif
+endif
+endif
+endif
+endif
+~
+|
+#20003
+moses~
+&WM&wose&Ws&W~
+&gA f&Gluffy &gf&Gield &gt&Groll &gn&Gamed &WM&wose&Ws&g s&Glumbers &go&Gn &ga n&Gearby &gm&Goss &gb&Ged.&w
+~
+A furry troll is before you, slumbering peacefully on a moss bed.  Though he
+is short and round, indeed ugly by most standards, his bright green eyes and
+kind face fill him with a warming presence and you cannot help but smile at
+him and his antics.  He wears a collar studded with amethysts and furry troll
+slippers, adding to his adorable appearance.
+~
+1140850691 0 168 1000 C
+0 0 0 0 0 0
+30000d1+0 0d0+0 0
+0 0
+112 112 0
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+30 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+> greet_prog 100~
+if name($n) == Natasha
+lick natasha
+emote &creturns to his moss bed and quickly dozes off.
+else
+if name($n) == Wulf
+slobber wulf
+emote &creturns to his moss bed and quickly dozes off.
+endif
+endif
+~
+> rand_prog 1~
+mpecho &wThe &Rw&Ya&rr&Rm &Yf&ri&Rr&Ye&w crackles softly.
+~
+|
+#20004
+Pony Express Postmaster~
+&YT&wh&ze &wP&Yo&ws&zt&wm&Ya&ws&zt&we&Yr&w~
+&WThe &wP&Yo&ws&zt&wm&Ya&ws&zt&we&Yr&W is here, sorting mail.
+~
+~
+1140850755 0 4194304 0 S
+0 0 0 0 0 0
+30000d1+0 0d0+0 0
+0 0
+112 112 0
+> speech_prog p want to write~
+mpoload 36 0
+give note $n
+mpoload 37 0
+give quill $n
+~
+> speech_prog p gimme the damn paper~
+mpoload 36 0
+give note $n
+~
+> speech_prog p gimme the damn paper!~
+mpoload 36 0
+give note $n
+~
+> speech_prog p gimme the damn pen~
+mpoload 37 0
+give quill $n
+~
+> speech_prog p gimme the damn pen!~
+mpoload 37 0
+give quill $n
+~
+|
+#20005
+Whark~
+Whark~
+Whark, a trustworty Chocobonic, tends to your needs.
+~
+A rather plain looking man that has agreed to help the Chocobonics.
+His role is to sell equipment and whatever else he has to those who
+have the money
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+10d10+5000 0d0+0 0
+1000000 0
+112 112 0
+#20006
+Shiera the chaosborne~
+&WS&whier&ra &Bc&chA&zos&RB&co&OrnE~
+&WS&whier&ra &Bc&chA&zos&RB&co&OrnE &Bfloats about, tending the outcast...
+~
+&wUnlike her kinsman &OG&za&wr&rE&Rt&w, this creature bears no corporeal
+form, appearing simply as an alluring, albeit translucent, feminine figure
+clad in a flowing shroud.  With a touch, this faithful &BM&Wi&wsf&Wi&Bt &wtends
+the wounded of her brethren.
+~
+67108867 0 4194472 0 C
+0 0 0 0 0 0
+25d500+300 0d0+0 0
+0 0
+112 112 2
+18 13 13 13 13 13 13 0
+0 0 0 0 0
+84 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 2047 0 3156992 0 0 0 263
+#20050
+guard chocobonics~
+A Chocobonic~
+A Chocobonic guard is here keeping out the non-Chocobonics.
+~
+A simple looking man with big arms.  Messing with him might not be of
+greatest interest of your health.
+~
+4163 0 40 1000 S
+0 0 0 0 0 0
+1d1+20000 60d60+60 0
+5000000 0
+112 112 1
+> all_greet_prog 100~
+if clan($n) == Chocobonics
+say &CWelcome back to the Stables, $n.
+else
+say &CYou are not welcome here, $n.  Please leave.
+mpforce $n s
+endif
+~
+|
+#20100
+Garet Chaosborne~
+&OG&za&wr&rE&Rt &Bc&chA&zos&RB&co&OrnE~
+&OG&za&wr&rE&Rt&w, the &Bc&chA&zos&RB&co&OrnE&B M&Wi&wsf&Wi&Bt&w is sitting atop a &Oc&wrate, staring blankly about...
+~
+&OBrowned and rotting flesh peeks out from underneath this still figure's
+heavy, tattered blue and white cloak.  &OG&za&wr&rE&Rt&O wears the emblem
+of the &BM&Wis&wf&Wit&Bs&O upon all of his armor and clothing, and carved
+over the animation rune upon his chest is the same &BM&Wi&wsf&Wi&Bt&O logo...
+~
+67108867 0 4194432 -769 C
+0 0 0 0 0 0
+20d29+3314 6d5+18 0
+2571 0
+112 112 0
+13 13 13 13 13 13 13 5
+0 0 0 0 0
+71 0 0 0 1 1 5
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+22 0 0 0 0 0 0 880 1
+> all_greet_prog 100~
+if name($n) == Paidos
+say &BW&welcome to your &Bh&wumble &Ba&wbode, my lord...
+else
+if isimmort($n)
+say &w...Feel free to show yourself out...
+else
+if isnpc($n)
+else
+if clan($n) == Misfits
+say &BW&welcome back to the &Bd&wredges of &Bs&wociety, fellow &BM&Wi&wsf&Wi&Bt&w...
+else
+say &w...&BY&wou &Bb&welong...just not &Bh&were.  &BG&wet the &BH&we&BL&Wl &BO&wUT!!
+mea $n _dch mpslay $n
+mea $n _gre "It is here the management would like to note: Paidos screwed up this prog.  Lucky you, you're still alive!!"
+mer $n _cya $I jumps up and bodily heaves $n out of the warehouse...
+mptrans $n 21036
+endif
+endif
+endif
+endif
+~
+|
+#20297
+litneg blue hippo~
+&CL&Bitneg&C~
+&CL&Bitneg &Ct&Bhe &Cb&Blue &Ch&Bippo &Ci&Bs &Ch&Bere &Cl&Bivin' &Cl&Ba &Cv&Bida &Cl&Boca&b.&w
+~
+&CI am Litneg the huge blue hippo!  &CI will thwap you!  CACKLE!  &CI was created
+by boredom!  CACKLE!
+~
+1140850753 0 272629800 0 C
+0 0 0 0 0 0
+30000d1+0 0d0+0 0
+0 0
+112 112 1
+13 13 13 13 13 13 13 10
+0 0 0 0 0
+89 0 0 0 1 1 10
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if ispc($n)
+thwap $n
+mpoload 20297 0
+give picture $n
+say &CL&Bivin' &Cl&Ba &Cv&Bida &Cl&Boca&C!
+emote &Cshakes his hips in a very disturbing manner.
+mptransfer $n 21000
+endif
+~
+|
+#20298
+Nitleg~
+&pN&Pitleg~
+&pN&Pitleg, &pt&Phe &ph&Puge &pp&Pink &ph&Pippopotamus &pi&Ps &ph&Pere &pb&Pefore &py&Pou &pi&Pn &pa t&Putu! &pF&Pear &pi&Pt!
+~
+&PI am Nitleg the huge pink hippo! Fear me! muhahaha! I was created by
+bordem! Muhahaha
+~
+67108929 0 0 0 C
+0 0 0 0 0 0
+1d30000+0 0d0+0 0
+0 0
+112 112 0
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+89 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+> greet_prog 100~
+if ispc($n)
+say Macarena time!
+say "Hey! Macarena!"
+mptransfer $n 21000
+endif
+~
+|
+#20299
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#20000
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#20001
+gaping hole chest container outcast~
+&zA G&waping &zH&wole~
+&zA swirling, magical void, left in the hole in the floor by a God's whim...~
+~
+15 1073741824 0
+10000 0 0 0
+1001.000000 0 0 0 0 0 0
+#20002
+gray couch~
+A comfortable gray couch~
+A comfortable looking &wgray&G couch is in the corner of the room.~
+~
+12 0 0
+4 30000 585 800 800 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+#20003
+fountain water well~
+the well behind the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn~
+&CA &Cw&Bel&Cl o&Bu&Ct b&Bac&Ck w&Bait&Cs to q&Buenc&Ch y&Bou&Cr t&Bhirs&Ct.~
+~
+25 0 0
+300000 300000 0 0
+1.000000 0 0 0 0 0 0
+#20004
+huge chest emblazoned~
+&YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &WStorage Chest~
+A huge chest, emblazoned with the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn&G motto, rests here.~
+~
+15 0 0
+20000 0 0 0
+1.000000 0 0 0 0 0 0
+#20005
+key highwaymen saloon~
+&WKey to the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn~
+Nothing lies in the corner, it's just a glint of light.~
+~
+18 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#20006
+knocked on my ass rootbeer~
+&c"&WK&YN&wO&WC&YK&Oe&WD &YON &WMY &YA&Wss&c" &OR&wo&Yo&Ot&wb&Ye&Oe&wr~
+&wA bottle of &c"&WK&YN&wO&WC&YK&Oe&WD &YON &WMY &YA&Wss&c" &OR&wo&Yo&Ot&wb&Ye&Oe&wr has been left here.~
+~
+17 0 1
+3 3 15 0
+1.000000 50 0 0 0 0 0
+#20007
+bottle beer~
+a bottle of beer~
+A small bottle, tipped on its side, drips on the ground.~
+~
+17 0 16385
+5 5 1 0
+1.000000 35 0 21008 0 0 0
+#20008
+bottle whiskey~
+a bottle of whiskey~
+A bottle of whiskey spills drops on the ground.~
+~
+17 0 16385
+10 10 5 0
+1.000000 30 0 21009 0 0 0
+#20009
+screwdriver~
+&OS&wC&YR&wE&OW&YD&WR&Yi&OV&wE&YR~
+&wA &OS&wC&YR&wE&OW&YD&WR&Yi&OV&wE&YR&w mixed-drink has been left here.~
+~
+17 0 1
+2 2 8 0
+1.000000 50 0 0 0 0 0
+#20010
+hooded bullseye lantern~
+&YA &wH&zo&wo&Yd&we&zd&w B&Yu&wl&zl&ws&Ye&wy&ze &wL&Ya&wn&zt&we&Yr&wn~
+&YA &wH&zo&wo&Yd&we&zd&w B&Yu&wl&zl&ws&Ye&wy&ze &wL&Ya&wn&zt&we&Yr&wn has been left here in the dust.~
+~
+1 2621760&256 1
+0 0 -1 0
+1.000000 0 0 0 0 0 0
+A
+18 1
+A
+19 1
+A
+13 15
+A
+12 20
+A
+17 -20
+A
+1 1
+A
+4 1
+> wear_prog 100~
+if Clan($n) == Highwaymen
+mea $n _cya You hold the light of the &YH&wi&zg&w&Yh&ww&za&wy&Ym&we&zn&c.
+else
+mpforce $n remove bullseye
+mpforce $n emote wonders why $e tried to wear a &YH&wi&zg&w&Yh&ww&za&wy&Ym&we&zn&c Clan item, when $e isn't a member.
+mpforce $n 'I just tried to use a &YH&wi&zg&w&Yh&ww&za&wy&Ym&we&zn&C Clan item!
+mpforce $n boggle
+mpforce $n drop bullseye
+mpforce $n sacrifice bullseye
+endif
+~
+|
+#20011
+ray-ban rayban sunglasses glasses~
+&YR&zay&W-&YB&zan &YS&wu&zn&wg&Yl&wa&zs&ws&Ye&ws~
+&wA pair of &YR&zay&W-&YB&zan &YS&wu&zn&wg&Yl&wa&zs&ws&Ye&ws have been left here.  Fear their coolness.~
+~
+9 524608 1048577
+15 0 0 0
+1.000000 0 0 0 0 0 0
+A
+18 3
+A
+19 3
+A
+13 30
+A
+12 30
+A
+17 -20
+A
+25 1
+A
+31 1
+> wear_prog 100~
+if Clan($n) == Highwaymen
+mea $n _cya You wear the shades.  Very cool.
+else
+mpforce $n remove sunglasses
+mpforce $n emote wonders why $e tried to wear a &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &cClan item, when $e isn't a member.
+mpforce $n 'I just tried to use a &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &CClan item!
+mpforce $n drop sunglasses
+mpforce $n sacrifice sunglasses
+endif
+~
+|
+#20013
+desk~
+Wulf's Desk~
+A plain wooden desk, laden with paperwork, is here.~
+~
+12 1207959552 1
+1 2000 2052 100 100 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+#20014
+sparring mat~
+A sparring mat~
+A well worn sparring mat is covering the floor here.~
+~
+12 0 0
+4 5000 585 100 100 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+mat~
+The sparring mat is about ten feet in length and width.  It shows signs of frequent use, although it has been kept in remarkably good condition.
+~
+#20015
+functional chair seat~
+a functional chair~
+A functional chair sits here, in front of Wulf's desk.~
+~
+12 1073741824 0
+1 2000 513 100 100 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+#20016
+oz. margarita 32~
+&wa &G32 &woz&z. &Gm&wa&Wr&wg&Ga&wr&Wi&wt&Ga&w~
+&wA &G32 &woz&z. &Gm&wa&Wr&wg&Ga&wr&Wi&wt&Ga&w has been left here.  The tragedy...~
+~
+17 0 1
+16 16 8 0
+100.000000 50 0 32 0 0 0
+#20017
+huge stuffed forest green couch~
+&wa huge stuffed &gf&Gores&gt g&Gree&gn &wcouch~
+&wA huge stuffed &gf&Gores&gt g&Gree&gn &wcouch sits opposite a burning fireplace.~
+~
+12 1073741824 0
+4 30000 585 100 100 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+#20018
+Alazhum's Lifeless Head~
+&BA&zlazhum's &rL&Ri&zf&re&Rl&ze&rs&Rs &OHead~
+&BA&zlazhum's &rL&Ri&zf&re&Rl&ze&rs&Rs &OHead&G hangs from a &Wspike&G on the wall.~
+~
+13 1073741824 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#20019
+Sky Dragon's Lifeless Head~
+&WS&Cky &WD&Cragon's &rL&Ri&zf&re&Rl&ze&rs&Rs &OHead&w~
+&WS&Cky &WD&Cragon's &rL&Ri&zf&re&Rl&ze&rs&Rs &OHead&G hangs from a &Wspike&G on the wall.~
+~
+13 1073741824 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#20020
+Hell's Keeper's Lifeless Head~
+&RH&rell's &RK&reeper's &rL&Ri&zf&re&Rl&ze&rs&Rs &OHead&w~
+&RH&rell's &RK&reeper's &rL&Ri&zf&re&Rl&ze&rs&Rs &OHead&G hangs from a &Wspike&G on the wall.~
+~
+13 1073741824 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#20021
+Valek's Desk~
+Valek's Desk~
+Valek's Desk, cluttered beyond all belief, occupies the room.~
+~
+12 1073741824 0
+1 2000 4 100 100 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+#20022
+reclining chair~
+&GA &CG&wr&ce&za&wt&z-&CG&wo&cd&z-&CA&w'&zM&ci&Cg&wh&ct&Cy &GReclining Chair&w~
+&GA &CG&wr&ce&za&wt&z-&CG&wo&cd&z-&CA&w'&zM&ci&Cg&wh&ct&Cy &GReclining Chair sits here.~
+~
+12 1073741824 1
+1 2000 1026 100 100 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+> act_prog p sits down in~
+if name($n) !=Valek
+mpforce $n stand
+endif
+~
+|
+#20023
+tooled leather scabbard~
+&YT&wo&zo&wl&Ye&wd &zL&we&Ya&wt&zh&we&Yr &wS&zc&wa&Yb&wb&za&wr&Yd&w~
+&wA &YT&wo&zo&wl&Ye&wd &zL&we&Ya&wt&zh&we&Yr &wS&zc&wa&Yb&wb&za&wr&Yd&w has been left here.  Idiots.~
+~
+68 524608&2 2049 2
+20 1 0 13 -1 2 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+'sacred blast'
+A
+17 -20
+A
+3 1
+A
+5 1
+A
+18 2
+A
+19 2
+> wear_prog 100~
+if Clan($n) == Highwaymen
+mea $n _cya You wear the scabbard of the &YH&wi&zg&w&Yh&ww&za&wy&Ym&we&zn&c.
+else
+mpforce $n remove scabbard
+mpforce $n emote wonders why $e tried to wear a &YH&wi&zg&w&Yh&ww&za&wy&Ym&we&zn&c Clan item, when $e isn't a member.
+mpforce $n 'I just tried to use a &YH&wi&zg&w&Yh&ww&za&wy&Ym&we&zn&C Clan item!
+mpforce $n boggle
+mpforce $n drop scabbard
+mpforce $n sacrifice scabbard
+endif
+~
+|
+#20024
+concealed throwing knife sheath~
+&Yc&wo&zn&wc&Ye&wa&zl&we&Yd &wt&zh&wr&Yo&ww&zi&wn&Yg &wk&zn&wi&Yf&we~
+&wA &Yc&wo&zn&wc&Ye&wa&zl&we&Yd &wt&zh&wr&Yo&ww&zi&wn&Yg &wk&zn&wi&Yf&we has been left in the dust here.~
+~
+9 524608 2097153
+15 15 0 0
+1.000000 0 0 0 0 0 0
+A
+18 4
+A
+19 4
+A
+17 -20
+A
+13 30
+A
+12 25
+A
+2 1
+A
+1 1
+> wear_prog 100~
+if Clan($n) == Highwaymen
+mea $n _cya You wear the ankle sheath of the &YH&wi&zg&w&Yh&ww&za&wy&Ym&we&zn&c on your ankles.
+else
+mpforce $n remove concealed
+mpforce $n emote wonders why $e tried to wear a &YH&wi&zg&w&Yh&ww&za&wy&Ym&we&zn&c Clan item, when $e isn't a member.
+mpforce $n 'I just tried to use a &YH&wi&zg&w&Yh&ww&za&wy&Ym&we&zn&C Clan item!
+mpforce $n boggle
+mpforce $n drop concealed
+mpforce $n sacrifice concealed
+endif
+~
+|
+#20025
+conference table chair~
+a conference table~
+A large conference table occupies the room.~
+~
+12 0 0
+12 24000 2340 100 100 0 0 0 0 0 0 0 0 0
+1500.000000 0 0 0 0 0 0
+#20026
+noteboard highwaymen notes board~
+Highwaymen clan board~
+The Highwaymen clan board hangs on the wall here.~
+~
+12 0&4 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#20028
+sign under construction~
+a newly created sign under construction~
+&WA sign that says &Y"&RUNDER CONSTRUCTION&Y" &Wsits just inside the door.&w~
+~
+13 1073741824 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#20029
+Wulf's W Class License~
+Wulf's W Class License~
+&WW&wu&zl&wf&z'&ws &YW Class License &Ghangs, framed, on the far wall.~
+~
+8 1073741824 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#20032
+absolut rook~
+&WA&wb&zs&wo&Wl&wu&zt &WR&wo&zo&wk~
+&WA&wb&zs&wo&Wl&wu&zt &WR&wo&zo&wk&z.~
+~
+17 8208 1
+3 3 8 0
+1.000000 40 0 0 0 0 0
+> use_prog 100~
+mea $n _cya You're more than a little happy.
+mer $n _cya $n looks more than a little happy.
+~
+|
+#20033
+dark blue couch~
+&Ca &bdark blue&C couch~
+&CA &Bdark blue &Ccouch lies here, looking very comfortable.~
+~
+12 0 1
+4 40000 585 100 100 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+#20034
+misfit's clan board notes board~
+Misfit's clan board~
+A small board hangs on the wall for clan members to post notes to.~
+~
+12 0&4 0
+0 0 0 0
+1.000000 100 0 0 0 0 0
+#20035
+Chocobonic's clan board~
+Chocobonic's clan board~
+A small board hangs on the wall for clan members to post notes to.~
+~
+12 0&4 0
+0 0 0 0
+1.000000 100 0 20034 0 0 0
+#20050
+pile hay~
+a pile of hay~
+A pile of hay is here for you to sleep on.~
+~
+12 0 0
+4 10000 585 600 600 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+#20051
+trough water~
+trough of water~
+There is a trough of water here for you to drink from.~
+~
+25 0 0
+300000 300000 0 0
+1.000000 0 0 0 0 0 0
+#20060
+chimaera~
+&BChi&G&Wmae&c&wra St&G&Watue&Btte~
+A small statue of a mythical beast is sitting here~
+~
+9 2097152 16385
+20 20 0 0
+2.000000 100 0 0 0 0 0
+E
+chimaera~
+A mystical statue in the likeness of the mythical beast, Chimaera.
+~
+A
+19 4
+A
+18 4
+A
+13 95
+A
+17 -20
+#20061
+the answer~
+&BTh&We A&wns&Wwe&Br~
+A swirling orb hovers here floating above the surface.~
+~
+1 0&256 1
+0 0 -1 0
+1.000000 100 0 0 0 0 0
+E
+the answer~
+A round, clear orb that has helped many adventurers in their travels.
+~
+A
+13 10
+A
+12 45
+A
+19 1
+A
+18 1
+A
+17 -20
+#20062
+no direction~
+&BNo&W Di&wrec&Wti&Bon~
+A small compass lays here, its needle constantly spinning.~
+~
+9 524288 1048577
+20 20 0 0
+4.000000 100 0 0 0 0 0
+E
+no direction~
+A strange compass looking face mask, its magical power is still unknown.
+~
+A
+19 5
+A
+18 2
+A
+13 15
+A
+12 15
+#20063
+misfit blade~
+&BThe M&Wis&wf&Wit&Bs B&Wl&wa&Wd&Be~
+&cA long flamberge is planted in the ground hear, its hilt threaded with three chocobo feathers...~
+~
+5 0 8193
+0 0 0 0 -1 -1 1 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+'NONE'
+#20064
+misfit hotspring bed hot spring~
+&cThe &BM&Wis&wf&Wit&Bs &chot spring~
+&BS&cteamin&Bg &Bw&cater&Bs&c pool in a hole in the floor, fed by an unseen &Bs&cprin&Bg&c...~
+~
+12 0 0
+4 10000 1170 600 600 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+hot spring hotspring~
+&cThe steaming waters look quite inviting and invigorating, even if they are
+pooling in a hole where part of the floor has collapsed...The waters
+appear quite roomy as well, bubbling gently cross what could easily fit three
+or four exhausted &BM&Wis&wf&Wit&Bs&c...
+~
+#20065
+fountain rootbeer root beer keg~
+a newly created fountain rootbeer root beer keg~
+Some god dropped a newly created fountain rootbeer root beer keg here.~
+~
+25 1073741824 0
+0 0 14 0
+1.000000 0 0 0 0 0 0
+#20066
+leather couch~
+A leather couch~
+An overstuffed leather couch is sitting here in Renard's office.~
+~
+12 0 0
+1 30000 585 800 800 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+#20067
+massive desk~
+a massive desk~
+A massive desk, which is covered in papers. lies in the center of the room.~
+~
+12 0 0
+1 500 1 100 100 0 0 0 0 0 0 0 0 0
+1.000000 10 0 0 0 0 0
+E
+massive desk~
+Just a normal oak desk, nice and normal.
+~
+#20068
+crate desk plank~
+Skan's desk~
+&OSome crates sit here, with a plank of wood atop them, serving as a desk~
+~
+12 0 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+crates plank desk~
+&OThis simple furnishing is draped with only one item of decor, besides
+a rats nest, and that is a silk, moth eaten curtain bearing the &BM&Wis&wf&Wit&Bs
+&Ologo upon it.
+~
+#20297
+litneg's autographed picture~
+&CL&Bitneg's &CA&Butographed &CP&Bicture&w~
+&CA&Bn &Ca&Butographed &Cp&Bicture &Co&Bf &Ca H&Bippo &Cl&Bies &Ch&Bere&C.&w~
+~
+9 1074266432 16385
+12 12 0 0
+1.000000 0 0 0 0 0 0
+E
+picture~
+&CA P&Bicture &Co&Bf &Ca H&Bippo&C.  D&Bisturbing&C.  H&Be &Ca&Bppears &Ct&Bo &Cb&Be &Cl&Bivin&C' l&Ba &Cv&Bida &Cl&Boca&C.&w
+&CI&Bt &Ci&Bs &Ca&Butographed &Cb&By &CL&Bitneg&C.&w
+~
+A
+10 -40
+A
+11 2400
+A
+1 4
+A
+17 -30
+> wear_prog 100~
+mea $n _cya You feel yourself swelling to hippomotamic proportions.
+mer $n _cya $n begins to swell to hippo-like size.  Run in fear.  Quickly.
+~
+|
+#20299
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#0
+
+
+#ROOMS
+#20000
+Entrance to the halls of Oblivion~
+The room appears to be recently paved and shaped for the members of
+Oblivion.  A huge, massive looking guy waits right at the entrance to
+keep all of those out who do not belong.  Besides that, this room is
+rather blank in design.
+~
+4
+0 1
+0
+0
+D2
+~
+~
+0 -1 20001
+0 0
+S
+#20001
+Central room~
+Exits cut toward the north, east, and west.  This room is mainly used
+in discussions and often is used to recall into.  The room looks rather
+bland due to the room being just constructed.
+~
+1073741824
+0 1
+0
+0
+D0
+~
+~
+0 -1 20000
+0 0
+D1
+~
+~
+0 -1 20003
+0 0
+D3
+~
+~
+0 -1 20002
+0 0
+S
+#20002
+The treasury~
+As you walk into this room, you notice it is rather small compared to
+most of the rooms.  The room appears to be quite bland and rigid, but
+a large chest in the center of the room does draw some attention toward
+the room.
+~
+1074266112
+0 1
+0
+0
+D1
+~
+~
+0 -1 20001
+0 0
+S
+#20003
+The room of rebirths~
+This room appears to be quite different than the room to the west.  All
+around the area, small religious symbols circle around on a small shelf
+that is barely high enough to hold the symbols.  In the center, a small
+circle is carved into the ground, what it is used for is uncertain at
+this time.
+~
+1073741824
+0 1
+0
+0
+D3
+~
+~
+0 -1 20001
+0 0
+S
+#20004
+&WEntrance to the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn~
+Inside the low-cut swing doors, a veritable party is going on in the &YS&wa&zl&wo&Yo&wn&C.
+Waitresses in revealing attire make their rounds in the &YS&wa&zl&wo&Yo&wn&C, handing
+drinks to customers and dodging the gregarious hands of the patrons.  A craps
+table is near the bar, with people simulataneously cheering and cursing their
+luck at each roll of the dice.  A well-used dart board is on a nearby wall.
+In one corner, heavily clouded with &zsm&woke&C, four men argue angrily over a draw
+in a poker game.  The argument comes to a conclusion as one of the men digs out
+his &YB&wO&WO&OM&YS&wT&Wi&OC&YK&C and goes &BP&wo&CS&BT&wA&BL&C on one of the other men.  Further back in the
+&YS&wa&zl&wo&Yo&wn &Cis the Order's area, away from the riot that is the entrance.
+~
+3145736
+0 0
+0
+0
+D2
+~
+~
+16777216 -1 20005
+0 0
+S
+#20005
+&WThe Back of the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn~
+Past the &RR&Yu&Gk&gk&Ru&Ys&C of the Entrance, the back of the &YS&wa&zl&wo&Yo&wn&C is fairly quiet
+and relatively peaceful.  On the upper balcony, the actual rooms of the Order
+&YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn&C reside.  A staircase to your left leads up onto the balcony.
+~
+3145736
+0 0
+0
+0
+D0
+~
+~
+16777216 -1 20004
+0 0
+D4
+~
+~
+0 -1 20006
+0 0
+S
+#20006
+&WUpper Balcony of the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn~
+Up above the riot of the &YS&wa&zl&wo&Yo&wn&C below, a tranquil feeling overtakes you
+as you approach the rooms of the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn&C.  To the west, the resting
+area of the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn&C awaits to offer you a good rest.  To the east,
+the Leaders' Meeting Room and the Rooms of the members of the Order reside.
+A storage room is to the south.
+~
+3145736
+0 0
+0
+0
+D1
+~
+~
+0 -1 20009
+0 0
+D2
+~
+~
+0 -1 20008
+0 0
+D3
+~
+~
+0 -1 20007
+0 0
+D5
+~
+~
+0 -1 20005
+0 0
+S
+#20007
+&WA Room in the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn~
+This room in the &YS&wa&zl&wo&Yo&wn &Cis very calm and peaceful, and has a large
+couch placed in it to provide members of the Order with a good place to rest.
+The room has a door out back that leads to the well, to provide a healthy
+quench of a thirst.  Weary adventurers will find this room does quite a bit of
+good for them, as they will recover faster within its walls.
+~
+3145736
+0 0
+0
+0
+D1
+~
+~
+0 -1 20006
+0 0
+S
+#20008
+&YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn&W Storage Room~
+A massive chest occupies the majority of this room.  In it are stored the
+spoils of the Order &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn&C.  From rare swords and armor, to mundane but
+useful everyday items, this chest has everything.  This room is also used as a
+sort of trophy room, with the mounted heads of some of the more notorious
+beasts that occupy Rafermand.  The heads of the Sky Dragon and Hell's Keeper
+are mounted, as is Baric's.  A space marked 'Hydriss' waits to be filled.
+
+
+&G*&z-&W You may do what you wish with this eq, but please do not sacrifice it and if
+&G*&z-&W possible please keep it in the clan.
+&G*&z- &WAlso, by request of Wulf, please only put eq useful in this chest.
+&G*&z- &WIf you don't want an item and it's not useful, then junk it;
+&G*&z- &Wdon't stuff the chest with useless stuff.
+~
+3670024
+0 0
+0
+0
+D0
+~
+~
+0 -1 20006
+0 0
+S
+#20009
+&WUpper Balcony of the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn~
+Further down the balcony, you come across the rooms of the members of the clan
+Highwaymen.  The rooms are open to all unless that person specifically wishes
+to be left alone, in such case the members of the clan respect his/her/its
+privacy.  Above is the Officers' Level of the Saloon, which includes, along
+with Wulf and Valek's Offices, the Noteroom and the Leaders' Meeting Room.
+Another staircase leads below, to additional rooms of the members of the clan.
+~
+3145736
+0 0
+0
+0
+D0
+~
+~
+8389632 -1 20016
+0 0
+D2
+~
+~
+8389632 -1 20013
+0 0
+D3
+~
+~
+0 -1 20006
+0 0
+D4
+~
+~
+0 -1 20015
+0 0
+D5
+~
+~
+0 -1 20021
+0 0
+D6
+~
+~
+8389633 -1 20010
+0 0
+D8
+~
+~
+8389633 -1 20012
+0 0
+S
+#20010
+&WDraco's Room in the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn~
+Curative potions line the walls of Draco's room. A small fire burns in
+the center of the room, where he binds his curative magicks to the
+liquid in the flasks. His trophy case contains the heads of several
+powerful monsters found throughout Rafermand. Alazhum, Hell's Keeper,
+and even the head of the mighty Sky Dragon, hang lifelessly from the
+spikes pounded into the wall. A small plaque has been hung above a
+fourth spike, and it reads: Hydriss.
+~
+3145736
+0 0
+0
+0
+D9
+~
+~
+8389633 -1 20009
+0 0
+> greet_prog 100~
+if name($n) == Draco
+mea $n _cya A sense of calm spreads over you as you return to your room in the Saloon.
+endif
+~
+|
+S
+#20011
+&WWulf's Office in the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn~
+Wulf's Office is nowhere near presentable, but it works.  The Order &WLedger&C, in
+which Wulf records all transactions involving the Order's money, sits upon
+his simple wooden desk, which is covered in other paperwork as well.  The
+room is kept at a tolerable temperature by an overhead fan, simple, but
+functional.  In front of his desk is a similarly functional chair, where
+those being interviewed by Wulf can sit.  As a reference to all in the
+Order, a member &WList&C is posted on the right of the door as you walk in.
+A small hatchway leads below to Wulf's Room in the Saloon.
+~
+3145736
+0 0
+0
+0
+D2
+~
+~
+8389633 -1 20015
+0 0
+D5
+~
+~
+8389633 -1 20016
+0 0
+E
+list members names clannies memberlist ThingOnTheEffinWall~
+&WOn &R06/12/00   &z[&CLvel&z]    [&CClass     &z]  [&CSex&z]     [&YDeposit&z]      [&CNotes&z]&w
+&c===============================================================================
+&WWulf           &RAV &WR     &YSwordsman       &BM      &Y39.500.000       &BLeader
+&WValek          &RAV &WR     &YSwordsman       &BM       &Y4.000.000       &BFirst
+&WDraco          &RAV &WR     &YSwordsman       &BM       &Y2.975.000
+&WHugo           &RAV&W R     &YSwordsman       &BM       &Y1.545.000       &BSecond
+&WNatasha        &C44 &WR     &wBandit          &PF       &Y0.310.000       &BLady Traveller
+&WChar           &C15 &WR     &wBandit          &BM       &Y0.000.000
+&WCanis          &RAV &WR     &wBandit          &BM       &Y0.000.000       &GLupis
+&WKhaman         &RAV &z-     &zVampire         &BM       &Y0.800.000       &BDeathbringer
+&WBowie          &RAV &z-     &CAugurer         &BM       &Y0.000.000
+
+
+&YTotal Deposits to Date &c[ &Y49.030.000 &c]&w
+~
+E
+ledger~
+&z[&CDate      &z] [&CMember  &z]  [&WDep&z] [&RWdr&z] [&YAmount      &z]
+&c-------------------------------------------------------------------------------
+&C 02.01.2000   &WWulf        dep         &Y6.000.000&Ogc
+&C 02.02.2000   &WValek       dep         &Y1.000.000&Ogc
+&C 02.03.2000   &WValek       dep         &Y1.000.000&Ogc
+&C 02.06.2000   &WWulf        dep         &Y2.000.000&Ogc
+&C 02.06.2000   &WHugo        dep         &Y0.220.000&Ogc
+&C 02.06.2000   &WNatasha     dep         &Y0.210.000&Ogc
+&C 02.06.2000   &WDraco       dep         &Y0.900.000&Ogc
+&C 02.06.2000   &WWulf              &Rwdr   &Y1.200.000&Ogc
+&C 02.06.2000   &WWulf        dep         &Y1.000.000&Ogc
+&C 02.07.2000   &WValek       dep         &Y2.000.000&Ogc
+&C 02.07.2000   &WWulf        dep         &Y1.000.000&Ogc
+&C 02.08.2000   &WWulf        dep         &Y5.000.000&Ogc
+&C 02.08.2000   &WNatasha     dep         &Y0.100.000&Ogc
+&C 02.08.2000   &WWulf        dep         &Y1.000.000&Ogc
+&C 02.09.2000   &WWulf        dep         &Y2.000.000&Ogc
+&C 02.10.2000   &WWulf        dep         &Y1.000.000&Ogc
+&C 02.10.2000   &WWulf              &Rwdr  &Y12.600.000&Ogc
+&C 02.12.2000   &WWulf        dep         &Y2.000.000&Ogc
+&C 02.16.2000   &WWulf        dep         &Y1.000.000&Ogc
+&C 02.16.2000   &WDraco       dep         &Y0.200.000&Ogc
+&C 02.24.2000   &WWulf        dep         &Y1.000.000&Ogc&w
+&C 03.01.2000   &WDraco       dep         &Y1.275.000&Ogc
+&C 03.17.2000   &WWulf        dep         &Y2.000.000&Ogc
+&C 03.19.2000   &WHugo        dep         &Y0.175.000&Ogc
+&C 03.25.2000   &WDraco       dep         &Y0.500.000&Ogc
+&C 03.28.2000   &WHugo        dep         &Y0.500.000&Ogc
+&C 04.10.2000   &WWulf        dep         &Y1.000.000&Ogc
+&C 04.12.2000   &WWulf        dep         &Y1.000.000&Ogc
+&C 04.14.2000   &WWulf              &Rwdr   &Y1.000.000&Ogc
+&C 04.14.2000   &WWulf        dep         &Y1.000.000&Ogc
+&C 04.21.2000   &WWulf        dep         &Y1.500.000&Ogc
+&C 04.26.2000   &WHugo        dep         &Y0.650.000&Ogc
+&C &C04.27.2000   &WWulf        dep         &Y6.000.000&Ogc
+&C 04.30.2000   &WWulf        dep         &Y1.000.000&Ogc
+&C 05.01.2000   &WWulf        dep         &Y3.000.000&Ogc
+&C 06.12.2000   &WKhaman      dep         &Y0.300.000&Ogc
+&C 06.23.2000   &WKhaman      dep         &Y0.500.000&Ogc
+&c-------------------------------------------------------------------------------
+                                     &Y34.230.000&Ogc
+&G*&z- &Wto deposit into clan account, trans <amount> wulf (from bank) if online
+&G*&z- &Wor email raferwulf@hotmail.com on when to transfer and how much
+&G*&z- &Wa clan account is coming soon&w
+~
+> act_prog p sits down at Wulf's Desk.~
+if name($n) !=Wulf
+or Level($n) >=51
+mpforce $n stand
+mea $n _whi It is impolite to sit at the desk of the Order Leader without his consent.&w
+endif
+~
+|
+S
+#20012
+&WValek's Room in the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn~
+Valek's Chambers are lined with every kind of training device imaginable.
+Against the far wall are large blocks of wood with various throwing weapons
+protruding from them.  The center of the floor is occupied by a well worn
+sparring mat.  It would appear the the Highwaymen's First likes to keep
+himself and the rest of the members in top condition.
+~
+3145736
+0 0
+0
+0
+D4
+~
+~
+8389633 -1 20017
+0 0
+D7
+~
+~
+1 -1 20009
+0 0
+> greet_prog 100~
+if name($n) == Valek
+mea $n _cya A sense of calm spreads over you as you return to your room in the Saloon.
+endif
+~
+|
+S
+#20013
+&WNatasha's Room in the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn~
+A huge stuffed &gf&Gores&gt g&Gree&gn&C couch faces a &Rr&Po&Rs&Pe &Cquartz fireplace in
+which a crackling fire is always burning.  Wind chimes made from
+multi-&Rc&Go&Bl&Ro&Gr&Be&Rd&C potion bottles and dragon toenails clink softly softly near
+a dusty tree stump bookcase stuffed with magic books, glowing charms
+and folded maps.  &WM&wose&Ws&C, Natasha's charmed field troll, sleeps on a
+moss bed near the fire.  He opens his eyes a tiny crack, offers you
+a refresh potion, and returns to snoring.
+~
+3145736
+0 0
+0
+0
+D0
+~
+~
+0 -1 20009
+0 0
+S
+#20014
+&WHugo's Room in the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn~
+This room could double as a meeting hall for &Y"&OA&Wl&wc&Yo&Oh&Wo&W&Yl&Oi&Wc&ws &YA&On&Wo&wn&Yy&Om&Wo&wu&Ys&O.&Y"&C
+Monuments to Hugo's numerous drunken stupors adorn the shelves and walls of
+this &c"&C&YH&wouse &Yo&wf &YS&wot&C.&c"&C  A broken glass container sits on the far wall, with a &C
+sign reading &W'&BIn &Bc&zas&Be of S&zobriet&By&z, &BB&zrea&Bk G&zlas&Bs&z.&W'&C  Hugo's more favored
+alcoholic pasttimes sit on the shelves, silent reminders of Hugo's many drunken
+amblings about the Realm of Rafermand.  Bottles of &YJ&wack &YD&waniel's &zS&wmoot&zh-S&wippin&z'&C
+&OT&wennessee &OW&whiskey&C sit clustered on a nearby shelf.  A poster on the far wall
+curiously reads "&WAbsolut Vodka&C."  A vintage aged &YDon Perrigon &c'&W46&C is kept
+on a nearby shelf, almost idolized by Hugo and visitors to his room.  A &GJ&gose
+&GC&guervo &GT&wequila&C and a bottle marked &RS&ro&Bu&Rt&Wh&Be&Rr&bn &BC&Ro&Wm&Bf&Ro&rr&Bt&C share shelf space with
+an absolutely Monstrous Margarita, which you estimate comprises at least &W40 &zoz&G.&w
+&CVisible trinkets to the drunkenness of Hugo litter the ground, from now empty
+&Wsalt&C shakers to &gfunnels&C to those little &Pu&Rmbrella&C things.  Upon
+observing this room, you are forced to conclude Hugo must take his drinking
+very seriously.
+~
+3145736
+0 0
+0
+0
+D1
+~
+~
+0 -1 20021
+0 0
+S
+#20015
+&WOfficers' Level of the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn~
+The Officers' Level of the Saloon appears more or less formal, as fitting with
+the function of this floor.  Wulf's Office is located to the north of here,
+and Valek's is southeast, in accordance with the floorplan of the level below.
+This area doubles as a waiting room, where those wishing to see Wulf or Valek
+may wait.  A noteroom lies to the west, where clan members may post notes
+to their fellows.  The Leader's Meeting Room lies to the east.
+~
+3145736
+0 1
+0
+0
+D0
+~
+~
+8389633 -1 20011
+0 0
+D1
+~
+~
+8389632 -1 20019
+0 0
+D3
+~
+~
+8389632 -1 20018
+0 0
+D5
+~
+~
+0 -1 20009
+0 0
+D8
+~
+~
+8389633 -1 20017
+0 0
+S
+#20016
+&WWulf's Room in the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn~
+The room of the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn&C Order leader is an ironic study in the contrasts
+between order and anarchy.  A small part of the room, near a comfortable
+looking chair, is clean and has an orderly appearance.  The rest of the room,
+in stark contrast to other members' rooms, is completely disorganized and shows
+no redeeming cleanliness whatsoever.  A half-completed game of chess sits on
+a fine marble board, though the path to the board looks somewhat unclear to
+you.  It would appear that Wulf, opposed to Valek, pushes most of the clutter
+of his office down here, so that his office presents a somewhat orderly
+appearance.
+~
+3145736
+0 1
+0
+0
+D2
+~
+~
+8389632 -1 20009
+0 0
+D4
+~
+~
+8389633 -1 20011
+0 0
+S
+#20017
+&WValek's Office in the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn~
+Valek's office is cluttered beyond belief. It would appear that the cleanliness
+of his chambers is only maintained by moving the excess junk up here.  Against
+the far wall leans a weapons rack filled with items in need of either repair or
+sharpening.  A large desk occupies the entrance to the room, as well as a
+reclining chair.
+There is a &WList&C of kills by the Order on the wall as you walk in the door.
+~
+3145736
+0 1
+0
+0
+D5
+~
+~
+8389633 -1 20012
+0 0
+D7
+~
+~
+8389633 -1 20015
+0 0
+E
+list killsheet kills killlist listofkills SecondEffinThingOnTheWall~
+&z[&CKills by Mob&z]                    &WAs of &R04&W/&R03&W/&R00
+&c===============================================================================
+&WS&Cky &WD&Cragon                &z[&R**&w------------------&z] &r(&W2&r)
+&z-- &YWulf&z, &YValek&z, &YDraco
+&rD&Rr&za&rc&Ro&zl&ri&Rt&zh&ro&Rs               &z[&R****&w----------------&z] &r(&W4&r)
+&z-- &YWulf&z, &YValek&z, &YDraco
+&WB&zaric                     [&R****&w----------------&z] &r(&W4&r)
+&z-- &YWulf&z, &YValek&z, &YHugo
+&BH&Cydriss                   &z[&w--------------------&z] &r(&W0&r)
+&z--
+&RH&rell&R'&rs &RK&reeper             &z[&R*****************&w---&z] &r(&W17&r)
+&z-- &YWulf&z, &YValek&z, &YDraco
+~
+> act_prog p sits down at Valek's Desk.~
+if name($n) !=Valek
+or Level($n) >=51
+mpforce $n stand
+mea $n _whi It is impolite to sit at the desk of the First without his consent.
+else
+if name($n) == Valek
+mea $n _whi You clear a place amongst the clutter, and get to work.
+endif
+endif
+~
+|
+S
+#20018
+&WNoteroom of the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn~
+This room is littered with literally hundred of loose notes and pieces of
+paper.  A sufficient supply of writing utensils and paper sits upon a counter
+awaiting enterprising members of the clan to put the two together and pen
+verbose messages about the happenings of the Realms.  Or just write stuff.
+Whatever.
+
+To post a note, say 'I want to write a note,' then hold the note, and
+use note to, note subject, note write, and note post.
+~
+3145736
+0 0
+0
+0
+D1
+~
+~
+0 -1 20015
+0 0
+S
+#20019
+&WLeaders' Room in the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn~
+This is the room for meetings between the Leaders of the clan and any other
+persons approved to enter.  A large conference table dominates this room,
+easily consuming three quarters of it.  However, roughly a dozen chairs at
+situated around it.  This could be a rather large meeting hall.
+~
+3145728
+0 1
+0
+0
+D3
+~
+~
+0 -1 20015
+0 0
+> entry_prog 100~
+if name($n) == Wulf
+mpforce $n emote has entered the room.
+else
+if name($n) == Valek
+mpforce $n emote has entered the room.
+else
+mpforce $n west
+endif
+endif
+~
+|
+S
+#20021
+&WGround Level of the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&zl&wo&Yo&wn~
+Below the balcony of the Saloon, seperated from the noise and disorder of the
+bar and gambling tables, a quiet peace settles upon you.  Down here, rooms of
+other members of the Highwaymen can be found.  Just because they are below
+the others, though, is no way a sign of their status.  All members of the
+clan are equal.
+~
+3145736
+0 0
+0
+0
+D0
+~
+~
+0 -1 20024
+0 0
+D1
+~
+~
+0 -1 20023
+0 0
+D2
+~
+~
+0 -1 20022
+0 0
+D3
+~
+~
+0 -1 20014
+0 0
+D4
+~
+~
+0 -1 20009
+0 0
+S
+#20022
+&WNyeddan's Room in the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn~
+~
+1076887560
+0 0
+0
+0
+D0
+~
+~
+0 -1 20021
+0 0
+S
+#20023
+&WChar's Room in the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn~
+~
+1076887552
+0 1
+0
+0
+D3
+~
+~
+0 -1 20021
+0 0
+S
+#20024
+Bowie's Room in the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn~
+"This guy must be obsessed with weaponry," is the first thought that enters
+your mind as you walk into this room. Axes, swords, maces, weapons of every
+kind imaginable (and some you can't!) are all over the walls of Bowie's room,
+with plaques below each one presumably showing their name. A large golden
+mallet is affixed over a fireplace at the northern end of the room, a plaque
+with a large J atop the fireplace itself. A couch lies off to the east side,
+and a picture with a small plaque under it is attached above it.
+~
+8
+0 0
+0
+0
+D2
+~
+~
+0 -1 20021
+0 0
+E
+plaque~
+The plaque reads:
+JOHNCO. Incorporated, founded 1999
+(c)1999-2000 John Orapello
+"We blow stuff up!"
+~
+E
+mallet~
+This is a toonishly oversized mallet, the kind you'd see in a Bugs Bunny
+cartoon or something. A plaque under the mallet reads, "The Golden Mallet of
+Toondom."
+~
+E
+picture~
+This picture is of a group of about 30 creatures. Creatures, as they come in
+all different races : humans, elves, dwarves, even a tortise - and you can
+identify a younger Gyan in the picture. A striking young man in a red cape
+is in the front. The plaque reads:
+"THE SHINING FORCE"
+~
+S
+#20050
+Entrance to Stables~
+You are standing at the entrance to a well-kept
+stable. Loud sounds of the cochobos are heard
+throughout the stables. As you walk a warm fresh pile
+of dung finds its way to your shoe...YECH!
+There are stalls to the north of you and forest to the east.
+~
+1075838976
+0 1
+0
+0
+D0
+~
+~
+0 -1 20051
+0 0
+S
+#20051
+Stables~
+This is the deepest and most crowded part of the
+stables and it stinks of manure and unclean animals.
+Cochobos of all different colours surround you in
+their individual stalls, making loud sounds and
+screeches of joy to see a new visitor. One cochobo is
+being led by his trainer out to the pasture to be
+ridden. There is a loft above you and a small room
+with a blacksmith to the north.
+~
+1076363264
+0 1
+0
+0
+D0
+~
+~
+0 -1 20053
+0 0
+D2
+~
+~
+0 -1 20050
+0 0
+D4
+~
+~
+0 -1 20052
+0 0
+S
+#20052
+The Loft~
+There is hay all around you in great piles, a few
+peasants working here cower in fear as you appear, but
+eventually get back to working once they realize you
+mean no harm. There is a well-fashioned pile of hay in
+the corner of the room and a large water-trough along the eastern wall.
+~
+1075838976
+0 1
+0
+0
+D5
+~
+~
+0 -1 20051
+0 0
+S
+#20053
+Whark's Shop~
+You are in the blacksmith, Whark's, shop and are
+surrounded by brilliant flashes of metal and sparks
+flying up from the man's anvil and hammer. The man
+finishes up his work and looks up to you with a friendly smile.
+~
+1075838976
+0 1
+0
+0
+D2
+~
+~
+0 -1 20051
+0 0
+S
+#20100
+&BO&Wut&wc&Was&Bt &BH&Wa&wv&We&Bn~
+&wDust covers everything within this old, abandoned warehouse. 
+&OC&wrates and &ob&woxes are scattered about the floor, some cracked 
+open and looted, others still covered in &WW&white &Ws&wheets, buried 
+beneath other &Oc&wrates and &Ob&woxes. The walls of crates form halls 
+that lead deeper into the &Bc&womplex, marking off the boundaries of 
+each makeshift room. Little light filters in through the broken windows 
+that encircle the roof of the building...but the lightning is constant, 
+be it light or day...which perfectly suits the inhabitants of the 
+&Bw&warehouse, vermin of a small mammalian nature, and &rv&wermin of 
+larger, more sinister variety as well. On the flagstone floor, a single 
+single word has been painted, carefully but chaotically...&BM&Wis&wf&Wit&Bs&w...
+You catch in the corner of your eyes shadowy figures darting out from
+the shadows cast by the &Oc&wrates and &Ob&woxes...creatures that are
+returning to their only haven, their only home...
+~
+1073741832
+0 0
+0
+0
+D1
+~
+~
+0 -1 20101
+0 0
+D2
+~
+~
+0 -1 20103
+0 0
+D4
+~
+crate~
+3 -1 20102
+0 0
+D8
+~
+crate~
+1 -1 20105
+0 0
+D9
+~
+~
+0 -1 20104
+0 0
+E
+misfit misfits~
+&zHastily scrawled across the &BM&Wis&wf&Wit&Bs&z label, in a few different
+handwritings is a simple phrase...'Do what you want but don't do it around us!'
+~
+S
+#20101
+&BR&Wep&wri&Wev&Be &wfor the &BO&Wut&wc&Was&Bt~
+~
+1073741832
+0 1
+0
+0
+D3
+~
+~
+0 -1 20100
+0 0
+S
+#20102
+&BA&Wnes&wth&Wesi&Ba~
+&zEven the eternal light pouring through the &Ww&zindows lining the roof cannot but
+barely penetrate the palpable &wd&zarkness of this room...A disorganized &Od&zesk lies
+in the center of this room, atop a stack of &Oc&zrates.  The resounding murmor of the
+&BM&Wis&wf&Wit&Bs&z echoes from below...and it becomes obvious how the &BM&zaster of those
+ragged, &Bo&Wut&wc&Was&Bt&z creatures keeps track of his &Bc&Whi&wld&Wre&Bn&z...
+~
+1073741832
+0 1
+0
+0
+D1
+~
+~
+0 -1 20106
+0 0
+D5
+~
+crate~
+3 -1 20100
+0 0
+S
+#20103
+&zA Shadowed Room of &rS&zhatterd &OC&zrates~
+&wMasked in cobwebs and shadows, this room is segmented off by rotting &Oc&wrates, like
+all of the rooms in this &Bf&worsaken place.  Unlike the other rooms, however, the
+dust is hardly disturbed by footprints in this room.  Broken &Oc&wrates and other shattered
+&Owooden c&wontainers fill this room, save towards the near corner, where there is a &zg&waping
+&zh&wole, filled with &BT&Wo&wo&Wl&Bs&w of the &BO&Wut&wc&Was&Bt&w...
+~
+1074266120
+0 1
+0
+0
+D0
+~
+~
+0 -1 20100
+0 0
+S
+#20104
+Adamantain's Room~
+~
+1073741832
+0 1
+0
+0
+D6
+~
+~
+0 -1 20100
+0 0
+S
+#20105
+An Office~
+&wThis room is actually a secreted hollow, hidden behind a wall of old 
+&Oc&wrates. &WC&wobwebs and &Od&webris cover the floor, the walls of the 
+warehouse, the windows above, and the nooks and crannies between the 
+&Oc&wrates in the pile, creating absolute &zd&warkness. Small mammalian 
+&rv&wermin and &ri&wnsects make their dwellings in this enclosed space, 
+and dust covers almost everything within, save for a makeshift &Od&wesk 
+in the center of the room, and the &Oc&wrate bearing the 
+&BM&Wis&wf&Wit&Bs&w logo, the exit back into the main &Bc&womplex. 
+~
+1073741833
+0 0
+0
+0
+D7
+~
+crate~
+3 -1 20100
+0 0
+S
+#20106
+Corellon's Room~
+~
+1073741832
+0 1
+0
+0
+D3
+~
+~
+0 -1 20102
+0 0
+S
+#20299
+Floating in a void~
+~
+4
+0 1
+0
+0
+S
+#0
+
+
+#RESETS
+M 1 20000 1 20000 -1 -1 -1 0 0
+M 1 20003 1 20013 -1 -1 -1 0 0
+O 1 20017 1 20013 -1 -1 -1 -1 0 0
+O 1 20021 1 20017 -1 -1 -1 -1 0 0
+O 1 20022 1 20017 -1 -1 -1 -1 0 0
+D 0 20017 5 0
+D 0 20017 7 0
+D 0 20016 4 0
+O 1 20018 1 20010 -1 -1 -1 -1 0 0
+O 1 20019 1 20010 -1 -1 -1 -1 0 0
+O 1 20020 1 20010 -1 -1 -1 -1 0 0
+D 0 20010 9 0
+O 1 20025 1 20019 -1 -1 -1 -1 0 0
+O 1 20002 1 20007 -1 -1 -1 -1 0 0
+O 1 20003 1 20007 -1 -1 -1 -1 0 0
+O 1 20014 1 20012 -1 -1 -1 -1 0 0
+D 0 20012 4 0
+D 0 20012 7 0
+O 1 20028 1 20022 -1 -1 -1 -1 0 0
+O 1 20028 1 20023 -1 -1 -1 -1 0 0
+M 1 20004 1 20018 -1 -1 -1 0 0
+O 1 20026 1 20018 -1 -1 -1 -1 0 0
+M 1 20001 1 20006 -1 -1 -1 0 0
+D 0 20009 6 0
+D 0 20009 8 0
+O 1 20013 1 20011 -1 -1 -1 -1 0 0
+O 1 20015 1 20011 -1 -1 -1 -1 0 0
+D 0 20011 2 0
+D 0 20011 5 0
+M 0 20050 1 20050 -1 -1 -1 0 0
+O 0 20033 1 20024 -1 -1 -1 -1 0 0
+M 1 20005 1 20053 -1 -1 -1 0 0
+M 1 20006 1 20101 -1 -1 -1 0 0
+O 1 20064 1 20101 -1 -1 -1 -1 0 0
+O 1 20050 1 20052 -1 -1 -1 -1 0 0
+O 1 20051 1 20052 -1 -1 -1 -1 0 0
+O 1 20035 1 20052 -1 -1 -1 -1 0 0
+O 1 20068 1 20105 -1 -1 -1 -1 0 0
+D 0 20105 7 1
+O 1 20066 1 20102 -1 -1 -1 -1 0 0
+O 1 20067 1 20102 -1 -1 -1 -1 0 0
+D 0 20102 5 1
+M 1 20002 1 20004 -1 -1 -1 0 0
+M 1 20001 1 20004 -1 -1 -1 0 0
+O 1 20006 1 20004 -1 -1 -1 -1 0 0
+O 1 20034 1 20100 -1 -1 -1 -1 0 0
+D 0 20100 4 1
+D 0 20100 8 0
+S
+
+
+#SHOPS
+ 20002    0  0  0  0  0   150  50         1  0    ; &WChargar&G, the &YH&wi&zg&wh&Yw&wa&zy&wm&Ye&wn &zS&wa&Yl&wo&zo&wn &GBartender&W
+ 20005    0  0  0  0  0   120  90         0 23    ; Whark
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  20006 spec_cast_adept
+S
+
+
+#$

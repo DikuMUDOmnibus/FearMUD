@@ -1,0 +1,2 @@
+Sun Oct 23 16:30:00 2005:  0ptn  0pll  0sc 0br  0 global loot
+Sun Oct 23 17:00:00 2005:  0ptn  0pll  0sc 0br  0 global loot

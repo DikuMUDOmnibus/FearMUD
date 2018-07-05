@@ -1,0 +1,4406 @@
+#AREA   Immortal Housing~
+
+
+
+#VERSION 53
+#AUTHOR Rafermand~
+
+#RANGES
+55 65 55 65 0 0 0 0 0
+$
+
+#RESETMSG Whirlwinds of magic pass through and restore the Immortal's Realm.~
+
+#FLAGS
+12 20
+
+#ECONOMY 0 7071539 0
+
+#MOBILES
+#9000
+test~
+test~
+Test
+~
+Test~
+1073741833 0 0 0 C
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+100 100 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#9001
+reminder~
+The Daily Reminder~
+An odd looking mob with a little memo is here.
+~
+~
+16781377&1024 0 4718624 0 C
+0 0 0 0 0 0
+20d200+28000 30d30+60 0 0 0
+1000 0
+112 112 0
+25 25 25 25 25 25 25 12
+0 0 0 0 0
+85 0 0 0 1 1 12
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 8192 256 0 0 1495275504 538725
+> time_prog 1~
+if rand(40)
+remind you to visit the Rafermand Web Page at www.rafermand.com
+else
+if rand(40)
+remind you that 2.0 is coming up Early to Mid Summer
+else
+if rand(40)
+remind you to report ANY bugs by using the bug command.
+else
+remind you to read the laws, to do so just type laws.
+if rand(40)
+remind you that I am a tool.
+else
+if rand(40)
+remind you to read the pkrules. The penalty for breaking the PK rules is harsh so please be careful.
+endif
+endif
+endif
+endif
+endif
+~
+> fight_prog 30~
+mpecho The reminder erases it's memo pad and looks refreshed!!
+mprestore $i 7000
+~
+> fight_prog 33~
+mer $r The reminder draws all over $r!
+mea $r The reminder draws all over you!
+mpdamage $r 4000
+~
+> fight_prog 43~
+mea $r The reminder attempts to erase you!
+mer $r The reminder attempts to erase $r!
+mpdamage $r 2300
+~
+> fight_prog 10~
+mer $r The reminder flips the pages of it's memo pad at $r and they suddenly disappear!
+mea $r The reminder flips the pages of it's memo pad at you...
+mpscatter $r
+~
+> fight_prog 100~
+if ispc($n)
+if level($n) < 10
+mptrans $n 21000
+endif
+endif
+~
+> death_prog 100~
+if rand (40)
+mpecho A sheet of paper falls out of the Reminder's memo pad.
+mpoload 9180 50
+else
+if rand(35)
+mpecho A sheet of paper falls out of the Reminder's memo pad.
+mpoload 9179 50
+endif
+endif
+~
+> fight_prog 40~
+~
+> fight_prog 40~
+mpecho Oh look The Daily Reminder drew a picture of the Thriller!
+cast 'quantum spike' $n
+cast 'fireball' $n
+cast 'shocking grasp' $n
+cast 'sacred blast' $n
+cast 'mystic flash' $n
+~
+|
+#9002
+bolen bad luck baron~
+Bolen the Bad-Luck Baron~
+Bolen the Bad-Luck Baron is here.
+~
+~
+67108867 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#9028
+Ely's Attendant~
+&cE&Cl&wy&z's &cA&Ct&wt&zend&wa&Cn&ct~
+&cE&Cl&wy&z's &cA&Ct&wt&zend&wa&Cn&ct stands here, awaiting instruction.
+~
+Ely's attendant stands here, diligently awaiting his next order.  He
+is dressed in formal attire, which has been cleaned meticulously.
+He pays no attention to anyone in the room aside from Ely, perhaps
+he is under some sort of enchantment...
+~
+3 0 273154176 0 C
+0 0 0 0 0 0
+25d1+22485 10d10+25 0 0 0
+4164 0
+112 112 0
+13 13 13 13 13 13 13 10
+0 0 0 0 0
+0 0 0 0 1 1 10
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+85 65 0 0 1056768 0 0 944 524359
+#9029
+clone~
+Rook's Clone~
+&P(&wUnclanned&P) &W(Staff) &PRook's clone is here, vegetating.
+~
+~
+1 0 0 0 C
+0 0 0 0 0 0
+1d1+1320 0d0+0 0 0 0
+0 0
+112 112 1
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#9030
+dain great wolf~
+Dain the Great Wolf~
+Dain the Great Wolf stands here.
+~
+The enormous black wolf standing before you is Dain.  His shoulder stands
+five feet above the ground, and he looks to be seven feet in length from
+nose to tail.  His eyes hold a burning green fire, filled with intelligence
+and wisdom.  He is Varl's companion in Rafermand, and often runs errands
+for him.  It would be best to stay out of his way.
+~
+17039363 0 373825704 1000 C
+0 0 0 0 0 0
+1d1+25000 50d50+15 0 0 0
+0 0
+112 112 1
+25 20 20 25 25 20 20 3
+0 0 0 0 0
+69 0 0 0 1 1 3
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+85 0 65540 527 2100480 0 0 1073741831 8199
+> fight_prog 35~
+if rand(25)
+mea $n _whi Dain slashes his claws across your face
+mer $n _whi Dain slashes his claws across $n's face!
+mpdamage $n 100
+else
+if rand(25)
+mea $n _cya Dain runs at full speed and rams into your chest!
+mer $n _cya Dain runs at full speed and rams into $n's chest!
+mpdamage $n 125
+else
+if rand(15)
+mea $n _red Dain whips around behind your back and bites down hard on your spine!
+mer $n _red Dain whips around behind $n and bite down hard on $s spine!
+else
+if rand(10)
+mpe _ora Dain howls loudly, calling on the elements for aid!
+if rand(5)
+mea $n _whi Dain's howl summons a bolt of lightning that smites you!
+mer $n _whi Dain's howl summons a bolt of lightning that smites $n!
+mpdamage $n 150
+else
+if rand(50)
+mea $n _red Dain's howl summons a ball of fire that burns you!
+mer $n _red Dain's howl summons a ball of fire that burns you!
+mpdamage $n 75
+else
+mea $n _blu Dain's howl summons a rain of icicles from the sky!
+mer $n _blu Dain's howl summons a rain of icicles from the sky!
+mpdamage $n 90
+else
+mpe Dain barks something in an unfamiliar language.
+mea $n _blu Dain's wolven spell tears into your body!
+mer $n _blu Dain's wolven spell tears into $n's body!
+mpdamage $n 100
+endif
+endif
+endif
+endif
+endif
+endif
+~
+> all_greet_prog 100~
+if name($n)==Varl
+tackle Varl
+say Hi, Varl!
+else
+if isimmort($n)
+bow $n
+say Greetings, $n.
+else
+say Hello, $n.
+endif
+endif
+~
+> act_prog p pats you on your back.~
+if name($n)==Varl
+em wags his tail.
+else
+em sniffs $n.
+endif
+~
+> speech_prog p go home Dain~
+if name($n)==Varl
+nod Varl
+say Ok, see you later.
+mpgoto 9030
+else
+say I don't take orders from you.
+endif
+~
+> fight_prog 40~
+if rand(30)
+mpe _whi Dain's fur stands on end as he invokes powerful magic to heal himself.
+mprestore self 300
+else
+if rand(10)
+mpe _blu Dain utters the words, "laeh flow."
+mprestore self 550
+else
+mea $n _red Dain howls loudly and unleashes the forces of nature on you!
+mer $n _red Dain howls loudly and unleashes the forces of nature on$n!
+mpdamage $n 1234
+endif
+endif
+~
+> speech_prog p hi Dain~
+if name($n)==Varl
+say Hi Varl!
+lick varl
+else
+say Hello $n.
+endif
+~
+|
+#9040
+Steve~
+Your death~
+Steve Fischer stands here, ready to cut out your throat.
+~
+~
+1073741825 0 0 -1000 C
+0 0 0 0 0 0
+42d1+0 20d20+100 0 0 0
+0 0
+108 108 0
+25 25 25 25 25 25 25 20
+0 0 0 0 0
+0 0 0 0 1 1 20
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+say Greetings, I hope your ready to die.
+~
+> speech_prog 50~
+say I'm going to rip out your heart and eat it.
+~
+> speech_prog 50~
+say I will destroy you.
+~
+|
+#9050
+blinking pink blowfish~
+A big pink blowfish~
+A big, pink, blinking blowfish is hovering here
+~
+~
+786433 0 0 0 C
+0 0 0 0 0 0
+1d1+15000 3d10+70 0 0 0
+0 0
+108 108 0
+13 13 13 13 13 13 13 3
+0 0 0 0 0
+84 0 0 0 1 1 3
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 48 4
+> all_greet_prog 100~
+say FUNNNGAHHHH!!!!!
+smile chupon
+~
+|
+#9069
+rakhim pet humble beast~
+Rakhim the shapeshifter~
+The humble beast of Lord Ghaleon constantly changes shape here.
+~
+~
+1 0 339746944 0 C
+0 0 0 0 0 0
+20d20+29500 1d4+90 0 0 0
+0 0
+108 108 0
+25 25 25 25 25 25 25 0
+-30 -30 -30 -30 -30
+57 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+70 0 206591 73728 2098984 0 0 9208791 8259
+#9101
+slave~
+Zeekor's Slave~
+Zeekor's Slave is here
+~
+~
+1073741825 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+#9110
+Zeekor's Maid~
+a young virgin~
+Zeekor's maid is getting busy in the office.
+~
+The young virgin looks to be in the middle of her teen years.  She is almost
+naked, all but a scarf, bra, and pantines protecting the world from her ever
+so soft looking skin.  The girl looks quite calm, quite uncommon for such a
+girl in such a place.
+~
+1073741889 0 0 0 C
+0 0 0 0 0 0
+6d9+666 1d1+1 0 0 0
+0 0
+112 112 2
+10 10 10 10 10 25 18 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 385351679 0 0 0 0 0 0
+#9111
+Jake~
+a newly created Jake~
+Some god abandoned a newly created Jake here.
+~
+~
+1140850707 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+84078 0
+112 112 0
+#9120
+Diablo Angel Death Shark~
+Diablo~
+&RDiablo&P, Shark's pet paces here guarding Shark.
+~
+~
+1073741825 0 0 0 S
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 0
+> speech_prog 'destroy'~
+Shark says 'Destroy %n'
+say Yes Daddy.
+mpslay %n
+mptransfer %n
+say Now, Don't mess with my daddy!
+growl
+~
+> speech_prog 'Destroy %n~
+~
+> speech_prog 'Destroy %n'~
+Shark says 'destroy %n'
+slay %n
+mptransfer %n
+say dont mess with my daddy!
+~
+|
+#9130
+Hydren~
+&RH&cydre&Rn~
+&RH&cydren is here plotting to kill The Daily Reminder&R.
+~
+The Hydren is the first offspring of the great Hydriss. He looks
+exactly like his mother, yet has a white stripe down his back.
+The great God Nevon took the Hydren and taught it many different
+skills. The Hydren is not aggressive and will avoid a fight if
+possible.
+~
+67108867 0 0 -1000 C
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+112 112 1
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+80 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if name($n)==nevon
+bow $n
+else
+if name($n)==copenhaygen
+lick $n
+else
+if rand(25)
+frown $n
+else
+if rand(25)
+zombie $n
+else
+if rand(25)
+grin $n
+endif
+endif
+endif
+endif
+endif
+~
+|
+#9150
+manu dere~
+&OManu Dere~
+&OManu Dere is here
+~
+Much like the fabled tales of the half-horse/half-man specie of the Romans 
+and Greeks, Manu Dere is of the same caliber, only quite real, and instead 
+of half horse, he is half deer. 
+
+Manu Dere is his given name, and the beloved pet of Copenhaygen, the God 
+of Snuff. If you venture into his office, and kill his pet, be warned, you 
+may suffer his wrath. 
+
+~
+3 0 0 0 C
+0 0 0 0 0 0
+10d5+1750 8d10+20 0 0 0
+5000 0
+112 112 0
+18 18 18 18 18 18 18 5
+0 0 0 0 0
+76 0 0 0 1 1 5
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+50 0 0 0 0 0 0 0 0
+> speech_prog p hello Manu~
+if name($n)==copenhaygen
+bow $n
+say Hello my beloved master.
+else
+if name($n)==nevon
+bow $n
+say Nevon! Close friend of my loving master, how are you!?
+else
+mea $n _cya Manu Dere glares at you disapprovingly, wondering who you are
+mea $n _cya and why you are here.
+mer $n _cya Manu Dere shrugs $N off, and ignores $E.
+endif
+endif
+~
+> speech_prog p go home~
+if name($n)==copenhaygen
+or name($n)==nevon
+pout
+say Very well, if indeed I must.
+mpe &YDeerman disappears to return to his home
+mpgoto 9150
+endif
+~
+> speech_prog p find nevon~
+if name($n)==copenhaygen
+say Of course master!
+mpe &YManu Dere disappears in search of Nevon.
+mpat nevon mpe &YManu Dere appears before Nevon, as was wished by his master.
+mpgoto nevon
+else
+if name($n)==nevon
+chuckle
+say But my friend Nevon, you are right here!
+endif
+endif
+~
+> speech_prog p find copenhaygen~
+if name ($n) == nevon
+say Of course trusted Nevon.
+mpe &YManu Dere disappears in search of Copenhaygen.
+mpat Copenhaygen mpe &YManu Dere appears before Copenhaygen, as he was ordered.
+mpgoto copenhaygen
+else
+if name($n)==copenhaygen
+poke $n
+laugh $n
+say Master, you're such a joker!
+say You know me! I'm just as lazy as you, why would I waste
+say the effort if you are already here!
+endif
+endif
+~
+> speech_prog p come~
+if name($n)==copenhaygen
+mpgoto copenhaygen
+mpat copenhaygen mpe &Y Manu Dere appears, as was requested by Copenhaygen.
+say Hello master!
+smile copenhaygen
+else
+if name($n)==nevon
+mpgoto nevon
+mpat nevon mpe &Y Manu Dere appears, as was requested by Nevon.
+say Hello trusted Nevon!
+smile nevon
+endif
+endif
+~
+|
+#9151
+Biendine Orc~
+Biendine Orc~
+A nasty looking Biendine Orc is here looking for battle.
+~
+~
+3&8 0 0 0 C
+0 0 0 0 0 0
+4d2+64 1d2+1 0 0 0
+161 0
+112 112 0
+13 13 13 13 13 13 13 2
+0 0 0 0 0
+0 0 0 0 1 1 2
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+1 0 0 0 1 0 0 32 1
+> death_prog 5~
+mpoload 9183 2
+~
+|
+#9152
+Biendine Orc~
+Biendine Orc~
+A nasty looking Biendine Orc is here looking for trouble.
+~
+~
+3&8 0 0 -200 C
+0 0 0 0 0 0
+4d3+83 1d3+2 0 0 0
+186 0
+112 112 0
+13 13 13 13 13 13 13 2
+0 0 0 0 0
+0 0 0 0 1 1 2
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+1 0 0 0 1 0 0 32 2
+> death_prog 6~
+mpoload 9183 2
+~
+|
+#9153
+Biendine Orc~
+Biendine Orc~
+A nasty looking Biendine Orc is here looking for loot.
+~
+~
+3&8 0 0 0 C
+0 0 0 0 0 0
+5d3+101 1d5+2 0 0 0
+212 0
+112 112 0
+13 13 13 13 13 13 13 2
+0 0 0 0 0
+0 0 0 0 1 1 2
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+1 0 0 0 1 0 0 560 2
+> death_prog 7~
+mpoload 9183 2
+~
+|
+#9154
+Biendine Commander~
+Biendine Commander~
+A biendine Commander is here barking out orders.
+~
+~
+3&8 0 0 -400 C
+0 0 0 0 0 0
+8d8+365 2d5+6 0 0 0
+339 0
+112 112 0
+13 13 13 13 13 13 13 3
+0 0 0 0 0
+0 0 0 0 1 1 3
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+5 0 0 0 1 0 0 768 2
+> death_prog 50~
+mpoload 9184 2
+~
+|
+#9155
+Biendine Leader~
+A Biendine Leader~
+A Biendine Leader is here telling the commanders what to do.
+~
+~
+3&8 0 0 -800 C
+0 0 0 0 0 0
+12d13+917 3d6+9 0 0 0
+764 0
+112 112 0
+13 13 13 13 13 13 13 4
+0 0 0 0 0
+0 0 0 0 1 1 4
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+10 0 0 0 1 0 0 96 2
+> death_prog 75~
+mpoload 9185 2
+~
+|
+#9156
+Riemtue~
+Riemtue~
+Riemtue the Biendine Overlord is here looking out.
+~
+~
+3&8 0 369098880 -1000 C
+0 0 0 0 0 0
+20d20+29000 10d3+100 0 0 0
+0 0
+112 112 1
+13 13 13 13 13 13 13 9
+0 0 0 0 0
+53 0 0 0 1 1 9
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 1 0 0 1342444147 0
+> rand_prog 30~
+mpe _whi Riemtue slowly restores himself.
+mprestore self 800
+~
+> all_greet_prog 100~
+if ispc($n)
+say I hope ready to die silly thing
+c 'quantum' $n
+c 'gas breath' $n
+c 'weaken' $n
+c 'dispel magic' $n
+~
+> fight_prog 30~
+mpe _whi Riemtue slowly pulls out this hidden weapon and rips it through you.
+mpdamage $n 850
+~
+> fight_prog 35~
+mpe _whi Riemtue laughs at you and shoves his huge clawed hand into you.
+mpdamange $n 1000
+~
+> fight_prog 20~
+mpe _whi Riemtue starts laughing and decides to waste you.
+mpdamage $n 1500
+~
+> death_prog 100~
+say Very good $n, have this prize as an award.
+mpoload 9186 2
+give token $n
+~
+|
+#9160
+Confused Monk~
+Confused Monk~
+A Confused Monk is here chanting along with the other followers.
+~
+~
+35&512 0 0 -500 C
+0 0 0 0 0 0
+4d3+83 1d3+2 0 0 0
+186 0
+112 112 0
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+1 0 0 0 1056768 0 0 96 2
+> death_prog 5~
+mpoload 9183 2
+~
+> rand_prog 30~
+if mobinworld(9166) < 1
+mpmload 9162
+mpe _cya A Confused Monk's power is sucked away.
+tell finishmob It is done
+endif
+~
+|
+#9161
+Confused Monk~
+Confused Monk~
+A Confused Monk is here chanting along with the other followers.
+~
+~
+35&512 0 0 -500 C
+0 0 0 0 0 0
+5d3+101 1d5+2 0 0 0
+212 0
+112 112 0
+13 13 13 13 13 13 13 1
+0 0 0 0 0
+0 0 0 0 1 1 1
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+1 0 0 0 1056768 0 0 512 1
+> death_prog 6~
+mpoload 9183 2
+~
+> rand_prog 30~
+if mobinworld(9166) < 1
+mpmload 9163
+mpe _cya A Confused Monk's power is sucked away.
+tell finishmob It is done
+endif
+~
+|
+#9162
+Confused Monk~
+Confused Monk~
+A Confused Monk is here chanting along with the other followers.
+~
+~
+35&512 0 0 -500 C
+0 0 0 0 0 0
+4d3+83 1d3+2 0 0 0
+186 0
+112 112 0
+13 13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+1 0 0 0 0 0 0 16 2
+#9163
+Confused Monk~
+Confused Monk~
+A Confused Monk is here chanting along with the other followers.
+~
+~
+35&512 0 0 -500 C
+0 0 0 0 0 0
+5d3+101 1d5+2 0 0 0
+212 0
+112 112 0
+13 13 13 13 13 13 13 1
+0 0 0 0 0
+0 0 0 0 1 1 1
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+1 0 0 0 0 0 0 608 1
+> death_prog 6~
+mpoload 9183 2
+~
+|
+#9164
+Mad Monk~
+Confused Monk~
+A Mad Monk is here making sure the others are doing as they should.
+~
+~
+35&512 0 0 -500 C
+0 0 0 0 0 0
+6d4+152 1d6+3 0 0 0
+237 0
+112 112 0
+13 13 13 13 13 13 13 1
+0 0 0 0 0
+0 0 0 0 1 1 1
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+1 0 0 0 1056768 0 0 0 2
+> death_prog 5~
+mpoload 9184 2
+~
+> rand_prog 30~
+if mobinworld(9166) < 1
+mpmload 9165
+mpe _cya A Mad Monk's power is sucked away.
+tell finishmob It is done
+endif
+~
+|
+#9165
+Mad Monk~
+Mad Monk~
+A Mad Monk is here making sure the others are doing as they should.
+~
+~
+35&512 0 0 -500 C
+0 0 0 0 0 0
+6d4+152 1d6+3 0 0 0
+237 0
+112 112 0
+13 13 13 13 13 13 13 1
+0 0 0 0 0
+0 0 0 0 1 1 1
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+1 0 0 0 0 0 0 576 1
+> death_prog 5~
+mpoload 9184 2
+~
+|
+#9166
+Milemna~
+Milemna~
+Master Monk Milemna is here commanding his followers.
+~
+~
+33&512 0 0 -1000 C
+0 0 0 0 0 0
+20d20+30000 15d4+120 0 0 0
+2124 0
+112 112 0
+13 13 13 13 13 13 13 17
+0 0 0 0 0
+0 0 0 0 1 1 17
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+20 0 0 1056768 0 0 0 1375994112 528637
+> fight_prog 100~
+if rand(30)
+mpe _cya Milemna waves his hands around and dispels all magic on $n.
+c 'dispel magic' $n
+else
+if rand(50)
+mpe _cya Milemna brings his fist and a small aqua light blasts $n right in the chest.
+mpdamage $n 2000
+else
+if rand(30)
+mpe _cya Milemna pulls out the fangs of a dragon and releases gas on everyone.
+c 'gas breath' $n
+else
+if rand(60)
+mpe _cya Milemna waves his hands around and heals his wounds.
+mprestore self 6000
+else
+mpe _cya Milemna smiles and releases a furry of different attacks on $n.
+disarm $n
+c 'dispel magic' $n
+c 'quantum' $n
+c 'poison' $n
+c 'weaken' $n
+c 'curse' $n
+c 'caustic' $n
+mprestore self 1500
+endif
+endif
+endif
+endif
+~
+> fight_prog 30~
+say Easier to hit something that cannot take physical attacks.
+c 'unravel' $n
+c 'unravel' $n
+evil
+~
+> fight_prog 25~
+mpe _cya Milemna's small wounds heal up right before your eyes.
+mprestore self 450
+~
+> death_prog 100~
+mpe _cya Milemna falls over dead, as soon as he falls over, it seems the strange
+mpe _cya air of the area seems to return to normal.
+mpoload 9185 2
+~
+|
+#9167
+finishmob~
+a newly created finishmob~
+Some god abandoned a newly created finishmob here.
+~
+~
+3 0 0 0 C
+0 0 0 0 0 0
+18d25+2571 6d5+16 0 0 0
+2124 0
+112 112 0
+13 13 13 13 13 13 13 5
+0 0 0 0 0
+0 0 0 0 1 1 5
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+20 0 0 0 0 0 0 752 2
+> speech_prog p It is done~
+mpgoto $n
+mpat $n mppurge $n
+~
+|
+#9168
+token~
+&P* &Ya token of Skan~
+&P* &YA token of &OSkan &Ylies here.
+~
+~
+65729&1024 0 532482 0 C
+0 0 0 0 0 0
+1d1+25000 15d60+400 0 0 0
+0 0
+112 112 0
+25 25 25 25 25 25 25 12
+0 0 0 0 0
+85 0 0 0 1 1 12
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 1056832 0 0 0 1107427328 524547
+> fight_prog 50~
+mprestore self 2000
+~
+> death_prog 100~
+mpoload 9197 1
+~
+> fight_prog 20~
+mpecho _dgr The token gets wizzapped!!
+mprestore self 25000
+~
+> fight_prog 5~
+mpecho _red Ouch?
+mpdamage $r 3100
+~
+> fight_prog 40~
+mpecho _ora The token flings itself around the room!
+mea $r You get hit by the token!
+mer $r $r gets hit by the token!
+mpdamage $r 1500
+~
+> fight_prog 30~
+c 'quantum' $r
+c 'mystic flash' $r
+c 'quantum' $r
+c 'mystic flash' $r
+mprestore self 2000
+mpdamage $r 2000
+mea $r You get *BONKED* by the token.
+mer $r $r gets *BONKED* by the token.
+~
+|
+#9199
+Test2~
+Test2~
+Test2
+~
+Test2~
+1073741825 0 0 0 C
+0 0 0 0 0 0
+0d0+0 0d0+0 0 0 0
+0 0
+100 100 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+0 0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#9000
+test~
+test~
+Test~
+~
+0 1073741824 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#9001
+Mortal's Message board~
+Mortal's Message board~
+The Mortal's Message board lies here.~
+~
+12 0&4 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#9002
+Bug board~
+Bug board~
+The Rafermand bug board lies here~
+~
+12 0&4 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#9003
+Builder's Message board~
+Builder's Message board~
+The Builder's Message board lies here~
+~
+12 0&4 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#9004
+Immortal issue board~
+Immortal Issue board~
+The Immortal issue board lies here~
+~
+12 0&4 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#9005
+Staff's board~
+Staff's board~
+The Staff's board lies here.~
+~
+12 0&4 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#9006
+water fountain~
+a fountain~
+A fountain is here producing cool refreshing Pepsi~
+~
+17 0 0
+10000 10000 15 0
+1.000000 0 0 0 0 0 0
+#9007
+mail bag~
+A mail bag~
+A bag full of mail, is waiting to be delivered~
+~
+12 0&4 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#9009
+gold barstool~
+A gold barstool~
+A &Ygold &Gbarstool is here for customers to sit on.~
+~
+12 -2146959360 0
+0 0 1 0
+25.000000 50000 0 0 0 0 0
+#9010
+chair~
+a chair~
+A leather chair is here for you to sit on.~
+~
+12 1073741824 0
+0 0 1 0
+25.000000 30000 0 0 0 0 0
+E
+chair~
+It is a leather chair.  Just a bland normal leather chair.
+~
+#9011
+an obsidian key~
+an obsidian key~
+A valuable key made of obsidian lies here.~
+~
+8 1073741824 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#9012
+sofa~
+a sofa~
+A very &Bcozy &Rsofa&G~
+~
+12 0&4 0
+0 0 65 0
+200.000000 250000 0 0 0 0 0
+E
+sofa~
+A lovely looking sofa made out of the best material.  A very common 
+resting area for Xerves during discussions.
+~
+#9013
+Potion of Xerves~
+The blood of &G&WX&c&we&G&Wr&c&wv&G&We&c&ws~
+A small red vial lies on the ground.~
+~
+10 0 1
+75 -1 147 147
+1.000000 100000 0 0 0 0 0
+'restore mana' 'restore mana' 'restore mana'
+E
+potion of xerves~
+A small little vial which contains the rich blood of Xerves.  Just by
+the look of the small vial, it can easily be seen that the stuff is very
+potent.
+~
+#9014
+academy dagger pixie~
+a finely honed dagger~
+You see a finely honed dagger here.~
+~
+5 64 8193
+12 1 6 2 1 -1 0 0 0 0 0 0 0 0
+2.000000 0 0 0 0 0 0
+'acid blast'
+A
+18 2 0
+A
+19 1 0
+#9015
+academy sword pixie~
+a finely honed sword~
+You see a finely honed sword here.~
+~
+5 64 8193
+12 0 0 3 1 -1 0 0 0 0 0 0 0 0
+2.000000 0 0 0 0 0 0
+'acid blast'
+E
+sword~
+Made of decent quality, this sword should serve you well in your battles
+to come.
+~
+A
+18 2 0
+A
+19 1 0
+#9016
+academy mace pixie~
+a finely wrought mace~
+You see a finely wrought mace here.~
+~
+5 64 8193
+12 1 6 6 1 -1 0 0 0 0 0 0 0 0
+2.000000 0 0 0 0 0 0
+'acid blast'
+E
+mace~
+Made of decent quality this weapon shall servre you well in the battles
+to come.
+~
+A
+18 2 0
+A
+19 1 0
+#9019
+courage ring~
+&zRing of Courage&G~
+Someone has left a plain steel ring here.~
+~
+9 524288&256 3
+1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1.000000 90000 0 0 0 0 0
+#9020
+gulwyle necklace~
+&P^bNecklace of Gulwyle's Beauty&G^x~
+Someone must have accidently dropped a very wonderous necklace!~
+~
+8 0&256 5
+0 0 0 0
+2.000000 500000 0 0 0 0 0
+A
+3 1 0
+A
+5 1 0
+A
+19 2 0
+A
+18 2 0
+#9021
+hate Hate janus01~
+&RH&ra&Rt&re&g~
+A pair of gloves are here...writhing with &RH&ra&Rt&rr&Re&rd&g...~
+~
+9 -2145903641 128
+20000 20000 0 0
+10000.000000 0 0 0 0 0 0
+A
+1 7 0
+A
+18 1000 0
+A
+19 1000 0
+A
+24 -100 0
+A
+20 -100 0
+A
+23 -100 0
+#9022
+token of xerves~
+&G&WToken of &c&wXerves~
+&G&WA token of &c&wXerves&G&W is here on the ground.~
+~
+8 0 1
+0 0 0 0
+1.000000 10 0 0 0 0 0
+#9023
+token of Stakk~
+a token of Stakk~
+A token with the text "Stakk" through the center of it lies here.~
+~
+8 0 1
+0 0 0 0
+1.000000 10 0 0 0 0 0
+#9024
+token nevon~
+&zA Token of &RN&ce&RV&co&RN~
+&zA Token of &RN&ce&RV&co&RN &zfloats above the ground here.~
+~
+8 65 1
+0 0 0 0
+1.000000 5 0 9028 0 0 5
+A
+13 85 0
+A
+12 75 0
+A
+102 65 0
+A
+101 65 0
+A
+81 3 0
+A
+80 3 0
+A
+79 5 0
+A
+84 450 0
+A
+83 450 0
+A
+70 22 0
+A
+106 -1 0
+#9025
+token rook~
+&wToken of &WR&wo&zo&wk~
+&wA Token of &WR&wo&zo&wk is here on the ground.~
+~
+8 0 1
+0 0 0 0
+1.000000 10 0 0 0 0 0
+#9026
+token of ghaleon~
+&G&WA token of &RG&rh&Ra&rl&Re&ro&Rn~
+&G&WA token of &RG&rh&Ra&rl&Re&ro&Rn &G&Wis on the ground~
+~
+8 0 1
+0 0 0 0
+1.000000 10 0 0 0 0 0
+#9027
+quest reseter~
+A small magical quest reseter~
+A small magical treasure lies here on the floor~
+~
+8 1073741824 1
+0 0 0 0
+1.000000 100000 0 0 0 0 0
+#9028
+a token of Nevon~
+&zA Token of &RN&ce&RV&co&RN~
+&zA Token of &RN&ce&RV&co&RN &zfloats above the ground here.~
+~
+8 65 1
+0 0 0 0
+1.000000 5 0 0 0 0 0
+#9029
+quest candle -ozycandle-~
+(Quest) An unlit white candle~
+(Quest) An unlit white candle rests on the ground here~
+~
+13 -2147483648 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#9030
+transporter~
+a newly created transporter~
+Some god dropped a newly created transporter here.~
+~
+13 1073741824 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#9031
+stupid idiot dumb~
+a newly created stupid idiot dumb~
+Some god dropped a newly created stupid idiot dumb here.~
+~
+17 1073741824 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#9032
+invisible chair~
+&xThe Invisible Chair&w~
+&xThe Invisible Chair sits here.&w~
+~
+12 0 1
+2 0 3594 200 200 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+#9033
+symbol wolf~
+&zSym&wbo&Wl of t&whe W&zolf~
+Some god dropped a newly created symbol wolf here.~
+~
+9 320&256 65537
+15 15 0 0
+1.000000 100000 0 0 0 0 0
+A
+13 50 0
+A
+12 50 0
+A
+19 10 0
+A
+18 10 0
+A
+17 -50 0
+A
+28 2 0
+A
+56 221 0
+> wear_prog 100~
+c 'true sight' $n
+if rand(40)
+c protection $n
+else
+if rand(30)
+c sanctity $n
+else
+c 'stone skin' $n
+endif
+endif
+~
+|
+#9034
+Ball of Hasasia~
+&RB&ra&Ol&Rl &ro&Of &RH&ra&Os&Ra&rs&Oi&Ra~
+&GA &RB&ra&Ol&Rl &ro&Of &RH&ra&Os&Ra&rs&Oi&Ra&G lies here glowing radiantly.~
+~
+1 0 1
+0 0 -1 0
+3.000000 200000 0 0 0 0 0
+A
+13 5 0
+A
+12 5 0
+A
+4 1 0
+#9067
+round shield~
+Round Shield~
+Someone has left a Round Shield here!~
+~
+9 524288&8192 129
+8 8 8 100 9 0 0 0 0 0 0 0 0 0
+12.000000 300000 0 0 0 0 0
+#9068
+fountain tainted blood~
+a tainted fountain of blood~
+A dark fountain gushes with a tainted reddish liquid here.~
+~
+27 1073741824 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#9069
+tendrils of the shapeshifter~
+&rtendrils &zof the &Cshap&Beshi&bfter&G~
+Some god dropped a newly created tendrils of the shapeshifter here.~
+~
+9 262997 257
+35 35 0 0
+5.000000 0 0 0 0 0 0
+A
+17 -35 0
+A
+27 73728 0
+A
+31 2 0
+A
+24 -15 0
+A
+26 1056768 0
+A
+13 100 0
+A
+12 75 0
+A
+18 8 0
+A
+19 8 0
+> wear_prog 100~
+mea $n Your figure slowly becomes translucent as the $O
+mea $n slowly wrap around your arms.
+mer $n $n's figure slowly becomes translucent as the $O
+mer $n slowly wrap around $s arms.
+~
+|
+#9070
+scroll of bless weapon~
+a scroll of bless weapon~
+A scroll of bless weapon~
+~
+2 0 1
+0 -1 -1 -1 0 1007 0 0 0 0 0 0 0 0
+2.000000 1000000 0 34 0 0 0
+'bless weapon' 'NONE' 'NONE'
+#9071
+Hydriss Essence~
+&w&YH&w&Wydriss &w&YE&w&Wssence~
+&w&CSome has left behind the powerful &w&YH&w&Wydriss &w&YE&w&Wssence &w&Cbehind for you to take.~
+~
+8 67 3
+0 0 0 0
+0.010000 1000000 0 0 0 0 0
+A
+13 150 0
+A
+12 150 0
+A
+1 1 0
+A
+4 1 0
+A
+3 1 0
+A
+5 1 0
+A
+31 1 0
+A
+77 10 0
+A
+2 1 0
+A
+101 75 0
+A
+102 75 0
+A
+82 3 0
+A
+81 2 0
+A
+80 2 0
+A
+79 5 0
+A
+85 75 0
+A
+84 300 0
+A
+83 300 0
+#9099
+artifact~
+a newly created artifact~
+Some god dropped a newly created artifact here.~
+~
+9 0 0
+20 20 0 0
+1.000000 0 0 0 0 0 0
+A
+13 100 0
+A
+12 100 0
+A
+18 7 0
+A
+19 7 0
+A
+17 -45 0
+#9100
+flame fire sword blade~
+A &RF&Yi&Rr&Ye &GSword~
+A &RF&Yl&Ra&Ym&Ri&Yn&Rg &Gsword lies here on the ground~
+~
+5 64 8193
+12 5 4 18 4 -1 0 0 0 0 0 0 0 0
+5.000000 1500000 0 0 0 0 0
+'acidic blast'
+A
+13 50 0
+A
+12 50 0
+A
+18 5 0
+A
+19 10 0
+#9101
+ice sword frozen blade~
+An &CI&Bc&Ce &GSword~
+An &CI&Bc&Cy &Gblade floats in mid-air~
+~
+5 64 8193
+12 5 4 19 4 -1 0 0 0 0 0 0 0 0
+15.000000 0 0 0 0 0 0
+'acidic blast'
+A
+13 50 0
+A
+12 50 0
+A
+18 10 0
+A
+19 5 0
+#9102
+lightning sword rapier thunder~
+A &BL&Ci&Bg&Ch&Bt&Cn&Bi&Cn&Bg&G Sword~
+A &BC&Cr&Ba&Cc&Bk&Cl&Bi&Cn&Bg&G Sword lies here~
+~
+5 64 8193
+12 5 4 21 4 -1 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+'acidic blast'
+A
+13 25 0
+A
+12 25 0
+A
+18 10 0
+A
+19 10 0
+#9103
+drain sword evil black necromantic~
+&zD&wa&zr&wk &GSword~
+Some god dropped a newly created drain sword evil black necromantic here.~
+~
+5 0 8193
+12 5 4 0 -1 -1 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+'NONE'
+A
+13 25 0
+A
+12 25 0
+A
+18 5 0
+A
+19 5 0
+A
+17 -25 0
+A
+30 -1 0
+#9105
+blade staff legend~
+The Legendary Blade Staff~
+A long pole with a metal blade attached to it has been discarded here.~
+~
+5 525313 8193
+12 18 2 13 -1 -1 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+'NONE'
+A
+13 100 0
+A
+12 100 0
+A
+18 10 0
+A
+19 10 0
+A
+17 -50 0
+A
+1 1 0
+A
+2 1 0
+A
+31 1 0
+A
+27 64 0
+#9110
+Vault~
+Zeekor's Vault~
+Zeekor's Vault is on the far wall.~
+~
+15 1073741824 0
+666 0 0 1
+10000.000000 0 0 0 0 0 0
+#9111
+Leather Sofa~
+Zeekor's Leather Sofa~
+Zeekor's leather sofa is here for him to sit on.~
+~
+12 -1073217536 0
+0 0 1 0
+25.000000 50000 0 0 0 0 0
+#9112
+bong magic magical pipe bowl~
+A Magical Bong~
+A Magical Bong~
+~
+30 0 16385
+90 0 0 0
+1.000000 4500 0 26100 0 0 0
+> use_prog 100~
+if deity($n) != Zeekor
+mptransfer $n 8
+mpecho You suck vigorously on a Magic Bong.
+mpecho You are forsaken by the gods for this lack of loyalty to Zeekor.
+mpforce $n drop $o
+mpforce $n sac $o
+else
+mptransfer $n Zeekor
+mpecho You suck vigorously on a Magic Bong.
+mpecho You have freed Zeekor from his icy prison. He shall help your journey!
+mpforce $n drop $o
+mpforce $n sac $o
+endif
+
+~
+|
+#9113
+Mayor's License~
+a Mayor's License~
+A special document with the stamp of the Mayor on it lies here before you.~
+~
+8 0 1
+0 0 0 0
+1.000000 100 0 0 0 0 0
+E
+mayor's license~
+A small document with the seal of the mayor. Can be used for different 
+things. 
+~
+#9114
+M Class License~
+a M Class License~
+A special document with the letter M on it lies before you.~
+~
+8 0 1
+0 0 0 0
+1.000000 100 0 0 0 0 0
+E
+m class license~
+A normal looking document that has been stamped by the governing
+officials of the city.  It is used to obtain a Merchant caste.
+~
+#9115
+G Class License~
+a G Class License~
+A special document with the letter G on it lies before you.~
+~
+8 0 1
+0 0 0 0
+1.000000 100 0 0 0 0 0
+E
+g class license~
+A normal looking document that has been stamped by the governing
+officials of the kingdom.  It is used to obtain a Trader caste.
+~
+#9116
+H Class License~
+a H Class License~
+A special document with the letter H on it lies before you.~
+~
+8 0 1
+0 0 0 0
+1.000000 100 0 0 0 0 0
+E
+h class license~
+A normal looking document that has been stamped by the governing
+officials of the kingdom.  It is used to obtain a Businessman caste.
+~
+#9117
+W Class License~
+a W Class License~
+A special document with the letter W on it lies before you.~
+~
+8 0 1
+0 0 0 0
+1.000000 100 0 0 0 0 0
+E
+w class license~
+A normal looking document that has been stamped by the governing
+officials of the kingdom.  It is used to obtain a Knight caste.
+~
+#9118
+S Class License~
+a S Class License~
+A S Class License lies before you.~
+~
+47 0&512 1
+0 0 0 0
+1.000000 15 0 0 0 0 0
+E
+S Class License~
+A special license used to buy the right to place a stable on the
+map.
+~
+#9119
+S Addition License~
+a S Addition License~
+A S Addition License lies here before you.~
+~
+8 0&512 1
+0 0 0 0
+1.000000 15 0 0 0 0 0
+E
+S Addition License~
+A special license used to add another stable to your land.
+~
+#9120
+ring old ancient~
+The Ring of the Ancients~
+The Ring of the Ancients lies here in the dirt.~
+~
+9 0 3
+15 15 0 0
+1.000000 0 0 0 0 0 0
+A
+13 35 0
+A
+12 35 0
+A
+18 4 0
+A
+19 4 0
+A
+17 -20 0
+A
+3 1 0
+#9121
+silver necklace~
+A thin silver necklace~
+A thin silver necklace floats here just above the ground~
+~
+9 0 5
+10 10 0 0
+1.000000 0 0 0 0 0 0
+A
+13 20 0
+A
+12 80 0
+A
+4 1 0
+A
+26 2097152 0
+A
+18 3 0
+A
+19 3 0
+A
+17 -25 0
+#9122
+plate breastplate rafermand~
+Breastplate of Rafermand~
+The Breastplate of Rafermand's Hero is here!~
+~
+9 0 9
+40 40 0 0
+25.000000 0 0 0 0 0 0
+A
+13 75 0
+A
+12 75 0
+A
+18 7 0
+A
+19 5 0
+A
+17 -75 0
+A
+56 1 0
+#9123
+plate breastplate new thalos~
+Breastplate of New Thalos~
+The Breastplate of New Thalos's Hero is here!~
+~
+9 0 9
+40 40 0 0
+25.000000 0 0 0 0 0 0
+A
+13 100 0
+A
+12 50 0
+A
+18 4 0
+A
+19 6 0
+A
+56 67 0
+#9124
+plate breastplate kanai~
+Breastplate of Kanai~
+The Breastplate of Kanai's Hero is here!~
+~
+9 0 9
+40 40 0 0
+25.000000 0 0 0 0 0 0
+A
+13 25 0
+A
+12 125 0
+A
+18 4 0
+A
+19 4 0
+#9125
+warrior cape power~
+A Warrior's Cape of Power~
+The Warrior's Cape of Power is here!~
+~
+9 0 1025
+12 12 0 0
+3.000000 0 0 0 0 0 0
+A
+13 100 0
+A
+12 -50 0
+A
+1 2 0
+A
+18 1 0
+A
+19 8 0
+A
+56 39 0
+#9126
+thief cloak speed~
+Thief's Cloak of Speed~
+The Thief's Cloak of Speed is here!~
+~
+9 0 1025
+12 12 0 0
+1.000000 0 0 0 0 0 0
+A
+13 75 0
+A
+2 2 0
+A
+18 7 0
+A
+19 6 0
+A
+56 205 0
+#9127
+mage robe magic~
+Mage's Robe of Magic~
+The Mage's Robe of Magic is here!~
+~
+9 0 1025
+12 12 0 0
+3.000000 0 0 0 0 0 0
+A
+13 25 0
+A
+12 125 0
+A
+3 1 0
+A
+4 1 0
+A
+18 5 0
+A
+19 5 0
+A
+56 227 0
+#9128
+cot stakk~
+Stakk's personal cot~
+A cot lies here with the name Stakk engraved on the edge~
+~
+12 0 0
+2 2000 1154 1000 1000 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+cot stakk~
+This cot is a part of Stakk's place, he's placed it in the public
+benevolently for the benefit of all.  It isn't very large, but it
+appears to serve its purpose well.
+~
+#9129
+sehanine armor garet~
+Sehanine's Armor~
+Sehanine's Armor lies here in the dust...~
+~
+9 0 9
+14 14 14 1000 15 4 0 0 0 0 0 0 0 0
+5.000000 1000000 0 0 0 0 0
+#9130
+beanbag chair~
+&RB&ceanba&Rg C&chai&Rr~
+&RN&cevon'&Rs &RB&ceanba&Rg C&chai&Rr~
+~
+12 64 0
+0 4000 1024 1000 1000 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+#9131
+all purpose quest item~
+Allpurpose quest item~
+Blah~
+~
+13 0 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#9132
+ramen bowl~
+A bowl of &BRamen&G~
+A bowl of steamy ramen noodles!~
+~
+26 0 1
+50 -1 -1 -1
+1.000000 500 0 0 0 0 0
+'NONE' 'NONE' 'NONE'
+#9133
+pink fingernails~
+&PPink Fingernails~
+A set of pink fingernails lie on the ground here.~
+~
+5 65 8195
+12 4 7 17 4 -1 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+'acidic blast'
+A
+13 35 0
+A
+12 15 0
+A
+18 5 0
+A
+19 6 0
+A
+2 1 0
+A
+17 -12 0
+A
+25 1 0
+#9134
+tower shield kuji quest~
+Tower Shield of Kuji~
+The Tower Shield of the legendary warrior Kuji has been left here.~
+~
+9 65&256 513
+33 33 0 0
+75.000000 0 0 0 0 0 0
+A
+13 80 0
+A
+12 80 0
+A
+1 1 0
+A
+2 1 0
+A
+17 -75 0
+A
+18 6 0
+A
+19 6 0
+#9135
+hilt chaos breaker~
+Hilt of the &WC&Ghaos &WB&Greaker~
+The hilt of the Chaos Breaker lies here, discarded~
+~
+9 0&256 16385
+17 17 0 0
+1.000000 0 0 0 0 0 0
+E
+hilt~
+The hilt is pure gleaming silver with ancient runes inscribed.  You
+can't decipher them, but they appear powerful nonetheless.
+~
+A
+13 60 0
+A
+12 45 0
+A
+17 -20 0
+A
+26 8192 0
+A
+18 6 0
+A
+19 6 0
+#9136
+quest item~
+a newly created quest item~
+Some god dropped a newly created quest item here.~
+~
+13 1073741824 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#9137
+quest item~
+a newly created quest item~
+Some god dropped a newly created quest item here.~
+~
+13 1073741824 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#9138
+quest item~
+a newly created quest item~
+Some god dropped a newly created quest item here.~
+~
+13 1073741824 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#9139
+quest item~
+a newly created quest item~
+Some god dropped a newly created quest item here.~
+~
+13 1073741824 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#9140
+sleeves~
+a newly created sleeves~
+Some god dropped a newly created sleeves here.~
+~
+13 1073741824 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+> wear_prog ~
+mea $n _whi Test
+c 'invis' $n
+~
+|
+#9141
+marijuana pot~
+marijuana plant~
+A strange looking plant grows here ready to be picked.~
+~
+8 1073741824 16385
+0 0 0 0
+1.000000 0 0 0 0 0 0
+A
+4 -3 0
+A
+14 -100 0
+A
+3 -3 0
+A
+5 -3 0
+A
+1 -3 0
+#9142
+tobacco~
+tobacco plant~
+A tobacco plant grows here ready to be picked.~
+~
+8 1073741824 16385
+0 0 0 0
+1.000000 0 0 0 0 0 0
+A
+14 -100 0
+A
+4 -2 0
+A
+4 -1 0
+A
+5 -3 0
+A
+31 -2 0
+#9143
+rafer gem~
+a rafer gem~
+Someone left a rafer gem behind.~
+~
+75 0 1
+1015 1 1 0 0 0 0 0 0 0 0 0 -1 0
+0.500000 1000000 0 0 0 0 0
+#9145
+nevon cloak souls~
+&zC&Bloak &zof S&Bouls~
+&zNevon's C&Bloak &zof S&Bouls&z floats above the ground here.~
+~
+15 64&16777472 131073
+1000 0 0 0
+1.000000 0 0 0 0 0 0
+#9150
+Nightmares~
+&bNightmares~
+&RNevon's &bNightmares~
+~
+5 -2146958999&256 513
+12 40 40 4 4 -1 0 0 0 0 0 0 0 0
+1.000000 0 0 2850 0 0 0
+'acidic blast'
+E
+sword~
+&zThe &bNightmares &z is Nevon's enchanted sword. It contains all the
+bad dreams and evil beings that haunt ever mortal in the land of Rafermand.
+This sword is massive. Its blade is 5 feet long and 1 inch thick. The blade
+is polished onyx with liquid diamond covering the sharpen sides. Ancient
+cryptic writings are etched into this perfect blade as well as a strange
+symbol that is truely unique to this weapon.
+~
+A
+13 1000 0
+A
+12 1000 0
+A
+2 10 0
+A
+14 1000 0
+> wear_prog 100~
+if name($n)==Nevon
+mpecho &zAs Nevon wields the &bNightmares &za dark aura encompasses him.
+else
+if isimmort ($n)
+say I am sorry but I am Nevon's personal property.
+disarm $n
+else
+if ispc($n)
+say Yeah right mortal.
+mpforce $n drop nightmares
+endif
+endif
+endif
+~
+|
+#9151
+nevon elven armor~
+&YElven &zArmor~
+&RNevon's &YElven &zArmor&g lies here.~
+~
+9 524393&256 9
+20 20 0 0
+1.000000 0 0 2851 0 0 0
+E
+armor~
+This armor has been handcrafted by The Ancient Elves to fit perfectly
+to the body of the Immortal Nevon. Only Nevon can harness the true
+power of this suit of armor.
+~
+#9152
+plates~
+&YElven &zPlates~
+&RNevon's &YElven &zPlates&g lie here.~
+~
+9 524385 65
+12 0 0 0
+1.000000 0 0 2852 0 0 0
+E
+plates~
+~
+E
+plate~
+Ancient Elven plates were fashioned long ago for Nevon to use to
+help him protect and defend Rafermand.
+~
+#9153
+fallen star light~
+&WA Fallen Star~
+&WA fallen star is stuck in the ground.~
+~
+1 524649 1
+0 0 -1 0
+1.000000 0 0 2853 0 0 0
+A
+13 5000 0
+A
+12 5000 0
+A
+28 3162111 0
+#9154
+helm~
+&YElven &zHelm~
+&RNevon's &YElven &zHelm&g lies here.~
+~
+9 524653 17
+12 0 0 0
+1.000000 0 0 2854 0 0 0
+A
+3 10 0
+A
+4 10 0
+A
+25 10 0
+A
+5 10 0
+A
+2 10 0
+A
+31 10 0
+A
+13 1000 0
+A
+12 1000 0
+#9155
+face~
+&WIvory Face~
+The face of an Ancient has been carved into a piece of ivory.~
+~
+9 361&256 5
+12 0 0 0
+1.000000 0 0 2855 0 0 0
+A
+24 -10 0
+A
+23 -10 0
+A
+13 125 0
+A
+12 125 0
+#9156
+night sky shield~
+&bThe Night Sky~
+&RNevon&g has tamed the &bnight sky&g and contained it in this shield.~
+~
+9 524405 129
+20 0 0 0
+16.000000 0 0 2856 0 0 0
+A
+13 50 0
+A
+12 50 0
+#9157
+boots~
+&YElven &zBoot~
+&RNevon's &YElven &zBoots&g lie here.~
+~
+9 524385 33
+12 0 0 0
+1.000000 0 0 2857 0 0 0
+A
+13 2000 0
+A
+12 2000 0
+A
+14 4000 0
+#9158
+dagger~
+&RNevon's &OMystical &BDagger~
+&RNevon's &OMystical &BDagger~
+~
+5 524645 2097185
+12 1 6 1 3 -1 0 0 0 0 0 0 0 0
+2.000000 0 0 2858 0 0 0
+'acidic ball'
+A
+13 500 0
+A
+12 500 0
+A
+14 500 0
+#9159
+Copenhaygen's Chair~
+&G&OCopenhaygen's Chair~
+&G&OCopenhaygen's Chair is positioned here~
+~
+12 0 1
+0 3000 1154 1000 1000 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+#9160
+manu sword~
+&YC&ze&Yl&zt&Yi&zc &YC&zl&Ya&zy&Ym&zo&Yr&ze&G~
+A very large, very fine, sword is lying here.~
+~
+5 0&256 8193 32
+10000 5000 6000 7 -1 -1 0 20 20 20 10000 0 0 0
+10.000000 3000 0 0 0 0 0
+'NONE'
+E
+cletic claymore~
+The Celtic Claymore, more widely known as the Scottish Claymore, is a 
+massive sword, usually wielded with two hands. The massive blade is nearly 
+4 feet long, and the handle makes the overrall length of the sword near 6 
+feet. With that being said, it is quite obvious that this sword is 
+massive. 
+~
+A
+1 10 0
+A
+2 10 0
+A
+4 10 0
+A
+5 10 0
+A
+31 10 0
+A
+3 10 0
+#9161
+Nevon's Guest Couch~
+&ONevon's &gGuest &OCouch~
+&ONevon's &gGuest &OCouch is sitting againt the east wall.~
+~
+12 0 1
+0 0 4095 10000 10000 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+#9162
+Diamond Crossbow~
+a newly created &WD&wiamond &WC&wrossbow~
+Some god dropped a newly created &WD&wiamond &WC&wrossbow here.~
+~
+5 1073741824 1
+0 0 0 0 -1 -1 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+'NONE'
+#9163
+dwarf sleeves~
+&x^ODwarven Plate Sleeves&G^x~
+Someone left their dwarven plate sleeves here.~
+~
+9 524288&256 65
+40 40 40 10000 10000 0 0 0 0 0 0 0 0 0
+20.000000 10000 0 0 0 0 0
+#9164
+dwarf gorget~
+&x^ODwarven Gorget&G^x~
+A dwarven plate gorget has been left here.~
+~
+9 524288&256 5
+40 40 40 10000 10000 0 0 0 0 0 0 0 0 0
+15.000000 10000 0 0 0 0 0
+#9165
+nose helm~
+&x^ODwarven Nose Helm&G^x~
+A dwarven nose helm is lying here.~
+~
+9 524288&256 17
+40 40 40 10000 10000 0 0 0 0 0 0 0 0 0
+20.000000 100000 0 0 0 0 0
+#9166
+rolling thunder~
+&x^ORolling Thunder&G^x~
+The mace of the gods is lying here.~
+~
+5 524288&256 513
+10000 20 40 5 -1 -1 0 100 20 20 10000 0 0 0
+10.000000 10000 0 0 0 0 0
+'NONE'
+A
+1 5 0
+A
+13 100 0
+A
+2 5 0
+#9167
+round shield~
+&x^ORound Shield^x&G~
+A round, metal shield is lying here.~
+~
+9 0&256 129
+40 40 40 10000 10000 0 0 0 0 0 0 0 0 0
+1.000000 10000000 0 0 0 0 0
+#9168
+dwarf plate~
+&x^ODwarven Plate&G^x~
+Some god dropped a newly created dwarf plate here.~
+~
+9 524288&256 9
+40 40 40 10000 10000 0 0 0 0 0 0 0 0 0
+1.000000 1000000 0 0 0 0 0
+#9169
+dwarf legs~
+&x^ODwarven Plate&G^x~
+Some dwarven platemail legs have been left here.~
+~
+9 524288&256 33
+40 40 40 10000 10000 0 0 0 0 0 0 0 0 0
+50.000000 100000 0 0 0 0 0
+A
+18 500 0
+A
+19 500 0
+A
+14 200 0
+A
+12 200 0
+A
+13 200 0
+A
+1 10 0
+A
+4 10 0
+A
+3 10 0
+A
+2 10 0
+A
+31 10 0
+A
+5 10 0
+#9170
+rename token~
+a rename token~
+A special gold token for a free rename lies here~
+~
+8 -2147483648 1
+0 0 0 0
+2.000000 15 0 0 0 0 0
+#9171
+CR token~
+a free CR token~
+A golden token for a free CR is here.~
+~
+8 -2147483648 1
+0 0 0 0
+2.000000 15 0 0 0 0 0
+#9172
+Experience tome~
+a mysterious tome of experience.~
+A strange looking tome is on the ground.~
+~
+8 -2147483648 1
+0 0 0 0
+1.000000 250 0 0 0 0 0
+#9173
+draco helm lifedrinker~
+&zH&Belm &zo&Bf &zL&Bifedrinker&G~
+The &zH&Belm &zo&Bf &zL&Bifedrinker&G is here.~
+~
+9 524353&256 17
+23 23 23 1000 20 2 0 0 0 0 0 0 0 0
+1.000000 1000000 0 9129 0 0 7
+A
+13 75 0
+A
+12 70 0
+A
+82 3 0
+A
+81 4 0
+A
+80 3 0
+#9174
+singing sword~
+&WT&Bh&We &WS&Bingin&Wg &WS&Bwor&Wd~
+&W&WT&Bh&We S&Bingin&Wg S&Bwor&Wd lies here.~
+~
+5 524611&256 513
+0 0 0 6 3 -1 0 0 0 0 0 0 0 0
+5.000000 7500 0 8263 0 0 0
+'acidic ball'
+E
+sword~
+&WThe famous singing sword was crafted by Nevon to keep the Elder
+Gods company while they helped create the world of Rafermand.
+Yet along time ago this sword was stolen from their Immortal house
+and now resides in the mortal realm. This sword has beautiful
+carvings etched on its blade and hilt. There are rare jewels
+encrusted onto the hilt and the blade has been dipped into a fire
+of liquid diamonds.
+~
+E
+singing~
+&WThe famous singing sword was crafted by Nevon to keep the Elder
+Gods company while they helped create the world of Rafermand.
+Yet along time ago this sword was stolen from their Immortal house
+and now resides in the mortal realm. This sword has beautiful
+carvings etched on its blade and hilt. There are rare jewels
+encrusted onto the hilt and the blade has been dipped into a fire
+of liquid diamonds.
+~
+A
+13 100 0
+A
+12 85 0
+A
+14 80 0
+A
+2 1 0
+A
+4 1 0
+A
+25 1 0
+A
+56 44 0
+A
+56 19 0
+A
+18 15 0
+A
+19 20 0
+> rand_prog 5~
+mpecho "La, la, la laaa!"
+~
+> rand_prog 5~
+mpecho "doobie doobie doo."
+~
+> rand_prog 5~
+mpecho "So darling, darling, stand by me. Oooh darling stand by me."
+~
+> rand_prog 5~
+mpecho "Choices always were a problem for you."
+~
+> rand_prog 5~
+mpecho "Why don't you come with my little girl, on a magic carpet ride."
+~
+> rand_prog 5~
+mpecho "Come on turn. Turn this thing around. Right now! Its everything."
+~
+> rand_prog 5~
+mpecho "But trust me on the sunscreen."
+~
+> rand_prog 5~
+mpecho "Sometimes I feel I've got to, runaway. I've got to get away."
+~
+> rand_prog 5~
+mpecho "And another one bites the dust."
+~
+> rand_prog 5~
+mpecho "I am immortal! I have inside me blood of kings!"
+~
+> rand_prog 5~
+mpecho "Letting the days go by, water flowing underground."
+~
+> rand_prog 5~
+mpecho "Cause I miss you baby and I dont want to miss a thing."
+~
+> rand_prog 5~
+mpecho "It's all about the pentiums baby."
+~
+> rand_prog 5~
+mpecho "Now I'm free. Free falling."
+~
+> rand_prog 5~
+mpecho "You got the kind of loving that can be so smooth."
+~
+> rand_prog 5~
+mpecho "Falling away from me."
+~
+> rand_prog 5~
+mpecho "I dont like the drugs but the drugs like me."
+~
+> rand_prog 5~
+mpecho "Do it doggie style so we can both watch X-Files."
+~
+> rand_prog 5~
+mpecho "We are NOTORIOUS. No- No- NOTORIOUS."
+~
+> rand_prog 5~
+mpecho "So I grab my shovel."
+~
+> rand_prog 5~
+mpecho "Down on the Corner. Out here in the street..."
+~
+> rand_prog 5~
+mpecho "Stop. Drop. Shut'em down open up shop. Oh Yo Thats our Ruff Ryders roll."
+~
+> rand_prog 5~
+mpecho "California Dreamin on a cold winters day."
+~
+> rand_prog 5~
+mpecho "I like traffic lights. I like traffic lights. No matter were they be."
+~
+> rand_prog 5~
+mpecho "Dontcha want somebody love. Dontcha need somebody to love."
+~
+> rand_prog 5~
+mpecho "Jane says. Have ya seen my wig around. She knows. They all want her to go..."
+~
+> get_prog 100~
+mea $n _cya "Praise to you my King! I will now sing praises with my perfect voice."
+~
+> wear_prog 100~
+mea $n _cya "I shall do my best to defeat your enemies my King."
+~
+|
+#9175
+silence sheath~
+&WT&Bh&We S&Bingin&Wg S&Bwor&Wd S&Bheat&Wh&G~
+&WT&Bh&We S&Bingin&Wg S&Bwor&Wd S&Bheat&Wh is here.~
+~
+68 524611&256 655361 4
+20 1 9174 12 -1 0 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+'NONE'
+A
+13 10000 0
+A
+12 10000 0
+A
+14 10000 0
+#9176
+exotic wedding ring~
+&WE&Yx&cotic &WW&Ye&cdding &WR&Yi&cng~
+Some god dropped a newly created exotic wedding ring here.~
+~
+9 524609&256 3
+10 10 0 0
+1.000000 100 0 0 0 0 0
+A
+25 4 0
+A
+31 2 0
+A
+13 50 0
+A
+12 50 0
+#9177
+chibi blessing natasha elders rename~
+&WBles&Csin&cg of T&Che Eld&Wers&w~
+&WA true blessing is here~
+~
+8 1&256 3
+0 0 0 0
+1.000000 1000000 0 0 0 0 0
+A
+13 35 0
+A
+12 40 0
+A
+83 400 0
+A
+101 85 0
+A
+102 85 0
+#9178
+Nevon's Lightsaber~
+&RN&cevon's &RL&cightsaber~
+&RThis is N&cevon's &RL&cightsaber. You shall fear it!~
+~
+5 -2146959089&256 65
+12 1000 1000 1 4 -1 0 0 0 0 0 0 0 0
+1.000000 9000000 0 0 0 0 0
+'acidic blast'
+E
+lightsaber~
+&cThis majestic weapon is Nevon's Lightsaber. Crafted from elements
+not known to mortals, this powerful blade is made of pure light and
+will cut through anything. The handle is massive with strange wording
+along the sides. The blade is a dark blue when activated and the hum
+this weapon gives off will send Nevon's enemies fleeing into the night.
+~
+A
+4 5 0
+A
+2 5 0
+A
+14 5000 0
+A
+56 36 0
+A
+13 1000 0
+A
+12 1000 0
+#9179
+thesis~
+&zTh&Wes&zis~
+&zAn item is here.~
+~
+9 -2147483616&768&16 3
+0 0 0 0 0 2 0 0 0 0 0 0 0 0
+1.000000 5000000 0 0 0 0 0
+A
+12 250 0
+A
+13 200 0
+A
+1 3 0
+A
+3 3 0
+A
+2 3 0
+A
+4 3 0
+A
+31 3 0
+A
+77 10 0
+A
+5 3 0
+A
+70 19 0
+#9180
+antithesis~
+&WAnti&zthe&Wsis~
+&zAn item is here~
+~
+8 -2147483644&768&16 3
+0 0 0 0 0 2 0 0 0 0 0 0 0 0
+0.300000 2000000 0 0 0 0 7
+A
+13 250 0
+A
+12 100 0
+A
+101 50 0
+A
+102 50 0
+#9181
+113 breast plate breastplate janus1 orcish~
+The &gOrcish&C breastplate of &RJ&ra&Rn&ru&Rs&C~
+A breastplate with a strange &Rs&ry&Rm&rb&Ro&rl&C is here...~
+~
+9 33554464&514 1
+45 45 0 0
+1.000000 0 0 3201 0 0 0
+A
+13 200 0
+A
+14 100 0
+A
+19 9 0
+A
+18 9 0
+A
+56 39 0
+#9182
+Knight Token~
+Knight Token~
+A token for questing for Knight lies here.~
+~
+8 0 1
+0 0 0 0
+5.000000 20 0 0 0 0 0
+#9183
+token a~
+token a~
+A token a lies here.~
+~
+8 0 1
+0 0 0 0
+1.000000 20 0 0 0 0 0
+#9184
+token b~
+token b~
+A token b lies here~
+~
+8 0 1
+0 0 0 0
+1.000000 20 0 0 0 0 0
+#9185
+token c~
+token c~
+A token c lies here~
+~
+8 0 1
+0 0 0 0
+1.000000 20 0 0 0 0 0
+#9186
+token d~
+token d~
+A token d lies here~
+~
+8 0 1
+0 0 0 0
+1.000000 20 0 0 0 0 0
+#9187
+token e~
+token e~
+A token e lies here~
+~
+8 0 1
+0 0 0 0
+1.000000 20 0 0 0 0 0
+#9188
+dwarf girth~
+&x^ODwarven Plate Girth&G^x~
+Someone has left their dwarven plate girth here.~
+~
+9 524288&256 257
+40 40 40 10000 10000 0 0 0 0 0 0 0 0 0
+20.000000 10000 0 0 0 0 0
+#9189
+fiery tear~
+&COne of &BP&ra&Ri&bd&Bo&rs&R' F&riery &CT&cears~
+&CA small, crystalized teardrop is floating here, &RBurning with an inner flame...~
+~
+1 0&256 1
+0 0 -1 0
+1.000000 75000 0 0 0 0 0
+E
+fiery tear teardrop~
+&CThis tiny tear emits a dim, yet at the same time strong radiance,
+illuminating many things that a normal flame could not.  The tear has crystalized
+by some magical force, and contained within it is a tiny, vibrant &RF&rl&Ra&rm&Re&C...
+This tiny, almost insignificant bauble apparantly was created to show the duality
+of &BP&ra&Ri&bd&Bo&rs&C, the &bSo&Br&brow&C, and the &RJealous R&ra&Rg&Re...
+&CCarved ever so lovingly upon one of the flawless facets, is a simple rune,
+and the feeling of awe you receive by just looking at it reveals to you
+that this gem was created by &BP&ra&Ri&bd&Bo&rs&C himself, and is quite a
+precious gift...
+~
+A
+26 4194304 0
+A
+18 7 0
+A
+19 7 0
+A
+13 100 0
+A
+12 100 0
+A
+14 100 0
+A
+24 -5 0
+A
+23 -5 0
+#9190
+Tchzerrichs great lance~
+&CT&Rchzerrich&C's G&Wreat &CL&Wance~
+&CAn incredibly long lance lance wrought of an unknown, unearthly metal is lying here...~
+~
+5 524608&6 8193
+25 15 5 12 6 -1 50 0 0 0 0 0 0 0
+9.000000 50000 0 0 0 0 0
+'alertness'
+E
+tchzerrichs great lance~
+&CThis massive weapon is incredibly light, considering the fact that it is
+half-again as tall as even the tallest of humanoid races.  It is of averege width
+at its base, and tapers very sharply as down its length, to a barbed, almost
+translucent point...yet the metal it is wrought of maintains its incredible
+durability throughout.  The handle is wrapped very carefully in some kind of
+leather or hide...and it has the appearance of scales of some sort...
+Upon the end of the handle is mounted a massive ruby, from which most
+of the unearthly glow encasing the weapon emenates from.
+~
+A
+48 2 0
+A
+1 3 0
+A
+13 150 0
+A
+12 150 0
+A
+14 150 0
+A
+18 19 0
+A
+19 19 0
+A
+26 8192 0
+A
+26 268435456 0
+A
+27 8 0
+#9191
+wonder potion~
+&c&wwonder potion~
+&wA magical looking potion is here before your feet.~
+~
+10 0 1
+50 -1 154 16
+1.000000 1500 0 0 0 0 0
+'sanctify' 'sanctuary' 'bless'
+E
+wonder potion~
+A very powerful potion that can be used to prepare for battle.
+~
+#9192
+a skull~
+&pA s&ckul&pl~
+&pA s&ckul&pl made by NeVoN hovers here. Odd.~
+~
+9 1073742147&256 1
+10 10 0 0
+1.000000 100000 0 0 0 0 0
+E
+skull~
+&pThis skull has been created from the purest minerals that are only
+found at the center of Rafermand. The eyes are made from large diamonds
+that have been filled with a lava that seems to never stop churning.
+Each of these skulls are made to have only one owner and will never
+betray its master. These items are the rarest of the rare, for only
+Nevon can fashion an object this perfect for mortal hands.
+~
+> wear_prog 100~
+if name($n)==InsertNameHere
+mpe &pI am here to protect you my master. I was built for this kind of action!
+else
+if ispc($n)
+mpe I am sorry you cannot wear me. I am for InsertNameHere only, I must remind you of this now.
+mpdamage $n 1000
+mpforce $n drop 9192
+mpforce $n sleep
+endif
+endif
+~
+|
+#9193
+one big fucking chest~
+a newly created one big fucking chest~
+Some god dropped a newly created one big fucking chest here.~
+~
+13 1073741824 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#9194
+lock of hair~
+&OP&zubic &Oh&zair~
+&OLook! Its a lock of Nevon's Pubic hair!! EWWWWW!~
+~
+9 -2146959039&258 65537
+1 1 0 0
+1.000000 0 0 9188 0 0 0
+E
+hair~
+&WThis is a lock of the Immortal Nevon's silvery hair. This is a very
+special item, in that only a few people will ever be endowed with this
+wondeful gift. This lock of hair will never get dirty or damaged in any
+way. Mortals with this item have pleased the Immortal Nevon and it is said
+that people with this item occasionally receive unique blessings.
+~
+A
+19 1 0
+A
+18 1 0
+A
+14 800 0
+#9195
+immortal favor~
+&WI&wmMotA&Wl f&wAvO&Wr~
+&WA rare, and holy gift is oddly on the floor here.~
+~
+9 1073741824 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+E
+favor~
+&WThis tiny token gives the owner a type of Immortal Favor. This favor
+depends on the immortal giving it and each may have a different affect.
+Now this item is special, in that it will only work with the mortal that
+it was given to originally. This piece of eq cannot be looted from a player
+and if caught away from the owner, the other mortal will suffer a terrible
+punishment. This favor is not meant to be given away or traded for anything.
+However the catch for each favor is that in order to use this item, the Immortal
+must be online and agrees to the favor. There are rules given to Immortals for this
+favor so if they say they cannot grant that request then please do NOT pester them.
+~
+> wear_prog 100~
+if name($n)==Casius
+mpe Call on Nevon if you need to use my power. You may use me for THREE only.
+else
+if ispc($n)
+mpe I am sorry you cannot use me. I am for Casius only, I must remind you of this now.
+mpdamage $n 1000
+mpforce $n drop 9192
+mpforce $n sleep
+endif
+endif
+~
+|
+#9196
+magic spork~
+Spork of Death~
+Some god dropped a newly created magic spork here.~
+~
+13 1073741824 1
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#9197
+token~
+&Ya token of &OSkan~
+&P* &YA token of &OSkan &Ylies here.~
+~
+8 0 1
+0 0 0 0
+1.000000 1 0 0 0 0 0
+E
+token~
+Present this token to Skan to receive something nice :)
+~
+#9198
+???~
+???~
+???~
+~
+5 0&384 8193
+12 40 120 1 4 -1 0 0 0 0 0 0 0 0
+1.000000 0 0 0 0 0 0
+'acidic blast'
+> wear_prog 100~
+if ispc($n)
+if level($n) < 51
+mpforce $n remove ???
+mpforce $n drop ???
+mpforce $n sac ???
+endif
+endif
+~
+|
+#9199
+test2~
+test2~
+Test2~
+~
+0 1073741824 0
+0 0 0 0
+1.000000 0 0 0 0 0 0
+#0
+
+
+#ROOMS
+#9000
+Circular room~
+You walk into the first room of the immortal housing.  From here you
+can reach the houses (or castles) of the immortals if they wish to
+allow you in.  The room itself is grand in nature, with the marble walls
+and the golden floors.  Right in front of your nose is a sign, and it
+gives some fair advice on the area and who lives where.
+~
+0
+0 0
+0
+0
+D0
+~
+~
+0 -1 9001
+0 0
+D2
+~
+~
+39 -1 9115
+0 0
+D8
+~
+~
+0 -1 9008
+0 0
+E
+sign~
+Welcome to the homes of the immortals of Rafermand.  We have chosen to
+let you walk into our homes if we choose to leave our doors open.  So, 
+please do not make a mess in our domain, or feel the wrath of a god fall
+down apon your pitiful self.  Here is a small directional map to help you
+find the right area to go to.
+ 
+&GNorth &W- Note boards, Xerves's Hideaway
+&GSoutheast &W- Immortal lounge
+&GSouth &Y- Zeekor's Hidaway
+~
+S
+#9001
+Xerves's Cove~
+Just another small room in the cove, it is sometimes used for testing
+something that involved two rooms (like something moving).  If you need
+to leave go bug Xerves.
+~
+1076895744
+0 1
+0
+0
+D3
+Immortal board
+~
+~
+0 -1 9003
+0 0
+E
+plaque~
+&GEast - &cMortal posting board (level 2+)
+&GWest - &cGeneral immortal posting board (level 51+)
+&GNorthEast - &cBuilding immortal posting board (level 55+)
+&GNorthWest - &cImmortal Discussion board (level 51+)
+&GSouthWest - &cStaff note board (level 64+)
+~
+S
+#9002
+Mortal's board~
+As you enter the room, you notice the clean smell of the room and how
+quiet it is.  Also, a huge sign looms over you, and it says in big
+black letters "Board for mortals.  Please only post messages intended
+for an immortal.  Do not spam the noteboard, or post stupid notes on
+the board.  If you have something serious to tell an immortal, this is
+the right spot to be posting it to.  Remember, noteboards are not 
+personal, and all notes can be read."
+~
+1073741824
+0 1
+0
+0
+D3
+~
+~
+0 -1 9001
+0 0
+S
+#9003
+Xerves's Cove~
+A small room of pretty much nothing.  If you are in this room you are probably
+be talked to by Xerves, or you got loaded here to be fixed or something to that
+degree.  If you need to get out, you need to post a note to Xerves or just wait
+till we are done talking :-)
+~
+1076895748&16384
+0 1
+0
+4510
+S
+#9004
+Builder's board~
+This is the room to get building information.  If you have a note 
+pertaining to building, or building questions, please post here.  This
+room is for immortals (I might add).  If it is anything else, post in
+the right room.
+~
+1073741824
+0 1
+0
+0
+D9
+~
+~
+0 -1 9001
+0 0
+S
+#9005
+Immortal discussion board~
+This board is for discussions of current topics and any complaints or
+bitching.  If you have any ideas, or would like to complain how you are
+being treated, feel free to post them here.  This board is for immortals
+only.
+~
+1073741824
+0 1
+0
+0
+D8
+~
+~
+0 -1 9001
+0 0
+S
+#9006
+Staff's board~
+Board is for staff only.  Issues that deal with the server, programming,
+or any errors found in code or areas.  If it pertains to anything else, use
+the other boards.
+~
+1073741824
+0 1
+0
+0
+D6
+~
+~
+0 -1 9001
+0 0
+S
+#9007
+Mailing Facility~
+This is the main mailing facility for sending mail (not notes) to
+others.  Another one will be setup in the mailing facility in the
+Rafermand mail area.
+~
+1073741824
+0 1
+0
+0
+D7
+~
+~
+0 -1 9001
+0 0
+S
+#9008
+Immortal lounge~
+What a wonderful place this place be indeed.  You are now standing in
+the relaxing area of the immortals (and the meeting area), the Immortal
+lounge.  Now, have fun, take a seat, and ask the bartender for a drink, 
+because he frowns on customers who do not drink his prestigious drinks. 
+~
+1076928512
+0 0
+0
+0
+D0
+~
+~
+134217728 -1 9070
+250 250
+D1
+~
+~
+0 -1 9009
+0 0
+D7
+~
+~
+0 -1 9000
+0 0
+S
+#9009
+Staff Room~
+You enter into another lovely room made in special for the immortals.
+This room is marked for the use of Staff only for meeting, or to simply
+hide away from the other immortals.
+~
+1611661312
+0 0
+0
+0
+D3
+~
+~
+0 -1 9008
+0 0
+S
+#9010
+Stairway to Heaven~
+You walk into the golden room, and the light suddenly vanishes and forms
+a pure range of thought.  Your emotions, your experience, your intelligence
+all form the light to guide you on.  The first thing that comes into your
+vision is the golden stairway making a giant leap upward to a mysterious
+house in the sky.  The house is nothing you have ever seen before in your
+life and it has never been figured out if it is even a house, or just a 
+thought perceived to be a house.  You can feal the power radiate through
+your body and urge you to go up.
+~
+1073741824
+0 0
+0
+0
+D2
+Mail room
+~
+~
+0 -1 9001
+0 0
+D4
+Golden Arch
+~
+~
+0 -1 9011
+0 0
+S
+#9011
+Golden Arch~
+You walk a long journey up the stairs and arrive at a grand Arch that
+spans miles apon miles upward and from left and right.  Every aspect
+of the arch looks different, and when you blink, it completely changes
+again.  The arch seems to speek to you and you can hear the many voices
+of past love ones, friends, and family speak to your through the Arch.  
+In any other curcumstance, people would run away from this, but in this
+instance, you are not compelled to run, but to sit and indulge yourself
+with the voices.  To the north you can see a vision of what you think is
+a room, but you don't really know what it is.
+~
+1073741824
+0 1
+0
+0
+D0
+Mysterous Room
+~
+~
+0 -1 9012
+0 0
+D5
+Stairway to Heaven
+~
+~
+0 -1 9010
+0 0
+S
+#9012
+A Room or an instance of one atleast~
+You stumble into what you perceive as a room.  With a flash of an eye
+it becomes something new altogether.  It forms into a garden with many
+green plants, then in a blink of an eye, it is back into a room again.
+There is something wrong with this room you think, and you ponder why
+in the hell it would do such a thing.  Apon the wall hang two posters
+of various bands.  You must be inside Xerves's actually living coridors
+now.  The room branches out to the east and the North, and you can see the
+huge arch to the south.
+~
+1073741824
+0 1
+0
+0
+D0
+Waiting Room
+~
+~
+0 -1 9013
+0 0
+D1
+Guest Bedroom
+~
+~
+0 -1 9014
+0 0
+D2
+~
+~
+0 -1 9011
+0 0
+E
+poster~
+Looking closely at the poster, you can see it is a poster of the famous
+band called Rammstein.  It has a few captions around it "Rammstein is
+a band, Rammstein comes from Germany.  Rammstein likes to write about
+rape and incest, which they think is best.  There are also bone crunching
+sounds, and people wanting to be angels.  They are a great band, and I will
+always want to be."  Very odd, very odd,  You form a conclusion that Xerves
+is a Rammstein fan.
+~
+E
+2.poster~
+The second poster has a picture of Ozzy screaming into a mic.  If you
+know anything about Xerves, you know he is a rabid Ozzy fan, and just
+simply finds the music uplifting.  Then, after the picture another
+caption was added...."Ozzy Osbourne, quite simply the BEST DAMN singer
+on the earth.  OZZY IS GOD!!!!".
+~
+E
+post~
+~
+S
+#9013
+Waiting Room~
+You walk into the waiting room.  The waiting room looks like none you
+have ever seen before.  Instead of having a hard floor lined with carpet
+perhaps, the floor is made of a geletin like supstance.  It is really light
+and serves well on your walk strained feet.  A few chairs lay in respected 
+places waiting for visitors to sit on them if they wish.  If you want to see
+Xerves, send him a tell and please wait in the room, if he is willing to
+accept you, the north door will open up and he will yell for you.  Also, on
+the wall your can see a portrait of Xerves hanging from the wall.  The odd
+thing about the portrait is the fact that it actually shows nothing, but just
+has Xerves scribed underneeth where the picture would of been.  A very strange
+thing, might want to exam it a little more.
+~
+1073741828
+0 1
+0
+0
+D0
+~
+door~
+1071 9011 9015
+0 0
+D2
+a room, well maybe
+~
+~
+0 -1 9012
+0 0
+E
+portrait~
+Looking more closely at the portrait, you notice something start to fade
+in where the picture sound of been.  For some strange reason, it will
+go away when you go in farther for a better look.  Bored and tired of
+trying to make sense of it, you turn your back to the portrait.  At that
+moment, you feel a small kick in your ass.  You turn around abruptly, but
+nothing is seen, nothing.  
+~
+S
+#9014
+Guest Bedroom~
+You walk into the guest bedroom.  At first glance, you notice the room
+is very odd.  Instead of having regular walls, the walls are padded
+down with a protective supstance to keep people from hurting themselves
+if they hit the wall.  These types of walls are quite uncommon, but they
+are fun to jump into.  Along the ground lies a chest to hold items if you
+wish to keep items saved in the chest for future use.  Also, you notice
+a plaque on the wall that has a title "Rules of Use."  Might want to check
+out the plaque if you plan on staying here for a short time.  
+~
+1073741828
+0 1
+0
+0
+D3
+a room, well maybe
+~
+~
+0 -1 9012
+0 0
+E
+plaque~
+&R                 Rules of room use
+&W
+1.  Notify Xerves first before using this room.  Any items found in here
+    that are not suppose to be here, belong to Xerves or any passer that
+    ventures into the room.
+ 
+2.  If you plan on using this room, a key will be issued to you so you can
+    lock the door to prevent others from getting in.  Also, a small fee will
+    be charged for the use of the room.  The fee will be reasonable and based
+    on what Xerves thinks is fair.
+ 
+3.  This room and whole area is safe, any violation and killing in here will be
+    punished by Xerves.  Please don't bleed on my floors, unless I am doing
+    the cutting.
+~
+S
+#9015
+Xerves's domain, South Entrance~
+You are now in Xerves's domain, be scared my friend.  You stand at
+the south entrance of his domain.  To the south of you, the only exit
+to reality exists in a door leading out.  Also, you feel the power to
+recall being pulled from your inner powers, once you are in, you cannot
+get out, unless the door is opened.  To the north of you lies the rest of
+the house, and you are welcome to visit if you wish.
+~
+1076895748
+0 1
+0
+0
+D0
+~
+~
+0 -1 9016
+0 0
+D2
+~
+door~
+1071 9011 9013
+0 0
+S
+#9016
+Grand Hallway~
+You are walking down the hallway.  The floors are made out of the shiniest
+of marble, and as you gaze apon the floors, you can see your reflection 
+on the floor.  To the east and west, you can see doors made of the finest
+of woods, and magically protected from invaders.  If you continue north you
+will eventually reach the end of the corridor, and you can see one grand
+door at the end of the corridor.  To the south, you can see the door which
+leads out of the domain of Xerves.
+~
+1075847172
+0 1
+0
+0
+D0
+~
+~
+0 -1 9019
+0 0
+D1
+Extra Bedroom
+~
+~
+0 -1 9017
+0 0
+D2
+Xerves's Domain, South Entrance
+~
+~
+0 -1 9015
+0 0
+D3
+Extra Bedroom
+~
+~
+0 -1 9018
+0 0
+S
+#9017
+Spare Room~
+The room is quite bland.  The room is also not being used, so that is
+why it looks so bland.
+~
+1076895748
+0 1
+0
+0
+D3
+Grand Hallway
+~
+~
+0 -1 9016
+0 0
+S
+#9018
+Spare Room~
+The room is quite bland.  The room is also not being used, so that is
+why it looks so bland.
+~
+1076895748
+0 1
+0
+0
+D1
+Grand Hallway
+~
+~
+0 -1 9016
+0 0
+S
+#9019
+Grand Corridor~
+You continue to walk down the hallway.  This section of the hallway
+happens to have a huge chandelier that lights the hallway.  The only
+thing different with this chandelier is that it emits a blueish light
+that radiates throughout the whole hallway.  The lighting gives the 
+hallway an errie fealing, but an experience that few ever have had
+contact with.  You see more doors to the east and west.  To the
+north you can see the final door of the hallway coming closer to view,
+and to the south, you can see the door leading out of the corridor.
+~
+1073741828
+0 1
+0
+0
+D0
+~
+~
+0 -1 9022
+0 0
+D1
+Extra Bedroom
+~
+~
+0 -1 9020
+0 0
+D2
+Grand Hallway
+~
+~
+0 -1 9016
+0 0
+D3
+Extra Bedroom
+~
+~
+0 -1 9021
+0 0
+S
+#9020
+Spare Room~
+The room is quite bland.  The room is also not being used, so that is
+why it looks so bland.
+~
+1076895748
+0 1
+0
+0
+D3
+Grand Corridor
+~
+~
+0 -1 9019
+0 0
+S
+#9021
+Spare room~
+The room is quite bland.  The room is also not being used, so that is
+why it looks so bland.
+~
+1076895748
+0 1
+0
+0
+D1
+Grand Corridor
+~
+~
+0 -1 9019
+0 0
+S
+#9022
+Thin Hallway~
+The large hallway comes to an end at the point on which you stand.  Directly
+to the north you can see the end of the hallway and you also see one huge
+majestic door.  Making a good guess, you beleive the door might lead to
+Xerves's Master Bedroom.
+~
+1076895748
+0 1
+0
+0
+D0
+~
+~
+0 -1 9023
+0 0
+D2
+~
+~
+0 -1 9019
+0 0
+S
+#9023
+Before Xerves's Bedroom~
+Directly to the north is the HUGEST door you have ever seen on this
+earth.  The door is made out of the highest quality Obsidian Liner, and
+filled with a mysterious metal that blocks all entry without the key.  All
+the light that hits the corridor seems to bounce off the door.  The light
+from the door reveils a statue that you did not previously did not see.  As
+you approach the statue, you cut out its supply of light and it mysteriously
+vanishes from sight.
+~
+1076895748
+0 1
+0
+0
+D0
+~
+door~
+1063 9011 9024
+0 0
+D2
+~
+~
+0 -1 9022
+0 0
+S
+#9024
+Xerves's Bedroom~
+You are now stand in the Bedroom of a god.  What does it look like you
+ponder as you enter?  Well, the room is actually quite bare besides a
+bed, CD player, chest, and TONs of CDs.  Everything else seems to be made up of
+some kind of matter unknown to anyone.  Then, suddenly, you know what
+kind of matter it is.  You can feel thousands of voices talking to you
+on your command and then they are quiet.  The whole room is nothing short
+of a collective conscienceness of all of Rafermand, every thought, every
+deed, every memory, can all be accessed from this lone room.  However, the
+room remains quite silent for some reason?  
+~
+1073741828
+0 1
+0
+0
+D2
+~
+door~
+1063 9011 9023
+0 0
+S
+#9025
+Crystal Chapel~
+&WThis perfectly designed chapel is made entirely of the finest crystal
+in all of Rafermand. Custom built for special ceremonies such as, honorary
+events, weddings, and certain Immortal affairs. This massive room is at
+least 10 stories high with ancient paintings adorning the entire ceiling.
+Hundreds of candles keep this room alive with light that reflects off
+every surface of this chapel. This Holy place is the purest room in the
+entire land and is considered by all to be the most ravishing chapel
+to ever be constructed.
+~
+1073741828
+0 1
+0
+0
+E
+description~
+&WThis perfectly designed chapel is made entirely of the finest crystal
+in all of Rafermand. Custom built for special ceremonies such as, honorary
+events, weddings, and certain Immortal affairs. This massive room is at
+least 10 stories high with ancient paintings adorning the entire ceiling.
+Hundreds of candles keep this room alive with light that reflects off
+every surface of this chapel. This Holy place is the purest room in the
+entire realm and is considered by all to be the most beautiful Chapel
+even formed.
+~
+E
+desc~
+&WThis perfectly designed chapel is made entirely of the finest crystal
+in all of Rafermand. Custom built for special ceremonies such as, honorary
+events, weddings, and certain Immortal affairs. This massive room is at
+least 10 stories high with ancient paintings adorning the entire ceiling.
+Hundreds of candles keep this room alive with light that reflects off
+every surface of this chapel. This Holy place is the purest room in the
+entire land and is considered by all to be the most ravishing chapel
+to ever be constructed.
+~
+S
+#9026
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#9027
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#9028
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#9029
+&WF&wa&zl&wl&zi&wn&zg &WO&wf&zf &WT&wh&ze &WB&wo&za&wr&zd~
+&zYou &Ware &zfall&Wing,&z fal&Wling&z fo&Wreve&zr.  &WThe &zopal&Wesce&znt boa&Wrd o&zf s&Wtrat&zegy &Wthat&z you
+&Wso r&zecen&Wtly &zhad &Wfoot&z upo&Wn h&zas l&Weft &zyour&W mor&ztal &Wstandi&zng f&Wore&zver.&W  Yo&zu ar&We
+&zdoom&Wed t&zo ca&Wreen&z at &Wterm&zina&Wl ve&zloci&Wty f&zor t&Whe r&zest of&W you&zr d&Ways,&z as &Wther&ze is
+&Wno e&zscap&We fr&zom h&Were.&z  Yo&Wu d&zespa&Wir t&zo th&Wink &zof t&Whe cru&zelty&W of&z the&W God&z tha&Wt
+&zwoul&Wd do&zom y&Wou t&zo su&Wch a&z fa&Wte a&zs th&Wis: &znone&W oth&zer tha&Wn Ro&zok,&W the&z Cla&Wn Go&zd,
+&Wcoul&zd ha&Wve s&zente&Wnced&z you&W to&z suc&Wh a &zwear&Wy fa&zte a&Ws this&z.   &W   &z    &W    &zChee&Wrio!
+~
+1109401612
+0 0
+0
+0
+E
+todo list shtuff~
+&W> &CFix everything in bug list.  &G(&wthat I can at least&G)
+&W> &CFix everything in typo list. &G(&wthat I can at least&G)
+&W> &CCheck over Ely.are mprogs
+~
+S
+#9030
+Varl's Floating Forest Isle~
+Welcome to Varl's Forest Isle!  The island floats several miles above
+the rest of Rafermand which allows Varl to come here as a sanctuary
+away from the troubles of the realm.  Still, he enjoys visitors, so
+if you have the time, come and look around.  There is some food and
+drink somewhere on the island if your hungry or thirsty.  There might
+be some other neat surprises around.  If you can fly, come on up!
+~
+1073741824
+0 1
+0
+0
+D4
+~
+~
+64 -1 9032
+0 0
+S
+#9031
+Varl's Floating Forest Isle~
+~
+1073741824
+0 3
+0
+0
+D1
+~
+~
+0 -1 9032
+0 0
+S
+#9032
+Varl's Floating Forest Isle~
+~
+1073741824
+0 3
+0
+0
+D0
+~
+~
+0 -1 9035
+0 0
+D1
+~
+~
+0 -1 9033
+0 0
+D3
+~
+~
+0 -1 9031
+0 0
+D5
+~
+~
+0 -1 9030
+0 0
+S
+#9033
+Varl's Floating Forest Isle~
+~
+1073741824
+0 3
+0
+0
+D3
+~
+~
+0 -1 9032
+0 0
+S
+#9034
+Varl's Floating Forest Isle~
+~
+1073741828
+0 3
+0
+0
+S
+#9035
+Varl's Floating Forest Isle~
+~
+1073741824
+0 3
+0
+0
+D2
+~
+~
+0 -1 9032
+0 0
+S
+#9036
+Varl's Floating Forest Isle~
+~
+1073741828
+0 3
+0
+0
+S
+#9037
+Varl's Floating Forest Isle~
+~
+1073741828
+0 3
+0
+0
+S
+#9039
+Varl's Floating Forest Isle~
+~
+1073741828
+0 3
+0
+0
+S
+#9040
+Varl's Floating Forest Isle~
+~
+1073741828
+0 3
+0
+0
+S
+#9050
+Chupon's Domain~
+This is Chupon's Domain.  Be wary of the blowfish.
+~
+1073741828
+0 1
+0
+0
+S
+#9069
+Forsaken Cavern of the Kindred~
+~
+1076895756
+0 1
+0
+0
+S
+#9070
+blah~
+Testing
+~
+1073741836&8
+0 1
+0
+0
+D2
+~
+~
+0 -1 9008
+0 0
+S
+#9080
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#9100
+Stakk's Office~
+Stakk has made his office here.  He will redecorate this room soon,
+until then, it will remain this way.
+~
+1073742340
+0 1
+0
+0
+D2
+~
+~
+0 -1 9101
+0 0
+S
+#9101
+Lunar Fields~
+You warp through time and space, to end up in the sacred Lunar Fields
+where Stakk spends much of his time.  This is a land of fantasy, where
+anything can happen.  Stakk has invited beings from many eras of time
+to take residence in these fields, as they are a land of euphoria and
+utopia.  The weather is perfect here, warm enough not to be cold, yet
+cool enough to never get hot.  A mild light floods the area, although 
+there is no evidence of a source.  How this is, you cannot understand.
+All you can understand, this is a product of Stakk, and it is his
+masterpiece.
+~
+1073741824
+0 1
+0
+0
+D0
+~
+~
+0 -1 9100
+0 0
+S
+#9102
+The varanda of the penthouse~
+This is the varanda to Minal's explicit, sunny, but cool, penthouse.
+This is where you get to stand around because Minal hasn't put in
+a pool yet and is too lazy to make some furniture. 
+~
+4
+0 1
+0
+0
+D1
+to the office
+~
+~
+0 -1 9103
+0 0
+S
+#9103
+Minal's Office~
+Not much to see here.  Just a room up in the penthouse with a desk
+and a chair behind it with papers in a neat order in an IN pile with
+a few papers in the OUT pile.  Guess that means Minal has a lot of
+work to do.  Things in Minal's IN pile:
+Work on some Quests.  Create more quest eq.
+Work on stupid jokes.
+Plan the demise of Nevon *how'd THIS one get in here?*
+Finish working on newest area known as Thieves Fort/Hideout.
+~
+4
+0 1
+0
+0
+D3
+~
+~
+0 -1 9102
+0 0
+S
+#9104
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#9108
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#9109
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#9110
+Zeekor's Main Hallway~
+You are standing in an unfurnished room.
+It hasn't been occupied for decades...
+~
+1076895744
+0 1
+0
+0
+D0
+~
+~
+8389633 -1 9112
+0 0
+D1
+~
+~
+8389633 -1 9113
+0 0
+D2
+~
+~
+8389633 -1 9111
+0 0
+D3
+~
+~
+8389633 -1 9114
+0 0
+D4
+~
+~
+8389633 -1 9115
+0 0
+D5
+~
+~
+8389633 -1 9116
+0 0
+S
+#9111
+Zeekor's Bathroom~
+~
+1076895744
+0 1
+0
+0
+D0
+~
+~
+0 -1 9110
+0 0
+S
+#9112
+Zeekor's Bedroom~
+~
+1076895748
+0 1
+0
+0
+D2
+~
+~
+0 -1 9110
+0 0
+S
+#9113
+Zeekor's Bar~
+~
+1076895748
+0 1
+0
+0
+D3
+~
+~
+0 -1 9110
+0 0
+S
+#9114
+Zeekor's Office~
+~
+1076895748
+0 1
+0
+0
+D1
+~
+~
+0 -1 9110
+0 0
+S
+#9115
+Zeekor's Front Hallway~
+~
+1076895748
+0 1
+0
+0
+D0
+~
+~
+39 -1 9000
+0 0
+D5
+~
+~
+0 -1 9110
+0 0
+S
+#9116
+Zeekor's Storage Room~
+~
+1076895748
+0 1
+0
+0
+D4
+~
+~
+0 -1 9110
+0 0
+S
+#9117
+Haven of the Mistress~
+The soft scent of perfume fills the air of this exceptionally large room.  A
+beautiful burgundy desk fills one side of the room.  Behind it, rests a large
+leather chair with a high back.  A large couch occupies the other wall.  On
+the opposite wall, a large canopy bed, with sheer curtains of lace hanging
+down, beckons you.  A fireplace burns low, adding additional romance to this
+candlelit room.  The scent of rose incense drifts about you.
+~
+3156620
+0 0
+0
+0
+S
+#9118
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#9119
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#9120
+&RS&Wh&Ba&Gr&Wk&Bs &RO&Wf&Bf&Gi&Rc&We &GO&Wf &BP&Rl&Ge&Wa&Bs&Ws&Ru&Gr&We~
+&W*&Y*&P*&C*&R*&B*&G*&W*&Y*&P*&C*&R*&W*&Y*&P*&C*&R*&B*&G*&W*&Y*&P*&C*&R*&W*&Y*&P*&C*&R*&B*&G*&W*&Y*&P*&C*&R*&W*&Y*&P*&C*&R*&B*&G*&W*&Y*&P*&C*&R*&W*&Y*&P*&C*&R*&B*&G*&W*&Y*&P*&C*&R*&W*&Y*&P*&C*&R*&B*&G*&W*&Y*&P*&C*&R*
+                            &RW&BE&WL&RC&WO&BM&RE &BT&WO
+                           &WS&Bh&Wa&Rr&Bk&Rs &BO&Wf&Rf&Bi&Wc&Be
+&W*&Y*&P*&C*&R*&B*&G*&W*&Y*&P*&C*&R*&W*&Y*&P*&C*&R*&B*&G*&W*&Y*&P*&C*&R*&W*&Y*&P*&C*&R*&B*&G*&W*&Y*&P*&C*&R*&W*&Y*&P*&C*&R*&B*&G*&W*&Y*&P*&C*&R*&W*&Y*&P*&C*&R*&B*&G*&W*&Y*&P*&C*&R*&W*&Y*&P*&C*&R*&B*&G*&W*&Y*&P*&C*&R*
+
+
+
+~
+1073742340
+0 1
+0
+0
+S
+#9121
+&BT&Gh&Ye &BW&Ga&Yi&Bt&Yt&Gi&Bn&Yg &RR&Wo&Ro&Wm~
+&WThis is the waiting room, as you can see. There is one Chair placed in
+the middle of the room, for Shark's guest's to fight over.
+
+~
+1073741828
+0 1
+0
+0
+S
+#9122
+&cE&Cl&wy&z's &cCorner of &rH&Re&wl&zl&c~
+&cEly's office is filled with a swirling mist which causes the lighting
+&cto fade in and out.  Or maybe the mist itself is the source of the light
+&cBreathing the mist has been known to fill mortals with a renewed
+&cvitality, but only for a short period of time.  Prolonged exposure
+&chas resulted in a few...  side-effects.
+~
+1107304968
+0 0
+0
+0
+D2
+~
+~
+0 -1 9130
+0 0
+S
+#9130
+&RR&cated 2&R1~
+&RT&ciny specs of light flutter around you. These strange things could be anything&R.
+&RT&chey could be tiny fairies and pixies, or the magnificant stars that shine hig&Rh
+&Ra&cbove Rafermand. But no these tiny specs of light are the very life essence o&Rf
+&Re&cvery living creature in Rafermand. From the tiny yard gnomes to the massive Sk&Ry
+&RD&cragon and Hydriss. Too bad mortals cannot grasp these sources of light, for if the&Ry
+&Rc&could then those mortals would become far more powerful than any other mortal in Rafermand&R.
+&RA&clmost God-like&R.
+~
+1109404164&64
+0 1
+0
+0
+D0
+~
+~
+0 -1 9122
+0 0
+D1
+~
+~
+0 -1 9150
+0 0
+E
+plaque~
+&R**********WARNING!!!**********
+You have just entered Nevon's office!
+If you see the exit leading down you
+can go down there, BUT be warned!
+Once you go down you are responsible
+for your own actions and whatever
+the result(s) from those actions are
+your own fault. So don't blame Nevon
+if you die or loose some piece of
+equipment or something like that.
+Too bad charlie brown!
+&YY&Rou &YH&Rave &YB&Reen &YW&Rarned!!!!
+~
+E
+todo~
+&RN&cevon's todo list.  
+&Y----------
+
+&c
+~
+> act_prog p bamfin 100~
+if name ($n) != Nevon
+or name ($n) != Copenhaygen
+mea $n &RWhat are you thinking?! You cannot be here!
+mpforce hydren thwap $n
+mptransfer $n 21000
+mer $n $N was transferred from Nevon's office.
+endif
+~
+|
+S
+#9142
+&zDrunsul's Prison~
+You have some how found your way into the alternate dimension that Drunsul 
+calls his home. How you made it here some people would be quite interested 
+to know, particullarly Drunsul. 
+~
+1073741828
+0 1
+0
+0
+S
+#9150
+&OC&go&Op&ge&On&gh&Oa&gy&Og&ge&On&g'&Os&g O&Of&gf&Oi&gc&Oe&g a&On&gd&O T&gr&Oo&gp&Oh&gy&O R&go&Oo&gm~
+&g This &OC&gopenhaygen's &OO&gffice, and the room where he has mounted 
+&Oh&gundreds of different stuffed animals that he has &Ok&gilled. 
+&OT&ghere are many &Ow&ghite-&Ot&gail deer mounts, all with &Oi&gmpressive 
+&Or&gacks, and many exotic animal heads, including the &Oh&gead of one of 
+the notorious &OH&gydriss. 
+~
+0
+0 1
+0
+0
+D0
+~
+door~
+1049 2574 9151 0 0 -1
+0 0
+D3
+~
+~
+0 -1 9130 0 0 -1
+0 0
+S
+#9151
+&OE&gn&Ot&gr&Oa&gn&Oc&ge&O t&go&O C&go&Op&ge&On&gh&Oa&gy&Og&ge&On&g'&Os&g O&Of&gf&Oi&gc&Oe~
+&O T&ghis is the entrance &Or&goom to, the immortal, &OC&gopenhaygen's 
+office. If you would &Ol&gike to talk with &OC&gopenhaygen in an easy to 
+&Oc&gommunicate, private area, simply say 'knock knock'. &OI&gf 
+&OC&gopenhaygen is online he will let &Oy&gou into his office where you 
+can &Ot&gake a seat and talk with him &Oc&gasually. 
+~
+4
+0 1
+0
+0
+D2
+~
+door~
+1049 2574 9150
+0 0
+> speech_prog p knock~
+mpat Copenhaygen mpe Someone is knocking on your office door.
+~
+|
+S
+#9174
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#9180
+Floating in a void~
+~
+1073741828
+0 1
+0
+0
+S
+#9190
+Gellor's Office~
+This dimly lit space seems to be Gellor's idea of an office.
+The walls are lined with an assortment of classic fullsized
+video arcade machines. Each of the games running their attraction
+shows of flashing lights and pulsating sounds. Centered in the
+room is Gellor's desk, a millipede coctail table.
+~
+1073741836
+0 1
+0
+0
+S
+#9198
+&CA creation of Paidos...on a day he was bored.  Fear it.~
+&GVoid. Yes, this space is empty. It's description: Null. Quit reading 
+this. There is nothing here. You are hallucinating. Put down the 
+delusion-creating narcotics and quit pretending that these words 
+actually exist. Now. 
+~
+1073741828
+0 1
+0
+0
+S
+#9199
+Last Vnum~
+This is the last vnum of housing, don't go past this!
+~
+4
+0 0
+0
+0
+S
+#0
+
+
+#RESETS
+M 0 9000 1 9000 -1 -1 -1 0 0
+O 0 9005 1 9006 -1 -1 -1 -1 0 0
+O 0 9004 1 9005 -1 -1 -1 -1 0 0
+O 0 9003 1 9004 -1 -1 -1 -1 0 0
+O 0 9001 1 9002 -1 -1 -1 -1 0 0
+M 1 9069 1 9069 -1 -1 -1 0 0
+O 1 9068 1 9069 -1 -1 -1 -1 0 0
+O 1 9010 1 9013 -1 -1 -1 -1 0 0
+O 0 9009 5 9008 -1 -1 -1 -1 0 0
+O 0 9006 1 9008 -1 -1 -1 -1 0 0
+O 0 9009 5 9008 -1 -1 -1 -1 0 0
+O 0 9009 5 9008 -1 -1 -1 -1 0 0
+O 0 9009 5 9008 -1 -1 -1 -1 0 0
+O 0 9009 5 9008 -1 -1 -1 -1 0 0
+O 0 9012 1 9024 -1 -1 -1 -1 0 0
+O 1 9007 1 9007 -1 -1 -1 -1 0 0
+O 1 9110 1 9116 -1 -1 -1 -1 0 0
+M 1 9110 1 9110 -1 -1 -1 0 0
+D 0 9110 0 0
+D 0 9110 1 0
+D 0 9110 2 0
+D 0 9110 3 0
+D 0 9110 4 0
+D 0 9110 5 0
+M 1 9110 1 9114 -1 -1 -1 0 0
+O 1 9111 1 9114 -1 -1 -1 -1 0 0
+M 1 9030 1 9030 -1 -1 -1 0 0
+O 1 9159 1 9150 -1 -1 -1 -1 0 0
+M 1 9130 1 9130 -1 -1 -1 0 0
+O 1 9130 1 9130 -1 -1 -1 -1 0 0
+O 1 10 1 9009 -1 -1 -1 -1 0 0
+O 1 17 1 9009 -1 -1 -1 -1 0 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  9030 spec_breath_frost
+M  9110 spec_questmaster
+S
+
+
+#$

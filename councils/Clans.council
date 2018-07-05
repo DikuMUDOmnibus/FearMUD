@@ -1,0 +1,12 @@
+#COUNCIL
+Name         Clan Council~
+Filename     Clans.council~
+Description  Clan/Pkill Council~
+Head         Shai'tan~
+Members      1
+Board        0
+Meeting      0
+Powers       showclan setclan makeclan chaos hedit hset~
+End
+
+#END

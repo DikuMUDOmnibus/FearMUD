@@ -1,0 +1,235 @@
+Name        Warrior~
+Class       0
+Attrprime   1
+Weapon      10313
+Guild       3022
+Thac0       18
+Thac32      6
+Hpmin       4
+Hpmax       12
+Mana        0
+Expbase     10000
+RemortClass 0
+Skill 'reserved' 0 0 0 0 0
+Skill 'possess' 0 0 0 0 0
+Skill 'acid blast' 2 2 3 1 4102
+Skill 'acid breath' -1 0 0 9 4103
+Skill 'acidic ball' 2 2 3 1 4104
+Skill 'acidic blast' 2 3 3 2 4105
+Skill 'acidic oblivion' 2 4 3 9 4106
+Skill 'alertness' 5 2 4 1 4107
+Skill 'animate dead' 4 2 4 1 4108
+Skill 'antimagic shell' 2 4 3 9 4109
+Skill 'aqua breath' 5 3 4 2 4110
+Skill 'armor' 2 1 3 0 4111
+Skill 'astral walk' 4 3 3 2 4112
+Skill 'benediction' 0 0 0 0 0
+Skill 'blazing burst' 4 3 3 2 4114
+Skill 'bless' 6 1 4 0 4115
+Skill 'blindness' 2 1 4 0 4116
+Skill 'blitzing wave' 1 3 3 2 4117
+Skill 'cause critical' 3 3 4 2 4118
+Skill 'cause light' 3 1 4 0 4119
+Skill 'cause serious' 3 2 4 1 4120
+Skill 'charm person' 4 2 4 1 4121
+Skill 'cold ball' 5 1 3 0 4122
+Skill 'continual light' 4 2 3 1 4123
+Skill 'create fire' 4 1 4 0 4124
+Skill 'create food' 4 1 4 0 4125
+Skill 'create spring' 5 1 4 0 4126
+Skill 'create water' 5 1 3 0 4127
+Skill 'cure blindness' 2 3 4 2 4128
+Skill 'cure critical' 5 3 4 2 4129
+Skill 'cure light' 5 1 4 0 4130
+Skill 'cure poison' 2 2 4 1 4131
+Skill 'cure serious' 5 2 4 1 4132
+Skill 'curse' 1 2 4 1 4133
+Skill 'dancing fire' 4 4 3 9 4134
+Skill 'deanimation' 3 3 3 2 4135
+Skill 'demolic blast ' 2 4 3 9 4136
+Skill 'detect hidden' 1 2 3 1 4137
+Skill 'detect invis' 5 2 3 1 4138
+Skill 'detect magic' 1 1 3 0 4139
+Skill 'detect poison' 3 2 4 1 4140
+Skill 'detect traps' 1 2 3 1 4141
+Skill 'divine protection' 2 3 4 2 4142
+Skill 'divine rain' 5 4 4 9 4143
+Skill 'divinity' 6 3 4 2 4144
+Skill 'dragon wit' 5 2 3 2 4145
+Skill 'earth clamp' 2 3 3 2 4146
+Skill 'earthquake' 2 1 4 0 4147
+Skill 'electric blast' 3 2 3 1 4148
+Skill 'enchant weapon' 3 3 3 2 4149
+Skill 'energy blast' 3 1 3 0 4150
+Skill 'energy drain' 3 2 3 1 4151
+Skill 'eradication' 4 4 3 9 4152
+Skill 'extradimensional portal' 3 4 3 9 4153
+Skill 'faerie fire' 4 1 3 0 4154
+Skill 'faerie fog' 4 2 3 1 4155
+Skill 'farsight' 5 3 3 2 4156
+Skill 'fire arrow' 4 1 3 0 4157
+Skill 'fire blast' 4 1 3 0 4158
+Skill 'fire bolt' 4 2 3 1 4159
+Skill 'fire breath' -1 0 0 9 4160
+Skill 'fireball' 4 3 3 2 4163
+Skill 'fireshield' 4 3 3 2 4162
+Skill 'fletch' -1 0 0 9 4163
+Skill 'float' -1 0 0 9 4164
+Skill 'fly' -1 0 0 9 4165
+Skill 'fortify' 4 3 4 2 4166
+Skill 'frigid ball' 5 3 3 2 4167
+Skill 'frigid death' 5 4 3 9 4168
+Skill 'frost breath' -1 0 0 9 4169
+Skill 'frozen ball' 5 2 3 1 4170
+Skill 'frozen blast' 5 3 3 2 4171
+Skill 'frozen dart' 5 1 3 0 4172
+Skill 'frozen spike' 5 2 3 1 4173
+Skill 'funnel' 1 2 3 1 4174
+Skill 'gas breath' -1 0 0 9 4175
+Skill 'harm' 6 2 4 1 4176
+Skill 'heal' 6 2 4 1 4177
+Skill 'heavenly blast' 1 4 3 9 4178
+Skill 'holy food' 4 4 4 9 4179
+Skill 'iceshield' 5 3 3 2 4180
+Skill 'identify' 4 2 3 1 4181
+Skill 'indignation' 6 3 4 2 4182
+Skill 'infravision' -1 0 0 9 4183
+Skill 'invis' -1 0 0 9 4184
+Skill 'jagged spike' 2 1 3 0 4185
+Skill 'jagged stone' 2 1 3 0 4186
+Skill 'jolting burst' 3 3 3 2 4187
+Skill 'kindred strength' 4 2 3 1 4188
+Skill 'knock' 3 2 3 1 4189
+Skill 'know enemy' 1 4 4 9 4190
+Skill 'lightning breath' -1 0 0 9 4191
+Skill 'locate object' 5 2 3 1 4192
+Skill 'major invocation' 1 2 4 1 4193
+Skill 'mass invis' -1 0 0 9 4194
+Skill 'meteor' 1 4 3 9 4195
+Skill 'minor invocation' 1 1 4 0 4196
+Skill 'molecular degeneration' 3 4 3 9 4197
+Skill 'necromantic touch' 6 3 4 2 4198
+Skill 'pass door' 3 3 3 9 4199
+Skill 'poison' 2 2 4 1 4200
+Skill 'polymorph' -1 0 0 9 4201
+Skill 'portal' 1 3 3 2 4202
+Skill 'possess' -1 0 0 9 4203
+Skill 'power drain' 3 1 3 0 4204
+Skill 'power heal' 6 4 4 9 4205
+Skill 'quantum spike' 3 4 3 9 4206
+Skill 'recharge' 3 3 3 2 4207
+Skill 'refresh' 3 1 4 0 4208
+Skill 'remove curse' 1 3 4 2 4209
+Skill 'remove invis' 1 2 3 1 4210
+Skill 'remove trap' 2 2 3 1 4211
+Skill 'restore mana' -1 0 0 9 4212
+Skill 'sacred blast' 2 4 4 9 4213
+Skill 'sagacity' 2 2 3 1 4214
+Skill 'sanctify' 3 4 4 9 4215
+Skill 'sanctuary' 4 3 4 2 4216
+Skill 'scolding blast' 4 2 3 1 4217
+Skill 'scry' 2 3 3 2 4218
+Skill 'shield' 2 2 3 1 4219
+Skill 'shockshield' 3 3 3 2 4220
+Skill 'sleep' 3 2 4 1 4221
+Skill 'slink' 1 2 3 1 4222
+Skill 'stone skin' 2 3 3 2 4223
+Skill 'summon' 1 3 3 2 4224
+Skill 'tidal wave' 5 4 3 9 4225
+Skill 'tornado' 1 3 3 2 4226
+Skill 'trollish vigor' 3 2 3 1 4227
+Skill 'true sight' 5 3 3 2 4228
+Skill 'unknown' -1 0 0 9 4229
+Skill 'unravel defense' 5 3 3 2 4230
+Skill 'uplift' 1 3 4 2 4231
+Skill 'vampric touch' -1 0 0 9 4232
+Skill 'weaken' 3 1 3 0 4233
+Skill 'wind chill' 1 1 3 0 4234
+Skill 'wind gust' 1 1 3 0 4235
+Skill 'wind spike' 1 2 3 1 4236
+Skill 'wizardeye' 1 2 3 1 4237
+Skill 'word of recall' 1 1 4 0 4238
+Skill 'aggressive style' 17 2 1 0 0
+Skill 'aid' 14 1 1 0 0
+Skill 'amberio' 7 4 5 0 0
+Skill 'attack frenzy' 16 4 1 0 0
+Skill 'backstab' 13 3 2 0 0
+Skill 'berserk' -1 0 0 0 0
+Skill 'berserk style' 17 2 1 0 0
+Skill 'blitz' 8 1 5 0 0
+Skill 'brew' 0 0 0 0 0
+Skill 'circle' 13 4 2 0 0
+Skill 'climb' 0 0 0 0 0
+Skill 'cook' -1 0 0 0 0
+Skill 'counter attack' 16 3 1 0 0
+Skill 'critical strike' 16 3 1 0 0
+Skill 'deadly accuracy' 16 4 1 0 0
+Skill 'defensive style' 17 1 1 0 0
+Skill 'detrap' 13 2 2 0 0
+Skill 'dig' 0 0 0 0 0
+Skill 'disarm' 12 3 2 0 0
+Skill 'dodge' 11 1 2 0 0
+Skill 'doorbash' 15 1 1 0 0
+Skill 'dual wield' 16 2 1 0 0
+Skill 'elbowbreak' 7 3 5 0 0
+Skill 'elbowjab' 7 1 5 0 0
+Skill 'elbowstab' 7 2 5 0 0
+Skill 'emeru' 10 4 5 0 0
+Skill 'enhanced damage' 16 1 1 0 0
+Skill 'evasive style' 17 1 1 0 0
+Skill 'gouge' 13 2 2 0 0
+Skill 'grip' 16 1 1 0 0
+Skill 'hide' 12 1 2 0 0
+Skill 'hitall' 15 2 1 0 0
+Skill 'kickback' 15 4 1 0 0
+Skill 'kneecrusher' 18 3 5 0 0
+Skill 'kneestrike' 18 2 5 0 0
+Skill 'lembecu' 18 4 5 0 0
+Skill 'lore' 0 0 0 0 0
+Skill 'meditate' 0 0 0 0 0
+Skill 'mountain climbing' 0 0 0 0 0
+Skill 'neckchop' 10 2 5 0 0
+Skill 'neckpinch' 10 1 5 0 0
+Skill 'neckrupture' 10 3 5 0 0
+Skill 'niburo' 9 4 5 0 0
+Skill 'parry' 11 2 2 0 0
+Skill 'peek' 12 2 2 0 0
+Skill 'pick lock' 13 1 2 0 0
+Skill 'poison weapon' 13 2 2 0 0
+Skill 'recall' 0 0 0 0 0
+Skill 'renewal' 15 3 1 0 0
+Skill 'rescue' 14 2 1 0 0
+Skill 'ribpuncture' 8 3 5 0 0
+Skill 'roundhouse' 9 1 5 0 0
+Skill 'scan' 14 2 1 0 0
+Skill 'scribe' 0 0 0 0 0
+Skill 'search' 0 0 0 0 0
+Skill 'sidekick' 18 1 5 0 0
+Skill 'slice' -1 0 0 0 0
+Skill 'sneak' 12 2 2 0 0
+Skill 'spear' 8 2 5 0 0
+Skill 'spinkick' 9 2 5 0 0
+Skill 'standard style' 17 1 1 0 0
+Skill 'steal' 13 1 2 0 0
+Skill 'study' -1 0 0 0 0
+Skill 'stun' 15 3 1 0 0
+Skill 'tend' -1 0 0 0 0
+Skill 'timmuru' 8 4 5 0 0
+Skill 'tornadokick' 9 3 5 0 0
+Skill 'track' 14 3 1 0 0
+Skill 'trance' 0 0 0 0 0
+Skill 'tumble' 11 3 2 0 0
+Skill 'unsheath' -1 0 0 0 0
+Skill 'hit' -1 0 0 0 0
+Skill 'common' -1 0 0 0 0
+Skill 'dwarven' -1 0 0 0 0
+Skill 'elven' -1 0 0 0 0
+Skill 'elvish' -1 0 0 0 0
+Skill 'gith' -1 0 0 0 0
+Skill 'goblin' -1 0 0 0 0
+Skill 'halfling' -1 0 0 0 0
+Skill 'ogre' -1 0 0 0 0
+Skill 'orcish' -1 0 0 0 0
+Skill 'pixie' -1 0 0 0 0
+Skill 'trollese' -1 0 0 0 0
+End

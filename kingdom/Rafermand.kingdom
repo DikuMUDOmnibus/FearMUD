@@ -1,0 +1,54 @@
+Kingdom     1
+KPid        1
+Name        Rafermand~
+LogFile     ../kingdom/Rafermandlog.txt~
+TaxTree         0
+TaxGrain        0
+TaxCorn         0
+TaxStone        0
+TaxIron         0
+TaxGold         0
+MinBuild        31
+MinPlace        31
+MinAppoint      31
+MinHAppoint     31
+MinWithdraw     31
+MinReadLog      0
+MinLogSettings  0
+MinCommand      0
+MinDepository   0
+MinTrainerTax   0
+MinBookTax      0
+MinSwitchTown   0
+MinGeneral      0
+AllowJoin       1
+SalesTax        10
+PopTax          0
+CTax            0
+Ruler	       Xerves~
+Race            0
+Raceset         0
+LastTax         0
+Tier1Tax        0
+Tier2Tax        0
+Tier3Tax        0
+Tier4Tax        0
+TVisitorTax     0
+Tier1TaxBook    0
+Tier2TaxBook    0
+Tier3TaxBook    0
+Tier4TaxBook    0
+BVisitorTax     0
+MaxLineLog      0
+MaxTimeLog      0
+Peace           0 1
+Peace           1 1
+CPeace          0 -1
+CPeace          1 -1
+Logsettings     0
+LastIntroCheck  1105490763
+Intro 12860 0 140529 1105203077
+Intro 13367 0 72059 1103160468
+Intro 13423 0 112782 1104321655
+Intro 13426 0 126814 1104794399
+End

@@ -1,0 +1,53 @@
+#DEITY
+Filename		../deity/guran~
+Name		Guran~
+Description	Guran, the god of wildlife and nature, is temperamental in nature.  He
+holds a deep concern with all mortals who take a sincere interest in
+nautre and its creatures.  Since nature itself is neutrally aligned,
+Guran also favors mortals of neutral alignment.  Typically, neutral
+aligned bards, rangers, and druids accept Guran as their deity.
+Lastly, Guran is also known to be the protector of the bears.  Those
+who follow his ways are required to protect the bears or answer directly
+to him.  Also, Guran has a strong dislike for kobolds and favors those
+who slaughter the enemy.
+~
+Alignment		100
+Worshippers	20
+Flee		-3
+Flee_npcrace	0
+Flee_npcfoe	-8
+Kill		4
+Kill_npcrace	-10
+Kill_npcfoe	10
+Kill_magic	4
+Sac		2
+Bury_corpse	4
+Aid_spell		3
+Aid		3
+Steal		-1
+Backstab		-1
+Die		-8
+Die_npcrace	-10
+Die_npcfoe	-5
+Spell_aid		2
+Dig_corpse	-12
+Scorpse		250
+Savatar		350
+Sdeityobj		500
+Srecall		140
+Race		-1
+Class		-1
+Element		0
+Sex		-1
+Affected		524
+Npcrace		24
+Npcfoe		44
+Suscept		1
+Race2		-1
+Susceptnum	500
+Elementnum	0
+Affectednum	0
+Objstat		4
+End
+
+#END
